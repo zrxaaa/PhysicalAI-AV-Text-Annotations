@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 03:59:29",
+    "processing_time_seconds": 12.61
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "前方交通信号灯显示红灯，车辆在路口前陆续减速停车，包括一辆黑色SUV和一辆白色轿车在右转车道等待。道路标线清晰，人行横道位于前方约30米处，天气阴沉但无雨，路面干燥。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "通过路口时，自车平稳加速，前方无明显障碍物。右侧路口有白色货车停靠，交通流顺畅，无拥堵迹象。路牌显示“Cole St”，表明所处街道位置。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "前方交通信号灯再次变为绿灯，自车维持当前速度通过交叉口。远处可见另一组行人正在接近人行横道，但未进入自车路径范围，不影响通行安全。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "前方无显著交通参与者或突发状况，自车保持稳定巡航状态。天空灰蒙，光线较暗，推测为傍晚时分，但无能见度降低或湿滑路面影响驾驶行为。"
+    }
+  ]
+}

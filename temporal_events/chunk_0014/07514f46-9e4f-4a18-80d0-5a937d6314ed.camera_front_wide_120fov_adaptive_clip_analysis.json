@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 04:03:25",
+    "processing_time_seconds": 11.09
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "自车在直行车道上匀速行驶，左侧车道有银色轿车和灰色SUV先后完成变道并驶离，右侧路边有停车区域但无行人活动，道路两侧设有黄色导向箭头标志。"
+    },
+    {
+      "time_segment": "00:00:06-00:00:11",
+      "scene_description": "自车接近环形交叉路口，前方白色轿车在环岛内行驶，右侧车道有车辆向右转弯，路面上出现左转及直行导向箭头，阳光从右上方照射，造成部分眩光。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:14",
+      "scene_description": "自车进入环岛并沿逆时针方向绕行，左侧出现大型商业建筑（红白相间），右侧有停车场入口及多辆停放车辆，环岛中央无行人或障碍物，交通流畅。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "自车完成环岛绕行后驶入主干道，前方为带转向指示的弯道，右侧可见‘Public Storage’标识建筑，道路标线清晰，无其他车辆或行人干扰自车路径。"
+    }
+  ]
+}

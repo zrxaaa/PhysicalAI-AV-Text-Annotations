@@ -1,0 +1,44 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.61,
+    "analysis_time": "2026-01-22 20:57:43"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】阴天，光线均匀，无明显降水或雾气，能见度良好。【自车】在中间车道沿弯曲道路匀速行驶，未进行转向或变道。【交通设施】前方约50米处出现黄色“YIELD”（让行）警示牌，路面上方喷涂有“STOP AHEAD”字样，提示前方为交叉路口。【交互关系】自车与前方车辆保持安全距离，未发生交互。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "【环境】道路两侧植被茂密，左侧为土坡，右侧为灌木林，无遮挡物影响视线。【自车】继续在中间车道匀速前行，随道路曲率自然转弯。【周围车辆】前方约30米处出现三辆静止车辆：一辆黑色SUV、一辆深色轿车和一辆白色皮卡（后部贴有Orkin公司标识）。【关键风险】左侧土坡边缘停放一辆银灰色SUV，车身部分悬空，存在滑落风险；右侧路边可见一个黄色消防栓，但未对行车造成影响。",
+      "risk_tags": [
+        "vehicle_on_sloped_terrain",
+        "potential_slippage_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:09-00:00:12",
+      "scene_description": "【环境】光照稳定，无天气突变。【自车】维持当前车道，减速准备通过弯道。【周围车辆】前方白色皮卡（Orkin服务车）处于静止状态，刹车灯亮起；其左前方有一辆黑色特斯拉Model Y正从左侧车道向右切入，意图超车。【交互行为】黑色特斯拉在距自车约15米处完成切出动作，进入自车所在车道，车头偏航角向右调整约15度。【非标准物体】无动物或施工设备出现。【关键风险】特斯拉突然切入，且未打转向灯，属于“无预警加塞”，增加碰撞概率，需紧急避让。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "no_turn_signal",
+        "lane_change_without_warning"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】树木高大，枝叶繁茂，部分遮挡上方视野，但不影响路面通行。【自车】在中间车道缓慢减速，跟随前方Orkin服务车。【周围车辆】左侧车道有两辆车先后驶过：第一辆为蓝色特斯拉Model Y，第二辆为银灰色SUV，均完成超车并回归原车道。【交通设施】道路右侧设有金属护栏，沿路延伸至弯道尽头。【关键风险】前方Orkin服务车尾部贴有多个禁止标志（如禁止吸烟、禁止鸣笛），表明其可能处于作业状态，但未见警示灯或作业臂展开。同时，左侧土坡上停放的银灰色SUV仍处于不稳定位置，若遇强降雨可能引发滑坡，构成潜在地质灾害风险。",
+      "risk_tags": [
+        "unstable_vehicle_on_slope",
+        "potential_geological_hazard",
+        "service_vehicle_with_no_active_signaling"
+      ]
+    }
+  ]
+}

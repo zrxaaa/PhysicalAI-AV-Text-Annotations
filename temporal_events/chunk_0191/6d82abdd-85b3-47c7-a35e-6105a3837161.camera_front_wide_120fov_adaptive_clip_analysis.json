@@ -1,0 +1,50 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 18.43,
+    "analysis_time": "2026-01-24 11:57:33"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，能见度良好，无异常天气。【自车】位于中间车道，处于路口停车状态，等待绿灯。【前方】一辆白色马自达CX-5和一辆黑色本田CR-V并排停在交叉口，均位于直行车道。【交通设施】前方交通信号灯为红灯，路牌显示“Coal Creek Pkwy SE”与“Newcastle Golf Club Rd SE”，左侧建筑旁悬挂美国国旗。【关键风险】无明显违规或危险行为，但两车紧邻自车，存在轻微“开门杀”潜在风险（若后车门突然开启）。",
+      "risk_tags": [
+        "no_immediate_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:08",
+      "scene_description": "【环境】晴朗，光照充足。【自车】接收到绿灯信号后，开始匀速向前行驶，进入主干道。【前方】白色马自达CX-5与黑色本田CR-V同步启动，保持原车道行驶。【左侧对向】一辆银色皮卡与一辆白色SUV从对向车道驶过，未发生交互。【交通设施】通过交叉口时，上方交通信号灯转为绿灯，路牌清晰可见，右侧有“LEFT TURN YIELD ON FLASHING YELLOW”警示牌。【关键风险】无显著风险，但左转车辆需注意黄灯闪烁提示，存在潜在误判风险。",
+      "risk_tags": [
+        "no_immediate_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】道路两侧绿化良好，树木茂密，部分区域有灌木丛遮挡视线。【自车】保持中间车道匀速行驶，沿直线道路前行。【前方】白色马自达CX-5与黑色本田CR-V维持安全距离，未变道。【左侧】一辆银色SUV从左侧车道超车后，切入自车所在车道，完成变道动作。【右侧】路边停放多辆私家车，部分被树木遮挡。【关键风险】左侧车辆变道动作迅速，虽未影响自车，但存在“切出”（Cut-out）风险，需警惕其后方盲区。",
+      "risk_tags": [
+        "cut_out_risk",
+        "lane_change_with_blind_spot"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "【环境】阳光强烈，部分路段出现树影投射，路面干燥。【自车】继续沿中间车道匀速行驶，道路略有弯曲。【前方】白色马自达CX-5与黑色本田CR-V保持稳定车距，未加速或减速。【左侧】一辆红色皮卡从路边驶出，短暂进入主路，随后驶离。【右侧】路边有围栏与低矮灌木，无行人或动物活动。【关键风险】无直接碰撞风险，但红色皮卡突然驶入主路，可能造成视觉干扰，增加“鬼探头”概率。",
+      "risk_tags": [
+        "visual_distraction",
+        "sudden_vehicle_emergence"
+      ]
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "【环境】晴天，视野开阔，无遮挡。【自车】保持当前车道匀速行驶，道路平直。【前方】白色马自达CX-5与黑色本田CR-V持续在前方行驶，未发生变道或急刹。【左侧】一辆黑色轿车从对向车道驶过，未进入自车所在车道。【右侧】路边有住宅区围栏与绿化带，无异常物体。【关键风险】整体场景平稳，无任何违规、遮挡或障碍物风险，为典型城市主干道正常行驶场景。",
+      "risk_tags": [
+        "no_immediate_risk"
+      ]
+    }
+  ]
+}

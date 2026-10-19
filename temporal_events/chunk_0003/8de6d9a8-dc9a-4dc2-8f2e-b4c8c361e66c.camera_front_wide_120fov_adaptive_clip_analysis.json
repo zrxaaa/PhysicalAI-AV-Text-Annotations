@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:44:18",
+    "processing_time_seconds": 15.53
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "夜间行车，道路两侧树木林立，能见度较低。自车在中间车道匀速行驶，前方有车辆迎面驶来，右侧车道一辆深色SUV快速超车并变道至左侧车道，与自车无冲突。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "接近十字路口，交通信号灯为绿灯，自车保持直行通过。右侧出现木制护栏和电线杆，对向车道有车辆驶过，未见行人或其他障碍物。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:15",
+      "scene_description": "通过交叉口后，道路两侧出现住宅区和路灯，能见度略有改善。自车继续直行，左侧有车辆从后方超车，未进入自车所在车道，无明显交互。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "道路右侧出现施工锥桶和限速标志（45），自车减速并保持车道。远处有车辆迎面驶来，但距离较远，未构成直接交互。环境仍为夜间雾天，路面干燥。"
+    }
+  ]
+}

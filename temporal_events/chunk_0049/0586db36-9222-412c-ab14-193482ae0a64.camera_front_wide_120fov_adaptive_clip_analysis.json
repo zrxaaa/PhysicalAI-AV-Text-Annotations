@@ -1,0 +1,42 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.08,
+    "analysis_time": "2026-01-22 02:05:14"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，能见度良好，无降水或结冰。【自车】位于中间车道，正通过十字路口，执行停车等待后起步加速动作。【左侧】一辆银色SUV从左前侧邻车道驶过，完成横向穿越；【右侧】一辆白色SUV在右前方车道同向行驶，保持稳定速度。【交通设施】路口设有交通信号灯（绿灯）、人行横道、限速30标志牌及“School Zone”警示牌。【关键风险】无明显违规行为或障碍物，但右侧白色SUV与自车距离较近（约8米），存在轻微切出风险。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:08",
+      "scene_description": "【环境】光照由阴天转为强逆光，太阳位于左上方，造成挡风玻璃局部眩光。【自车】完成左转，进入County Line Rd，沿道路中心线匀速行驶。【左侧】一名身穿深色西装的行人正在人行道上由远及近行走，面部朝向前方，步态平稳，未观察周围环境。【右侧】路边有蓝色竞选标牌（Stinger）和树木，无其他车辆或行人。【交通设施】路口处悬挂“County Line Rd / BELAVER STREET”路牌，交通信号灯已切换为绿灯。【关键风险】行人未注意来车方向，且处于自车盲区边缘（距车道线约2米），若突然横穿将构成“鬼探头”风险。",
+      "risk_tags": [
+        "pedestrian_crossing_risk",
+        "occlusion_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "【环境】逆光持续，阳光透过树梢形成光晕，路面干燥无积水。【自车】保持中间车道匀速直线行驶，随道路曲率自然转弯。【左侧】连续出现多栋住宅，部分配有白色围栏；【右侧】植被茂密，有落叶堆积，偶见电线杆和木栅栏。【非标物体】右侧路边草丛中有一只棕色野兔静止站立，头部朝向自车方向，未移动，无明显横穿意图。【交通设施】无显著交通标志或信号设备，仅远处可见一个“Private Property”警示牌。【关键风险】野兔虽静止，但其位置靠近道路边缘，在光线干扰下可能被忽略，存在突发冲入车道的风险。",
+      "risk_tags": [
+        "animal_presence",
+        "low_visibility_obstacle"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】天气晴朗，光线稳定，无遮挡。【自车】继续沿双黄线道路匀速前行，未进行变道或转向。【左侧】一排住宅区，部分房屋带有车库，门前停放车辆；【右侧】白栅栏内为私人庭院，偶有狗在院内活动（未靠近道路）。【交通设施】沿途无红绿灯，仅有“Private Property”和“Speed Limit 30”标志。【关键风险】右侧院内狗群活动频繁，若突然冲出至道路边缘，可能引发紧急避让；同时，道路两侧树木枝叶部分遮挡视线，存在潜在“鬼探头”隐患。",
+      "risk_tags": [
+        "animal_crossing_risk",
+        "occlusion_risk"
+      ]
+    }
+  ]
+}

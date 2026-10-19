@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.9,
+    "analysis_time": "2026-01-24 00:22:20"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间，浓雾笼罩街道，能见度极低，路灯与车灯形成严重光晕。【自车】在中间车道匀速行驶，前方交通信号灯为绿灯。【右侧】一辆红色“TABAC”店铺前，一名身穿橙色高能见度反光服的行人从人行道横穿马路，正对自车方向行走（Face Orientation：面向前方，步态稳定）。【交通设施】右侧路口设有红绿灯及“禁止停车”标志牌，当前绿灯通行。【关键风险】行人横穿时未在斑马线内，且因雾气遮挡视线，自车无法提前预判其最终停止位置，存在碰撞风险。",
+      "risk_tags": [
+        "pedestrian_crossing_without_crosswalk",
+        "low_visibility_collision_risk",
+        "obstructed_view"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】雾气持续弥漫，部分区域灯光因水汽折射产生色散现象。【自车】保持中间车道匀速前进，通过第一个十字路口后继续沿直线道路行驶。【左侧】路边停放多辆私家车，树上挂有蓝色星形节日灯饰；右侧可见“PHARMACIE”药店招牌。【交通设施】前方无明显信号灯，但路面标线清晰，设有减速带。【非标物体】左侧人行道边缘有一堆被丢弃的纸箱，位于自车左前侧约8米处，未移动，无明显动态趋势。【关键风险】纸箱虽静止，但处于盲区边缘，若自车突然变道或遇紧急制动，可能引发剐蹭或轮胎打滑。",
+      "risk_tags": [
+        "roadside_debris",
+        "low_visibility_environment",
+        "potential_obstacle_in_blind_spot"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】雾气略有消散，但整体仍影响视线，路灯亮度增强导致眩光。【自车】在中间车道维持匀速行驶，道路两侧建筑密集，部分为两层欧式风格住宅。【右侧】一排黑色轿车停靠于路边，其中一辆车门微开，疑似有人刚下车。【交通设施】道路右侧设有人行横道，前方无信号灯控制，仅靠路标提示限速。【关键风险】右侧车辆门开启状态未被识别为“开门杀”，但因雾气和光线干扰，自车无法确认车内是否有人、是否即将打开车门，存在潜在开门碰撞风险。此外，前方远处有红色尾灯车辆缓慢行驶，自车需保持安全距离以防急刹。",
+      "risk_tags": [
+        "open_door_potential",
+        "tailgating_risk",
+        "reduced_visibility_driving"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】进入一段树木遮蔽的弯道，左侧出现高大灌木丛，右侧为围墙与低矮建筑。【自车】沿弯曲道路行驶，车头偏航角随弯道自然调整，未进行主动转向操作。【左侧】一辆深色SUV从对向车道驶来，车速较快，与自车相向而行，无越线行为。【右侧】围墙后方隐约可见一个大型动物轮廓（疑似狗），静止站立，头部朝向自车方向，未移动。【交通设施】该路段无交通信号灯，仅有“禁止停车”标识。【关键风险】动物出现在道路边缘，虽未移动，但因雾气遮挡，自车无法判断其是否会突然冲入车道，构成“鬼探头”潜在威胁；同时，弯道加雾气叠加，使横向视野受限，增加避让难度。",
+      "risk_tags": [
+        "animal_presence",
+        "ghost_probe_risk",
+        "curved_road_with_low_visibility"
+      ]
+    }
+  ]
+}

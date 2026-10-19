@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 22:49:00",
+    "processing_time_seconds": 19.64
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在十字路口等待绿灯，前方为灰色轿车和银色SUV，右侧人行道有橙色施工锥桶。绿灯亮起后，前方车辆依次启动前行，自车保持静止直至信号灯变化。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "自车开始右转，左侧一辆灰色轿车同时左转，两车在交叉口内形成短暂并行但无冲突。右侧人行横道上有三名行人正在穿越，交通信号灯为绿灯，允许直行与右转。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:13",
+      "scene_description": "自车完成右转后进入主干道，道路两侧树木呈秋季黄叶状态，路边停有数辆汽车，右侧公交站台有人等候。自车保持匀速行驶，未见明显障碍物或突发行人。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "道路前方出现黄色“注意行人”警示牌，右侧路边有住宅建筑和停放车辆，左侧对向车道有车辆驶过。自车继续沿直线车道平稳行驶，未进行变道或减速。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车接近下一个路口，前方无显著交通参与者，道路两侧树木遮挡部分视野，但天气晴朗，能见度良好。自车维持当前车道，准备应对前方可能的停车或转向指令。"
+    }
+  ]
+}

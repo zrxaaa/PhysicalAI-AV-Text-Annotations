@@ -1,0 +1,48 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 23.78,
+    "analysis_time": "2026-01-23 08:04:04"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，无降水，能见度良好，路面干燥。【自车】位于中间车道，匀速沿直道行驶，未进行转向或变道。【左侧】对向车道有多辆轿车和一辆橙色面包车正在通过交叉路口，其中一辆银色SUV在左转车道等待信号灯。【右侧】人行道旁有行人站立，靠近一栋多层建筑，落叶覆盖地面。【交通设施】路口设有蓝色圆形指示牌（允许右转），前方可见红绿灯杆及交通信号灯处于黄灯状态。【关键风险】左侧对向车辆存在左转意图，与自车纵向路径交汇，需警惕其突然转向进入自车所在车道。",
+      "risk_tags": [
+        "potential_left_turn_conflict",
+        "yellow_light_transition"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】天空灰白，光线均匀，无明显遮挡。【自车】保持中间车道匀速前行，道路呈轻微左弯，自车随曲率自然行驶，未变道。【前方】一辆白色大型货车（DEKA TRANS）从右侧车道切入并缓慢靠右，车身占据部分右侧车道，形成临时障碍。【右侧】路边有施工围栏、锥桶及停放的黑色商务车，围栏后可见黄色临时板房结构。【左侧】对向车道车辆有序通行，无异常行为。【关键风险】货车切入动作未完全完成，其尾部仍部分侵入自车行驶空间，存在横向碰撞风险；同时右侧施工区域可能隐藏行人或非机动车，视线受阻。",
+      "risk_tags": [
+        "vehicle_cut_in",
+        "construction_zone_obstruction",
+        "partial_lane_blockage"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】天气持续阴沉，无降水，光照稳定。【自车】继续在中间车道匀速前进，前方为十字路口，交通信号灯显示为绿灯。【右侧】DEKA TRANS货车已完全驶入右侧车道并开始加速，其后方可见Shell加油站标志牌及价格显示屏。【左侧】对向车道有数辆白色厢式货车和小型轿车正在通过路口，其中一辆黑色轿车在左转车道内等待。【交通设施】路口设有环形导向箭头标志，前方交通灯为绿色，允许直行与右转。【关键风险】自车即将进入交叉口，左侧对向左转车辆若未充分观察即启动，可能与自车发生冲突；同时右侧货车加速时若未注意后方，易引发追尾或剐蹭。",
+      "risk_tags": [
+        "intersection_conflict_risk",
+        "left_turn_vehicle_interaction",
+        "right_lane_acceleration_hazard"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】阴天，无降水，视野开阔。【自车】在接近十字路口处减速，准备左转或直行，车头偏航角微调以适应路口转向需求。【左侧】对向车道有一辆白色平板卡车正在左转，车身横跨两条车道，存在短暂占道风险。【右侧】路口右侧建筑物前有行人行走，靠近红绿灯杆，未穿行斑马线。【交通设施】路口设有“让行”三角警示牌及方向指示标志，当前信号灯为绿灯。【关键风险】左侧左转卡车因车身宽大，转弯半径大，在自车减速过程中可能造成视觉盲区；右侧行人若突然横穿，将面临“鬼探头”风险，且其未走斑马线，违反安全通行规则。",
+      "risk_tags": [
+        "wide_vehicle_turning_radius",
+        "pedestrian_jaywalking",
+        "ghost_probe_risk"
+      ]
+    }
+  ]
+}

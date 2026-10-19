@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 06:24:01",
+    "processing_time_seconds": 12.14
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车沿弯曲山路行驶，右侧为水库护栏，阳光强烈，天空有少量云。前方道路标有45英里限速标志，未见其他车辆或行人。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:10",
+      "scene_description": "自车继续沿弯道行驶，左侧山体岩石裸露，右侧护栏外是开阔水域。一辆深色SUV从对向车道驶来并停靠在路边，自车保持正常行驶速度通过。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "自车驶过弯道后进入直路，右侧出现电线杆和土质路肩，对向无车辆通行。前方道路标示连续弯道警示牌，自车平稳加速前进。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "自车继续沿笔直山路前行，两侧山坡植被稀疏，部分区域可见枯草与松树。道路右侧护栏持续延伸，无其他交通参与者出现，天气晴朗，路面干燥。"
+    }
+  ]
+}

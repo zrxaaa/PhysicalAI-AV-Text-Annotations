@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.24,
+    "analysis_time": "2026-01-22 04:31:15"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，阳光强烈导致画面左上角出现眩光，但能见度良好。【自车】位于中间车道，正通过一个四向停车路口，前方路面标有“STOP”字样，车辆在停止线前减速并完全停车。【右侧】一辆银色轿车从右向左横穿路口，完成通行后驶离；同时，一名行人（男性，穿深色外套）从右侧人行道沿斑马线向左横穿，已进入路口中央区域。【交通设施】右侧设有红色八角形“STOP ALL WAY”标志牌，路口无信号灯，依赖停车标志管理。【关键风险】行人与横向来车同时进入交叉口，存在碰撞风险；自车需确保在停车状态下观察所有方向，避免因视线遮挡或误判而启动。",
+      "risk_tags": [
+        "pedestrian_crossing",
+        "multi_agent_conflict",
+        "intersection_hazard"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】阳光仍强烈，部分区域出现树影投射。【自车】完成路口停车后，启动并沿中间车道匀速前行，道路两侧停满车辆，部分商铺招牌可见（如“JAPANESE”、“CUTLERY”）。【左侧】一辆红色SUV从对向车道驶过，未发生交互；【右侧】多辆汽车沿路边停放，包括一辆灰色SUV和一辆黑色轿车，其中黑色轿车在自车前方约15米处缓慢向前移动，疑似准备驶离停车位。【交通设施】路面上有“26”限速标识，街道两侧设有花盆、垃圾桶及路灯柱。【非标物体】右侧人行道旁有数个绿色施工围挡，静止未作业，无明显动态风险。【关键风险】右侧黑色轿车缓慢移动可能突然切入车道，自车需保持安全跟车距离；无其他显著风险。",
+      "risk_tags": [
+        "slow_vehicle_cut_in_risk",
+        "parked_car_obstacle"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】光照条件稳定，天空晴朗，无异常天气。【自车】保持中间车道匀速行驶，前方道路略有弯曲。【前方】一辆黑色轿车在自车前方约30米处，持续沿车道直行，未变道或减速。【右侧】一家SHISEIDO店铺门前，一名行人牵着一只白色犬只沿人行道行走，狗体态活跃，时而抬头张望，未朝马路方向移动。【交通设施】前方再次出现一个四向停车路口，设有“STOP ALL WAY”标志牌，自车在接近时提前减速，准备停车。【关键风险】狗虽未主动横穿，但其活动轨迹具有不可预测性，若行人松手或狗挣脱，可能突然冲入车道；此外，前方路口处有装饰性立柱（含粉色花朵图案），可能轻微遮挡左侧视野，增加“鬼探头”风险。",
+      "risk_tags": [
+        "animal_unpredictability",
+        "partial_occlusion",
+        "intersection_preparation"
+      ]
+    }
+  ]
+}

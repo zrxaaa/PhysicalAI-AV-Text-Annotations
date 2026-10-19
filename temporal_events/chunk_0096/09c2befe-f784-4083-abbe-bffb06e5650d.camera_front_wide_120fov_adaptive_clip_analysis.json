@@ -1,0 +1,48 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.62,
+    "analysis_time": "2026-01-22 22:47:41"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间，能见度较低，存在轻微雾气或空气浑浊现象，路灯与车灯产生明显光晕。【自车】位于中间车道，正沿道路曲线减速，准备在前方路口停车。【左侧】多辆汽车（含银色SUV、黑色轿车）在左邻车道同步减速，部分车辆刹车灯亮起。【交通设施】前方路口设有红绿灯及交通标志牌，右侧有自行车道标识。【关键风险】自车前方红灯未变，但左侧对向车道有车辆试图强行左转，存在潜在违规行为；同时，右侧路肩有施工锥桶，提示前方可能有作业区域。",
+      "risk_tags": [
+        "red_light_waiting",
+        "potential_left_turn_violation",
+        "construction_zone_nearby"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】雾气持续，路灯灯光呈绿色/黄色混合眩光，影响视觉清晰度。【自车】在停止线前完全停车，等待红灯转绿。【左侧】一辆银色SUV停在左转专用车道，尾灯亮起，车身略微倾斜，疑似准备左转。【右侧】人行横道清晰可见，无行人通过；远处有黄色警示牌显示“ALAMO RD ROADWORK AHEAD”。【交通设施】信号灯由红灯切换为绿灯，倒计时牌显示“3”秒后变为绿灯。【关键风险】左侧银色SUV在绿灯亮起后仍未启动，可能造成后方车辆拥堵；同时，前方施工警示牌提示道路状况不稳定，需警惕突发变道或路面异常。",
+      "risk_tags": [
+        "left_turn_delay",
+        "traffic_congestion_risk",
+        "roadwork_warning"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】雾气略有消散，但整体仍较暗，路灯照明稳定。【自车】在绿灯亮起后起步，沿中间车道加速前行。【前方】多辆汽车在直行车道正常行驶，无明显异常。【右侧】一辆黄色皮卡从右转车道驶出，进入主路，与自车形成横向交汇。【交通设施】前方电子告示牌显示“EXPECT DELAYS MON-FRI”，提示高峰时段延误。【关键风险】右侧黄色皮卡在转弯后未保持安全距离，有切入自车车道的趋势，存在切出（Cut-out）风险；同时，前方道路因施工提示可能存在临时限速或弯道，需注意车速控制。",
+      "risk_tags": [
+        "cut_out_risk",
+        "construction_related_speed_change",
+        "cross_traffic_interaction"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】夜间，雾气基本消散，能见度恢复至正常水平。【自车】已通过交叉路口，继续沿直道匀速行驶。【左侧】一辆白色轿车在相邻车道超车并完成变道，动作流畅。【右侧】路边设有“SPEED LIMIT 25”的限速标志，以及施工锥桶和临时围挡，表明该路段仍在进行维护作业。【交通设施】道路标线清晰，无红绿灯干扰，仅受限速标志约束。【关键风险】虽然当前无直接威胁，但施工区域仍存在潜在障碍物（如未移除的设备或临时路障），需保持警惕；此外，夜间行车疲劳风险增加，建议驾驶员保持专注。",
+      "risk_tags": [
+        "construction_zone_obstacle_potential",
+        "night_driving_fatigue_risk"
+      ]
+    }
+  ]
+}

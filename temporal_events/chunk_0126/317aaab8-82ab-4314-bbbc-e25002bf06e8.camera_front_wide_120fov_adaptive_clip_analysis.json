@@ -1,0 +1,46 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.87,
+    "analysis_time": "2026-01-23 11:15:12"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】阴天，云层厚重，光线昏暗，无明显降水但路面湿滑风险高。【自车】在中间车道匀速前行，接近十字路口。【左侧】一辆白色厢式货车（车身印有黄色“AA”标识）停靠于路边，未移动；【右侧】一栋红灰相间建筑（标有“Beilharz”字样），门前停放另一辆大型货车。【交通设施】前方路口设有交通信号灯与指示牌，其中“Ehrenberg / Assembliert”方向指示牌清晰可见。【关键风险】自车即将进入交叉路口，需注意横向来车及信号灯状态，当前无直接冲突，但存在潜在闯红灯或误判信号的风险。",
+      "risk_tags": [
+        "intersection_crossing_risk",
+        "signal_light_interpretation_challenged"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】天空持续阴沉，能见度中等，无强风或降水。【自车】在中间车道完成左转动作，转向角度约30°，车头偏航角变化明显。【横向交互】左前方一辆黑色SUV从对向车道驶过，未侵入自车车道；右前方一辆红色掀背车完成右转并驶离路口。【交通设施】路口信号灯为绿灯，通行顺畅。【关键风险】自车转弯过程中，右侧树冠遮挡部分视野，存在轻微视觉盲区，但无其他车辆或行人突然出现迹象。",
+      "risk_tags": [
+        "partial_occlusion_during_turn",
+        "low_traffic_conflict"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】道路两侧植被茂密，左侧为灌木丛，右侧为草地与树木，远处可见开阔田野。【自车】完成转弯后进入直道，保持中间车道匀速行驶。【前方】远处可见数辆迎面驶来的车辆，均在各自车道内正常行驶。【右侧路侧】出现限速50km/h标志牌与“Schulweg”（学校路段）警示牌，提示减速区域。【非标物体】右侧草地上有一群白色禽类（疑似鸡或鸭）在围栏内活动，未靠近道路，无横穿趋势。【关键风险】无直接碰撞风险，但“学校路段”警示牌提示需警惕突发行人横穿，当前虽无行人，但存在潜在风险点。",
+      "risk_tags": [
+        "school_zone_warning",
+        "animal_presence_low_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】天空仍阴云密布，光线均匀，无降雨或大风。【自车】保持中间车道匀速前进，沿道路曲率自然行驶。【左侧】一辆银色小型面包车从对向车道超车并驶离；【右侧】一排围栏内聚集大量白色禽类，静止不动，未靠近道路。【交通设施】前方出现“Vorsicht Kinder”（小心儿童）三角警示牌与限速50标志，同时有“Kreuzung mit Vorfahrtsstraße”（优先路交叉口）指示牌。【关键风险】自车正驶向一个优先路交叉口，需特别注意左侧可能突然出现的优先路来车；当前无行人或动物突入，但“儿童警示”提示应提高警觉，避免因视线被树木或灌木遮挡而错过潜在危险。",
+      "risk_tags": [
+        "priority_road_intersection_risk",
+        "child_pedestrian_potential",
+        "visual_obstruction_by_vegetation"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:34:53",
+    "processing_time_seconds": 13.61
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在夜间沿铺有鹅卵石的街道匀速行驶，左侧有停放车辆，右侧人行道旁有施工围栏和垃圾袋，前方可见黄色交通标志牌。一辆白色轿车从左侧驶过并驶离画面。",
+      "scene_description_2": "道路两侧为多层砖砌建筑，街灯照明良好，路面无明显湿滑或障碍物，整体环境安静，无行人或突发交通事件。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "自车继续前行接近十字路口，右侧出现多个停车的车辆，包括一辆白色轿车和一辆深色SUV，路边堆放着施工材料和橙色锥桶。前方可见红色停车标志牌。",
+      "scene_description_2": "自车在接近路口时减速，准备停车，此时远处有行人身影出现在人行横道边缘，但尚未进入车道冲突区域。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "自车在十字路口前完全停下，前方斑马线上有两名行人正在穿越马路，左侧和右侧均有车辆停靠，其中一辆黑色轿车正从左向右横穿路口。",
+      "scene_description_2": "行人完成穿越后，自车仍保持静止状态，等待信号灯变化；路口两侧设有STOP标志，背景中可见远处红绿灯处于红色状态。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "信号灯转为绿色，自车开始缓慢向前移动，同时左侧一辆黑色轿车启动并左转，右侧一辆蓝色SUV也同步启动准备直行，行人已离开路口。",
+      "scene_description_2": "自车通过交叉口后，前方道路恢复通畅，两侧建筑物和树木在车灯下清晰可见，无其他显著动态障碍物或突发状况。"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.75,
+    "analysis_time": "2026-01-23 09:58:53"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间无路灯，仅靠车灯照明，能见度受限。路面干燥，无明显积水或结冰。【自车】在中间车道匀速沿直道行驶，未进行变道或转向。【交通设施】道路右侧依次出现三角警告标志（注意前方弯道）与限速50km/h圆形标志，均位于护栏外侧，无遮挡。【关键风险】无显著风险目标，但夜间低能见度环境本身构成潜在安全威胁。",
+      "risk_tags": [
+        "low_visibility",
+        "no_immediate_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】持续夜间驾驶，左侧及右侧均为深色树林，无照明。【自车】保持在中间车道，随道路曲率自然转弯，未越线。【交通设施】道路两侧设有金属护栏，护栏立柱间距均匀，无破损。【关键风险】无行人、动物或车辆出现在视野内；无施工区域或障碍物；未发现违规行为。整体场景平稳，风险极低。",
+      "risk_tags": [
+        "no_immediate_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】夜间，道路进入一个交叉路口区域，左侧出现路灯照明，右侧仍为黑暗林地。【自车】在中间车道减速并准备右转，车头偏航角向右调整，完成转向动作。【交通设施】右侧出现限速30km/h警示牌与右转指示箭头标志；路口处有蓝色导向标志和红色非机动车道标线。【周围参与者】无其他车辆或行人出现在视野内；远处可见一栋建筑窗户亮灯，但无人员活动迹象。【关键风险】自车即将进入交叉口，存在潜在的横向冲突风险（如对向车辆或非机动车突然出现），但当前阶段无实际威胁。需警惕路口盲区，因左侧路灯照明范围有限，右侧仍处于黑暗中。",
+      "risk_tags": [
+        "intersection_approach",
+        "limited_lighting",
+        "potential_cross_traffic"
+      ]
+    }
+  ]
+}

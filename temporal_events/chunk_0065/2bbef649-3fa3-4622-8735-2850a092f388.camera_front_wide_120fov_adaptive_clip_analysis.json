@@ -1,0 +1,38 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.87,
+    "analysis_time": "2026-01-22 08:56:02"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】夜间，浓雾笼罩路面，路灯与车灯形成强烈光晕，能见度显著降低。【自车】位于中间车道，正通过十字路口，执行停车等待后起步动作。【前方】对向车道有车辆驶近，车灯在雾中呈模糊光斑。【右侧】人行横道旁停有一辆银色轿车，未移动。【交通设施】路口两侧交通信号灯为绿灯，指示通行。【关键风险】因雾气导致视觉遮蔽，无法清晰识别对向车辆的精确距离与速度，存在潜在碰撞风险。",
+      "risk_tags": [
+        "low_visibility",
+        "collision_risk_from_obscured_vehicle"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:12",
+      "scene_description": "【环境】雾气持续，但道路照明稳定，能见度略有改善。【自车】已驶离交叉口，保持在中间车道匀速沿直道行驶。【左侧】一栋多层住宅楼旁停放数辆汽车，无动态行为。【右侧】路边设有“TAXI ONLY”标线区域，一辆白色出租车从右侧车道驶入并停靠于路边，未影响自车路径。【交通设施】前方连续多个路口信号灯显示为绿灯，路面上“ONLY”字样清晰可见。【关键风险】无明显违规或突发障碍，但右侧出租车突然切入路边停车区，存在轻微切出（Cut-out）风险，需注意其车门开启可能引发开门杀。",
+      "risk_tags": [
+        "cut_out_risk",
+        "parking_door_opening_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雾气仍存，但整体视野较前段更开阔。【自车】继续在中间车道匀速前行，接近下一个十字路口。【右侧】人行道上有两名行人正在行走，其中一人面向自车方向，另一人背对，两人均未进入人行横道，处于路边非安全区域。【前方】远处交通信号灯为绿灯，但路口处有数辆车静止等待，疑似红灯倒计时结束前的缓冲状态。【交通设施】路面标线包含“TAXI ONLY”及右转箭头，提示车道功能。【关键风险】行人未走斑马线且靠近车道边缘，存在“鬼探头”（Ghost Probe）隐患；同时，前方车辆静止状态不明，若突然启动可能造成自车紧急制动，构成事故前兆。",
+      "risk_tags": [
+        "jaywalking",
+        "ghost_probe",
+        "sudden_vehicle_startup_risk"
+      ]
+    }
+  ]
+}

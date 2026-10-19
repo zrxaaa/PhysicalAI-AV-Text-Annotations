@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 04:33:03",
+    "processing_time_seconds": 9.93
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "夜间行车，自车沿双黄线分隔的多车道道路直行，前方有绿色高速公路指示牌，左侧车道有车辆同向行驶，右侧为低矮围栏与路灯照明的绿化带。"
+    },
+    {
+      "time_segment": "00:00:06-00:00:12",
+      "scene_description": "自车继续直行并轻微右转进入弯道，道路两侧出现住宅区建筑与路灯，右侧人行道旁有灌木丛和消防栓，无行人或障碍物干扰路径。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "自车保持稳定速度沿弯道行驶，前方路面出现白色导向箭头，右侧路边有建筑物灯光亮起，左侧树木密集遮挡部分视野，未见其他动态交通参与者。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:20",
+      "scene_description": "自车继续沿缓弯道前进，道路右侧出现小型商业建筑与停车区域，远处可见发光广告牌，整体环境安静，无行人、临时障碍或显著交通行为发生。"
+    }
+  ]
+}

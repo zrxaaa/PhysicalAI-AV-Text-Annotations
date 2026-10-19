@@ -1,0 +1,48 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.51,
+    "analysis_time": "2026-01-24 02:59:48"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间，能见度较低，路灯照明均匀但存在轻微雾气或水汽导致的光晕。【自车】在中间车道匀速沿直道行驶，未进行转向或变道。【右侧】一辆黑色面包车从右侧路边驶出并切入自车所在车道，车头朝向自车前方，完成切入动作。【关键风险】该车辆无转向灯提示，属于“违规强行加塞”行为（Aggressive Cut-in），对自车形成紧急避让压力。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "low_visibility",
+        "emergency_avoidance"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】道路两侧路灯持续照明，无明显天气异常。【自车】保持中间车道匀速行驶。【左侧】多辆轿车沿左侧车道有序行驶，部分车辆在前方路口减速。【右侧】路边停放多辆汽车，其中一辆白色轿车在自车右后方缓慢倒车，车身部分进入行车道，未完全退出停车区域。【交通设施】前方可见人行横道标线及红绿灯信号（当前为红灯）。【关键风险】右侧倒车车辆存在“开门杀”与“倒车盲区”风险，若突然打开车门或倒车轨迹不稳，可能与自车发生碰撞。",
+      "risk_tags": [
+        "reverse_vehicle_risk",
+        "door_opening_hazard",
+        "red_light_approach"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "【环境】夜间，路面干燥，灯光反射较弱，无降水或结冰迹象。【自车】在中间车道匀速行驶，接近前方路口。【左侧】一辆银色轿车从左前侧超车并快速驶离，未影响自车路径。【右侧】多辆静止停放车辆沿路边排列，部分车辆尾灯亮起。【行人】在右侧人行道上有两名行人并排行走，面向自车方向，步速平稳，无横穿意图。【交通设施】前方设有禁止停车标志牌及人行横道，路旁有公交站台标识。【关键风险】无显著风险，但右侧停车带存在潜在“鬼探头”隐患——若有人从车后突然走出或横穿马路，将因视线遮挡难以及时反应。",
+      "risk_tags": [
+        "pedestrian_crossing_potential",
+        "occlusion_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】夜间，能见度稳定，路灯间距均匀。【自车】在中间车道减速准备通过前方路口，车速低于30km/h。【前方】一辆红色小型车从左侧对向车道快速驶过，未进入自车车道。【右侧】一名行人从路边住宅区走出，沿人行道向路口方向行走，面部朝向前方，双手自然摆动，无携带物品，动作正常。【交通设施】前方为十字路口，设有斑马线、禁停标志和交通信号灯（当前显示红灯）。【关键风险】行人位于自车右前方约8米处，正走向斑马线，若其突然加速横穿或无视信号灯，将构成“闯红灯横穿”风险；同时，自车需在红灯前完全停止，避免与行人冲突。",
+      "risk_tags": [
+        "jaywalking_risk",
+        "red_light_compliance_required",
+        "pedestrian_crossing_zone"
+      ]
+    }
+  ]
+}

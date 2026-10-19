@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 07:33:31",
+    "processing_time_seconds": 13.84
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在多车道高速公路上匀速行驶，左侧为铁路轨道，右侧有树木和住宅区；前方一辆白色轿车与一辆黑色SUV在相邻车道行驶，无明显变道或超车行为。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:09",
+      "scene_description": "车辆接近十字路口，交通信号灯由绿转黄，前方两辆车减速准备停车；路旁出现‘Calle Del Sol’路牌及转向指示标志，自车保持当前车道继续前行。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:13",
+      "scene_description": "通过交叉口后，自车继续直行，左侧出现高架轻轨站台（标有‘Lick Mill’），右侧人行道上有行人行走；无其他车辆与自车发生路径冲突。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "道路两侧绿化带与住宅建筑增多，左侧轨道旁出现涂鸦墙，右侧车道有车辆并线进入右转专用车道；自车维持原车道，未进行任何转向或加速操作。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车继续沿直线车道行驶，前方车辆保持匀速，无红绿灯或行人横穿等突发状况；天气晴朗，路面干燥，视野开阔，无显著环境变化。"
+    }
+  ]
+}

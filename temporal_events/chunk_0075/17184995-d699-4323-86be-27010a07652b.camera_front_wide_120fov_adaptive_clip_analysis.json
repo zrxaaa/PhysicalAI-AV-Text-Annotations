@@ -1,0 +1,36 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.63,
+    "analysis_time": "2026-01-22 13:41:55"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "【环境】晴朗白天，光照充足，无异常天气。【自车】位于中间车道，处于停车等待状态，未发生纵向或横向移动。【前方】一辆银色Mazda MPV（车牌遮挡）停在自车正前方，尾灯亮起；左侧为灰色丰田轿车，同样静止。【右侧】两名骑行者（一穿红色上衣，一穿绿色上衣）在绿色自行车道内并排行驶，靠近人行道边缘。【交通设施】路口设有“Race”路牌、交通信号灯（当前红灯）、“STOP HERE ON RED”标志牌及“NO TURN ON RED”警示牌。【关键风险】右侧骑行者与机动车道间距极近，存在因车辆起步或转向导致的碰撞风险；同时，前方车辆若突然启动，可能引发自车误判反应。",
+      "risk_tags": [
+        "close_proximity_rider",
+        "red_light_wait",
+        "potential_sudden_acceleration"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】阳光角度变化，自车区域出现明显阴影。【自车】仍保持停车状态，但前方路面出现“WAIT HERE”字样标线，提示停车位置。【前方】银色MPV开始缓慢向前移动，进入绿灯通行阶段；灰色丰田轿车同步起步，向左变道意图明显。【右侧】骑行者继续沿自行车道前行，其中穿红色上衣者已接近路口中心线。【交通设施】交通信号灯由红转绿，路口多方向通行许可开启。【关键风险】灰色轿车向左切入自车所在车道，存在“切出”（Cut-out）行为，若自车未及时识别，可能导致追尾或被迫紧急制动。",
+      "risk_tags": [
+        "cut_out_behavior",
+        "lane_change_conflict",
+        "signal_transition_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】晴天，道路两侧有棕榈树和低层住宅/商铺，视野开阔。【自车】完成起步，沿中间车道匀速前进，跟随前方银色MPV。【前方】MPV持续行驶，未再减速；灰色轿车已在左前方车道稳定行驶。【右侧】两名骑行者保持在自行车道内，红色上衣者在前，绿色上衣者稍后，两人均未偏离车道。【交通设施】通过交叉口后，道路恢复直行，无特殊限速或禁令标志。【关键风险】无显著风险。所有交通参与者均遵守交通规则，未见违规行为或遮挡物，路面无障碍物，光照条件良好，适合安全通行。",
+      "risk_tags": []
+    }
+  ]
+}

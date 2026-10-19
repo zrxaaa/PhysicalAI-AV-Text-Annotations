@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.96,
+    "analysis_time": "2026-01-23 06:06:40"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:15",
+      "scene_description": "【环境】重度大雾，能见度极低（约30-50米），路面无明显积水或结冰，但视觉模糊严重。【自车】在中间车道匀速沿弯曲道路前行，未进行变道或转向操作，仅随道路曲率自然调整方向。【周围交通参与者】无其他车辆、行人或动物可见，视野内无任何动态目标。【交通设施】道路两侧设有白色反光路桩，左侧为土坡+灌木，右侧为草地+碎石路肩；沿途可见菱形警告标志及弯道指示牌，但因雾气遮挡，细节模糊。【关键风险】能见度不足导致潜在盲区风险高，前方可能突然出现静止障碍物或横穿行人/动物，且无足够反应距离；道路呈连续弯道结构，需持续关注弯道极限速度控制。",
+      "risk_tags": [
+        "low_visibility",
+        "blind_spot_risk",
+        "continuous_curve_hazard"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】大雾持续，能见度仍维持在低水平（约40米）。【自车】保持中间车道匀速直行，通过一个轻微右转弯道后进入直线段。【周围交通参与者】右侧路边出现一辆深色SUV静止停靠于岔路口，车身部分被雾气遮挡，未见人员活动或移动迹象。【交通设施】右侧设有多组交通指示牌（含德语“Bremstätte”、“Dynamik Area”等字样），提示前方为测试路段或动态区域；左侧有三角形让行标志和限速标志（20km/h），但因雾气影响，读取困难。【关键风险】右侧停靠车辆存在“开门杀”或突然启动风险；前方指示牌区域为交叉口，若自车未减速，可能遭遇突发横向来车或行人；雾中无法确认该SUV是否为施工或警用临时停放，存在未知交互意图。",
+      "risk_tags": [
+        "unidentified_vehicle_parking",
+        "intersection_crossing_risk",
+        "ambiguous_signage",
+        "door_opening_hazard"
+      ]
+    }
+  ]
+}

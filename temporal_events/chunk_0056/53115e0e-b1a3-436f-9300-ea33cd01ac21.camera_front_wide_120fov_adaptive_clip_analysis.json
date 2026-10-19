@@ -1,0 +1,41 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.0,
+    "analysis_time": "2026-01-22 05:09:48"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "【环境】晴天，天空有大片积云，光照充足，无降水或遮挡。【自车】位于中间车道，匀速沿直道行驶，前方交通信号灯为绿灯。【周围车辆】左前方邻车道有一辆深色SUV与一辆白色面包车同向行驶；左侧对向车道有一辆皮卡正在通过交叉路口。【交通设施】前方路口设有多个交通信号灯及“FREEWAY ENTRANCE”指示牌，右侧路肩有“SOUTH 101”方向标识。【关键风险】无明显违规行为或障碍物，场景平稳。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "【环境】天气晴朗，能见度良好，远处山脉清晰可见。【自车】在中间车道执行右转动作，车头偏航角逐渐增大，随道路曲率转向。【周围车辆】右前方有一辆银色轿车在相邻车道完成右转；左侧对向车道有车辆驶过。【交通设施】经过路口后，右侧出现大型广告牌（内容为“MOTORCYCLE ACCIDENT”）及“MONARCH TRUCK CENTER”建筑，路边有干枯草地和少量散落垃圾。【关键风险】无显著风险，但右侧广告牌区域存在视觉干扰，可能影响驾驶员注意力。",
+      "risk_tags": [
+        "visual_distraction"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "【环境】晴天，光照稳定，无异常天气。【自车】完成右转后进入主干道，保持中间车道匀速行驶，道路呈缓弯向右延伸。【周围车辆】左侧对向车道有多辆汽车（包括皮卡、SUV）正常通行；右侧路肩有护栏，后方有工业区建筑及停放的卡车。【交通设施】道路标线清晰，右侧有“ARROW RIGHT”导向箭头，提示前方弯道。【关键风险】无直接碰撞或违规行为，但右侧工业区边缘有未清理的碎石与杂物，存在潜在路面障碍物风险。",
+      "risk_tags": [
+        "road_debris",
+        "industrial_zone_edge_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】晴朗，视野开阔，远处山体轮廓清晰。【自车】在中间车道持续匀速行驶，道路基本为直线段，仅轻微右偏曲率。【周围车辆】左侧对向车道车流稳定，包括多辆轿车与货车；右侧路肩有金属护栏，后方可见加油站标志及小型商业建筑。【交通设施】道路两侧设有路灯与交通指示牌，无红绿灯或复杂交叉口。【关键风险】无紧急风险，但右侧护栏外有零星垃圾与杂草堆积，若遇突发情况（如爆胎），可能影响避让空间。",
+      "risk_tags": [
+        "low_risk_debris",
+        "narrow_clearance_margin"
+      ]
+    }
+  ]
+}

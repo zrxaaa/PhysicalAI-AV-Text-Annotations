@@ -1,0 +1,35 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 10.07,
+    "analysis_time": "2026-01-24 00:19:18"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "【环境】晴天，强日光导致挡风玻璃出现轻微眩光，能见度良好。【自车】位于中间车道，匀速沿直道行驶，未进行变道或转向。【周围车辆】左侧对向车道有数辆轿车和一辆公交车在逆向行驶；右侧车道有多辆私家车并行，部分车辆缓慢前行。【交通设施】道路左侧设有电车轨道及绿化带，远处可见广告牌与山丘轮廓。【无显著风险】此阶段无违规行为、遮挡或障碍物，交通流平稳。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "【环境】光照仍为强日光，但自车进入电车站点区域，视野受站台结构轻微遮挡。【自车】保持当前车道，减速准备停车。【前方车辆】一辆蓝色SUV（福特Kuga）在自车正前方，刹车灯亮起，表明其正在减速。【右侧车辆】多辆私家车在右转车道排队，其中一辆黑色SUV向左微调车身，意图切入自车所在车道。【交通设施】左侧出现“Parque Empresarial”电车站台，站牌清晰可见，轨道延伸至前方路口。【关键风险】右侧黑色SUV存在“加塞”倾向（Aggressive Cut-in），若其强行切入将造成紧急避让风险，需警惕。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "lane_change_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】阳光依旧强烈，但自车已接近红灯路口，前方交通信号灯显示为红色。【自车】在中间车道完全停止，制动系统激活。【前方车辆】蓝色SUV停于自车前约5米处，刹车灯持续亮起；其右侧有一辆黄色“PROSEGUR”安保货车，同样静止等待。【右侧车辆】多辆私家车紧随其后，形成拥堵队列。【交通设施】前方为十字路口，红绿灯杆清晰可见，电车轨道继续沿路延伸。【关键风险】自车处于完全静止状态，前方车辆密集且无明显间隙，若前方车辆突然启动或发生追尾，自车将面临“追尾碰撞”风险。此外，右侧黑色SUV仍保持切入姿态，存在二次加塞可能，构成“双重风险叠加”。",
+      "risk_tags": [
+        "full_stop_risk",
+        "rear_collision_potential",
+        "secondary_cut_in_risk"
+      ]
+    }
+  ]
+}

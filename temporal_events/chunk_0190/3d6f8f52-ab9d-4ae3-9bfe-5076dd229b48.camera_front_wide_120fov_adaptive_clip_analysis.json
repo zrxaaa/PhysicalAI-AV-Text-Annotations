@@ -1,0 +1,35 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.71,
+    "analysis_time": "2026-01-24 11:35:59"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "【环境】晴天，阳光强烈，存在镜头眩光。【自车】位于中间车道，初始停车等待红灯，随后在绿灯亮起后匀速起步前行。【周围交通参与者】：左前方一辆白色轿车（丰田卡罗拉）在绿灯时向左转；右前方一辆黑色SUV（道奇Charger）直行通过交叉口；右侧人行道有骑自行车者沿路行驶，未进入车道。【交通设施】交叉口设有双向交通信号灯，Pacific Ave与Arabian St交叉，信号灯由红转绿，引导车辆有序通行。【关键风险】无明显违规或高危行为，但左侧白色轿车在绿灯时快速左转，其转向轨迹与自车直行路径存在短暂交汇点，需注意横向切入风险。",
+      "risk_tags": [
+        "crossing_trajectory_overlap"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】晴朗，光照稳定，无遮挡。【自车】保持中间车道，沿直线道路匀速行驶。【周围交通参与者】：左侧对向车道有一辆白色皮卡（福特Ranger）驶过；右侧人行道上两名行人并排行走，其中一人穿蓝色上衣，面向前方，步态正常；路边停放多辆私家车，包括一辆银色SUV。【交通设施】经过十字路口后，道路两侧出现商业建筑，包括绿色外墙的“El Amate Center”和“Libreria Cristiana”书店招牌，路边设有“SPEED LIMIT 30”限速标志。【关键风险】无显著风险，但右侧人行道上有行人靠近车道边缘，若突然横穿将构成潜在碰撞威胁。",
+      "risk_tags": [
+        "pedestrian_proximity_to_lane_edge"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】晴天，视野开阔，路面干燥。【自车】维持中间车道匀速行驶，车速约30mph。【周围交通参与者】：前方远处可见一辆白色轿车在右侧车道缓慢行驶，疑似准备靠边停车；左侧对向车道有数辆车依次通过，包括一辆白色轿车（雪佛兰Malibu）和一辆深色SUV。【交通设施】道路标线清晰，前方为连续平交路口，设有红绿灯及“Pine Ave”路牌；右侧建筑物旁有“Horizon Financial Solutions”和“Carnival Restaurant”标识。【关键风险】无紧急风险，但右侧车道有车辆减速，可能引发后方车辆变道，存在轻微切出/切入博弈风险；同时，前方路口处有车辆临时停靠，增加自车需保持警惕以应对突发刹车或转向的可能性。",
+      "risk_tags": [
+        "potential_lane_change",
+        "rear_vehicle_braking"
+      ]
+    }
+  ]
+}

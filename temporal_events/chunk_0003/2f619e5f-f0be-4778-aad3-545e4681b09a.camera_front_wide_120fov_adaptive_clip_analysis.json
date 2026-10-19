@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 00:02:33",
+    "processing_time_seconds": 19.93
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在高速公路上匀速行驶，右侧车道有一辆深色SUV正在加速并试图变道至中间车道，阳光强烈导致画面部分过曝，路面干燥无湿滑迹象。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:10",
+      "scene_description": "前方车辆减速，自车保持跟车距离，道路左侧出现大型机场航站楼建筑，上方高架路牌显示方向信息，车辆平稳通过弯道区域，未见行人或其他突发障碍物。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "自车继续沿弯道行驶，右侧航站楼结构逐渐完整显现，多辆轿车和出租车在相邻车道有序行驶，无明显变道或超车行为，环境光线因太阳位置变化略有减弱。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "车辆驶近航站楼入口区域，右侧车道有数辆接驳车辆停靠，自车维持当前车道匀速前进，未进行转向或变速操作，整体交通流稳定，无紧急事件发生。"
+    }
+  ]
+}

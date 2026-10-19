@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 08:46:02",
+    "processing_time_seconds": 14.39
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在多车道公路上匀速行驶，前方有一辆深色轿车保持同向行驶，左侧为土坡和施工区域，右侧有橙色交通锥引导车道。路面标有‘CAR POOL’字样，指示专用车道。天气晴朗，光照充足，无明显遮挡物影响视线。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "车辆接近十字路口，前方交通信号灯由绿转黄，自车减速准备停车。左侧出现‘LEFT LANE CARPOOLS 2+ IN VEHICLE ONLY’标志，右侧可见建筑群与行人过街警示牌。无行人或突发障碍物，道路环境稳定。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "信号灯变红，自车在第一排停车等待，左侧车道有红色SUV及银色轿车依次通过交叉口。右侧护栏后方为高层建筑，未见行人活动。自车保持静止状态，未发生变道或加速行为。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "信号灯转绿，自车启动并加速进入主路，左侧车道有银色轿车和红色SUV先后超车驶离。右侧混凝土护栏旁有广告牌显示‘LUXURY APARTMENTS’，但无行人或障碍物干扰行车路径。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车继续沿高速直行，前方出现绿色高速公路指示牌‘Taylor Street’，提示出口信息。右侧路边有施工围栏与树木，无行人或临时障碍。整体路况通畅，自车维持当前车道稳定行驶。"
+    }
+  ]
+}

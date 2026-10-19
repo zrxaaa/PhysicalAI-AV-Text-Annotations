@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 08:26:44",
+    "processing_time_seconds": 16.34
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车在一条双向两车道公路上行驶，左侧为高墙，右侧有树木和围栏；前方交通信号灯由绿转黄，车辆开始减速准备停车。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:07",
+      "scene_description": "自车通过十字路口后进入高速公路匝道，右侧混凝土护栏逐渐升高形成隔音墙；前方可见数辆卡车在相邻车道匀速行驶，无明显变道或超车行为。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "自车驶入高速主路，右侧为高耸混凝土隔离墙，左侧为另一条平行车道；阳光强烈导致画面右上角出现眩光，但道路标线清晰可见，无行人或其他障碍物。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "自车保持当前车道稳定行驶，前方多辆货车与轿车在不同车道匀速前进，未发生并线或紧急制动；远处山丘轮廓清晰，天空无云，路面干燥无积水。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车继续沿高速直行，右侧隔离墙持续延伸，前方出现绿色高速公路指示牌；所有车辆均维持原有车道与速度，无交叉冲突或突发交通事件。"
+    }
+  ]
+}

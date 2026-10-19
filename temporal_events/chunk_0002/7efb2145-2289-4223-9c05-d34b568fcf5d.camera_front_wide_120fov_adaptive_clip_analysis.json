@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:35:07",
+    "processing_time_seconds": 13.94
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车沿住宅区街道平稳行驶，右侧停有一辆银色轿车，前方道路开阔，左侧出现现代风格建筑。车辆在接近十字路口时，路面标有‘STOP’字样，交通信号灯尚未变化。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "自车在十字路口停车等待，前方可见红色停止标志牌和交叉路口的街名标识（W. Hamilton Ave）。对向车道有多辆汽车正在通行，包括一辆白色SUV和一辆红色轿车，均从左向右横穿路口。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车完成左转或直行通过路口后，进入一条较宽的双向车道，道路两侧有树木和低矮灌木。对向车道有数辆汽车驶来，包括一辆银色SUV和一辆蓝色轿车，均保持正常行驶速度。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车继续沿主干道行驶，前方出现红绿灯控制的交叉口，当前为红灯状态。左侧路边有行人站立，但未进入车道。道路中央有分隔带，两侧车道车辆稀疏，无明显拥堵。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车在红灯前减速并停车，前方有数辆车同样在等待。右侧人行道上有行人行走，但未横穿马路。远处可见交通信号灯切换为绿灯，自车准备启动前行。"
+    }
+  ]
+}

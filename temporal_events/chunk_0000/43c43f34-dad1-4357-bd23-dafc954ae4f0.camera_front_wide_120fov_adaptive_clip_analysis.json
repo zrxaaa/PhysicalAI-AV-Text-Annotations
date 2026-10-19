@@ -1,0 +1,24 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 22:25:06",
+    "processing_time_seconds": 15.36
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "自车沿直行道路平稳行驶，右侧人行道旁有绿化带和树木，左侧可见高压电塔及低矮建筑。前方一辆白色公交车在对向车道停靠，自车保持安全距离跟随其后方行驶。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "自车接近路口并左转进入停车场区域，右侧路边停放多辆轿车，包括一辆银色轿车正从停车位驶出。前方无行人，交通标志显示为‘TRUCK ROUTE’，自车完成转向动作后进入停车场主通道。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "自车在停车场内沿中央通道缓慢直行，两侧均停满车辆，包括皮卡、SUV和轿车。天气晴朗，阳光照射下路面有明显阴影，无行人或其他动态障碍物出现，自车保持匀速平稳通过该区域。"
+    }
+  ]
+}

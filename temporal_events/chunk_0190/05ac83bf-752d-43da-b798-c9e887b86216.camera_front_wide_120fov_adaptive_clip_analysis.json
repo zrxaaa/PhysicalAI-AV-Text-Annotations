@@ -1,0 +1,37 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.66,
+    "analysis_time": "2026-01-24 11:21:24"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，云层厚重，光线均匀但偏暗，无明显降水或能见度下降。路面干燥，无积水反光。【自车】位于中间车道，沿道路直线行驶，速度平稳，未见明显加速或制动。【前方车辆】左侧车道有一辆深灰色SUV（雪佛兰Tahoe）在前方行驶，尾灯未亮；右侧车道有一辆白色沃尔沃XC60正向右变道，已完成部分切入动作。【交通设施】左侧路边设有绿色指示牌，标示“Huntington Library”、“Caltech”、“Pasadena City College”，为直行及右转导向。【关键风险】右侧白色沃尔沃XC60正在变道，其轨迹与自车所在车道存在潜在冲突，若其变道未完成或减速不足，可能引发剐蹭或紧急避让。",
+      "risk_tags": [
+        "lane_change_conflict",
+        "potential_collision"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】天空仍阴沉，无天气突变迹象。【自车】保持在中间车道，跟随前方深灰色SUV匀速行驶，车距稳定约15米。【前方车辆】深灰色SUV刹车灯短暂亮起后熄灭，表明轻微减速，但未停车；右侧白色沃尔沃XC60已完全驶入右转车道并完成变道，当前在自车右前方约20米处，正朝路口方向行驶。【交通设施】前方可见高架式交通信号灯组，显示为红灯状态，横跨多车道。【非标物体】左侧路肩坡地有低矮灌木丛，无动物或施工设备出现。【关键风险】前方红灯即将生效，自车需准备停车。右侧沃尔沃XC60因已进入右转车道，其行为符合预期，无违规；但若自车未及时减速，可能在红灯前形成“抢行”风险。",
+      "risk_tags": [
+        "red_light_preparation",
+        "braking_delay_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】无显著天气变化，光照稳定。【自车】继续在中间车道匀速接近路口，前方深灰色SUV已停稳于停止线前，刹车灯持续亮起。【前方车辆】深灰色SUV保持静止；右侧白色沃尔沃XC60亦在右转车道内减速并停靠，未发生移动。【交通设施】前方交通信号灯为红灯，上方绿箭头灯未亮，表明直行禁止通行。【周围环境】道路两侧为住宅区与商业建筑，树木茂密，无行人、动物或障碍物出现。【关键风险】无直接碰撞或违规行为。但自车若未及时识别前方红灯及前车停车，可能造成闯红灯事故。此外，右侧车道有另一辆白色SUV从后方驶来，正试图超越沃尔沃XC60，存在切出车道风险，但距离较远（>30米），暂不构成紧迫威胁。",
+      "risk_tags": [
+        "traffic_light_compliance_risk",
+        "overtaking_lateral_conflict"
+      ]
+    }
+  ]
+}

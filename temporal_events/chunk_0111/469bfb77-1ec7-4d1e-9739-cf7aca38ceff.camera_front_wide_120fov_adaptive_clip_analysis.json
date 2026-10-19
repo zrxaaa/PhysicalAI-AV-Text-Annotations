@@ -1,0 +1,44 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.03,
+    "analysis_time": "2026-01-23 05:11:12"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】夜间，路面湿滑反光，路灯照明呈黄色光晕，能见度中等偏低。无明显降水或大雾，但存在轻微水汽弥漫。【自车】在中间车道匀速沿道行驶，未见明显转向或变道动作。【左侧】路边有低矮围栏与住宅建筑，右侧为高围栏及绿化带。【交通设施】道路两侧路灯间距均匀，无明显标线缺失或损坏。【关键风险】无显著障碍物或违规行为，场景稳定。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:06-00:00:11",
+      "scene_description": "【环境】继续夜间行驶，路面仍湿润，灯光反射增强。【自车】保持中间车道匀速前进，车头偏航角随道路微弯调整。【左侧】对向车道出现一辆白色SUV，从左前方驶来并超越自车，完成切出动作后回归原车道。【右侧】路边停放一辆深色轿车，车身静止，未见异常动作。【交通设施】前方约30米处设有限速标志（20km/h）及禁止停车标志。【关键风险】无紧急避让需求，但对向车辆超车时距离较近（约5米），存在轻微侧向干扰风险。",
+      "risk_tags": [
+        "close_passing",
+        "lane_crossing"
+      ]
+    },
+    {
+      "time_segment": "00:00:11-00:00:16",
+      "scene_description": "【环境】道路两侧树木增多，部分区域树冠遮挡路灯，局部出现光影斑驳。【自车】维持当前车道，速度略有下降以适应弯道。【左侧】出现一排联排住宅，部分窗户透出暖光；右侧为金属围栏与灌木丛。【交通设施】前方路口设有“STOP”停车标志及限速30km/h标识，位于右转车道入口。【非标物体】右侧围栏内隐约可见一个移动的暗影（疑似动物），但因光线不足无法确认具体类型。【关键风险】动物潜在横穿风险（Occlusion Risk），自车需提前减速准备应对突发闯入。",
+      "risk_tags": [
+        "animal_potential_crossing",
+        "occlusion_risk",
+        "speed_reduction_required"
+      ]
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "【环境】进入交叉路口前段，路面干燥但仍有水渍反光，路灯亮度提升。【自车】在中间车道减速至停止，执行停车礼让操作，车头正对“STOP”标志牌。【前方】路口左侧有小型建筑物，右侧为居民区入口，无其他车辆或行人活动迹象。【交通设施】路口设置清晰的停车标志、限速标志及人行横道虚线。【关键风险】自车在路口停车，需确保无横向来车或行人突然出现；虽当前无动态目标，但存在“鬼探头”潜在威胁（如从右侧围栏后冲出行人或车辆）。",
+      "risk_tags": [
+        "stop_at_intersection",
+        "ghost_probe_risk",
+        "pedestrian_crossing_potential"
+      ]
+    }
+  ]
+}

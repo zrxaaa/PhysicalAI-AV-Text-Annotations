@@ -1,0 +1,41 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.52,
+    "analysis_time": "2026-01-23 03:43:53"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】暴雨天气，路面严重积水，雨滴密集附着于挡风玻璃，能见度降低。【自车】位于中间车道，沿直线道路匀速行驶，未进行转向或变道。【左侧】对向车道有多辆轿车与货车快速驶过，部分车辆因积水溅起水雾。【右侧】沿街商铺林立，包括“Pink Palace”等霓虹招牌建筑，人行道上有行人撑伞行走。【交通设施】前方路口信号灯为绿灯，指示通行。【关键风险】无明显违规行为或障碍物，但强降雨导致路面湿滑、视线模糊，存在潜在打滑与误判风险。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility",
+        "wet_road"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】持续暴雨，雨刷器高频运作，挡风玻璃仍有水痕残留。【自车】保持在中间车道，进入缓坡路段并开始减速，准备应对前方红灯。【前方】一辆白色厢式货车（Mercedes-Benz Vito）停于前车位置，刹车灯亮起。【左侧】一辆黑色大众高尔夫从左后方超车，切入自车所在车道，未开启转向灯。【右侧】人行道上行人持伞移动，部分自行车停靠在金属护栏旁。【交通设施】前方交叉口信号灯由绿转黄，随后变为红色，提示停车。【关键风险】左侧车辆强行加塞（Aggressive Cut-in），且未使用转向灯，增加碰撞概率；同时前方货车紧急制动可能引发追尾。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "unsignalized_lane_change",
+        "brake_light_following_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】雨势略有减弱，但仍持续，路面反光强烈。【自车】在中间车道完全停止，等待前方红灯。【前方】白色厢式货车静止于停车线后，刹车灯持续亮起。【左侧】黑色大众高尔夫完成变道，停于自车左前方邻车道，车头朝向与自车平行。【右侧】人行道上行人撑伞缓慢通过，部分行人低头看手机，无横穿意图。【交通设施】红灯持续亮起，两侧人行横道信号灯亦为红色。【非标物体】右侧路边停放多辆自行车，其中一辆黄色共享单车被金属栏杆围住，未影响通行。【关键风险】自车与前车距离过近（约5米），若前车突然启动或倒车将构成直接碰撞威胁；左侧车辆虽已停稳，但其位置紧贴自车，存在“开门杀”潜在风险（如乘客突然打开车门）。此外，雨天路面湿滑，刹车距离延长，需警惕突发制动失效。",
+      "risk_tags": [
+        "close_proximity_vehicle",
+        "braking_distance_increase",
+        "door_opening_risk",
+        "red_light_waiting"
+      ]
+    }
+  ]
+}

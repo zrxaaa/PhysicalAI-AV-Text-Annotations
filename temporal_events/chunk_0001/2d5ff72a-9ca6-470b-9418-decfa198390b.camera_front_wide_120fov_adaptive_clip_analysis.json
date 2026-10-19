@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:13:00",
+    "processing_time_seconds": 13.35
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车位于十字路口等待红灯，前方为黑色轿车和银色SUV，右侧车道有白色轿车准备右转。背景中高架桥上有密集车流，信号灯为红灯，天气晴朗，路面干燥无湿滑。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "绿灯亮起，自车及前方车辆开始向前行驶，左侧银色SUV加速并入中间车道，右侧白色轿车完成右转。自车跟随前车向左前方转弯，进入主干道方向，高架桥下交通流畅。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车驶入多车道主路，前方黑色轿车保持在中间车道行驶，右侧车道有银色SUV超车后并线至最右车道。道路标线清晰，上方高架桥横跨道路，交通标志显示“US 101 SOUTH”。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车继续沿直行方向前进，前方黑色轿车在右转车道前减速，右侧出现“右转两车道必须右转”警示牌。远处可见红绿灯和交叉路口，自车保持当前车道未变道。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "前方黑色轿车在红灯前停下，自车亦随之减速停车。右侧车道有灰色轿车从后方驶来并试图变道，但因红灯而停止。路口信号灯为红色，周围无行人活动，环境安静有序。"
+    }
+  ]
+}

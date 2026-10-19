@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.2,
+    "analysis_time": "2026-01-24 02:08:51"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】阴雨天，路面湿滑，能见度中等偏低，天空灰暗。【自车】位于中间车道，正通过环岛路口，执行右转动作，随道路曲率沿道行驶。【前方】一辆白色厢式货车（车顶装有梯架）在右前方车道执行右转，与自车同向但稍靠前。【左侧】环岛中央绿地旁可见一座大型教堂建筑（双塔+穹顶），背景为阴云密布的天空。【交通设施】路口设有方向指示牌，标示“Ring”、“Brussels Airport Zaventem”、“EXPO”，绿灯通行。【关键风险】无明显违规或危险交互，但因路面湿滑，需注意制动距离延长。",
+      "risk_tags": [
+        "wet_road",
+        "low_visibility"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:10",
+      "scene_description": "【环境】持续阴雨，部分路段积水反光，雨滴附着于挡风玻璃。【自车】完成环岛右转后，进入直行多车道主路，保持中间车道匀速行驶。【右侧】一辆白色厢式货车（福特Transit）在右侧邻车道行驶，车尾贴有“TRANSIT”标识，未变道。【左侧】对向车道车辆稀疏，有序通行。【右侧路边】出现“Bienvenue à Ganshoren / Welkom in Ganshoren”欢迎牌及“GANSHOREN RUSATIA”区域标识牌，提示进入特定市镇。【交通设施】前方路口信号灯为绿灯，人行横道灯为绿色行人通行标志。【关键风险】无显著风险，但右侧货车因车身较高，在湿滑路面可能产生水雾遮挡后视镜视野。",
+      "risk_tags": [
+        "wet_road",
+        "high_vehicle",
+        "visibility_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】持续阴雨，能见度稳定，路面湿滑且有积水反光。【自车】在中间车道减速并排队等待，处于拥堵状态，车速低于20km/h。【前方】一辆黑色丰田RAV4（车牌模糊）在正前方车道，刹车灯亮起，保持安全距离。【右侧】一辆深灰色沃尔沃XC40紧贴自车右侧车道线，尾灯亮起，未超车也未变道，形成“夹击”态势。【左侧】对向车道有一辆蓝色小型面包车（疑似出租车）驶过，未对自车构成影响。【交通设施】前方多个路口信号灯为红灯，车辆均在停车线后等待。【关键风险】右侧沃尔沃XC40与自车横向间距小于1.5米，存在“切出”或紧急变道风险；同时，前方丰田RAV4频繁刹车，可能导致自车追尾；整体场景为城市拥堵+湿滑路面，属于高风险长尾场景，需保持警惕。",
+      "risk_tags": [
+        "traffic_congestion",
+        "wet_road",
+        "close_proximity_vehicle",
+        "brake_lag_risk"
+      ]
+    }
+  ]
+}

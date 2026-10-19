@@ -1,0 +1,45 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.73,
+    "analysis_time": "2026-01-23 08:39:09"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】夜间，路灯照明充足，无明显异常天气。【自车】在中间车道沿道路曲线匀速行驶，未进行转向或变道。【前方右侧】一名骑自行车者（穿红色上衣）在非机动车道内同向骑行，位于自车右前方约8-12米处，保持稳定速度。【交通设施】道路右侧设有红白相间施工围挡，沿路延伸，围挡后方有广告牌及树木。【关键风险】自行车与自车纵向距离较近，且处于弯道区域，若自行车突然变道或减速，可能引发碰撞；同时，施工围挡遮挡部分视野，存在潜在盲区。",
+      "risk_tags": [
+        "close_proximity_bike",
+        "blind_spot_during_turn",
+        "construction_zone_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:06-00:00:10",
+      "scene_description": "【环境】夜间，路灯持续照明，能见度良好。【自车】在中间车道完成左转动作，车头偏航角增大，进入新直行路段。【交叉路口】前方为十字路口，左侧设有红绿灯信号装置，当前显示为红灯。【行人】在路口右侧人行横道处，有两名行人正在等待过街，其中一人面向自车方向站立，另一人背对自车，均未移动。【交通设施】路口设有斑马线、交通指示牌及红绿灯柱。【关键风险】自车在转弯过程中需注意右侧行人动态，因红灯未亮，行人可能闯红灯横穿；同时，路口左侧有车辆从支路驶出，存在冲突风险。",
+      "risk_tags": [
+        "intersection_crossing_risk",
+        "pedestrian_jaywalking_potential",
+        "left_turn_conflict_with_cross_traffic"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】夜间，街道两侧建筑密集，路灯间距均匀，无降水或雾气。【自车】完成左转后，在中间车道保持匀速直线行驶。【右侧】路边停放多辆汽车，包括一辆银色面包车和一辆黑色轿车，车身静止。【行人】一名行人从右侧人行道走出，沿路边行走，位于自车右后方约15米处，正朝前方方向移动。【交通设施】道路两侧设有路缘石、交通标志杆及人行道。【关键风险】行人未走人行横道，而是直接从路边步行至路中，存在“鬼探头”风险；同时，右侧停放车辆可能因驾驶员开门导致突发障碍物。",
+      "risk_tags": [
+        "pedestrian_crossing_without_crosswalk",
+        "door_opening_risk",
+        "unpredictable_pedestrian_trajectory"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】夜间，道路照明稳定，无异常天气。【自车】在中间车道维持匀速直线行驶，未进行任何转向或制动操作。【周围】道路两侧为住宅区，建筑物窗户部分亮灯，无显著动态物体出现。【交通设施】道路标线清晰，无施工区域或临时障碍物。【关键风险】此段场景相对安全，无明显威胁目标，但需警惕远处可能出现的突然横穿行人或动物，因夜间视线受限，建议保持警觉。",
+      "risk_tags": []
+    }
+  ]
+}

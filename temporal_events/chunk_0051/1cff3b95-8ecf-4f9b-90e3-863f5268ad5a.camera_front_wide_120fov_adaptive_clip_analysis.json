@@ -1,0 +1,36 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.01,
+    "analysis_time": "2026-01-22 02:55:24"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】晴天，少量云层，光照充足，无异常天气。【自车】位于中间车道，处于路口停车状态，等待红灯。【前方】交通信号灯为红灯，远处有车辆在对向车道静止等待。【右侧】两辆白色轿车停于右转车道，准备转向；其中一辆正缓慢向右移动，意图切入自车所在直行道。【交通设施】路口设有标准交通信号灯、人行横道标线及路牌（Orchard Pkwy），信号灯从红灯转绿灯前保持稳定。【关键风险】右侧白色轿车存在“未打转向灯强行切入直行车道”的违规行为（Aggressive Cut-in）风险，虽当前未动作，但其位置与运动趋势构成潜在碰撞威胁。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "signal_light_waiting",
+        "lane_conflict"
+      ]
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "【环境】阳光强烈，出现轻微眩光，尤其在画面右上角。【自车】在绿灯亮起后启动，沿中间车道向前行驶。【左侧】一辆白色轻轨列车（Valley Transportation Authority，编号908A）停靠在专用轨道站台，车身占据左侧行车道部分空间，但未移动。【右侧】黑色轿车完成右转后，驶入对向车道并继续前行，未对自车造成干扰。【交通设施】通过路口后，可见“Orchard Pkwy”路牌及轨道站台标识“Orchard”。【关键风险】轻轨列车虽静止，但其长度和宽度可能遮挡左侧后方来车视线，存在“鬼探头”风险；同时，自车起步时需注意左侧轨道区域是否有行人或非机动车突然出现。",
+      "risk_tags": [
+        "occlusion_risk",
+        "ghost_probe_potential",
+        "railway_crossing_zone"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】晴朗，阳光从右上方照射，路面阴影明显。【自车】持续沿直行车道匀速行驶，车头偏航角保持稳定，无转向或变道动作。【左侧】轻轨列车仍停靠在站台，车门关闭，无乘客上下车迹象。【右侧】黑色轿车在前方约30米处同向行驶，保持安全距离，无加速或变道行为。【交通设施】道路两侧设有绿化带、人行道及公交候车亭，无施工区域或障碍物。【关键风险】无显著风险。所有交通参与者均按规则行驶，无违规行为，路面无障碍物，视野开阔，属于低风险平稳行驶场景。",
+      "comment": "此段无关键风险，故不包含risk_tags字段"
+    }
+  ]
+}

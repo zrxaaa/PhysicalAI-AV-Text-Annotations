@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 05:23:06",
+    "processing_time_seconds": 11.51
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车在十字路口等待绿灯，前方交通信号灯为绿色，右侧人行横道信号灯显示红手标志，左侧有高架桥和棕榈树，路面湿滑但无明显积水。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "自车启动并沿直行车道驶入高速公路，左侧车道标有“CAR POOL”字样，前方可见其他车辆在多车道上行驶，天空阴云密布，路面潮湿。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "自车保持在中间车道行驶，前方出现交通信号灯和路牌指示“PayPal Park NEXT EXIT”，右侧路边有建筑群和施工锥桶，未见行人或其他显著动态参与者。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "自车继续沿高速公路行驶，右侧出现一排橙色施工锥桶，部分锥桶倒地，远处有大型广告牌和建筑物，天气仍阴沉，路面湿滑，无紧急或冲突行为发生。"
+    },
+    {
+      "time_segment": "00:00:19-00:00:20",
+      "scene_description": "自车接近出口匝道，上方路牌显示“Taylor Street EXIT 7”，道路两侧有护栏和少量植被，无行人或突发交通状况，整体环境平稳有序。"
+    }
+  ]
+}

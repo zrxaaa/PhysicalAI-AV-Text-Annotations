@@ -1,0 +1,52 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 19.72,
+    "analysis_time": "2026-01-22 03:04:07"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】阴天，天空灰暗，无明显降水但能见度偏低，路面干燥。【自车】位于中间车道，处于交通拥堵状态，执行持续减速制动。【前方】一辆白色SUV（车牌区域模糊）在正前方车道，保持低速行驶；右侧车道有多辆轿车及一辆印有“MADE FOR SPARTANS WATCHING”广告的货车，部分车辆缓慢移动。【左侧】对向车道有车辆驶过，路肩处可见停放车辆与树木。【关键风险】右侧车道一辆银色MPV突然向左变道切入自车所在车道，未打转向灯，存在加塞风险。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "traffic_congestion",
+        "low_visibility"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】阴天，能见度稳定，无降水。【自车】在中间车道完成左转动作，进入交叉路口。【周围】路口中央有行人站立于人行横道旁，手持纸箱，面向自车方向，面部朝前，未移动；其后方有一辆黑色特斯拉正在右转。【交通设施】信号灯由红灯转为绿灯，允许直行和左转。【关键风险】行人未在绿灯时通行，且位于自车转弯路径上，若其突然横穿将构成碰撞风险；同时，右侧一辆深色SUV在绿灯亮起后加速左转，与自车存在路径冲突。",
+      "risk_tags": [
+        "pedestrian_crossing_risk",
+        "conflicting_turning_vehicles"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】阴天，光照均匀，无特殊天气现象。【自车】完成左转后，进入新路段，恢复匀速沿道行驶。【前方】多辆轿车在前方车道正常行驶，其中一辆白色轿车在左前方车道并线至自车所在车道。【左侧】对向车道有车辆排队等待，部分车辆在红灯前停车。【右侧】路边设有“LANE ENDS MERGE LEFT”黄色警示牌，提示车道合并。【非标物体】右侧人行道边缘有施工围挡与临时锥桶，但无施工车辆作业。【关键风险】左侧一辆银灰色轿车在未打转向灯情况下快速切入自车前方车道，属于违规加塞行为，迫使自车紧急减速避让。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "lane_merge_warning",
+        "emergency_braking"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "【环境】阴天，道路两侧树木枝叶稀疏，部分树叶呈黄褐色，显示秋季特征。【自车】保持中间车道匀速行驶，随道路曲线自然前进。【前方】一辆白色轿车在前方约30米处行驶，无异常行为。【左侧】一辆白色皮卡从左侧超车并切入自车所在车道，完成变道后继续前行。【右侧】路边设有“SCHOOL ZONE AHEAD”与“PEDESTRIAN CROSSING AHEAD”标志，提示前方学校区域。【关键风险】左侧皮卡变道时未充分观察后视镜，存在轻微视觉盲区风险，但未造成实际碰撞或紧急操作。",
+      "risk_tags": [
+        "close_passing",
+        "school_zone_warning"
+      ]
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "【环境】阴天，光线柔和，无降水或雾气。【自车】在中间车道维持匀速行驶，接近下一个十字路口。【前方】多辆轿车在前方有序通过绿灯路口，无异常行为。【左侧】可见“Trader Joe's”与“CVS Pharmacy”商业标识，表明临近居民区。【右侧】路边有白色临时围栏与“DO NOT BLOCK”警示牌，提示禁止停车阻塞通道。【非标物体】右侧人行道上有两名行人并排行走，朝向自车方向，但距离较远（>50米），无横穿意图。【关键风险】无显著风险，场景平稳，仅需注意前方路口可能的车流汇入。",
+      "risk_tags": []
+    }
+  ]
+}

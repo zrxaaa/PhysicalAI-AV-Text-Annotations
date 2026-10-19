@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:12:46",
+    "processing_time_seconds": 17.13
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车在双车道山路上匀速行驶，前方有两辆对向来车，右侧为岩石边坡和稀疏秋叶树木，天气阴沉，路面干燥无湿滑迹象。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "车辆驶入弯道，左侧出现多辆摩托车编队从对向车道快速驶过，随后一辆深色SUV和一辆皮卡相继超车，自车保持原速未变道。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "道路继续沿山体蜿蜒，右侧岩壁逐渐收窄，左侧林木茂密，远处可见山脊轮廓；对向车道车辆陆续驶离视野，自车平稳通过连续弯道。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "进入更急的左转弯道，路边出现黄色弯道警示标志，自车轻微转向以适应曲线，两侧山坡植被稀疏，部分区域裸露岩石，无其他交通参与者干扰。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "弯道接近尾声，道路恢复直行，两侧山势渐缓，视野开阔，自车继续保持稳定速度行驶，未见行人或突发障碍物，环境安静且交通流畅。"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.33,
+    "analysis_time": "2026-01-22 15:30:10"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "【环境】夜间行车，路灯照明充足，天空呈深蓝色渐变，无降水或雾气，能见度良好。【自车】位于中间车道，匀速沿弯曲道路前行，未进行变道或紧急制动。【周围车辆】右侧有一辆白色SUV（Jeep Grand Cherokee）与自车并行，保持稳定距离；前方有多辆轿车（含一辆深色SUV和一辆白色特斯拉Model Y）在各自车道内匀速行驶，无明显加减速行为。【交通设施】前方高架路牌显示“Terminals 3-4”、“EAST to 44th ST”、“202 / 143”，指示清晰；随后出现“WEST to 24th ST Downtown Phoenix Rental Car Center”及“PARK & WALK”等标识，引导至机场停车区。【交互关系】自车与右侧白色SUV无横向交互，未发生切出或切入；前方车辆均在本车道内行驶，无违规行为。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】继续夜间行车，路灯持续照明，无天气异常。【自车】仍位于中间车道，随道路曲率自然转弯，未变道。【周围车辆】右侧白色特斯拉Model Y从右后方超车并切入自车所在车道，完成变道动作，速度略高于自车；前方深色SUV维持原车道匀速行驶。【交通设施】通过大型龙门架路牌，明确指示前往Terminal 3/4、Rental Car Center及I-10/I-17方向。【交互分析】特斯拉完成向左变道，其切入路径位于自车右前方约5米处，但未影响自车行驶轨迹，属正常超车行为。无违规或危险意图。【关键风险】无显著风险，特斯拉变道虽快速但未侵入安全距离，未触发避让机制。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】夜间，道路两侧路灯密集，左侧为机场停车场区域，可见大量停放车辆及建筑轮廓；右侧为绿化带与低矮灌木。【自车】在接近路口时开始向左转向，进入通往Terminal 3/4的匝道，车头偏航角增大，完成左转动作。【周围车辆】前方及右侧车辆均同步转向或减速，配合自车路径调整。【交通设施】经过一个“ONE WAY”单行标志牌，提示该路段仅允许左转通行；同时可见“Airport Terminal Access”指示牌，确认目的地。【非标准物体】无特种车辆、动物或路面遗撒物。【关键风险】自车在转弯过程中，因视角受限，左侧停车场区域存在潜在“鬼探头”风险——有行人或骑行者可能从遮挡物后突然出现，但视频中未捕捉到任何此类目标。当前路段无施工锥桶或障碍物，整体通行秩序良好。",
+      "risk_tags": [
+        "turning_path_obstruction_risk",
+        "limited_view_area"
+      ]
+    }
+  ]
+}

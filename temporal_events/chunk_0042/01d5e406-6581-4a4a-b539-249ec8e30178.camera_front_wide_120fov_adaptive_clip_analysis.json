@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.57,
+    "analysis_time": "2026-01-21 23:08:10"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间暴雨，雨滴密集附着于挡风玻璃，形成大面积水膜与光晕干扰，能见度严重降低。【自车】位于中间车道，执行匀速沿道行驶，未见明显加速或减速。【前方】多辆汽车尾灯在雨幕中呈现模糊红光，因雨水反射与镜头畸变难以辨识具体车型。【交通设施】道路两侧路灯照明昏暗，左侧可见树木轮廓，右侧为低矮路肩与人行道边界。【关键风险】前方车辆因雨天制动距离延长，存在追尾风险；挡风玻璃水渍导致视觉信息丢失，增加感知延迟。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility",
+        "braking_distance_increase"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】雨势略有缓和，但路面积水仍严重，灯光反射加剧视觉干扰。【自车】保持中间车道匀速前行，车头方向随道路微弯调整，无转向动作。【前方】一辆白色轿车（疑似本田思域）从左后方切入当前车道，其刹车灯亮起，表明正在减速。【相对位置】该车位于自车左前侧，距离约15米，正向自车车道内移动。【交通设施】右侧出现一栋装饰有节日灯饰的住宅，路边设有“SPEED LIMIT 25”及“ONE WAY”标志牌，提示限速与单行。【关键风险】白色轿车未打转向灯即强行切入，构成“Aggressive Cut-in”，迫使自车紧急避让或制动，存在碰撞风险。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "un signaled_lane_change",
+        "emergency_braking_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】持续暴雨，挡风玻璃水渍分布不均，部分区域形成“光学扭曲”效应，使远处灯光呈星芒状扩散。【自车】维持当前车道，缓慢减速以应对前方车辆动态。【前方】白色轿车已完全切入自车前方车道，尾灯稳定亮起，表明其处于制动状态。【相对位置】该车位于自车正前方，距离约8-10米，车头朝向与自车一致，无变道意图。【非标物体】右侧路肩处可见一个白色垃圾桶，静置于人行道边缘，无移动迹象。【交通设施】道路右侧出现“NO PARKING ANYTIME”禁停标志，与前方住宅区相邻。【关键风险】虽无主动变道行为，但前车急刹可能导致自车追尾；同时，雨天湿滑路面增加制动距离，需保持安全车距。无“鬼探头”或动物等突发障碍物，整体风险可控但需持续监控。",
+      "risk_tags": [
+        "following_vehicle_braking",
+        "wet_road_condition",
+        "maintain_safe_distance"
+      ]
+    }
+  ]
+}

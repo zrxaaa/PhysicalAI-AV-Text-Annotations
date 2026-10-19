@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 07:49:12",
+    "processing_time_seconds": 17.87
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车沿直线道路平稳行驶，左侧出现橙白相间施工锥桶，右侧路边停有白色货车，树木茂密遮挡部分视野，路面标线清晰可见。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "前方出现一辆银色轿车从左侧车道驶入对向车道，自车保持原速避让，右侧草坪旁出现蓝色邮筒和A字形广告牌，无行人或突发障碍物。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "车辆接近一个左转路口，路面上出现左转箭头标识，右侧出现交通信号灯杆但未亮灯，自车维持直行轨迹，未见其他车辆或行人横穿。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "自车继续前行，前方路口出现红绿灯，当前为黄灯倒计时，两侧车道有静止车辆等待，右侧有“FOR LEASE”广告牌及小型商业建筑入口。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车在黄灯结束前完成通过路口，路面出现左转与直行分道标线，远处可见另一组交通信号灯及人行横道，无行人或紧急事件发生。"
+    }
+  ]
+}

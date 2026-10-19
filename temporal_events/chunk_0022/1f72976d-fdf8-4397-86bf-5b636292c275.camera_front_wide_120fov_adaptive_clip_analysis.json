@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 06:54:50",
+    "processing_time_seconds": 13.37
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在十字路口前停车等待红灯，前方多辆汽车正在左转或直行通过交叉口，右侧有施工围栏和红白相间的路障，信号灯为红色，天气晴朗，云层稀疏。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "信号灯转绿，自车前方车辆开始启动并左转，一辆银色轿车从左侧车道驶入直行车道，与自车路径发生交叉，右侧人行道上有行人站立但未横穿马路。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车起步沿直行方向前进，前方黑色SUV保持在相邻车道行驶，右侧路边停有银色商务车，交通信号灯持续绿灯，道路两侧设有橙色锥形桶和白色隔离护栏。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:18",
+      "scene_description": "自车继续沿直线车道行驶，右侧商铺前停放多辆私家车，前方车辆保持匀速，无明显变道或加速行为，道路左侧施工区域延伸至远处，天空云量增多但光线充足。"
+    },
+    {
+      "time_segment": "00:00:18-00:00:20",
+      "scene_description": "自车接近下一个路口，前方无显著障碍物，道路右侧出现小型商业建筑和广告牌，左侧车道有车辆缓慢行驶，整体交通流畅，无行人或突发事件。"
+    }
+  ]
+}

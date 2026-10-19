@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 04:33:15",
+    "processing_time_seconds": 11.75
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在晴朗天气下沿双黄线道路行驶，前方有一辆深色SUV保持匀速前行，道路两侧为落叶树木与住宅区，阳光强烈导致镜头眩光。右侧路边可见电线杆及少量积雪残留。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "一辆黑色SUV从左侧车道快速超车并入中间车道，自车未减速仍保持原速跟随前方SUV，道路右侧出现白色围栏和停靠车辆，无行人或其他动态障碍物。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:16",
+      "scene_description": "前方SUV逐渐减速，接近一个路口，自车随之缓行，道路右侧出现停止标志牌，但无其他车辆或行人进入交叉口，环境安静且视野开阔。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:20",
+      "scene_description": "前方SUV在路口处完全停下，自车亦跟随减速至停止状态，路口右侧有停车的车辆和交通标志，未见行人或横向移动车辆，整体场景平稳无突发交互。"
+    }
+  ]
+}

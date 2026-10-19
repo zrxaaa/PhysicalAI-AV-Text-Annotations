@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:45:49",
+    "processing_time_seconds": 15.58
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:02",
+      "scene_description": "自车在黄昏时分沿街道匀速行驶，道路两侧停满车辆，前方路口红灯亮起，左侧人行道有行人正在等待过街。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:06",
+      "scene_description": "信号灯转绿，行人开始穿越人行横道，其中一名穿深色外套的行人从右侧快速横穿至左侧车道，与自车路径交叉，同时左侧一辆白色SUV驶入画面并减速准备停车。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "多组行人陆续穿过斑马线，包括一对结伴行走的行人和一名牵狗的行人，自车保持静止等待，后方多辆汽车（含轿车、货车）在交叉口处依次通行或转向。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "行人基本通过完毕，交通信号灯仍为红灯，自车维持停车状态，右侧路边停放的白色SUV未移动，对向车道有车辆左转或直行通过路口。"
+    },
+    {
+      "time_segment": "00:00:18-00:00:20",
+      "scene_description": "信号灯转为绿灯，自车启动前行，左侧一名行人从人行道进入车道边缘，与自车路径短暂接近，但未发生冲突；远处车辆开始加速通过路口。"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.56,
+    "analysis_time": "2026-01-22 06:32:50"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "【环境】晴天，太阳位于正上方形成强烈眩光，路面干燥，能见度良好。【自车】在中间车道匀速沿直道行驶，未进行转向或变道。【周围交通参与者】左侧对向车道有白色轿车、银色皮卡等车辆交替驶过；右侧路边停有多辆私家车，沿街商铺（如“Hoff’s Lehigh”、“Carousel Cleaners”）清晰可见。【交通设施】道路两侧电线杆与路灯排列整齐，无明显障碍物。【关键风险】无显著风险，所有车辆均在合法车道内行驶，无违规行为或遮挡隐患。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "【环境】光照依旧强烈，但自车接近十字路口，前方交通信号灯开始显示红灯。【自车】维持当前车道，减速准备停车，纵向动作由匀速转为缓刹。【周围交通参与者】左前方交叉口处，一辆红色SUV从左侧支路驶入主路并右转；同时，一辆白色工程车（带吊臂）从左侧驶入路口，正在执行作业，其车身部分遮挡了左后方视野。【交通设施】前方为“Perry St”与“38th Ave”交叉口，设有标准交通信号灯组及人行横道标线。【关键风险】工程车作业时伸出吊臂，存在横向空间侵占风险；其位置处于自车盲区方向（左后侧），若突然加速或转向可能引发碰撞。此外，左转红灯下仍有车辆试图通行，构成潜在闯红灯风险。",
+      "risk_tags": [
+        "obstruction_by_construction_vehicle",
+        "blind_spot_risk",
+        "potential_red_light_violation"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】强逆光持续，阳光刺眼但未影响整体视野。【自车】已完全停止于停车线后，等待红灯。【周围交通参与者】左侧工程车完成左转动作，驶离路口；对向车道多辆汽车亦同步停车。右侧人行道边缘有行人站立，但未进入斑马线区域，无横穿意图。【非标物体】路口右侧空地有杂草丛生，无动物或遗撒物。【交通设施】信号灯保持红灯状态，倒计时牌未显示，但根据常规逻辑推断剩余等待时间约5-8秒。【关键风险】自车处于静止状态，无动态交互风险；但因工程车曾短暂占据左后方视野，存在“鬼探头”残留风险——需警惕其可能回转或突然启动。此外，路口右侧空地植被茂密，若有人突然从该区域出现，将构成突发遮挡威胁。",
+      "risk_tags": [
+        "ghost_probe_residual",
+        "static_obstacle_with_hidden_entry",
+        "signal_wait_risk"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.05,
+    "analysis_time": "2026-01-24 06:39:34"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】阴天，能见度良好，路面干燥但部分区域有施工泥泞。【自车】在中间车道匀速沿道行驶，前方为单向直行道路。【左侧】混凝土护栏与未完工的高架桥结构并行，上方有绿色钢结构支架。【右侧】金属围栏内为大型施工区，可见黄色挖掘机静止停放，吊臂收起，无作业动作。【交通设施】路侧设置红黄相间锥桶与临时围挡，引导车辆绕行施工区。【关键风险】无明显风险，但施工区域存在潜在障碍物（如散落物料），需保持安全距离。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:06-00:00:10",
+      "scene_description": "【环境】天空晴朗，光线充足，无降水或雾气。【自车】继续在中间车道匀速前行，接近交叉路口。【前方】出现橙色施工警示牌，文字为“Genomfart via Nils Ericssongatan avstängd, välj annan väg”，提示该路段封闭。【右侧】施工区内可见一台标有“MARSONS”的黄色挖掘机，其机械臂处于非作业状态，停放在围栏后方。【交通设施】道路标线清晰，设有左转箭头及直行指示。【关键风险】无直接碰撞风险，但警示牌提示前方路径变更，需注意后续导航或转向决策。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】光照稳定，无遮挡或天气异常。【自车】进入十字路口前减速，准备停车等待红灯。【前方】多组交通信号灯显示为红色，横跨道路的指示牌标明方向：HISINGEN、HOLMEN、E6/E20、E45/KARLSTAD、NORDSTAN。【右侧】一辆深灰色SUV从右前方切入直行车道，完成变道后驶入对向车道，未打转向灯，存在违规行为。【左侧】施工围栏延伸至路口边缘，围栏外可见多台塔吊及建筑工地，无行人或动物活动。【关键风险】右侧车辆违规变道（Aggressive Cut-in），可能引发交叉冲突；自车需保持制动以避免紧急避让。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "red_light_waiting",
+        "intersection_conflict"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】晴朗，视野开阔，无遮挡。【自车】在停止线前完全停车，等待红灯。【前方】交通信号灯持续红灯，横向车流（含一辆红色轿车）在对面车道等待通行。【右侧】一辆银灰色SUV从右方直行通过路口，未受红灯影响，疑似闯红灯或误判信号。【交通设施】人行横道清晰可见，路口设有斑马线与导向箭头。【关键风险】右侧银灰色SUV疑似闯红灯，存在严重碰撞风险；自车需保持静止并触发预警系统，防止突发移动目标冲入路口。",
+      "risk_tags": [
+        "red_light_violation",
+        "high_collision_risk",
+        "unpredictable_vehicle_behavior"
+      ]
+    }
+  ]
+}

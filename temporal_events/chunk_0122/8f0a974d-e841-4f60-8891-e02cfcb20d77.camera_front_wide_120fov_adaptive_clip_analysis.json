@@ -1,0 +1,38 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.98,
+    "analysis_time": "2026-01-23 09:27:38"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】黄昏时分，天空云层较厚，光线渐暗，无明显降水或雾气。【自车】在中间车道匀速沿道行驶，车头朝向道路前方曲率方向。【右侧】路边停放多辆卡车（含白色厢式货车与带吊臂的工程车），其中一辆工程车旁有穿红色上衣人员站立，未见作业动作。【交通设施】右侧路肩设有三角警示牌及“EIN”标识牌，提示前方为入口或施工区。【关键风险】右侧停车车辆占用部分路肩，存在非标准车辆临时停靠导致视野遮挡的风险；人员活动区域靠近行车道，存在潜在“开门杀”或突然横穿风险。",
+      "risk_tags": [
+        "occlusion_risk",
+        "uncontrolled_pedestrian_activity",
+        "non-standard_vehicle_parking"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】天色持续变暗，云层阴影加深，路灯尚未开启，仅靠车灯照明路面。【自车】保持在中间车道匀速直线行驶，随道路自然弯曲前行，未进行转向或变道。【两侧】道路两侧为茂密树木与草坡，左侧坡面较高，右侧坡面缓斜，无其他车辆或行人出现。【交通设施】沿途可见白色反光路桩，间距均匀，用于界定车道边界。【关键风险】无显著风险，但因天色昏暗、能见度下降，需警惕突发障碍物或动物从林间窜出；同时，道路两侧植被遮挡视线，存在“鬼探头”隐患。",
+      "risk_tags": [
+        "low_visibility_driving",
+        "vegetation_occlusion_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】接近夜幕，天空呈灰紫色，云层底部被夕阳余晖染红，光线极弱。【自车】维持当前车道匀速前进，车头稳定对准前方道路曲线。【前方】远处可见一座桥梁结构横跨道路，桥下无明显障碍物。【交通设施】桥体下方设有限高标志，但无动态交通信号。【非标物体】无特种车辆、动物或遗撒物出现。【关键风险】虽无直接威胁，但因环境光线急剧衰减，自车前照灯照射范围外区域无法识别潜在障碍；若前方有行人或动物从桥洞或林间突然出现，将构成严重碰撞风险。",
+      "risk_tags": [
+        "extreme_low_light",
+        "collision_risk_from_unseen_obstacles"
+      ]
+    }
+  ]
+}

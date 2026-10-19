@@ -1,0 +1,35 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.15,
+    "analysis_time": "2026-01-22 22:32:14"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，天空布满厚重灰云，光线昏暗，无明显降水但能见度偏低。【自车】位于中间车道，匀速沿直道行驶，未进行变道或转向。【左侧】对向车道有多辆轿车和皮卡正常通行，部分车辆快速驶过。【右侧】一辆白色Jeep Grand Cherokee从右后方超车并切入自车所在车道，完成变道动作，其尾灯亮起，表明正在加速。【交通设施】道路两侧设有金属护栏与绿化带，左侧可见多根高压电线杆沿路延伸。",
+      "risk_tags": [
+        "lane_change_by_other_vehicle",
+        "low_visibility"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】持续阴天，无降水，路面干燥，能见度稳定。【自车】保持在中间车道匀速行驶，未出现制动或转向。【前方】白色Jeep Grand Cherokee维持在前车位置，车距约30米，刹车灯未亮，表明无急刹行为。【左侧】对向车道车辆继续有序通行，无异常行为。【右侧】路边出现黄色菱形“注意前方交叉路口”警示牌，提示前方为十字路口。【交通设施】道路右侧有低矮围栏与灌木丛，远处可见多个电线杆及横跨道路的架空电缆。",
+      "comment": "此段无显著风险，车辆行为均符合常规驾驶模式，未检测到违规、遮挡或障碍物。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】天空仍阴沉，无降雨迹象，光照均匀但偏暗。【自车】在中间车道减速，准备进入前方交叉路口，车速由60km/h降至40km/h左右。【前方】多辆汽车（含皮卡、SUV）在交叉路口处排队等待红灯，其中一辆黑色皮卡在左转车道内缓慢移动，另一辆白色皮卡在直行道上静止。【右侧】路边出现小型商业标识牌，背景有树木与低矮建筑。【交通设施】前方路口设有红绿灯信号系统，当前显示为红灯；同时可见多个交通标志牌（如限速55mph、让行标志）。【关键风险】自车减速过程中，左侧车道有一辆白色皮卡突然向右变道，意图切入自车前方车道，但未打转向灯，存在潜在加塞风险（Aggressive Cut-in），需警惕紧急避让可能。",
+      "risk_tags": [
+        "red_light_waiting",
+        "aggressive_cut_in",
+        "intersection_approach_risk"
+      ]
+    }
+  ]
+}

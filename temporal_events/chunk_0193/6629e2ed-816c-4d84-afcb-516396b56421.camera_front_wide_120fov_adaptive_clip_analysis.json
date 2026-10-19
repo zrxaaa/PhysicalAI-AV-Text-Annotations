@@ -1,0 +1,57 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.14,
+    "analysis_time": "2026-01-24 12:23:47"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "【环境】夜间暴雨天气，雨滴密集附着于挡风玻璃，造成严重视觉模糊。车灯照射下形成大面积水雾反射，能见度极低。【自车】位于中间车道，匀速沿直线道路前行，未进行转向或变道。【交通设施】左侧为金属护栏，右侧为土坡与稀疏树木，无明显路标或信号灯。【关键风险】挡风玻璃水雾导致前方路面细节无法辨识，存在因视线受阻引发碰撞的高风险。",
+      "risk_tags": [
+        "heavy_rain",
+        "low_visibility",
+        "obstructed_vision"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】雨势略有缓和，但能见度仍受限，路面持续积水反光。【自车】保持在中间车道，随道路轻微左弯行驶，未跨越车道线。【周围交通】无其他车辆或行人可见，仅远处有零星路灯与广告牌轮廓。【交通设施】右侧出现自行车道标识（白色箭头+自行车符号），提示该路段允许非机动车通行。【关键风险】前方道路存在弯道，结合湿滑路面与低能见度，制动距离延长，潜在失控风险上升。",
+      "risk_tags": [
+        "wet_road",
+        "curved_road",
+        "reduced_braking_efficiency"
+      ]
+    },
+    {
+      "time_segment": "00:00:09-00:00:12",
+      "scene_description": "【环境】进入桥梁区域，右侧出现金属护栏，左侧为树林与土坡。雨势未减，路面反光加剧。【自车】维持中间车道匀速行驶，车头偏航角随道路左转平缓调整。【交通设施】右侧护栏旁出现多个白色柱状物（疑似警示桩），前方约50米处有绿色发光指示牌（内容模糊不可辨）。【关键风险】桥梁区域风力可能增强，伴随路面湿滑，车辆侧向稳定性下降；前方指示牌亮度异常，可能为故障或误导信息，增加导航误判风险。",
+      "risk_tags": [
+        "bridge_area",
+        "wind_effect_potential",
+        "faulty_signage_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:16",
+      "scene_description": "【环境】继续沿桥面行驶，左侧树木密度增加，右侧护栏延伸至视野尽头。【自车】保持当前车道，沿道路右转弧度行驶，横向位置稳定。【周围交通】无其他车辆或行人活动。【交通设施】右侧护栏外出现黄色消防栓（静止状态），位于路边安全区域。【关键风险】桥面结构可能导致风切变，影响车辆操控；消防栓虽无移动风险，但若被雨水冲刷或遮挡，可能影响紧急救援通道识别。",
+      "risk_tags": [
+        "wind_shear_potential",
+        "static_object_obstruction_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "【环境】雨势再次增强，挡风玻璃水珠增多，部分区域出现“水幕”效应。【自车】在中间车道保持匀速前进，道路曲率趋于平缓。【交通设施】前方路面出现连续黄色凸起导向标，引导车辆沿曲线行驶。【关键风险】极端降雨导致视线进一步恶化，路面水膜可能引发打滑；导向标因雨水反光易被误读，增加路径偏离概率。",
+      "risk_tags": [
+        "intensified_rainfall",
+        "hydroplaning_risk",
+        "guidance_marker_confusion"
+      ]
+    }
+  ]
+}

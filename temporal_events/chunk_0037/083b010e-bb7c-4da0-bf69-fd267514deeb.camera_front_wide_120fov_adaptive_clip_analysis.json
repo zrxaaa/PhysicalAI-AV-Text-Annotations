@@ -1,0 +1,43 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 21.25,
+    "analysis_time": "2026-01-21 21:00:06"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】晴朗白天，光照充足，无异常天气。【自车】在中间车道匀速沿道行驶，未进行转向或变道。【右侧】停放一辆红色Mini Cooper，后方紧邻橙色‘ROAD WORK AHEAD’施工警示牌及多个锥桶，提示前方有施工区域。【左侧】可见木栅栏、灌木丛及远处白色货车停靠于路边。【交通设施】右侧施工区域由锥桶与警示牌围挡，无明显作业车辆或人员活动，但存在潜在施工干扰风险。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】晴天，道路两侧绿树成荫，部分区域出现树影遮挡。【自车】保持中间车道匀速前进，随道路微弯自然行进。【左侧】一辆白色厢式货车（Nissan NV200）停靠于路肩，车身横跨部分车道边缘，未完全驶离行车道。【右侧】一辆银色小型SUV（Toyota Sienna）停于住宅前人行道旁，未影响主路通行。【非标物体】前方施工区域锥桶间距逐渐加密，暗示施工范围延伸。【关键风险】左侧货车虽静止，但其位置侵占部分车道空间，若自车加速或变道可能引发剐蹭；同时，前方施工区无明确作业人员或设备，存在“隐性障碍”风险。",
+      "risk_tags": [
+        "partial_lane_obstruction",
+        "hidden_hazard"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】阳光直射，部分路段因树冠投射阴影形成明暗交替。【自车】继续沿中间车道匀速前行，车头偏航角随道路曲线平缓调整，无转向动作。【右侧】出现一个橙色‘WORKER WITH FLAG’警示牌，旁边立有橙色锥桶，一名身穿反光背心的工人短暂出现在树后，手持指挥旗，正引导交通。【左侧】绿化带修剪整齐，无行人或动物活动。【交通设施】施工警示牌从‘ROAD WORK AHEAD’切换为‘BE PREPARED TO STOP’，并配以锥桶阵列，表明前方即将进入需减速或停车的施工段。【关键风险】工人位于道路右侧边缘，视线易被树木或停放车辆遮挡，存在‘鬼探头’风险；同时，警示牌与锥桶组合提示自车需提前准备制动，若反应延迟可能导致追尾或碰撞。",
+      "risk_tags": [
+        "worker_in_traffic_zone",
+        "ghost_probe_risk",
+        "braking_preparation_required"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】晴空万里，视野开阔，无遮挡物。【自车】保持中间车道匀速行驶，通过轻微右转弧线进入下一段直路。【前方】道路两侧为高档住宅区，围墙高大，绿化精致，无行人或施工活动。【交通设施】前方设置‘BE PREPARED TO STOP’警示牌，下方配有橙色锥桶，但无实际作业车辆或人员。【非标物体】右侧一户住宅门前设有砖砌门柱，门柱旁有红色花丛，未对行车造成影响。【关键风险】虽然警示牌持续存在，但现场无任何施工行为，可能存在误导性标识；若驾驶员过度依赖警示牌而忽略实际路况，可能在无必要时紧急制动，引发后车追尾事故。",
+      "risk_tags": [
+        "misleading_signage",
+        "unnecessary_braking_risk"
+      ]
+    }
+  ]
+}

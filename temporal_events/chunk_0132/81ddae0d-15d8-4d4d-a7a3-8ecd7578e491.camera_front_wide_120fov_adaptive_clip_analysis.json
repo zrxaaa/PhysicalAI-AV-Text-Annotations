@@ -1,0 +1,48 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.47,
+    "analysis_time": "2026-01-23 14:10:39"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间行车，路面湿滑反光严重，无路灯照明，仅靠车灯照明。【自车】在中间车道匀速沿道行驶，未见明显转向或制动。【左侧】一辆大型黄色半挂货车从左前方超车，完成变道后驶离视野；其车身高度与自车接近，存在视觉遮挡风险。【交通设施】道路右侧为草地路肩，设有白色轮廓桩，无明显标线或指示牌。【关键风险】货车超车时速度较快，且车身宽大，在湿滑路面易产生水雾干扰视线，存在侧滑或失控风险。",
+      "risk_tags": [
+        "wet_road",
+        "high_speed_crossing_vehicle",
+        "visibility_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】持续夜间湿滑路面，能见度低，远处有车辆灯光形成光晕。【自车】保持中间车道匀速直线行驶，车头方向随道路微弯调整，未发生变道。【前方】对向车道有多辆汽车迎面驶来，包括一辆红色轿车和一辆白色面包车，均保持正常行驶轨迹。【右侧】路肩草坡被车灯照亮，无明显障碍物。【非标物体】无动物、施工车或遗撒物出现。【关键风险】对向车流密集，部分车辆灯光刺眼，可能造成短暂视觉眩晕，影响判断前方路况。",
+      "risk_tags": [
+        "low_visibility",
+        "headlight_glare",
+        "dense_traffic"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】道路进入一段较暗区域，两侧植被浓密，无路灯补光。【自车】维持中间车道匀速行驶，车速稳定，未见转向或减速。【左侧】一辆白色SUV从左前侧快速超越，完成切出动作后回归原车道；其尾灯亮起，表明刹车状态轻微。【右侧】路边出现限速40的圆形交通标志牌，位于路肩外侧，无其他设施。【关键风险】SUV超车时距离自车过近（约15米），虽未违规，但高速下突然切入存在潜在碰撞风险，尤其在湿滑路面制动距离延长的情况下。",
+      "risk_tags": [
+        "close_passing_vehicle",
+        "wet_braking_distance_increase"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】夜色更深，道路两侧几乎全黑，仅靠车灯照明。【自车】继续在中间车道匀速前行，车头随弯道自然偏转，未进行主动转向。【前方】远处可见数辆卡车及轿车尾灯，呈队列状缓慢行驶，疑似拥堵或缓行路段。【右侧】路肩草坡因车灯照射呈现绿色荧光，无异常物体。【非标物体】无动物、施工车或遗撒物。【关键风险】前方车队车距极近，若自车未保持足够安全距离，可能发生追尾事故；同时，夜间疲劳驾驶风险升高，需警惕注意力下降导致误判。",
+      "risk_tags": [
+        "traffic_jam_proximity",
+        "fatigue_risk",
+        "reduced_reaction_time"
+      ]
+    }
+  ]
+}

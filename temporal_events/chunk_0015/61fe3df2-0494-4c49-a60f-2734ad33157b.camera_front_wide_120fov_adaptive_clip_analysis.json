@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 04:29:50",
+    "processing_time_seconds": 13.41
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在十字路口左转，前方一辆蓝色轿车从右侧车道驶过，同时左侧人行道有行人正在横穿马路。道路两侧停满车辆，树荫遮蔽部分路面，阳光透过树叶形成斑驳光影。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "自车沿街道直行，右侧多辆汽车并排停放，左侧有白色SUV和黑色轿车驶入对向车道。前方远处可见行人正在穿越人行横道，道路标线清晰，无明显障碍物或施工区域。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "自车接近一个设有‘STOP’标记的交叉路口，前方有两名行人正在从右侧人行道横穿马路，其中一人携带购物袋。自车减速并在停止线前停车，等待行人完全通过。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "行人完成穿越后，自车启动继续前行，前方路口无其他车辆阻碍，道路畅通。右侧人行道上有两名行人并肩行走，路边设有户外咖啡座和遮阳伞，环境宁静有序。"
+    }
+  ]
+}

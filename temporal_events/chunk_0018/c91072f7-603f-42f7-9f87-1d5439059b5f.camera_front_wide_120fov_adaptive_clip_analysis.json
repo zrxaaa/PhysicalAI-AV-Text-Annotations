@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 05:29:36",
+    "processing_time_seconds": 11.85
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "一辆红色轿车从左侧快速超车并驶离，同时右侧路边有黑色SUV驶入车道，自车保持当前车道匀速行驶，未进行转向或制动操作。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "一辆白色面包车从右侧驶出并左转进入支路，同时自车继续缓慢前行至停止线前，前方银灰色轿车已完全停下，红灯持续亮起，无行人出现。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "雨雾环境导致视野模糊，自车与前方车辆间距约10米，未发生任何变道或加速行为，所有车辆均处于静止或低速状态，无紧急事件发生。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "整个场景维持静态等待状态，无新交通参与者加入，自车未启动，周围车辆均未改变位置或速度，环境条件未改善，雨雾持续影响能见度。"
+    }
+  ]
+}

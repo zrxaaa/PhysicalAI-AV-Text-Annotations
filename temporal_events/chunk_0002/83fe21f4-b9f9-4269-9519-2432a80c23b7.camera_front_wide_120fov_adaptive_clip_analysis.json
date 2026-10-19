@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:31:16",
+    "processing_time_seconds": 13.57
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "夜间行驶于居民区街道，自车匀速前进，前方道路右侧出现一只白色动物横穿马路，自车减速避让。左侧路边停放多辆汽车，路灯提供局部照明，路面标线清晰可见。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:11",
+      "scene_description": "动物安全通过后，自车继续前行，前方右侧出现一辆红色轿车从路边驶出并汇入车道，与自车形成短暂并行。左侧出现一辆白色皮卡停靠在路边，未影响自车路径。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:15",
+      "scene_description": "自车保持直行，前方远处有车辆尾灯闪烁，疑似刹车或等待信号。道路两侧分布蓝色垃圾桶和住宅，无行人或其他动态障碍物。自车未进行转向或变道操作。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "前方右侧出现一辆白色轿车从停车位驶出，缓慢并入车道，与自车保持安全距离。道路两侧房屋灯光亮起，环境安静，无其他交通参与者进入视野范围。"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 20.3,
+    "analysis_time": "2026-01-23 12:31:15"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】持续阴雨天气，路面湿滑积水严重，反射车灯形成强烈眩光。【自车】位于中间车道，匀速沿直线道路前行，未进行转向或变道。【左侧】对向车道有数辆轿车迎面驶来，车流密集但无异常行为。【右侧】路边停放多辆私家车，其中一辆红色小型车在停车后突然启动并加速向左切入自车前方车道（Aggressive Cut-in），导致自车紧急制动。【关键风险】右侧突发车辆强行切入，存在碰撞风险；路面反光干扰视觉感知，增加避让难度。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "heavy_rain",
+        "low_visibility_reflection"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】雨势略有减弱，但仍为阴天，能见度中等偏低。【自车】保持中间车道匀速行驶，随道路轻微左转弯曲。【左侧】路边绿化带后方可见白色厢式货车静止停放，未影响通行。【右侧】一辆白色SUV从后方超车并切入自车右前方车道，完成变道动作后继续向前行驶。【交通设施】道路两侧设有“限速40”标志牌及停车区标识，路边垃圾桶与广告柱清晰可见。【关键风险】右侧车辆变道未充分观察，存在潜在剐蹭风险；部分路段因树木遮挡，视线受限。",
+      "risk_tags": [
+        "lane_change_with_insufficient_clearance",
+        "partial_obstruction_by_trees"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】持续阴雨，天空灰暗，路面水迹明显，部分区域有积水反光。【自车】在中间车道沿弯道平稳行驶，车头偏航角随道路曲率调整。【前方】远处可见多栋住宅楼，建筑风格统一，屋顶为红瓦结构。【右侧】一辆黑色轿车在自车右前方约15米处减速，疑似准备靠边停车。【左侧】对向车道有车辆驶过，车灯在湿滑路面上形成拖影。【非标物体】道路右侧人行道旁有一名骑摩托车者，身穿深色雨衣，正沿路边缓慢行驶，未进入机动车道。【关键风险】右侧车辆减速意图不明，可能引发自车误判；摩托车在湿滑路面行驶，存在打滑风险。",
+      "risk_tags": [
+        "unclear_vehicle_intent",
+        "motorcycle_risk_on_wet_surface"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】雨势稳定，路面持续湿润，能见度维持中等水平。【自车】保持中间车道匀速行驶，通过一个缓弯路段。【左侧】对向车道有数辆汽车正常通行，无异常行为。【右侧】一辆银灰色轿车在自车右前方约20米处突然加速并试图超越，随后切入自车前方车道，完成变道。【交通设施】道路两侧设有“禁止停车”标志及电车架空线缆，部分路段有充电桩设施。【关键风险】右侧车辆加速变道行为具有突发性，虽未造成碰撞，但增加了跟车距离压缩的风险；电车线路横跨道路，对大型车辆通行构成潜在限制。",
+      "risk_tags": [
+        "sudden_acceleration_and_lane_change",
+        "overhead_power_line_obstruction"
+      ]
+    }
+  ]
+}

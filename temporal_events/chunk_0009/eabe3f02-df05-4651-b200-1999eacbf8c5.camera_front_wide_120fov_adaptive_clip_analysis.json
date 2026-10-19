@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 02:34:23",
+    "processing_time_seconds": 12.22
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在晴朗天气下沿双向四车道道路平稳行驶，右侧一辆红色皮卡驶离，前方黑色轿车保持同向行驶，道路两侧有住宅和行道树，无显著障碍物或行人。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "前方路口交通信号灯由绿转红，自车减速准备停车，左侧白色货车与右侧黑色轿车同时在交叉口前停下，路边可见棕榈树与低矮灌木，无行人活动。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:13",
+      "scene_description": "自车在红灯前静止等待，左侧横向车道有白色面包车与红色小型车依次通过路口，右侧黑色轿车保持原位未动，远处可见多辆对向车辆在等待通行。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "红灯持续亮起，自车仍停于交叉口前，左侧白色皮卡与红色轿车在左转车道等待，右侧黑色轿车轻微调整位置但未移动，背景中可见高大乔木与住宅区边界。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车继续等待红灯，前方路口无新增车辆或行人，对向车道有灰色SUV缓慢驶近，信号灯仍未变绿，环境安静，阳光充足，路面干燥清晰。"
+    }
+  ]
+}

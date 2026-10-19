@@ -1,0 +1,43 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.78,
+    "analysis_time": "2026-01-24 10:05:20"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，天空灰蒙，能见度中等，无明显降水或雾气。路面干燥，无积水反光。【自车】位于中间车道，匀速沿直道前行，未进行转向或变道。【左侧】对向车道有银色SUV（Kia Soul）和白色面包车（Ford Transit）依次驶过，均保持正常行驶轨迹，无切入意图。【右侧】路边停放一辆黑色轿车，后方有一辆灰色皮卡（Toyota Tacoma）正从停车位缓慢驶出，车身部分侵入行车道，但未影响自车通行。【交通设施】道路两侧为多层住宅楼与商铺，路侧设有绿色自行车道及白色标线停车区。【关键风险】无显著违规或危险行为，但皮卡从停车位驶出时未充分观察来车，存在潜在“开门杀”或切入风险，需保持警惕。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】天气持续阴沉，光线均匀，无强逆光或遮挡。【自车】保持中间车道匀速行驶，随道路轻微左弯平缓转向。【右侧】一名身穿荧光黄背心的施工人员站在一辆白色工程卡车旁，手持工具，面向道路方向，未移动；其后方停着一辆红色轿车。【左侧】对向车道有银色轿车（Lexus ES）和深灰色SUV（Subaru Outback）先后驶过，均在各自车道内正常行驶。【交通设施】前方路口出现黄色菱形“自行车优先”标志牌，提示机动车需礼让。【关键风险】施工人员站立于路边，虽未进入行车道，但其位置靠近车道分界线，若后续车辆急刹或变道可能引发碰撞；同时，工程车车身占据部分右转车道，影响右转车辆通行效率，存在潜在交互冲突。",
+      "risk_tags": [
+        "construction_worker_presence",
+        "partial_lane_blockage"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】道路继续左转，视野逐渐开阔，远处可见山丘轮廓。【自车】沿弯曲道路行驶，车头偏航角随弯道调整，保持在中间车道内。【左侧】一辆银色皮卡（Chevrolet Silverado）从左侧邻近车道超车并完成切出，动作流畅，未对自车造成干扰。【右侧】路边停放多辆私家车，包括一辆深灰色SUV（Toyota C-HR），车尾朝向道路，无动态行为。【交通设施】前方路口设有“MOTOR VEHICLES YIELD TO PEDESTRIANS”警示牌，以及人行横道标线。【关键风险】无直接碰撞威胁，但弯道处视线受树木和建筑遮挡，存在“鬼探头”隐患；另，右侧停车区域车辆密集，若有人突然从车后走出，将构成高风险场景。",
+      "risk_tags": [
+        "blind_spot_risk",
+        "pedestrian_emergence_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】接近交叉路口，天空仍阴沉，能见度良好。【自车】在中间车道减速准备通过路口，前方绿灯亮起，交通信号系统正常运作。【前方】对向车道有多辆车正在等待或通过路口，包括一辆黑色本田CR-V和一辆浅绿色轿车（Honda Civic）。【右侧】路口设有绿色自行车专用道，地面标有“ONLY”箭头，指示直行专用车道。【交通设施】路口配备标准交通信号灯、人行横道、导向箭头及“LEASING”商业广告牌。【关键风险】自车即将进入交叉口，需注意对向车辆是否抢行；右侧自行车道与机动车道交汇处，若骑行者未遵守“只允许直行”规则，可能与自车发生冲突；此外，部分车辆在绿灯亮起后仍未完全通过路口，存在“滞留车流”风险，可能导致自车被迫紧急制动。",
+      "risk_tags": [
+        "intersection_conflict",
+        "bicycle_rule_violation_potential",
+        "stalled_traffic_in_intersection"
+      ]
+    }
+  ]
+}

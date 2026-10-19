@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 07:48:07",
+    "processing_time_seconds": 14.79
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车沿有轨电车轨道的街道行驶，右侧路边停有多辆汽车，一名行人从右侧人行道走向前方路口，天空阴沉，路面干燥，无明显交通信号灯或标志影响当前车流。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "车辆接近十字路口，路旁出现‘Mount Vernon’路牌及人行横道标志，一名穿深色外套的行人正在人行道上行走，自车减速准备停车，对向车道有车辆驶过，未见红绿灯控制。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车在路口前完成停车，右侧路边停放多辆私家车，包括SUV与轿车，左侧对向车道有车辆驶来，道路两侧有住宅建筑和围栏，天气持续阴天，无明显能见度下降。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车启动继续前行，右侧车道紧邻一排停放车辆，包括皮卡、轿车和SUV，左侧对向车道有车辆交替驶过，道路呈缓坡向上延伸，上方电线密集交错。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "车辆驶入更密集的住宅区街道，右侧为多层公寓楼，路边停满车辆，左侧对向车道有白色皮卡车驶过，整体环境安静，无行人突然横穿或突发障碍物。"
+    }
+  ]
+}

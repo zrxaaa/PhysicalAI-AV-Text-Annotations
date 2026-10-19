@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 05:59:38",
+    "processing_time_seconds": 13.66
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在多车道公路上匀速行驶，右侧车道有一辆灰色轿车和一辆深色轿车先后从右向左变道，前方有多辆轿车保持同向行驶，天空阴云密布但光线充足，路面干燥无积水。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:09",
+      "scene_description": "车辆接近十字路口，交通信号灯为绿灯，右侧有白色轿车驶入右转车道准备转弯，左侧对向车道有车辆直行通过，道路两侧设有高杆路灯和绿化带，无行人出现。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:12",
+      "scene_description": "自车在路口前减速，前方交通信号灯由绿转黄，随后变为红灯，车辆在停止线前平稳停车，右侧路边停放多辆皮卡和轿车，未见行人或非机动车活动。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "信号灯转为绿灯后，自车启动前行，前方有一辆白色厢式货车在中间车道行驶，左侧对向车道有数辆轿车交错驶过，道路两侧树木与灌木丛生，无明显障碍物。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车继续沿直线车道行驶，前方货车保持匀速，左侧车道有车辆超车并汇入当前车道，右侧路肩有棕榈树和低矮灌木，天气仍阴沉但无降雨迹象，路面状况良好。"
+    }
+  ]
+}

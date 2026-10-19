@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 06:23:00",
+    "processing_time_seconds": 11.36
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "夜间行车，自车在环岛路口左转，前方有黄色菱形预告标志和直行箭头指示牌，右侧车道有红色尾灯车辆正在等待或缓慢行驶。道路两侧有路灯照明，左侧为混凝土护栏，右侧为植被与围栏。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "自车完成左转后进入主干道，沿双黄线向前行驶，前方有多辆红色尾灯车辆保持安全距离行驶。左侧出现高架桥结构，右侧为树木与围栏，路灯持续提供照明，能见度良好。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "自车继续沿直线道路行驶，左侧出现低矮建筑与电线杆，右侧树木密集。路面标有“KEEP CLEAR”字样，提示保持车道畅通。前方车辆维持匀速，无明显加速或减速行为。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "自车接近一个交叉路口，路面上方有“KEEP CLEAR”和“CROSSWALK”字样，前方车辆仍在行驶中但逐渐减速。道路两侧树木遮挡部分视野，路灯照明下仍可清晰识别车道线与交通标识。"
+    }
+  ]
+}

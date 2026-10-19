@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.25,
+    "analysis_time": "2026-01-24 14:51:59"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天多云，天空云层较厚但无降水，能见度良好。【自车】位于中间车道，匀速沿直道行驶，未进行变道或转向。【左侧】路边有绿化带、灌木丛及商业广告牌（含星巴克、Burger King等），一辆银色皮卡在右侧车道同向行驶，保持稳定距离。【交通设施】前方出现蓝色“EXIT 208”指示牌，提示出口方向及餐饮服务；随后出现绿色高速路指示牌，标明“I-17 NORTH Flagstaff”与“Frontage Rd”。【关键风险】无明显风险，车辆均按规行驶，无违规行为或遮挡物。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】光照条件稳定，部分区域受云影影响产生轻微明暗变化。【自车】保持中间车道匀速行驶，随道路微弯向前。【左侧】出现黄色“Lane Ends”警示牌，提示前方车道合并；同时可见远处有电力塔和高压线。【右侧】停车场内停放多辆私家车，后方为多层停车楼及商业建筑。【交通设施】接近交叉路口，上方悬挂“ONE VEHICLE PER GREEN EACH LANE”限行标志，配合红绿灯系统。【关键风险】无显著风险，但需注意前方车道合并区域，潜在切出或加塞行为可能发生。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】光线增强，部分区域出现强逆光，导致远处景物略显模糊。【自车】进入多车道高速公路主路，仍保持中间车道匀速行驶。【左侧】对向车道车流密集，包括一辆红色SUV、一辆白色皮卡拖曳船体（船体上有“Snap-on”字样）；右侧为混凝土护栏与铁丝网围栏，后方有酒店式建筑（Sign: “Days Inn”）。【非标物体】左侧对向车道中，一辆拖船的白色皮卡正缓慢行驶，车身高度异常，可能影响侧向安全距离。【关键风险】拖船车辆占用较大横向空间，存在潜在剐蹭风险；同时，对向车道车流密集，若发生紧急制动易引发连锁反应。",
+      "risk_tags": [
+        "wide_vehicle_obstacle",
+        "high_traffic_density"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】天气晴朗，云层稀薄，阳光充足。【自车】维持中间车道匀速行驶，道路呈轻微上坡趋势。【左侧】对向车道车流量大，包括一辆红色皮卡、一辆白色SUV及拖曳船只的皮卡；右侧为隔离护栏与人行通道，远处可见行人活动。【交通设施】前方为高架桥入口，设有“Arizona Canal”指示牌及交通信号灯。【关键风险】无直接碰撞风险，但右侧人行通道有行人活动，且自车与右侧护栏间距极小（<1.5米），若遇突发刹车或转向，存在刮擦护栏或撞击行人的可能性。此外，拖船车辆持续在左侧行驶，其宽度超出常规车道标准，构成非标准障碍物。",
+      "risk_tags": [
+        "narrow_clearance_risk",
+        "non_standard_vehicle_obstacle",
+        "pedestrian_proximity"
+      ]
+    }
+  ]
+}

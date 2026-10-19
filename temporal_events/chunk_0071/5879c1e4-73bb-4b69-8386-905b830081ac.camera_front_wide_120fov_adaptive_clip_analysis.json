@@ -1,0 +1,36 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.07,
+    "analysis_time": "2026-01-22 11:57:21"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，阳光强烈导致镜头眩光，路面干燥无积水。【自车】位于中间车道，匀速沿直道行驶。【左侧】一辆银色SUV在邻近车道并行，随后向左变道超车；其后方有一辆黑色皮卡紧随。【右侧】沿街停放多辆轿车与货车，人行道上有行人行走，部分行人正横穿路口。【交通设施】前方路口信号灯为绿灯，路牌显示“Wynkoop St”，道路标线清晰。【关键风险】左侧银色SUV变道动作迅速，未打转向灯，存在切出（Cut-out）风险，但未进入自车车道，暂无直接碰撞威胁。",
+      "risk_tags": [
+        "un signaled_lane_change",
+        "crossing_pedestrian"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】光照稳定，无遮挡，视野开阔。【自车】保持中间车道匀速前行。【右侧】路边停放多辆白色皮卡及厢式货车，其中一辆印有“NORTHEAST SEAFOOD PRODUCTS”字样，处于静止状态。【左侧】对向车道车辆有序通行，包括一辆深色SUV和一辆小型轿车。【非标物体】无动物、施工设备或遗撒物。【交通设施】通过交叉口后，前方可见“18th St”路牌，交通信号灯持续绿灯。【关键风险】无显著风险，但右侧货车停靠位置较近，存在开门杀（Open Door）潜在风险，尤其当行人靠近时。",
+      "risk_tags": [
+        "parked_vehicle_open_door_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】阳光依旧强烈，部分区域出现阴影。【自车】维持中间车道匀速行驶，接近前方路口。【前方】一辆黑色SUV在自车正前方行驶，保持安全距离。【左侧】一辆红色SUV从支路驶入主路，向右切入当前车道方向，但未完全进入，随即减速避让。【右侧】一名行人从停靠货车旁走出，沿人行道向路口移动，未横穿马路。【交通设施】前方路口设有红绿灯与人行横道，当前为绿灯放行。【关键风险】左侧红色SUV的切入行为属于“Aggressive Cut-in”，虽未完成变道，但增加了横向交互不确定性，需注意紧急制动准备。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "crossing_pedestrian_nearby"
+      ]
+    }
+  ]
+}

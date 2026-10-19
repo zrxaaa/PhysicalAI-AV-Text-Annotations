@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 03:53:52",
+    "processing_time_seconds": 17.01
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车沿直线道路平稳行驶，前方可见红底黑图案的菱形交通标志，两侧为住宅区，树木繁茂，天气晴朗，路面干燥无积水。右侧人行道上有一辆黑色SUV停靠，未影响自车路径。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "自车继续直行，左侧出现一名行人正在清扫路边，随后一辆黑色SUV从左侧驶入画面并缓慢向前移动，与自车保持平行但未发生交互，道路两侧停放多辆私家车，无明显障碍物。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "自车接近一个T字路口，右侧停有一辆深色皮卡车，左侧房屋前有蓝色垃圾桶，远处可见教堂尖顶。自车减速准备右转或直行，未见其他车辆或行人突然横穿。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "自车在路口处轻微转向，右侧出现围栏和空地，左侧为低矮住宅，无行人活动。前方道路开阔，视野良好，未见信号灯或紧急车辆，环境安静平稳。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车继续沿路直行，接近下一个交叉口，前方可见黄色“SCHOOL”警示牌，道路两侧房屋间距增大，绿化带增多，无显著动态交通参与者，整体场景稳定安全。"
+    }
+  ]
+}

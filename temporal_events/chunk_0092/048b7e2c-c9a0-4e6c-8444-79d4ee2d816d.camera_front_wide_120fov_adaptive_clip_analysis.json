@@ -1,0 +1,41 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.69,
+    "analysis_time": "2026-01-22 21:02:59"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间行车，路灯照明充足，无明显天气异常。【自车】在中间车道匀速沿直道行驶。【前方】一辆银色轿车位于右前方邻车道，保持匀速；其后方有一辆红色SUV。【右侧】路侧出现“PHOENIX RUBBER STAMP”广告牌及“Ez Trip”便利店，交通设施完整，信号灯为绿灯。【交互】银色轿车在接近十字路口时向右变道，未见转向灯提示，但未影响自车路径。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】道路两侧路灯均匀分布，能见度良好。【自车】保持中间车道匀速行驶。【右侧】经过“Circle K”加油站，油价牌清晰可见（3.789美元/加仑），加油站内有车辆进出。【左侧】工业厂房区域，无行人或非机动车活动。【关键风险】无显著风险行为，但右侧加油站入口处有车辆突然启动并切入主路，存在潜在切出风险，未实际发生碰撞。",
+      "risk_tags": [
+        "potential_cut_out"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "【环境】道路进入住宅与商业混合区，路灯间距增大，局部光线略暗。【自车】维持中间车道匀速行驶。【右侧】出现“SMOKE SHOP”、“BEER & WINE”、“TAQUERIA”等招牌，路边有行人站立于人行道边缘，面向街道，未横穿马路。【左侧】一辆红色SUV从左后方超车并切入自车所在车道，完成变道动作，未开启转向灯，存在轻微违规切道风险。【交通设施】路旁设有“40 MPH”限速标志，当前车速低于限速。",
+      "risk_tags": [
+        "illegal_lane_change",
+        "close_proximity_passing"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】进入低密度住宅区，路灯稀疏，部分路段无照明。【自车】在中间车道匀速行驶，随道路微弯前行。【右侧】出现多栋两层住宅楼，门前有棕榈树和灌木丛，无行人活动。【左侧】远处可见对向车道车辆灯光，但距离较远，无直接交互。【关键风险】因路灯不足，视野受限，存在遮挡盲区；右侧住宅区围墙后可能隐藏突发行人或动物，需提高警惕。无已发生的危险行为。",
+      "risk_tags": [
+        "low_light_risk",
+        "occlusion_potential"
+      ]
+    }
+  ]
+}

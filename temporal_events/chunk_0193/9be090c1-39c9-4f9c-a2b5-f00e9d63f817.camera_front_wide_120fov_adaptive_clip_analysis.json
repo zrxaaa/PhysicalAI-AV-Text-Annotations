@@ -1,0 +1,51 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.77,
+    "analysis_time": "2026-01-24 12:27:18"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】晴天，阳光直射导致右侧部分区域出现眩光，路面干燥，能见度良好。【自车】位于中间车道，初始处于停车状态，随后缓慢起步。【左侧】一辆红色路虎揽胜运动版（Range Rover Evoque）从左前方邻车道切入至自车正前方，完成变道动作。【右侧】一辆绿色厢式货车（Turtle Bay Chemists）在右侧行驶，车身贴有彩色涂鸦，未发生交互。【交通设施】前方为十字路口，地面标有“ONLY”字样，交通信号灯为绿灯，允许直行。",
+      "risk_tags": [
+        "lane_change",
+        "slow_start"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】光照稳定，无明显天气异常。【自车】保持匀速沿中间车道前行，未进行横向移动。【前方】红色路虎持续在自车正前方行驶，车距稳定。【左侧】一辆灰色SUV（Chevrolet Tahoe）从左后方超车并切入自车左侧车道，完成切出动作。【右侧】路边停放多辆货车，包括白色邮政车和工程车，未对行车造成干扰。【交通设施】进入“ONLY BUS”公交专用道区域，但自车未进入该车道，保持在普通车道内。",
+      "risk_tags": [
+        "overtake",
+        "lane_cutting"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】阳光从右侧照射，形成轻微逆光，但未影响视线。【自车】维持当前车道匀速行驶，车头方向与道路曲率一致，无转向意图。【前方】红色路虎继续前行，未出现急刹或变道行为。【左侧】一辆银色轿车（Volkswagen Jetta）从左前侧快速接近，试图切入自车左侧车道，但因距离过近被自车减速缓冲避免碰撞。【右侧】路边停有联邦快递（FedEx）货车、白色邮政车及红色救护车（FONY Community CPR Program），均静止停放，无作业行为。【交通设施】道路右侧为红色公交专用道，地面标线清晰，无车辆违规占用。",
+      "risk_tags": [
+        "aggressive_lane_cut",
+        "near_miss",
+        "vehicle_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "【环境】城市高层建筑反射阳光，局部产生强光斑，但整体视野良好。【自车】保持匀速沿中间车道前进，未进行任何变道或紧急操作。【前方】红色路虎与黑色轿车（Ford Taurus）交替出现在自车前方，车流平稳。【左侧】一辆黑色SUV（BMW X5）从左后方加速超越，完成切出动作。【右侧】一辆红色救护车停靠在路边，车门关闭，无警灯闪烁，未显示作业状态；其后方有一辆白色轿车正在驶离。【非标物体】人行道上有行人行走，其中一人手提购物袋，另一人低头看手机，均未横穿马路，无危险行为。【交通设施】前方路口设有斑马线与交通信号灯，当前为绿灯，通行顺畅。",
+      "comment": "此段无显著风险，未标注risk_tags"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "【环境】光线柔和，无强逆光或遮挡。【自车】在中间车道匀速行驶，临近前方交叉路口。【前方】红色路虎在路口处减速，准备左转或直行。【左侧】一辆黑色轿车（Lincoln MKZ）从左前侧切入自车左侧车道，完成变道，未引发冲突。【右侧】一辆白色特斯拉Model S从右后方超车并切入自车右侧车道，完成切出动作。【交通设施】前方为十字路口，设有斑马线与交通信号灯，当前绿灯亮起，路旁有“ONE WAY”指示牌。【关键风险】右侧超车车辆在变道时未充分观察后视镜，存在潜在碰撞风险，但实际未发生交互。",
+      "risk_tags": [
+        "unsafe_overtake",
+        "lane_change_with_limited_visibility"
+      ]
+    }
+  ]
+}

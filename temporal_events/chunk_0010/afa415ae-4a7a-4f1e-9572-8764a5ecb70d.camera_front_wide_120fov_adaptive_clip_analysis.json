@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 02:53:11",
+    "processing_time_seconds": 13.87
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车从十字路口起步，前方右侧白色轿车停在路边，左侧有红色SUV驶过；路面标有‘SCHOOL’字样，提示学校区域，天气晴朗，道路两侧停放多辆汽车。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "车辆沿街道直行，经过多个停车的车辆和绿色垃圾桶，右侧出现一辆银色轿车缓慢驶离车位；前方可见一个环岛和红绿灯路口，交通标志清晰可见。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:13",
+      "scene_description": "自车接近环岛路口，前方路面上有‘STOP’标记，右侧停有一辆深色SUV；一名骑自行车者从左侧人行道进入车道，与自车路径交叉，需注意避让。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车绕环岛行驶，环岛中央有绿化带，周围房屋密集；右侧一辆红色面包车停在路边，前方有白色轿车正在驶离环岛，自车保持低速平稳通过。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车驶出环岛后继续直行，道路两侧仍停满车辆，右侧有一辆银色敞篷车和一辆红色面包车；前方无显著障碍物，交通流畅，天气持续晴好。"
+    }
+  ]
+}

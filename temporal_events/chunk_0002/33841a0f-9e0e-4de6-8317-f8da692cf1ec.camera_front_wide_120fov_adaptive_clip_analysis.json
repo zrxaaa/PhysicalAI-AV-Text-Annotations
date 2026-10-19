@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:36:20",
+    "processing_time_seconds": 12.74
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "自车在双黄线道路中间车道匀速行驶，前方为一辆黑色校车，右侧为停车场，多辆汽车停靠。左侧对向车道有车辆陆续驶过，包括一辆深色面包车和一辆白色皮卡，均完成超车或并道动作。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "校车保持前方行驶，自车未进行变道或加速。右侧停车场车辆静止，无行人活动。道路右侧出现绿色路牌指示牌，提示前方为47号公路交叉口，自车继续直行通过该区域。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:16",
+      "scene_description": "自车接近一个路口，前方校车减速，右侧出现加油站建筑及数辆停放的轿车。左侧对向车道有一辆白色厢式货车驶入画面并从左侧超越自车，未与自车发生路径冲突。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车继续沿道路直行，前方校车已通过路口，道路右侧加油站入口清晰可见，无行人或其他动态障碍物。天气阴云密布但光线充足，路面干燥无积水，整体交通流畅。"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 10:06:07",
+    "processing_time_seconds": 16.86
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "两名行人从右侧人行横道穿越马路，位于自车前方约5米处，自车在斑马线前减速停车等待。天空晴朗，路面干燥，电车线路横跨街道上方。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:09",
+      "scene_description": "行人完全通过后，自车启动前行，前方一辆深色轿车向左变道并驶入直行车道，同时两辆公交车（编号22和24）分别停靠在道路两侧，形成夹击态势。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "自车缓慢跟随前方黑色轿车，在两辆公交车之间穿行，左侧公交车车身印有广告，右侧公交车尾部显示“24”路号，道路两侧可见行人与停放车辆。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "自车驶离公交车夹缝区域，进入正常车道，前方黑色轿车继续行驶，道路两侧出现多辆停放汽车及一辆迎面驶来的踏板车，阳光强烈导致部分区域反光。"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 21.83,
+    "analysis_time": "2026-01-22 16:45:07"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间暴雨天气，能见度低，路面积水严重，灯光在水面上形成强烈反光。【自车】位于中间车道，执行匀速行驶，车速稳定。【左侧】一辆黑色皮卡在左前侧邻车道缓慢行驶，尾灯亮起；【右侧】一辆深色SUV在右后方邻车道，保持安全距离跟随。【交通设施】前方出现高架桥结构，桥下有“Rose Parks Way”路牌标识，桥体混凝土结构清晰可见。【关键风险】左侧皮卡与右侧SUV均未开启转向灯，存在潜在变道意图，但当前无直接冲突。",
+      "risk_tags": [
+        "heavy_rain",
+        "low_visibility",
+        "unpredictable_lane_change"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】自车驶入高架桥下方区域，光照由桥外强光转为桥内阴影区，能见度略有下降，雨滴持续附着于挡风玻璃。【自车】保持中间车道，沿道路曲线平稳前行，未进行变道或急刹。【前方】多辆轿车及一辆白色货车在前方车道排队缓行，刹车灯频繁闪烁，表明车流拥堵。【右侧】绿化带边缘有树木和灌木丛，未发现行人或动物。【交通设施】桥墩柱体密集，部分柱体表面有涂鸦，无明显施工或障碍物。【关键风险】前方车辆频繁刹车，存在追尾风险；自车需保持安全跟车距离。",
+      "risk_tags": [
+        "traffic_jam",
+        "rear_collision_risk",
+        "reduced_visibility_under_bridge"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】离开高架桥区域，进入开阔路段，路灯照明恢复，雨势略有减弱，但仍持续降雨，路面湿滑。【自车】维持中间车道，匀速行驶，未进行横向移动。【左侧】一辆大型白色半挂货车从左后方超车，完成变道后回归原车道；【右侧】一辆银色SUV在右前方邻车道加速超越，随后减速并切入自车右侧车道，未打转向灯。【非标物体】无动物、施工车或遗撒物。【关键风险】右侧SUV强行切线变道（Aggressive Cut-in），因未打灯且速度较快，对自车构成紧急避让压力，存在碰撞风险。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "unsafe_lane_change",
+        "wet_road_surface"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】夜间持续降雨，部分路段出现雾气，远处路灯呈圆形光晕。【自车】在中间车道保持匀速行驶，车距稳定。【前方】车流密度降低，多辆轿车以中等速度行驶，刹车灯频次减少。【左侧】一辆白色轿车在左前侧邻车道缓慢行驶，未超车；【右侧】一辆白色SUV在右后方邻车道，保持稳定跟车距离。【交通设施】道路两侧设有混凝土护栏，右侧护栏上有涂鸦，无施工锥桶或警示标志。【关键风险】无突发危险行为，但雨天夜间行车仍需警惕视线模糊与路面湿滑导致的制动距离延长。",
+      "risk_tags": [
+        "wet_road",
+        "night_driving",
+        "reduced_braking_efficiency"
+      ]
+    }
+  ]
+}

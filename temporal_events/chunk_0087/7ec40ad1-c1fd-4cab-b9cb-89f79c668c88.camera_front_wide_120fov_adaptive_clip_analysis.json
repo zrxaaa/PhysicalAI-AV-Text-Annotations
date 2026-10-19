@@ -1,0 +1,35 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.03,
+    "analysis_time": "2026-01-22 18:52:22"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】冬季晴天，路面部分结冰、部分融雪积水，阳光强烈导致眩光。【自车】在中间车道匀速沿直道行驶，未进行变道或转向。【右侧】一栋多层酒店建筑（Holiday Inn Express）紧邻道路，前方路肩有积雪堆和裸树。【交通设施】远处可见高压电塔与交通信号灯杆，但尚未进入交叉口区域。【无风险】此阶段无显著交互威胁或违规行为。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】强逆光持续，路面湿滑反光加剧，能见度良好但眩光影响仪表盘视野。【自车】保持中间车道匀速前行，接近十字路口。【左侧】一辆银色轿车从左转车道切入自车所在直行车道，未打转向灯，存在潜在加塞风险。【右侧】一辆深色SUV在右转车道等待绿灯，未移动。【交通设施】前方出现多组交通信号灯及悬臂式绿色指示牌，标示“TO COUNTY C”与“LONG LAKE RD”，提示即将进入交叉路口。【关键风险】左侧银色轿车违规强行切入直行道（Aggressive Cut-in），可能迫使自车紧急制动或避让。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "glare_impact"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】阳光仍强烈，路面因车辆碾压形成水膜反射，部分区域有薄冰残留。【自车】在中间车道继续匀速通过交叉路口，未停车。【前方】一辆大型黑色半挂卡车从对向车道驶来，正横穿路口，车身高度遮挡部分视线。【右侧】路边积雪堆旁有行人站立，面向道路，未穿行；树木无明显晃动，无动物活动迹象。【交通设施】路口信号灯为绿灯，通行顺畅。【关键风险】大型卡车横向穿越时，其车身遮挡了右侧人行道及部分路口盲区，存在“鬼探头”风险（Ghost Probe）。同时，自车需警惕卡车突然减速或转向引发的碰撞。",
+      "risk_tags": [
+        "ghost_probe",
+        "large_vehicle_obstruction",
+        "blind_spot_risk"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.71,
+    "analysis_time": "2026-01-24 10:52:16"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "【环境】重度大雾天气，能见度极低（<50米），路面湿滑，雨刮器持续工作但挡风玻璃仍存水珠。【自车】位于中间车道，匀速沿道路中心线行驶，未进行变道或转向。【前方】一辆银色SUV在自车正前方约20米处同向行驶，尾灯清晰可见，保持稳定车距。【左侧】路边停放多辆汽车，部分车辆轮廓因雾气模糊不清；右侧为商业区停车场，车辆密集排列，部分车灯亮起。【交通设施】道路两侧电线杆与路灯柱密集，远处可见广告牌轮廓，但细节无法辨识。【关键风险】因浓雾导致视觉感知严重受限，前车刹车灯可能延迟响应，存在追尾风险；左侧路肩区域有不明物体阴影，疑似行人或障碍物，但无法确认。",
+      "risk_tags": [
+        "heavy_fog",
+        "low_visibility",
+        "rear-end_collision_risk",
+        "occlusion_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "【环境】雾层略有稀薄，能见度小幅提升至约70米，但仍属低能见度状态。【自车】保持中间车道匀速行驶，无明显加速或减速。【左侧】一辆银色SUV从左前方邻车道切入自车所在车道，完成变道动作，切入位置在自车左前侧约5米处，动作平缓但未打转向灯。【右侧】路边出现“CARFAX”和“CREDIT CENTER”等商业标识牌，建筑轮廓逐渐清晰。【交通设施】前方路口信号灯结构开始显现，绿灯亮起，提示可通行。【关键风险】左侧车辆突然切入且未使用转向灯，构成“违规加塞”行为，对自车横向安全构成威胁；同时，因雾气未完全消散，对向来车灯光易造成眩光干扰。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "no_turn_signal",
+        "glare_risk",
+        "partial_visibility_improvement"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】大雾持续，能见度维持在50-70米区间，路面干燥但仍有水汽凝结。【自车】接近前方交叉路口，进入减速准备阶段，车速由匀速转为缓慢下降，预计将在路口停车等待。【前方】交通信号灯显示为绿色，但因雾气遮挡，远端车辆灯光模糊。【左侧】一辆深色皮卡在交叉口左转车道等待，车身部分被雾气遮蔽；右侧人行横道线隐约可见，但无行人活动迹象。【交通设施】路口设有标准十字交叉标线、人行横道及悬吊式交通信号灯，当前绿灯有效。【关键风险】自车即将进入路口，需警惕对向或侧方车辆闯红灯或抢行；雾中视线盲区增加“鬼探头”概率，尤其在路口转弯区域；右侧商铺门前有临时停放车辆，可能阻挡视线，形成潜在开门杀风险。",
+      "risk_tags": [
+        "intersection_approach_risk",
+        "ghost_probe_potential",
+        "cross_traffic_violation",
+        "parked_vehicle_obstruction"
+      ]
+    }
+  ]
+}

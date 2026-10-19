@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 18.85,
+    "analysis_time": "2026-01-22 16:40:10"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】夜间，路灯照明充足但存在眩光，部分区域因雾气或灰尘导致能见度轻微下降。【自车】在中间车道匀速沿直道行驶，未进行转向或变道。【右侧】路边停放多辆汽车（包括黑色SUV、白色皮卡），其中一辆白色SUV在自车接近时缓慢启动并向前移动，形成潜在切入风险。【左侧】对向车道有车辆驶过，无明显交互行为。【交通设施】路面标有自行车道标识，前方可见“STOP”字样及停车标志牌，提示即将进入交叉路口。",
+      "risk_tags": [
+        "potential_cut_in",
+        "night_driving",
+        "road_sign_interaction"
+      ]
+    },
+    {
+      "time_segment": "00:00:06-00:00:10",
+      "scene_description": "【环境】继续夜间行驶，路灯亮度稳定，无明显天气异常。【自车】在中间车道减速至停止，执行路口停车动作，车头正对前方交叉口。【前方】红色皮卡车停于路口右侧，车尾朝向自车方向，车身部分遮挡视线；其后方为一个标准的八角形“STOP”路牌。【左侧】树木与围栏构成视觉屏障，无行人或非机动车活动迹象。【交通设施】路面清晰标示“STOP”字样的停车线，配合路牌完成强制停车指令。自车在此阶段完成停车，等待通行信号。",
+      "risk_tags": [
+        "stop_at_intersection",
+        "obstructed_view",
+        "vehicle_blocking"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】夜间，路灯照明良好，无降水或雾气影响。【自车】完成停车后，在交叉口左转车道准备转向。【横向交互】自车向左打方向盘，开始左转，车头偏航角从正对道路变为左转姿态。【右侧】交叉口对面人行道旁有数辆静止车辆，未见行人活动。【交通设施】路口设有绿色方向指示牌（街道名称标识），同时可见黄色实线分隔车道，确保转弯路径合规。【关键风险】左转过程中，右侧车道有车辆驶近，但保持安全距离，未发生切出或强行加塞行为。",
+      "risk_tags": [
+        "left_turn_maneuver",
+        "lane_boundary_compliance",
+        "no_aggressive_behavior"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】夜间，路灯照明持续，部分路段出现电线杆和树影遮挡。【自车】完成左转后，重新进入主干道，恢复中间车道匀速行驶。【两侧】道路两侧停放大量车辆（包括SUV、皮卡、轿车），部分车辆尾灯亮起，表明处于静止状态。【特殊物体】右侧路边有一具倒伏的树枝横亘在路肩，未侵入行车道，但需注意避让。【交通设施】路面再次出现双黄线及自行车道标识，提示当前为混合交通区域。【关键风险】倒伏树枝虽未直接阻碍通行，但在夜间光线不足情况下可能被忽略，存在轮胎打滑或碰撞隐患。",
+      "risk_tags": [
+        "fallen_branch_obstacle",
+        "night_driving_risk",
+        "lane_edge_hazard"
+      ]
+    }
+  ]
+}

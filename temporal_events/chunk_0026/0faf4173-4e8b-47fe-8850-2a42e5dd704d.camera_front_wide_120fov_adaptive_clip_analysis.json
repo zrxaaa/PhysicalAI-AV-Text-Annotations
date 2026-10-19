@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 08:47:27",
+    "processing_time_seconds": 20.24
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在多车道公路上匀速行驶，前方有一辆白色厢式货车保持同向行驶。左侧对向车道有车辆陆续通过交叉路口，右侧路边可见商业建筑与公交站台，交通信号灯为绿灯，允许直行通行。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:08",
+      "scene_description": "车辆接近十字路口，左侧一辆Sysco公司卡车正在左转，同时对向直行车流因红灯暂停。自车继续直行，未减速，路口右侧有行人站在公交站台旁，未横穿马路。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "通过路口后，自车继续沿主路直行，右侧出现公交站台和多个停靠的私家车。左侧车道有数辆轿车驶入或驶离，无明显变道冲突，路面标线清晰，天气阴沉但无雨，能见度良好。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "道路两侧出现更多商业设施与广告牌，右侧有AutoZone门店及停车场，左侧有汽车维修店。自车保持当前车道，未进行超车或变道，前方货车持续在前，无紧急行为或交互事件发生。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车在接近下一个路口前维持匀速，左侧有银色SUV从辅路汇入主路并切入自车所在车道，但未造成碰撞或避让动作。远处可见Mazda品牌标识，表明附近有汽车经销商，整体交通流畅无阻。"
+    }
+  ]
+}

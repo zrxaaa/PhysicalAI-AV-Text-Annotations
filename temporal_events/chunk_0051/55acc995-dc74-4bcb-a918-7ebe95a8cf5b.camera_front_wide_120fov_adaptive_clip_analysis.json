@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.85,
+    "analysis_time": "2026-01-22 02:59:08"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】浓雾天气，能见度低，天空灰白，路面湿滑无明显反光。【自车】在中间车道匀速沿道行驶，未进行转向或变道。【左侧】对向车道出现一辆深色SUV，从左前方驶来，车头灯开启，在雾中轮廓模糊，保持直行且未靠近自车车道。【交通设施】右侧路边可见红色消防栓、白色路桩及石砌护坡，道路呈缓弯上坡趋势。【关键风险】因浓雾导致视觉受限，对向车辆虽未变道，但存在因能见度低而误判距离的风险；路边设施（如消防栓）处于盲区边缘，若行人突然出现可能引发碰撞。",
+      "risk_tags": [
+        "low_visibility",
+        "obstacle_in_blind_spot",
+        "oncoming_vehicle_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】雾气略有消散，天空云层较薄，阳光从地平线方向透出形成强烈逆光，部分区域出现眩光。【自车】保持中间车道匀速前行，随道路曲率自然转弯，未做主动转向。【右侧】出现多栋住宅建筑，依山而建，配有石墙和台阶式护坡；路边有少量积雪残留，部分区域有融雪水迹。【左侧】树木密集，枝干光秃，无行人或动物活动迹象。【交通设施】道路右侧设有路灯杆与小型标识牌，部分被雾气遮挡。【关键风险】强逆光导致前挡风玻璃反射太阳光，影响视线清晰度；右侧高差地形与积雪可能造成路面湿滑或结冰，增加制动距离不确定性。",
+      "risk_tags": [
+        "strong_backlight",
+        "reduced_visibility_after_fog",
+        "slippery_surface_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雾气进一步消散，阳光穿透云层，光线明亮但仍有轻微散射。【自车】维持中间车道匀速直线行驶，通过前方小弯道后进入直道。【左侧】出现一栋独立住宅，门前有车道入口，无车辆进出；右侧为绿化带与低矮灌木丛，无显著障碍物。【交通设施】道路两侧设有人行道与排水沟盖板，路面有积水反光，但未形成大面积水坑。【非标物体】无动物、施工车辆或遗撒物出现。【关键风险】无直接安全威胁，但因光照变化剧烈，需警惕驾驶员因炫目导致的注意力分散；道路两侧住宅区边界模糊，可能存在突发行人横穿风险，尤其在视野受限的拐角处。",
+      "risk_tags": [
+        "driver_distraction_risk",
+        "pedestrian_crossing_potential"
+      ]
+    }
+  ]
+}

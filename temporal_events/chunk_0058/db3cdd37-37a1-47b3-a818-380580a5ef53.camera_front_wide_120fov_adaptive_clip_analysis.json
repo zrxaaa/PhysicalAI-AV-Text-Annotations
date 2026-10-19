@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.63,
+    "analysis_time": "2026-01-22 05:59:53"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间，浓雾笼罩道路，能见度极低，路灯与车灯产生严重光晕和眩光。【自车】位于中间车道，匀速沿直线道路前行，未进行变道或转向。【右侧】一辆白色SUV在右前方邻车道并行，保持匀速，无明显加速或减速；其尾灯在雾中呈模糊红光。【交通设施】前方可见高架路牌（Bayshore Blvd / Third St），但因雾气遮挡，细节模糊。【关键风险】雾天导致视觉感知严重退化，前方车辆轮廓难以辨识，存在潜在碰撞风险；右侧SUV虽未变道，但其位置紧贴自车右侧，若突然刹车将引发追尾或剐蹭。",
+      "risk_tags": [
+        "heavy_fog",
+        "low_visibility",
+        "close_proximity_vehicle"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】雾气持续，部分区域出现轻微雨滴附着于挡风玻璃，形成水珠干扰视线。【自车】保持中间车道匀速行驶，随道路微弯向前。【前方】多组交通信号灯亮起绿灯，呈三角形排列，灯光因雾气扩散成模糊光斑。【左侧】对向车道有车辆驶来，车头灯在雾中形成强光束，但未进入自车半径50米内。【右侧】一辆银色轿车从后方超车，完成切出动作，驶入右侧车道并远离。【交通设施】前方路口标线清晰可见，包含直行箭头与左转指示，但受雾影响，距离判断困难。【关键风险】前方绿灯信号因雾模糊，易误判为黄灯或红灯；右侧超车车辆速度较快，存在切入自车车道的潜在意图，需警惕变道冲突。",
+      "risk_tags": [
+        "signal_obscuration",
+        "high_speed_crossing_vehicle",
+        "lane_change_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】雾层略有稀薄，但整体仍重度，路面湿滑反光明显。【自车】在中间车道减速至停车状态，等待前方红灯。【前方】多个交通信号灯切换为红色，其中一组为垂直排列的三灯组，红灯亮起。【左侧】一辆深色轿车从左前侧邻车道缓慢驶过，未进入自车车道，保持安全距离。【右侧】护栏外树木轮廓隐约可见，无行人或动物活动迹象。【交通设施】前方设有“禁止左转”标志牌，同时可见高架桥入口指示牌（Civic Center / Bay Bridge）。【关键风险】自车在红灯前停车，但前方视野受限，无法确认是否有闯红灯车辆或行人横穿；右侧护栏外树木可能因风力摇晃，存在倒伏风险，但当前未构成直接威胁。",
+      "risk_tags": [
+        "red_light_waiting",
+        "limited_forward_vision",
+        "potential_undetected_crossing"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】雾气持续，能见度维持在约30-50米，路灯亮度稳定。【自车】在停止状态下启动，缓慢加速进入高架桥匝道。【前方】高架桥入口处设有绿色导向牌，指示“Civic Center / Bay Bridge”，方向明确。【左侧】对向车道有数辆汽车驶过，车流密集但未靠近自车。【右侧】桥梁护栏清晰可见，无施工或障碍物。【交通设施】自车正通过匝道口，地面标线为白色虚线与实线组合，引导车辆汇入主干道。【关键风险】自车由静止转为加速，需注意后方车辆是否紧跟；由于处于匝道汇入区，存在与主干道车辆交汇的风险，尤其在雾天环境下，横向间距判断误差增大。",
+      "risk_tags": [
+        "acceleration_in_lane_merge_zone",
+        "rear_traffic_closeness",
+        "merge_conflict_risk"
+      ]
+    }
+  ]
+}

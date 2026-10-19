@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 22:28:26",
+    "processing_time_seconds": 16.93
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车沿街道匀速行驶，右侧多辆汽车停靠路边，包括一辆白色SUV和一辆银色MPV；左侧有树木和围栏，前方路口出现‘STOP’路面标记及红色停车标志。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:08",
+      "scene_description": "自车在十字路口前减速并停车，等待交通信号或行人通过；对向车道有车辆驶过，右侧人行横道附近无行人，但可见远处有车辆在交叉口等待。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "自车保持静止状态，观察前方路况；右侧路边停放黑色轿车，左侧围栏后方有建筑，远处可见另一组车辆在交叉口等待通行，未见行人活动。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "自车启动继续前行，经过路口后道路两侧仍停满车辆，右侧为一排联排住宅，左侧为铁丝网围栏与低矮建筑；无显著行人或动态障碍物出现。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车持续平稳行驶，道路两侧车辆排列整齐，部分车辆从停车位驶出或缓慢移动；天气晴朗，阳光投射在建筑物上，路面干燥无积水。"
+    }
+  ]
+}

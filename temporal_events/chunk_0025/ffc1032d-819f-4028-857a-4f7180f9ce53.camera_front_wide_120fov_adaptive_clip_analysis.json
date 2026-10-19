@@ -1,0 +1,37 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 08:22:32",
+    "processing_time_seconds": 19.11
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在多车道高速公路上匀速行驶，前方可见绿色道路指示牌指向Stevens Creek Blvd和W San Carlos St，右侧有黄色限速25 mph标志，左侧车道有银色轿车并行。天气阴云密布，路面干燥。",
+      "scene_description_2": "车辆接近一个交通信号灯路口，左侧出现‘STOP WHEN RED’警示牌，远处有高架桥结构，但无行人或突发障碍物。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "自车继续直行，前方高架桥逐渐逼近，桥下标有‘15FT 5IN’限高标识，桥体为混凝土结构，两侧设有护栏。左侧车道有白色货车与自车同向行驶，未发生变道行为。",
+      "scene_description_2": "车辆平稳通过桥下区域，桥洞内光线较暗，但未见明显障碍或施工人员，右侧路肩有碎石堆和低矮植被，无行人活动。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "驶出桥洞后，自车进入开阔路段，右侧出现红色人行道与隔离墙，对向车道有白色厢式货车及黑色SUV驶过。前方交通信号灯显示绿灯，车辆保持当前车道行驶。",
+      "scene_description_2": "道路右侧路边停有数辆私家车，远处可见广告牌和建筑物轮廓，天空云层较厚但无降雨迹象，整体能见度良好。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:18",
+      "scene_description": "自车在中间车道持续行驶，左侧车道有一辆银色小型SUV加速超车并切入相邻车道，右侧车道有白色轿车缓慢行驶。前方出现左转箭头警示标志，提示即将转弯。",
+      "scene_description_2": "道路右侧有电线杆和绿化带，未见行人或其他非机动车，交通流稳定，无紧急制动或突然变道行为，自车维持原速和车道。"
+    },
+    {
+      "time_segment": "00:00:18-00:00:20",
+      "scene_description": "自车继续沿直线车道前进，前方车辆稀疏，右侧车道有白色轿车减速并靠近路肩，左侧车道有银色SUV完成超车后回归原车道。无显著交叉冲突或危险行为。",
+      "scene_description_2": "天气仍阴沉，路面干燥，视野清晰，所有交通参与者均按规则行驶，未出现异常事件或突发状况，场景趋于平稳结束。"
+    }
+  ]
+}

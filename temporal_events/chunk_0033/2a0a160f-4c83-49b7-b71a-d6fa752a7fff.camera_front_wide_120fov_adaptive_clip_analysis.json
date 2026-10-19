@@ -1,0 +1,33 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 21.34,
+    "analysis_time": "2026-01-21 19:15:01"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】阴天，云层低且密，路面湿滑无明显积水，能见度良好。【自车】位于中间车道，匀速沿直道行驶，未进行变道或转向。【周围车辆】左侧对向车道有红色轿车与银色SUV依次驶过；右侧路肩旁有白色“VOLVO”立体标识建筑，无行人或障碍物。【交通设施】道路两侧设有路灯、交通信号灯及公交站台，前方路口信号灯为绿灯。【关键风险】无显著风险，但左侧对向车道车辆速度较快，存在轻微超车风险。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "【环境】持续阴天，光线均匀，无降水或强风。【自车】保持在中间车道，匀速向前行驶，随道路曲率自然前进，未发生转向。【周围车辆】右侧车道有一辆深灰色SUV从后方超越并切入自车所在车道（Cut-in），动作迅速；前方一辆深蓝色轿车维持当前车道行驶。【交通设施】前方路口出现“ONLY”标线及自行车道标识，交通信号灯显示绿灯，允许直行与右转。【关键风险】右侧SUV突然切入，存在潜在剐蹭或碰撞风险，属于非预期变道行为。",
+      "risk_tags": [
+        "aggressive_cut_in"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】天空仍阴沉，无降水，路面干燥但略显反光。【自车】通过交叉路口后进入直行主干道，继续在中间车道匀速行驶。【周围车辆】左侧对向车道有白色宝马轿车和黑色皮卡先后驶过；右侧路边停有一辆绿色垃圾清运车（车身印有“Think Green, Think Clean”字样），处于静止状态，未作业，未占用行车道。【交通设施】路口上方悬挂“9900 BLOCK”与“WILLOWS RD”路牌，交通信号灯为绿灯，地面标线清晰可见。【关键风险】垃圾车虽静止，但其体积庞大，占据部分右侧路肩空间，若后方车辆强行变道可能引发刮蹭；此外，一只鸟从空中飞过，未对行车造成影响。",
+      "risk_tags": [
+        "large_vehicle_obstruction",
+        "static_object_blocking_edge"
+      ]
+    }
+  ]
+}

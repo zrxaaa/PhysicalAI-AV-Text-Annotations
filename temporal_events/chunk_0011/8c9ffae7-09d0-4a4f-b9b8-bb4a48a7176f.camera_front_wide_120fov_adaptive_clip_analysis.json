@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 03:05:06",
+    "processing_time_seconds": 11.47
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "自车在高速主路中间车道匀速行驶，前方有一辆黑色轿车保持稳定车距，左侧车道有白色SUV和银色轿车先后变道至中间车道，天气晴朗，路面干燥无积水。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:14",
+      "scene_description": "车辆接近高架桥下，前方出现绿色高速公路指示牌，显示“Sacramento”和“San Francisco”方向，右侧路边有树木和围墙，左侧车道有黑色皮卡驶过，自车未变道，保持当前车道行驶。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:18",
+      "scene_description": "通过高架桥后，自车继续直行，右侧车道一辆黑色轿车加速并短暂并入自车所在车道，随后又回到右车道，左侧车道有白色SUV和灰色小型车保持稳定行驶。"
+    },
+    {
+      "time_segment": "00:00:19-00:00:20",
+      "scene_description": "自车维持当前车道，前方黑色轿车与白色SUV均在前方稳定行驶，道路两侧出现低矮住宅区围墙和绿化带，无明显交通标志或信号灯变化，整体交通流畅。"
+    }
+  ]
+}

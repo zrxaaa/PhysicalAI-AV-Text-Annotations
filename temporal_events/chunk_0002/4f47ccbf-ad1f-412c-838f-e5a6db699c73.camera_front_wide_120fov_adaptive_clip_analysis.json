@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:21:34",
+    "processing_time_seconds": 17.42
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在夜间城市道路上匀速直行，右侧路边有Subaru汽车经销店，一辆白色轿车从右后方加速并入中间车道，与自车无交集。道路照明良好，路面干燥，无行人或其他障碍物。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "车辆接近十字路口，前方交通信号灯为绿灯，自车保持匀速通过；右侧人行道上有行人站立，但未横穿马路；左侧车道有车辆并行，未发生变道或超车行为。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:12",
+      "scene_description": "车辆驶过十字路口，信号灯转为红灯，自车在停止线前减速停车；右侧出现Lexus汽车经销店，其停车场内有多辆停放车辆，无动态交互；对向车道有车辆正常通行。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "自车在红灯前稳定停车，等待信号灯变化；右侧Lexus经销店持续可见，其建筑和招牌清晰，无行人或车辆进入自车路径；左侧车道有车辆缓慢移动，未影响自车。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "信号灯转为绿灯，自车启动继续直行；道路两侧有路灯照明，视野开阔，无突发行人或障碍物；远处可见其他车辆在同方向行驶，均未与自车产生路径冲突。"
+    }
+  ]
+}

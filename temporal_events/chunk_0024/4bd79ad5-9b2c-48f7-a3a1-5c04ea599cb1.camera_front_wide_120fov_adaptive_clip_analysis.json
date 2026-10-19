@@ -1,0 +1,37 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 07:57:13",
+    "processing_time_seconds": 21.59
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车在十字路口等待绿灯，前方交通信号灯为绿色，左侧有车辆准备左转，右侧人行横道无行人。自车保持静止状态，准备通行。",
+      "additional_notes": "路口标有Second St路牌，天气阴沉但路面干燥，无明显湿滑或能见度问题。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "绿灯亮起，自车向前行驶，左侧车道有白色轿车加速并入中间车道，右侧路边停放多辆汽车，部分车辆缓慢驶离停车位。",
+      "additional_notes": "道路两侧有行道树和商业建筑，车道线清晰，无施工区域或障碍物影响通行。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "自车继续沿直行方向前进，前方出现红灯，车辆减速停车。右侧一辆蓝色轿车停在路边，一名行人从车后方走向人行横道。",
+      "additional_notes": "前方路口有“Third St”路牌，交通信号灯为红色，自车与前车保持安全距离，未发生碰撞或紧急制动。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:17",
+      "scene_description": "行人穿过人行横道，蓝色轿车司机打开车门下车，随后进入车内。自车在红灯前保持静止，未进行任何变道或加速动作。",
+      "additional_notes": "行人行为与自车路径无冲突，蓝色轿车位于自车右前方，其开门动作未对自车造成阻碍。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "行人完成上车动作，蓝色轿车关闭车门并启动，缓慢驶离路边。自车仍处于停车状态，等待信号灯变化，周围环境稳定无突发状况。",
+      "additional_notes": "路口交通秩序良好，无其他车辆或行人突然闯入，自车保持安全跟车距离，未触发任何紧急响应。"
+    }
+  ]
+}

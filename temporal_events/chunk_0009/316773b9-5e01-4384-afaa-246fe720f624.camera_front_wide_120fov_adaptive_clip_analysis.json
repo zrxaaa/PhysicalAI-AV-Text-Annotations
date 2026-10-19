@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 02:35:47",
+    "processing_time_seconds": 11.34
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "自车在十字路口等待，前方交通信号灯为绿灯，两名行人从右侧人行横道开始穿越马路，左侧车道有黑色轿车驶入并变道至自车前方。天气晴朗，路面干燥，无明显障碍物。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "行人完成过街后，自车向前行驶进入直行道，右侧出现大型停车场及公交站台结构，一辆绿色公交车停靠在站台旁，未对自车路径造成干扰。道路两侧停放多辆私家车。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:15",
+      "scene_description": "自车继续沿街道直行，左侧路边停放车辆逐渐增多，右侧为带金属围栏的公交或货运停车场，远处可见城市天际线。无行人或突发交通事件，环境平稳。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "前方路口出现红灯，自车减速准备停车，右侧人行道上有两名行人正在行走，与自车路径无交叉。道路两侧建筑风格统一，树木排列整齐，光照充足无阴影遮挡。"
+    }
+  ]
+}

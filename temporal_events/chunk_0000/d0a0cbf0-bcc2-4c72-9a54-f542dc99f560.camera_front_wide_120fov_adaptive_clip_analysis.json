@@ -1,0 +1,27 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 22:23:55",
+    "processing_time_seconds": 17.67
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "自车停在十字路口停止线前，前方一辆深色SUV正准备左转，右侧橙色SUV部分占据右车道。一名行人牵着狗从右侧人行道进入路口，横穿马路，位于自车正前方约5米处。",
+      "scene_description_2": "路口设有红色停车标志和路面‘STOP’字样，天气晴朗，光照充足，路面干燥无湿滑。行人与狗在自车前方完成穿越，期间所有车辆均保持静止等待。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "行人与狗离开路口后，前方深色SUV完成左转并驶离交叉口，同时左侧一辆银色轿车从对向车道驶入本方直行车道，准备通过路口。",
+      "scene_description_2": "自车仍保持静止，观察路口动态。右侧路边停放多辆汽车，包括一辆银色SUV和一辆蓝色皮卡，未参与路口通行。路口无信号灯变化，仅由交通标志引导通行。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:20",
+      "scene_description": "银色轿车完成直行通过路口，随后一名新行人（女性）牵着狗从左侧人行道再次进入路口，开始横穿马路，此时自车仍处于停止状态。",
+      "scene_description_2": "该行人与狗在自车前方约3米处穿越，动作平稳，未与其他车辆发生交互。背景中可见商铺及树木，但不影响当前交通行为分析。环境条件稳定，无突发状况。"
+    }
+  ]
+}

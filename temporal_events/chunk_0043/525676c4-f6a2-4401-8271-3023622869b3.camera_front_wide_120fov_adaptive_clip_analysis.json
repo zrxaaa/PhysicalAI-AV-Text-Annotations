@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.57,
+    "analysis_time": "2026-01-21 23:38:09"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，多云，能见度良好，无异常天气。【自车】位于中间车道，处于路口停车状态，等待绿灯。【左侧】一辆银色轿车（福特Fusion）停在自车左前方，与自车并排。【右侧】人行横道上有行人（含牵狗者）正在横穿马路，其中一名男性行人面向自车方向行走，右手持牵引绳，狗在左前侧随行；另有一名行人从右后方走向人行横道。【交通设施】路口上方悬挂绿色交通信号灯，显示为绿灯，路牌标识“E. MARTIN LUTHER KING JR. DR”。【关键风险】行人与车辆同时通行，存在潜在碰撞风险，尤其牵狗者未完全通过斑马线即被自车启动触发动态交互，需警惕行人突然加速或狗冲出。",
+      "risk_tags": [
+        "pedestrian_crossing_risk",
+        "dog_unpredictability",
+        "intersection_conflict"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】晴朗，光照均匀，无遮挡。【自车】起步后沿中间车道匀速前行，保持与前方银色轿车的跟车距离。【前方】银色轿车持续在左前方车道行驶，未变道。【右侧】人行道上出现两名行人（一男一女），女性手持手机，男性背对自车方向行走；随后一名牵狗者再次出现在右侧人行道，狗在步行中轻微拉扯牵引绳，头部朝向道路中央。【交通设施】道路两侧设有清晰的白色虚实分道线，右侧路边停放有两辆共享电动滑板车，无明显施工或障碍物。【关键风险】右侧牵狗行人与自车同向，但狗有向车道内移动趋势，存在“鬼探头”或动物突入车道的风险，需保持警惕。",
+      "risk_tags": [
+        "animal_movement_risk",
+        "pedestrian_distraction",
+        "lane_following_compliance"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】天空云层增多，局部有阴影，光线略有变化，无降水或强光干扰。【自车】保持中间车道匀速行驶，车速稳定。【左侧】对向车道有多辆汽车正常通行，包括一辆U-Haul货车驶过。【右侧】出现一辆白色皮卡（Ford F-150）停靠在路边，车尾贴有“WCU152”标识，车旁立有橙色“ROAD WORK AHEAD”警示牌，提示前方施工区域。【非标物体】皮卡车后方有施工锥桶和临时围栏，但无作业机械或人员活动。【交通设施】前方可见“INTERSTATE 60”及“HIGHWAY 271”指示牌，表明即将进入高速公路入口匝道区域。【关键风险】右侧施工警示区域虽无直接作业，但存在潜在突发状况（如工人或设备突然出现），且皮卡停靠可能造成车道压缩，需注意右侧空间变化与避让策略。",
+      "risk_tags": [
+        "construction_zone_warning",
+        "vehicle_parking_obstruction",
+        "highway_entry_transition"
+      ]
+    }
+  ]
+}

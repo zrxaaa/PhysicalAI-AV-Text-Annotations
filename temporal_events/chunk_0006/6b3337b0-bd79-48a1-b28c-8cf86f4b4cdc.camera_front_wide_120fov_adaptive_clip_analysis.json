@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 01:24:58",
+    "processing_time_seconds": 11.91
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车沿双黄线道路平稳行驶，前方有一辆深色SUV在右侧车道行驶，道路两侧有电线杆和商铺建筑，天空多云但无明显降水，路面干燥。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "车辆接近一个路口，路面上出现左转专用道标识，右侧出现黄色‘HIDDEN DRIVEWAYS’警示牌，前方SUV保持匀速行驶未变道，左侧商铺区域可见停放车辆。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车继续跟随前方红色SUV，左侧对向车道有黑色商务车驶过，右侧人行道旁出现白色住宅，路边有蓝色垃圾桶，整体车流稀疏，无显著交通信号变化。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "前方红色SUV在直行道上持续减速并最终停稳，自车随之减速并保持安全跟车距离，周围无行人或其他动态障碍物，天气阴沉但能见度良好，道路标线清晰。"
+    }
+  ]
+}

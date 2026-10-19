@@ -1,0 +1,37 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.59,
+    "analysis_time": "2026-01-21 23:31:26"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴朗天气，阳光从右上方照射，无降水或雾气。【自车】位于主路最右侧车道，正执行向左的平缓弯道转向，车身随道路曲率调整方向，未越线。【前方车辆】一辆银色小型面包车在自车正前方，保持匀速行驶，与自车纵向距离约20米，无变道意图。【交通设施】路口设有行人过街标志（黄色菱形牌）及“Freeway Entrance 101”指示牌，自车正通过该入口匝道过渡段。【关键风险】无明显违规行为或障碍物，但前方车辆在弯道中未减速，存在潜在追尾风险。",
+      "risk_tags": [
+        "potential_tailgating",
+        "lane_curvature_driving"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】阳光持续强烈，自车进入逆光区域，车头挡风玻璃出现轻微眩光。【自车】继续沿右侧弯道行驶，车身姿态稳定，未进行变道操作。【周围车辆】左侧对向车道有数辆轿车和一辆白色货车正常通行；右侧路肩为干枯草地，无行人或非机动车。【交通设施】道路两侧设有路灯杆、交通信号灯柱及人行横道提示牌，右侧可见“School Zone”警示牌。【关键风险】无直接碰撞威胁，但强逆光可能影响后视镜及侧窗视野，增加盲区风险。",
+      "risk_tags": [
+        "sun_glare",
+        "low_visibility_side_view"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】阳光直射导致镜头严重眩光，部分画面出现光晕。【自车】驶入高速公路匝道，即将汇入主干道，当前位于最右侧车道，准备并线至中间车道。【前方车辆】银色面包车仍在前方，保持匀速，未变道。【交通设施】前方高架桥下设有绿色指路牌，标明“Lawrence Expwy 1, Fair Oaks Ave 2, Mathilda Ave 3¼”，桥体结构清晰，护栏完整。【关键风险】自车即将进入高速汇流区，前方车辆若不主动让出空间，将形成汇流冲突；同时，强光环境下驾驶员注意力易分散，存在误判车道边界的隐患。",
+      "risk_tags": [
+        "highway_merge_zone",
+        "attention_diversion_risk"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:36:57",
+    "processing_time_seconds": 20.03
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "夜间行车，浓雾笼罩道路，能见度较低。自车沿双车道道路平稳行驶，前方无明显障碍物，左侧可见低矮建筑轮廓，右侧为桥梁护栏。路灯灯光在雾中形成光晕，路面标线依稀可辨。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "车辆驶上桥梁，两侧出现白色护栏，远处可见一座尖顶教堂和高层住宅楼，部分窗户亮灯。自车保持直行，未进行变道或加速，雾气持续影响视线，但未发现其他车辆或行人交互。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "驶离桥梁后，道路两侧出现更多建筑，右侧高楼灯火通明，左侧教堂清晰可见。自车继续直行，前方路口有斑马线，但无行人或车辆穿越。交通信号灯未见，无明显动态行为发生。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "接近下一个路口，左侧出现红色电子显示屏，但内容模糊不清。右侧路边有少量积雪，路灯照明下路面湿滑。自车维持匀速前进，未遇交叉车流或行人，环境安静且空旷。"
+    }
+  ]
+}

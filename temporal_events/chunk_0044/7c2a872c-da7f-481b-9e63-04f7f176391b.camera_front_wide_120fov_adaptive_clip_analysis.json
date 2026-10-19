@@ -1,0 +1,36 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.01,
+    "analysis_time": "2026-01-22 00:03:52"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "【环境】晴天，少量云层，光照充足，无异常天气。【自车】位于中间车道，保持匀速沿道行驶，未进行转向或变道。【左侧邻车道】一辆银色轿车（疑似日产Altima）与自车并行，保持稳定车距，无加速、减速或切出意图。【交通设施】道路右侧依次出现限速65 mph标志牌及“WILDLIFE CROSSING”警示牌，提示前方可能有动物横穿风险。【关键风险】无明显违规行为或障碍物，但野生动物警示牌提示潜在生物干扰风险。",
+      "risk_tags": [
+        "wildlife_crossing_warning"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "【环境】持续晴朗，阳光直射，部分区域树影投射于路面。【自车】仍保持在中间车道匀速行驶，随道路微弯自然调整方向，未发生转向动作。【左侧邻车道】银色轿车维持原位，未改变车道或速度，与自车相对位置稳定。【交通设施】右侧出现“INTERSTATE 280”指示牌及“Larkspur / Millbrae”方向指引牌，表明即将进入高速出口或分岔路口。【关键风险】无直接碰撞或违规行为，但出口预告牌提示后续可能有车辆突然变道，需提高警惕。",
+      "risk_tags": [
+        "highway_exit_warning",
+        "stable_lane_following"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】光照强度略有下降，可能是云层遮挡或进入树荫区，但仍属正常日间驾驶环境。【自车】继续在中间车道匀速前进，未进行任何横向或纵向干预。【左侧邻车道】银色轿车仍保持并行状态，车尾灯未亮起，无刹车迹象。【交通设施】右侧出现“SPEED LIMIT 55”限速牌，提示前方路段限速降低，需注意车速控制。【关键风险】无突发障碍物、无行人/动物出现，无车辆违规切入；但限速变化区域存在潜在超速风险，建议自车主动减速以匹配新限速要求。",
+      "risk_tags": [
+        "speed_limit_change",
+        "no_immediate_risk"
+      ]
+    }
+  ]
+}

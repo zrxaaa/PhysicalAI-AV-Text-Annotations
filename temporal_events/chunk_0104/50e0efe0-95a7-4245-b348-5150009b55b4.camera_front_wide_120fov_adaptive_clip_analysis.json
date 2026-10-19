@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.01,
+    "analysis_time": "2026-01-23 02:21:14"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "【环境】夜间，浓雾笼罩，能见度极低，路灯与车灯产生明显光晕。【自车】位于中间车道，正通过十字路口，执行停车等待动作（红灯）。【交通设施】前方多组交通信号灯显示为红色，右侧信号灯已转绿，但自车未移动。【周围车辆】左前方对向车道有数辆大型货车静止待行，车灯在雾中模糊不清。【关键风险】因大雾导致视线严重受限，存在“鬼探头”风险；左侧货车位置偏近，若突然启动可能造成碰撞。",
+      "risk_tags": [
+        "heavy_fog",
+        "low_visibility",
+        "ghost_probe_risk",
+        "red_light_wait"
+      ]
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "【环境】雾气略有消散，但仍较浓，路灯照明稳定。【自车】在中间车道完成起步，匀速沿直道行驶。【道路结构】前方无交叉口，路面标线清晰可见。【右侧】路边出现商铺、路灯及少量停放车辆，无行人活动。【左侧】远处有施工围挡区域，但无明显作业车辆或人员。【关键风险】无直接威胁，但左侧施工区存在潜在遮挡物，需警惕突发障碍物或行人从围挡后冲出。",
+      "risk_tags": [
+        "moderate_fog",
+        "no_immediate_threat",
+        "construction_zone_awareness"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "【环境】雾气进一步减弱，夜空黑暗，路灯亮度均匀。【自车】保持中间车道匀速行驶，车速约40km/h。【前方】出现铁路道口警示标志（X形+闪烁红灯），道口栏杆尚未落下。【右侧】出现商业招牌（如“BAIL BONDS”）和小型建筑，无行人或动物活动。【左侧】持续为施工围挡区，内有临时照明设备，但无作业人员或机械。【关键风险】铁路道口临近，需注意栏杆状态及列车接近可能性；当前无车辆或行人横穿，风险可控。",
+      "risk_tags": [
+        "railroad_crossing_proximity",
+        "no_active_obstacle"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】能见度良好，夜间无天气干扰。【自车】继续在中间车道匀速行驶，接近铁路道口。【前方】铁路道口栏杆开始缓慢下落，红灯持续闪烁，提示列车即将通过。【右侧】商业区广告牌（含“OFFROAD EXPO”字样）清晰可见，下方有施工围挡和黄色警示锥桶。【左侧】施工区仍无动态物体，但围挡内有灯光，疑似夜间作业准备。【周围车辆】前方有一辆白色卡车正在减速，准备在道口前停车等待。【关键风险】铁路道口栏杆即将完全关闭，自车需在安全距离内停车；前方卡车若未及时制动，可能引发追尾；施工区灯光可能造成视觉干扰，增加误判风险。",
+      "risk_tags": [
+        "railroad_crossing_stop_required",
+        "front_vehicle_braking_delay",
+        "visual_distraction_from_construction_lights"
+      ]
+    }
+  ]
+}

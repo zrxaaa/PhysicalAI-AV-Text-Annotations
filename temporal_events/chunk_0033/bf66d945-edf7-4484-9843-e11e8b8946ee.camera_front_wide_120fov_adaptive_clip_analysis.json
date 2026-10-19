@@ -1,0 +1,37 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.85,
+    "analysis_time": "2026-01-21 19:02:35"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴朗白天，阳光从前方照射，无明显遮挡或异常天气。【自车】位于中间车道，匀速沿直道行驶，未进行转向或变道。【左侧】停放多辆皮卡与货车，部分车辆在路边作业；对向车道有公交车驶来，车身侧面印有“Clean Air Vehicle”标识，正沿对向车道行驶。【右侧】停放多辆私家车与面包车，其中一辆白色丰田普锐斯在右侧行驶道内缓慢移动，后方有黑色SUV驶过。【交通设施】道路两侧设有清晰的停车线与自行车道标线，无施工区域或锥桶围挡。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】太阳位置升高，形成强烈逆光，导致前方视野出现眩光与光晕，影响远处目标识别。【自车】保持中间车道匀速前行，未做横向调整。【前方】路口处可见斑马线与交通信号灯，当前为红灯状态（自车前方）。【左侧】街角处有“North Point”路牌，旁边建筑上有“Hotel”标识，底层商铺关闭。【右侧】树木遮挡部分视线，但未发现行人或动物。【关键风险】因强逆光，自车需依赖雷达/摄像头辅助感知前方交叉口动态，存在视觉盲区风险，尤其在红灯等待时可能忽略闯红灯车辆。",
+      "risk_tags": [
+        "strong_ambient_light",
+        "reduced_visibility",
+        "traffic_light_waiting_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】逆光持续，但太阳高度略有下降，眩光减弱。【自车】在交叉路口前停车等待红灯，纵向静止，横向无偏转。【左前方】一辆深色轿车从左侧邻近车道切入至自车正前方，完成切向动作，意图抢行通过路口。【右前方】另一辆深色轿车从右侧横穿人行横道，进入对向车道，其行驶轨迹与自车所在车道交叉，构成潜在碰撞风险。【交通设施】路口设有标准斑马线、交通信号灯（红灯）、路牌（North Point）及人行道。【非标物体】无动物、施工车辆或路面遗撒物。【关键风险】两辆轿车均存在违规行为：左侧车辆压实线切入，右侧车辆在红灯时横穿路口，属于典型“鬼探头+加塞”组合风险，自车处于被动防御状态，需依赖ADAS系统预警。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "jaywalking_vehicle",
+        "ghost_probe_risk",
+        "red_light_violation"
+      ]
+    }
+  ]
+}

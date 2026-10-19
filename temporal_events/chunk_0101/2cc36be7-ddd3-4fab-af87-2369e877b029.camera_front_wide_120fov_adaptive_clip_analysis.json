@@ -1,0 +1,36 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.89,
+    "analysis_time": "2026-01-23 01:09:28"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】多云天气，云层厚重但未降雨，能见度良好。【自车】位于中间车道，匀速沿直道前行，无明显加减速。【左侧】高架桥结构从左前方延伸，桥墩上有蓝色星形涂鸦；右侧为多层砖红色停车楼，外有绿化带与电线杆。【交通设施】前方可见高架桥下方的隧道入口及路牌（Barker Cypress Rd, SH 146），路面标线清晰，车道分隔明确。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】天空云层密布，局部有阳光穿透，光照不均。【自车】保持在中间车道，匀速接近十字路口，未进行转向或变道。【前方】交通信号灯组悬于路口正上方，当前显示红灯，两侧设有“ONLY”左转和右转指示牌。【右侧】路口旁竖立多面旗帜（含美国国旗、德克萨斯州旗等），背景有树木与低矮建筑。【周围车辆】远处对向车道有少量车辆驶过，右侧路口处一辆深色轿车静止等待红灯。【关键风险】自车即将在红灯前停车，但前方无明显障碍物；右侧路口存在潜在闯红灯或违规右转风险，需警惕非机动车或行人从遮挡区域突然出现。",
+      "risk_tags": [
+        "red_light_waiting",
+        "intersection_crossing_risk",
+        "flag_pole_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】阴天，云层较厚，光线偏暗，无降水迹象。【自车】已完全停止于停车线后，保持静止状态，等待红灯结束。【左侧】高架桥下阴影区扩大，桥体结构压迫感增强；桥下有车辆从隧道口驶出，速度缓慢。【右侧】路口右侧停有一辆深色轿车，车身朝向与自车平行，未移动。【非标准物体】右侧路边竖立多根旗杆，旗帜随风飘动，无异常动作；无动物、施工车辆或遗撒物。【交通设施交互】自车与前方红灯形成稳定交互，无其他动态冲突。【关键风险】无显著风险，但因自车处于静止状态且前方视野被高架桥部分遮挡，存在轻微“鬼探头”隐患——若有人或车从桥下/右侧人行横道突然出现，可能无法及时反应。",
+      "risk_tags": [
+        "vehicle_stopped_at_intersection",
+        "partial_occlusion_by_overpass",
+        "low_risk_ghost_probe"
+      ]
+    }
+  ]
+}

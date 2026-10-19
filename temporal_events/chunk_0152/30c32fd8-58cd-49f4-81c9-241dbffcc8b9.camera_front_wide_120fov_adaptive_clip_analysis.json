@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.73,
+    "analysis_time": "2026-01-23 22:48:14"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】夜间，天空阴沉，有轻微雾气，路灯照明昏暗，能见度中等。【自车】在中间车道匀速沿道行驶，未进行转向或变道。【左侧】停放多辆轿车（含白色、银色、红色），部分车辆尾灯亮起；右侧亦停满车辆，包括一辆红色小型车和一辆银色SUV。【交通设施】道路两侧设有蓝色停车标线，左侧可见“P”停车标志牌。【关键风险】无明显违规行为或障碍物，但道路狭窄且两侧停车密集，存在“开门杀”潜在风险（如右侧车门突然开启）。",
+      "risk_tags": [
+        "narrow_road",
+        "parked_vehicle_obstruction",
+        "door_opening_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:06-00:00:12",
+      "scene_description": "【环境】继续夜间行驶，雾气略有加重，路灯间距增大导致局部照明不均。【自车】保持中间车道匀速前行，随道路微弯自然调整方向。【左侧】出现一栋两层白色建筑，窗户透出暖光；右侧为砖砌围墙与高大树木。【周围车辆】右侧一辆深灰色SUV缓慢驶离停车位，向后方移动约5米后停止；左侧一辆蓝色掀背车静止停放。【交通设施】前方出现绿色信号灯，提示可通行；路边设有限速标志（三角形警示牌）。【关键风险】右侧SUV启动时未打转向灯，存在切入主车道的潜在意图，但未实际进入自车路径，暂未构成直接威胁。",
+      "risk_tags": [
+        "unsignaled_turn",
+        "limited_lighting",
+        "potential_cut_in"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】夜色加深，雾气持续，部分区域路灯被树冠遮挡，形成明暗交替。【自车】维持当前车道匀速行驶，通过轻微曲率路段。【左侧】出现一栋带黑色百叶窗的白色别墅，门前停有一辆白色旅行车（车顶装行李箱）；右侧依次出现多个大型绿色垃圾箱（排列于路肩）、一辆白色厢式货车（车尾印有“DTIS”字样）及一辆深色轿车。【非标准物体】右侧垃圾箱群呈一字排开，占据部分非机动车道，可能影响紧急车辆通行。【关键风险】自车接近垃圾箱区域时，右侧一辆深色轿车突然从车位驶出，车头偏转角度较大，有切入自车车道趋势（Aggressive Cut-in），但因距离较远且自车已减速，未发生碰撞。此外，垃圾箱边缘有反光条，夜间易造成视觉干扰。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "obstacle_on_sidewalk",
+        "visual_interference"
+      ]
+    }
+  ]
+}

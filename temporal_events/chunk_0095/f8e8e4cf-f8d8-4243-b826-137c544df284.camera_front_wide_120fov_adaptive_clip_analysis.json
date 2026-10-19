@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.04,
+    "analysis_time": "2026-01-22 22:33:55"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间行车，路面干燥，路灯照明充足，无明显天气异常。【自车】位于中间车道，匀速沿直道行驶。【右侧】可见Us Bank建筑及黄色厢式货车停靠路边，未移动；远处有Arby's和ReStore广告牌。【左侧】对向车道车辆有序通行，无异常交互。【交通设施】道路标线清晰，无遮挡物。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】夜间，路灯与店铺霓虹灯混合照明，视野良好。【自车】保持在中间车道，匀速前进。【右侧】经过Arby's和Hardee's快餐店，其招牌灯光醒目；路边停放多辆私家车，无动态行为。【左侧】对向车流稳定，无切入或变道行为。【交通设施】道路两侧设有电线杆、交通标志牌（含方向指示），无施工或障碍物。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】夜间，前方路口信号灯为绿灯，光照条件稳定。【自车】维持当前车道，匀速接近交叉口。【前方】多个横向车道车辆正在等待红灯，部分车辆准备左转或直行。【右侧】交叉口处有Advance Financial 24/7门店，门前有数辆汽车静止等候。【交通设施】路口上方悬挂多组交通信号灯，其中直行绿灯亮起，左转箭头灯为红色。【关键风险】自车即将进入交叉口，需注意左侧待转车辆可能突然启动，存在潜在切入风险。",
+      "risk_tags": [
+        "potential_cut_in",
+        "intersection_crossing"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】夜间，能见度良好，无降水或雾气。【自车】在绿灯放行下通过交叉口，完成直行动作。【左侧】一辆深色SUV从左转车道加速切入自车前方，未打转向灯，属于违规加塞行为。【右侧】一辆白色SUV在右转车道等待，未干扰自车路径。【交通设施】交叉口斑马线清晰，信号灯持续绿灯状态。【关键风险】左侧车辆强行切入，导致自车需紧急减速避让，存在碰撞风险，构成‘Aggressive Cut-in’事件。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "emergency_braking",
+        "intersection_hazard"
+      ]
+    }
+  ]
+}

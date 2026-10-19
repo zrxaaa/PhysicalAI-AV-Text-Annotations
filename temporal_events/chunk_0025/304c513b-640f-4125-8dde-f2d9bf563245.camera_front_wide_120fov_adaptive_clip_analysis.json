@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 08:06:43",
+    "processing_time_seconds": 13.63
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在晴朗天气下沿林荫道直行，前方路口交通灯为绿灯，右侧路边有行人站立，左侧对向车道有车辆驶来但未进入冲突路径。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "自车接近十字路口，右侧出现木质围栏与石墙，对向车道有车辆左转，自车保持直行，未见行人或突发障碍物，道路标线清晰可见。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "自车继续直行，前方出现公交站台及停靠的公交车，右侧人行道上有行人行走，自车减速并保持安全距离，未进行变道或超车动作。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "自车在公交站台前减速，一辆标有“545”线路的公交车从右侧驶入公交专用道，自车在其后方跟随，无其他车辆或行人干扰路径。"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 20.28,
+    "analysis_time": "2026-01-23 15:50:27"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】阴天，云层较厚，无明显降水或强光。路面干燥，能见度良好。【自车】位于中间车道，处于路口停车状态，等待红灯。【前方】一名戴红色头盔的骑行者位于自车正前方，停在人行横道线前；其左侧有两名行人正在通过斑马线（左前侧）。【交通设施】右侧交通信号灯为红灯，倒计时显示剩余约3秒；左侧建筑旁设有CIC银行ATM，街角有公交站牌。【关键风险】骑行者与行人同时存在，若红灯转绿后骑行者突然启动，可能与自车发生冲突；行人未完全通过，存在“鬼探头”风险。",
+      "risk_tags": [
+        "pedestrian_crossing_risk",
+        "red_light_waiting",
+        "potential_ghost_probe"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:07",
+      "scene_description": "【环境】天气稳定，无异常光照或路面状况。【自车】红灯转绿后，开始匀速前行，进入直行道。【前方】骑行者在绿灯亮起后立即启动，沿中间车道向前行驶，与自车同向；其右侧出现另一名骑电动自行车者（黄色头盔），从右侧非机动车道切入主路。【交通设施】右侧信号灯已变绿，人行横道信号灯仍为红灯（行人禁止通行）。【关键风险】右侧电动自行车者从非机动车道快速切入主路，且未观察自车，存在切出（Cut-out）风险，可能导致自车紧急避让。",
+      "risk_tags": [
+        "cut_out_risk",
+        "unilateral_lane_change",
+        "inadequate_yield"
+      ]
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "【环境】城市街道，两侧为多层住宅楼与施工围挡，部分建筑外立面覆盖脚手架和防护网。【自车】保持中间车道匀速前进，车速约25km/h。【左侧】对向车道有银色MPV驶来，与自车对向而行，无交互行为。【右侧】施工区域由黑色围挡隔离，围挡内可见施工人员活动；围挡外停放多辆自行车，部分行人沿人行道行走。【非标物体】右侧施工围挡上贴有“GTM BÂTIMENT”标识，表明为建筑工地；围挡旁立有“限速30”的圆形标志牌。【关键风险】右侧施工区域存在潜在障碍物（如临时堆放材料、施工设备），若自车靠近可能需减速；行人与自行车混行，存在横向穿越风险。",
+      "risk_tags": [
+        "construction_zone_obstacle",
+        "mixed_traffic_flow",
+        "speed_limit_compliance"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】天空仍多云，光线均匀，无遮挡或眩光。【自车】持续在中间车道匀速行驶，道路两侧停满车辆，右侧为施工围挡，左侧为居民楼及商铺。【前方】一名穿深色衣服、骑绿色共享单车的骑行者在右侧非机动车道行驶，与自车同向；其后方还有其他骑行者。【左侧】多辆汽车沿路边停放，包括一辆黑色Smart、一辆灰色SUV等；部分车辆在缓慢移动或准备起步。【交通设施】道路标线清晰，设有分隔车道的虚线；右侧施工围挡上有“ATTENTION ZONE DE CHANTIER”警示牌。【关键风险】右侧施工围挡与停放车辆形成狭窄通道，若骑行者或行人突然横穿，自车需紧急制动；左侧车辆频繁启停，存在“开门杀”或加塞风险。",
+      "risk_tags": [
+        "narrow_clearance_with_construction",
+        "parked_vehicle_open_door_risk",
+        "cycling_in_confined_space"
+      ]
+    }
+  ]
+}

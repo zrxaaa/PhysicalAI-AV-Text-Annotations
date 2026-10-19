@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.9,
+    "analysis_time": "2026-01-21 22:09:15"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，光线柔和，无明显降水或雾气，能见度良好。【自车】位于中间车道，匀速沿道路前行，未进行转向或变道。【左侧】一辆白色SUV从路边驶出并切入自车前方车道，完成变道动作；该车在接近路口时减速，但未打转向灯。【右侧】人行道上有行人推婴儿车行走，其中一人面向自车方向，另一人低头看手机，无横穿意图。【交通设施】路侧设有“WARNING”警示牌，提示注意行人与车辆交叉，但未见实际冲突。【关键风险】白色SUV违规变道（未打灯），存在加塞风险，虽未直接碰撞，但迫使自车紧急微调轨迹以避让。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "improper_lane_change",
+        "lane_conflict"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】无异常天气，光照稳定。【自车】保持中间车道匀速行驶，随道路坡度轻微上行。【左侧】一辆黄色DHL货车停靠在路边，车身部分占据左侧行车道，后方紧邻一辆灰色皮卡。【右侧】一名行人牵着一只白色犬只沿人行道行走，狗朝向自车方向，步伐平稳，无突然冲出迹象。【交通设施】前方可见“TWO WAY TRAFFIC AHEAD”标志牌，提示道路为双向通行。【关键风险】DHL货车占用部分车道，若其突然启动或开门，可能引发“开门杀”风险；同时，灰色皮卡在DHL车后缓慢移动，存在切出干扰自车路径的潜在行为。",
+      "risk_tags": [
+        "door_opening_risk",
+        "cut_out_potential",
+        "partial_lane_blockage"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】天空呈灰白渐变，远处山体轮廓可见，无遮挡。【自车】继续沿中间车道上坡行驶，速度略有下降以应对坡度。【前方】道路出现一个交叉口，对向车道有车辆静止等待，包括一辆黑色SUV和一辆白色越野车。【左侧】一排住宅楼前设有红白相间施工围栏，内有临时警示锥桶，暗示附近有施工活动，但无作业车辆或人员出现。【右侧】一名骑电动滑板车的人从右侧人行道进入车道，向自车方向靠近，但未进入主行车道，保持在路肩区域。【关键风险】交叉口处车辆静止，存在“鬼探头”隐患；施工围栏区域虽无作业，但可能隐藏未被识别的障碍物或突发行人穿越点。",
+      "risk_tags": [
+        "intersection_obstacle",
+        "ghost_probe_risk",
+        "construction_zone_undetected"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】无异常天气，光线均匀，视野开阔。【自车】在中间车道持续上坡行驶，保持匀速。【两侧】街道两侧停放大量车辆，包括黑色轿车、银色SUV及一辆改装越野车（车顶装行李架）。【右侧】一名骑自行车者从后方快速接近，沿右侧车道超车，未与自车发生横向交互。【交通设施】路面标线清晰，包含箭头指示和自行车道标识。【关键风险】右侧自行车超车行为虽未造成直接威胁，但在狭窄路段中增加了横向距离压缩风险；此外，多辆停放车辆形成视觉盲区，尤其在转弯处可能影响对侧来车的判断。",
+      "risk_tags": [
+        "bicycle_crossing_risk",
+        "narrow_road_blind_spot",
+        "parked_vehicle_obstruction"
+      ]
+    }
+  ]
+}

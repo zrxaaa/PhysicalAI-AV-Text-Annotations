@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 08:38:23",
+    "processing_time_seconds": 14.42
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在夜间城市道路中间车道匀速行驶，右侧车道有一辆银色SUV加速并入中间车道，与自车并行约2秒后完成变道。左侧对向车道有车辆驶过，路灯照明充足，路面干燥无积水。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:11",
+      "scene_description": "前方交通信号灯为绿灯，自车保持直行通过路口，右侧路边停放多辆汽车，远处可见福特汽车经销商招牌。一辆黑色轿车从右侧汇入车道，与自车保持安全距离并行。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:15",
+      "scene_description": "自车接近十字路口，信号灯转为黄灯，前方车辆开始减速，右侧出现Taco Bell餐厅和棕榈树，自车平稳减速准备停车。左侧人行横道无行人，道路标线清晰。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "信号灯变为红灯，自车在停止线前完全停下，右侧车道有车辆排队等候，远处可见雪佛兰汽车经销商广告牌。自车保持静止状态，未发生任何变道或加速行为。"
+    },
+    {
+      "time_segment": "00:00:19-00:00:20",
+      "scene_description": "自车在红灯状态下维持静止，前方无明显动态变化，道路两侧商铺灯光持续亮起，无行人或其他车辆进入自车路径范围，场景稳定。"
+    }
+  ]
+}

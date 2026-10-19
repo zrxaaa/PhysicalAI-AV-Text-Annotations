@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 09:42:16",
+    "processing_time_seconds": 17.96
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车沿双向两车道住宅区道路平稳行驶，右侧路边停有一辆银色SUV，前方路口有黄色‘SCHOOL ZONE AHEAD’警示牌，天气晴朗，路面干燥无积水。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "自车继续直行，左侧出现一辆深色SUV从 driveway 驶出并停入路边，右侧路边停放多辆汽车，包括一辆皮卡，自车保持匀速通过无行人或交叉冲突。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车经过一个设有白色V形人行横道的路口，右侧停有一辆银色SUV和一辆黑色轿车，未见行人，道路两侧为绿化带与住宅，无交通信号灯或施工区域。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车在无干扰情况下持续直行，道路两侧出现高大常绿树与修剪整齐的灌木篱笆，远处可见电线杆与少量行人活动迹象，但未进入自车路径范围。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车接近下一个路口，右侧出现一辆深色SUV从停车位驶出并缓慢汇入车流，自车减速避让，未发生碰撞或紧急制动，环境安静，无其他动态障碍物。"
+    }
+  ]
+}

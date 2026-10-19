@@ -1,0 +1,35 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.88,
+    "analysis_time": "2026-01-21 23:59:21"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，蓝天白云，光照充足，无异常天气。【自车】位于中间车道，匀速沿直道行驶，未进行转向或变道。【前方】一辆银灰色轿车在前车距约30米处同向行驶，保持稳定速度。【道路设施】左侧路肩设有“RIGHT LANE MUST TURN RIGHT”交通标志牌，右侧为土坡与行道树，无明显障碍物。【相对运动】自车与前车纵向距离稳定，横向无交互意图。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】光照条件良好，树木投下阴影于路面，无遮挡风险。【自车】仍保持在中间车道，匀速前行，随道路微弯轻微调整方向（非主动变道）。【前方车辆】银灰色轿车持续在前，未见加速或减速迹象。【道路设施】经过“Irving St”与“Richmond Dist Use Lincoln”路牌交叉口，右侧出现人行横道预兆标线。【非标准物体】右侧土坡边缘有数个长椅及垃圾桶，无行人活动；远处可见一辆水泥搅拌车静止停靠于路口右转车道，车身部分遮挡视线，但未作业，无动态部件伸出。【关键风险】水泥搅拌车虽静止，但其体积庞大，可能造成局部视野遮挡，尤其在接近交叉口时需警惕‘鬼探头’风险。",
+      "risk_tags": [
+        "occlusion_risk",
+        "large_vehicle_obstacle"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】晴朗，能见度高，无降水或雾气。【自车】进入十字路口区域，继续沿中间车道行驶，车速略有降低以应对前方红绿灯。【前方车辆】银灰色轿车在接近路口时减速，准备左转或直行，未完成转向动作。【交通设施】前方为带斑马线的十字路口，信号灯显示为绿灯，左侧对向车道有红色公交车正在通过，右侧人行道有行人站立等待。【非标准物体】水泥搅拌车仍停于路口右转车道，车身未移动，无旋转或卸料动作，属静态障碍物。【关键风险】自车即将进入交叉口，需注意左侧公交车突然变道、右侧行人闯红灯或横穿马路的风险；同时，前方银灰色轿车若突然左转，将与自车形成冲突路径，存在潜在碰撞风险。",
+      "risk_tags": [
+        "intersection_crossing_risk",
+        "pedestrian_jaywalking_potential",
+        "vehicle_turn_conflict"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 03:44:07",
+    "processing_time_seconds": 13.14
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "夜间城市道路，自车在中间车道行驶，右侧有一辆白色SUV从后方加速并入中间车道，左侧有黑色SUV驶过。前方车辆保持匀速，路边可见‘PARK’霓虹灯标识建筑。",
+      "environment_conditions": "夜间，路灯照明，路面干燥，能见度良好"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "自车继续直行，左侧出现一辆白色跑车从旁超车并切入自车前方车道，右侧人行道旁有行人站立但未横穿马路。道路右侧有商业建筑和广告牌，无明显障碍物。",
+      "environment_conditions": "夜间，街道两侧树木茂密，路灯提供充足照明，无天气影响"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车接近一个设有自行车道标线的路口，前方车辆开始减速，交通信号灯为红灯。右侧人行道上有行人行走，但未进入车道区域。自车保持跟车距离，未进行变道或超车。",
+      "environment_conditions": "夜间，交通信号灯清晰可见，路面标线完整，无遮挡物影响视线"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "前方交通灯转绿，自车随车流启动前行，左侧车道有多辆汽车同时加速通过路口。右侧人行道上可见停放的自行车，无行人穿越。自车保持稳定速度，未发生紧急制动或转向。",
+      "environment_conditions": "夜间，绿灯通行顺畅，车流量较大但秩序良好，无突发障碍物"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车通过交叉路口，前方为直行绿灯，右侧有转弯车辆汇入主路。自车保持当前车道，与右侧转弯车辆保持安全横向距离，未发生碰撞或紧急避让行为。",
+      "environment_conditions": "夜间，交叉路口照明充足，交通标志清晰，路面无湿滑或破损现象"
+    }
+  ]
+}

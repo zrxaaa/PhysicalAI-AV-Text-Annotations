@@ -1,0 +1,38 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.05,
+    "analysis_time": "2026-01-23 20:41:33"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】清晨强逆光，太阳位于正前方，造成镜头眩光与路面反光。【自车】在中间车道匀速沿道行驶，未见明显转向或制动。【右侧】路边停放多辆私家车，部分车辆后门开启；一名行人从右侧人行道走向停车区域。【交通设施】右侧可见限速30km/h标志牌及黄色三角警示牌，无明显施工或障碍物。【关键风险】无显著风险，但强逆光影响视觉感知，需警惕前方车辆刹车灯被遮蔽。",
+      "risk_tags": [
+        "strong_ambient_light",
+        "reduced_visibility"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】逆光减弱，进入城市街道核心区，光照趋于均匀。【自车】保持中间车道匀速行驶，轻微跟随前方黑色轿车。【左侧】对向车道有车辆驶入，包括一辆红色小型车从左前侧超车并切入当前车道，未打转向灯。【右侧】多处商铺卷帘门关闭，部分墙面有涂鸦；一名骑电动车者从右侧小巷驶出，横穿车流。【交通设施】前方路口设有红绿灯，当前为绿灯通行状态；路旁有“ORTOPEDIA”、“RISTORANTE”等店铺招牌。【关键风险】左侧红色车辆违规变道（Aggressive Cut-in），右侧电动车横穿存在“鬼探头”风险，自车需保持横向安全距离。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "ghost_probe_risk",
+        "unpredictable_pedestrian_motion"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】城市街景延续，光线稳定，无异常天气。【自车】在中间车道继续匀速前行，接近前方斑马线。【前方】黑色轿车减速通过斑马线，未见紧急制动。【右侧】多辆汽车停靠于路边，其中一辆银色SUV从停车位驶出，向右前方转弯，切入自车所在车道。【左侧】对向轨道区有电车轨道，无列车运行；远处可见红绿灯为绿灯。【非标物体】右侧人行道上有两名行人站立交谈，面部朝向道路，肢体动作放松，无横穿意图。【关键风险】右侧SUV强行变道，未礼让直行自车，构成潜在碰撞威胁；同时，斑马线区域存在行人驻足风险，虽当前无移动，但视线盲区仍存。",
+      "risk_tags": [
+        "unsafe_lane_change",
+        "crosswalk_interaction_risk"
+      ]
+    }
+  ]
+}

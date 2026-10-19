@@ -1,0 +1,36 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.71,
+    "analysis_time": "2026-01-24 13:57:26"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，阳光强烈导致画面出现明显眩光，尤其在自车正前方区域。【自车】位于中间车道，匀速沿直线道路前行。【左侧】对向车道有多辆轿车和SUV正常行驶，无异常行为。【右侧】路边停放多辆汽车，后方有Volkswagen品牌广告牌及“ROAD WORK AHEAD”施工警示牌，提示前方有施工区域。【交通设施】右侧人行道旁设有橙色菱形施工标志，未见施工机械或人员活动。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】光照仍为强逆光，但树影开始投射在路面，部分遮挡视线。【自车】保持中间车道匀速行驶。【前方】一辆深色SUV在前车流中稳定行驶，未见急刹或变道。【右侧】出现“LEFT LANE CLOSED AHEAD”警示牌，提示左侧车道即将封闭；同时可见金属围栏、临时建筑及堆放的绿色建材（如保温板），表明此处为施工区边缘。【非标物体】围栏内无施工车辆或人员，但存在大量堆叠材料，可能构成潜在障碍物。【关键风险】左侧车道因封闭预告，车流可能突然向右并线，存在加塞或变道冲突风险。",
+      "risk_tags": [
+        "lane_closure_warning",
+        "potential_cut_in_risk",
+        "obstacle_in_construction_zone"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】阳光透过树叶形成斑驳光影，部分区域光线较暗，但整体能见度良好。【自车】维持中间车道，跟随前方黑色SUV匀速行驶，未进行加速或减速。【左侧】一辆蓝色SUV从左前侧邻车道超车并入自车所在车道，完成切入动作，动作流畅且开启转向灯，无违规。【右侧】树木颜色呈现秋季红绿相间，围栏内仍有建筑材料堆放，未见作业车辆。【交通设施】前方约30米处出现黄色“YIELD”让行标志，提示前方路口需注意礼让。【关键风险】前方黑色SUV在接近路口时刹车减速，自车随之缓行，存在因前车制动引发追尾或紧急避让的风险；同时，左侧车道频繁有车辆切出，存在潜在加塞行为，需警惕突发变道。",
+      "risk_tags": [
+        "braking_following_vehicle",
+        "potential_cut_in_from_left",
+        "intersection_yield_sign"
+      ]
+    }
+  ]
+}

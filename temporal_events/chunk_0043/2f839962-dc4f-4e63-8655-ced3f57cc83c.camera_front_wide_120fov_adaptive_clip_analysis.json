@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.14,
+    "analysis_time": "2026-01-21 23:33:16"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "【环境】晴天，蓝天白云，能见度良好，无异常天气。【自车】位于中间车道，匀速沿直道行驶。【周围车辆】左侧邻车道有黑色SUV、银色轿车及白色皮卡依次驶过；右侧路肩设有橙色施工锥桶，后方出现一辆白色工程皮卡（车身印有“Night of Glory”字样），正缓慢向右前方移动，疑似参与道路施工疏导。【交通设施】右侧路肩设置多组橙色锥桶，形成临时导流区，引导车流向左前方变道。【关键风险】右侧施工区域存在非标准作业车辆，其移动路径与自车当前车道接近，存在潜在横向交互风险；但未发生切出或切入行为，暂无紧急避让需求。",
+      "risk_tags": [
+        "construction_zone",
+        "near_lane_crossing"
+      ]
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "【环境】光照稳定，晴朗。【自车】保持中间车道匀速行驶，随道路曲率轻微向左偏航。【周围车辆】前方银色轿车在左侧车道减速并开始向左变道，完成变道后进入最左侧车道；右侧施工区域锥桶继续延伸，后方可见一个可移动式警示牌（带闪烁灯）被拖车牵引，正从右侧车道移出。【交通设施】前方出现多个绿色高速公路指示牌，标示“FREEWAY ENTRANCE 405 NORTH Los Angeles”，同时右侧路边设有人行横道警示标志（黄色菱形）。【关键风险】前方车辆变道动作较突然，且未打转向灯，可能对自车造成瞬时横向干扰；施工警示牌移动中存在视线遮挡风险，需注意其动态位置。",
+      "risk_tags": [
+        "sudden_lane_change",
+        "unannounced_vehicle_move",
+        "mobile_sign_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】阳光充足，无云层遮挡，视野开阔。【自车】在接近交叉路口处，开始执行左转操作，车头偏航角明显向左调整，沿弯道曲线行驶。【周围车辆】左侧对向车道车辆正常通行；右侧路边停放多辆私家车，包括一辆红色SUV和一辆白色轿车，均静止状态，未对自车转向路径构成威胁。【交通设施】路口设有“2 CARS PER GREEN”限行标志牌，以及高压电塔和绿化带作为背景参照。【关键风险】自车转弯过程中，右侧人行道与停车区域存在视觉盲区，虽无行人或动物出现，但若后续有突发横穿行为，将面临“鬼探头”风险；此外，转弯半径较大，需确保与左侧车道车辆保持安全距离。",
+      "risk_tags": [
+        "turning_with_blind_spot",
+        "potential_ghost_probe",
+        "lane_clearance_check_needed"
+      ]
+    }
+  ]
+}

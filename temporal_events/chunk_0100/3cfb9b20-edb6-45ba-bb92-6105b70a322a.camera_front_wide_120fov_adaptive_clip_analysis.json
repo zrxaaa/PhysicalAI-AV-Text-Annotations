@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 19.28,
+    "analysis_time": "2026-01-23 00:35:40"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间暴雨天气，路面严重积水并反射路灯与车灯，形成强烈眩光；雨滴密集附着于挡风玻璃，影响视线清晰度。【自车】位于中间车道，匀速沿道路前行，未进行变道或转向。【右侧】多辆轿车及SUV沿路边停放，部分车辆尾灯亮起；右侧建筑上有“PTC”霓虹招牌，灯光在雨幕中扩散。【左侧】对向车道车流密集，车辆尾灯因雨水反光而模糊重叠。【交通设施】街道两侧路灯间距均匀，但受天气影响亮度衰减明显；无明显信号灯或人行横道标识可见。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility",
+        "glare_effect"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】雨势略有缓和，但仍持续降水，能见度维持在约50米内；路面水雾随车轮搅动加剧。【自车】保持中间车道匀速行驶，轻微跟随前方银色轿车。【左侧】出现Popeyes快餐店招牌，其后方为红白相间墙体建筑；随后经过“DOLLAR GENERAL”商店，店面明亮但无行人活动。【右侧】出现“NORTH AVE BRACES”牙科诊所，橱窗内有宣传海报；一名穿深色外套的行人从右侧行走至路口，面朝前方，步速平稳，未横穿马路。【关键风险】前方一辆白色厢式货车突然加速超车，切入自车左前方车道，未打转向灯，存在潜在碰撞风险。",
+      "risk_tags": [
+        "unannounced_lane_change",
+        "aggressive_overtake",
+        "pedestrian_crossing_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "【环境】强逆光现象加剧，来自路灯与车灯的光线在雨雾中形成星芒状光晕，严重影响前方视野。【自车】继续在中间车道匀速行驶，通过斑马线区域时减速。【前方】一辆黑色SUV在前方左转车道等待，刹车灯亮起；其后方一辆白色轿车亦减速。【右侧】“DOLLAR GENERAL”商店旁停有一辆白色货车，车身侧面贴有广告，未移动。【左侧】远处可见一座高塔结构（疑似水塔），轮廓在雨雾中模糊不清。【非标物体】右侧人行道边缘有少量积雪堆积，未影响通行。",
+      "risk_tags": [
+        "low_visibility",
+        "braking_traffic",
+        "obstructed_view"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】雨势趋于稳定，但路面仍湿滑，积水反射灯光形成动态光斑。【自车】在中间车道保持匀速，接近前方红灯路口。【右侧】一栋砖砌建筑前停有多辆私家车，其中一辆红色小型面包车从右侧车道缓慢驶入自车所在车道，未打转向灯，且车头偏航角向左微调，意图切线。【左侧】对向车道有白色货车驶过，车速较快。【交通设施】前方路口设有红绿灯，当前显示为红灯；路侧有“禁止停车”标志牌，但仍有车辆违规停放。【关键风险】右侧红色面包车强行切入，构成“鬼探头”风险——因自车正视前方红灯，未预判右侧横向切入行为，极易引发追尾或剐蹭事故。",
+      "risk_tags": [
+        "illegal_lane_change",
+        "ghost_probe_risk",
+        "red_light_intersection"
+      ]
+    }
+  ]
+}

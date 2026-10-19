@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 05:15:50",
+    "processing_time_seconds": 11.41
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "自车在十字路口等待绿灯，左侧灰色SUV和右侧黑色皮卡先后从对向车道左转，同时一辆白色奔驰轿车从右侧车道直行通过人行横道。交通信号灯为绿色，道路标线清晰，天气晴朗，路面干燥无湿滑。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "绿灯变红，自车停车等待，前方车辆均停止。自车向左转弯进入匝道，路旁有‘ROAD WORK AHEAD’警示牌及‘FREEWAY ENTRANCE’指示牌，对向高架桥上有车辆通行，坡顶植被稀疏，无行人出现。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "自车驶入高速公路匝道，右侧为混凝土隔音墙，左侧为高架桥下的主干道，多辆轿车与皮卡在主干道上高速行驶。自车保持低速平稳汇入车流，未发生变道或超车行为。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车进入高速公路主道，前方可见桥梁结构与路牌‘Hollywood Blvd’，右侧隔音墙持续延伸，左侧车道有红色皮卡与白色卡车并行。天气仍晴朗，云层较厚但无遮挡阳光，路面状况良好。"
+    }
+  ]
+}

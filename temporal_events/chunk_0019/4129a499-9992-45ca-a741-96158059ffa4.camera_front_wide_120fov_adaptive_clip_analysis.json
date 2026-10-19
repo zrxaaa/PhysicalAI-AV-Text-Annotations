@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 06:01:59",
+    "processing_time_seconds": 13.32
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车在十字路口前匀速行驶，前方交通信号灯为绿灯，左侧车道有白色SUV和银色轿车正向直行，右侧车道有车辆准备右转，天空多云但能见度良好。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:07",
+      "scene_description": "信号灯由绿转黄，自车减速并停于停止线内，前方无行人或障碍物，道路中央隔离带为碎石路肩，右侧建筑外立面可见‘Molex’标识，路面标有‘40’限速字样。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:13",
+      "scene_description": "自车保持静止等待红灯，左侧对向车道有数辆汽车驶过，右侧路边出现橙色施工锥桶与临时围栏，远处可见施工人员及工程车辆，树木沿路排列，部分树叶已变色。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "信号灯转为绿灯，自车启动向前行驶，右侧车道施工区域扩大，橙色锥桶延伸至前方，一辆白色皮卡和工程车停在施工区边缘，未影响主车道通行。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车继续沿直行车道平稳前进，右侧施工区域有工人活动迹象，远处可见黄色挖掘机正在作业，道路两侧绿化带与现代办公楼交替出现，天气仍多云，路面干燥无积水。"
+    }
+  ]
+}

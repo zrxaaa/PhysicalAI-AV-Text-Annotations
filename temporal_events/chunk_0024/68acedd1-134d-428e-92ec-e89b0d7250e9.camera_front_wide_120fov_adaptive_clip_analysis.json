@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 07:52:11",
+    "processing_time_seconds": 13.22
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "车辆从高架桥下驶出，前方道路开阔，路面标线清晰，右侧有施工围栏和金属护栏。交通信号灯位于前方路口，自车保持直行匀速行驶，未见明显障碍物或行人。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "车辆接近十字路口，前方交通信号灯为红灯，左侧可见Mobil加油站入口，右侧有数辆汽车在路口等待左转。自车减速停车，保持在直行车道内，无其他车辆与自车路径冲突。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "信号灯仍为红灯，右侧车道一辆白色轿车和一辆红色轿车依次从右向左横穿路口，自车保持静止状态，未发生任何变道或加速行为。远处有车辆在对向车道等待通行。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "白色轿车完成左转后，红色轿车紧随其后横穿路口，随后一辆灰色SUV从右侧进入画面并完成左转。自车持续停车等待，所有横向通过车辆均未与自车路径产生交集。"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.05,
+    "analysis_time": "2026-01-24 01:01:52"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，多云，能见度良好，无异常天气。【自车】位于中间车道，处于停车等待状态（交通信号灯为黄灯），未移动。【左侧】对向车道有黑色大众旅行车、红色雷诺SUV等车辆正常行驶；【右侧】人行道上有多组行人聚集于斑马线前，部分行人开始向斑马线方向移动，其中一名穿蓝色牛仔外套女性携带白色购物袋，正朝自车左前方行走，面部朝向前方，步态自然。【交通设施】右侧路口设有行人信号灯（当前为黄灯）、黄色行人过街标志牌及橙色锥桶围挡区域。【关键风险】行人即将横穿马路，存在“鬼探头”潜在风险，因自车静止且前方视野被行人遮挡，需保持警惕。",
+      "risk_tags": [
+        "pedestrian_crossing_risk",
+        "signal_light_transition",
+        "occlusion_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】光照稳定，无天气突变。【自车】仍保持静止，等待行人通过。【右侧】多名行人（含穿白色T恤戴棒球帽男性、穿深色外套背包男性）陆续从右后方进入斑马线，沿自车左前方横向穿越道路，动作连贯，无明显停顿或犹豫。其中一人手持手机，低头注视屏幕，但仍在安全路径内通行。【左侧】对向车道车辆（银色大众轿车、灰色小型车）依次驶过，未出现异常行为。【交通设施】右侧路旁可见“VIVA BRUXELLES”宣传旗帜、指示牌及“LE SOIR”广告牌；人行道边缘停放一辆电动滑板车。【关键风险】行人横穿路径与自车所在车道重合，虽为合法斑马线，但因行人密集且部分低头看手机，存在反应延迟风险，需确保完全清空车道后再启动。",
+      "risk_tags": [
+        "pedestrian_crossing_risk",
+        "distracted_pedestrians",
+        "lane_clearance_required"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】晴朗，光线充足。【自车】在行人全部通过后，开始缓慢起步并沿中间车道匀速前行。【右侧】路边停放一排车辆，包括黑色宝马轿车、白色奔驰旅行车、红色“PASTA D'ITALIA”货车等，部分车辆尾部贴有临时封条或警示带，显示可能为施工或临时停靠区。【左侧】建筑立面被大面积脚手架和白色防护网覆盖，结构清晰，无动态施工活动。【非标物体】右侧人行道上停放两辆共享电动滑板车，无人使用；远处可见数名行人沿人行道行走，无异常行为。【交通设施】前方路段设有“禁止停车”标志及橙色锥桶隔离带，提示该区域为临时管制区。【关键风险】自车起步时需注意右侧停放车辆的突然开门风险（Open Door），尤其在狭窄空间内；同时，前方道路因施工围挡导致车道压缩，需留意是否有非机动车或行人从车辆间隙中穿行。",
+      "risk_tags": [
+        "parked_vehicle_open_door_risk",
+        "narrow_lane_conflict",
+        "construction_zone_obstacle"
+      ]
+    }
+  ]
+}

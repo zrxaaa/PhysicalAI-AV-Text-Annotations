@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 02:56:52",
+    "processing_time_seconds": 13.71
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在十字路口等待，左侧一辆浅色SUV正在左转，前方交通信号灯为绿灯，右侧车道有车辆排队准备右转，道路两侧有电线杆和光秃树木，天气阴沉但无雨，路面干燥。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "信号灯转为黄灯，自车减速停车，前方多辆汽车同时刹车，包括一辆银色SUV和一辆深色轿车，右侧CVS药店建筑清晰可见，路边停有数辆车，无行人出现，环境安静且无突发障碍物。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "信号灯变红，自车保持静止，左侧对向车道有一辆白色轿车驶过，右侧人行道旁停着一辆灰色轿车，道路两侧树木无叶，视野开阔，无行人或临时障碍物干扰自车路径。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "自车启动前行，进入直行双车道，左侧有黑色SUV从对向车道驶来并完成超车，右侧路边出现限速35的标志牌，周围环境为郊区住宅区，树木稀疏，无行人活动。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车继续沿道路平稳行驶，两侧出现低矮灌木和住宅前院，部分车辆停在路边，未见行人或交叉路口，天空灰白，光线均匀，无明显阴影或天气突变，整体交通流畅安全。"
+    }
+  ]
+}

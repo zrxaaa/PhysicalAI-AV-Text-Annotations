@@ -1,0 +1,36 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.57,
+    "analysis_time": "2026-01-22 06:07:21"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，无明显降水，路面干燥但略显湿滑，能见度良好。【自车】位于中间车道，正执行减速停车动作，准备在路口STOP标线前完全停下。【前方】一辆白色皮卡在交叉口中央左转，完成转向后驶离；其左侧对向车道有车辆排队等待。【右侧】一辆灰色SUV从路边驶出并切入自车所在车道，未打转向灯，处于右前侧近处（<5米），存在切向风险。【交通设施】路口设有“STOP”地面标线、红色停车标志牌及“SCHOOL SPEED LIMIT 15”的限速标志。【关键风险】右侧灰色SUV突然切入，属于“Aggressive Cut-in”，迫使自车紧急制动以避免碰撞。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "emergency_braking",
+        "intersection_crossing_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】阴天，光线均匀，无遮挡。【自车】完成停车后，在交叉口直行通过，保持中间车道匀速行驶。【左侧】对向车道有多辆轿车有序通行，其中一辆白色SUV从左前方横向驶过，已完成横穿动作，无交互风险。【右侧】沿街停放多辆私家车，人行道上有两名行人正在行走，面向自车方向，步速平稳，未进入车道。【交通设施】路口设有黄色斑马线、速度提示牌（SPEED HUMPS）、禁止超车标志（NO OVERTAKING OVER 3 MILES/HOUR）。【关键风险】无显著风险，行人与车辆均按规则行动，未出现违规或遮挡行为。",
+      "comment": "此段为平稳过渡期，无安全威胁，故不标注risk_tags。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】阴天，道路两侧建筑密集，电线杆与架空电缆纵横交错，部分区域有轻微雾气影响远景清晰度。【自车】保持中间车道匀速前行，沿弯曲道路行驶，未进行变道或转向。【左侧】沿街停放多辆汽车，包括一辆银色轿车、一辆深蓝色皮卡和一辆黑色SUV，均静止状态，无移动趋势。【右侧】沿街住宅楼前停放多辆车，包括一辆红色菲亚特500、一辆绿色Mini Cooper和一辆灰色本田雅阁，均静止。【特殊区域】路面上有自行车道标识（白色自行车符号）及“LT”箭头指示，表明为双向单车道+自行车专用道组合路段。【非标准物体】无动物、施工车辆或遗撒物。【关键风险】右侧一辆灰色本田雅阁在自车接近时突然打开车门（Open Door），车门朝向行车道，距离自车仅约2米，存在开门杀风险，需立即避让。",
+      "risk_tags": [
+        "open_door_risk",
+        "lane_narrowing",
+        "urban_traffic_density"
+      ]
+    }
+  ]
+}

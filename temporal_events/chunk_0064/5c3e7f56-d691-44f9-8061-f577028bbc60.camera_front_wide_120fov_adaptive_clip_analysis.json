@@ -1,0 +1,36 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.66,
+    "analysis_time": "2026-01-22 08:43:38"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，阳光强烈导致画面左上角出现眩光。【自车】在中间车道匀速前行，未进行转向或变道。【前方】一辆黄色挖掘机被装载于平板拖车上，正沿道路中央缓慢行驶，其后方为白色工程卡车。【相对位置】该施工车辆位于自车正前方约15米处，处于同向车道，无明显加速或减速趋势。【交通设施】右侧路边设有红色停车标志（STOP sign），但施工车辆未停车。【关键风险】施工车辆占用部分车道，且车身高度较高，可能遮挡后方来车视线；若其突然转向或制动，自车需紧急反应。",
+      "risk_tags": [
+        "construction_vehicle_occupancy",
+        "obstruction_by_large_vehicle",
+        "potential_sudden_braking"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】阳光仍强，但已从眩光区域移开，视野清晰。【自车】保持中间车道匀速沿直路行驶。【左侧】对向车道有数辆轿车驶过，均正常通行。【右侧】施工车辆已完成右转，停靠在路口拐角处，其挖掘机臂已收起，不再移动。【交通设施】前方为十字路口，路面标线清晰，设有斑马线与“SPEED LIMIT 25”限速标志。【非标物体】无动物、遗撒物或异常障碍物。【关键风险】无显著风险，施工车辆已退出主干道，自车可安全通过路口。",
+      "comment": "此段无关键风险，故不包含risk_tags字段"
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】晴朗，光照稳定，无遮挡。【自车】在中间车道持续匀速行驶，道路略有弯曲。【两侧】道路两侧停放多辆私家车，包括银色轿车、黑色SUV、浅绿色老式轿车等，部分车辆停放在人行道边缘。【前方】可见红绿灯信号为红灯，但自车尚未到达停止线，继续向前行驶。【交通设施】前方约50米处设有限速25的标志牌及红灯信号灯。【潜在风险】右侧路边有一堆枯枝落叶堆积，可能影响排水或引发轮胎打滑；远处可见一辆黑色轿车从右侧支路驶出，正准备进入主路，存在切入风险。【长尾场景】若前方红灯亮起，自车需在停止线前停车，此时右侧支路车辆可能因视线受阻而强行闯入，构成‘鬼探头’隐患。",
+      "risk_tags": [
+        "road_debris_risk",
+        "potential_cut_in_from_side_street",
+        "ghost_probe_risk_at_intersection"
+      ]
+    }
+  ]
+}

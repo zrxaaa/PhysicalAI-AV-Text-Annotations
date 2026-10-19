@@ -1,0 +1,38 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.01,
+    "analysis_time": "2026-01-22 12:50:42"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "【环境】晴朗天气，能见度良好，无降水或遮挡。【自车】位于中间车道，匀速沿直道行驶，未进行变道或转向。【前方】一辆银灰色SUV（型号似本田Pilot）在正前方车道行驶，与自车保持稳定距离，无加速或减速迹象。【右侧】路边停有多辆社会车辆，包括白色厢式货车和皮卡；右侧路肩有施工区域，停放一辆白色垃圾清运车，车身静止，未作业。【交通设施】前方约300米处为高架桥，桥下设有绿色高速出口指示牌：‘EAST 580 Fresno Stockton’ 和 ‘N Greenville Rd Altamont Pass Rd EXIT 57 1 MILE’。【关键风险】无明显违规行为或障碍物，但右侧施工车辆虽静止，其车身占据部分应急车道空间，存在潜在的紧急避让空间压缩风险。",
+      "risk_tags": [
+        "narrow_emergency_lane",
+        "static_vehicle_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "【环境】阳光充足，天空无云，光照均匀。【自车】继续在中间车道匀速行驶，通过高架桥下方区域，桥体结构从上方掠过，未造成视线遮挡。【左侧】对向车道可见多辆大型货运卡车（含红色半挂牵引车），均在各自车道内稳定行驶，未出现切线或加塞行为。【右侧】路肩绿化带后方出现一块大型空白广告牌，无动态物体。【非标物体】右侧路肩有一棵倒伏树木残枝，位于施工锥桶后方，未侵入行车道，但可能影响紧急救援通道。【关键风险】左侧对向车道重型车辆较多，若发生突发制动，可能因车距过近引发连锁反应；右侧倒伏树枝虽未直接威胁，但属于潜在路面障碍物，需警惕其被风吹动或车辆碾压后飞溅伤人。",
+      "risk_tags": [
+        "heavy_vehicle_traffic",
+        "fallen_branch_obstacle",
+        "potential_road_debris"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】持续晴天，视野开阔，远处山丘轮廓清晰。【自车】保持当前车道匀速前进，道路呈轻微右弯趋势，自车随道路曲率自然行驶，未进行主动转向。【前方】数辆轿车及一辆黑色皮卡在前方车道有序行驶，无异常变道或急刹。【右侧】出现一排低矮护栏与绿化隔离带，后方有零星住宅建筑与电线杆。【交通设施】右侧出现一个黄色菱形警示标志，提示前方为交叉路口或匝道入口，但无实际冲突车辆。【关键风险】无显著危险源，但右侧护栏后方区域存在视觉盲区，若突然有行人或非机动车从该侧冲出，将构成“鬼探头”风险；此外，前方车辆间距较近，若前车突发刹车，自车需依赖ADAS系统及时响应。",
+      "risk_tags": [
+        "blind_spot_risk",
+        "rear_end_collision_potential"
+      ]
+    }
+  ]
+}

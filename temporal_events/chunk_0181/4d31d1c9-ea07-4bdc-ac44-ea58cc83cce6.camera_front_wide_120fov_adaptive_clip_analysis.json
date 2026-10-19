@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.53,
+    "analysis_time": "2026-01-24 08:21:38"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间，路面湿滑积水，路灯照明下形成明显水雾反光，能见度中等偏低。【自车】位于中间车道，执行匀速直线行驶，未进行转向或变道。【交通设施】道路两侧设置红白相间施工锥桶，右侧有“4.2m”限高标志与“30”限速标志；左侧可见一栋白色建筑及多块蓝底导向牌。【关键风险】前方路口处有临时路障，车辆需在锥桶引导下绕行，存在路径不确定性；远处对向车道有车辆尾灯闪烁，但未进入自车影响半径内。",
+      "risk_tags": [
+        "wet_road",
+        "reduced_visibility",
+        "construction_zone"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】持续夜间湿滑路况，无明显降雨加剧，但路面水迹仍反射灯光。【自车】保持中间车道匀速前行，沿道路曲率自然延伸，未发生横向偏移。【交通设施】道路两侧连续布设施工锥桶，右侧为金属围栏+绿化带，左侧为低矮混凝土护栏；前方出现一座高架桥结构，桥体侧面有涂鸦，桥下为双向通道。【非标物体】桥体下方未见施工车辆或行人活动，但桥面有车辆通行的红色尾灯，表明该区域为动态交通流。【关键风险】高架桥结构下方空间狭窄，存在潜在剐蹭风险；桥体涂鸦区域可能遮挡视线，增加视觉干扰。",
+      "risk_tags": [
+        "narrow_clearance_under_bridge",
+        "visual_interference_from_graffiti",
+        "ongoing_traffic_flow_under_bridge"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】自车驶入高架桥下方隧道段，照明由路灯转为隧道内荧光灯，光线从明亮渐变为昏暗，能见度因隧道口过渡产生短暂眩光。【自车】保持中间车道匀速直线行驶，通过隧道时车头轻微上仰（因隧道拱形结构），未做转向调整。【交通设施】隧道内部结构为混凝土顶棚+蓝色钢柱支撑，两侧设有金属护栏与排水沟；顶部安装线性荧光灯，间距均匀，提供稳定照明。【周围参与者】隧道内可见数辆远端车辆尾灯，均在各自车道匀速行驶，无切入或减速行为。【关键风险】隧道入口处存在明暗突变，可能导致驾驶员短时视觉适应延迟；隧道内侧壁有水渍痕迹，可能存在滴水或湿滑风险；无行人、动物或其他障碍物，整体风险较低。",
+      "risk_tags": [
+        "light_transition_risk",
+        "tunnel_visual_adaptation_delay",
+        "no_immediate_threat"
+      ]
+    }
+  ]
+}

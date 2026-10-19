@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 08:46:52",
+    "processing_time_seconds": 16.15
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在林间双车道公路上匀速行驶，前方有一辆深色SUV保持同向行驶，道路右侧为石质护坡，左侧有橙色施工围栏，阳光从右上方照射，路面干燥无积水。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:08",
+      "scene_description": "自车继续沿直线道路前进，前方SUV保持距离，左侧对向车道出现一辆白色皮卡快速驶过，阳光因树木遮挡产生明显光晕，道路两侧植被茂密，无行人或其他障碍物。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "道路开始向左弯曲，自车随弯道轻微转向，前方SUV持续在中间车道行驶，左侧树木与右侧护坡形成视觉约束，未见其他车辆或行人进入自车路径范围。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车继续沿弯道行驶，左侧对向车道出现一辆白色厢式货车迎面驶来，完成会车后，前方SUV仍保持稳定行驶，道路两侧环境无显著变化，无交叉冲突风险。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车平稳通过弯道，前方SUV仍在视线内且距离稳定，道路两侧植被和护坡持续存在，无新交通参与者出现，整体场景保持连续性与低交互性。"
+    }
+  ]
+}

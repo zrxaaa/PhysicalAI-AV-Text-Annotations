@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 20.64,
+    "analysis_time": "2026-01-21 22:14:21"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "【环境】晴天，能见度良好，无异常天气。【自车】在中间车道匀速沿道行驶。【右侧】一辆绿色与黄色涂装的公交车（编号8210）停靠在路边，车身占据部分车道，后部贴有广告“Rain or shine #GreaterOut”。【左侧】一辆白色特斯拉Model 3从对向车道驶过，随后一辆深色SUV从左侧邻近车道驶入本车道前方。【交通设施】路侧设置橙色锥桶与临时围栏，提示施工区域。【关键风险】左侧SUV切入行为未提前打转向灯，存在潜在加塞风险；公交车尾部遮挡视线，可能引发“鬼探头”事件。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "occlusion_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "【环境】晴朗，阳光充足，道路两侧树木投下清晰阴影。【自车】保持中间车道匀速前行，随道路曲线自然行驶，无明显转向或制动。【左侧】远处可见一座高耸的红白相间输电塔，电线纵横交错。【右侧】沿街建筑为多层住宅/商业混合体，部分外墙有涂鸦。【交通设施】路口处设有“END SCHOOL ZONE”标志牌，提示学校区域结束。【非标物体】无动物、无施工车辆、无路面遗撒物。【关键风险】无显著风险，但输电塔及密集电线构成高空视觉干扰，可能影响感知系统对天空/高处目标的识别。",
+      "comment": "此段无关键风险，故不包含risk_tags字段"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】光照稳定，无遮挡。【自车】继续在中间车道匀速行驶。【右侧】一栋砖石结构建筑上挂有“DING-HO CLEANERS”招牌，下方设有人行道与消防栓。【左侧】出现一个交叉路口，设有交通信号灯与停车线。【交通设施】路口处设有“NO PARKING ANYTIME”禁停标志，以及橙白相间施工围栏。【行人】无明显行人活动。【关键风险】路口处信号灯为红灯，自车需在该处减速或停车，若未及时反应将导致闯红灯违规。",
+      "risk_tags": [
+        "traffic_light_violation_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "【环境】晴天，视野开阔。【自车】维持中间车道匀速行驶，车头朝向直行方向。【左侧】出现Shell加油站，站内有数辆汽车正在加油。【右侧】沿街商铺包括“Trader Joe's Capital Hill”和“KJ TRADER”，橱窗展示商品。【交通设施】前方路口设有红绿灯，当前显示为红灯。【非标准目标】无施工车辆、无动物、无路面障碍物。【关键风险】前方红灯为强制停车点，若自车持续接近而未减速，将触发闯红灯事故风险；同时，右侧人行横道附近有行人站立，存在横穿马路可能性。",
+      "risk_tags": [
+        "traffic_light_violation_risk",
+        "pedestrian_crossing_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "【环境】晴朗，光线充足，无天气异常。【自车】在中间车道匀速接近前方路口，准备停车。【前方】红灯亮起，对向车道有车辆停止。【右侧】“Trader Joe’s Capital Hill”店门口立有“A BOOK SALE”告示牌，门前有行人驻足。【左侧】Shell加油站旁有车辆进出。【交通设施】路口设有斑马线，一名行人正从左侧人行道走向斑马线，身体微倾，手臂自然摆动，面部朝向前方，无低头看手机迹象。【关键风险】行人即将横穿马路，且位于自车正前方盲区边缘（因车头遮挡），若自车未充分减速，可能发生碰撞；此外，右侧店铺前行人聚集，存在突然冲出的风险。",
+      "risk_tags": [
+        "pedestrian_crossing_risk",
+        "frontal_blind_spot_collision_risk"
+      ]
+    }
+  ]
+}

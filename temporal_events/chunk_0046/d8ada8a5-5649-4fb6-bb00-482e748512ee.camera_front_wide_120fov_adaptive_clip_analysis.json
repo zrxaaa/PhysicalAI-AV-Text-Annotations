@@ -1,0 +1,45 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.22,
+    "analysis_time": "2026-01-22 00:51:33"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】晴天，阳光强烈导致画面部分区域过曝，天空有分散云层。【自车】位于交叉路口最左侧车道，处于停车等待状态。【交通设施】前方及左侧交通信号灯为红灯，右侧信号灯亦为红灯；电线杆与横跨道路的电缆密集分布。【关键风险】无其他车辆或行人出现在视野内，但信号灯即将变绿，存在潜在闯红灯风险（若其他方向车辆未停稳）。",
+      "risk_tags": [
+        "red_light_waiting",
+        "no_cross_traffic"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】光照条件稳定，无明显天气异常。【自车】在左转专用车道启动，向左转向并完成左转动作，进入主干道。【交通设施】左转信号灯由红转绿，自车在绿灯亮起后起步。【周围】路口空旷，无行人、非机动车或对向车辆。【横向交互】自车从静止状态开始沿左转弧线行驶，车头偏航角从正向前转至约30度左偏，完成转向后回归直行姿态。",
+      "risk_tags": [
+        "left_turn_maneuver",
+        "clear_intersection"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:15",
+      "scene_description": "【环境】晴朗，阳光从左上方照射，路面干燥，能见度良好。【自车】已驶入双向两车道主路，保持中间车道匀速直线行驶。【道路特征】道路两侧为茂密树林，右侧路边出现限速40英里/小时标志牌。【周围】无其他车辆或行人出现在半径50米内，道路空旷。【关键风险】无显著风险，但右侧路边有施工锥桶和临时围挡，提示可能存在施工区域，需注意突发障碍物或行人穿越。",
+      "risk_tags": [
+        "straight_driving",
+        "construction_zone_nearby"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】光照仍强，但无眩光干扰。【自车】继续在中间车道匀速行驶，道路轻微右弯。【周围】右侧出现一个小型环岛入口，设有橙色施工锥桶和白色告示牌；左侧远处可见一栋住宅建筑。【非标物体】环岛入口处有施工锥桶排列，形成临时引导路径，无施工车辆或人员活动。【关键风险】锥桶构成潜在障碍，若自车偏离车道可能碰撞；同时，环岛入口处视野受限，存在“鬼探头”风险（如突然出现骑车人或行人），但当前无实体目标出现。",
+      "risk_tags": [
+        "construction_cone_obstacle",
+        "blind_spot_risk_at_roundabout"
+      ]
+    }
+  ]
+}

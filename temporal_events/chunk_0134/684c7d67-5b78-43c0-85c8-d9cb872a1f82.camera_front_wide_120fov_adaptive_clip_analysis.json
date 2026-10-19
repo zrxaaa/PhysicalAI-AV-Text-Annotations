@@ -1,0 +1,31 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 18.08,
+    "analysis_time": "2026-01-23 14:57:40"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴朗白天，光线充足，无异常天气。【自车】在中间车道匀速沿直道行驶，未进行变道或转向。【前方】一辆黄色厢式货车（车身印有“Elektro-Elmayer”字样）位于正前方，保持稳定车距，匀速行驶。【交通设施】左侧路肩设有蓝色方向指示牌，指向“Wischhöfer Weg, Frankfurter Kreuz, Kassel”，右侧路边有广告牌及限速50km/h标志。【关键风险】无明显风险，前车行为正常，道路视野开阔。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】阳光从左上方照射，部分区域出现轻微眩光，但未影响视线。【自车】保持中间车道匀速行驶，随道路微弯向前行进。【前方】黄色货车持续在前，未变道。【交通设施】车辆驶近并穿过一座混凝土高架桥下方，桥墩上有涂鸦（如“SPAK”、“PEERS”等），桥体结构对侧向视野略有遮挡。【非标物体】桥下右侧坡面有台阶和植被，未见行人或动物活动。【关键风险】桥下结构造成局部阴影区，存在视觉盲区；但无突发障碍物或违规行为，风险可控。",
+      "risk_tags": [
+        "partial_occlusion",
+        "structural_shadow"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】光照均匀，树木茂密，道路两侧绿植形成天然屏障。【自车】在中间车道继续匀速沿弯曲道路前行，未进行任何转向或加速动作。【前方】黄色货车仍保持稳定行驶，与自车距离维持约30米。【后方】远处可见一辆白色轿车在后方车道，未进入本车视野范围，无切入意图。【交通设施】道路两侧再次出现限速50km/h标志，提示当前路段为限制速度区。【关键风险】无显著风险；道路曲率较小，无急弯或施工区域，未发现行人、动物或路面遗撒物，整体通行安全。",
+      "risk_tags": []
+    }
+  ]
+}

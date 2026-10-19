@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.52,
+    "analysis_time": "2026-01-24 06:10:41"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天降雪后，路面湿滑且部分积雪未清理，车道线被部分覆盖，能见度中等。【自车】在中间车道匀速沿道行驶，未进行转向或变道。【右侧】一辆黑色轿车从右后方超车并切入自车前方车道，完成切出动作；其轮毂为彩色（绿色/紫色），疑似改装车辆。【左侧】路边停放多辆私家车，人行道有行人行走，其中一人穿深色外套，正朝自车方向步行但未进入横道。【交通设施】道路两侧设有公交站台和商店招牌，无明显信号灯控制当前路段。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "slippery_road",
+        "partial_lane_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】持续阴沉天气，路面积水与融雪混合，形成泥泞湿滑路面，部分区域有结冰反光。【自车】保持中间车道匀速前行，随道路曲线自然行驶，无转向动作。【左侧】对向车道有公交车停靠于站台，多名乘客正在上下车；一名行人从左前方横穿马路，身穿深色夹克，双手插兜，步态平稳，已进入人行横道。【右侧】沿街商铺林立，包括‘RESTAURANT’、‘HAIR SALON’等标识清晰可见；人行道上堆积大量融雪，高度接近膝盖。【关键风险】行人横穿时未观察自车动向，存在“鬼探头”潜在风险；右侧商铺门口有自行车停放，可能影响紧急避让空间。",
+      "risk_tags": [
+        "jaywalking_risk",
+        "obstacle_on_sidewalk",
+        "reduced_visibility_from_slush"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】天空灰暗，无降水，但地面仍湿滑，部分区域有薄冰反射光线。【自车】在中间车道继续匀速前进，通过十字路口时减速至约15km/h以应对前方交通状况。【左侧】一辆绿色复古电车由左向右驶过，车身贴有广告标语‘REAL OR NOT, IT’S VEGAN!’，其运行轨道与机动车道共用，电车停靠于公交站台旁，乘客排队等候。【右侧】出现‘EFES BAR’及‘KIOSKI’店铺，门前有数名行人站立交谈；一辆银色小型SUV停靠于路边，车门关闭，未见异常行为。【非标物体】电车运行期间，其顶部集电弓与架空电线接触稳定，无异常抖动或火花；路边自行车被积雪半掩，未造成通行障碍。【关键风险】电车与自车同向行驶，因轨道占用部分车道，导致自车需保持更宽横向安全距离；若电车突然启动或制动，可能引发自车紧急反应需求。",
+      "risk_tags": [
+        "shared_lane_with_tram",
+        "slow_traffic_at_intersection",
+        "increased_lateral_clearance_required"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 06:18:05",
+    "processing_time_seconds": 11.69
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车停在十字路口前，前方交通信号灯为红灯，右侧有白色SUV和蓝色轿车等待，左侧人行横道清晰可见，路灯照明下能见度良好。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "信号灯转绿，自车开始向前行驶，左侧一辆银色轿车从对向车道驶来并超越自车，右侧人行横道上有行人正在穿越，自车保持直行通过路口。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车进入直行街道，道路两侧停放多辆汽车，左侧有自行车道标识，前方迎面驶来一辆亮着大灯的车辆，自车减速避让，未发生碰撞。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车继续沿街直行，右侧出现施工围栏区域，路边停放多辆私家车，左侧有成排自行车停放在指定区域，无行人或突发障碍物。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车接近下一个路口，前方远处有红色尾灯车辆，道路两侧建筑灯光昏暗，路面标线清晰，无其他动态交通参与者干扰自车行驶路径。"
+    }
+  ]
+}

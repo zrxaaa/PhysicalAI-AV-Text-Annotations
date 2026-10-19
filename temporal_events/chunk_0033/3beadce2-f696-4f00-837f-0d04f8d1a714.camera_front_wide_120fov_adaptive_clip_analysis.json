@@ -1,0 +1,37 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.53,
+    "analysis_time": "2026-01-21 18:57:35"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】晴天，阳光强烈导致画面左侧出现明显眩光。【自车】位于中间车道，处于停车等待状态，前方交通信号灯为红灯。【周围车辆】左前方一辆银色轿车从左侧车道驶过；远处对向车道有数辆工程车及施工区域车辆静止或缓慢移动。【非标物体】道路两侧有多台伸展臂的高空作业车（吊篮式），部分臂架横跨路口上方，占据部分横向空间，但未在作业中。【交通设施】路口设有双方向红绿灯，当前为红灯；右侧路牌显示“Zuni St”，路口设有锥桶围挡施工区。【关键风险】高空作业车臂架高度接近路面，存在潜在碰撞风险；左前方车辆快速通过可能引发交叉冲突，但无违规行为。",
+      "risk_tags": [
+        "high_voltage_equipment_obstruction",
+        "cross_traffic_conflict"
+      ]
+    },
+    {
+      "time_segment": "00:00:06-00:00:11",
+      "scene_description": "【环境】阳光持续逆射，视野受眩光影响。【自车】在红灯转绿后启动，沿中间车道匀速前行。【周围车辆】左前方一辆白色SUV在绿灯亮起时同步起步，与自车同向行驶，保持安全距离；右侧无显著切入车辆。【非标物体】左侧施工区域内多台高空作业车仍处于静止状态，臂架未收回，部分遮挡左前方视线。【交通设施】信号灯由红变绿，自车获得通行权；路口处人行横道清晰可见，无行人。【关键风险】高空作业车臂架在车辆通过时形成视觉盲区，若突然移动将构成突发障碍；无其他明显违规或碰撞风险。",
+      "risk_tags": [
+        "visual_obstruction_by_construction_vehicle",
+        "delayed_movement_of_large_object"
+      ]
+    },
+    {
+      "time_segment": "00:00:11-00:00:19",
+      "scene_description": "【环境】强逆光持续，太阳位于右上方，造成镜头光晕。【自车】已驶离交叉口，进入直行主干道，保持匀速沿道行驶，车道线清晰。【周围车辆】左侧路边停放多辆私家车及货车，右侧为施工围栏区域，内有卡车和设备静止；远处可见高架桥结构，桥下有车辆通行。【非标物体】右侧施工区有橙色锥桶、临时围栏及大型起重机尾部露出，未作业，无动态风险。【交通设施】无信号灯控制，道路为开放式路段，前方有桥梁通道，无行人或非机动车。【关键风险】无直接碰撞风险；但强光可能导致传感器性能下降，需注意前方桥洞阴影区域的能见度变化；施工围栏边缘未设置反光警示，存在轻微视觉引导不足风险。",
+      "risk_tags": [
+        "sun_glare_impacting_sensor_performance",
+        "low_visibility_in_shadow_zone"
+      ]
+    }
+  ]
+}

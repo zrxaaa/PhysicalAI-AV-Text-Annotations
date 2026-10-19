@@ -1,0 +1,38 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.55,
+    "analysis_time": "2026-01-23 06:35:02"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，光照充足，无异常天气。【自车】位于中间车道，沿直线道路匀速前行，未进行转向或变道。【前方】一辆白色厢式货车（Ford Transit）停在人行横道上，尾部朝向自车，处于静止状态。【左侧】人行道旁停放多辆自行车，一名骑自行车者从左后方驶过，动作流畅，未进入行车道。【交通设施】前方为城市商业区街道，设有斑马线、玻璃顶棚人行天桥、路侧停车标志及“PHARMACIE”、“ArzteForum”等店铺标识。【关键风险】无明显违规或障碍物，但前方货车静止于斑马线上，存在潜在“鬼探头”风险（若行人突然从车后横穿），需保持警惕。",
+      "risk_tags": [
+        "potential_ghost_probe",
+        "stationary_vehicle_on_crosswalk"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】阳光直射，部分区域出现阴影，无降水或雾气。【自车】继续沿中间车道匀速前进，未变道。【右侧】一栋现代商业建筑，底层为药房（Mary's Apotheke）和ALDI超市，橱窗清晰可见内部货架。【左侧】出现蓝色临时施工箱体（标有“ENHAUSGEN BOGENHAUSEN”字样），其后为停车场，停放多辆私家车（含黑色奔驰商务车、红色小型车）。【行人】一名推购物车的行人从左侧人行道走出，横穿车道至右侧，动作平稳，未与自车发生交互。【非标物体】施工箱体静止，无作业活动；路边石墩排列整齐，无遗撒物。【关键风险】行人横穿车道虽未违规，但因自车速度较快，存在轻微碰撞风险；另，左侧施工箱体可能遮挡视线，需注意后续是否有车辆或行人从其后方出现。",
+      "risk_tags": [
+        "pedestrian_crossing_lane",
+        "occlusion_risk_from_construction_container"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】光线仍明亮，树影投射在路面，无强逆光干扰。【自车】保持当前车道，匀速向前行驶，未减速或转向。【前方】白色厢式货车已缓慢右转驶入路边停车位，完成动作。【右侧】ALDI超市外堆放多个托盘及白色塑料袋包裹货物，无人员操作，属静态障碍物。【左侧】停车场内多辆汽车有序停放，包括灰色奥迪SUV、白色轿车等，均未移动。【行人】远处两名行人并肩行走，朝向自车前方道路延伸方向，距离较远（>30米），无横穿意图。【交通设施】道路两侧设有“P”停车标志及“1 Std.”限时停车标识，地面标线清晰。【关键风险】无突发危险行为，但右侧托盘堆叠区域存在“开门杀”风险（若后续有车辆从该侧驶出），且左侧施工箱体与树木共同形成视觉盲区，需留意后方动态。",
+      "risk_tags": [
+        "static_obstacle_risk",
+        "door_opening_hazard",
+        "visual_occlusion_zone"
+      ]
+    }
+  ]
+}

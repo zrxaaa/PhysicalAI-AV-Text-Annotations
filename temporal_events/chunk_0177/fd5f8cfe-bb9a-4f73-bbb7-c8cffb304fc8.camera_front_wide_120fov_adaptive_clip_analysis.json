@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 10.54,
+    "analysis_time": "2026-01-24 06:59:21"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】夜间降雪，雪花在车窗前飘落，能见度中等偏低，路面有积雪覆盖，部分车道线模糊。【自车】位于中间车道，处于停车等待状态，刹车灯亮起。【前方】一辆白色厢式货车（左侧邻道）和一辆标有“ElkontakteniAle”字样的白色面包车（正前方车道）均静止等待红灯。【交通设施】前方交通信号灯为红色，右侧设有行人过街标志牌。【关键风险】无明显违规行为，但雪天路面湿滑，制动距离延长，存在潜在打滑风险。",
+      "risk_tags": [
+        "snow_weather",
+        "reduced_visibility",
+        "braking_distance_increase"
+      ]
+    },
+    {
+      "time_segment": "00:00:07-00:00:11",
+      "scene_description": "【环境】持续降雪，路灯照明下雪花轨迹清晰可见，道路两侧积雪堆积明显。【自车】在绿灯亮起后启动，沿中间车道匀速前行。【左侧】一辆白色SUV从左转车道切入自车所在直行道，未提前打转向灯，形成切出（Cut-out）行为。【前方】白色厢式货车与面包车同步起步，保持原位行驶。【交通设施】路口信号灯已转绿，人行横道标志清晰可见，右侧路旁有奔驰汽车展厅建筑。【关键风险】左侧车辆强行切入直行车道，存在加塞风险，可能引发碰撞或紧急避让。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "lane_change_without_signal",
+        "winter_driving_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雪势略有减缓，但仍持续飘落，路面湿滑且有积雪残留，部分路段出现车辙印。【自车】在中间车道保持匀速行驶，随道路曲线自然前进，未进行变道或急刹。【前方】白色面包车在前方约30米处稳定行驶，尾灯常亮；左侧车道有一辆深色旅行车并行，车速略快于自车。【右侧】路边有积雪堆、光秃树木及奔驰展厅玻璃幕墙，灯光反射明显。【非标准物体】无特种车辆、动物或遗撒物。【关键风险】无突发遮挡或违规行为，但冬季夜间行车需警惕路面结冰及视线受雪片干扰，建议保持安全车距。",
+      "risk_tags": [
+        "winter_driving_conditions",
+        "low_visibility_snowfall",
+        "maintain_safe_following_distance"
+      ]
+    }
+  ]
+}

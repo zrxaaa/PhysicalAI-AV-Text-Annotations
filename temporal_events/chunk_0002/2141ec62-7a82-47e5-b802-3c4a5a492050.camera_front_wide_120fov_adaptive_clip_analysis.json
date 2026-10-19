@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:32:43",
+    "processing_time_seconds": 21.34
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "夜间行车，自车在多车道高速公路上匀速行驶，前方有车辆保持同向行驶，右侧路旁出现黄色交通标志牌，无行人或显著障碍物。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "自车开始向右转向，驶入弯道并进入右侧车道，路面标有“CAR”字样，左侧出现一排商业建筑灯光，无其他车辆或行人干扰路径。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车继续沿弯道行驶，道路右侧出现“LANE”标识，对向车道有车辆驶过，远处可见十字路口及交通信号灯，但未停车或交互。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车驶近高架桥下，前方出现绿色高速公路指示牌，显示“Great America Pkwy”方向，桥下有其他车辆通行，无明显冲突或变道行为。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车穿过高架桥下方路段，继续直行，前方车道线清晰，两侧路灯照明良好，无行人、突发障碍或显著交通参与者介入路径。"
+    }
+  ]
+}

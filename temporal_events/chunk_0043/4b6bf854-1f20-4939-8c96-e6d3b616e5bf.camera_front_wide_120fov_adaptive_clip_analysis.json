@@ -1,0 +1,38 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.2,
+    "analysis_time": "2026-01-21 23:38:57"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，云层厚重，无明显降水，路面干燥但略显灰暗。【自车】位于中间车道，匀速沿直道行驶，未见明显加速或减速。【左侧】可见住宅区，有棕榈树、灌木及围栏；右侧为开阔草坪与一座标有“HUNTINGTON BEACH POLICE STATION”的建筑。【交通设施】道路两侧设有路缘石和人行道，无显著障碍物或施工区域。【关键风险】无显著风险，车辆与行人均在正常轨迹内。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】天气仍阴沉，能见度良好，无降水迹象。【自车】保持中间车道匀速前行，车头略微向右微调以贴合道路曲率。【左侧】出现多栋联排住宅，部分带有红色木栅栏；右侧为绿化带与人行道，远处可见蓝色公交站牌（标有“HOOPER”）。【交通设施】前方路口设有交通信号灯，当前显示绿灯；路面上有自行车道标识及“SLOW”字样喷涂于路面。【非标物体】无特种车辆、动物或遗撒物。【关键风险】无违规行为或遮挡风险，整体交通流平稳。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "【环境】光照均匀，无强逆光或阴影干扰。【自车】继续在中间车道匀速行驶，通过交叉路口时轻微减速以确认通行权。【前方】交通信号灯为绿灯，路口处有清晰的斑马线与自行车道标线。【右侧】路边停有一辆深色轿车，车头朝向与自车行驶方向一致，处于静止状态。【左侧】出现一栋浅黄色房屋，配有白色栅栏，门前有小型灌木丛。【关键风险】无突发障碍物或违规行为，但右侧停车车辆存在潜在“开门杀”风险（Open Door），需注意后视镜盲区。",
+      "risk_tags": [
+        "open_door_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】天空持续阴云，无降雨，路面干燥。【自车】维持中间车道匀速行驶，随道路曲线自然转向。【左侧】出现一个黄色“SCHOOL ZONE”警示牌，下方附有“SPEED LIMIT 30”限速标志；同时可见一排高大树木与低矮灌木组成的绿化带。【右侧】人行道旁设有一个黄色“PEDESTRIAN CROSSING”标志牌，提示前方为学校区域。【非标物体】无动物、施工车辆或路面遗撒物。【关键风险】无紧急避让需求，但“SCHOOL ZONE”区域提示需提高警觉，潜在儿童横穿风险虽未显现，但属于长尾安全关注点。",
+      "risk_tags": [
+        "school_zone_warning",
+        "pedestrian_crossing_potential"
+      ]
+    }
+  ]
+}

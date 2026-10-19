@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.38,
+    "analysis_time": "2026-01-21 21:52:26"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "【环境】晴天，蓝天白云，光照充足，无异常天气。【自车】在最右侧车道匀速沿道行驶，未变道。【左侧】高架桥下坡段，墙面有涂鸦（如“FUCK RACISTS”），部分区域被橙色施工围挡覆盖。【右侧】护栏外有棕榈树和灌木丛，无行人或动物。【交通设施】道路右侧设“PEDESTRIANS BICYCLISTS PROTECTED”警示牌，前方出现“ROAD WORK AHEAD”菱形标志，提示前方施工。【关键风险】无明显违规行为或障碍物，但高架桥结构下方存在阴影区，可能影响视线；涂鸦墙无直接安全威胁，但属城市环境特征。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】阳光直射，路面干燥，能见度良好。【自车】驶入高架桥下方，保持中间车道匀速前行，车头偏航角随弯道微调，未越线。【左侧】混凝土护坡与桥墩结构清晰，坡面有植被覆盖；右侧护栏外可见树木与远处建筑。【交通设施】桥下设有“SPEED LIMIT 35”限速牌，前方出现“TURN RIGHT AHEAD”黄色导向标志。【关键风险】桥体结构形成局部阴影区，对后视镜及侧方视野产生轻微遮挡；无其他车辆或生物干扰，风险极低。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】晴朗，云层分布均匀，光线稳定。【自车】从匝道汇入主干道，进入中间车道，加速并维持匀速行驶。【左侧】对向车道有白色轿车、银色SUV等正常行驶车辆，未见异常变道或急刹。【右侧】高架桥护栏外有广告牌（如“American Film Institute NEXT EXIT”）、路牌（“TRAFFIC DIVERTED IN CONSTRUCTION ZONES”）及远处高层建筑。【交通设施】前方出现“THRU TRAFFIC MERGE LEFT”合并引导标志，提示多车道汇流。【关键风险】无违规行为；右侧广告牌后方有临时施工围挡，但未见作业车辆或人员；整体交通流畅，无遮挡或突发障碍物，属于标准高速公路通行场景。",
+      "risk_tags": []
+    }
+  ]
+}

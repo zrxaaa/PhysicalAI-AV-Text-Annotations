@@ -1,0 +1,35 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.22,
+    "analysis_time": "2026-01-24 10:22:37"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "【环境】晴天，光照充足，无明显遮挡或天气异常。【自车】位于中间车道，匀速沿直线道路前行，未进行横向转向动作。【前方】一辆白色SUV在前车车道内匀速行驶，与自车保持稳定距离（约30米）。【右侧】路边有高大乔木及灌木丛，路肩设有橙色锥桶，提示施工区域。【交通设施】左侧出现“CARPOOLS 2 OR MORE ONLY”指示牌，表明该车道为专用车道；前方路口设有交通信号灯杆，但当前绿灯通行。【关键风险】无显著风险，车辆均按规行驶，未见违规行为或障碍物。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】阳光强烈，存在轻微眩光，但未影响视线。【自车】在中间车道向右平缓转向，完成从窄路进入主干道的过渡，车头偏航角变化小于5度。【前方】白色SUV继续前行，未变道。【左侧】对向车道车流密集，包括白色厢式货车、大型卡车及轿车，部分车辆在超车。【右侧】出现大型电子广告牌（显示“THE WORLD’S WORST SERVICE NOW”），下方为绿化带和围栏。【非标物体】右侧路边散落少量垃圾，未构成路面障碍。【关键风险】无紧急风险，但自车转向时需注意左侧对向车流速度，存在潜在切出碰撞风险（Cut-out Risk），因转向后将进入多车道主干道汇入区。",
+      "risk_tags": [
+        "cut_out_risk",
+        "high_traffic_density"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】晴朗，强逆光导致画面局部过曝，但不影响主要车道感知。【自车】在中间车道维持匀速行驶，未进行变道或减速。【前方】一辆黑色轿车在前车车道内行驶，与自车纵向距离稳定（约25米）。【左侧】对向车道有多辆大型货车及轿车高速通过，部分车辆有加速趋势。【右侧】沿路分布商业建筑、停车场及广告牌，如“Benjamin Moore”、“Crystal”等。【交通设施】道路右侧设混凝土护栏，隔离人行道与车行道；前方可见黄色“Yield”警示牌及人行横道标志。【关键风险】无直接碰撞威胁，但右侧护栏外有零星垃圾堆积，可能引发轮胎异响或突发避让；同时，前方黑色轿车若突然刹车，将触发自车紧急制动需求（Emergency Braking Trigger），属于长尾场景风险。",
+      "risk_tags": [
+        "emergency_braking_trigger",
+        "road_debris",
+        "high_speed_traffic"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 00:47:16",
+    "processing_time_seconds": 28.49
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在十字路口前停车等待，前方交通信号灯为红灯，右侧路边停有绿色皮卡和白色货车，左侧为商业建筑。信号灯转绿后，自车准备前行。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "自车启动通过路口，前方铁路道口栏杆正在升起，左侧一辆灰色SUV从对向车道驶过，同时一名骑自行车者从右侧人行横道穿越马路。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "自车继续沿道路直行，骑车者已安全通过，右侧路边停放多辆汽车，包括银色轿车和黑色SUV，左侧可见广告牌和小型商铺。自车保持匀速行驶，无明显变道或减速。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "自车经过一个设有“SPEED LIMIT 25”标志的路段，右侧出现多个竖立的营销旗帜，旁边是“MARVIN”品牌店铺。左侧有黑色皮卡驶出停车位并汇入车流。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车继续向前行驶，前方出现一辆黄色校车停靠在路边，左侧有车辆从支路驶入主路，右侧路边停放多辆私家车。天气阴沉，路面干燥，无行人或其他突发状况。"
+    }
+  ]
+}

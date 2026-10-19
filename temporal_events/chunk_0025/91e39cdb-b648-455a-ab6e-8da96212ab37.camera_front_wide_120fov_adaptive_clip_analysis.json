@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 08:13:08",
+    "processing_time_seconds": 13.71
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "夜间行车，前方路口交通信号灯为绿灯，自车保持直行通过交叉口，右侧路边有树木和建筑，能见度受雾气影响，路灯灯光散射明显。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:08",
+      "scene_description": "车辆通过十字路口后继续直行，前方可见一辆红色尾灯车辆在前车道行驶，道路两侧有路灯照明，右侧出现人行横道标识与自行车道标线。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车在湿滑路面上匀速行驶，前方车辆保持一定距离，右侧路边有树木和低矮围栏，远处建筑物灯光透过雾气隐约可见，无行人或其他动态障碍物出现。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "车辆接近下一个路口，前方无显著交通信号或障碍物，道路标线清晰，右侧车道有白色箭头指示左转，自车未变道，保持当前车道行驶。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车继续沿直线道路前进，前方车辆尾灯持续可见，环境仍为夜间雾天，路面反射灯光造成眩光，无其他车辆或行人进入视野范围。"
+    }
+  ]
+}

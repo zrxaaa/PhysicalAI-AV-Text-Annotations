@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.21,
+    "analysis_time": "2026-01-22 10:11:38"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴朗白天，阳光从右上方照射，存在轻微眩光但未影响视野。【自车】位于中间车道，匀速沿直道行驶，无明显加速或减速。【左侧】一辆白色吉普车从对向车道驶过，完成超车后回归原车道；【右侧】路边停有车辆，住宅区绿化良好，无行人或动物活动。【交通设施】道路两侧设有路缘石与人行道，无明显标志牌或信号灯干扰。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】强逆光加剧，太阳位于画面右上角，造成镜头眩光与局部阴影。【自车】保持在中间车道，匀速接近前方交叉路口。【前方】一辆黑色轿车与一辆大型厢式货车并行于右侧车道，货车车身印有“R&L CARRIERS”广告字样。【左侧】对向车道有车辆左转进入支路，未见违规行为。【交通设施】前方路口设有红绿灯杆、交通指示牌（含“St Paul Northfield”方向指引），路面标线清晰，无积水或障碍物。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】逆光持续，阳光直射挡风玻璃，导致部分区域过曝。【自车】在中间车道减速，准备在交叉口停车等待。【前方】大型厢式货车（R&L CARRIERS）位于自车正前方，刹车灯亮起，表明其正在减速。【右侧】一辆深色SUV从右侧车道切入自车所在车道，意图超车，但未打转向灯，且切入距离较近，存在潜在碰撞风险。【非标物体】无动物、施工车辆或遗撒物。【关键风险】右侧SUV的突然切入属于“无预警加塞”行为（Aggressive Cut-in），结合逆光环境，可能增加视觉判断延迟，提升碰撞概率。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "glare_impact",
+        "lane_change_risk"
+      ]
+    }
+  ]
+}

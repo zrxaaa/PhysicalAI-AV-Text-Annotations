@@ -1,0 +1,82 @@
+{
+  "analysis_metadata": {
+    "video_duration": "20.167",
+    "model_used": "qwen3-vl-flash",
+    "analysis_time": "2026-01-26 08:08:53",
+    "keyframe_count": 10,
+    "analysis_type": "natural_language_frame_analysis",
+    "frame_analysis_order": [
+      "00:00:00.033",
+      "00:00:02.267",
+      "00:00:04.500",
+      "00:00:06.733",
+      "00:00:08.967",
+      "00:00:11.200",
+      "00:00:13.433",
+      "00:00:15.667",
+      "00:00:17.900",
+      "00:00:20.167"
+    ],
+    "total_processing_time_seconds": 40.85,
+    "actual_keyframes": 10
+  },
+  "frame_descriptions": [
+    {
+      "timestamp": "00:00:00.033",
+      "scene_overview": "夜间，车辆行驶在一条被车灯照亮的林间小路上，道路两侧是茂密的树木和植被，路面湿滑且无明显标线。",
+      "object_descriptions": []
+    },
+    {
+      "timestamp": "00:00:02.267",
+      "scene_overview": "夜间行车视角，车灯照亮前方一条蜿蜒的乡间土路，两侧是黑暗中的植被，路面湿滑且无明显标线。",
+      "object_descriptions": []
+    },
+    {
+      "timestamp": "00:00:04.500",
+      "scene_overview": "夜间行车视角，车灯照亮前方一条蜿蜒的乡间土路，两侧是黑暗中的植被，路面湿滑且无明显标线。",
+      "object_descriptions": []
+    },
+    {
+      "timestamp": "00:00:06.733",
+      "scene_overview": "夜间行车视角，车灯照亮前方一条狭窄乡间小路，两侧为草地和暗影中的树木，路面无明显标线且略显湿滑。",
+      "object_descriptions": []
+    },
+    {
+      "timestamp": "00:00:08.967",
+      "scene_overview": "夜间一条被车灯照亮的乡间小路，两侧是茂密植被，路面无明显车道线，视野受限。",
+      "object_descriptions": [
+        "道路前方右侧路边有一个石质路桩或里程碑，位于自车右前方约5-10米处，处于车灯光照范围内。",
+        "道路左侧有高大树木和灌木丛，部分枝叶延伸至路肩上方，右侧为低矮草丛，均未对行车路径构成直接障碍。",
+        "远处道路中央偏左位置可见一根细长杆状物（疑似电线杆），距离较远，未在当前光照范围内清晰辨识其具体类型。"
+      ]
+    },
+    {
+      "timestamp": "00:00:11.200",
+      "scene_overview": "夜间行车视角，车灯照亮前方蜿蜒的乡间土路及两侧植被，环境昏暗，无其他车辆或行人可见。",
+      "object_descriptions": []
+    },
+    {
+      "timestamp": "00:00:13.433",
+      "scene_overview": "夜间，一辆车在林间小路上行驶，车灯照亮前方路面及两侧植被，道路呈弯曲状，周围环境黑暗。",
+      "object_descriptions": [
+        "道路两侧有被车灯光照亮的绿色植被和树木，左侧路边可见一个白色反光路桩，位于自车左前方约5米处，未移动。",
+        "前方道路向右弯曲，路面为沥青材质，无明显车道线，当前帧内无其他车辆或行人出现。"
+      ]
+    },
+    {
+      "timestamp": "00:00:15.667",
+      "scene_overview": "夜间，一辆车正沿被浓密植被环绕的狭窄土路行驶，车灯照亮前方路面及两侧绿色植物，整体环境昏暗。",
+      "object_descriptions": []
+    },
+    {
+      "timestamp": "00:00:17.900",
+      "scene_overview": "夜间，一辆车在林间土路上行驶，车灯照亮前方道路及两侧植被，路面湿滑且无明显标线。",
+      "object_descriptions": []
+    },
+    {
+      "timestamp": "00:00:20.167",
+      "scene_overview": "夜间，车辆行驶在一条被浓密树林环绕的狭窄土路上，车灯照亮前方路面及两侧植被，环境昏暗。",
+      "object_descriptions": []
+    }
+  ]
+}

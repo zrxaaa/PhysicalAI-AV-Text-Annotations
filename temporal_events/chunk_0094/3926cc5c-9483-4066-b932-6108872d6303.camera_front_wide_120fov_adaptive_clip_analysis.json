@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.38,
+    "analysis_time": "2026-01-22 22:08:57"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】黄昏时分，天空呈渐变蓝粉色调，路灯已亮起，能见度良好，无异常天气。【自车】位于中间车道，正通过E 38th St路口，执行左转后直行，完成转向动作，车头偏航角从左转至正向前方。【右侧】一辆黑色皮卡从对向车道驶来，与自车同向行驶，保持安全距离；路边有施工围挡（橙白锥桶）及“Black Lives Matter”涂鸦混凝土路障。【交通设施】路口设有交通信号灯（当前为绿灯）、街牌标识清晰，左侧环岛处有两面旗帜立柱。【关键风险】无明显违规或障碍物，但右侧施工区域存在潜在视线遮挡，需注意行人或非机动车突然出现。",
+      "risk_tags": [
+        "no_immediate_risk",
+        "construction_zone_obstacle"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】天色进一步变暗，路灯照明增强，道路两侧住宅区灯光陆续亮起，整体光照稳定。【自车】在中间车道匀速沿道行驶，未进行转向或变道。【左侧】停放多辆私家车（含白色皮卡、白色SUV），部分车辆旁有人站立或活动；右侧人行道有行人行走，其中一名穿橙色上衣的女性从银色SUV旁走出，横穿人行道，朝自车方向移动。【交通设施】前方可见“4 WAY STOP”标志牌及多个红色STOP标志，路口设置黄色警示柱。【关键风险】行人横穿人行横道未观察来车，且靠近自车车道，存在“鬼探头”风险；同时前方路口有停车让行要求，需警惕突发刹车行为。",
+      "risk_tags": [
+        "pedestrian_crossing_risk",
+        "intersection_stop_required",
+        "potential_braking_event"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】夜幕降临，天空呈深蓝色，路灯成为主要光源，能见度依赖人工照明。【自车】继续在中间车道匀速前行，车头偏航角保持直线，无转向意图。【前方】道路为双向四车道，两侧为低层住宅建筑，部分房屋前有白色栅栏；路口处设有多组STOP标志和限速20mph标志牌。【右侧】一辆黑色轿车停靠在路边，车门开启，疑似乘客上下车；远处可见红绿灯闪烁，提示前方交叉口可能有车辆等待。【非标物体】左侧路边有一座大型雕塑（类似人物头像），表面有涂鸦，无动态，但占据部分路肩空间。【关键风险】夜间行车视线受限，前方路口因多处STOP标志易引发误判；右侧车辆开门可能造成“开门杀”风险，尤其当自车接近时；雕塑及路障虽静态，但若被遮挡则增加盲区碰撞概率。",
+      "risk_tags": [
+        "night_driving_risk",
+        "door_opening_hazard",
+        "obstruction_in_blind_spot"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:38:42",
+    "processing_time_seconds": 16.39
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在高速公路上匀速行驶，左侧车道有一辆红色SUV从后方接近并开始变道至中间车道，前方可见一辆白色货车和一辆黑色轿车保持稳定行驶。道路两侧有绿化带，天气晴朗，路面干燥无湿滑迹象。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "车辆继续沿直道行驶，经过一个高架指示牌，显示“El Monte Rd”和“Moody Rd”出口信息，距离为3/4英里。右侧出现混凝土护栏和绿色路牌，提示下一个出口方向。红色SUV完成变道后保持在左侧行车道，未与自车发生路径冲突。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "自车维持当前车道行驶，前方车辆间距稳定，未见明显加速或减速行为。右侧出现黄色弯道警示标志，提示前方道路弯曲。红色SUV持续在左侧行驶，与自车保持安全横向距离，无超车或变道意图。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "车辆继续沿高速公路前行，道路两侧植被逐渐变为低矮灌木和草地，远处可见少量树木。自车未进行任何转向或变速操作，保持稳定巡航状态。红色SUV仍位于左侧车道，与自车无交互，整体交通流平稳有序。"
+    }
+  ]
+}

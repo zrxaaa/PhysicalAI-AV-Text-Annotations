@@ -1,0 +1,38 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.15,
+    "analysis_time": "2026-01-23 02:46:32"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间行车，无明显降雨或降雪，但挡风玻璃上有大量飞虫附着，影响视线。道路两侧植被稀疏，远处可见城市灯光。【自车】在中间车道匀速沿直道行驶，车头朝向正前方，未进行转向或变道。【交通设施】右侧路边出现绿色路牌‘Hill Rd’，随后接近一个T字路口，路口右侧设有一个红色八角形‘STOP’标志牌，地面有白色‘STOP’字样喷涂。【关键风险】无直接交通参与者威胁，但飞虫附着可能影响夜间视觉感知，存在轻微的视野遮蔽风险。",
+      "risk_tags": [
+        "insect_obstruction",
+        "low_visibility_night"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】夜间，光照来自车前大灯，路面干燥，无积水或结冰。【自车】在通过T字路口时减速并停车，完成“STOP”指令，车辆静止于路口停止线后。【交通设施】路口右侧设有红色‘STOP’标志牌，地面标有‘STOP’字样；左侧有蓝色方向指示牌（指向左转）。【周围环境】路口左右两侧均无行人、车辆或动物活动，视野开阔。【交互行为】自车执行标准停车动作，未发生任何违规或碰撞风险。【关键风险】无显著风险，仅需注意路口盲区（如左侧转弯车辆可能突然出现）。",
+      "risk_tags": [
+        "standard_stop_execution",
+        "intersection_blind_spot_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】夜间继续沿直线道路行驶，车灯照亮前方约50米范围，两侧为草地与稀疏树木，远处城市灯光持续可见。【自车】完成路口等待后，重新启动并保持匀速沿中间车道前行，车头方向随道路微弯自然调整，未进行主动转向。【交通设施】右侧路边出现一个‘No Turn’禁行标志牌，提示禁止右转；前方远处可见一个小型路灯或警示灯。【非标准物体】无动物、施工车辆或遗撒物出现在车道内或路肩上。【关键风险】无紧急风险，但因夜间能见度低且路面无护栏，需警惕对向来车或突发横穿行人（尽管当前未出现），属于长尾安全场景。",
+      "risk_tags": [
+        "low_visibility_driving",
+        "no_barrier_road",
+        "potential_crossing_risk"
+      ]
+    }
+  ]
+}

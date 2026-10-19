@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 03:00:16",
+    "processing_time_seconds": 11.98
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在黄昏时分于十字路口左转，前方无车辆阻碍，右侧有绿化带和电线杆，远处可见工业建筑群。自车完成转向后进入直行车道，动作平稳无急刹或变道冲突。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:10",
+      "scene_description": "自车沿直线道路匀速行驶，两侧为现代商业建筑，左侧出现VANTAGE DATA CENTERS标识建筑，右侧有玻璃幕墙结构。无行人或障碍物干扰，车道线清晰，路面干燥无积水。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "自车继续直行，左侧出现特斯拉（TESLA）标志建筑，右侧为低矮厂房式建筑，路边有树木和路灯照明。未见其他车辆或行人靠近自车路径，交通环境空旷安全。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "自车接近道路末端，两侧建筑逐渐变为低层办公楼与绿化隔离带，远处可见停车场内停放数辆汽车。自车保持稳定速度，未进行任何转向或减速操作，无动态交互发生。"
+    }
+  ]
+}

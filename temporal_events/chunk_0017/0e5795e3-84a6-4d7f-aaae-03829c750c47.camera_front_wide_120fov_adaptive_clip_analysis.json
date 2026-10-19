@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 05:07:18",
+    "processing_time_seconds": 16.4
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车沿居民区街道平稳行驶，前方一辆红色轿车在同向车道行驶，道路两侧停放多辆私家车，路边设有蓝色垃圾桶。右侧出现一个红色STOP标志，提示前方为交叉路口。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:09",
+      "scene_description": "自车接近十字路口并减速停车，红色轿车在路口左转驶离，路口右侧可见一栋米色联排住宅和一棵无叶大树。自车在停止线后等待，未见行人或其他车辆横穿。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "自车完成左转或直行通过路口，进入新路段，阳光从右上方照射，路面有明显阴影。右侧车道有一辆白色SUV停靠，左侧对向车道有车辆驶来，自车保持匀速行驶。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "自车继续沿双向车道行驶，道路两侧仍停放多辆汽车，部分路段有蓝色垃圾桶沿路边排列。前方无显著障碍物或交通信号，自车未进行变道或急刹，环境安静有序。"
+    }
+  ]
+}

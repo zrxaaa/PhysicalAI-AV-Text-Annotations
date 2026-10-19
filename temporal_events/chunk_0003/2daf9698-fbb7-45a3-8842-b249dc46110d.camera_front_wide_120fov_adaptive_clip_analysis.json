@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 00:07:16",
+    "processing_time_seconds": 15.02
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车从路口左转进入一条弯曲的辅路，前方有绿色高速公路入口标志指示280号公路北向，右侧路边有棕榈树和落叶乔木，无行人或其他车辆干扰。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "自车沿弯道继续行驶，左侧为土坡与围栏，右侧出现另一条主干道，对向车道有车辆驶过，阳光强烈导致画面部分过曝，路面可见自行车道标记。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "自车接近一个高架桥下，前方有一辆白色皮卡车在同车道行驶，桥上标牌显示前往Santa Cruz和Oakland方向，交通流量较大但无拥堵，自车保持匀速跟车。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车平稳通过高架桥下方，桥体结构遮挡部分阳光，周围树木和坡地清晰可见，对向车道车辆持续通行，无突发障碍或行人横穿。"
+    }
+  ]
+}

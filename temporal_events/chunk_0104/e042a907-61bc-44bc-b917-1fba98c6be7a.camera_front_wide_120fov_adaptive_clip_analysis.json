@@ -1,0 +1,47 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.1,
+    "analysis_time": "2026-01-23 02:10:26"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:02",
+      "scene_description": "【环境】夜间，车辆从混凝土结构隧道驶出，隧道内灯光照明充足，出口处出现强逆光眩晕。【自车】在中间车道匀速行驶，正离开隧道区域。【交通设施】隧道出口上方有混凝土横梁结构，两侧为混凝土护栏。【关键风险】隧道出口处光线突变，导致前向能见度短暂降低，存在视觉适应延迟风险。",
+      "risk_tags": [
+        "light_adaptation_risk",
+        "tunnel_exit_effect"
+      ]
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "【环境】夜间阴天，云层较厚，无明显降水，路面干燥但反射车灯形成光晕。【自车】保持在中间车道匀速沿直道行驶。【左侧】对向车道有多辆大型货车与轿车通行，其中一辆红色半挂车从左前方超车并切入本车道，未打转向灯。【右侧】路边可见低矮建筑、枯树及草地，无行人或动物活动。【交通设施】道路两侧设有金属护栏和路灯，远处可见交通信号灯组（红灯亮起）。【关键风险】左侧超车车辆存在“鬼探头”潜在风险，因未打转向灯且切入路径紧邻自车，可能引发碰撞。",
+      "risk_tags": [
+        "unannounced_cut_in",
+        "cross_traffic_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "【环境】夜空云层密布，局部有微弱月光透出，能见度中等。【自车】在中间车道减速至停车线前，等待前方红灯。【前方】交通信号灯显示为红灯，同时右侧高架路牌显示“INTERSTATE 465 SOUTH”并带左转箭头。【左侧】一辆深色SUV从左前方车道缓慢右转，进入匝道口；其后方有一辆白色厢式货车正在加速通过交叉口。【右侧】路边有小型工业建筑，外墙为红白相间，无人员活动。【交通设施】路口设有多个交通信号灯柱、限速标志（限速50）、以及方向指示牌。【关键风险】自车需在红灯前完全停止，而左侧SUV的右转动作与自车直行路径存在交叉冲突，若SUV未礼让，将构成“闯红灯+交叉冲突”双重风险。",
+      "risk_tags": [
+        "red_light_waiting",
+        "intersection_conflict",
+        "improper_turning_vehicle"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】夜间持续阴云天气，无降水迹象，路面干燥。【自车】在停止线前静止等待，车头朝向正前方，未发生任何横向移动。【前方】红灯持续亮起，信号灯组未变化。【右侧】高架路牌“465 SOUTH”清晰可见，下方有绿色左转箭头灯，当前处于熄灭状态。【左侧】对向车道仍有车辆缓慢移动，部分车辆尾灯闪烁，表明仍在排队等候。【交通设施】路口右侧设有“SPEED LIMIT 50”限速标志，以及一个“NO TURN ON RED”禁左标志。【关键风险】自车虽已停车，但前方红灯未变，且左侧车道有车辆试图强行左转或加塞，存在“违规左转”或“加塞冲突”的潜在危险。此外，右侧高架路牌下方的绿灯未亮，提示左转不可行，若自车误判则可能违法变道。",
+      "risk_tags": [
+        "red_light_violation_risk",
+        "left_turn_prohibition",
+        "queue_jamming_risk"
+      ]
+    }
+  ]
+}

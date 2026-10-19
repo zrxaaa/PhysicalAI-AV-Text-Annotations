@@ -1,0 +1,38 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 10.47,
+    "analysis_time": "2026-01-24 00:58:17"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间，城市窄巷，路灯照明，无明显天气异常。【自车】在中间车道匀速沿道行驶，车头朝向巷道延伸方向，未发生转向或变道。【右侧】一名行人（身穿浅色上衣、深色裤子）牵着一只小型犬从右前方人行道步行，与自车同向，距离约8-12米，保持稳定步速。【交通设施】左侧路边设有黄色施工围栏及“禁止通行”警示牌，但未见施工活动。【关键风险】行人与犬只位于自车右侧近侧（<10米），若行人突然转向或犬只挣脱牵引，可能进入行车路径，存在潜在碰撞风险。",
+      "risk_tags": [
+        "pedestrian_crossing_risk",
+        "animal_unpredictability"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】巷道继续延伸，两侧建筑密集，部分窗户透出暖光，路灯间距均匀，能见度良好。【自车】保持匀速直线行驶，未进行横向调整。【右侧】行人与犬只持续在自车右前方行走，犬只始终紧随行人脚边，未出现奔跑或脱离行为。【交通设施】右侧墙面上可见多个空调外机、监控摄像头及金属防盗窗，无动态障碍物。【关键风险】行人与犬只轨迹稳定，未出现横穿或突然加速行为；但巷道狭窄，若行人突然驻足或犬只受惊冲向路中，自车需紧急制动，存在“鬼探头”风险。",
+      "risk_tags": [
+        "narrow_road_obstacle",
+        "low_visibility_pedestrian_follow"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】巷道逐渐变宽，右侧出现带铁门的住宅入口和柱式反光镜，左侧建筑转为砖砌结构。【自车】继续匀速前行，车头略微向右微调以避让右侧凸出墙体。【右侧】行人与犬只已接近巷道拐角处，开始减速并准备左转进入另一支巷口，犬只仍被牵引，未脱离控制。【交通设施】右侧设有限速标志（限速30km/h）及凸面镜，用于辅助转弯视线。【关键风险】行人即将进入交叉路口，若其未观察来车即左转，将构成“违规横穿”行为；同时，自车因视角受限，无法提前预判行人是否完全停止或加速，存在“遮挡后突发移动”的长尾风险。",
+      "risk_tags": [
+        "jaywalking_potential",
+        "occlusion_after_turn",
+        "limited_visual_field"
+      ]
+    }
+  ]
+}

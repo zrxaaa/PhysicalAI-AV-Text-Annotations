@@ -1,0 +1,48 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.39,
+    "analysis_time": "2026-01-24 03:04:49"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】暴雨天气，能见度低，雨滴密集覆盖挡风玻璃，路面严重积水并形成水雾反射。【自车】位于中间车道，保持匀速沿道行驶，雨刷器高频工作但无法完全清除视野障碍。【前方】一辆白色Avis租赁货车在前车流中稳定行驶，车身无明显转向或制动迹象。【交通设施】道路两侧为绿化带与护栏，未见明显路牌或标线，仅远处有模糊的高架桥轮廓。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility",
+        "water_film_on_road"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】雨势持续，天空阴云密布，光线昏暗，路面反光加剧。【自车】仍在中间车道匀速行驶，未进行变道或紧急操作。【前方】Avis货车逐渐接近并驶过一个高架指示牌区域，该指示牌显示“Frederikssund”和“Ballerup/Ishøj/Roskilde”方向信息，表明即将进入分岔路口。【交通设施】两块绿色高速路牌悬挂在道路正上方，清晰可见，为自车提供导航参考。【非标准目标】无特种车辆、动物或遗撒物出现。",
+      "risk_tags": [
+        "highway_divergence_point",
+        "navigation_assistance_required"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "【环境】暴雨未减，雨刷器仍高频摆动，挡风玻璃上水珠持续流动。【自车】开始向右轻微转向以规避右侧路肩积水区，同时加速超越前方Avis货车。【前方】Avis货车在右侧车道减速并开始向右变道，其后方一辆深色SUV紧随其后，同样向右变道。【相对位置】自车从左后侧切入至Avis货车左侧，完成超车动作；SUV则在更远距离处跟随变道。【关键风险】右侧车道存在多车同时变道行为，且因雨水导致轮胎打滑风险升高，存在潜在碰撞或失控风险。",
+      "risk_tags": [
+        "multi_vehicle_lane_change",
+        "hydroplaning_risk",
+        "overtaking_in_rain"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】雨势略有减弱，但仍为阴天，能见度有所恢复。【自车】已完成超车，回到中间车道，保持匀速行驶。【前方】深色SUV在右侧车道继续前行，未再靠近自车。【交通设施】道路右侧出现限速90km/h标志牌，前方200米处再次出现指向“Ishøj/Roskilde”和“Ballerup”的绿色路牌，提示即将进入出口匝道。【异常情况】自车经过一处红白相间箭头警示牌（弯道警告），路面有明显积水痕迹，部分路段水深超过轮胎高度，可能引发车辆打滑。【无显著风险】当前无违规行为、无遮挡物、无动物或施工车辆，整体交通秩序正常。",
+      "risk_tags": [
+        "speed_limit_zone",
+        "wet_road_surface",
+        "bend_warning_sign"
+      ]
+    }
+  ]
+}

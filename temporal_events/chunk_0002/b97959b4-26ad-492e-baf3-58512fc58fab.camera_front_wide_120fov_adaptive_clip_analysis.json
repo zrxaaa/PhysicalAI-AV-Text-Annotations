@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:15:25",
+    "processing_time_seconds": 11.3
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "夜间行车，车辆停在十字路口停止线前，前方可见红色交通信号灯和‘STOP’路面标线，右侧路牌显示为‘ONE WAY’。左侧人行道上有行人站立，路灯照明下道路清晰可见。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:11",
+      "scene_description": "自车启动并沿直行方向驶离路口，道路两侧有路灯照明，右侧路边停放一辆白色厢式货车，左侧为绿化带与低矮住宅。车道线清晰，无其他车辆或行人干扰自车路径。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:15",
+      "scene_description": "车辆继续直行，右侧出现一辆白色轿车从对向车道驶来并完成超车，同时右侧路边停放多辆汽车，包括一辆白色厢式货车。自车保持当前车道，未发生变道或减速行为。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "前方道路两侧出现多栋住宅建筑，部分窗户亮灯，街道两侧有路灯照明。远处可见红绿灯及少量行驶车辆，自车平稳行驶，未遇行人或其他动态障碍物，即将接近下一个交叉路口。"
+    }
+  ]
+}

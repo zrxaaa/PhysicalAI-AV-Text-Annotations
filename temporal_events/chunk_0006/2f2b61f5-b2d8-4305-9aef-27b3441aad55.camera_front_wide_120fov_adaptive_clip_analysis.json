@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 01:19:07",
+    "processing_time_seconds": 11.26
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "夜间行车，自车沿双向四车道道路平稳行驶，道路两侧停有车辆，路灯照明下可见前方来车及对向车道车辆，无行人或突发障碍物。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:08",
+      "scene_description": "接近十字路口，路面出现人行横道标线，两侧设有黄色警告标志，前方无明显交通信号灯变化，自车保持直行速度通过交叉口区域。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "通过交叉口后，道路两侧继续停放多辆汽车，部分车辆在路边缓慢移动或启动，自车未进行变道或减速，保持当前车道匀速前进。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "前方远处出现红色尾灯，疑似交通信号灯或前方车辆刹车，自车维持原速未减速，右侧有车辆从后方超车并驶离，未与自车发生路径冲突。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "临近视频结尾，前方道路视野开阔，无显著障碍物或行人，自车持续直行，道路两侧建筑和路灯逐渐模糊，未见明显交通行为变化。"
+    }
+  ]
+}

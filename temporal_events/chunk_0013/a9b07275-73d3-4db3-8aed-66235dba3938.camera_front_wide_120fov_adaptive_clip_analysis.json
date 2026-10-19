@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 04:02:15",
+    "processing_time_seconds": 11.64
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "道路右侧出现黄色消防栓，远处可见对向车道车辆迎面驶来，自车保持当前车道未变道，未见行人或其他显著动态障碍物。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:13",
+      "scene_description": "左侧车道有一辆深色轿车从左向右横穿路口，与自车路径交叉，但该车已提前通过，未与自车发生冲突。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "该SUV完成转弯动作后驶离画面，自车继续在原位等待，路口其他方向无车辆或行人进入视野范围。"
+    },
+    {
+      "time_segment": "00:00:18-00:00:19",
+      "scene_description": "视频结束时，自车仍处于路口停止线后，未进行任何移动，场景稳定，无紧急事件或行为变化。"
+    }
+  ]
+}

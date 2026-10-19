@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.44,
+    "analysis_time": "2026-01-23 03:04:04"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "【环境】夜间，天空呈深蓝色渐变，无明显降水或雾气，但挡风玻璃上有细小水珠或灰尘颗粒。【自车】在中间车道沿弯道匀速行驶，车头偏航角随道路曲率平缓调整，未发生变道。【交通设施】前方为多层立交桥结构，右侧有绿色高速路指示牌（显示“Alta Vista Ave”与“Santa Clara Street”），自车正驶入桥下通道。【周围车辆】左侧邻车道有数辆轿车及一辆红色卡车，均保持同向匀速；右侧无明显车辆。【关键风险】立交桥下方阴影区域光线骤暗，存在视觉盲区，且桥墩结构密集，可能遮挡突发障碍物或行人，需警惕‘鬼探头’风险。",
+      "risk_tags": [
+        "bridge_shadow_blind_spot",
+        "ghost_probe_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "【环境】自车驶出立交桥阴影区，进入开阔路段，路灯照明增强，能见度恢复良好。【自车】保持中间车道匀速直线行驶，未进行转向或变道。【周围车辆】前方及左右车道均有稳定车流，车距适中，无急刹或异常行为。【非标物体】右侧路肩出现一辆白色工程卡车静止停放，车身部分占用应急车道，车尾警示灯未亮起。【交通设施】右侧设有施工围挡区域，但无明显作业设备活动。【关键风险】工程车虽静止，但其位置紧贴路肩，若后方车辆误判为可通行空间，可能引发切入事故；同时，该车处于自车侧后方盲区边缘，存在潜在开门杀或突然启动风险。",
+      "risk_tags": [
+        "construction_vehicle_static",
+        "side_blind_spot_risk",
+        "lane_encroachment_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】夜幕加深，天空呈深蓝至黑色过渡，路灯提供主要照明，路面干燥无积水。【自车】维持中间车道匀速直线行驶，车速稳定，无加速或减速迹象。【周围车辆】右侧车道有一辆黄色挖掘机正在缓慢移动，其机械臂收拢，未进行挖掘作业，疑似转运途中；后方跟随一辆大型货车，车速与自车相近。【非标物体】右侧路肩有少量灌木丛和土堆，无动物或行人活动迹象。【交通设施】远处可见高速公路出口匝道标识，但当前车道未临近分流点。【关键风险】黄色挖掘机在行车道旁低速移动，虽未作业，但其宽度较大，若自车因注意力分散而轻微偏离车道，可能与其发生剐蹭；此外，夜间视线受限，对移动施工设备的识别延迟可能导致紧急避让。",
+      "risk_tags": [
+        "moving_construction_equipment",
+        "narrow_clearance_risk",
+        "night_driving_attention_loss"
+      ]
+    }
+  ]
+}

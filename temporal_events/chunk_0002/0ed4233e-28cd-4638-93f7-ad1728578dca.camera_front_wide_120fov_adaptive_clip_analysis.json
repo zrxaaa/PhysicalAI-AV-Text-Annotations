@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:34:03",
+    "processing_time_seconds": 23.62
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "自车在晴朗天气下沿住宅区街道匀速直行，道路两侧分布着多栋独栋住宅，路边停放着若干车辆，包括一辆白色轿车和一辆红色皮卡。右侧人行道上出现一名行人推着蓝色垃圾桶走向路边，与自车路径无冲突。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "自车继续前行，前方右侧停有一辆红色皮卡拖挂房车，皮卡后方有一辆黑色SUV。左侧车道有另一辆银色轿车驶离停车位并缓慢汇入车流，自车保持原速未变道或减速。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:16",
+      "scene_description": "自车接近一个路口，前方右侧停有一辆银色轿车，该车未移动且未影响自车行驶路径。道路两侧可见多个垃圾桶排列在路边，远处有绿化带和围墙，无明显交通信号灯或行人活动。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车驶近路口，前方道路尽头可见一个红色停车标志，两侧路边均摆放着多个垃圾桶，无其他车辆或行人进入视野。自车保持匀速直行，未做转向或制动动作。"
+    }
+  ]
+}

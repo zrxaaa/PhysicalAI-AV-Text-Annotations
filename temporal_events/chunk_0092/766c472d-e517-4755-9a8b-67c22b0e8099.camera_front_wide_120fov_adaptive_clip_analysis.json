@@ -1,0 +1,46 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 20.2,
+    "analysis_time": "2026-01-22 21:07:53"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间城市街道，路灯照明充足，无明显天气异常。【自车】位于中间车道，正接近十字路口，执行减速停车动作。【右侧】一辆白色SUV停在路口右转车道，车头朝向与自车行驶方向垂直，处于静止状态。【左侧】多辆黑色轿车沿路边停放，部分车辆尾灯亮起。【交通设施】路口设有“STOP”地面标线及红底白字停车标志牌，同时有“ONE WAY”指示牌，表明该路段为单行道。【关键风险】自车在停车前需确认右侧车辆是否突然启动或左转，存在潜在“开门杀”或切入风险。",
+      "risk_tags": [
+        "stop_sign_compliance",
+        "parked_vehicle_obstruction",
+        "right_turn_conflict"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】街道两侧为住宅楼，部分窗户透出灯光，整体环境安静。【自车】完成停车后，缓慢起步并沿单行道向前行驶，保持在车道中心线内。【左侧】多辆汽车沿路边停放，其中一辆深色SUV在自车左前方约8米处，车头朝向与自车一致，未移动。【右侧】一排银色、白色轿车整齐停靠，无行人或非机动车活动迹象。【交通设施】路面上方可见“27 ST”路牌，前方路口有绿灯信号（未完全进入视野），路面标线清晰。【关键风险】无显著风险，但左侧停放车辆可能因驾驶员突然开门而构成“开门杀”威胁，需保持警惕。",
+      "risk_tags": [
+        "parked_vehicle_door_risk",
+        "single_lane_driving"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】街道两侧建筑风格统一，以砖砌联排住宅为主，路灯间距均匀，光照稳定。【自车】匀速沿道路中线前行，车速约15km/h，未进行转向操作。【左侧】一栋三层联排住宅旁，一辆黑色轿车正在从停车位驶出，车头已转向自车行驶方向，但尚未完全进入车道。【右侧】一排白色厢式货车和私家车并排停放，无动态物体。【交通设施】前方出现“STOP”地面标记，提示前方为交叉口或停车区。【关键风险】左侧车辆即将驶入主路，存在“切出”（Cut-out）行为，若其未礼让自车，将引发碰撞风险。",
+      "risk_tags": [
+        "cut_out_risk",
+        "unpredictable_vehicle_start"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】街道尽头出现一栋多层商业建筑，外墙有“PLATINUM GENERAL OFFICE”标识，周围有施工围挡。【自车】继续匀速前进，接近终点路口，未见紧急制动。【左侧】多辆轿车沿路边停放，其中一辆蓝色SUV在自车左前方约10米处，车头朝向与自车一致，静止未动。【右侧】一排白色及银色轿车停放在建筑物前，部分车辆尾灯亮起。【交通设施】前方路面再次出现“STOP”标线，结合远处的红绿灯信号，判断此处为小型交叉路口。【关键风险】无突发危险，但右侧施工围挡区域可能存在临时障碍物或施工人员，需注意视线盲区。",
+      "risk_tags": [
+        "construction_zone_awareness",
+        "end_of_street_intersection"
+      ]
+    }
+  ]
+}

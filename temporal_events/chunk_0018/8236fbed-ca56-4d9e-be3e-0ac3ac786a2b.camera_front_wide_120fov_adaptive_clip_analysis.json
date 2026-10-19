@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 05:42:42",
+    "processing_time_seconds": 12.25
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "自车在晴朗天气下沿双黄线道路行驶，前方有多座高架桥交错，右侧路边停有数辆汽车，一名穿白色上衣的行人从右侧车辆旁走向路中，自车保持匀速接近该行人区域。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:10",
+      "scene_description": "行人横穿马路至对侧，自车继续前行，经过一个黄色限高标志（14 FT 11 IN），右侧一辆黑色轿车停靠路边，车尾箱打开，旁边散落物品，自车未减速，平稳通过路口。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:14",
+      "scene_description": "自车接近十字路口，前方可见红色停车标志和街道指示牌（Pierce St & St. Emanuel St），右侧草坪上有婴儿车停放，远处有车辆驶来但未进入交叉口，自车在停止线前减速准备停车。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "自车在停车标志前完全停下，左侧车道有一辆深色皮卡车从左向右快速通过交叉口，同时远处一辆白色轿车正朝路口驶近，高架桥结构持续覆盖上方，环境安静无行人活动。"
+    }
+  ]
+}

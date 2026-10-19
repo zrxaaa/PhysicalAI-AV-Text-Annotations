@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 09:34:40",
+    "processing_time_seconds": 22.34
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车在十字路口等待绿灯，右侧一辆黄色校车从右车道驶入并横穿路口，交通信号灯为绿灯，路面干燥，天空晴朗。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "校车驶离后，自车前方有多辆车辆（包括皮卡、货车和SUV）依次通过路口，交通信号灯保持绿色，左侧路口有红灯亮起，提示左转车辆需停车等待。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:11",
+      "scene_description": "自车在绿灯下继续直行，前方蓝色SUV在交叉口左转进入Willows Rd，自车与其无直接冲突，道路两侧可见办公楼与绿化带，天气良好。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:16",
+      "scene_description": "自车跟随蓝色SUV沿Willows Rd行驶，该车在前方减速并驶入一个环形交叉路口，自车保持安全距离，周围无行人及其他显著动态障碍物。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车接近环岛入口，前方蓝色SUV完成环岛绕行后驶离，自车平稳通过环岛区域，右侧路边停放多辆私家车，无其他车辆或行人干扰交通流。"
+    }
+  ]
+}

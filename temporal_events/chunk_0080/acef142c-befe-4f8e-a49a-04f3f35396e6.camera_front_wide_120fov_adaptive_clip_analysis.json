@@ -1,0 +1,38 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.07,
+    "analysis_time": "2026-01-22 15:49:51"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】晴朗冬季，天空湛蓝，路面覆盖积雪与冰层，部分车道线被压实雪遮盖。阳光直射导致挡风玻璃右侧出现眩光。【自车】在中间车道匀速沿直线道路前行，未进行转向或变道。【左侧】一栋橙色商业建筑（标有“SAMURAI Japanese Steakhouse & Sushi Bar”）沿路排列，门前积雪堆积；路边可见裸树、路灯及少量行人活动迹象（未进入50米感知范围）。【交通设施】道路两侧设有高杆路灯，无明显交通信号灯或指示牌干扰。【关键风险】路面湿滑结冰，制动距离延长；右侧雪堆边缘存在潜在侧滑风险区域。",
+      "risk_tags": [
+        "icy_road",
+        "reduced_visibility_by_snow",
+        "braking_distance_increase"
+      ]
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "【环境】光照条件稳定，逆光影响减弱，视野清晰。【自车】保持中间车道匀速行驶，接近前方交叉路口。【左侧】继续可见橙色商业建筑群，其中一栋带绿色遮阳篷；右侧出现红色商业建筑（标有“RESTAURANT”字样），前方设有一个红色STOP标志牌，位于右转车道入口处。【交通设施】路口设有双红停标志（STOP Sign），并配有白色立柱和雪堆围挡。【周围参与者】远处可见一辆静止的深色车辆停于右侧停车场入口，未进入主路；无行人或动物活动。【关键风险】右侧STOP标志牌后方存在盲区，若后续有车辆从该方向驶入，可能因视线遮挡引发碰撞；雪堆可能影响紧急避让空间。",
+      "risk_tags": [
+        "blind_spot_at_intersection",
+        "limited_evasion_space_due_to_snow_piles"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】阳光增强，右侧出现强眩光，部分画面产生镜头光晕。【自车】在中间车道完成向右微调方向，准备进入右侧环形交叉口或右转车道。【右侧】红色商业建筑旁设有绿化带与灌木丛，后方为树林边界；多个路灯沿路排列，部分灯杆投下长影。【交通设施】前方可见一组红绿灯信号（当前显示红灯），位于交叉口中央，由多根灯柱支撑。【周围参与者】无行人、动物或非标准车辆出现；所有静态物体均处于安全距离外（>50米）。【关键风险】自车即将进入右转/环岛区域，需注意右侧来车可能闯红灯或违规转弯；强光可能导致视觉疲劳，降低对突发障碍物的反应速度。",
+      "risk_tags": [
+        "red_light_crossing_risk",
+        "glare_impacting_visual_acuity"
+      ]
+    }
+  ]
+}

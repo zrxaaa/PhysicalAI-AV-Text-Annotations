@@ -1,0 +1,46 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 18.64,
+    "analysis_time": "2026-01-22 11:10:21"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天多云，天空有薄层云，光线均匀但略显灰暗；路面干燥，无明显积水或结冰。【自车】位于中间车道，保持匀速沿直道行驶，未进行变道或转向。【周围车辆】右侧邻车道有一辆银色轿车从后方超车并切入自车右前方车道，完成变道动作；左侧对向车道有白色货车和小型SUV正常通行。【交通设施】道路两侧设有混凝土护栏与绿化带，右侧路肩可见“NO TURNS”交通标志牌，远处有高压电线塔及路灯杆。【关键风险】右侧银色轿车在变道过程中未充分观察后视镜，存在轻微切出风险，但未造成碰撞或紧急避让。",
+      "risk_tags": [
+        "lane_change_with_insufficient_check",
+        "no_obstacle_in_path"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】天气持续阴云，能见度良好，无降水或强光干扰。【自车】仍处于中间车道，匀速前行，随道路微弯自然调整方向，未主动转向。【周围车辆】前方一辆黑色SUV保持稳定车距；左侧车道有白色轿车与深色SUV交替超车，均完成变道后回归原车道。右侧路肩出现一辆红色SUV静止停放，车身部分压线，未影响主路通行。【交通设施】右侧出现黄色“Yield”预告标志，提示前方交叉路口；远处可见DSW Shoes商业建筑及广告牌。【关键风险】红色SUV违规停靠于应急车道边缘，虽未阻碍交通，但存在被后车误判为事故现场而引发追尾的风险，属于低概率但高影响的静态障碍物。",
+      "risk_tags": [
+        "improper_parking_on_roadside",
+        "potential_confusion_with_accident_site"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】天空云层较厚，局部有阳光穿透，形成明暗交替光影。【自车】维持中间车道匀速行驶，车头朝向随道路曲率平缓调整，无转向意图。【周围车辆】左侧车道一辆灰色SUV加速超越自车，完成切出动作；前方黑色SUV继续行驶，未发生制动或变道。右侧路肩区域树木茂密，未见新增障碍物。【交通设施】前方出现大型绿色高速公路指示牌（含出口编号），提示“EXIT 12A”；右侧设有金属护栏与草地过渡区。【关键风险】左侧灰色SUV在超车时短暂进入自车盲区，虽未发生碰撞，但暴露了当前车道内车辆间距不足的安全隐患，属于潜在的“切出冲突”场景。",
+      "risk_tags": [
+        "blind_spot_crossing",
+        "insufficient_following_distance"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】整体光照稳定，无异常天气现象。【自车】仍在中间车道匀速前进，通过前方桥梁结构下方，视野略有遮挡但未影响判断。【周围车辆】左侧车道一辆白色保时捷SUV从左前侧切入自车所在车道，完成变道后迅速加速至前方；右侧车道有数辆轿车保持安全距离行驶。【交通设施】前方为高架桥下通道，顶部有钢结构支撑；右侧护栏外可见施工锥桶排列，暗示附近可能有养护作业区域。【关键风险】白色保时捷在临近桥梁入口处突然变道，其切入路径紧贴自车左侧，存在“加塞式切入”行为，若后方车辆跟进速度过快，易引发连锁碰撞，属于高风险博弈行为。",
+      "risk_tags": [
+        "aggressive_lane_insertion",
+        "bridge_structure_obstruction_of_view",
+        "high-speed_cut_in"
+      ]
+    }
+  ]
+}

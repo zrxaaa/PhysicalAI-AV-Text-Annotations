@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 05:38:07",
+    "processing_time_seconds": 11.23
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在停车场主干道上匀速行驶，前方一辆蓝色SUV正沿环形车道向左转弯，两侧停放着多辆汽车，天空多云但光线充足，路面干燥无湿滑迹象。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "蓝色SUV完成左转并驶入外部道路，自车跟随其后保持安全距离，右侧出现混凝土挡墙和灌木丛，路边标有‘COMPACT’停车位编号，未见行人或其他动态障碍物。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:13",
+      "scene_description": "自车继续沿弯道前进，前方蓝色SUV在接近十字路口时减速，路口设有红色STOP标志牌，左侧可见一栋多层建筑入口及绿化带，树木枝叶稀疏。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "蓝色SUV在STOP标志前完全停车，自车随之停下，两车之间保持约5米间距，路口无其他车辆或行人通行，天气阴云密布但未影响视线，路面无积水。"
+    }
+  ]
+}

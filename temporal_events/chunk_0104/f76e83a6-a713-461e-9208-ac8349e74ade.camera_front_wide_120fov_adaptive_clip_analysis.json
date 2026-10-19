@@ -1,0 +1,38 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.79,
+    "analysis_time": "2026-01-23 02:14:40"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，阳光从左上方照射，存在轻微眩光。【自车】在中间车道匀速沿直道行驶。【前方】一辆白色轿车停靠在右侧路边，尾灯未亮，处于静止状态。【右侧】人行横道警示牌（黄色菱形+‘AHEAD’）立于树丛旁，提示前方有行人过街区域。【交通设施】路面标有‘SLOW’字样，提示减速。【关键风险】白色轿车虽停靠，但未开启双闪，且位置紧邻车道线，存在突然启动或开门的潜在风险（Open Door），需保持警惕。",
+      "risk_tags": [
+        "potential_open_door",
+        "stationary_vehicle_close_to_lane_edge"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】阳光增强，左侧出现明显眩光。【自车】向左转向，执行左转动作，车头偏航角增大，进入弯道过渡段。【左侧】一座现代风格教堂建筑（带十字架尖顶）位于道路左侧，其后方为住宅区。【右侧】树木与灌木丛密集，部分枝叶遮挡视线。【交通设施】无新增标志，但道路曲率增大，需注意弯道限速。【关键风险】左侧教堂区域有车辆停放，可能因突然开门或行人从车库/门廊走出而引发“鬼探头”；右侧树影遮挡导致视野受限，增加盲区碰撞风险。",
+      "risk_tags": [
+        "ghost_probe_risk",
+        "occlusion_by_vegetation",
+        "left_turn_with_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】晴朗蓝天，光照稳定，无遮挡。【自车】完成左转，进入新路段，当前在中间车道匀速行驶。【左侧】可见低矮围栏、墓碑状石碑及绿化带，疑似墓园入口（有“Cemetery”标识）。【右侧】多层住宅楼前有粉色花丛和落叶乔木，部分树木无叶，枝干裸露。【交通设施】路侧设有电线杆、路灯及小型交通指示牌（如右转箭头），但无红绿灯。【非标物体】右侧人行道边缘有少量散落枯叶，无明显障碍物。【关键风险】转弯后道路两侧建筑物密集，存在潜在行人突然横穿的可能性（尤其靠近墓园入口处）；右侧住宅区停车较多，存在车辆突然启动驶入主路的风险，需注意切出行为。",
+      "risk_tags": [
+        "pedestrian_crossing_potential",
+        "vehicle_cut_out_from_residential_area"
+      ]
+    }
+  ]
+}

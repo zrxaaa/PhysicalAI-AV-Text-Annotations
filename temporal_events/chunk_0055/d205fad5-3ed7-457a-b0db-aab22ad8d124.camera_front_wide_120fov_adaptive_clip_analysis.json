@@ -1,0 +1,36 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.03,
+    "analysis_time": "2026-01-22 04:47:08"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "【环境】夜间，天空阴云密布，能见度中等偏低，路灯照明充足但存在光晕与眩光。路面干燥无积水，无明显天气异常。【自车】位于中间车道，保持匀速沿直道行驶，未进行变道或转向。【周围交通参与者】左侧对向车道有车辆正常通行，右侧路肩有绿化带及行道树，无行人或非机动车。【交通设施】道路标线清晰，前方可见多组路灯及交通信号灯杆，未见障碍物或施工区域。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "【环境】继续夜间行驶，前方路口信号灯由绿转红，红灯倒计时显示为“7”秒，光照受红灯影响出现局部色偏。【自车】维持当前车道，开始减速制动，准备在路口停车。【周围交通参与者】右侧人行横道前有一辆银色轿车从右向左横穿路口（Crossing），其速度较快，已进入斑马线区域；该车与自车横向距离约8米，纵向距离约30米。【交通设施】前方为十字路口，设有红绿灯、人行横道、交通指示牌（含“Dale Ave”路名标识）。【关键风险】银色轿车在红灯亮起后仍加速横穿，构成闯红灯行为（Violation of Traffic Signal），存在与自车发生碰撞的高风险，属于典型“鬼探头”前置场景（因自车正减速，视线被前方红灯遮挡，无法预判横穿车辆动态）。",
+      "risk_tags": [
+        "red_light_violation",
+        "ghost_probe_risk",
+        "high_collision_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】夜间，路灯与红灯混合照明，部分区域存在光晕干扰。【自车】已完全停止于停车线后，等待红灯结束。【周围交通参与者】银色轿车已完成横穿，驶离路口；右侧人行道边缘可见一个黄色消防栓，无行人活动。远处对向车道仍有车辆缓慢通过。【交通设施】路口右侧立柱式门禁标志（“The Reserve”字样）清晰可见，表明该路口连接住宅区入口。【关键风险】自车停车位置处于交叉口中心线后方，前方视野受限于红灯杆和对向车流，存在潜在“鬼探头”风险——若后续有行人或非机动车从右侧建筑拐角突然冲出，将难以及时反应。此外，路口右侧交通灯为红灯，但左侧方向灯仍为绿灯，需警惕对向左转车辆可能违规通行。",
+      "risk_tags": [
+        "occlusion_risk",
+        "intersection_crossing_hazard",
+        "left_turn_violation_potential"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 07:01:41",
+    "processing_time_seconds": 12.29
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "夜间行车，自车在多车道公路上行驶，前方有两辆轿车，右侧车道一辆深色SUV从后方加速并完成变道至中间车道，自车保持当前车道匀速前进。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "自车继续沿桥面行驶，右侧护栏清晰可见，左侧车道车辆逐渐远离，前方车辆尾灯持续亮起，无明显减速或变道行为，环境光线稳定，路灯照明充足。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "车辆驶离桥梁区域，道路两侧出现树木和低矮围栏，对向车道有车辆驶来，自车未进行变道或加速，保持稳定行驶状态，前方红灯信号尚未出现。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "前方出现交通信号灯，显示为红灯，自车减速准备停车，对向车道有一辆大型货车快速驶过，道路右侧出现人行横道标志牌，但无行人出现。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车在红灯前完全停止，前方路口无其他车辆或行人干扰，道路两侧可见住宅区围墙与树木，环境安静，天气晴朗，路面干燥无湿滑迹象。"
+    }
+  ]
+}

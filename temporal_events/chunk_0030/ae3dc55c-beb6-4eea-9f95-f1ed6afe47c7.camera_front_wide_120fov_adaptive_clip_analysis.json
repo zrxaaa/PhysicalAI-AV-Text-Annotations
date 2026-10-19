@@ -1,0 +1,29 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "direction_position_action_precision",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 21.85,
+    "analysis_time": "2026-01-17 11:05:20"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【自车】位于高速公路中间车道，保持匀速直行。【左前侧】左侧邻车道有数辆轿车，其中一辆白色SUV在自车左前方约30米处，正沿车道线稳定行驶。【右侧】右侧邻车道有一辆黑色轿车，与自车同向，距离约25米，速度略慢于自车。【交通设施】前方高架龙门架显示“EXIT 114 EAST I-694”及“EXIT ONLY”指示牌，车辆正接近该出口预告区。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【自车】继续在中间车道匀速直行，道路略有向右弯曲。【左前侧】左侧隔离带后方出现广告牌和建筑物，无显著动态物体。【右侧】右侧邻车道黑色轿车持续保持在自车右后方，未变道。【交通设施】车辆驶近第二个龙门架，显示“EXIT 113 WEST I-694 1/4 MILE”和“EXIT 114 EAST I-694”，提示前方出口距离。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【自车】在中间车道维持匀速，随道路轻微向左弯曲。【左前侧】左侧隔离墙外树木茂密，远处可见工业建筑轮廓，无行人或非机动车。【右侧】右侧邻车道车辆逐渐被超越，当前无并线或切入行为。【交通设施】前方第三个龙门架显示“EXPRESS LANE OPEN TO ALL TRAFFIC”，下方为电子可变信息板，提示车道开放状态。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【自车】保持在中间车道匀速直行，即将通过最后一个龙门架。【前方】前方约80米处为一个跨线桥结构，桥下无滞留车辆。【右侧】右侧路肩区域有草地和护栏，无车辆或行人活动。【交通设施】最后一个龙门架显示“EXIT 113 WEST I-694”，同时左侧电子屏显示“EXPRESS LANE OPEN TO ALL TRAFFIC”，自车未进行任何变道或转向动作，仅沿道路曲率自然前行。"
+    }
+  ]
+}

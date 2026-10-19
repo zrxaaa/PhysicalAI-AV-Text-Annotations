@@ -1,0 +1,43 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.0,
+    "analysis_time": "2026-01-21 22:38:40"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】阴天，厚重云层覆盖，局部有阳光穿透，能见度良好。路面干燥，无积水或结冰。【自车】位于高速公路最左侧车道，匀速沿直道行驶。【周围交通】对向车道有多辆轿车和SUV正常通行；右侧路肩有金属护栏与绿化带。【交通设施】前方出现绿色高速公路指示牌（101 NORTH → San Francisco），并伴随匝道入口标识（FREEWAY ENTRANCE, US 101）。【关键风险】无明显风险，但右侧匝道口存在潜在切出车辆风险，需保持警惕。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】天空云层较厚，阳光从右上方斜射，形成部分眩光。【自车】开始向右转向，进入匝道入口，横向动作明确（车头偏航角增大），由主路驶入弯曲匝道。【周围交通】左侧对向车道仍有车辆正常行驶；右侧路边可见一排红色储物单元建筑及灌木丛。【交通设施】路侧出现黄色菱形“15-3”限高标志、绿色“FREEWAY ENTRANCE”标牌、以及“CARPOOL 2 OR MORE PERSONS PER VEHICLE”提示牌。【关键风险】自车在弯道处减速变道，需注意右侧路肩植被遮挡区域可能存在的非机动车或行人，但当前未发现目标。",
+      "risk_tags": [
+        "lane_change",
+        "curve_navigation"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "【环境】光线增强，太阳位于右后方，产生强烈逆光，导致前挡风玻璃局部反光。【自车】持续沿右转弯道行驶，保持在右侧车道内，车头偏航角稳定，未跨越车道线。【周围交通】右侧为低矮灌木与空地，远处可见停车场及少量停放车辆；左侧对向车道有数辆车快速通过，其中一辆深色SUV在弯道外侧加速超车。【交通设施】路面标有“LANE”、“POOL”字样，提示为专用车道；前方路口设有红绿灯杆及“STOP HERE ON RED”警示牌。【关键风险】自车在弯道中受逆光影响视线，且左侧有高速超车车辆，存在轻微切入风险，但未发生实际交互。",
+      "risk_tags": [
+        "reverse_light_blinding",
+        "high_speed_crossing_vehicle"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】逆光加剧，太阳接近地平线，造成强眩光，部分路段路面反射光刺眼。【自车】继续沿弯道行驶，即将进入高架桥下方通道。【周围交通】前方有多辆轿车在桥下缓行，包括一辆黑色轿车正在左转；右侧路肩有积水坑，水面反射阳光。【交通设施】高架桥下悬挂绿色指示牌：“Great America Pkwy EXIT 393 / Bowers Avenue ½ MILE”，并附有“15 FT 3 IN”限高标识。【关键风险】自车在桥洞入口处因强光与阴影交替，视觉感知能力下降；前方车辆刹车频率增加，存在突发制动风险；右侧积水坑可能引发轮胎打滑或溅水，需谨慎规避。",
+      "risk_tags": [
+        "light_blinding",
+        "sudden_braking_risk",
+        "wet_road_surface"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.29,
+    "analysis_time": "2026-01-22 22:36:53"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "【环境】夜间，浓雾笼罩，能见度极低，路灯与车灯产生强烈光晕和眩光。【自车】位于交叉路口，正通过左转车道，执行左转动作。【交通设施】前方为多组交通信号灯，当前显示绿灯；右侧有“SPEED LIMIT 35 MPH”电子告示牌。【关键风险】因大雾导致视野受限，无法清晰识别对向及侧方车辆，存在碰撞或误判信号的风险。",
+      "risk_tags": [
+        "heavy_fog",
+        "low_visibility",
+        "intersection_confusion"
+      ]
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "【环境】浓雾持续，道路两侧护栏可见，但远处景物模糊不清。【自车】完成左转后进入主干道，保持匀速沿直道行驶，车道线清晰可见。【交通设施】左侧设有“SPEED LIMIT 35 MPH”电子告示牌，前方出现黄色菱形警示标志（提示弯道）。【周围参与者】无其他车辆或行人出现在50米内视野范围内，未发现异常物体或施工区域。【关键风险】虽无直接交互对象，但浓雾环境下长期驾驶易致疲劳与判断迟滞，属于长尾安全风险。",
+      "risk_tags": [
+        "long_tail_fatigue_risk",
+        "no_immediate_threat"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】雾气略有消散，但仍影响视线，路灯与车灯形成明显光晕。【自车】继续在中间车道匀速前行，道路呈轻微右弯趋势。【前方设施】前方出现隧道入口，上方电子屏显示“SPEED LIMIT 35 MPH”，并配有绿色通行信号灯。【周围参与者】无其他车辆或行人出现在可视范围，未发现施工锥桶、动物或遗撒物。【关键风险】即将进入隧道，前后光线剧烈变化可能导致视觉适应延迟，增加短时盲区风险。",
+      "risk_tags": [
+        "light_transition_risk",
+        "tunnel_entry_blind_spot"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】进入隧道后，外部自然光消失，仅靠隧道内照明，灯光呈黄白色，部分区域存在眩光。【自车】保持当前车道，匀速驶入隧道，车头方向随隧道曲线微调，但未发生变道或转向。【交通设施】隧道内壁为混凝土结构，顶部均匀分布照明灯，地面标线清晰。【周围参与者】隧道内无其他车辆，未见行人、动物或施工设备。【关键风险】隧道内光线不均可能造成局部视觉盲区，若前方突发障碍物（如掉落物）将难以及时反应，需依赖车速控制与系统预警。",
+      "risk_tags": [
+        "tunnel_lighting_variability",
+        "obstacle_detection_delay"
+      ]
+    }
+  ]
+}

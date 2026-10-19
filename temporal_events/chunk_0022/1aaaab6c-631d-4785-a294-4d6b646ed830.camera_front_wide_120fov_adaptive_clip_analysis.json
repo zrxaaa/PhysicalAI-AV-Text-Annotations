@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 07:06:06",
+    "processing_time_seconds": 13.57
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "右侧路边出现一串装饰性灯光，但无明显交通参与者。道路标线清晰，未见施工或障碍物，自车未进行转向或变道操作。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "雾气在信号灯区域加剧，绿色灯光在雾中形成大面积光斑，影响视觉判断。自车在停止线前稳定停下，未发生碰撞或紧急制动。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "路面干燥，无积水或结冰，两侧路灯提供局部照明，但整体环境昏暗。无行人、非机动车或其他动态障碍物出现在自车路径上。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "无显著环境变化或交通行为突变，自车维持匀速巡航状态，未执行变道、超车或紧急避让动作，场景整体平稳延续。"
+    }
+  ]
+}

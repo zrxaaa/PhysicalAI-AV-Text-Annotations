@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 08:40:55",
+    "processing_time_seconds": 14.33
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在直行车道等待绿灯，前方一辆银色SUV和一辆白色轿车停在路口停止线前，左侧有一栋红砖房屋和白色栅栏，右侧是树木和教堂尖顶。交通信号灯为绿色，允许直行通行。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "绿灯转为黄灯，自车及前方车辆开始加速通过交叉口，右侧车道有车辆向右转弯，左侧对向车道有黑色轿车驶来。阳光从右上方照射，造成部分镜头眩光。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "通过交叉口后，自车沿双黄线道路直行，前方银色SUV保持匀速行驶。道路两侧停放多辆汽车，右侧可见一座白色教堂建筑及其尖塔，路边有白色围栏。阳光强烈，部分区域过曝。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车继续沿道路直行，右侧教堂建筑逐渐靠近并从视野中移出，左侧出现住宅区，有几栋两层房屋和修剪整齐的灌木。前方车辆保持安全距离行驶，无明显变道或减速行为。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车进入一段较为空旷的路段，道路两侧为住宅与绿化带，无显著交通参与者或障碍物。天气晴朗，云层稀疏，路面干燥，光线充足但仍有局部眩光影响视线。"
+    }
+  ]
+}

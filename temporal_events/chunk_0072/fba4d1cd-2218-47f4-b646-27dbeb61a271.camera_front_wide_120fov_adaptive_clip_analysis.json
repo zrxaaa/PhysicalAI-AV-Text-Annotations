@@ -1,0 +1,37 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.91,
+    "analysis_time": "2026-01-22 12:18:17"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "【环境】黄昏时分，天空灰白，能见度良好，无降水或雾。【自车】位于十字路口中间车道，处于停车等待状态，车头朝向正前方道路。【交通设施】前方红绿灯为红色，右侧及左侧人行横道信号灯亦为红色；路牌显示“BRAUN ST”。【周围参与者】左前方对向车道有多辆汽车静止等待；右侧路边停有一辆白色SUV；两名行人从左侧人行道由北向南步行，未进入斑马线区域；远处有车辆在红灯前排队。【关键风险】无明显违规行为，但左侧行人存在潜在横穿意图（已靠近斑马线边缘），需警惕‘鬼探头’风险。",
+      "risk_tags": [
+        "pedestrian_crossing_potential",
+        "red_light_wait"
+      ]
+    },
+    {
+      "time_segment": "00:00:07-00:00:11",
+      "scene_description": "【环境】光线稳定，无天气异常。【自车】在绿灯亮起后启动，沿中间车道匀速前行。【周围参与者】左侧一辆黑色轿车从左转车道切入自车所在直行车道，完成变道动作；右侧白色SUV在路口右转后驶离；远处车辆同步启动，车流有序。【交通设施】信号灯由红转绿，路口通行权释放。【关键风险】左侧黑色轿车在未充分观察自车横向距离的情况下强行切入，构成‘加塞’行为（Aggressive Cut-in），虽未碰撞，但增加了横向冲突概率。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "lane_change_conflict"
+      ]
+    },
+    {
+      "time_segment": "00:00:11-00:00:19",
+      "scene_description": "【环境】城市街景，两侧为多层住宅建筑，部分带外置消防梯；路面干燥，无遮挡物。【自车】完成路口转向后，沿下坡主干道行驶，保持中间车道，纵向速度平稳。【周围参与者】道路两侧停放多辆私家车（右侧为主，含白色丰田普锐斯、灰色SUV等）；对向车道车流稀疏，车辆匀速通过；前方远处可见红绿灯与车流。【非标物体】无动物、施工车辆或遗撒物。【关键风险】无直接碰撞威胁，但因道路为连续下坡且两侧停车密集，存在‘开门杀’风险（如右侧车位车主突然打开车门），以及视线受建筑物遮挡的潜在盲区，属于长尾安全场景。",
+      "risk_tags": [
+        "door_opening_risk",
+        "long_tail_safety"
+      ]
+    }
+  ]
+}

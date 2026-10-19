@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 05:50:45",
+    "processing_time_seconds": 12.59
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车在夜间城市街道上匀速行驶，前方绿灯亮起，左侧车道有白色SUV和黑色轿车加速通过交叉口，右侧路边停有车辆，无行人出现。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "自车继续直行，道路两侧可见停放车辆与建筑，右侧出现大型粉色外墙建筑及广告牌，前方路口信号灯由绿转黄，自车未减速，保持原有速度通过。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车驶入一段施工区域旁的路段，右侧为被围挡覆盖的工地，左侧有低矮住宅与商铺，远处可见红色交通信号灯，自车维持稳定行驶，未进行变道或刹车。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "前方路口红灯亮起，自车减速并停车等待，右侧车道有白色皮卡和银色SUV依次驶过，左侧对向车道有车辆驶来，路面标线清晰，无行人横穿。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车在红灯前静止，前方路口可见霓虹招牌与绿色交通信号灯，右侧施工围栏延伸至视野尽头，无其他动态交通参与者进入自车路径范围。"
+    }
+  ]
+}

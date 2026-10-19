@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.61,
+    "analysis_time": "2026-01-23 03:09:51"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】暴雨天气，能见度低，路面严重积水并反射灯光，雨滴密集覆盖挡风玻璃。【自车】位于中间车道，处于停车等待状态，前方交通信号灯为红灯。【周围车辆】左侧车道有一辆白色特斯拉和一辆红色轿车，均静止；右侧车道有两辆深色SUV，同样静止。【交通设施】前方交叉路口设有四组交通信号灯，当前直行方向为红灯，右转箭头灯为绿灯。【关键风险】无明显违规行为，但因雨天湿滑路面，制动距离延长，存在潜在追尾风险。",
+      "risk_tags": [
+        "heavy_rain",
+        "wet_road",
+        "braking_distance_increase"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】持续暴雨，雨势未减，挡风玻璃雨刷器高频工作。【自车】在绿灯亮起后启动，沿中间车道匀速前行。【周围车辆】左侧白色特斯拉与红色轿车同步起步左转；右侧深色SUV保持原位，随后加速向前。【交通设施】通过路口时，路面上清晰可见“KEEP CLEAR”字样，提示勿在交叉口停留。【关键风险】无显著交互冲突，但因路面湿滑，部分车辆起步较猛，可能引发水花溅射影响视线。",
+      "risk_tags": [
+        "wet_road",
+        "water_splash_impact",
+        "smooth_acceleration"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】阴雨天气，天空灰暗，光线昏暗，能见度中等偏低。【自车】保持中间车道匀速直线行驶，随道路曲线自然前进，未进行变道或转向。【周围车辆】前方约30米处有一辆黑色SUV，保持稳定车距；左侧对向车道有白色轿车驶离，未进入本车道。【交通设施】右侧出现公交站台及自行车道标识，路边树木无叶，呈光秃状。【关键风险】无直接碰撞威胁，但右侧人行道区域因积水形成浅滩，若行人涉水通行，存在滑倒或被水浸湿的风险，需注意避让。",
+      "risk_tags": [
+        "low_visibility",
+        "pedestrian_crossing_risk",
+        "shallow_flood_zone"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】持续阴雨，路面反光强烈，部分区域积水较深。【自车】继续沿中间车道匀速行驶，车头朝向道路延伸方向，未发生横向偏移。【周围车辆】前方黑色SUV维持稳定速度，未超车或变道；左侧对向车道车辆稀少，无异常行为。【交通设施】右侧出现黄色菱形警示牌（提示前方有学校/儿童活动区），路边设有限速标志（25mph）。【关键风险】无紧急危险，但警示牌提示需提高警惕，尤其在雨天条件下，儿童突然冲出的可能性虽低，但仍属长尾风险场景。",
+      "risk_tags": [
+        "school_zone_warning",
+        "long_tail_pedestrian_risk",
+        "consistent_speed"
+      ]
+    }
+  ]
+}

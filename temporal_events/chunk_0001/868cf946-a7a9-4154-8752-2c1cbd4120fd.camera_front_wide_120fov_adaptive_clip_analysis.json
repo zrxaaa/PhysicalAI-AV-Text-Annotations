@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 22:55:51",
+    "processing_time_seconds": 17.09
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车沿陡峭住宅区街道下行，左侧停放一辆紫色跑车和蓝色SUV，右侧为红色SUV及白色轿车。阳光明媚，路面干燥，无行人或动态障碍物干扰自车路径。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "自车继续下行，左侧出现白色SUV停靠于路边，右侧依次为银色皮卡与白色轿车。道路两侧建筑密集，树木遮挡部分视野，未见行人或交叉路口标志。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:13",
+      "scene_description": "前方视野开阔，可见远处海湾轮廓，街道两侧停放多辆轿车与SUV，包括黑色宝马与银色奔驰。自车保持匀速行驶，无急转弯或变道行为，道路无明显障碍。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车接近一个小型T字路口，右侧出现停车的深色SUV与浅蓝轿车，左侧为灰色公寓楼。远处可见红绿灯杆但未亮起，无行人横穿，自车维持直行轨迹。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车驶近路口，右侧停有银色SUV，左侧为黑色轿车与白色SUV。前方道路尽头可见停车标志，但无车辆或行人阻碍，自车平稳通过该区域，未做紧急制动或转向。"
+    }
+  ]
+}

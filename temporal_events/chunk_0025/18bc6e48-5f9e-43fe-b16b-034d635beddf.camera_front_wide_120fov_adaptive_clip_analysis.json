@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 08:23:22",
+    "processing_time_seconds": 14.79
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车停在十字路口停止线前，右侧人行道上有两名穿橙色背心的工人正在布置交通锥，一辆白色货车停在左侧路边，前方道路空旷，无显著障碍物。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "自车启动并沿街道直行，左侧出现行人从人行道走出，右侧停放多辆私家车，前方远处可见坡道和密集住宅楼，路面标有斑马线与“STOP”字样，天气晴朗，光线充足。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车继续前行，左侧出现施工围挡区域，一辆银色轿车从对向车道驶来并完成超车，右侧路边停有一辆平板卡车，车后方有蓝色移动厕所，道路两侧建筑风格多样。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车接近下一个十字路口，前方有车辆在路口左转，右侧停放多辆汽车，包括一辆黄色甲壳虫车，路面上出现“STOP”和“AHEAD”字样提示，天空云层较薄，能见度良好。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车在十字路口减速停车，前方黑色轿车正在右转，右侧白色SUV停在路边，路口两侧悬挂彩虹旗，远处山坡上建筑密集，整体环境安静有序，无突发交通事件。"
+    }
+  ]
+}

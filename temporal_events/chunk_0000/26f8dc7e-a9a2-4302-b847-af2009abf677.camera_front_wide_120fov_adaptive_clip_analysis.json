@@ -1,0 +1,24 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 22:18:47",
+    "processing_time_seconds": 14.87
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "自车在城市多车道道路上缓慢前行，前方为排队等候的车辆，右侧设有橙白相间的施工路障。左侧车道有黑色SUV和银色SUV依次加速变道超车，交通流因施工区域压缩而减速。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "车辆继续沿施工路段行驶，前方交通信号灯由红转绿，自车跟随前车启动前进。右侧施工区出现移动式警示牌，左侧对向车道有红色小轿车和黑色SUV驶过，路面标线清晰，天气阴沉但无雨。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "车辆通过交叉路口，前方绿灯持续亮起，自车平稳通过人行横道。右侧车道有施工设备拖车停靠，左侧有黑色皮卡和银色SUV快速驶过，整体车流有序，无行人或突发障碍物出现。"
+    }
+  ]
+}

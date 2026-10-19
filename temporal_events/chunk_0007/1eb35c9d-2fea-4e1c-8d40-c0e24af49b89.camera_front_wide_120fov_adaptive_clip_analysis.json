@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 01:44:28",
+    "processing_time_seconds": 12.68
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在十字路口左转车道等待，前方一辆红色轿车停在交叉口中央，左侧有一辆黄色货车和灰色皮卡正准备左转。交通信号灯为绿灯，天气晴朗，路面干燥无湿滑迹象。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "红车开始左转并驶入主路，自车保持静止等待；此时对向车道绿灯亮起，一辆白色轿车从对面直行通过交叉口，行人未出现在人行横道上。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "红车完成左转后继续沿Redmond Way行驶，自车随后启动跟随其后；右侧路口信号灯由绿转黄，提示即将变红，同时有车辆从164 Ave NE方向驶来准备右转。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "自车跟随红车沿Redmond Way直行，道路两侧商铺林立，无行人或突发障碍物；前方路口信号灯仍为绿灯，但接近交叉口时出现减速趋势以应对可能的停车需求。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车继续跟随红车，在下一个十字路口前减速，准备停车；右侧人行道上有行人站立，但未进入车道区域，交通环境整体平稳有序，无紧急事件发生。"
+    }
+  ]
+}

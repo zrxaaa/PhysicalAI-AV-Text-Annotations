@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 10.22,
+    "analysis_time": "2026-01-24 12:30:22"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "【环境】夜间浓雾天气，能见度极低（约30米内），路灯灯光被雾气散射形成强眩光。【自车】位于中间车道，匀速沿道路中心线前行，未进行转向或变道。【周围交通参与者】左侧对向车道有数辆静止或缓慢行驶的车辆，右侧路边停放多辆白色厢式货车，部分车辆尾灯亮起。【交通设施】道路两侧设有路灯、人行横道标线及路牌，但因雾气影响，标识模糊不清。【关键风险】前方路口处出现“STOP”路面标记与红色停车标志，但因雾遮挡，无法清晰识别其后是否有行人或交叉车辆，存在潜在“鬼探头”风险。",
+      "risk_tags": [
+        "low_visibility",
+        "ghost_probe_risk",
+        "obstructed_signage"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】雾气持续，能见度无明显改善。【自车】在中间车道减速至接近停止状态，准备在路口停车。【前方交通参与者】前方5米处出现一辆深色轿车，正从右侧支路驶入主路，车速较慢，车身部分进入自车所在车道。【交通设施】右侧路口设有一个红色八角形“STOP”标志牌，下方附有“ALL WAY”字样；同时地面喷涂“STOP”字样，提示所有方向车辆停车。【关键风险】该轿车在未观察自车动向的情况下切入自车前方车道，构成“切出”（Cut-out）行为，且因雾气遮挡，自车无法预判其是否完全停稳，存在追尾或剐蹭风险。",
+      "risk_tags": [
+        "cut_out",
+        "poor_visibility_obstacle",
+        "unpredictable_vehicle_behavior"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】浓雾持续，夜间城市街景光线昏暗，路灯呈黄白色光晕。【自车】完成停车动作，保持静止状态，等待前方车辆通过。【周围交通参与者】右侧支路驶来的深色轿车已完全驶离路口，未再出现其他车辆；左侧对向车道有车辆缓慢驶过，未靠近自车车道。【非标准物体】右侧人行道旁有一名行人（轮廓模糊）站立于墙边，面向街道，双手插兜，未移动，无横穿意图。【交通设施】路口设有斑马线、黄色盲道、路缘石及护栏，左侧为带涂鸦的矮墙结构。【关键风险】虽无直接碰撞威胁，但因雾气导致视野受限，行人和车辆可能突然出现，存在“遮挡后突现”（Occlusion-to-Sudden-Entry）风险，尤其在自车重新启动时需谨慎观察。",
+      "risk_tags": [
+        "occlusion_risk",
+        "pedestrian_standby",
+        "delayed_reacquisition"
+      ]
+    }
+  ]
+}

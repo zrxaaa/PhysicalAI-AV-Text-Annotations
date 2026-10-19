@@ -1,0 +1,52 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.77,
+    "analysis_time": "2026-01-24 14:35:31"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "【环境】清晨，太阳位于车头正前方，形成强烈逆光眩光，导致挡风玻璃前部视野严重受阻。【自车】在中间车道匀速行驶，车头朝向道路中心线。【交通设施】道路两侧为裸露的枯树林与空旷草地，无明显标线或护栏。【关键风险】强逆光造成视觉盲区，可能掩盖前方障碍物或行人，存在潜在碰撞风险。",
+      "risk_tags": [
+        "strong_backlight",
+        "visual_obstruction",
+        "low_visibility"
+      ]
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "【环境】逆光减弱，视野恢复清晰，天空呈淡蓝色，地面干燥。【自车】在中间车道沿弯曲道路匀速前行，车头偏航角随路面曲率自然调整。【右侧】出现独立自行车道，路旁设有“BIKE LANE”标志牌；远处可见路灯柱与空旷停车场。【交通设施】路面标线清晰，包含导向箭头与分道线。【无显著风险】此段无车辆、行人或障碍物进入半径50米内，场景平稳。",
+      "comment": "此段无关键风险，故不包含risk_tags字段"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】光照稳定，晴朗无云。【自车】继续在中间车道匀速行驶，接近一个环形交叉路口。【左侧】出现黑色指示牌，标注“EXITS”及多个方向出口（如MIDDLETOWN RD, CUMBERLAND CN RD）。【前方】一辆深色皮卡在对向车道缓慢行驶，未跨越车道线，无转向意图。【右侧】空旷停车场边缘有数根灯杆，无行人活动迹象。【关键风险】自车即将进入环岛区域，需注意对向车辆可能突然变道或停车，但当前无直接威胁。",
+      "risk_tags": [
+        "intersection_approach",
+        "potential_lane_change"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "【环境】阳光再次从左侧照射，产生局部眩光。【自车】在环岛入口处减速并执行左转动作，车头偏航角明显向左调整。【路面状况】环岛内路面有积水反射，部分区域湿滑。【周围】左侧为林带，右侧为开阔草地；无其他车辆或行人进入视野范围。【非标准物体】无特种车辆、动物或遗撒物。【关键风险】转弯时因路面湿滑，制动距离延长，需谨慎控制车速；同时，左侧树木遮挡视线，存在潜在“鬼探头”风险，但当前无实体目标出现。",
+      "risk_tags": [
+        "wet_road_surface",
+        "turning_with_caution",
+        "occlusion_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "【环境】太阳再次位于车头正前方，逆光加剧，视野再度模糊。【自车】完成左转后进入新路段，继续沿弯曲道路行驶。【周边】道路两侧仍为光秃树林与草地，无新增交通设施或车辆。【交通交互】无其他车辆切入或横穿，自车保持单向行驶。【关键风险】持续逆光影响感知精度，可能导致对突发障碍物反应延迟；若后续进入无照明区域，风险将进一步上升。",
+      "risk_tags": [
+        "persistent_backlight",
+        "reduced_perception_accuracy"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 08:19:39",
+    "processing_time_seconds": 15.36
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "自车在双黄线车道内跟随前方黑色面包车行驶，右侧有一辆绿色货车和一辆黑色轿车并行，交通信号灯为红灯，车辆均处于停止状态。左侧人行道有行人推着滑板车经过，未进入车道。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:11",
+      "scene_description": "信号灯转绿，自车及前方车辆开始向前行驶，右侧灰色SUV从右车道切入自车所在车道，同时左侧路口有车辆左转进入主路，自车保持直行通过交叉口。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:15",
+      "scene_description": "自车驶入下一段道路，左侧出现汽车销售店停车场，路边停放多辆汽车，右侧人行道旁有蓝色垃圾箱。前方黑色面包车继续前行，自车保持跟车距离，无明显变道或加速行为。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "道路两侧停满车辆，包括白色SUV、蓝色改装车和黑色跑车等，自车沿道路中央缓慢行驶，避让右侧停放车辆。前方黑色面包车持续在前，无其他动态障碍物或行人干扰路径。"
+    }
+  ]
+}

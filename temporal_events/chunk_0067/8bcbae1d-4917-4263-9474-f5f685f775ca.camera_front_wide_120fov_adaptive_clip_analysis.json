@@ -1,0 +1,38 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.37,
+    "analysis_time": "2026-01-22 09:46:47"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，云层低且均匀，能见度良好，无明显降水或强光干扰。路面干燥，无积水或结冰。【自车】位于中间车道，正向路口减速停车，车头朝向直行方向，未进行横向转向。【右侧】一辆黑色轿车从右转车道切入直行车道，完成左转动作，其运动轨迹与自车所在车道交叉，存在潜在切入风险。【交通设施】前方路口设有红色八角形“STOP”标志牌及路面上的“STOP”字样标线，自车在停止线前完全停下。【关键风险】右侧黑色轿车在未确保安全的情况下强行左转，可能与自车形成冲突路径，构成“违规左转”风险。",
+      "risk_tags": [
+        "illegal_left_turn",
+        "crossing_path_risk",
+        "stop_sign_compliance"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】天气持续阴沉，无显著变化。【自车】在停止线后保持静止状态，等待路口清空。【左侧】一辆白色厢式货车停于对向车道，未移动；同时，一辆银色SUV从右侧驶入画面并停靠在路边，未进入主干道。【右侧】一辆大型混凝土搅拌车停于路边，车身横跨人行道边缘，未作业，但占据部分道路空间。【交通设施】路口右侧设有“STOP”标志牌，自车遵守停车规则。【关键风险】右侧搅拌车虽静止，但车身宽度大，遮挡部分后方视野，若后续有行人或非机动车从其后方出现，易引发“鬼探头”事故。",
+      "risk_tags": [
+        "occlusion_risk",
+        "large_vehicle_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】天空仍为灰白色阴天，光线均匀，无强逆光或眩光。【自车】完成停车等待后，开始向左转向，沿环岛/转弯车道驶入商业区停车场入口。【周围车辆】黑色轿车已驶离路口，不再对自车构成直接威胁；银色SUV和混凝土搅拌车仍停于原位，未移动。【交通设施】自车经过一个带有“Town Center”标识的商业区导引牌，该区域设有多个停车位、限速标志（Speed Limit 5）及人行横道。【非标准物体】无动物、施工设备或遗撒物。【关键风险】自车在转弯过程中需注意左侧来车（如对向车道仍有车辆缓慢行驶），以及右侧人行道是否有行人突然出现。当前场景中无紧急碰撞风险，但转弯时需保持低速并密切观察盲区。",
+      "risk_tags": [
+        "turning_lane_caution",
+        "blind_spot_monitoring_required"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 07:42:20",
+    "processing_time_seconds": 14.52
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "自车在十字路口停车等待，前方白色Mini Cooper停在停止线后，右侧车道有白色轿车和黑色轿车并排停放。天空阴沉，路面干燥，交通信号灯为红灯，路面上有‘STOP’字样及自行车道标识。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "信号灯转绿，自车与前方Mini Cooper同时启动前行，车辆通过人行横道。右侧白色轿车开始向左变道，与自车形成短暂并行，但未发生冲突。道路两侧建筑密集，电线杆和电缆纵横交错。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:15",
+      "scene_description": "自车进入直行主道，左侧出现多辆对向行驶车辆，包括一辆黑色SUV和一辆银色轿车，均在各自车道内正常行驶。右侧路边有白色SUV停靠，未影响自车路径。自行车道标志清晰可见。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "自车继续沿直线道路行驶，前方Mini Cooper保持匀速，右侧出现一辆白色SUV从停车位驶出并汇入车流，与自车保持安全距离。道路两侧停放车辆增多，部分路段有双黄线分隔车道。"
+    }
+  ]
+}

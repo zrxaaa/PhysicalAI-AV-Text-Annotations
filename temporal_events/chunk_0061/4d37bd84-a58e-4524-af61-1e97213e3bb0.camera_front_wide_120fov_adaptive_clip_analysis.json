@@ -1,0 +1,38 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.12,
+    "analysis_time": "2026-01-22 07:08:48"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间，路灯照明，路面干燥，无明显天气异常。【自车】位于中间车道，匀速沿道行驶，车头朝向道路前方曲率方向。【交通设施】前方路口有红色“STOP”标志牌（路侧）及地面喷涂“STOP”字样；右侧为茂密树丛与围墙，左侧为双层住宅区，部分窗户亮灯。【交互行为】自车在接近路口时未减速，直接通过停车线区域，未执行停车动作，存在潜在违规风险。",
+      "risk_tags": [
+        "failure_to_stop",
+        "night_driving_risk",
+        "intersection_violation"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】持续夜间驾驶，路灯间距均匀，能见度稳定。【自车】保持中间车道匀速前行，随道路轻微左弯行驶。【左侧】一辆深色SUV从左侧邻近车道驶入画面，短暂并行后向左变道离开视野；其后方可见一辆黑色轿车静止于路边。【右侧】树木与围墙持续延伸，无行人或动物出现。【关键风险】左侧SUV变道动作未打转向灯，且距离自车较近（<10米），存在切出干扰风险，但未造成实际碰撞或紧急避让。",
+      "risk_tags": [
+        "un signaled_lane_change",
+        "close_proximity_vehicle"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】道路两侧植被密集，路灯亮度略有下降，进入中长距离路段。【自车】维持中间车道匀速行驶，车头方向与道路曲率一致。【前方】一辆白色厢式货车停靠在右侧路边，尾部朝向自车行驶方向，车身静止，未见灯光闪烁或作业迹象。【右侧】货车旁有低矮围栏和灌木，无行人活动。【非标物体】货车后方未见施工设备或警示标识，判断为临时停放车辆。【关键风险】自车与货车纵向距离逐渐缩小（由约80米缩至30米），若货车突然启动或开门，可能引发突发危险，但当前无动态变化，风险等级较低。",
+      "risk_tags": [
+        "stationary_vehicle_in_path",
+        "potential_open_door_risk"
+      ]
+    }
+  ]
+}

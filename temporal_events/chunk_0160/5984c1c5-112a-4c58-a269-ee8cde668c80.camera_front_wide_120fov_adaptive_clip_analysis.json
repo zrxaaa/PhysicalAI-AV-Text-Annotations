@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.66,
+    "analysis_time": "2026-01-24 01:24:20"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】强逆光，太阳位于画面正上方偏右，造成镜头眩光与局部过曝。【自车】在中间车道沿弯曲道路前行，未进行转向或变道。【左侧】人行台阶区域有多名行人（含一对并行男女）向左前方行走，其中一人携带黑色包；右侧桥面有行人向右后方移动。【交通设施】道路两侧设有金属隔离桩，右侧可见“禁止右转”标志牌。【关键风险】因强光遮挡，部分行人轮廓模糊，存在视觉盲区，尤其在自车转弯时可能无法及时识别突然横穿的行人。",
+      "risk_tags": [
+        "strong_sunglare",
+        "visibility_obstruction",
+        "pedestrian_crossing_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】逆光减弱，阳光角度降低，视野清晰度提升。【自车】保持中间车道匀速沿弯道行驶，车头偏航角随道路曲率微调。【右侧】一名穿红色上衣、提黄色购物袋的行人从人行横道由右向左横穿马路，完成穿越后离开视野。【左侧】阶梯旁有数名行人驻足或缓步下行，无明显横穿意图。【交通设施】右侧建筑外立面有大型广告牌（MINI汽车），下方商铺门口设临时围栏及施工脚手架，无作业车辆活动。【关键风险】行人横穿行为未受信号灯控制，属于“鬼探头”潜在诱因，但该行人已安全通过，当前无直接碰撞风险。",
+      "risk_tags": [
+        "jaywalking",
+        "crossing_without_signal",
+        "no_immediate_collision"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】晴朗，光照稳定，无眩光干扰。【自车】继续沿弯道行驶，进入直行段前的过渡区域。【前方】一辆黑色面包车（Volkswagen Transporter）在对向车道由远及近驶来，正在接近十字路口。【左侧】一座多层现代建筑（外墙为浅灰色石材）沿街延伸，底层商铺玻璃门关闭，部分店铺挂有“ESCAPE ROOM”、“Hair & Nail”等招牌。【交通设施】路口设有红绿灯杆和“禁止右转”标志，地面划有斑马线。【关键风险】对向车辆接近交叉口，若其未遵守信号灯或突然变道，将构成切入风险；同时，左侧商铺门前有施工围挡，可能影响行人通行路径，增加突发横穿概率。",
+      "risk_tags": [
+        "oncoming_vehicle_approach",
+        "intersection_conflict_potential",
+        "construction_zone_obstacle"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】光线充足，阴影投射清晰，能见度良好。【自车】在中间车道减速至停车线前，准备在十字路口等待。【前方】黑色面包车在自车正前方停止，位于斑马线前；一辆银色轿车从右侧横向驶入路口，完成左转动作。【左侧】远处可见“Koninklijke Bibliotheek van België”（比利时皇家图书馆）建筑，外观宏伟，窗户反射阳光。【交通设施】路口设有多个交通信号灯，当前显示为红灯（自车方向）。【非标物体】无特种车辆、动物或路面遗撒物。【关键风险】自车需在红灯前完全停车，避免闯红灯；右侧横向车辆左转时需注意避让直行车辆，存在轻微冲突风险，但当前双方均按规则执行，未发生违规行为。",
+      "risk_tags": [
+        "traffic_light_compliance_required",
+        "left_turn_conflict",
+        "no_active_hazard"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.93,
+    "analysis_time": "2026-01-23 23:03:08"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，云层厚重，能见度中等，无明显降水或结冰。【自车】位于中间车道，匀速沿直道前行，未进行转向或变道。【左侧】一栋米白色带拱窗建筑，外有金属护栏与涂鸦墙；【右侧】USOA工业建筑群，前方有施工区域，设红色塑料路障、橙色锥桶及临时围栏。【交通设施】道路标线清晰，含人行横道与黄色虚线分隔带。【非标准物体】右侧施工区可见两名头戴安全帽的工人站立，未作业，无明显动作意图。【关键风险】施工区域路障布局不连续，存在行人或非机动车误入风险；远处山体轮廓模糊，可能影响远端视野。",
+      "risk_tags": [
+        "construction_zone_obstacle",
+        "reduced_visibility_from_clouds"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】天空仍阴沉，光线均匀，无强逆光或眩光。【自车】保持中间车道匀速行驶，轻微向右微调方向以避让右侧施工区凸出物。【右侧】USOA建筑旁停放一辆黑色轿车，后方有绿色和黄色大型垃圾箱，排列整齐。【非标准物体】一名穿橙色高能见度背心的工人从施工坡道走下，走向路边，动作平稳，无异常行为。【交通设施】道路右侧出现限速30km/h标志牌，前方为斑马线区域，地面有黄色减速带。【关键风险】右侧停车区域与施工区紧邻，若工人突然横穿或车辆开门，易引发“开门杀”事故；路面因施工存在局部颠簸，需注意避让。",
+      "risk_tags": [
+        "potential_open_door_risk",
+        "pedestrian_crossing_near_construction",
+        "uneven_road_surface"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "【环境】天气无变化，光照稳定。【自车】在中间车道持续匀速前进，未超车或变道。【右侧】出现多辆静止停放车辆：包括一辆白色货车（车门开启）、一辆白色SUV、一辆灰色轿车。货车旁有两名工人正在搬运白色泡沫板，动作协调，未靠近行车道。【非标准物体】白色货车车身印有“HERJAI”字样及“OBSERVACIÓN MONTAJES ELÉCTRICOS”文字，属专业工程服务车辆，当前处于停靠作业状态。【交通设施】道路右侧设有红白相间警示带，隔离施工与停车区域；左侧为红色铺装非机动车道，与主路分离。【关键风险】右侧车辆密集停放，部分车门开启，存在“开门杀”风险；工人作业区域紧邻车道，若无警示标识，易发生碰撞。",
+      "risk_tags": [
+        "parked_vehicle_door_risk",
+        "worker_proximity_to_traffic",
+        "narrow_clearance_between_parked_cars"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】阴天，无降水，能见度良好。【自车】保持中间车道匀速行驶，通过前方路口后进入开阔路段。【右侧】USOA建筑群逐渐过渡为现代玻璃幕墙结构，下方有商铺入口，门前有少量行人活动。【常规车辆】前方一辆银色SUV在右转车道缓慢驶离，未对自车构成直接威胁。【交通设施】道路两侧设置路灯与交通指示牌，包括“禁止驶入”标志与人行横道提示。【非标准物体】远处可见高压电塔与工业管道设施，但无作业动态。【关键风险】右侧商铺门口有行人驻足，视线被建筑物遮挡，存在“鬼探头”隐患；自车在接近路口时未见明显减速，潜在追尾或碰撞风险。",
+      "risk_tags": [
+        "pedestrian_occlusion_at_intersection",
+        "lack_of_speed_reduction_before_intersections",
+        "urban_environment_with_high_building_density"
+      ]
+    }
+  ]
+}

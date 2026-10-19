@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 20.89,
+    "analysis_time": "2026-01-23 16:32:57"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】阴天，路面湿滑，有明显水珠附着于挡风玻璃，能见度中等。【自车】位于中间车道，执行匀速行驶，未发生转向或变道。【左侧】一辆白色厢式货车（Renault Trafic）停靠在施工围栏旁，车门开启，数名行人正在其后方人行道行走。【右侧】停放多辆私家车，包括一辆银色路虎揽胜运动版和一辆黑色SUV，均处于静止状态。【交通设施】左侧为金属围挡施工区，设有“P”停车标志及禁止停车标志；右侧为路边停车位与充电桩区域。【关键风险】无明显违规行为或突发障碍物，但左侧施工围挡内存在人员活动，存在潜在“开门杀”或行人突然横穿风险。",
+      "risk_tags": [
+        "construction_zone_interaction",
+        "pedestrian_activity_near_vehicle"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】持续阴天，无降水，路面仍湿润，部分区域有积水反光。【自车】保持中间车道匀速前进，随道路微弯沿曲线行驶，未进行横向移动。【前方】一辆蓝色欧宝Astra轿车在前车流中缓慢行驶，刹车灯偶有亮起，表明轻微减速。【左侧】施工围挡延伸，围挡后可见临时商铺招牌（如“Cabinet d'Analyses”），有行人进出店铺。【右侧】停放车辆增多，包括一辆深灰色日产聆风电动车，正连接充电桩充电。【非标物体】右侧人行道上有一名推婴儿车的行人，面部朝向斜前方，步态平稳，无横穿意图。【关键风险】右侧充电桩区域存在充电线缆外露风险，若自车靠近可能被绊倒；左侧施工区人员频繁走动，存在视线遮挡下的突然移动风险。",
+      "risk_tags": [
+        "charging_cable_exposure",
+        "pedestrian_crossing_potential",
+        "construction_zone_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:11-00:00:19",
+      "scene_description": "【环境】天气无变化，光线稳定，路面干燥但仍有水渍残留。【自车】维持中间车道匀速行驶，车头偏航角与道路曲率一致，属沿道行驶。【左侧】出现多辆停放的摩托车与自行车，紧邻施工围栏，部分骑手在人行道上整理装备。【右侧】停放车辆密集，包括一辆深灰色DS 7 Crossback SUV，车身侧面有充电接口盖板打开，显示正在充电。【前方】蓝色欧宝车持续缓慢前行，未超越或变道。【行人交互】右侧人行道上有两名行人并肩行走，其中一人低头看手机，另一人注视前方，无横穿迹象。【交通设施】道路两侧设有多个“禁止停车”标志及“电动汽车专用充电位”标识。【关键风险】右侧充电车位车辆密集，若自车需临时靠边，存在剐蹭风险；左侧摩托车停放区域狭窄，若自车减速，易引发后车追尾或强行变道。此外，前方蓝色欧宝车频繁刹车，可能导致自车跟随制动，形成“跟车队列拥堵”长尾场景。",
+      "risk_tags": [
+        "parked_vehicle_clutter",
+        "rear-end_collision_risk",
+        "followed_vehicle_braking_pattern"
+      ]
+    }
+  ]
+}

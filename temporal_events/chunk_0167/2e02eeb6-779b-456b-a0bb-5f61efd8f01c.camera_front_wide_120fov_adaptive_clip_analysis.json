@@ -1,0 +1,50 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.98,
+    "analysis_time": "2026-01-24 03:54:19"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间暴雨天气，雨滴密集附着于挡风玻璃，路面严重积水并反射路灯与车灯，能见度显著降低。【自车】位于中间车道，执行匀速沿道行驶，未发生明显加速或减速。【左侧】多辆轿车在邻近车道以中低速行驶，部分车辆因积水溅起水雾；其中一辆黑色SUV从左前侧切入当前车道，未打转向灯，存在加塞风险。【右侧】一辆红色轿车紧贴路肩行驶，车身轻微晃动，疑似避让积水坑洼。【交通设施】前方路口信号灯为红灯，但自车未停车，继续直行通过，存在闯红灯潜在风险。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility",
+        "aggressive_cut_in",
+        "unauthorized_red_light_crossing"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】持续暴雨，雨水在车窗形成流动水膜，影响视线清晰度。【自车】保持中间车道匀速前进，车头朝向道路曲线方向自然调整，无主动变道行为。【前方】多辆轿车在同向车道排队缓行，尾灯密集闪烁，表明交通拥堵。【右侧】人行道上有数名行人撑伞行走，面部朝向斜前方，步态稳定，无横穿意图。【交通设施】经过一个十字路口，信号灯由红转绿，自车随流通行，未受阻滞。【关键风险】左侧对向车道有一辆公交车突然急刹，溅起大量水花，遮蔽自车左侧后视镜区域，形成视觉盲区。",
+      "risk_tags": [
+        "water_splash_obstruction",
+        "traffic_congestion",
+        "blind_spot_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "【环境】雨势略有减弱，但仍持续，路面反光仍强烈。【自车】维持中间车道匀速行驶，沿道路弧线平稳前进。【左侧】一辆有轨电车高速驶过，车身侧面模糊，其轨道与机动车道平行，未发生交叉冲突。【右侧】一辆银灰色小型货车从右后方超车，完成切出动作，未影响自车轨迹。【前方】一辆深色SUV在自车正前方约20米处，刹车灯亮起，表明前方有减速行为。【非标物体】路边停放的车辆中，部分车顶覆盖积雪，雪块在灯光下反光，可能滑落至路面造成湿滑风险。【关键风险】前方车辆紧急制动，自车需保持安全距离，避免追尾；同时，右侧超车车辆速度较快，存在横向碰撞风险。",
+      "risk_tags": [
+        "braking_vehicle_ahead",
+        "high-speed_overtake",
+        "snow_accumulation_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】雨势趋于稳定，路面水膜减少，但仍存积水痕迹。【自车】在中间车道保持匀速行驶，车头略微向右微调以适应道路曲率。【右侧】一辆黑色轿车从右后方快速接近，试图超越自车，但未完全切入，仅短暂并行后回归原车道。【前方】多辆轿车在同向车道有序行驶，车距适中，无异常行为。【交通设施】道路两侧建筑物灯光明亮，部分商铺招牌发光，提供辅助照明。【关键风险】右侧超车车辆在并行过程中，车身与自车间距缩小至不足1.5米，存在刮蹭风险；此外，前方车辆刹车灯频繁闪烁，提示可能存在突发路况，需提高警惕。",
+      "risk_tags": [
+        "close_pass_on_right",
+        "potential_collision_with_parallel_vehicle",
+        "ongoing_traffic_uncertainty"
+      ]
+    }
+  ]
+}

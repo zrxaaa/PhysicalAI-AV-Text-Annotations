@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.0,
+    "analysis_time": "2026-01-24 10:21:10"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，强逆光导致画面左上角出现明显眩光，但整体能见度良好。【自车】位于中间车道，匀速沿直线道路前行。【左侧】一辆红白相间的SFMTA有轨电车（编号2038A）从远处驶来，逐渐靠近并停靠在左侧路边站台，车身占据部分车道，车门已开启。【右侧】路边停放多辆私家车，包括一辆银色皮卡和一辆白色SUV，无移动迹象。【交通设施】道路两侧设有电车轨道、架空电线及街边路牌（如“JUDAH”路名标）。【关键风险】电车突然停靠且车门开启，可能对自车横向通行造成潜在干扰，需注意乘客上下车行为；同时，电车占用部分车道，限制了自车的横向避让空间。",
+      "risk_tags": [
+        "vehicle_obstruction",
+        "pedestrian_crossing_risk",
+        "limited_lateral_clearance"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:11",
+      "scene_description": "【环境】阳光直射，阴影清晰，路面干燥。【自车】保持中间车道匀速行驶，未进行转向或变道。【左侧】电车持续停靠，车门敞开，一名穿深色外套、携带背包的行人从电车后方走向人行横道，正准备横穿马路。【右侧】一名穿浅色外套、手提购物袋的行人沿人行道向路口方向行走，接近交叉口。【交通设施】前方出现两个红色“STOP ALL WAY”标志牌，分别位于左右两侧路口，提示为四向停车路口。【关键风险】行人横穿路径与自车行驶路线交叉，存在“鬼探头”风险；同时，电车停靠导致左侧车道被占用，若行人突然闯入车道，将形成高危冲突点。",
+      "risk_tags": [
+        "pedestrian_crossing_risk",
+        "ghost_probe_potential",
+        "intersection_conflict"
+      ]
+    },
+    {
+      "time_segment": "00:00:11-00:00:19",
+      "scene_description": "【环境】晴朗，光照稳定，无遮挡。【自车】在交叉路口前减速停车，等待路口通行信号。【前方】一辆灰色SUV从右侧支路驶入主路，正在完成右转动作，其车头朝向自车所在车道，构成潜在碰撞威胁。【左侧】另一辆黑色轿车从对向车道驶来，正常直行通过路口。【右侧】两名行人继续沿人行道行走，其中一人携带绿色购物袋，另一人低头看手机，未观察路况。【交通设施】路口设有双侧“STOP ALL WAY”标志牌，地面划有斑马线和导向箭头。【关键风险】右侧SUV右转时未充分礼让直行自车，存在“强行转弯”违规行为；行人低头看手机，增加横穿时发生意外的概率；自车在停车状态下需警惕右侧车辆切入，避免“开门杀”或追尾风险。",
+      "risk_tags": [
+        "right_turn_violation",
+        "distracted_pedestrian",
+        "stop_and_yield_risk"
+      ]
+    }
+  ]
+}

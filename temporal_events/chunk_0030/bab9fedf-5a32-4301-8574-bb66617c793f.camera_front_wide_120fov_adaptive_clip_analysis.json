@@ -1,0 +1,25 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "direction_position_action_precision",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.16,
+    "analysis_time": "2026-01-17 11:09:44"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【自车】在中间车道保持匀速直行，车头正对前方道路。【前方】路口信号灯为绿灯，车辆可通行。【左前侧】一辆白色厢式货车从左侧邻车道驶入本车道，完成切入动作，其车头向右偏转，与自车并行约2秒后驶离视野。【右侧】可见Mobil加油站及大型广告牌，无行人或障碍物交互。【环境】夜间城市街道，路灯照明充足，路面干燥，无雨雪。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【自车】沿道路曲线缓慢减速，未跨越车道线，保持在中间车道内随路形左转。【左侧】路边出现“Big Boy”餐厅招牌及多栋商业建筑，部分店铺亮灯。【右侧】一栋建筑外墙有彩色涂鸦壁画，无行人活动。【前方】远处可见多个交通信号灯和路牌，当前路段无显著障碍物。【环境】夜间街景，灯光均匀分布，能见度良好，无天气干扰。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【自车】在接近交叉路口时减速，准备左转。【左前侧】路口处有一辆银色轿车正在左转，与自车路径交叉，该车已完成转向动作并驶离路口。【右侧】路边停有一辆银色轿车，车身静止，无启动迹象。【前方】路口标线清晰，地面有“STOP”字样，但无停车标志或红灯触发停车行为。【环境】夜间城市街角，两侧商铺包括“JU CHINESE”中餐馆和“Security Self Storage”，路灯与店铺招牌共同提供照明，路面平整，无积水。"
+    }
+  ]
+}

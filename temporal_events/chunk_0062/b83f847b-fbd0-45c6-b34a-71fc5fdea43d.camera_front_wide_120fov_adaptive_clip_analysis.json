@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.23,
+    "analysis_time": "2026-01-22 07:43:55"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】浓雾天气，能见度极低，太阳位于左前方地平线附近形成强烈逆光眩光，导致挡风玻璃出现大面积光晕。【自车】在中间车道匀速沿道行驶，未进行变道或转向。【左侧】一辆红色SUV在邻近车道并行，保持约20米距离，无明显加速或减速迹象。【右侧】路边有商业建筑（含“Atlantic Car Rental”招牌），但因雾气遮挡细节模糊。【交通设施】道路两侧可见电线杆与路灯，未见明显路标或信号灯。",
+      "risk_tags": [
+        "low_visibility",
+        "strong_backlight",
+        "reduced_perception"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】雾气持续弥漫，天空灰白，光线均匀但昏暗。【自车】保持中间车道匀速前行，随道路轻微右弯。【前方】一辆白色厢式货车在前方约40米处同向行驶，尾灯亮起。【上方】一座混凝土高架桥从正前方横跨道路，桥体结构清晰可见，桥下无行人或障碍物。【右侧】桥墩旁有枯树与灌木丛，地面覆盖落叶，无明显施工或动物活动。【关键风险】自车未进行任何横向动作，无直接碰撞风险；但因雾气和逆光，对侧来车及突发障碍物的识别能力受限。",
+      "risk_tags": [
+        "bridge_crossing",
+        "limited_visual_range",
+        "no_immediate_threat"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】雾气略有消散，但仍维持低能见度状态，天空呈灰蓝色。【自车】在中间车道沿弯曲道路继续匀速行驶，车头偏航角随路面曲率自然调整，未发生转向或变道。【左侧】对向车道有多辆汽车驶过，其中一辆银色轿车在左前侧邻车道短暂超车后回归原位。【右侧】路边出现一个红色菱形“让行”交通标志，立于草坡边缘，无车辆在此处停车或交互。【非标物体】右侧路肩有倒伏枯枝堆叠，未侵入行车道，无动物出没迹象。【交通设施】远处可见大型广告牌轮廓，但因雾气无法辨识内容。",
+      "risk_tags": [
+        "curved_road_following",
+        "cross_traffic_clear",
+        "minor_debris_on_shoulder"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】雾气进一步减弱，能见度小幅提升，阳光仍被云层遮挡，整体为阴天漫射光。【自车】保持中间车道匀速行驶，未进行任何横向移动。【左侧】一辆白色SUV从左后方切入至自车左前侧邻车道，完成变道动作，速度略高于自车，随后稳定行驶。【右侧】路边出现一排小型商业店铺，包括“Town & Country Inn”酒店招牌，门前停放多辆货车与私家车，部分车辆静止，无动态行为。【关键风险】左侧白色SUV变道时未开启转向灯，存在潜在“鬼探头”或紧急避让风险，但其已成功切入且无碰撞趋势，当前风险等级较低。",
+      "risk_tags": [
+        "un signaled_lane_change",
+        "commercial_area_with_parked_vehicles",
+        "low_collision_probability"
+      ]
+    }
+  ]
+}

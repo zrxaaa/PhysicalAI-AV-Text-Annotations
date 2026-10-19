@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 05:20:49",
+    "processing_time_seconds": 12.23
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "环境昏暗，能见度低，无明显交通标志或信号灯，未见行人或其他动态障碍物，自车保持稳定直线行驶，未进行转向或变速操作。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:11",
+      "scene_description": "挡风玻璃上的水渍随车速移动形成动态光斑，影响视线清晰度。道路两侧无行人活动，也无交叉路口或施工区域，交通环境相对单一。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:16",
+      "scene_description": "前方道路标线仍清晰可见，但因雨水和雾气，远处车辆灯光呈弥散状。无其他车辆或行人进入自车路径范围，空间关系稳定。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:20",
+      "scene_description": "雨势略有增强，挡风玻璃水渍更密集，但自车未调整行驶策略。整个场景中无紧急避让、变道或停车行为，交通参与者均未构成路径冲突。"
+    }
+  ]
+}

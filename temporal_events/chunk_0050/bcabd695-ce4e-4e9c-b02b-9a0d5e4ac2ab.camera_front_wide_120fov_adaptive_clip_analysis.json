@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.59,
+    "analysis_time": "2026-01-22 02:43:13"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】晴天，云层较厚但无降水或强逆光。路面干燥，能见度良好。【自车】位于中间车道，匀速沿直道行驶，未进行转向或变道。【周围交通参与者】左侧对向车道有数辆SUV和轿车正常通行；右侧路边停有多辆私家车，路旁有“World Market”等商业建筑。【交通设施】道路两侧设有路灯、限速35 mph标志牌，右侧可见IHOP餐厅招牌及停车场入口。【关键风险】无明显违规行为或障碍物，场景平稳。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:06-00:00:12",
+      "scene_description": "【环境】天空云量略增，阳光仍充足，无遮挡或天气突变。【自车】保持在中间车道，继续匀速前行，随道路轻微左弯平缓调整方向（非变道，仅跟随曲率）。【周围交通参与者】右侧出现多栋商业建筑，包括“American Family”、“Men’s Wearhouse”等，部分车辆在路口附近减速。远处背景山脉清晰可见，山体有积雪。【交通设施】前方出现绿色“PHOTO ENFORCEMENT”提示牌，提示摄像头监控区域。【关键风险】无显著风险，但前方路口处车流开始聚集，预示即将进入交叉口，需注意潜在停车或转向行为。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】光照稳定，无异常天气。【自车】仍在中间车道，因前方路口红灯亮起而开始减速，准备停车。【周围交通参与者】前方多车道车流已停止，包括银色SUV、白色皮卡、黑色越野车等，均处于静止状态。右侧车道有车辆试图向右变道，但未完成切入。【交通设施】前方为十字路口，设有红绿灯信号系统，地面标有左转/直行/右转箭头。【关键风险】自车减速过程中，右侧一辆银色SUV突然加速并试图强行切入自车所在车道（Aggressive Cut-in），该行为可能引发碰撞或迫使自车紧急制动。此外，路口左侧人行横道附近有行人站立，但未移动，暂无横穿意图。【长尾场景挖掘】此段为典型城市路口拥堵前兆，存在加塞与视线遮挡风险，需强化感知预测。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "traffic_jam_precondition",
+        "intersection_risk"
+      ]
+    }
+  ]
+}

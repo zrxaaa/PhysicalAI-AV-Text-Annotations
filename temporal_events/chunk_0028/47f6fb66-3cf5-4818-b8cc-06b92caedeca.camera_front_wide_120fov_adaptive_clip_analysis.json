@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 09:52:48",
+    "processing_time_seconds": 12.42
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在十字路口直行，前方黑色SUV和左侧黑色轿车先后完成左转，右侧人行道有行人行走，交通信号灯为黄灯，路面标有斑马线和转向箭头。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "自车继续沿直线道路行驶，左侧出现涂鸦墙建筑，右侧路边停放多辆汽车，阳光从右上方照射产生镜头眩光，前方黑色SUV保持匀速行驶，无明显变道或减速行为。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "自车跟随前方黑色SUV缓慢前行，道路两侧出现密集住宅楼与停靠车辆，右侧人行道有自行车停放，前方路口设有彩虹旗装饰，未见行人横穿或突发障碍物。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "自车在缓坡路段持续跟车，右侧路边依次停放多辆私家车，包括一辆黑色敞篷跑车和一辆特斯拉，前方黑色SUV在接近路口时轻微减速，一名行人出现在右侧人行道并走向门口。"
+    }
+  ]
+}

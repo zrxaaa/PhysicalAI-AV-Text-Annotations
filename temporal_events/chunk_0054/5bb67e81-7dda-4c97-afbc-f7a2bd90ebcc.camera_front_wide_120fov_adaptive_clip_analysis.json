@@ -1,0 +1,48 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.94,
+    "analysis_time": "2026-01-22 04:15:02"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】晴天，光照充足，无遮挡，能见度良好。【自车】位于中间车道，匀速沿直道行驶，未进行转向或变道。【左侧】一辆黑色福特Bronco从左前方交叉路口驶入本道，完成切入动作，车身位于自车左前侧（约5米），随后向右微调方向驶离。【右侧】一辆银色SUV停靠在路边，未移动；远处可见红色轿车及停车设施。【交通设施】路口设有“STOP”标志牌，位于右上角，符合标准设置。【关键风险】无明显风险，但Bronco切入行为需注意横向交互。",
+      "risk_tags": [
+        "crossing_vehicle",
+        "lane_change"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】阳光斜射，部分区域出现阴影，路面干燥。【自车】保持中间车道匀速前行。【左侧】一辆白色皮卡（Ford F-150）停于路边，车头朝向与自车行进方向一致，未移动。【右侧】一名行人从人行道走向路中，横穿马路，位于自车右前方约8米处，正向道路中心线行走，面部朝向前方，双手自然摆动，无明显避让意图。【非标物体】右侧路边停放多辆汽车，包括一辆黑色宝马i3，其后轮毂为彩色设计，无异常。【关键风险】行人横穿未走斑马线，且处于自车盲区边缘（因右侧有车辆遮挡），存在“鬼探头”潜在风险，需减速观察。",
+      "risk_tags": [
+        "jaywalking",
+        "pedestrian_crossing",
+        "occlusion_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】城市街景，两侧建筑密集，部分墙面有涂鸦和商业招牌（如“C&H AUTO REPAIR”）。【自车】维持中间车道匀速行驶，未变道。【左侧】多辆私家车（含白色日产、黑色奔驰、红色丰田RAV4）沿路边有序停放，无动态干扰。【右侧】一辆黑色SUV（本田CR-V）从右侧停车位缓慢驶出，进入行车道，位于自车右后侧，车头朝前，正在完成切出动作。【交通设施】街道标牌显示“Mission St”，指示方向清晰；路边设有限速标志（25mph）及自行车道标识。【关键风险】右侧SUV驶出时未充分观察后方，存在“开门杀”或“切出冲突”风险，尤其在自车接近时可能引发紧急避让。",
+      "risk_tags": [
+        "cut_out_vehicle",
+        "unsafe_lane_merge",
+        "door_opening_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】光线仍明亮，但右侧建筑物投下长影，局部区域阴影较重。【自车】继续在中间车道匀速行驶，前方有一辆白色厢式货车（Ford Transit）作为前车，尾灯常亮，表明其可能减速或等待信号。【左侧】一辆黑色SUV（奥迪Q5）从对向车道驶来，与自车形成对向交汇，无碰撞风险。【右侧】一辆白色SUV（福特Explorer）停于路边，车尾朝向自车，车旁有施工围栏及橙色锥桶，围栏内有两名工人蹲坐休息，未移动。【非标物体】路边有垃圾袋堆积，靠近人行道边缘，无移动趋势。【关键风险】前方货车刹车灯常亮，提示自车应保持安全距离；右侧施工区域虽无作业车辆，但工人聚集在路边，若突然起身横穿或设备滑落，可能构成突发障碍物风险。",
+      "risk_tags": [
+        "following_vehicle_braking",
+        "construction_zone_nearby",
+        "pedestrian_congestion_risk"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 22.56,
+    "analysis_time": "2026-01-23 19:32:48"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "【环境】阴天，路面湿滑，挡风玻璃有水雾与雨滴，能见度中等偏低。【自车】在中间车道匀速沿弯曲道路前行，未进行转向或变道。【周围】道路两侧为高密度林地，左侧多落叶乔木（部分无叶），右侧为常绿灌木与秋季变色树（黄、橙、红叶）。【交通设施】前方约30米处可见一个白色三角形让行标志牌，立于道路右侧路肩。【关键风险】无明显违规行为或障碍物，但因雨雾导致视线模糊，存在潜在的路面湿滑打滑风险及对侧向视野受限的隐患。",
+      "risk_tags": [
+        "reduced_visibility",
+        "wet_road",
+        "limited_lateral_view"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "【环境】持续阴雨天气，挡风玻璃水珠增多，雨刮器未启动但雨势稳定。【自车】保持中间车道匀速行驶，随道路自然弯道轻微调整方向，未越线。【周围】右侧林区出现大面积秋色树丛（红、橙、黄叶），左侧树木逐渐稀疏，部分树干被藤蔓覆盖。【交通设施】道路右侧出现一个小型限速标志牌（数值模糊），位于弯道外侧。【非标物体】无动物、施工车辆或遗撒物。【关键风险】无直接碰撞威胁，但弯道区域若遇突发情况（如行人从林间小径冲出）存在“鬼探头”可能性，且因树叶遮挡部分视线，需提高警惕。",
+      "risk_tags": [
+        "bend_risk",
+        "vegetation_obstruction",
+        "no_immediate_threat"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】天空灰白，无明显降水加剧迹象，但路面仍湿润反光。【自车】维持当前车道匀速前进，车头偏航角随道路曲率平缓调整。【周围】道路两侧植被颜色渐趋统一，以绿色为主，偶见零星红叶点缀。右侧草地边缘出现少量落叶堆积，未影响行车。【交通设施】无新增标志牌或标线，前方道路延续直行趋势。【关键风险】无车辆切入、无动物横穿、无施工或障碍物。整体场景安全，仅存低等级风险：因路面湿滑和视觉疲劳可能导致反应延迟。",
+      "risk_tags": [
+        "low_risk_driving_condition",
+        "visual_fatigue_potential"
+      ]
+    }
+  ]
+}

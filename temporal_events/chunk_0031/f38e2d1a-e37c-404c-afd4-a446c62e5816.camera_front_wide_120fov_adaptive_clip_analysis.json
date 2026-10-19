@@ -1,0 +1,25 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "direction_position_action_precision",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.22,
+    "analysis_time": "2026-01-17 11:29:36"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【自车】位于中间车道，保持匀速直行。【左前侧】一辆黑色敞篷轿车从左侧邻车道向右切入，车头偏转角度约15度，完成切入动作后进入自车前方车道。【右侧】路边有行人静止站立于人行道边缘，面向道路但无移动趋势。【环境】阴天，路面干燥，道路两侧为茂密绿化带，左侧有停车区，右侧为林地与路缘石。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【自车】在中间车道持续匀速前行，随道路轻微左弯延伸。【左前侧】多辆车辆（包括SUV、皮卡）沿左侧邻车道同向行驶，部分车辆因路口或施工区域减速。【右侧】出现施工围挡与橙色锥桶，围挡内可见建筑结构；同时出现“CONSTRUCTION ACCESS ONLY”警示牌。【前方】道路标线显示为左转专用道，地面有“自行车道”标识。【环境】天气阴沉，能见度良好，右侧绿化带中树木高大，左侧停车区停放多辆汽车。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【自车】保持中间车道匀速直行，未进行变道或转向。【左前侧】多辆对向车辆（含SUV、轿车）在对向车道正常行驶，部分车辆在远处路口处减速。【右侧】施工围挡持续存在，围挡外有“SPEED LIMIT 40”限速标志，以及“BEGIN SHARED USE LANE YIELD TO BIKES”提示牌。【前方】道路继续延伸，路面标线清晰，无明显障碍物或突发交互。【环境】整体场景稳定，无行人横穿或紧急事件，光照均匀，路面无湿滑痕迹。"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 10.8,
+    "analysis_time": "2026-01-24 12:05:21"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】夜间，路灯照明充足，无明显异常天气（无雨、无雾、无结冰）。【自车】在中间车道匀速沿道行驶，车头朝向道路中心线，未进行转向或变道。【右侧】多辆静止停放车辆沿路边排列，部分车辆在自车后方被超越；左侧有住宅区与棕榈树，无行人活动。【交通设施】前方约50米处出现黄色菱形“让行”标志，随后为“STOP”路面标记及右侧红色停车标志牌。【关键风险】无显著违规行为或障碍物，但右侧停车车辆密集，存在潜在“开门杀”风险（如车门突然开启），需保持警惕。",
+      "risk_tags": [
+        "parked_vehicle_open_door_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:06-00:00:11",
+      "scene_description": "【环境】夜间，路灯持续照明，视野清晰。【自车】在接近十字路口时减速，于“STOP”标线前完全停车，等待横向车流通过。【左侧】对向车道有车辆驶近，其中一辆深色轿车在左转车道等待信号灯。【右侧】停车标志旁有白色SUV静止，其后方有消防栓和绿化带。【交通设施】自车在十字路口停车，遵守停车标志与路面“STOP”标线；路口设有斑马线与人行道。【关键风险】无突发危险，但自车停车位置靠近交叉口，需注意横向来车是否闯红灯或强行转弯，存在“鬼探头”可能性（尤其来自左侧非机动车道或人行横道）。",
+      "risk_tags": [
+        "intersection_crossing_risk",
+        "potential_red_light_violation"
+      ]
+    },
+    {
+      "time_segment": "00:00:11-00:00:19",
+      "scene_description": "【环境】夜间，路灯照明稳定，无降水或能见度下降。【自车】完成路口等待后，重新启动并沿中间车道匀速行驶。【右侧】连续停放多辆汽车，包括银色轿车、黑色SUV等，部分车辆位于自行车道旁；路侧有“25”限速标志。【左侧】住宅区与树木交替出现，偶有车辆从支路驶出。【交通设施】道路标线清晰，包含双黄线、车道分隔线、自行车道标识。【关键风险】无紧急避让或违规行为；但右侧停车车辆密集，且部分车辆停放在弯道外侧，可能遮挡后方来车视线，存在“开门杀”与“盲区碰撞”双重风险。此外，部分车辆尾灯亮起，提示其可能即将启动，需提高警觉。",
+      "risk_tags": [
+        "parked_vehicle_obstruction",
+        "blind_spot_collision_risk",
+        "door_opening_hazard"
+      ]
+    }
+  ]
+}

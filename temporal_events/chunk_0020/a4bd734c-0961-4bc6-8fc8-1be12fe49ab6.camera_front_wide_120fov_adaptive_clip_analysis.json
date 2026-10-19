@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 06:25:31",
+    "processing_time_seconds": 12.04
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "雨天，自车在湿滑路面上跟随前方白色越野车行驶，左侧车道有白色SUV加速并入本车道，右侧车道有银灰色SUV驶过，路面有明显水迹，能见度因雨水和雾气降低。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "前方路口交通信号灯为绿灯，车辆依次通过交叉口，自车保持匀速跟车，右侧车道有黑色皮卡和银色SUV先后左转，与自车路径无直接冲突，道路标线清晰可见。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "接近十字路口时，信号灯转为黄灯，前方白色越野车减速准备停车，自车同步减速，右侧多辆车辆开始转向或变道，部分车辆在斑马线前短暂停留，行人尚未出现。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "信号灯变为红灯，所有车辆停止，自车位于第一排等待，右侧一辆银色SUV从右向左横穿路口，同时远处有行人从人行道进入斑马线区域，准备穿越马路。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "行人开始穿越斑马线，自车保持静止状态，右侧黑色皮卡完成左转，银色SUV继续直行离开路口，交通流在红灯期间有序暂停，雨势未减，挡风玻璃持续有水珠干扰视线。"
+    }
+  ]
+}

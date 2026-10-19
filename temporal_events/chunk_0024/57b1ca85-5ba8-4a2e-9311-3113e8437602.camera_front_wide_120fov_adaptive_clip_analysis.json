@@ -1,0 +1,37 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 07:46:53",
+    "processing_time_seconds": 17.85
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "视频开始时，自车在双黄线道路中间车道行驶，前方有白色轿车，右侧路口有车辆驶入主路。左侧出现一辆深色SUV从对向车道超车并变道至中间车道，自车保持匀速未干预。",
+      "environment_conditions": "阴天，路面湿滑，能见度较低，两侧树木光秃，无明显行人或施工标志"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "自车继续直行，前方白色轿车保持匀速，左侧对向车道有银色皮卡和灰色轿车相继驶过。右侧路边出现橙色交通锥，提示可能有施工区域但无人员活动。",
+      "environment_conditions": "雾气略浓，部分树梢被雾遮挡，电线杆沿路分布，道路标线清晰可见，无信号灯或人行横道"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "自车接近一个黄色菱形“TRAFFIC SIGNAL AHEAD”警示牌，前方车辆减速，但未停车。左侧对向车道有一辆红色SUV和黑色SUV先后超车，均完成变道后回归原车道。",
+      "environment_conditions": "天气持续阴沉，道路两侧为灌木与低矮围栏，无行人出现，路面干燥但反光表明潮湿，能见度维持在中等水平"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "自车保持当前车道稳定行驶，前方白色轿车持续在前，未发生变道或加速行为。道路左侧出现一排高大常绿树，右侧为稀疏灌木与土坡，无其他车辆或行人交互。",
+      "environment_conditions": "雾气略有增强，远处景物模糊，自车未进行转向或制动，整体环境安静、交通流量平稳，无突发状况"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "临近视频结尾，自车仍保持匀速直行，前方白色轿车逐渐远离。道路两侧出现小型建筑与标识牌（如WSDOT），但无交通冲突或行为变化。视野内无新车辆进入或行人出现。",
+      "environment_conditions": "光线昏暗，天空灰白，路面反射微弱，整体场景静态，自车未改变行驶策略，无紧急事件或显著环境扰动"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.89,
+    "analysis_time": "2026-01-23 06:52:20"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】晴天多云，光照充足，无降水或遮挡。【自车】在中间车道匀速沿直道行驶，未见明显加速或制动。【左侧】路边停放多辆汽车（含黑色SUV、银色轿车、黄色掀背车），部分车辆后方连接拖车；右侧为绿化带与人行道，无显著障碍物。【交通设施】道路两侧设有路灯及弯道警示牌（黄色菱形标志），前方可见限速标志。【关键风险】无明显违规行为或突发障碍，但左侧停车车辆密集，存在“开门杀”潜在风险（尤其当后方有非机动车或行人时）。",
+      "risk_tags": [
+        "parked_vehicle_risk",
+        "no_aggressive_behavior"
+      ]
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "【环境】天空云层较厚，局部阴影投射于路面，光线变化平缓。【自车】保持中间车道匀速行驶，随道路微弯自然转向。【左侧】对向车道出现一辆蓝色小型SUV，正从左前侧超车并完成变道至自车左侧车道，动作流畅无急刹。【右侧】一辆白色两厢车在右前方车道缓慢行驶，与自车保持安全距离。【交通设施】前方路口设有人行横道警示牌（三角形红边）、让行标志及公交站牌。【关键风险】右侧白色车辆在接近路口时突然减速，疑似准备靠边停车，可能影响后方车辆通行，但未构成直接碰撞威胁。",
+      "risk_tags": [
+        "lane_change_nearby",
+        "vehicle_slowdown_at_intersection"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】天气稳定，能见度良好，无特殊气象干扰。【自车】驶入一个环岛入口区域，需向左转弯。【左侧】环岛中央立有圆形导向标志（蓝色箭头向下），引导车辆绕行。【右侧】路边有一名行人（男性，穿深色上衣）沿人行道行走，面向自车方向，步速平稳，未进入车道。【交通设施】环岛边缘设有路缘石与绿化隔离带，道路标线清晰。【关键风险】环岛内无其他车辆，但右侧行人靠近车道边缘，若其突然转向或跨越护栏，将构成“鬼探头”风险；同时，自车需在转弯过程中注意左侧来车动向，避免与环岛内车辆发生冲突。",
+      "risk_tags": [
+        "pedestrian_proximity_to_road",
+        "ghost_probe_risk",
+        "intersection_turning_hazard"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.23,
+    "analysis_time": "2026-01-23 16:39:40"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，无明显降水，路面干燥，能见度良好。【自车】位于中间车道，匀速沿直道行驶，未进行转向或变道。【左侧】对向车道有车辆驶过，包括一辆白色SUV从左前侧邻车道超车并切入本车道，动作迅速且未打转向灯（Aggressive Cut-in）。【右侧】人行道上有行人行走，部分在咖啡馆外停留；路边停放多辆汽车及自行车。【交通设施】前方路口信号灯为绿灯，路面标线清晰，设有斑马线与自行车道标识。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "no_obstacle",
+        "normal_traffic_flow"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】天气持续阴沉，无降水，光线均匀。【自车】保持中间车道匀速前行，随道路轻微弯曲自然沿道行驶。【左侧】一辆深色Mini Cooper从左后方快速接近并超越自车，完成切出动作。【右侧】一名骑红色自行车的行人从右前方横穿非机动车道，未进入人行横道，但速度较慢，与自车无直接冲突。【交通设施】经过一个带公交站牌的路口，站台有乘客等候，红绿灯仍为绿灯。【关键风险】右侧自行车横穿行为虽未违规，但存在“鬼探头”潜在风险，因自行车紧贴自车右侧盲区，若行人突然加速或转向可能引发碰撞。",
+      "risk_tags": [
+        "ghost_probe_risk",
+        "crossing_bike",
+        "no_aggressive_behavior"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】城市街道两侧树木茂盛，枝叶部分遮挡上方视野，但无天气异常。【自车】维持中间车道匀速行驶，未发生横向移动。【左侧】一辆大型蓝色货车从左前侧邻车道缓慢驶过，车身较长，短暂遮挡视线。【右侧】多个行人沿人行道行走，部分推婴儿车或携带行李，朝向与自车行驶方向一致。【交通设施】前方路口再次出现绿灯，地面标线完整，设有自行车专用道标识。【关键风险】货车遮挡期间，右侧人行道存在潜在“鬼探头”风险，尤其当行人突然转向或儿童跑出时，自车需紧急制动应对。",
+      "risk_tags": [
+        "occlusion_risk",
+        "heavy_vehicle_crossing",
+        "pedestrian_group_movement"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】天空灰暗，无降水，光照稳定。【自车】继续在中间车道匀速行驶，通过一个带有斑马线和自行车道的交叉口。【前方】一辆黑色轿车在自车正前方减速，疑似准备停车或让行。【左侧】一辆白色小型轿车从左前侧邻车道切入自车所在车道，动作平缓但未打转向灯，属于轻微违规加塞行为。【右侧】多名行人正在通过斑马线，其中一人手持手机低头行走，未观察路况，存在横穿风险。【交通设施】路口设有清晰的人行横道、自行车道及交通信号灯，当前为绿灯。【关键风险】左侧车辆加塞+右侧行人低头横穿，构成双重交互风险，自车需保持警惕以防紧急避让。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "jaywalking",
+        "distracted_pedestrian",
+        "multi_agent_conflict"
+      ]
+    }
+  ]
+}

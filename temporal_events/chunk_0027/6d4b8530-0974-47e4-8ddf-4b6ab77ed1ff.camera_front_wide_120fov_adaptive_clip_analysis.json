@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 09:05:34",
+    "processing_time_seconds": 14.78
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "自车沿弯曲山路行驶，道路右侧为土坡与树木，左侧为开阔山坡；车辆在弯道中保持稳定行驶，未见明显变道或加速行为。路边出现木制围栏，远处可见一辆白色轿车从对向车道驶来并完成超车。",
+      "environment_conditions": "阴天，光线柔和，路面干燥，无降水迹象"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "自车继续沿弯道前进，前方对向车道有一辆白色轿车迎面驶来，该车在接近时完成避让动作，未发生交集；道路两侧植被茂密，无行人或其他障碍物出现。",
+      "road_conditions": "双黄线分隔车道，路肩清晰，无施工或临时标志"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "自车驶入直道区域，左侧出现停车区，停放多辆汽车及一辆白色货车；右侧山坡上可见限速40的交通标志牌，自车未减速，保持当前速度平稳通过。",
+      "environment_conditions": "日落方向位于左前方，阳光透过云层形成逆光效果，视野略受眩光影响"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车继续直行，左侧停车区车辆静止，一名行人从货车旁走出并横穿停车区边缘，但未进入主车道；自车未改变行驶路径，保持安全距离通过该区域。",
+      "road_conditions": "道路标线完整，无破损或施工干扰，限速标志清晰可见，环境安静无突发交通事件"
+    }
+  ]
+}

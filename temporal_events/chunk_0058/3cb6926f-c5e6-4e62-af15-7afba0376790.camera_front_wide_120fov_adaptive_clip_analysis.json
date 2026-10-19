@@ -1,0 +1,38 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.78,
+    "analysis_time": "2026-01-22 05:52:11"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间，天空阴云密布，能见度中等偏低，路面干燥但反射路灯光造成轻微眩光。【自车】位于十字路口最左侧车道，处于停车等待状态，车头朝正前方。【交通设施】前方为多组红灯信号，右侧人行横道清晰可见；左侧建筑上有“TURIN”和“BECOME YOURS”霓虹标识。【周围参与者】左前方对向车道有两辆轿车驶近，均在减速准备停车；右侧远处有车辆在绿灯亮起后启动通过。【关键风险】无明显违规行为或障碍物，但自车处于高架桥下阴影区，视线受桥梁结构遮挡，存在潜在盲区风险。",
+      "risk_tags": [
+        "low_visibility_under_bridge",
+        "potential_occlusion"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】继续夜间行驶，路灯照明稳定，无降水或强风。【自车】完成左转动作，从原左转车道切入直行车道，车头偏航角由正向转为左偏约30度，随后恢复直线行驶。【周围参与者】左前方对向车道车辆已通过路口；右侧车道有数辆车跟随自车同向行驶，保持安全距离。【交通设施】高架桥持续在左侧上方延伸，下方有混凝土桥墩支撑；路口处交通信号灯已转为绿灯，指示通行。【关键风险】自车转向过程中，右侧后视镜区域短暂出现一辆快速接近的摩托车（未进入主车道），因距离较远且无交互意图，未构成直接威胁。",
+      "risk_tags": [
+        "lane_change_with_turn",
+        "minor_crossing_vehicle"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】道路两侧绿化带与施工围挡交替出现，部分路段被绿色防尘网覆盖，暗示附近有施工活动。【自车】在中间车道匀速沿直线道路前行，车速稳定，未进行变道或急刹。【周围参与者】前方远处有数辆汽车尾灯亮起，表明车流密集但无拥堵；左侧高架桥下植被随车速晃动，无行人或动物出现。【交通设施】道路标线清晰，设有“EXIT ONLY”及方向指示牌；右侧路边有施工围挡，内有堆土和临时照明设备。【关键风险】右侧施工区域存在未封闭的边缘，若遇突发情况需紧急避让，可能引发轮胎打滑或碰撞围挡；此外，高架桥结构在部分路段投下阴影，导致局部路面亮度不均，影响感知稳定性。",
+      "risk_tags": [
+        "construction_zone_edge_risk",
+        "variable_illumination",
+        "bridge_shadow_effect"
+      ]
+    }
+  ]
+}

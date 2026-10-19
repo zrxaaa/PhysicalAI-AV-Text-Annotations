@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 06:37:18",
+    "processing_time_seconds": 12.44
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车沿街道平稳行驶，右侧一辆白色SUV在右车道缓慢前行，左侧多辆轿车停靠路边；前方可见人行横道与‘STOP’路面标记，天空晴朗，电线杆与架空线贯穿画面。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:08",
+      "scene_description": "车辆接近十字路口，前方出现红色停车标志牌与斑马线，对向车道有白色SUV驶近并准备左转；右侧人行道上有行人开始行走，自车减速准备停车。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "自车在停车线前完全停下，前方交叉路口无直行车辆通行，右侧粉色建筑旁有银色面包车停靠；一名行人从右侧人行道走向路口，未穿越马路。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "自车启动并右转进入新道路，右侧为绿色坡地与自行车道，左侧停放多辆轿车；对向车道有白色轿车驶来，自车完成转向后保持中速行驶。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车沿双向车道继续直行，右侧路边停有一辆深色轿车，左侧为多层住宅楼；远处可见其他车辆在同向车道行驶，天气云量增多但无明显降水影响视线。"
+    }
+  ]
+}

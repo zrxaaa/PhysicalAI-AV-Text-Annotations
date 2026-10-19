@@ -1,0 +1,48 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.7,
+    "analysis_time": "2026-01-23 21:36:28"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，光照充足，无遮挡或天气异常。【自车】位于中间车道，保持匀速沿道行驶，未见明显转向或制动。【周围行人】大量行人分布在道路两侧及中央区域，多数沿人行道行走，部分横穿马路。左侧人行道有行人持购物袋、低头看手机；右侧人行道有游客驻足浏览H&M橱窗。【交通设施】左侧可见“FUJIFILM”、“SONY”、“Candy Kiki Lisa”、“BOSS”等店铺招牌，右侧为H&M门店，橱窗内有模特展示。【关键风险】无明显违规行为或障碍物，但行人密集且部分横穿路径与自车行驶轨迹交叉，存在潜在碰撞风险（如突然横穿者未观察来车）。",
+      "risk_tags": [
+        "pedestrian_crossing_risk",
+        "high_density_pedestrians"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】阳光直射，建筑物投下阴影，部分区域强光反射于玻璃橱窗。【自车】继续在中间车道匀速前行，车头偏航角稳定，未变道。【周围行人】左侧出现一名穿红色上衣男性从BOSS店门口走出，向左前方横穿街道；右侧多名女性结伴行走，其中一人推婴儿车。【非标物体】左侧BOSS店门口设置红白条纹施工围栏，内有警示牌，但无施工车辆作业。【交通设施】道路两侧商铺林立，包括“Candy Kiki Lisa”、“BOSS”、“H&M”，部分店铺橱窗有“SALE”标识。【关键风险】一名穿红衣男性横穿时未观察自车方向，其路径与自车当前车道重叠，存在“鬼探头”风险；同时，右侧婴儿车使用者可能因视线受阻而忽略来车。",
+      "risk_tags": [
+        "crossing_pedestrian",
+        "obstructed_view",
+        "baby_stroller_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】光线仍明亮，部分建筑阴影区较深。【自车】维持中间车道匀速前进，无转向动作。【周围行人】前方出现一位穿棕色外套、白色长裤的男性，正从左侧人行道走向道路中央，步速较快；其后方有一名推婴儿车的男性带小孩同行。右侧人行道有多组游客驻足交谈，部分行人低头看手机。【非标物体】左侧BOSS店前施工围栏持续存在，无动态施工活动。【交通设施】远处可见“SODIETTERIA”和“UNICREDIT”银行标志，表明该路段为商业步行街。【关键风险】棕色外套男性横穿路径与自车行驶方向一致，但其步速快且未抬头观察，若突然加速将进入自车盲区；婴儿车使用者因携带儿童，反应延迟，易引发碰撞。",
+      "risk_tags": [
+        "fast_crossing_pedestrian",
+        "delayed_reaction_pedestrian",
+        "blind_spot_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】阳光略显柔和，整体能见度良好。【自车】继续在中间车道匀速行驶，车头朝向道路延伸方向，无转向意图。【周围行人】右侧人行道有数名游客聚集在H&M橱窗前，部分人拍照；左侧人行道有家庭组合（含儿童）缓慢行走，其中一名穿红色T恤的小孩在家长牵引下横穿马路。【非标物体】无特种车辆、动物或路面遗撒物。【交通设施】道路尽头可见更多商铺，包括“LA BORSA”咖啡馆，门前设有户外桌椅，有顾客就坐。【关键风险】儿童横穿时未被家长完全控制，其路径与自车行驶轨迹交叉，存在突发性移动风险；右侧人群聚集导致局部通行效率降低，可能引发行人拥挤踩踏或突然冲出。",
+      "risk_tags": [
+        "child_crossing_risk",
+        "crowd_congestion",
+        "unpredictable_movement"
+      ]
+    }
+  ]
+}

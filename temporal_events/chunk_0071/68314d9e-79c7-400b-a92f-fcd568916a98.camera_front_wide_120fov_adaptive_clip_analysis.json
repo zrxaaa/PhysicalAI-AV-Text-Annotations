@@ -1,0 +1,41 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.74,
+    "analysis_time": "2026-01-22 11:39:28"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间暴雨天气，路面严重积水并反射路灯与车灯，能见度因雨幕和雾气降低。【自车】位于中间车道，正执行减速停车动作，车头朝向前方十字路口。【右侧】一个红色八角形“STOP”标志牌立于路肩，其后方为Walgreens商店，霓虹灯亮起；一辆白色厢式货车从右向左横穿路口，车身因雨天湿滑产生轻微侧滑轨迹。【左侧】对向车道有数辆静止或缓慢行驶的车辆，包括一辆皮卡。【交通设施】路面标有“STOP”字样，提示自车需在交叉口前完全停止。【关键风险】右侧厢式货车在湿滑路面横穿时存在失控倾向，且未礼让自车，构成潜在碰撞威胁。",
+      "risk_tags": [
+        "heavy_rain",
+        "wet_road_slippery",
+        "crossing_vehicle",
+        "stop_sign_compliance_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】雨势略有减弱，但云层仍厚重，路灯与商店霓虹灯在湿路上形成强烈光斑干扰。【自车】完成停车后，在路口等待，随后启动并沿中间车道向左转向，进入直行主干道。【左侧】一辆黄色出租车从左前方驶入画面，快速通过路口，未与自车发生交互。【右侧】可见多辆大型卡车（含半挂）在对向车道排队等候，部分车辆尾灯闪烁。【交通设施】路口设有双黄线、人行横道及多个交通指示牌，包括“NO TURN ON RED”标志。【关键风险】自车转向过程中，左侧出租车高速接近，虽未切入车道，但存在因盲区导致的紧急避让需求。",
+      "risk_tags": [
+        "left_turn_maneuver",
+        "high_speed_nearby_vehicle",
+        "blind_spot_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】雨势基本停止，路面仍有明显积水反光，天空云层较厚，光线昏暗。【自车】已完成转向，当前在最右侧车道沿直线道路匀速行驶。【左侧】对向车道有多辆轿车和SUV正常通行，车距稳定。【右侧】路边设有金属围栏，围栏后为绿化带与施工区域，无明显作业车辆或人员活动。【非标准物体】无动物、无施工设备、无遗撒物。【交通设施】道路两侧设有人行道、路灯、限速标志（如“25”），前方无红绿灯，仅靠路标引导。【关键风险】无直接碰撞或违规行为，但因夜间低能见度及路面反光，存在驾驶员视觉疲劳或误判路况的风险，属于长尾场景中的“低概率高影响”事件。",
+      "risk_tags": [
+        "low_visibility_night_driving",
+        "glare_from_wet_pavement",
+        "no_immediate_threat"
+      ]
+    }
+  ]
+}

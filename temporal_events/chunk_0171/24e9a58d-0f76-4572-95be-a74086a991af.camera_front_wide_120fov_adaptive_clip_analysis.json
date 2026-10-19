@@ -1,0 +1,36 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.19,
+    "analysis_time": "2026-01-24 05:02:22"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，阳光强烈，存在轻微眩光。【自车】在中间车道匀速行驶，接近十字路口。【前方】一辆白色Seat Ibiza正停于人行横道前，等待红灯。【右侧】“AUTOSCHAU”汽车销售店及交通信号灯杆清晰可见；【左侧】“Dreisau JAWA”建筑与路灯排列整齐。【交通设施】前方交通信号灯由红转绿，自车准备通行。【关键风险】无明显违规或遮挡行为，场景安全可控。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】晴朗，阳光位于左上方，形成部分眩光。【自车】在中间车道完成左转动作，向左变道并驶入新直行车道。【周围车辆】左前方一辆黑色SUV加速超车，未打转向灯；右后方一辆银色轿车保持原车道。【路边设施】右侧出现Burger King广告牌（指向2km），以及Fiat品牌立柱标识（编号76）。【非标准物体】无动物、施工车或遗撒物。【关键风险】左前方黑色SUV加速切入自车左侧邻车道，存在潜在切线冲突（Cut-in），但因距离较远且自车已开始转向，未触发紧急响应。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "lane_change_conflict"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】强逆光，太阳位于画面左上角，造成镜头局部过曝。【自车】在中间车道匀速沿直线道路前行，已完成转向。【左侧】出现“Tesla Kastenlager”广告旗帜及现代工业建筑；【右侧】红砖住宅区与木栅栏并行，后方有彩色广告围挡。【交通设施】无显著信号灯或路障。【行人/生物】无行人或动物出现。【关键风险】右侧围挡内广告牌内容模糊，但未对视线构成遮挡；左侧工业区入口处有行人活动迹象，但距离>30米，无直接交互风险。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】晴天，光照稳定，无眩光干扰。【自车】在中间车道持续匀速行驶，道路呈轻微右弯趋势。【右侧】连续广告围挡，包含McDonald’s和“ich hab’ ein Handtuch fürs Schwimmen”等商业宣传，围挡后方为绿化带与高树。【左侧】现代办公楼与低矮厂房交替出现，远处可见施工塔吊轮廓。【交通设施】无交叉口或信号灯，道路标线清晰。【关键风险】无违规行为、无遮挡盲区、无异常物体。整体为平稳城市道路行驶场景，风险等级极低。",
+      "risk_tags": []
+    }
+  ]
+}

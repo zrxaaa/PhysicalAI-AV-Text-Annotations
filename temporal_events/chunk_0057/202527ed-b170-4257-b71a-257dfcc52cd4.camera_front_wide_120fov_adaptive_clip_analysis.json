@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.07,
+    "analysis_time": "2026-01-22 05:20:19"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间无路灯照明，仅靠车灯照明，能见度受限。道路两侧植被茂密，左侧有住宅区围栏及房屋轮廓。【自车】在中间车道匀速沿道行驶，车头朝向道路弯曲方向。【交通设施】前方路口出现红色八角形“STOP”标志牌，地面喷涂“STOP”字样，提示全路段停车让行。【关键风险】右侧路肩处存在未识别的静止障碍物（疑似倒伏树枝或灌木丛），位于车灯照射边缘，可能因光线不足导致避让延迟。",
+      "risk_tags": [
+        "low_visibility",
+        "obstacle_in_peripheral_light",
+        "stop_sign_compliance_required"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】持续夜间驾驶，车灯照亮路面及两侧植被，无明显天气异常。【自车】保持中间车道匀速直线行驶，随道路微弯自然调整方向，未进行变道或转向操作。【周围环境】左侧可见树木与低矮围栏，右侧为土坡与灌木丛；远处可见另一红色“STOP”标志牌，位于交叉口更深处。【非标准物体】右侧路边一棵枯树树干呈扭曲形态，无动态，但其轮廓在车灯下形成视觉干扰，可能影响驾驶员对后方路况判断。【交通设施】路面标有自行车道标识（白色自行车符号），提示该路段允许非机动车通行，需注意潜在横穿风险。",
+      "risk_tags": [
+        "visual_interference_from_tree",
+        "bicycle_lane_presence",
+        "no_immediate_hazard"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】道路进入林荫道区域，两侧树木密集形成天然隧道，车灯照射范围有限。【自车】维持当前车道匀速前行，车头偏航角随道路曲率小幅调整，未发生转向或变道。【周围环境】左侧出现金属围栏，右侧为石墙与高草丛；远处可见一辆对向来车尾灯（红光），正缓慢驶近。【交通设施】前方约30米处设有一个橙色菱形警示牌（施工或弯道警告），立于道路右侧。【关键风险】对向车辆距离渐近，且因道路狭窄、视线受阻，若对方未及时减速或变道，易引发迎面碰撞；同时，右侧石墙与灌木丛存在潜在落石或动物出没风险，需警惕‘鬼探头’行为。",
+      "risk_tags": [
+        "oncoming_vehicle_collision_risk",
+        "narrow_road_with_obstruction",
+        "potential_animal_or_debris_emergence"
+      ]
+    }
+  ]
+}

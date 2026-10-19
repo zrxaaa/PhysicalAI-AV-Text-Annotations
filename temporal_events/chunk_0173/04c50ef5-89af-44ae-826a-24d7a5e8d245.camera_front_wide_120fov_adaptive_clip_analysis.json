@@ -1,0 +1,42 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.22,
+    "analysis_time": "2026-01-24 05:45:46"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】夜间暴雨天气，雨滴密集附着于挡风玻璃，路面严重积水并反射路灯灯光，能见度显著降低。【自车】位于中间车道，匀速沿直线道路前行，未进行变道或转向。【右侧】路边停放多辆汽车（含白色面包车、红色轿车、银色SUV），部分车辆因雨水溅起水雾遮挡视线。【左侧】一栋多层居民楼与行道树并列，无行人活动迹象。【交通设施】道路两侧路灯间距均匀，照明稳定，未见明显交通标志或信号灯。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility",
+        "water_reflection_hazard"
+      ]
+    },
+    {
+      "time_segment": "00:00:06-00:00:12",
+      "scene_description": "【环境】持续暴雨，雨刷器高频工作但无法完全清除挡风玻璃上的水膜，前方视野仍受水雾干扰。【自车】保持中间车道匀速行驶，接近前方交叉路口。【右侧】一辆蓝色轿车从后方快速超车并切入自车右前方车道，完成切出动作，未打转向灯。【左侧】对向车道有车辆驶过，但未进入自车影响范围。【交通设施】前方出现人行横道及多个交通标志牌（含让行标志、直行箭头），位于路口中央偏左位置，自车正对通过。【关键风险】蓝色轿车突然切入，存在“鬼探头”和“加塞”风险，虽未直接碰撞，但迫使自车紧急调整横向位置以避让。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "ghost_probe_risk",
+        "lane_change_without_signal",
+        "crosswalk_approach"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】暴雨仍在持续，路面积水加剧，部分区域形成浅滩水坑。【自车】在中间车道减速通过交叉路口，车头对准人行横道中心线，准备停车礼让。【前方】一辆深色轿车在路口前50米处减速，随后停在斑马线前，未见转向灯开启。【右侧】路口转角处有一栋两层建筑，门前停放数辆货车，无人员活动。【左侧】树木茂密，部分枝叶垂至路肩，未造成通行障碍。【交通设施】路口设有圆形禁行标志与人行横道标线，自车正前方为双向车道，无红绿灯控制。【关键风险】前方车辆在无信号灯情况下突然停车，可能引发追尾；同时，自车需在湿滑路面减速，制动距离延长，存在潜在碰撞风险。",
+      "risk_tags": [
+        "unpredictable_vehicle_behavior",
+        "wet_braking_distance_increase",
+        "no_traffic_light_control",
+        "potential_rear_collision"
+      ]
+    }
+  ]
+}

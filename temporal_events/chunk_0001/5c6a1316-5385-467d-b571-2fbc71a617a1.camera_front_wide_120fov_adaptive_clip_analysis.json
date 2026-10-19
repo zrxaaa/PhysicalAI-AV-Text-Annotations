@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:13:58",
+    "processing_time_seconds": 16.99
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在十字路口等待，前方为绿灯，左侧灰色SUV正在左转进入高架桥匝道，右侧车道有数辆静止车辆。交通信号灯显示直行绿灯，路牌指示前往I-95北向及W Palm Beach方向。",
+      "environment_conditions": "阴天，云层较厚，路面干燥，视野清晰"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "自车驶入高架桥下方通道，前方出现一辆白色厢式货车，保持在右侧车道行驶。左侧车道有另一辆深色SUV与自车并行，随后向右变道。通道内墙壁为混凝土砌块结构，无行人或障碍物。",
+      "environment_conditions": "通道内光线较暗，但出口处可见外部道路和棕榈树，天气仍为阴天"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "自车跟随白色厢式货车行驶，货车刹车灯亮起，表明前方路口有红灯或减速需求。右侧车道有银色SUV从后方超车并切入自车所在车道，两车短暂并行后完成变道。",
+      "environment_conditions": "通道出口处再次出现开阔道路，可见远处红绿灯和路边建筑，能见度良好"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "自车在高架桥出口处减速停车，前方白色厢式货车同样停下。右侧车道多辆汽车（包括银色SUV和另一辆深色SUV）陆续完成变道或停止，形成排队状态。交通信号灯为红灯，无行人活动。",
+      "environment_conditions": "阴天环境持续，路面干燥，车辆密集导致通行缓慢，无明显天气变化"
+    }
+  ]
+}

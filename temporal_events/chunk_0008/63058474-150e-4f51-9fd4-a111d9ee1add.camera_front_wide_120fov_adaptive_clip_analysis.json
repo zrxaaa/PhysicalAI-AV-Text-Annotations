@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 01:58:46",
+    "processing_time_seconds": 12.95
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车沿街道匀速前行，左侧停放多辆汽车，右侧有行人从人行道经过，前方道路两侧排列高大树木，交通信号灯为绿灯，允许直行通过。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:09",
+      "scene_description": "车辆接近十字路口，交通信号灯转为黄灯，自车减速准备停车；两名行人正在斑马线上横穿马路，其中一人牵着狗，右侧路边停有一辆银色SUV。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:13",
+      "scene_description": "行人完成穿越后，自车在红灯前停下，前方路口无其他车辆通行，右侧建筑外立面有脚手架，但未见施工人员；自车保持静止状态等待绿灯。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "绿灯亮起，自车启动继续沿街道行驶，右侧出现一辆白色工程货车停靠在路边，车身印有服务信息；左侧有黑色轿车驶入对向车道。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车继续向前行驶，道路右侧出现一栋正在施工的建筑，外墙被脚手架覆盖，路边停放多辆私家车；前方无行人或障碍物，路面通畅。"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.12,
+    "analysis_time": "2026-01-22 02:27:25"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，云层较厚，光线均匀但偏暗，无明显降水或强逆光。路面干燥，能见度良好。【自车】位于中间车道，执行匀速沿道行驶，未进行变道或转向。【周围交通参与者】右侧车道有一辆白色Jeep牧马人与一辆灰色SUV并行，均在缓慢前行；左侧车道有银色MPV从左前方切入至自车左前侧邻车道，完成变道动作；后方一辆白色皮卡（车身印有“BOMBARD”字样）从右后方超车并切入自车右侧车道。【交通设施】道路右侧设有金属围栏及施工区域，围栏内可见红色钢结构支架，路肩分布橙色锥桶，提示施工区边界。【关键风险】左侧MPV变道时未打转向灯，存在潜在加塞风险；右侧皮卡超车时距离过近，可能引发横向碰撞。",
+      "risk_tags": [
+        "un signaled_lane_change",
+        "close_passing",
+        "construction_zone_boundary"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】天空仍为阴云，无天气突变。【自车】保持中间车道匀速行驶，车头方向随道路微弯自然调整，未做主动转向。【周围交通参与者】右侧车道一辆银色奔驰轿车稳定行驶于自车右前方，车距约15米；左侧车道一辆深灰色SUV从左前方切入至自车左前侧，随后减速并维持在左邻车道；后方一辆白色丰田凯美瑞从左后方快速接近并切入自车左侧车道，完成变道。【交通设施】右侧施工围栏持续延伸，围栏外可见少量杂草和土堆；前方约80米处出现绿色高速公路指示牌，显示“EXIT 12”。【关键风险】左侧两辆SUV与凯美瑞均在无明显信号提示下频繁变道，形成多车交织，增加自车避让压力。",
+      "risk_tags": [
+        "frequent_lateral_movement",
+        "multi-lane_interference",
+        "exit_sign_approach"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】光照条件稳定，无异常天气。【自车】继续在中间车道匀速行驶，前方车辆逐渐稀疏，车流进入缓行状态。【周围交通参与者】右侧奔驰轿车保持稳定车距，未加速也未急刹；左侧车道的白色SUV已驶离视野；后方一辆黑色轿车从左后方切入自车左侧车道，完成变道后维持中等速度。【交通设施】道路右侧施工围栏持续存在，围栏内结构物颜色为红白相间，部分区域有临时照明设备；前方约100米处可见交通信号灯组，当前显示为绿灯。【关键风险】后方黑色轿车切入时未保持安全跟车距离，存在追尾风险；前方路段因车流集中，存在突发刹车可能性，需保持警惕。",
+      "risk_tags": [
+        "inadequate_following_distance",
+        "traffic_congestion_front",
+        "signal_light_approach"
+      ]
+    }
+  ]
+}

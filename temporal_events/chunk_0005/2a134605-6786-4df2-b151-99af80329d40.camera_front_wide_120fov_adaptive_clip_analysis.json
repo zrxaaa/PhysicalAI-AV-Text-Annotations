@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 00:50:14",
+    "processing_time_seconds": 14.82
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车沿弯道行驶，前方右侧出现右转专用道标志和停车标志，一辆白色轿车在右前方路口等待，道路两侧有电线杆和干燥坡地，天气晴朗无云。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "自车在十字路口前减速停车，前方设有两个红色STOP标志，右侧高架桥下有车辆通行，左侧空旷区域可见远处建筑轮廓，路面标线清晰，无行人或其他动态障碍物。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车完成右转并驶入主干道，前方一辆白色轿车从左侧车道并入同向车道后加速前行，高架桥结构从上方掠过，桥下阴影区与阳光区域形成明暗对比。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车继续沿主干道直行，穿过高架桥下方路段，前方出现绿色高速公路指示牌，显示“Central Expwy West Next Right”，道路两侧有绿化带和现代建筑。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车保持匀速行驶，右侧路边设有橙色施工警示牌和锥形桶，提示前方有施工区域，道路右侧为大型建筑物外墙，无行人或临时障碍物干扰交通流。"
+    }
+  ]
+}

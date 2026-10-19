@@ -1,0 +1,43 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.09,
+    "analysis_time": "2026-01-22 20:12:58"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间暴雨，雨滴密集附着于挡风玻璃，能见度显著降低。路灯与车灯在湿滑路面上形成强烈反射光斑，部分区域出现水雾遮挡视线。【自车】位于中间车道，执行匀速行驶，未明显加速或减速。【左侧邻道】一辆深色轿车（疑似凯迪拉克）从左前方超车并切入自车所在车道，其尾灯亮起，动作迅速且未打转向灯。【关键风险】该车辆存在“强行加塞”行为（Aggressive Cut-in），因雨天路面湿滑，制动距离延长，易引发追尾或碰撞事故。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "heavy_rain",
+        "reduced_visibility",
+        "braking_distance_increase"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】持续暴雨，雨势略有增强，雨刷器高频摆动但未能完全清除视野障碍。【自车】保持中间车道匀速前行，随道路曲率自然转弯。【前方】多辆汽车排队缓行，尾灯呈红色光带，表明交通拥堵。【右侧】路边出现一栋浅色单层建筑（标牌显示为“SOUTH MEDICAL”），门前有绿化灌木，无行人活动。【左侧】对向车道可见“ROGERS SQUARE”商业区标识，远处有Starbucks Coffee门店灯光。【非标物体】无特种车辆、动物或遗撒物。【交通设施】前方路口设有交通信号灯，当前显示为红灯，车辆均处于停止状态。【关键风险】前方车辆集体刹车导致自车需频繁微调速度，存在“跟车过近”及“反应延迟”风险；同时，右侧建筑物后方有强逆光区域，可能遮蔽行人或非机动车突然出现。",
+      "risk_tags": [
+        "traffic_jam",
+        "following_distance_risk",
+        "light_obstruction",
+        "signal_wait"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】暴雨加剧，雨滴呈斜线轨迹，说明风力增大。路面积水更深，车辆驶过时溅起高浪。【自车】在中间车道缓慢前进，因前方拥堵而持续低速行驶。【左侧邻道】一辆黑色皮卡（GMC Sierra）从左前方切入，车头偏航角约15度，意图变道至自车车道，但未打转向灯。【右侧】一座白色建筑（疑似医疗中心）旁有围栏和灌木丛，无人员活动。【前方】多车静止等待，其中一辆黑色SUV（尾灯亮橙色警示灯）疑似为警车或应急车辆，但未见警灯闪烁。【关键风险】左侧皮卡“违规变道”行为构成“切出”威胁；同时，前方车辆尾部反光强烈，可能掩盖突发障碍物（如倒伏树枝或行人），存在“鬼探头”隐患；此外，暴雨导致的路面水膜效应增加打滑风险，尤其在急刹或转向时。",
+      "risk_tags": [
+        "illegal_lane_change",
+        "ghost_probe_risk",
+        "hydroplaning_potential",
+        "poor_visibility_from_reflection"
+      ]
+    }
+  ]
+}

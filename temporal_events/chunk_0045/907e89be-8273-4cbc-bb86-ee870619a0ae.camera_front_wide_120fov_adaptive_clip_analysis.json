@@ -1,0 +1,45 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.85,
+    "analysis_time": "2026-01-22 00:21:04"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴朗白天，阳光从左侧低角度照射，产生轻微眩光。【自车】位于中间车道，随道路曲率沿道行驶，未进行变道或转向。【周围车辆】左侧邻车道有一辆深灰色丰田普锐斯（Prius）缓慢前行，其后方为白色SUV；右侧车道有银色轿车和黑色轿车交替超车。【交通设施】道路右侧设置一排橙色锥桶，引导车流向右偏移，暗示前方施工或车道调整。【关键风险】左侧普锐斯在行驶中突然减速并轻微向右靠拢，存在切出本车道趋势，对自车构成潜在切入风险。",
+      "risk_tags": [
+        "potential_cut_in",
+        "lane_change_uncertainty",
+        "cone_guided_traffic"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】光照稳定，无明显遮挡或天气异常。【自车】保持中间车道匀速行驶，车头方向与道路线一致，未发生横向偏移。【周围车辆】左侧车道频繁有车辆超车，包括一辆银色丰田凯美瑞（Camry）和一辆白色特斯拉Model Y；右侧车道有黑色奔驰E级轿车持续在自车左前方行驶。【交通设施】路面上出现“50”限速标线，右侧墙边增设“LANE CLOSED”警示牌，配合锥桶进一步明确车道封闭区域。【关键风险】右侧奔驰车在接近限速区时减速，但未打转向灯，且与自车距离缩短至约15米，存在非预期变道或紧急制动风险。",
+      "risk_tags": [
+        "un signaled_deceleration",
+        "close_proximity_vehicle",
+        "lane_closure_warning"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】阳光仍从左侧照射，树影投射于路面，能见度良好。【自车】维持当前车道，沿直线道路匀速前进，无加速或刹车行为。【周围车辆】左侧车道有银色SUV（疑似本田CR-V）持续超越自车；右侧车道车辆稀疏，仅见一辆深灰色SUV在前方缓行。【交通设施】右侧连续锥桶延伸至视野尽头，末端设有一个大型菱形“LANE CLOSED”标志牌，提示前方施工区。【关键风险】右侧锥桶阵列中出现一个倒伏的锥桶，位于自车正前方约20米处，虽未阻碍车道，但可能影响驾驶员视线或引发误判，属于通用障碍物风险。",
+      "risk_tags": [
+        "fallen_cone_obstacle",
+        "construction_zone_indication",
+        "low_risk_road_debris"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】光线逐渐减弱，进入傍晚时段，但仍属晴天，无降水或雾气。【自车】继续在中间车道匀速行驶，车头朝向与道路走向完全一致，未发生转向动作。【周围车辆】左侧车道有车辆陆续驶离，右侧车道车流平稳，无明显加塞或急刹行为。【交通设施】道路右侧为高砖墙围栏，上方架设多组电线杆及电缆，无新增标志或施工设备。【关键风险】无显著违规行为、无遮挡物、无动物或突发障碍物，整体交通秩序良好，未发现可归类为高危场景的交互事件。",
+      "risk_tags": []
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 08:22:13",
+    "processing_time_seconds": 18.63
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车沿街道匀速行驶，左侧一辆白色邮政货车从对向车道驶过，车身部分进入本车道，随后驶离。右侧人行道旁有树木和围栏，无行人活动。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "车辆继续直行，道路两侧停满车辆，左侧出现蓝色垃圾桶和小型轿车。前方路面标有自行车道标识，接近十字路口时，右侧出现停车标志牌，自车减速准备停车。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "自车在十字路口停车，前方为“STOP”字样路面标记，右侧路口有红色跑车和白色轿车正在左转或等待通行。左侧街角有行人站立，未横穿马路。自车保持静止状态观察交通状况。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "红灯转绿后，自车启动前行，右侧白色轿车完成左转并驶离路口，同时一辆绿色越野车从左侧驶入本车道并超越自车。道路两侧建筑风格多样，无明显障碍物。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车继续沿街行驶，道路两侧停放多辆私家车，包括银色SUV和黑色轿车。前方有车辆缓慢行驶，自车保持安全距离跟随。天气晴朗，阳光充足，路面干燥无积水。"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:29:27",
+    "processing_time_seconds": 16.14
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "夜间城市街道，自车前方有一辆公交车停在路口，右侧人行道有行人站立，左侧一辆红色轿车快速驶过。交通信号灯为绿灯，路面干燥，路灯照明充足。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:08",
+      "scene_description": "公交车开始右转，横跨人行横道，自车保持静止等待。右侧人行道上数名行人正在过街，同时一辆摩托车从右侧快速驶入画面并穿过路口。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "公交车完成转弯后驶离，自车启动前行，进入直行车道。道路右侧停放多辆汽车，左侧人行道上有行人行走，前方路口红灯亮起，自车减速准备停车。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "自车在红灯前停下，前方有多辆车排队等候。右侧车道有车辆不断驶过，左侧建筑旁有行人沿人行道行走，远处可见另一组交通信号灯和少量车流。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "前方红灯持续，自车保持停车状态。右侧路边有白色轿车驶离停车位，左侧对向车道有车辆驶近。远处路口有行人正在穿越马路，交通环境稳定，无突发状况。"
+    }
+  ]
+}

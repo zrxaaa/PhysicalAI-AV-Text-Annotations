@@ -1,0 +1,45 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.94,
+    "analysis_time": "2026-01-22 02:47:38"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴朗白天，光照充足，无异常天气。【自车】位于中间车道，匀速沿直道行驶，未进行转向或变道。【周围车辆】前方及对向车道有多辆轿车正常通行，无明显加速或减速行为。【交通设施】道路两侧设有路灯、交通信号灯和路牌，左侧可见悬挂“Santana Row”旗帜的灯杆，右侧为绿化带与人行道。【关键风险】无显著风险，所有车辆均在合法车道内行驶，路口尚未进入。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:09",
+      "scene_description": "【环境】光照仍充足，但视角开始受右侧树木阴影影响。【自车】保持原车道匀速接近十字路口，未制动或转向。【周围车辆】左侧对向车道一辆深色SUV与一辆银色丰田普锐斯（Toyota Prius）正从左向右横穿路口；普锐斯位于自车左前方约8米处，正在完成左转动作。【交通设施】前方交叉口信号灯显示为红灯（自车方向），右侧路口有“N. Whittier Ave”路牌。【关键风险】普锐斯在红灯前完成左转，其轨迹与自车当前直行路径存在潜在冲突点，若自车未及时停车将构成危险交汇，但当前普锐斯已切入自车所在车道的横向空间，属于典型‘切出’行为，需警惕其转向意图导致的碰撞风险。",
+      "risk_tags": [
+        "cut_out",
+        "potential_collision",
+        "red_light_crossing"
+      ]
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "【环境】阳光角度降低，形成明显阴影区，部分区域逆光。【自车】在停止线前完全停车，等待红灯。【周围车辆】左侧银色普锐斯停于自车左前方，车头朝向路口中心，尾灯亮起；右侧车道有一辆深灰色轿车从右向左快速驶过，已完成横穿。【交通设施】自车正前方为红灯信号，右侧路口信号灯亦为红灯；远处可见“Fidelity”银行建筑及“Citibank”标识。【关键风险】普锐斯在红灯前未完全退出交叉口，仍处于自车左前方2-3米范围内，若其突然启动或转向可能造成“鬼探头”风险；同时，右侧车道车辆高速通过，存在因速度差引发的视觉盲区风险。",
+      "risk_tags": [
+        "ghost_probe_risk",
+        "stationary_vehicle_in_path",
+        "high_speed_cross_traffic"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】光线稳定，无遮挡或天气异常。【自车】保持静止状态，未移动。【周围车辆】左侧普锐斯仍停在原位，未启动；右侧车道陆续有车辆通过，包括一辆白色SUV从右后方驶入并完成右转；远处对向车道有卡车驶近。【交通设施】信号灯持续红灯，路口无行人活动。【关键风险】普锐斯长时间停留于交叉口左前方，可能影响自车后续左转或直行计划；虽无直接碰撞，但其位置构成静态障碍物，增加路口交互复杂度。此外，右侧车辆快速通过，存在轻微加塞或变道干扰风险，但未实际发生。",
+      "risk_tags": [
+        "static_obstacle_in_intersection",
+        "delayed_turning_vehicle",
+        "cross_traffic_speed_variability"
+      ]
+    }
+  ]
+}

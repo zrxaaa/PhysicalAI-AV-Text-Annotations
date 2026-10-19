@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 05:34:01",
+    "processing_time_seconds": 13.33
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车沿街道平稳行驶，左侧多辆轿车停靠路边，右侧一辆白色SUV从后方加速并入中间车道，前方路口有‘STOP’标线但无车辆停车。天气阴沉，光线昏暗，路面干燥。",
+      "scene_description_additional": "道路两侧为住宅建筑，电线杆和架空线密集，未见行人或显著施工区域。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:11",
+      "scene_description": "自车继续直行，右侧出现红色皮卡与白色SUV先后驶过，左侧多辆轿车缓慢移动或停靠。前方道路变宽，出现双向箭头标线，提示可直行或左转。",
+      "scene_description_additional": "右侧一栋蓝色建筑旁有小型商铺，远处可见棕榈树，环境仍保持居民区特征，无明显交通管制或信号灯变化。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:15",
+      "scene_description": "自车接近十字路口，右侧出现加油站及橙色顶棚，左侧有黄色建筑和楼梯式住宅。多辆汽车在路口减速，部分车辆准备右转，自车保持匀速通过交叉口。",
+      "scene_description_additional": "前方有黑色SUV和银色轿车在路口等待，未见红绿灯或停车标志，但车流自然分流，无冲突行为。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "自车在十字路口右转车道前减速，右侧黑色SUV完成右转，前方施工区域出现橙色锥桶与小型挖掘机，自车避让并绕行。远处可见加油站霓虹灯牌。",
+      "scene_description_additional": "路口右侧有临时围栏，无施工人员，车辆均遵守通行规则。自车完成转向动作后继续沿新方向行驶，场景结束于路口转弯后约2秒。"
+    }
+  ]
+}

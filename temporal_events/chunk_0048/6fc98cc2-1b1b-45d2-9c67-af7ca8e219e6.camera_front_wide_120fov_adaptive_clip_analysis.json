@@ -1,0 +1,36 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.73,
+    "analysis_time": "2026-01-22 01:42:36"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】晴天，强逆光导致画面顶部过曝，阳光直射挡风玻璃形成眩光。路面干燥，两侧树木投下清晰阴影。【自车】在中间车道匀速沿道行驶，未进行转向或变道。【周围车辆】前方有两辆轿车同向行驶，保持安全距离；右侧路边可见橙色施工锥桶，提示局部施工区域。【交通设施】道路两侧设有路灯与电线杆，无明显信号灯或标线异常。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:06-00:00:12",
+      "scene_description": "【环境】逆光持续，阳光位于车头正上方，造成部分视野遮蔽。【自车】在中间车道减速至停车状态，等待前方红灯。【行人】一名身穿深色上衣、短裤、戴帽的男性从右侧人行道步行进入人行横道，面向自车方向行走，步态稳定，无犹豫。【交通设施】前方路口设有红绿灯（当前为红灯），左侧人行道有两名行人正在等待过街。【关键风险】该男性行人已进入人行横道，且其路径与自车当前停止位置重合，存在“闯红灯”或“未礼让”的潜在违规行为风险；同时，因强光遮挡，自车摄像头可能无法第一时间识别其完整动作，增加碰撞概率。",
+      "risk_tags": [
+        "pedestrian_crossing_in_front",
+        "red_light_violation_risk",
+        "occlusion_by_sunlight"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】光照条件未变，仍为强烈逆光。【自车】保持静止状态，等待行人通过。【行人】三名行人（一男两女）从右侧人行横道同步横穿马路，其中女性携带包袋，男性走在最前，三人步伐一致，均朝向自车所在车道对面方向移动。【交通设施】路口右侧建筑外墙有“Fred Hutchinson Cancer Research Center”标识，街道名为“E. Denny Way”，路牌清晰可见。【关键风险】行人组队横穿，且处于自车正前方，若自车提前启动或误判通行时间，将引发严重碰撞；此外，右侧车道有黑色SUV驶入路口，与行人动线交叉，构成多目标交互风险，需优先保障行人通行权。",
+      "risk_tags": [
+        "group_pedestrian_crossing",
+        "multi-agent_interaction_risk",
+        "delayed_vehicle_entry"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.94,
+    "analysis_time": "2026-01-24 07:24:17"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴朗白天，阳光从左前方照射，产生轻微眩光。【自车】在中间车道匀速沿直道行驶。【左侧】对向车道有数辆轿车驶过，包括一辆深色SUV从左前侧切入并超越自车。【右侧】人行道上有行人步行，后方出现一名骑自行车者（穿白色上衣）在右侧行驶，与自车保持平行。【交通设施】道路两侧设有路灯、电线杆及低矮围栏，右侧可见“MONTALTO”商业招牌。【关键风险】无明显违规或障碍物，但左侧对向车辆变道动作较急，存在潜在切线冲突风险。",
+      "risk_tags": [
+        "potential_cut_in",
+        "glare"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】光照稳定，逆光减弱，视野清晰。【自车】保持中间车道匀速行驶。【左侧】路边停放多辆私家车，部分车辆开启转向灯准备驶出。【右侧】两名骑行者（一前一后）在非机动车道并排骑行，其中后方骑行者身着黑色上衣，佩戴头盔，车轮为红色，正以稳定速度前进。【交通设施】右侧出现“REVIPPOOL”广告牌及围挡区域，后方有铁丝网围栏。【关键风险】无直接碰撞威胁，但右侧骑行者与自车距离较近（约5-8米），若其突然变道将构成切出风险。",
+      "risk_tags": [
+        "cyclist_close_proximity",
+        "parked_vehicle_occupancy"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】阳光位于左上方，形成轻微镜头眩光，但未影响主要视野。【自车】维持中间车道匀速行驶。【左侧】对向车道持续有车辆通过，包括一辆银色奔驰轿车从左前侧快速驶过。【右侧】骑行者已逐渐远离，后方出现黄色出租车停靠于路边。【交通设施】道路右侧出现大型路牌，标示“N 19 Almada Q. de Cande Brejão”，提示前方为环岛路口。【关键风险】无突发危险，但前方路牌显示即将进入环岛区域，需注意右侧可能有车辆强行切入或临时停车。",
+      "risk_tags": [
+        "approaching_roundabout",
+        "vehicle_crossing_path"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】天气晴好，能见度高，无遮挡。【自车】在中间车道匀速行驶，接近前方环岛入口。【左侧】路边停放多辆汽车，部分车辆正在启动或驶离。【右侧】人行道旁有绿化带和棕榈树，远处可见粉色居民楼。【交通设施】前方路牌明确指示环岛方向，同时出现蓝色“优先通行”标志。【关键风险】无显著风险，但环岛入口处存在潜在的多车交汇冲突点，需警惕右侧车辆或非机动车突然横穿。",
+      "risk_tags": [
+        "roundabout_entry_risk",
+        "pedestrian_crossing_potential"
+      ]
+    }
+  ]
+}

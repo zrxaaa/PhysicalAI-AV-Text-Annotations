@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 03:35:16",
+    "processing_time_seconds": 12.51
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "夜间雨天，自车在湿滑路面上匀速行驶，前方有一辆黑色轿车保持稳定距离，左侧车道有白色SUV驶过并变道至中间车道，雨水在挡风玻璃上形成流动光斑，影响视线清晰度。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "自车继续直行，右侧路边停放多辆汽车，包括一辆白色SUV和一辆深色轿车，前方车辆尾灯持续亮起，表明交通流缓慢，无明显加速或减速行为，环境光线昏暗，路灯与车灯交织造成视觉干扰。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "自车接近一个路口，左侧出现一辆邮政货车停靠在路边，右侧有白色轿车从后方超车并驶入相邻车道，自车未改变速度或方向，路面水迹反射灯光形成动态光晕，影响前方目标识别。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "自车在路口处减速，前方车辆也同步降低速度，右侧白色轿车完成超车后回归原车道，左侧邮政货车仍静止停放，无行人或其他动态障碍物出现，整体交通流平稳，雨势未减但未引发紧急行为。"
+    }
+  ]
+}

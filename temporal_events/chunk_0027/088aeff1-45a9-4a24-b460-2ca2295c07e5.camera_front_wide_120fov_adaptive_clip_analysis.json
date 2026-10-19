@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 09:15:29",
+    "processing_time_seconds": 15.01
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在十字路口前减速，前方为红色STOP标志和‘ALL WAY’标识，右侧人行横道旁有橙色施工锥桶，远处可见一辆黑色皮卡停在路边。天气晴朗，阳光从右上方照射，路面干燥清晰。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:08",
+      "scene_description": "自车完成停车后启动，向左转向进入主干道，经过限速30的交通标志牌，左侧出现一栋带卫星天线的白色建筑，右侧人行道上有树木和住宅。无行人或动态车辆干扰自车路径。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "自车沿双黄线道路直行，右侧为现代玻璃幕墙办公楼（标有“entraVision”字样），左侧是围栏与绿化带，远处可见一座大型圆形建筑。道路空旷，无其他车辆或行人进入自车行驶路径。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "自车继续直行，接近下一个交叉路口，右侧出现停车场入口和路牌，左侧围栏内可见工业设施。前方无车辆或行人，道路畅通，光线充足，视野开阔，未见任何交通冲突或行为变化。"
+    }
+  ]
+}

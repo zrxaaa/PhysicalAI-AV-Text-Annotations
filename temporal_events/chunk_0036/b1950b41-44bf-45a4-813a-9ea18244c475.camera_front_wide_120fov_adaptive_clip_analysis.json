@@ -1,0 +1,50 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.43,
+    "analysis_time": "2026-01-21 20:26:09"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴雨天气，路面湿滑积水严重，反射车灯与交通信号灯光，能见度中等偏低。【自车】位于中间车道，执行减速制动，准备通过前方施工区域。【右侧】一名身穿高能见度反光服的施工人员站立于路肩，手持红色停止牌，引导交通；其后方停有一辆橙色工程车（疑似叉车或高空作业车），警灯闪烁，部分车身占用非机动车道。【左侧】对向车道有银色轿车驶过，未开启转向灯，快速切入当前车道前方，形成潜在切出风险。【关键风险】左侧车辆存在“无预兆变道”行为，可能引发碰撞；施工区域锥桶间距较大，存在引导失效风险。",
+      "risk_tags": [
+        "heavy_rain",
+        "aggressive_cut_in",
+        "construction_zone_obstacle",
+        "poor_visibility"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】持续阴雨，路面水雾反射加剧，视线受阻。【自车】保持中间车道匀速前行，车速约25km/h。【右侧】施工区域扩大，多处橙色锥桶沿道路两侧布置，引导车流绕行；一台橙色高空作业车（臂架已升起）正在作业，其机械臂伸展至道路上方，占据部分横向空间。【左侧】对向车道有多辆轿车依次驶过，包括一辆深红色SUV和一辆银色MPV，均保持正常行驶轨迹。【非标物体】右侧施工围挡上可见“GENCAP CONSTRUCTION CORP.”标识，围挡内有临时照明设备，但无明显危险物。【关键风险】高空作业车臂架高度接近限高杆，若自车未减速或未保持足够横向距离，可能发生剐蹭；锥桶排列不连续，易导致驾驶员误判路径。",
+      "risk_tags": [
+        "construction_vehicle_arm_reach",
+        "inconsistent_cone_placement",
+        "reduced_lateral_clearance"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "【环境】雨势略有减弱，但仍为阴天，路面反光强烈，尤其红绿灯倒影在湿滑路面上形成视觉干扰。【自车】继续沿中间车道行驶，接近十字路口，车速维持稳定。【前方】交通信号灯显示为红灯，前方交叉口设有斑马线及自行车道标线，地面有黄色虚线引导左转。【左侧】一家名为“Zeke's Pizza”的店铺清晰可见，门前人行道上有行人驻足，但未横穿马路。【右侧】施工围挡延伸至路口边缘，橙色锥桶密集分布，引导车流右转或直行。【关键风险】红灯前车流集中，若自车未及时停车，可能闯红灯；路面反光造成信号灯识别误差，增加误判概率。",
+      "risk_tags": [
+        "red_light_approach",
+        "signal_reflection_interference",
+        "pedestrian_presence_near_crosswalk"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】阴云密布，光线昏暗，属于黄昏或黎明时段，路灯与车灯成为主要光源。【自车】在十字路口前完全停车，等待红灯。【前方】交通信号灯仍为红色，横向车流（含白色皮卡、黑色轿车）正从对面车道驶来，部分车辆在路口处减速。【右侧】加油站入口处设有橙色塑料路障，阻挡非必要车辆进入；加油站顶棚灯光亮起，照亮局部区域。【左侧】“Zeke's Pizza”店铺招牌灯光与街灯共同照明，人行道上无行人活动。【非标物体】路口中央未见施工设备或障碍物，仅靠锥桶引导通行。【关键风险】路口视野受限，左侧商铺遮挡部分盲区；夜间行车需警惕突然出现的行人或非机动车，尽管当前无明显威胁，但存在潜在“鬼探头”风险。",
+      "risk_tags": [
+        "intersection_stop",
+        "night_driving_conditions",
+        "blind_spot_potential"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:37:58",
+    "processing_time_seconds": 12.76
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "夜间行车，自车在多车道道路上匀速前进，右侧车道有白色轿车加速并入中间车道，前方路口信号灯为红灯，左侧可见加油站及施工锥桶区域。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "自车在路口停车等待，红灯持续亮起，左侧车道有银色SUV和白色面包车依次左转，右侧车道一辆大型货车正在通过交叉口，交通流有序但缓慢。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:13",
+      "scene_description": "信号灯转绿，自车所在车道开始启动前行，左侧左转车辆陆续通过，右侧货车完成转弯后驶离，同时一辆银色轿车从右前方快速切入本车道，与自车形成短暂并行。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:18",
+      "scene_description": "自车继续直行，前方车辆逐渐稀疏，右侧车道有多辆轿车加速超车，其中一辆红色轿车从后方快速超越，与自车间距缩小至安全范围外。"
+    },
+    {
+      "time_segment": "00:00:18-00:00:20",
+      "scene_description": "自车保持当前车道行驶，前方路口信号灯仍为绿灯，道路两侧无行人出现，路面湿滑但无明显积水，整体交通流畅，无突发冲突或变道行为。"
+    }
+  ]
+}

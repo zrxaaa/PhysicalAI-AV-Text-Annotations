@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 03:46:54",
+    "processing_time_seconds": 12.82
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "自车在十字路口等待绿灯，前方交通信号灯为绿色，多辆汽车从对向车道驶来并依次通过路口。左侧有银色SUV和白色轿车左转，右侧有黑色SUV直行，所有车辆均与自车路径无冲突。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:11",
+      "scene_description": "信号灯由绿转黄，随后变为红色，自车在停止线前平稳停车。右侧路口的Willows Rd方向信号灯同步变红，无行人或车辆进入交叉口。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:14",
+      "scene_description": "自车完成左转动作，沿Willows Rd行驶，道路两侧可见绿化带、商业建筑及路牌标识。路口处无其他车辆或行人干扰，路面干燥，天气阴沉但无降水迹象。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "自车沿单向车道继续直行，道路两侧分布现代办公楼与草坪，远处可见两名行人沿人行道行走。自车保持匀速，未发生变道或紧急制动行为。"
+    }
+  ]
+}

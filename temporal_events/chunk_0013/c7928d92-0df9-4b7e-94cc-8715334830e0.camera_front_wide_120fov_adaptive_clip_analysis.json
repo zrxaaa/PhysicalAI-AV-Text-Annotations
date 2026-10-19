@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 04:00:41",
+    "processing_time_seconds": 11.57
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "自车在十字路口等待绿灯，左侧人行横道有骑自行车者和行人正在通行，右侧商店前有行人站立；交通信号灯为绿色，允许直行。前方街道两侧停有多辆汽车，路面有电车轨道，天气阴沉但无雨，视野略受雾气影响。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "绿灯亮起，自车启动沿电车轨道向前行驶，左侧一辆白色皮卡从停车状态起步并入车道，右侧人行横道有两名行人正在过街；道路两侧停放车辆密集，部分车辆开始缓慢移动，自车保持中速平稳通过交叉口。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:15",
+      "scene_description": "自车进入长直道，两侧街道停满车辆，左侧有一辆银色SUV从路边驶出并入车道，右侧人行道上有行人行走；前方远处可见一辆红色轿车迎面驶来，自车未减速，保持当前车道行驶。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "自车继续沿电车轨道前行，右侧一辆黑色SUV从后方超车并入左侧车道，与自车发生短暂并行；前方道路略有坡度，远处有车辆上下坡行驶，路边树木茂密，整体环境潮湿，能见度较低。"
+    }
+  ]
+}

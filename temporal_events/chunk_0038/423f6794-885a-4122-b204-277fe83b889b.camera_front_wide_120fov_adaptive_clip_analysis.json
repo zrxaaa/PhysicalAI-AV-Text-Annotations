@@ -1,0 +1,45 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.49,
+    "analysis_time": "2026-01-21 21:23:43"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间城市道路，路灯照明充足，无明显天气异常。【自车】在中间车道匀速沿直道行驶，未见明显加速或减速。【右侧】多辆静止停放的私家车，部分车辆因运动模糊呈现动态虚影；左侧人行道有行人站立，面向街对面，未横穿马路。【交通设施】路面标有“SPEEDING XING”字样，前方路口设有红绿灯，当前为绿灯。【关键风险】无显著风险行为，但右侧路边停放车辆密集，存在潜在开门杀风险（Open Door），需保持横向安全距离。",
+      "risk_tags": [
+        "parked_vehicle_risk",
+        "no_aggressive_behavior"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】夜间，道路两侧路灯均匀分布，能见度良好。【自车】保持中间车道匀速前行，接近交叉路口。【前方】交通信号灯显示为绿灯，左侧对向车道有车辆驶入，右侧人行道有行人正在行走，朝向远离自车方向。【交通设施】路口设有“SPEED LIMIT 30”限速标志及人行横道线；上方悬垂交通信号灯组清晰可见，当前为绿灯通行状态。【关键风险】无直接碰撞威胁，但右侧人行道行人与自车纵向距离小于15米，若其突然转向或横穿，存在低概率交互风险。",
+      "risk_tags": [
+        "pedestrian_proximity",
+        "low_collision_probability"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】进入高架桥下通道，两侧为混凝土隔音墙，顶部灯光稀疏，局部区域出现阴影区。【自车】由中间车道平稳转入右侧车道，准备通过下方隧道入口。【前方】隧道入口处有“SANTA CLARA”标识牌，上方结构为铁路桥或高架轨道，无列车通行迹象。【周围】左侧隔音墙外可见树木和远处路灯，右侧墙体紧贴车道，无其他车辆或行人。【关键风险】自车变道动作与隧道入口空间狭窄叠加，存在轻微侧向碰撞风险（如变道过急或后方车辆跟车过近）；隧道内光线骤暗，视觉适应需注意。",
+      "risk_tags": [
+        "narrow_space_turning",
+        "light_transition_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】隧道入口段，两侧混凝土墙形成封闭通道，仅靠车灯照明，能见度下降。【自车】保持当前车道匀速通过隧道入口，车头正对“SANTA CLARA”标识牌，该牌位于桥梁结构上，字体清晰。【周围】无其他车辆、行人或动物出现在视野内；左侧墙外偶有树木轮廓，右侧为连续墙体，无开口。【交通设施】隧道入口上方无交通信号灯，仅有路名标识与限高提示（未见具体数值）。【关键风险】隧道内光线突变可能影响驾驶员判断，且通道宽度较窄，若后车速度过快或自车变道不当，易引发剐蹭；目前无其他动态障碍物，风险等级中等偏低。",
+      "risk_tags": [
+        "low_visibility_tunnel",
+        "narrow_roadway_risk"
+      ]
+    }
+  ]
+}

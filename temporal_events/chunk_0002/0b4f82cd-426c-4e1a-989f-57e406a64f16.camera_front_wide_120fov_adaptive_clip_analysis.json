@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:30:24",
+    "processing_time_seconds": 12.21
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在湿滑路面上沿直道行驶，左侧为高架轻轨桥，右侧为现代公寓楼；前方十字路口交通灯为红灯，车辆均在停止线前等待，无行人或显著动态交互。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:07",
+      "scene_description": "交通信号灯转绿，自车启动前行，前方一辆红色轿车保持在相邻车道，未发生变道或超车行为；道路两侧有绿化带和电线杆，天气阴沉路面湿滑。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "自车持续跟随红色轿车行驶，高架桥结构从左侧延伸至前方，右侧出现围栏与低矮建筑；无行人或其他车辆进入自车路径，车流平稳，未见明显加速或减速。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "前方红色轿车维持匀速，自车保持安全跟车距离；左侧高架桥下方出现铁丝网围栏与停车场区域，右侧路边停有货车，未对自车路径造成影响。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车继续沿主路行驶，前方红色轿车与一辆白色货车并行于右侧车道，无变道意图；远处可见山丘轮廓，天空阴云密布，路面反光显示雨后潮湿状态。"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.82,
+    "analysis_time": "2026-01-22 19:04:16"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "【环境】夜间，无明显降水或雾气，但路灯照明存在眩光与光晕，影响部分区域能见度。【自车】在中间车道匀速沿直道行驶，车头朝向道路中心线，未进行转向或变道。【左侧】路边停放多辆私家车（包括一辆红色轿车、一辆白色轿车），均静止；右侧可见一排低矮住宅及围墙，无行人活动。【交通设施】前方约30米处出现“STOP”路面标线，路口设有红色停车标志牌，位于右前方交叉口。【关键风险】自车接近交叉口时未减速，且未观察右侧来车方向，存在潜在的未礼让交叉口通行权风险。",
+      "risk_tags": [
+        "uncontrolled_intersection",
+        "lack_of_speed_reduction",
+        "inadequate_visual_scanning"
+      ]
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "【环境】夜间，路灯持续照明，眩光仍存在，但视野范围扩大。【自车】在交叉口前完成制动并停稳，车头对准交叉口中央，准备左转或直行。【左侧】交叉口左转车道有车辆等待，其中一辆深色SUV静止于停车线后；【右侧】交叉口右转车道无车辆，但可见一个黄色消防栓位于路肩，未造成障碍。【交通设施】路口设有“STOP”标线和红灯信号杆，当前为绿灯状态（从前方车辆通行判断）。【非标物体】无动物、施工车辆或遗撒物。【关键风险】自车在停止状态下未确认左侧来车是否完全清空，存在“开门杀”或“误判左转时机”的潜在风险，尤其当左侧车辆突然启动时可能引发碰撞。",
+      "risk_tags": [
+        "intersection_stopping_risk",
+        "left_turn_timing_misjudgment",
+        "lack_of_cross_traffic_verification"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】夜间，道路两侧树木茂密，部分路段路灯间距较大，导致局部光线不足。【自车】完成左转或直行后重新加速，保持在中间车道匀速行驶。【周围】道路两侧停放多辆皮卡和轿车（如右侧一辆白色皮卡静止于路边），无行人或动物活动。【交通设施】右侧路边出现限速35英里/小时的交通标志牌，前方远处可见对向车灯，表明有车辆迎面驶来。【关键风险】自车在转弯后进入主干道，前方迎面来车因距离较远无法准确判断其速度与意图，若对方超速或变道，将构成“迎面碰撞”风险。此外，道路两侧植被遮挡视线，存在“鬼探头”隐患，尤其在弯道或交叉口附近。",
+      "risk_tags": [
+        "oncoming_vehicle_risk",
+        "vegetation_obstruction",
+        "speed_control_lack_in_darkness"
+      ]
+    }
+  ]
+}

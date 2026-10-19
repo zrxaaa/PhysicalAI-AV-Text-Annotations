@@ -1,0 +1,41 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.57,
+    "analysis_time": "2026-01-23 06:10:06"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】黄昏时分，天空阴沉，无明显降水但路面湿滑反光，路灯已开启。【自车】位于中间车道，匀速沿直线道路前行，未见明显加速或制动。【左侧】对向车道有车辆驶来，包括一辆白色轿车和一辆深色SUV，均保持正常行驶；路边停放多辆私家车，部分车门开启。【右侧】停放车辆密集，一辆白色面包车从右侧超车并短暂切入自车前方后迅速变回原车道，未见转向灯提示。【交通设施】道路两侧为多层住宅与商铺，人行道上有行人行走，但无横穿马路行为。【关键风险】右侧面包车突然切入，存在“切出”（Cut-out）风险，虽未造成碰撞，但影响自车横向稳定性。",
+      "risk_tags": [
+        "cut_out_risk",
+        "sudden_lane_change",
+        "wet_road_surface"
+      ]
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "【环境】光线持续变暗，街灯照明增强，能见度稳定。【自车】保持中间车道匀速行驶，前方车辆尾灯亮起，表明车流缓慢。【左侧】一辆银色轿车在左前侧邻车道减速，疑似准备靠边停车；其后方有一辆黑色轿车加速超越。【右侧】一辆白色厢式货车从右后方快速接近并试图超车，因车道狭窄且前方有停靠车辆，该车在临近时紧急减速并退回原车道。【非标物体】右侧路边停放车辆中，一辆绿色跑车引擎盖微开，疑似故障或临时检修，未见人员活动。【关键风险】右侧货车超车动作具有突发性，存在“强行加塞”（Aggressive Cut-in）倾向，若自车未预留足够安全距离，可能引发剐蹭。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "emergency_braking_trigger",
+        "vehicle_malfunction_indicator"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】进入城市商业区，建筑风格转为欧式古典，店铺橱窗灯光明亮，部分招牌发光。【自车】继续在中间车道匀速行驶，前方红绿灯显示为红灯，车流开始减速。【左侧】一辆黑色SUV在左前侧邻车道刹车，同时一名行人从左侧人行道走出，面向自车方向，右手持手机，左手提包，正朝斑马线移动，面部朝向斜前方，未观察交通状况。【右侧】多辆私家车停靠于路边，其中一辆深蓝色轿车在右后方缓慢倒车，车尾朝向自车方向，存在“开门杀”潜在风险。【交通设施】前方路口设有斑马线及交通信号灯，右侧路牌显示“禁止停车”区域。【关键风险】行人无视交通信号横穿马路（Jaywalking），且未注意来车；右侧倒车车辆未开启警示灯，存在“开门杀”与“鬼探头”双重风险，自车需提前减速并保持警觉。",
+      "risk_tags": [
+        "jaywalking",
+        "door_opening_risk",
+        "pedestrian_crossing_without_caution",
+        "traffic_light_interaction"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 05:38:32",
+    "processing_time_seconds": 11.91
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "自车在十字路口停车等待，前方交通灯为绿灯，左侧黑色轿车和右侧SUV依次通过路口，一辆蓝色公交车从右侧驶入画面并横穿人行横道，行人正在过街。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:10",
+      "scene_description": "信号灯转为红灯，自车保持静止，右侧公交车完成转弯后驶离，左侧白色SUV开始左转，两名行人站在人行道边缘，未进入车道冲突区域。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "自车启动沿直行方向前进，右侧人行道上有两名行人站立，其中一人携带行李箱，道路两侧出现住宅与商业建筑，无显著障碍物或突发交通行为。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "车辆继续直行，道路两侧停放多辆汽车，右侧有自行车道标识，前方有车辆缓慢行驶，自车保持安全距离跟随，天气阴沉，路面干燥无积水。"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.09,
+    "analysis_time": "2026-01-23 00:38:02"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】晴朗蓝天，少量卷云，光照充足。【自车】在最左侧车道匀速行驶，前方为多车道高速公路。【周围交通参与者】左侧邻车道有一辆蓝色平板拖车，载有设备，匀速同向行驶；右侧路肩有绿化带及商业建筑。【交通设施】右侧出现绿色高速入口指示牌（I-680 NORTH to San Francisco），并伴随限速55mph警示牌。【关键风险】无明显风险，但拖车体积较大，存在视觉盲区，需注意横向间距。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "【环境】天空云层增多，阳光角度变低，出现轻微眩光。【自车】开始向右转向，沿弯道进入匝道，车头偏航角增大，从左车道平滑过渡至右转导向车道。【周围交通参与者】右侧路边出现一排红色储物单元库房，其后方有停放车辆；左侧对向车道车流密集，部分车辆减速。【交通设施】道路标线显示“CAR POOL LANE”字样，右侧设有“Carpool 2 or more persons per vehicle”提示牌。【关键风险】自车转弯时与右侧储物库房距离过近，若路面湿滑或急打方向可能剐蹭；同时，弯道处视线受树木遮挡，存在潜在盲区。",
+      "risk_tags": [
+        "lane_change",
+        "blind_spot_risk",
+        "narrow_clearance"
+      ]
+    },
+    {
+      "time_segment": "00:00:09-00:00:15",
+      "scene_description": "【环境】强逆光，太阳位于画面右上角，造成镜头眩光和局部过曝。【自车】继续沿右转弯道行驶，速度保持稳定，未进行紧急制动或加速。【周围交通参与者】前方路口有红绿灯控制，一辆白色轿车在右转车道等待信号；远处高架桥下可见其他车辆通行。【交通设施】前方高架桥下方设有限高标志（15FT 3IN），并配有绿色指路牌（Great America Pkwy, Bowers Avenue）。【关键风险】强光导致后视镜反光严重，影响对后方车辆的判断；高架桥下光线昏暗，与明亮外部形成强烈对比，易引发视觉疲劳或误判前方路况。",
+      "risk_tags": [
+        "glare_effect",
+        "light_contrast_hazard",
+        "intersection_waiting_vehicle"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】逆光持续，阳光穿过云隙形成星芒效果。【自车】驶入高架桥下方通道，进入隧道式路段，车速略有下降以适应限高结构。【周围交通参与者】前方有多辆轿车在桥下缓行，未见异常行为；右侧路肩有灌木丛，无行人或动物活动迹象。【交通设施】高架桥上方悬挂绿色路牌，标明“Exit 393 Great America Pkwy / Bowers Avenue ½ MILE”，并附有黄色限高标识。【关键风险】桥下空间狭窄，需警惕前车突然变道或刹车；虽无直接威胁，但受限高限制，任何偏离车道的行为均可能导致碰撞桥体结构。",
+      "risk_tags": [
+        "tunnel_lighting_transition",
+        "limited_clearance",
+        "braking_required_for_structure"
+      ]
+    }
+  ]
+}

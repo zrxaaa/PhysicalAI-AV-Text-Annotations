@@ -1,0 +1,27 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 22:13:22",
+    "processing_time_seconds": 20.96
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在十字路口停车等待，右侧停有一辆黑色SUV正准备右转，左侧有白色货车驶离路口。前方可见红绿灯和停车标志，道路湿滑，天空阴云密布。",
+      "scene_description_2": "车辆在路口完成转向后，自车开始缓慢前行，右侧出现多栋住宅楼和停放的车辆，路边有垃圾堆积，环境略显杂乱。"
+    },
+    {
+      "time_segment": "00:00:06-00:00:12",
+      "scene_description": "自车沿单行道向前行驶，右侧路边停有多辆汽车，包括一辆黑色皮卡，一名行人从皮卡旁走过并进入人行道。左侧为带车库的联排住宅，部分车库门开启。",
+      "scene_description_2": "前方道路两侧树木茂密，电线杆密集，路面有明显坑洼和修补痕迹。远处可见黄色人行横道警示牌，提示前方有人行道。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "自车继续直行，迎面驶来一辆白色厢式货车，与之交错而过。右侧路边有蓝色防水布覆盖的杂物堆，旁边有行人站立。前方路口设有双向人行横道标志。",
+      "scene_description_2": "道路两侧建筑风格多样，部分为现代公寓，部分为独立住宅。天气持续阴沉，路面湿润，能见度良好，无突发交通事件或障碍物。"
+    }
+  ]
+}

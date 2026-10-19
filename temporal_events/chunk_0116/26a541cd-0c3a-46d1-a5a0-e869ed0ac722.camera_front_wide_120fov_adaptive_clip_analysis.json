@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.83,
+    "analysis_time": "2026-01-23 07:06:49"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】阴天，能见度低，路面湿滑，无明显降水但空气湿度高。【自车】位于中间车道，通过十字路口时执行左转/直行决策，绿灯通行中。【前方】一辆银色SUV在右前方邻车道直行，与自车同向；左侧对向车道有白色轿车和黑色面包车正在左转。【交通设施】多组交通信号灯显示为绿色，路口设有倒三角形让行标志。【关键风险】右侧银色SUV在绿灯亮起后未及时起步，导致自车需减速等待，存在轻微延误风险。",
+      "risk_tags": [
+        "delayed_vehicle",
+        "intersection_interaction"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:12",
+      "scene_description": "【环境】持续阴雨天气，道路两侧树木光秃，部分树干覆盖藤蔓，能见度维持在约150米。【自车】驶出交叉口后进入主干道，保持中间车道匀速行驶。【左侧】对向车道有多辆汽车（含白色面包车、深色轿车）快速驶过，部分车辆有切线超车行为。【右侧】路边停有一排车辆，包括一辆白色厢式货车，其后方有涂鸦墙和灌木丛。【非标物体】右侧灌木丛边缘出现一只棕色野兔静止站立，头部朝向道路方向，无明显移动趋势。【关键风险】野兔处于视线盲区边缘，若突然冲入车道将引发紧急避让，存在“鬼探头”风险。",
+      "risk_tags": [
+        "animal_presence",
+        "ghost_probe_risk",
+        "cross_traffic"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】道路继续延伸，左侧出现连续停放的车辆，右侧为围墙与植被混合区域，部分墙体有涂鸦。【自车】保持中间车道匀速前行，未进行变道或转向。【前方】数辆车在前方同向行驶，其中一辆银色轿车在前车流中缓慢加速。【左侧】一辆深灰色商务车从路边驶出并切入自车所在车道，未打转向灯，属于典型“加塞”行为。【交通设施】道路右侧设自行车道标识，但无骑行者出现。【关键风险】左侧商务车强行加塞，压缩自车横向空间，可能引发碰撞或迫使自车急刹，构成高风险交互。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "lane_encroachment",
+        "emergency_braking_potential"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 22:49:26",
+    "processing_time_seconds": 26.55
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车沿双黄线道路平稳行驶，前方有一辆白色轿车在同车道行驶，右侧路边设有‘WORK ZONE’警示牌及橙色施工锥桶，天气晴朗，路面干燥。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "车辆接近并驶入第一座混凝土桥梁下方，左侧人行道上出现一名穿蓝色外套的行人正沿路行走，前方黄色‘SLOW MOVING TRUCKS’标志提示注意慢行车辆。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "自车继续前行，从桥下驶出后，右侧再次出现施工区域，橙色锥桶排列在路边，远处可见另一座桥梁结构，一辆白色皮卡从对向车道驶过。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "车辆接近第二座桥梁，对向车道有白色SUV和灰色皮卡先后驶来，右侧施工区旁有绿色集装箱，未见施工人员，自车保持当前车道匀速通过。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车驶过第二座桥下，前方道路恢复开阔，两侧为绿化坡地与电线杆，无显著障碍物或行人，交通流畅，自车持续直行未变道。"
+    }
+  ]
+}

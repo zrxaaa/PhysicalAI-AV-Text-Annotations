@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 03:21:03",
+    "processing_time_seconds": 11.57
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车在十字路口停车等待，前方有多辆轿车同向排队，右侧车道有一辆白色轿车，左侧为银色轿车。交通信号灯显示红灯，路面湿滑，天空多云但光线充足。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:07",
+      "scene_description": "信号灯转绿，自车及前方车辆开始加速前行，左侧银色轿车向左变道并驶离画面，右侧白色轿车保持原车道行驶。道路标线清晰，无行人或其他障碍物干扰。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "自车通过交叉口后进入主干道，前方有两辆车：一辆蓝色轿车在右前方车道，一辆深色轿车在右侧相邻车道。道路两侧设有护栏与路牌，天气阴云密布但未下雨，能见度良好。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "自车保持匀速行驶，前方蓝色轿车逐渐远离，右侧深色轿车持续在邻近车道行驶。道路呈缓坡上行，左侧护栏外可见广告牌和树木，无突发交通行为或障碍。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车继续沿主干道前进，前方车辆保持稳定车距，道路右侧出现低矮建筑群，左侧护栏延伸至远方。天气仍多云，路面干燥，无其他车辆或行人进入视野范围。"
+    }
+  ]
+}

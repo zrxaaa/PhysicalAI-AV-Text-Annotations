@@ -1,0 +1,38 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.97,
+    "analysis_time": "2026-01-22 10:55:33"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】晴朗天气，能见度良好，无降水或雾气。【自车】位于中间车道，匀速沿直道行驶，未进行变道或转向。【左侧】一辆红色丰田普锐斯在左邻车道由近及远驶离，完成超车动作；其后方一辆银色轿车从左前方切入当前车道，完成切出动作。【右侧】路肩有茂密树木与护栏，无行人或动物。【交通设施】前方出现大型绿色高速公路指示牌，显示“880 Oakland”、“101 NORTH San Francisco RIGHT LANE ONLY”、“101 SOUTH Los Angeles”，提示即将进入复杂分叉路口。【关键风险】左侧银色轿车在未打转向灯情况下快速切入，存在轻微加塞风险，但未影响自车路径。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "lane_change_warning"
+      ]
+    },
+    {
+      "time_segment": "00:00:06-00:00:12",
+      "scene_description": "【环境】光照稳定，天空晴朗，无遮挡物。【自车】保持中间车道匀速行驶，随道路微弯向前。【左侧】一辆黑色厢式货车（印有“BARRELHOUSE BREWING CO.”字样）从左前方车道缓慢超越自车，随后并入自车所在车道，完成变道动作。【右侧】路肩树木投下阴影，无异常物体。【交通设施】经过出口4C指示牌后，路面标线开始引导车辆向右分流，地面出现“EXIT 4B”标识。【关键风险】黑色货车在变道过程中未使用转向灯，且车身宽度较大，存在视觉盲区风险，但未发生碰撞或紧急避让。",
+      "risk_tags": [
+        "improper_lane_change",
+        "blind_spot_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】视野开阔，远处山脉清晰可见，无天气异常。【自车】继续在中间车道匀速行驶，接近出口匝道入口。【前方】多辆车辆正向右侧出口方向汇流，包括一辆白色轿车和一辆黑色皮卡。【右侧】出口匝道入口处设有“EXIT 4B”标志牌，地面喷涂“ONLY”字样，提示仅限右转车道通行。【非标物体】匝道口附近有少量施工锥桶与临时围栏，但无作业车辆或人员。【关键风险】右侧出口车道有车辆提前切入，形成局部车流交织；自车未变道，但需注意右侧车辆可能因出口分流而突然减速或变道，存在潜在碰撞或追尾风险。",
+      "risk_tags": [
+        "exit_congestion",
+        "merge_conflict",
+        "lane_divergence_risk"
+      ]
+    }
+  ]
+}

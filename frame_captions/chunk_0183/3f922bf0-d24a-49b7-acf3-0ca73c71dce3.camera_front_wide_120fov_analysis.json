@@ -1,0 +1,81 @@
+{
+  "analysis_metadata": {
+    "video_duration": "20.167",
+    "model_used": "qwen3-vl-flash",
+    "analysis_time": "2026-01-28 23:10:40",
+    "keyframe_count": 10,
+    "analysis_type": "natural_language_frame_analysis",
+    "frame_analysis_order": [
+      "00:00:00.033",
+      "00:00:02.267",
+      "00:00:04.500",
+      "00:00:06.733",
+      "00:00:08.967",
+      "00:00:11.200",
+      "00:00:13.433",
+      "00:00:15.667",
+      "00:00:17.900",
+      "00:00:20.167"
+    ],
+    "total_processing_time_seconds": 41.8,
+    "actual_keyframes": 10
+  },
+  "frame_descriptions": [
+    {
+      "timestamp": "00:00:00.033",
+      "scene_overview": "车辆正行驶在一条被茂密树林环绕的弯曲柏油路上，路旁设有金属护栏，环境光线较暗，疑似阴天或林荫遮蔽。",
+      "object_descriptions": [
+        "道路左侧设有金属波形护栏，沿弯道内侧延伸，与路面保持平行，护栏后方是密集的绿色灌木和高大树木。",
+        "路面为沥青材质，呈缓弯向右延伸，无明显车道线或交通信号，周围无其他车辆或行人可见。"
+      ]
+    },
+    {
+      "timestamp": "00:00:02.267",
+      "scene_overview": "从车内视角拍摄，车辆正沿一条蜿蜒的林间柏油路行驶，道路两侧被茂密的树木和灌木环绕，光线昏暗似阴天或清晨。",
+      "object_descriptions": [
+        "无其他交通车辆或行人可见，视野内仅有一条空旷的林道。",
+        "道路为双向单车道，路面平整但无清晰标线，右侧路肩有明显坡度并覆盖植被，左侧可见部分护栏结构，与自车路径平行延伸。"
+      ]
+    },
+    {
+      "timestamp": "00:00:04.500",
+      "scene_overview": "从车内视角拍摄，车辆正沿一条被茂密森林环绕的狭窄土路行驶，天气阴沉，路面未见标线且无其他交通参与者。",
+      "object_descriptions": []
+    },
+    {
+      "timestamp": "00:00:06.733",
+      "scene_overview": "车辆正行驶在一条被高大树木环绕的林间土路上，路面湿滑，视野因雨雾略显模糊。",
+      "object_descriptions": []
+    },
+    {
+      "timestamp": "00:00:08.967",
+      "scene_overview": "从车内视角拍摄，车辆正沿一条蜿蜒的林间土路行驶，两侧是高大密集的树木，天气阴沉，路面未见明显车道线。",
+      "object_descriptions": []
+    },
+    {
+      "timestamp": "00:00:11.200",
+      "scene_overview": "车辆正行驶在一条被茂密树林环绕的蜿蜒土路上，路面平坦但无标线，两侧树木高耸，环境阴郁，光线昏暗。",
+      "object_descriptions": []
+    },
+    {
+      "timestamp": "00:00:13.433",
+      "scene_overview": "从车辆前视视角拍摄，一条蜿蜒的林间道路向前延伸，两侧是茂密的树林，光线昏暗，路面干燥但无明显车道线。",
+      "object_descriptions": []
+    },
+    {
+      "timestamp": "00:00:15.667",
+      "scene_overview": "从车内视角拍摄，车辆正沿一条被茂密树林环绕的蜿蜒土路行驶，天气阴沉，路面湿滑且无明显标线。",
+      "object_descriptions": []
+    },
+    {
+      "timestamp": "00:00:17.900",
+      "scene_overview": "从车内视角拍摄，车辆正沿一条被茂密树林环绕的狭窄柏油路行驶，天气阴沉，路面干燥但无明显车道线。",
+      "object_descriptions": []
+    },
+    {
+      "timestamp": "00:00:20.167",
+      "scene_overview": "从车内视角拍摄，车辆正沿一条被茂密树林环绕的狭窄林间道路行驶，路面为未铺装的土路，天气阴沉，光线昏暗。",
+      "object_descriptions": []
+    }
+  ]
+}

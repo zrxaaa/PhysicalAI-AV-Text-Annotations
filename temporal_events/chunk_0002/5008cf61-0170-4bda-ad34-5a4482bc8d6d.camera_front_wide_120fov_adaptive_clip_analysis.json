@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:24:56",
+    "processing_time_seconds": 22.49
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "自车在城市街道上匀速行驶，前方有一辆灰色SUV保持同向行驶，道路两侧为多层砖石建筑，路面设有电车轨道和自行车道标识。天气阴沉，能见度一般，无明显行人或突发障碍物。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "前方出现一辆白色有轨电车从左侧车道驶近，自车与前车保持安全距离减速跟随，右侧人行道上有行人行走，交通信号灯为绿灯，允许直行。电车车身带有彩色涂装，经过路口时未影响自车路径。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:16",
+      "scene_description": "电车驶离后，自车继续沿车道前行，右侧人行道出现两名并排行走的行人，路边设有‘ROAD WORK AHEAD’施工警示牌。前方车辆仍保持匀速，无变道或急刹行为，环境安静且交通流畅。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车接近下一个路口，前方无显著障碍物，右侧人行道有行人站立等待，左侧电车轨道旁设有临时围栏。自车维持当前车道，未进行转向或加速，整体场景平稳过渡至下一路段。"
+    }
+  ]
+}

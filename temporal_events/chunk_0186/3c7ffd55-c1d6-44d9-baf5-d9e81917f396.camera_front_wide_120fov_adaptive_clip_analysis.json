@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 10.75,
+    "analysis_time": "2026-01-24 10:11:46"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】暴雨天气，雨滴密集附着于挡风玻璃，能见度显著降低。路面湿滑积水，部分区域有水雾反光。【自车】在中间车道沿直线道路匀速行驶，未进行变道或转向。【前方】一辆黑色轿车位于自车正前方约20米处，尾灯亮起，保持匀速行驶。【右侧】高架桥下路肩堆积杂物与落叶，存在潜在障碍物风险。【交通设施】左侧为混凝土隔离带，右侧为铁丝网围栏，后方可见橙色‘ROAD CLOSED’警示牌，提示前方施工或封闭路段。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility",
+        "obstacle_on_roadside"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】雨势略有缓和，但云层低垂，光线昏暗，仍属阴雨天气。【自车】保持中间车道匀速前行，随道路曲线轻微调整方向，未越线。【左侧】对向车道车辆增多，包括白色面包车、SUV等，均在各自车道内有序行驶。【右侧】出现人行天桥横跨道路，桥下为绿化带与铁丝网围栏，围栏外可见棕榈树及小型公园。【非标准物体】路边散落彩色纸屑与落叶，部分被雨水冲至车道边缘，可能影响轮胎抓地力。【交通设施】前方出现‘NO TURN’禁左标志，提示路口限制转向。",
+      "risk_tags": [
+        "debris_on_edge_of_lane",
+        "low_light_condition",
+        "intersection_warning"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】进入城市街道区域，雨势持续但未加剧，路面反射灯光明显。【自车】由中间车道转入右侧车道（横向动作），完成变道后继续沿直道匀速行驶。【右侧】路边停放多辆私家车，包括黑色SUV与银色轿车，部分车辆停在自行车道旁，形成窄道通行压力。【左侧】对向车道车流稳定，无异常行为。【行人/生物】无明显行人或动物活动。【交通设施】道路两侧为联排住宅与商铺，部分建筑外墙有涂鸦；路面上标有自行车道标识，提示混合交通。【关键风险】自车变道时未完全确认右侧盲区，右侧紧邻停放车辆，存在开门杀或突然启动的潜在风险；同时，前方路口有红绿灯信号，需注意突发停车。",
+      "risk_tags": [
+        "lane_change_with_blind_spot",
+        "parked_vehicle_close_proximity",
+        "intersection_catch-up"
+      ]
+    }
+  ]
+}

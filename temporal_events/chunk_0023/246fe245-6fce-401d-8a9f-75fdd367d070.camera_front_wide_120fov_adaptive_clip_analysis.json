@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 07:25:53",
+    "processing_time_seconds": 12.48
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在雨天黄昏时分接近十字路口，前方路面有‘STOP’标记，右侧一辆红色SUV快速驶过并切入右转车道，自车保持原速行驶未制动。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "自车在路口停车等待，左侧人行道上有行人站立，远处对向车道车辆亮起远光灯，路面湿滑反射灯光，视野因雨滴模糊但无明显障碍物。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车启动左转，进入主干道，左侧车道有白色轿车超车驶离，右侧路边停放多辆汽车，树木和路灯在雨幕中轮廓模糊，自车平稳加速前行。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车沿道路直行，右侧连续停放多辆私家车，前方有车辆从路边驶出并汇入车流，自车与之保持安全距离，未发生变道或紧急避让行为。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车继续直行，右侧车辆逐渐减少，前方出现绿色围栏区域，无行人或其他动态障碍物，雨滴持续影响视线但未导致减速或停车。"
+    }
+  ]
+}

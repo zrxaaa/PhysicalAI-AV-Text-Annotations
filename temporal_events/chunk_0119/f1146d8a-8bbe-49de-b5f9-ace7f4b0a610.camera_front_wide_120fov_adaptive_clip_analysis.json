@@ -1,0 +1,42 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.96,
+    "analysis_time": "2026-01-23 08:11:11"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间，浓雾笼罩道路，能见度极低（<50米），车灯照射范围外几乎无视觉信息。【自车】在中间车道匀速沿道行驶，未见明显转向或变道动作。【左侧】路边可见一排高大落叶树，树干因雾气呈模糊白色轮廓；远处有路灯，但被雾遮挡，仅显微弱光晕。【交通设施】左侧出现一段低矮混凝土护栏，随道路曲线延伸。【关键风险】浓雾导致前方潜在障碍物无法识别，存在“鬼探头”风险；路面湿滑且无清晰标线，易引发偏离车道事故。",
+      "risk_tags": [
+        "heavy_fog",
+        "low_visibility",
+        "lane_departure_risk",
+        "ghost_probe"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】雾层略有稀薄，但仍维持低能见度状态。【自车】保持中间车道匀速直线行驶，车头偏航角稳定，未进行横向调整。【右侧】树木林带持续存在，部分树干因车灯照射呈现灰白剪影，无动态物体出现。【交通设施】道路两侧出现白色虚线车道分界线，虽被雾气模糊，仍可辨识其走向。【关键风险】前方约80米处出现一个黄色路牌（疑似限速或弯道警示），但因雾气和距离，无法确认内容；若为急弯或障碍物，将构成突发避让需求。",
+      "risk_tags": [
+        "faint_sign_detection",
+        "limited_forward_view",
+        "curve_hazard_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】浓雾加剧，车灯照射区域边缘开始出现“光晕扩散”，能见度进一步下降至约30米。【自车】继续在中间车道匀速前进，未见制动或转向迹象。【周围】无任何车辆、行人或动物出现在视野内，道路空旷。【交通设施】右侧出现一道低矮土坡或路肩，表面覆盖薄雪或湿泥，反射车灯光线。【关键风险】极端低能见度下，自车可能因误判车道线位置而偏离路径；若前方突然出现静止障碍物（如倒伏树木或遗撒物），将无足够反应时间，构成致命碰撞风险。",
+      "risk_tags": [
+        "extreme_low_visibility",
+        "no_surrounding_agents",
+        "collision_with_unseen_obstacle",
+        "path_deviation_risk"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.54,
+    "analysis_time": "2026-01-23 02:17:28"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "【环境】夜间，天空阴云密布，路面微湿反光，路灯照明充足但存在眩光。【自车】在中间车道匀速沿直道行驶，未进行转向或变道。【左侧】可见“MOTEL”和麦当劳招牌，路边有低矮建筑及停放车辆；右侧可见“MISSION PLAZA”广告牌及树木。【交通设施】道路两侧设有路灯、电线杆及交通标志，无明显障碍物。【关键风险】无显著风险行为，但左侧路边停放车辆较多，存在潜在开门杀或行人突然横穿可能。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "【环境】夜间，路面仍湿润，灯光反射明显，能见度良好。【自车】保持中间车道匀速前进，接近前方交叉路口。【前方】多个交通信号灯悬挂在路口上方，当前显示为红灯（部分方向）。【左侧】对向车道有车辆驶来，包括一辆深色SUV从左前侧超车并驶离。【右侧】可见快餐店（如Taco Bell）及加油站，路边有绿化带与人行道。【关键风险】自车即将停车等待红灯，前方路口存在多方向车流交汇，需警惕闯红灯车辆或非机动车从盲区穿越；右侧人行横道附近有行人站立迹象，但未进入车道，暂无直接威胁。",
+      "risk_tags": [
+        "intersection_hazard",
+        "red_light_waiting",
+        "pedestrian_presence"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】夜间，天气稳定，无降水或大雾，路面干燥反光较弱。【自车】在交叉路口停车等待，车头正对红灯方向，纵向速度为零。【前方】交通信号灯由红灯转为绿灯，部分方向允许通行。【左侧】一辆白色皮卡从左前侧横向切入，加速通过路口，未礼让自车。【右侧】可见加油站及便利店，无异常物体。【关键风险】左侧皮卡违规抢行，存在“切出”（Cut-out）行为，虽未直接碰撞，但增加了路口冲突概率；自车处于静止状态，易受突发横向移动车辆影响，需保持警觉。",
+      "risk_tags": [
+        "cut_out_violation",
+        "intersection_conflict",
+        "stationary_vehicle_risk"
+      ]
+    }
+  ]
+}

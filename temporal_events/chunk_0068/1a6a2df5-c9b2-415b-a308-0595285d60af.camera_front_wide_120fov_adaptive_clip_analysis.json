@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 23.61,
+    "analysis_time": "2026-01-22 10:33:55"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "【环境】阴天，太阳位于左前方低空，产生强逆光眩光，能见度中等偏低。路面干燥，无明显积水或结冰。【自车】在中间车道匀速沿直道行驶，未进行转向或变道。【前方交通设施】路口设有红绿灯及“ONLY”地面标线，信号灯为黄灯倒计时。【右侧】一辆黄色校车停于路口右转待行区，车身部分遮挡右侧人行横道视野。【关键风险】校车处于静止状态，但其后方有车辆（如皮卡）正在排队等待，存在因校车突然启动或行人从其后方穿行而引发的“鬼探头”风险。",
+      "risk_tags": [
+        "ghost_probe",
+        "signal_light_transition",
+        "obstruction_by_large_vehicle"
+      ]
+    },
+    {
+      "time_segment": "00:00:03-00:00:07",
+      "scene_description": "【环境】逆光减弱，天空云层较厚，光线趋于均匀。【自车】在中间车道减速并停车，等待前方红灯。【左侧】一辆深色皮卡与一辆白色SUV依次停于左转车道，均处于静止状态。【右侧】两辆黄色校车分别位于路口两侧，其中一辆正从右转车道驶出，另一辆在路边停靠，车门关闭，无学生上下车迹象。【非标物体】右侧校车旁立有“STOP”标志牌，但未见警示灯闪烁。【关键风险】自车停车位置临近左侧排队车辆，若后车急刹易发生追尾；同时，右侧校车虽静止，但其车身高度和盲区可能遮挡行人或自行车，存在潜在碰撞风险。",
+      "risk_tags": [
+        "rear_collision_risk",
+        "blind_spot_obstruction",
+        "stationary_large_vehicle_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "【环境】天气持续阴沉，道路两侧树木无叶，呈冬季景象。【自车】在绿灯亮起后起步，沿中间车道加速前行。【前方】一辆黄色校车在前方同向行驶，保持约50米距离，车尾灯常亮，表明其正在缓慢行驶或准备停靠。【左侧】对向车道有多辆汽车（含黑色轿车、SUV）正常通行，未见异常行为。【右侧】路边可见住宅区入口及白色路桩，无行人活动。【交通设施】道路右侧设有限速20英里/小时标志牌，前方有蓝色“ROUTE 52”路牌。【关键风险】校车在湿滑路面下可能制动距离延长，自车需保持安全跟车距离；此外，校车前方无明显停靠点，其突然减速或停车将构成突发障碍物风险。",
+      "risk_tags": [
+        "longitudinal_following_risk",
+        "wet_road_condition_implication",
+        "unpredictable_stop_by_school_bus"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】阴天，无降水，路面干燥，能见度良好。【自车】在中间车道匀速行驶，随道路曲线轻微调整方向，未进行变道。【前方】黄色校车持续在前方同向行驶，车速稳定，尾灯持续亮起。【道路特征】双黄线分隔车道，右侧为土坡与落叶林，左侧为稀疏灌木丛。【非标物体】道路右侧坡上有一根倾斜的电线杆，未影响行车，但存在潜在结构风险。【关键风险】校车作为大型车辆，在弯道处可能因车身宽度导致视觉盲区扩大，自车应避免在其侧后方长时间停留；此外，冬季枯树无遮挡，夜间或雾天可能加剧视线干扰。",
+      "risk_tags": [
+        "blind_spot_expansion_due_to_large_vehicle",
+        "structural_hazard_potential",
+        "night_time_visibility_concern"
+      ]
+    }
+  ]
+}

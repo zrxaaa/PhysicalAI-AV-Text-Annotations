@@ -1,0 +1,47 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.71,
+    "analysis_time": "2026-01-22 06:23:51"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "【环境】晴朗天气，阳光强烈，存在镜头眩光。【自车】位于最左侧车道，正执行右转动作，车头偏航角从直行转向约45度右倾。【周围交通参与者】左前方邻车道有一辆白色SUV正在同向行驶；路口处有红绿灯及多辆等待通行的车辆。【交通设施】右侧路边设有红色‘ROAD WORK AHEAD’警示牌，后方为绿色‘FREEWAY ENTRANCE SOUTH 605’指示牌。【关键风险】自车在转弯过程中需避让对向来车，且路口存在非机动车或行人闯入风险（未见但潜在），同时右侧施工警示区域可能隐藏未标识障碍物。",
+      "risk_tags": [
+        "right_turn_obstacle",
+        "intersection_crossing_risk",
+        "construction_zone_undesignated"
+      ]
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "【环境】晴天，无降水或遮挡，视野开阔。【自车】完成右转，进入匝道并沿弯曲道路行驶，车身随路面曲率自然调整方向，未发生变道或紧急制动。【周围交通参与者】左侧为混凝土护栏，右侧为裸露土坡与稀疏灌木；远处可见几辆轿车在对向车道行驶，均保持安全距离。【交通设施】路侧出现‘$1000 FINE FOR LITTERING’警示牌，以及空白广告牌和路灯杆。【关键风险】无明显风险，但右侧土坡区域存在松散碎石，若遇突发避让可能导致轮胎打滑；弯道内侧无防撞设施，若失控后果严重。",
+      "risk_tags": [
+        "loose_debris_risk",
+        "lack_of_lateral_protection"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】晴天，光照稳定，无遮挡。【自车】继续沿匝道曲线行驶，逐渐过渡至主干道入口，车速保持稳定。【周围交通参与者】左侧对向车道有两辆白色轿车匀速行驶，未见切入或减速行为；右侧土坡区域无行人或动物活动。【交通设施】前方出现多个高架广告牌、交通信号灯（当前为绿灯）及‘YIELD’让行标志。【关键风险】匝道与主干道交汇处存在速度差风险，若自车未及时提速或跟车过近，可能引发追尾；前方信号灯虽为绿灯，但未见清晰的车道引导标线，存在误入错误车道可能性。",
+      "risk_tags": [
+        "speed_difference_risk",
+        "lane_confusion_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】晴朗，阳光位于右上方，产生轻微眩光。【自车】已驶入主干道最左侧车道，保持匀速直线行驶，车头偏航角稳定。【周围交通参与者】左侧邻车道有白色皮卡和红色SUV先后超车；右侧车道有数辆轿车正常行驶，未见异常变道或急刹。【交通设施】道路两侧设有金属护栏，右侧可见棕榈树、商业建筑及水塔；远处有大型广告牌和交通指示牌。【关键风险】无直接碰撞威胁，但右侧护栏外有少量垃圾堆积，若自车高速行驶时突然转向可能因路面不平导致失控；此外，右侧商业区出入口附近可能存在临时停车或行人横穿，视线受树木遮挡，存在“鬼探头”隐患。",
+      "risk_tags": [
+        "debris_on_roadside",
+        "occlusion_from_vegetation",
+        "potential_jaywalking_area"
+      ]
+    }
+  ]
+}

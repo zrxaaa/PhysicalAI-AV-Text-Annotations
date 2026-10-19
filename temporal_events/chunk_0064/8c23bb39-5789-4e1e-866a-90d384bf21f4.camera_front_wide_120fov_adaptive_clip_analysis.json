@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 19.94,
+    "analysis_time": "2026-01-22 08:30:22"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "【环境】阴天，云层低且均匀，无明显降水，路面干燥但略显灰暗。【自车】位于中间车道，正通过一个四向交叉路口，前方为“STOP ALL WAY”停车标志。【周围交通参与者】一辆白色皮卡（带顶篷）从左向右横穿路口，同时一辆灰色SUV从右向左行驶，两车在路口中心区域短暂交汇。【交通设施】右侧立有红色八角形“STOP”标志及“ALL WAY”补充牌，路口设有清晰的白色斑马线与导向箭头。【关键风险】两车在交叉口未完全停稳即通行，存在潜在碰撞风险；自车需确保在停车后确认两侧无来车方可通行。",
+      "risk_tags": [
+        "intersection_conflict",
+        "improper_stop",
+        "lack_of_yield"
+      ]
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "【环境】阴天，能见度良好，路边植被茂盛，部分区域有杂草和落叶堆积。【自车】完成路口停车后，向左转向进入一条弯曲支路，沿道路中线行驶，当前处于中间车道。【周围交通参与者】左侧对向车道有一辆深色SUV正在驶离交叉口；右侧路边停放着一辆老旧轿车，车身锈迹明显，未移动。【交通设施】路口处设有黄色菱形“YIELD”让行标志、限速25英里/小时标志牌，以及“DO NOT PASS”禁超标志。【关键风险】自车转弯时需注意左侧对向车道车辆可能因视线遮挡而突然加速；路边停放车辆虽静止，但其位置靠近弯道内侧，可能影响自车转弯半径判断。",
+      "risk_tags": [
+        "turning_obstacle",
+        "limited_view_on_curve",
+        "parked_vehicle_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "【环境】阴天，光线均匀，无强光或阴影干扰。【自车】沿主干道直行，保持匀速，当前位于中间车道。【周围交通参与者】前方有一辆深灰色SUV在同车道行驶，尾灯亮起，表明其可能减速或准备变道；左侧对向车道有多辆汽车正常通行，包括一辆白色轿车在加油站前临时停靠。【交通设施】道路两侧设有多个交通标志：左侧为“RIGHT LANE MUST TURN RIGHT”指示牌，右侧为“NORTH / SOUTH”方向指引牌，前方可见红绿灯信号系统（当前为红灯）。【关键风险】前方SUV刹车灯常亮，提示其可能即将停车，自车需保持安全距离以防急刹；前方红灯路口存在车辆闯灯或抢行风险，尤其在非高峰时段易发生违规行为。",
+      "risk_tags": [
+        "following_vehicle_braking",
+        "red_light_violation_risk",
+        "lane_direction_confusion"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】阴天，无降水，路面干燥，视野开阔。【自车】在中间车道继续直行，接近前方红灯路口，车速逐渐降低。【周围交通参与者】前方SUV在红灯前完全停止，尾灯持续亮起；左侧对向车道有一辆白色轿车在路口左转车道等待，未越线；右侧辅路入口处有绿色“NO U-TURN”禁止掉头标志。【交通设施】路口设有交通信号灯柱、人行横道标线、禁止左转/掉头标志牌，以及“NO STANDING ANYTIME”禁停标识。【关键风险】自车需在红灯前稳定停车，避免因跟车过近导致追尾；右侧辅路入口处若有人突然横穿，将构成“鬼探头”风险；左侧对向车辆若在绿灯亮起后未及时启动，可能导致自车延误。",
+      "risk_tags": [
+        "red_light_compliance_required",
+        "crossing_traffic_risk",
+        "delayed_vehicle_impact"
+      ]
+    }
+  ]
+}

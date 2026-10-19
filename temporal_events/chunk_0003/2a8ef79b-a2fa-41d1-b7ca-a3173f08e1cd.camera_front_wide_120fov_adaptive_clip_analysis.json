@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:56:38",
+    "processing_time_seconds": 13.11
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "夜间，自车停在十字路口前，前方交通信号灯为红灯，右侧可见Target商店招牌及棕榈树，左侧有低矮商业建筑，路面标线清晰，无行人或近距离车辆交互。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:07",
+      "scene_description": "信号灯转绿，自车开始向前行驶，前方对向车道有车辆驶来，右侧人行横道附近无行人，道路两侧路灯照明良好，树木沿路排列，未见明显障碍物或突发行为。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "自车持续直行通过交叉口，进入主干道，左侧有白色轿车从后方超车并汇入同向车道，右侧路边出现商铺与停放车辆，交通流平稳，无行人或紧急事件。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "自车保持匀速行驶于多车道城市道路，两侧树木茂密，远处可见绿色信号灯，无显著横向交通参与者干扰，未见行人穿越或变道冲突，环境安静有序。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车继续沿直线道路前行，右侧出现停车场和建筑物，左侧有车辆快速驶过，前方无红绿灯或行人，整体交通状况稳定，自车未进行转向或减速操作。"
+    }
+  ]
+}

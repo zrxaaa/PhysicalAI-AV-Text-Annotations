@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:12",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.38,
+    "analysis_time": "2026-01-23 15:53:09"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，树荫投射于路面，无异常天气。【自车】位于中间车道，沿弯曲街道匀速前行，未进行转向或变道。【左侧】一辆白色丰田Yaris停靠在路边，其后方依次停放多辆白色厢式货车；一名穿白大褂的行人从店门口走出并横穿人行道。【右侧】停放多辆摩托车与自行车，一名戴蓝色头盔的骑手从右后方驶入画面，沿道路中线向前行驶。【交通设施】右侧路牌显示“P 2 ROUES”，指示两轮车停车区。【关键风险】骑手在机动车道内行驶，未使用非机动车道，存在与自车发生碰撞的风险（Crossing Intent）。",
+      "risk_tags": [
+        "crossing_intent",
+        "non_motorized_in_road"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】阳光透过树叶形成斑驳光影，能见度良好。【自车】保持中间车道匀速前进，随道路曲线自然行驶，无转向动作。【左侧】沿街商铺前有绿植遮挡，可见数辆轿车与厢式货车停靠；一名穿深色外套的行人站在店门口，面朝自车方向，双手插兜，无移动意图。【右侧】多辆汽车与摩托车沿路边停放，其中一辆黑色SUV在前方约15米处缓慢倒车，未完全退出车位。【交通设施】前方路口出现红绿灯信号杆，当前为红灯状态；远处可见一座教堂建筑，其钟楼清晰可见。【关键风险】右侧黑色SUV倒车行为未完成，车身部分侵入行车道，存在“开门杀”或突然启动风险（Obstacle in Path），需警惕其动态变化。",
+      "risk_tags": [
+        "partial_obstacle",
+        "uncompleted_reversal",
+        "parked_vehicle_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:12",
+      "scene_description": "【环境】天空云层较厚，光线略暗，但无降雨或强光干扰。【自车】在十字路口前减速至停止，等待红灯。【前方】两名行人（一男一女）从左向右横穿人行横道，男性穿深色夹克、女性穿浅色上衣，两人均低头看手机，步速稳定，无避让意图。【右侧】一辆白色厢式货车停在路口右转车道，车头朝向自车，驾驶员可见，车辆静止。【交通设施】红灯亮起，右侧交通信号灯为红色箭头，禁止右转；左侧人行横道标线清晰，设有斑马线护栏。【关键风险】行人无视交通信号，在红灯期间横穿马路（Jaywalking），且低头看手机，对周围环境感知能力下降，存在与自车发生碰撞的高概率风险（High Collision Risk）。同时，右侧货车虽静止，但若突然启动将构成切出风险（Cut-out）。",
+      "risk_tags": [
+        "jaywalking",
+        "distracted_pedestrian",
+        "red_light_crossing",
+        "cut_out_risk"
+      ]
+    }
+  ]
+}

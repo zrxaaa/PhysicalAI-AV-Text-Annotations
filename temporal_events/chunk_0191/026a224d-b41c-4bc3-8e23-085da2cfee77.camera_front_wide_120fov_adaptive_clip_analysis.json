@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 10.89,
+    "analysis_time": "2026-01-24 11:43:35"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间，天空阴云密布，路面湿滑反光严重，能见度受路灯与车灯影响。【自车】在中间车道匀速沿道行驶，雨滴附着于挡风玻璃，部分遮挡视线。【左侧】一辆红色轿车从左后方快速超车并驶离；【右侧】一辆白色面包车停靠在路边，随后启动向右前方变道，切入自车所在车道的右侧邻道。【交通设施】前方路口地面标有“STOP”字样，右侧设有红底白字八角形停车标志牌。【关键风险】白色面包车突然启动并横向切入，存在切出（Cut-out）风险，但未完全侵入自车路径，未触发紧急避让。",
+      "risk_tags": [
+        "cut_out_risk",
+        "low_visibility",
+        "sudden_vehicle_movement"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】持续阴雨天气，路灯照明下路面水雾弥漫，部分区域出现薄雾。【自车】在中间车道完成路口左转动作，转向角度约30°，车头偏航角变化明显。【左侧】对向车道车辆稀少，有序通行；【右侧】白色栅栏围合的人行道旁停放多辆私家车，其中一辆白色SUV静止于路肩。【交通设施】路口处设有“STOP”地面标识及停车标志牌，自车在接近时减速至停止状态，遵守交通规则。【关键风险】自车左转过程中，右侧人行道边缘有行人轮廓模糊可见，因距离较远且光线昏暗，无法判断其面部朝向或肢体动作，存在潜在“鬼探头”风险，但无实际横穿行为发生。",
+      "risk_tags": [
+        "left_turn_maneuver",
+        "ghost_probe_potential",
+        "pedestrian_occlusion"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雨势略有减弱，但仍保持湿滑路面，路灯灯光在湿润沥青上形成强烈反射。【自车】完成左转后进入新路段，保持中间车道匀速行驶。【右侧】沿路停放多辆汽车，包括银色SUV、红色轿车等，部分车辆尾灯亮起；【左侧】对向车道有车辆驶来，车流密度适中。【交通设施】道路标线清晰，包含双黄实线、自行车道标识及“STOP”字样重复出现。【关键风险】右侧路边停放车辆中，一辆银色SUV突然启动并向左前方移动，意图驶入主路，存在“强行加塞”（Aggressive Cut-in）趋势，但未完全切入自车车道，自车维持原速未作避让，风险等级中等。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "wet_road_surface",
+        "parked_vehicle_unexpected_movement"
+      ]
+    }
+  ]
+}

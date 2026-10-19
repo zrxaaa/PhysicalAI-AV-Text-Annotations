@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.55,
+    "analysis_time": "2026-01-22 01:35:36"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴朗天气，能见度良好，无异常光照或路面状况。【自车】位于中间车道，匀速沿直道行驶，未进行转向或变道。【右侧】路边出现灰色两层建筑（St. Stephen's Lutheran Church Child Development Center），其旁有白色SUV停放；随后出现黄色消防栓和木质围栏。【左侧】对向车道有银色轿车驶过，与自车保持安全横向距离。【交通设施】道路两侧绿化带完整，无施工锥桶或障碍物。【关键风险】无显著风险，车辆均在合法车道内有序行驶。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】阳光充足，部分区域因树木投射阴影形成局部明暗交替。【自车】保持中间车道匀速前行，随道路轻微弯曲沿线行驶。【前方】一辆深色SUV在前车流中稳定行驶，未见急刹或变道。【右侧】出现“SIGNAL AHEAD”路面标记，提示前方路口；同时可见绿色路牌指示“Santa Clara County Animal Services / Animal Shelter”，以及一栋红顶单层建筑（Pottery Planet）。【左侧】对向车道有白色皮卡、银色轿车等依次通过，无违规行为。【交通设施】前方路口设有黄底菱形交通信号灯预告标志，但当前为绿灯状态，通行顺畅。【关键风险】无明显风险，仅存在常规交叉口预期减速准备。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】晴天，光线从侧前方照射，部分区域产生眩光。【自车】在中间车道维持匀速，接近前方交叉路口。【前方】自车跟随一辆深灰色SUV（车牌被模糊处理）行驶，该车于第16秒开始减速，最终在第17秒完全停止，处于红灯前停车线后。【左侧】一辆银色SUV从左转车道切入直行车道，未打转向灯，紧贴自车左侧并行，存在潜在加塞风险。【右侧】人行道旁设有一个黄色消防栓，其后方有行人站立（面部朝向街道，双手插兜，静止观察），无横穿意图。【交通设施】前方为十字路口，交通信号灯显示为红色，倒计时器正在运行（显示约8秒）。【关键风险】左侧银色SUV存在“违规加塞”行为（Aggressive Cut-in），且未开启转向灯，可能引发碰撞或迫使自车紧急制动；同时，右侧行人虽未移动，但处于车辆盲区边缘，存在“鬼探头”潜在风险（Occlusion Risk）。此外，前方红灯倒计时与自车减速动作同步，属于正常交通交互，不构成突发危险。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "occlusion_risk",
+        "red_light_waiting"
+      ]
+    }
+  ]
+}

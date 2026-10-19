@@ -1,0 +1,43 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.61,
+    "analysis_time": "2026-01-21 22:36:56"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】暴雨天气，雨滴密集覆盖前挡风玻璃，能见度显著降低；路面湿滑积水，车辆行驶时溅起水雾。【自车】位于中间车道，执行匀速沿道行驶，未进行变道或急刹。【左侧】一辆白色Homedepot货车（车头朝向与自车同向）在左邻车道并行，车速略低于自车；其后方有一辆蓝色篷布半挂车，正缓慢向前移动。【右侧】一辆白色雷克萨斯SUV在右邻车道，保持稳定车距。【交通设施】前方高架路牌显示“EXIT 11 EAST 90 Spokane ½ MILE”和“WEST 90 Seattle ½ MILE”，指示牌下方有黄色“EXIT ONLY”标识，提示出口专用车道。【关键风险】左侧蓝色半挂车因载货篷布松动，在行驶中轻微晃动，存在货物掉落风险；右侧白色SUV在湿滑路面下刹车灯频繁亮起，暗示制动距离延长，需警惕其突发减速。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility",
+        "cargo_unsecured",
+        "braking_distance_increase"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】雨势略有减弱，但视野仍受水雾干扰；道路两侧绿化带茂密，左侧山坡可见施工脚手架结构。【自车】维持中间车道匀速行驶，无明显加减速。【左侧】多辆大型货运卡车（含红色、白色、蓝色）在左邻车道排队缓行，部分车辆开启转向灯准备变道；其中一辆白色SAIL Freight卡车车身印有“SAIL TL Freight”字样，正在缓慢超越自车。【右侧】白色保时捷Cayenne SUV持续在右邻车道行驶，与自车保持约15米间距。【交通设施】道路右侧设置橙色锥桶围挡，提示前方施工区域；左侧山坡上可见临时金属支架结构，可能为桥梁或隧道施工。【关键风险】左侧多辆卡车同时变道意图明显，形成“多车切出”趋势，易引发车道冲突；右侧保时捷在湿滑路面下加速超车，存在侧滑风险。",
+      "risk_tags": [
+        "multi_vehicle_cut_out",
+        "wet_road_acceleration_risk",
+        "construction_zone_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】雨势持续，能见度低至约50米；道路两侧树木浓密，右侧混凝土护栏旁有施工围挡及木制脚手架。【自车】在中间车道持续匀速行驶，未进行横向移动。【左侧】多辆私家车（含黑色马自达3、白色丰田普锐斯、蓝色皮卡）在左邻车道排队缓行，部分车辆开启危险灯，疑似遭遇拥堵；其中一辆黑色马自达3在自车左前方约8米处，车尾灯亮起，表明其处于制动状态。【右侧】白色保时捷Cayenne在右邻车道持续跟随自车，车距稳定在10-15米；其后方出现一辆银色奔驰轿车，正试图从右侧超车。【交通设施】前方道路进入施工区，右侧设有连续橙白相间锥桶围挡，左侧山坡可见施工脚手架延伸至远处。【关键风险】左侧多车制动+排队，形成“长队拥堵”场景，存在追尾风险；右侧奔驰轿车在湿滑路面下强行超车，且未保持足够安全距离，构成“违规加塞”行为；自车前方车辆频繁刹车，导致视线被遮挡，存在“鬼探头”隐患（如前方突然出现行人或障碍物）。",
+      "risk_tags": [
+        "traffic_congestion",
+        "tailgating_risk",
+        "illegal_lane_change",
+        "ghost_probe_risk",
+        "reduced_visibility"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 10.72,
+    "analysis_time": "2026-01-24 00:01:27"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】黄昏时分，天空呈灰蓝色，光线昏暗但无明显降水或雾气，能见度良好。【自车】位于中间车道，匀速沿直道行驶。【左侧】一辆深色轿车从左前侧邻车道快速超车并切入自车前方，完成变道动作；其后方有一辆白色面包车在同车道保持匀速。【右侧】一辆银色SUV在右后方车道行驶，与自车保持安全距离，未发生交互。【交通设施】道路两侧设有护栏、路灯及限速40km/h标志牌，右侧可见大型电子广告牌（无显示内容）。【关键风险】左侧车辆突然加速并切入，存在“鬼探头”潜在风险，因超车路径紧贴自车，需警惕其可能的紧急制动或失控。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "close_proximity_crossing",
+        "high_speed_crossing"
+      ]
+    },
+    {
+      "time_segment": "00:00:06-00:00:12",
+      "scene_description": "【环境】光照持续减弱，但仍属正常日落过渡期，无异常天气。【自车】保持中间车道匀速行驶，接近前方高架桥下区域。【前方】银色SUV在右前方车道稳定行驶，尾灯亮起，表明其正在减速准备进入弯道或匝道。【右侧】高架桥结构清晰，桥墩密集，下方有多个导向箭头标线。【交通设施】右侧出现“MADRID”方向指示牌及环岛预告标志，提示前方为复杂交叉路口。【关键风险】前方车辆刹车行为预示即将变道或减速，若自车未及时调整速度，可能发生追尾或被迫急刹。此外，高架桥阴影区可能造成局部视野下降，增加盲区风险。",
+      "risk_tags": [
+        "braking_vehicle_ahead",
+        "bridge_shadow_blind_spot",
+        "lane_change_prediction"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】天色进一步变暗，但无降雨、大雾或强逆光干扰。【自车】开始向右轻微转向，沿道路曲率进入右转弯道，车身姿态随弯道平缓调整。【右侧】银色SUV已在右前方完成变道，进入右侧匝道引导车道，逐渐远离自车。【左侧】对向车道车辆继续有序通行，无异常行为。【交通设施】道路右侧设置三角形让行标志，提示前方为合流或交叉口。高架桥结构从上方掠过，桥下空间开阔，无遮挡物。【关键风险】自车进入弯道时需注意横向加速度变化，同时右侧匝道入口处可能存在其他车辆汇入，需提防“切出”或“强行加塞”行为。当前段无直接碰撞威胁，但属于高动态交互过渡区，应保持警觉。",
+      "risk_tags": [
+        "curved_road_navigation",
+        "merge_point_preparation",
+        "lateral_acceleration_change"
+      ]
+    }
+  ]
+}

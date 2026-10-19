@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.94,
+    "analysis_time": "2026-01-22 04:40:33"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】浓雾天气，能见度极低（<50米），太阳位于左上方形成强逆光眩光，路面湿滑反光。【自车】在中间车道沿直线道路匀速前行，未进行转向或变道。【左侧】路肩处可见多棵无叶枯树，部分树枝倒伏于路边，存在潜在落物风险。【交通设施】左侧电线杆与架空线缆密集，随道路弯曲延伸，未见明显标志牌。",
+      "risk_tags": [
+        "low_visibility",
+        "obstacle_risk",
+        "wet_road"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】雾气略有消散，但整体仍为灰蒙蒙阴天，能见度约80–100米。【自车】保持在中间车道匀速行驶，随道路轻微右弯。【前方】对向车道出现一辆银色SUV，从左前方驶来并完成超车，未进入自车车道；其后方还有一辆深色轿车，保持安全距离。【右侧】路边草地与石砌护坡，有数根电线杆沿路排列，无行人或动物活动迹象。【交通设施】道路右侧设白色实线分隔机动车道与非机动车道，未见施工区域或锥桶。",
+      "risk_tags": [
+        "cross_traffic",
+        "moderate_visibility"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雾层进一步稀薄，阳光穿透云层，形成局部高亮区，但仍存在视觉干扰。【自车】维持当前车道匀速沿弯道行驶，车头偏航角随道路曲率平缓调整。【左侧】对向车道出现一辆大型工程卡车（疑似混凝土搅拌车），车身宽大，从左前侧驶过，未发生切入行为；其后方紧随一辆小型轿车。【右侧】远处可见零星住宅建筑群，路边树木枝干裸露，无明显障碍物。【关键风险】因雾气残留及逆光影响，前方车辆尾灯亮度被削弱，存在“刹车灯识别延迟”风险；同时，左侧工程车车身高度遮挡视线，可能引发“鬼探头”隐患（如突然出现的行人或自行车）。",
+      "risk_tags": [
+        "brake_light_delay",
+        "occlusion_risk",
+        "heavy_vehicle_crossing"
+      ]
+    }
+  ]
+}

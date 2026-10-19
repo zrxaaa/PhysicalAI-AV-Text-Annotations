@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.92,
+    "analysis_time": "2026-01-21 23:03:09"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】阴天，路面湿滑，挡风玻璃存在明显水雾/污渍，影响视线清晰度。【自车】在中间车道匀速沿道行驶，未见明显转向或变道动作。【左侧】多辆静止停放的车辆（含白色SUV、银色轿车）沿路边排列，部分车辆位于人行道边缘。【右侧】一辆银色轿车停靠在路肩，后方有树木遮挡。【交通设施】道路两侧为典型住宅区，可见电线杆、路灯及低矮围栏。【关键风险】挡风玻璃水雾导致视野受限，存在视觉盲区；左侧停放车辆可能引发“开门杀”风险，但无行人或突然开启车门行为。",
+      "risk_tags": [
+        "reduced_visibility",
+        "parked_vehicle_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:06-00:00:12",
+      "scene_description": "【环境】天气仍阴沉，能见度略有改善，路面仍有积水反光。【自车】保持中间车道匀速前行，随道路曲线自然行驶，未进行横向变道。【左侧】出现一辆银色SUV从停车区域驶出，向左前方切入车道，意图并入自车所在车道。【右侧】一辆银色皮卡静止停靠，后方有灌木丛遮挡。【交通设施】道路两侧房屋密集，部分门前有小型花园和落叶堆积。【关键风险】左侧SUV无转向灯提示即强行切入，构成“违规加塞”行为，对自车形成潜在碰撞威胁，需紧急制动或避让。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "unannounced_lane_change",
+        "wet_road_surface"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】天空云层较厚，光线昏暗，路面持续湿润，散落大量秋季落叶。【自车】接近十字路口，减速准备右转或直行。【前方】路口处有多栋联排住宅，部分车库门关闭，门前停放车辆（含蓝色皮卡、银色SUV）。【右侧】一处木质栅栏后方有行人模糊身影，但无法确认其动作与朝向。【交通设施】路口设有街牌（可辨识为“EAST 3RD ST”），但无信号灯控制。【关键风险】自车即将进入交叉口，右侧行人存在“鬼探头”可能性；落叶覆盖路面可能导致轮胎打滑；无信号灯情况下需高度警惕横向来车或行人横穿。",
+      "risk_tags": [
+        "intersection_crossing_risk",
+        "fallen_leaves_slippery",
+        "ghost_probe_potential",
+        "no_traffic_signal"
+      ]
+    }
+  ]
+}

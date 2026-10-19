@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 07:44:55",
+    "processing_time_seconds": 15.23
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "自车在湿滑的双车道公路上匀速行驶，道路右侧有光秃树木和草地，左侧为开阔草坪。前方路面上出现白色左转箭头标线，无其他车辆或行人干扰。",
+      "scene_description_2": "天气阴沉有雾，能见度较低，路面因潮湿反光。自车未进行转向或变速操作，保持直线行驶姿态。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "自车开始向左转弯，进入一个环形交叉路口区域，道路两侧出现路灯和空旷停车场。远处可见一栋大型建筑轮廓，但无明显交通参与者。",
+      "scene_description_2": "转弯过程中，自车平稳减速并调整方向，未与其他车辆发生交互。路边设有红色倒三角让行标志，但无车辆或行人接近。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:16",
+      "scene_description": "自车完成转弯后重新驶入直道，道路右侧出现自行车道标识和白色箭头指示。左侧草坪边缘有几棵新栽种的幼树，无行人或障碍物。",
+      "scene_description_2": "自车恢复匀速行驶，未进行变道或紧急制动。环境持续阴雨，视野模糊，但道路标线仍可辨识，无显著动态风险。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车继续沿直道前进，前方出现一个黑色箱状物体（疑似路边设施），位于右侧路肩旁。无其他车辆或行人出现在自车路径上。",
+      "scene_description_2": "天气状况未改善，雾气弥漫，路面湿滑。自车维持稳定行驶状态，未改变车道或速度，场景整体平静无冲突。"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.88,
+    "analysis_time": "2026-01-23 01:03:42"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天多云，光线柔和，无明显降水或强逆光。路面干燥，能见度良好。【自车】位于中间车道，沿直道匀速行驶，未进行转向或变道。【周围交通参与者】左侧对向车道有车辆驶过，右侧路边停放多辆私家车，无行人活动。【交通设施】前方路口信号灯为绿灯，道路标线清晰，路旁设有路灯及交通指示牌（含“Liermann Ave”路牌）。【关键风险】无显著风险，场景平稳。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】天空云层较厚，光线略暗，接近黄昏。路面仍干燥，无积水或结冰。【自车】保持在中间车道，匀速接近前方交叉口。【周围交通参与者】右侧人行道上一名穿红色外套的行人正沿街行走，方向与自车行驶方向垂直，距离约15米，未进入车道区域；左侧对向车道有车辆正常通行。【交通设施】前方交叉口信号灯由绿灯转为黄灯，随后变为红灯，悬挂于道路正上方，位置明确。【关键风险】无违规行为或遮挡风险，但信号灯变化需注意停车准备。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】天空云层密布，光线持续减弱，属黄昏过渡时段。路面干燥，无天气异常。【自车】在红灯前完全停止，位于中间车道，车头与停止线距离约5米。【周围交通参与者】左侧车道一辆白色厢式货车从左向右快速通过交叉口（闯红灯行为），未在红灯时停车；其后方一辆黑色轿车亦在红灯时加速左转，存在高风险博弈行为。右侧路边停放车辆静止，无行人靠近车道。【交通设施】红灯持续亮起，信号灯杆上挂有“Liermann Ave”路牌，右侧建筑外墙有“HOME OF Merb's CANDIES”广告牌，不影响视线。【关键风险】存在严重闯红灯行为（Aggressive Violation of Traffic Signal），黑色轿车左转意图与自车路径冲突，可能引发碰撞；同时白色货车横穿路口，构成“鬼探头”潜在威胁（因自车处于静止状态，视野受限）。需紧急制动或避让预案。",
+      "risk_tags": [
+        "aggressive_violation_of_traffic_signal",
+        "collision_risk",
+        "ghost_probe_potential"
+      ]
+    }
+  ]
+}

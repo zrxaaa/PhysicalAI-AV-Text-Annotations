@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 08:20:51",
+    "processing_time_seconds": 13.73
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车在十字路口等待绿灯，前方一辆白色轿车正通过交叉口，右侧人行道有行人站立，交通信号灯为绿灯，道路标线清晰，天气阴沉但无雨，路面干燥。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "自车启动并沿直行车道行驶，左侧出现高架桥和路牌指示“RAMP METER AHEAD”，右侧路边有“RIGHT LANE MUST TURN RIGHT”标志，远处可见JPMorgan Chase大楼，车辆平稳加速进入主干道。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "自车驶入高速公路入口匝道，前方出现“FREEWAY ENTRANCE”绿色指示牌，左侧车道有车辆汇入，右侧为混凝土隔音墙，交通流量增大，自车保持中速行驶并逐渐并入主路最右侧车道。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "自车在高速公路上匀速行驶，左侧为多车道主路，有车辆频繁变道，右侧为高架桥结构与隔音墙，前方出现黄色“LANE ENDS AHEAD”警示牌，自车未进行变道或减速，保持当前车道。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车继续沿高速公路直行，前方车辆保持稳定车距，左侧车道有SUV缓慢超车后并回原车道，右侧隔音墙延伸至视野尽头，天空阴云密布，无明显降水迹象，整体交通流畅无阻。"
+    }
+  ]
+}

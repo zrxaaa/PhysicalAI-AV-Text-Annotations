@@ -1,0 +1,36 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.98,
+    "analysis_time": "2026-01-22 03:06:18"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴朗天气，能见度良好，无异常光照或路面状况。【自车】位于中间车道，匀速沿直道行驶。【左侧】对向车道有多辆汽车（包括一辆银色SUV、一辆黑色皮卡）依次驶过，均未侵入本车道；右侧路边设有行人过街标志、STOP标志及“SALINAMISH LANDING”路牌，人行道旁有垃圾桶和灌木丛。【交通设施】路口处设有人行横道与黄色导向箭头，提示车辆礼让行人。【关键风险】无明显违规行为或障碍物，但右侧路边停放多辆车，存在潜在“开门杀”风险（如后方车门突然开启），需保持警惕。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】道路进入缓弯段，两侧植被茂密，右侧为石砌挡土墙与住宅区，左侧为护栏与水域（远处可见）。【自车】保持中间车道，随道路曲率自然前行，未进行变道或转向。【周围车辆】左侧对向车道持续有车辆驶过（如红色皮卡、黑色轿车），均在自身车道内正常行驶；前方约50米处有一辆深色轿车同向行驶，速度稳定。【交通设施】右侧路边出现蓝色“PLEASE DON'T DRINK AND DRIVE”警示牌，后方有“SPEED LIMIT 35”限速标志。【关键风险】右侧石墙上方有房屋阳台，存在行人从高处坠落或抛物风险；同时，道路弯曲且视线受树木遮挡，存在“鬼探头”隐患——尤其在弯道前，可能有行人或非机动车突然从树后出现，需减速观察。",
+      "risk_tags": [
+        "ghost_probe_risk",
+        "obstruction_by_vegetation",
+        "high_drop_structure_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】道路继续沿缓弯延伸，两侧绿植浓密，左侧护栏外可见开阔水域，右侧为陡坡与石墙。【自车】维持当前车道，匀速沿弯曲道路前行，未发生转向或变道。【周围车辆】前方及对向车道均有车辆正常通行，其中一辆白色奔驰轿车从左前方超车并完成切出，动作流畅，未影响自车。【交通设施】道路右侧设有“SPEED LIMIT 35”标志，前方无红绿灯或复杂交叉口。【关键风险】无突发障碍物或违规行为；但因道路两侧植被密集，部分路段视野受限，若遇紧急制动，后车可能因视线盲区追尾。此外，右侧山坡区域存在滑坡或落石潜在风险，虽未显现，但属于长尾安全关注点。",
+      "risk_tags": [
+        "limited_visibility",
+        "rear-end_collision_risk",
+        "slope_stability_concern"
+      ]
+    }
+  ]
+}

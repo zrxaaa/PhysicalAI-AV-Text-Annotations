@@ -1,0 +1,36 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.92,
+    "analysis_time": "2026-01-22 14:47:16"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "【环境】夜间行车，天空无云但存在明显雾气或水汽，导致路灯产生光晕和眩光，能见度中等偏低。【自车】位于中间车道，沿直线道路匀速行驶，未进行转向或变道。【周围车辆】前方约50米处有一辆白色轿车在同向车道内匀速行驶；左侧对向车道有数辆车驶过，车灯清晰可见。【交通设施】道路两侧设有路灯，右侧可见“DIVER DAN'S”商店招牌及棕榈树，左侧有“MOTEL”标识建筑。【关键风险】无明显违规行为或障碍物，但强光眩光可能影响对远处信号灯的识别。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】进入交叉路口区域，光照由均匀街灯转为多组红绿灯与黄色警示灯混合照明，眩光加剧。【自车】保持当前车道，减速准备停车，纵向动作由匀速转为制动。【前方交通参与者】前方路口横向车流较多，部分车辆在红灯前停止；右侧人行横道清晰可见，路边有行人站立（未移动）。【交通设施】路口上方悬挂“Los Padres”与“El Camino Real”路牌，多个方向红灯亮起，其中自车直行方向为红灯。【关键风险】自车需在红灯前完全停止，若因眩光误判信号灯状态可能导致闯红灯；右侧人行道上行人静止，但未观察其面部朝向或肢体动作，存在潜在横穿风险。",
+      "risk_tags": [
+        "red_light_stop_required",
+        "signal_confusion_risk",
+        "pedestrian_crossing_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】夜间持续雾气，灯光散射严重，视野边缘模糊。【自车】已完全停止于交叉路口停车线后，保持静止状态，等待直行绿灯。【周围车辆】左侧对向车道有多辆汽车同时停在红灯前，部分车辆尾灯亮起；右侧车道有车辆缓慢右转，未影响自车。【非标准物体】无特种车辆、动物或路面遗撒物。【交通设施交互】自车正前方为三组垂直红灯，右侧为“El Camino Real”方向红灯；左转箭头灯未亮，表明禁止左转。【关键风险】长时间停车期间，若后方车辆急刹或强行加塞（Aggressive Cut-in），可能引发追尾或碰撞；由于眩光和雾气，无法确认远处是否有行人或非机动车突然出现，存在遮挡盲区风险。",
+      "risk_tags": [
+        "long_stop_risk",
+        "aggressive_cut_in_potential",
+        "occlusion_risk"
+      ]
+    }
+  ]
+}

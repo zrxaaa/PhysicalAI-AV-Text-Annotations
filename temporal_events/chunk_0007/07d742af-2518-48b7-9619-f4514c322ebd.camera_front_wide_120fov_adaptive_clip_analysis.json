@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 01:41:17",
+    "processing_time_seconds": 16.96
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车在双车道公路上匀速行驶，左侧对向车道有一辆白色厢式货车正在超车，随后驶离视野。右侧路边有绿色路牌指示‘Sattsville Road’，天气晴朗，能见度良好。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "前方道路无明显障碍，车辆保持直行。左侧出现蓝色遮阳棚下的临时摊位，一辆银色SUV从左侧车道驶入并超越自车，随后消失于视野。道路两侧为干草田和稀疏树木。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "自车继续沿直线道路行驶，右侧出现一排高大柏树与白色围栏，远处可见限速55英里标志牌。左侧为葡萄园，电线杆沿路排列，无其他车辆或行人交互。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:18",
+      "scene_description": "道路两侧植被逐渐变为成片的葡萄藤与阔叶树，右侧出现美国国旗立柱。自车未变道或减速，前方有一辆深色轿车保持匀速行驶，与自车维持安全距离。"
+    },
+    {
+      "time_segment": "00:00:18-00:00:20",
+      "scene_description": "自车接近一个树荫覆盖的路段，阳光透过树叶形成斑驳光影。道路右侧出现铁门和栅栏，左侧葡萄园延伸至远方，无其他动态交通参与者，整体环境宁静平稳。"
+    }
+  ]
+}

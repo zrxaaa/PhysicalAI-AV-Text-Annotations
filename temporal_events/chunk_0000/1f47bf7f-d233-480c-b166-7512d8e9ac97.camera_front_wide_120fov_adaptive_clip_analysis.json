@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 22:22:37",
+    "processing_time_seconds": 17.09
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "夜间街道，自车从静止状态起步，右侧一辆红色轿车从右前方驶过并完成变道，路边停放多辆汽车，路灯照明下能见度良好。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "自车沿直线道路匀速行驶，前方可见数辆停靠在路边的车辆，左侧人行道旁有垃圾桶，右侧房屋装饰彩灯，无行人或突发障碍物出现。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车继续直行，右侧出现一辆蓝色轿车从后方快速超越，同时远处可见彩色灯光装饰的房屋，道路两侧树木和住宅轮廓清晰，无交叉路口或信号灯变化。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "自车接近街道末端，右侧出现一辆白色皮卡车驶离停车位，随后前方道路两侧停放更多车辆，路面略有落叶堆积，整体环境安静，无行人或动态障碍物交互。"
+    }
+  ]
+}

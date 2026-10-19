@@ -1,0 +1,43 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.36,
+    "analysis_time": "2026-01-23 01:10:00"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，云层厚重，光线昏暗，无明显降水但路面有湿滑反光迹象。【自车】位于中间车道，匀速沿直道前行，未进行转向或变道。【左侧】Denny's餐厅建筑及招牌清晰可见，门前停车场停有多辆私家车；右侧为一排高大棕榈树与低矮围栏建筑。【交通设施】前方路口信号灯组处于红灯状态，但未见明显车辆滞留。【关键风险】无显著风险，但云层低垂可能影响远距离视线，存在潜在天气突变风险。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】天空仍阴沉，能见度良好，无降水。【自车】保持在中间车道，匀速接近十字路口，车速约30mph。【左侧】Taco Bell餐厅建筑进入视野，其旁立有彩色旗帜；右侧出现“Woodlawn Ave”路牌及多根高耸棕榈树。【交通设施】前方交叉口信号灯由红转绿，横向车流开始通行。【周围参与者】左前方一辆银色SUV从对向车道驶入本车道准备左转，未打转向灯；右后方一辆红色轿车在人行横道前减速停车。【关键风险】左前方SUV突然切入本车道（Aggressive Cut-in），因未打灯且速度较快，存在碰撞风险，自车需紧急制动避让。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "un signaled_turn"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】阴天持续，无降雨，路面干燥。【自车】在绿灯亮起后加速通过交叉口，纵向动作为加速通过，横向无偏航。【左侧】Aunt Emma’s餐厅招牌清晰可见，其前方人行道上有两名行人正在过街，其中一人穿深色外套，面向自车方向行走，另一人背对自车，手持手机；两人均未走斑马线。【右侧】麦当劳（McDonald’s）和Black Bear餐厅并列，路边停放多辆汽车。【交通设施】路口设有黄色斑马线、左转箭头灯及“Yield to Pedestrians”标志。【非标物体】无特种车辆或动物出现。【关键风险】行人未走斑马线横穿马路（Jaywalking），且靠近自车行驶路径，存在“鬼探头”风险；同时，左转车辆与行人动线重叠，增加冲突概率。",
+      "risk_tags": [
+        "jaywalking",
+        "ghost_probe_risk",
+        "pedestrian_crossing"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】天空灰暗，无降水，光照均匀。【自车】已通过交叉口，恢复至中间车道匀速行驶。【周围参与者】左前方一辆白色皮卡（带橙色条纹，疑似市政或工程车辆）从左侧车道快速超车，完成切出动作；右前方一辆蓝色SUV正沿右侧车道直行，与自车同向。【交通设施】路口信号灯已转为黄灯，远处可见“W. Woodlawn Ave”路牌。【关键风险】皮卡超车时车身短暂侵入自车侧方安全区域，虽未发生碰撞，但存在切出干扰风险；此外，黄灯阶段其他车辆加速通过，可能引发闯黄灯事故。",
+      "risk_tags": [
+        "cut_out_interference",
+        "yellow_light_acceleration_risk"
+      ]
+    }
+  ]
+}

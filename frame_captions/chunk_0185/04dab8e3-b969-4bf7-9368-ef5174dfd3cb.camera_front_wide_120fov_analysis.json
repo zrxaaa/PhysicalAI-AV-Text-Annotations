@@ -1,0 +1,78 @@
+{
+  "analysis_metadata": {
+    "video_duration": "20.167",
+    "model_used": "qwen3-vl-flash",
+    "analysis_time": "2026-01-29 02:34:43",
+    "keyframe_count": 10,
+    "analysis_type": "natural_language_frame_analysis",
+    "frame_analysis_order": [
+      "00:00:00.033",
+      "00:00:02.267",
+      "00:00:04.500",
+      "00:00:06.733",
+      "00:00:08.967",
+      "00:00:11.200",
+      "00:00:13.433",
+      "00:00:15.667",
+      "00:00:17.900",
+      "00:00:20.167"
+    ],
+    "total_processing_time_seconds": 40.77,
+    "actual_keyframes": 10
+  },
+  "frame_descriptions": [
+    {
+      "timestamp": "00:00:00.033",
+      "scene_overview": "一辆车正行驶在晴朗天气下的林间柏油路上，道路两侧绿树成荫，阳光从左上方照射，路面有清晰的车道线。",
+      "object_descriptions": []
+    },
+    {
+      "timestamp": "00:00:02.267",
+      "scene_overview": "一辆车正行驶在晴朗天气下的林间柏油路上，道路两侧绿树成荫，阳光从左上方照射，路面无其他车辆或行人。",
+      "object_descriptions": [
+        "当前帧中未见其他车辆、行人或交通设施，道路前方及两侧均为空旷的自然环境。",
+        "路面为双向沥青路，中间有模糊的白色虚线分隔车道，道路向远处轻微弯曲，两侧被茂密树木和灌木环绕，右侧可见部分土坡。"
+      ]
+    },
+    {
+      "timestamp": "00:00:04.500",
+      "scene_overview": "一辆车正行驶在晴朗天气下的林间柏油路上，道路两侧绿树成荫，阳光从左上角照射，路面有树影。",
+      "object_descriptions": []
+    },
+    {
+      "timestamp": "00:00:06.733",
+      "scene_overview": "一辆车正行驶在晴朗天气下的林间柏油路上，道路两侧绿树成荫，路面有树影斑驳。",
+      "object_descriptions": []
+    },
+    {
+      "timestamp": "00:00:08.967",
+      "scene_overview": "车辆正行驶在一条被茂密绿树环绕的蜿蜒山路上，天气晴朗，路面为沥青材质且无明显交通标志或行人。",
+      "object_descriptions": []
+    },
+    {
+      "timestamp": "00:00:11.200",
+      "scene_overview": "一辆车正行驶在被茂密绿树环绕的狭窄柏油路上，天气晴朗，阳光充足，路面有树影斑驳。",
+      "object_descriptions": []
+    },
+    {
+      "timestamp": "00:00:13.433",
+      "scene_overview": "一辆车正行驶在晴朗天气下的林间柏油路上，道路两侧被茂密的绿树环绕，路面有树影斑驳。",
+      "object_descriptions": []
+    },
+    {
+      "timestamp": "00:00:15.667",
+      "scene_overview": "一辆车正行驶在被茂密绿树环绕的林间土路上，天气晴朗，阳光透过树叶洒在路面上。",
+      "object_descriptions": []
+    },
+    {
+      "timestamp": "00:00:17.900",
+      "scene_overview": "一辆车正行驶在晴朗天气下的林间柏油路上，道路两侧绿树成荫，阳光从左上方照射，路面无明显标线。",
+      "object_descriptions": []
+    },
+    {
+      "timestamp": "00:00:20.167",
+      "scene_overview": "一辆车正行驶在晴朗天气下的林荫乡间道路上，道路两侧绿树成荫，阳光从左上方照射，路面有清晰的车道线。",
+      "object_descriptions": []
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 00:58:58",
+    "processing_time_seconds": 12.23
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车沿双向两车道道路平稳行驶，右侧一辆白色SUV从后方加速并入中间车道，与自车保持平行行驶，未发生路径冲突。道路两侧有住宅和绿化带，天气晴朗，光照充足。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "前方路口出现多辆静止车辆，包括一辆蓝色轿车和一辆红色轿车，均停在路边或人行横道前。自车减速靠近路口，右侧出现一排棕榈树和商业建筑，无行人或突发障碍物。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "自车继续向前行驶，前方有一辆白色厢式货车在对向车道行驶，随后在路口右转驶离。道路右侧出现施工围栏和电线杆，但无人员活动。自车保持直行，未进行变道或急刹。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:18",
+      "scene_description": "车辆接近一个设有斑马线的十字路口，前方一辆大型房车停在右侧路边，未影响自车通行。道路两侧可见多层住宅楼和停车场，无行人穿越或交通信号灯变化。"
+    },
+    {
+      "time_segment": "00:00:18-00:00:20",
+      "scene_description": "自车通过十字路口后，右侧出现一排特斯拉充电桩及停放的电动汽车，远处有低矮工业建筑。自车维持当前车道匀速前进，未遇其他动态交通参与者或障碍物。"
+    }
+  ]
+}

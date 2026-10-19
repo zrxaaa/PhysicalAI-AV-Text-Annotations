@@ -1,0 +1,46 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.66,
+    "analysis_time": "2026-01-23 17:55:48"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，天空灰暗，无明显降水，路面干燥但光线昏暗，属黄昏或黎明时段。【自车】位于中间车道，匀速沿直道前行，未见明显转向或制动。【左侧】停放多辆私家车（红色、银色、黑色），部分车辆尾灯亮起；右侧亦有白色、银色车辆停靠。【右侧前方】一辆银色小型SUV从右侧路边驶出并切入自车所在车道，动作迅速且未打转向灯，存在加塞风险。【关键风险】右侧突发加塞行为（Aggressive Cut-in），对自车横向安全构成威胁。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "lane_blocking",
+        "low_light_visibility"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】持续阴天，能见度稳定，无天气突变。【自车】保持中间车道匀速行驶，随道路轻微弯曲向前。【左侧】多栋联排住宅楼，部分窗户透出暖黄色灯光，显示居民活动。【右侧】一辆白色厢式货车由后方超车并完成切出，动作流畅；同时，一辆红色小型轿车从右侧停车区驶出，缓慢汇入车流。【交通设施】道路两侧设有禁停标志牌（红圈白底），部分区域有“BANDE”字样路牌提示限速或禁止停车。【非标物体】无动物、施工车或遗撒物出现。【关键风险】右侧红色小车驶出时未充分观察，存在潜在碰撞风险，但未发生交互冲突。",
+      "risk_tags": [
+        "vehicle_merge_risk",
+        "parking_zone_crossing"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】光线进一步减弱，部分建筑窗户灯光更明显，表明时间推移至傍晚。【自车】维持中间车道匀速前进，道路呈缓弯趋势。【左侧】一辆蓝色SUV从左前侧邻车道缓慢超越自车，未进入本车道；其后方紧随一辆银色掀背车。【右侧】一辆深灰色Mini Cooper从右侧车位驶出，向右转弯进入支路，动作平稳。【交通设施】前方可见“ZONE 30”限速标志及“BANDE”区域标识，提示该路段为低速区。【关键风险】右侧Mini Cooper转弯时未完全退出主路，存在与自车发生侧面碰撞的潜在路径交叠，但因距离较远且动作可控，暂不构成紧急风险。",
+      "risk_tags": [
+        "side_turn_conflict",
+        "speed_zone_compliance"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】天空仍灰云密布，无降水迹象，整体光照均匀偏暗。【自车】在中间车道继续匀速行驶，接近视频终点。【左侧】多辆静止停放车辆，包括一辆红色SUV和一辆银色MPV，部分车尾灯亮起。【右侧】一辆白色奔驰SUV从右侧车位启动，缓慢驶离，随后被一辆银色轿车超越。【交通设施】道路尽头可见“NANCY”地名路牌，提示进入城镇中心区域。【非标物体】无动物、施工车或障碍物。【关键风险】右侧车辆启动时未开启转向灯，且位置靠近自车车道边界，存在轻微切出干扰风险，但未造成实际交互冲突。",
+      "risk_tags": [
+        "unsignaled_lane_change",
+        "end_of_street_transition"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:15:13",
+    "processing_time_seconds": 13.03
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在浓雾中沿城市道路行驶，前方十字路口信号灯为绿灯，一辆黑色SUV停在左转车道，右侧人行道可见行人轮廓。路面湿滑，能见度低，自车保持匀速通过交叉口。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:11",
+      "scene_description": "自车继续直行，左侧出现一排棕榈树和金属护栏，右侧为自行车道与人行道。前方白色轿车保持匀速行驶，左侧黑色SUV缓慢向前移动，未变道。远处可见红色雕塑结构，但被雾气遮挡。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:16",
+      "scene_description": "自车接近下一个路口，前方白色轿车开始减速，刹车灯亮起。右侧人行道上出现骑自行车者，与自车同向行驶。左侧黑色SUV仍保持在左车道，未有明显变道意图。环境持续浓雾，视线受限。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:20",
+      "scene_description": "前方交通信号灯转为红灯，自车及前方车辆均减速停车。右侧人行道上有两名行人正在过马路，其中一人携带包袋。自车在停止线后等待，周围无其他显著动态变化，雾气依旧浓厚。"
+    }
+  ]
+}

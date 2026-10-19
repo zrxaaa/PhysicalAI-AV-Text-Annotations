@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.36,
+    "analysis_time": "2026-01-23 18:06:01"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天多云，路面湿滑，有积水反光。【自车】在中间车道匀速沿道行驶，未见明显加减速。【左侧】路边有施工围挡区域，一名头戴黄色安全帽的工人正从左向右步行横穿人行道，其后方有一名行人同步行走。【交通设施】路面上标有“ECOLE RALENTIR”字样，提示前方为学校区域，需减速。【关键风险】工人与行人处于自车前方横向路径上，若自车未减速，存在碰撞风险；同时，施工围挡区域可能遮挡视线，增加盲区风险。",
+      "risk_tags": [
+        "pedestrian_crossing",
+        "school_zone_warning",
+        "obstruction_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】天空云层较厚，局部有阳光穿透，路面仍湿滑。【自车】保持匀速沿中间车道前行，接近前方斑马线。【右侧】一名骑自行车者由远及近，沿非机动车道向左转弯进入主路，其位置在自车右前方约8米处。【左侧】一名黑衣行人从左侧人行道走出，面向自车方向，步态平稳，正横穿斑马线。【交通设施】前方出现清晰的白色条纹斑马线，右侧设有蓝色“让行”标志牌（三角形警告标志）。【关键风险】行人与骑行者均位于自车前方横向路径，且行人未在斑马线外等待，属于违规横穿（Jaywalking），骑行者未观察主路车流，存在交叉冲突风险。",
+      "risk_tags": [
+        "jaywalking",
+        "crossing_conflict",
+        "inadequate_yielding"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】光线逐渐变暗，云层压低，能见度中等偏低。【自车】在中间车道维持匀速通过斑马线区域，无制动行为。【周围】左侧多栋住宅楼，右侧为高层公寓楼，路边停放多辆私家车。【行人交互】两名行人已完全穿过斑马线，其中一人背对自车，另一人侧身行走，均已脱离危险区域。【非标准物体】右侧人行道边缘有少量落叶堆积，未构成障碍。【交通设施】道路两侧设有路灯和交通指示牌，但无信号灯控制。【关键风险】虽行人已离开，但自车未因斑马线而减速，违反“礼让行人”的驾驶规范；此外，右侧高层建筑遮挡部分视野，存在潜在“鬼探头”风险（如突然出现的行人或车辆）。",
+      "risk_tags": [
+        "lack_of_pedestrian_yield",
+        "occlusion_risk",
+        "compliance_violation"
+      ]
+    }
+  ]
+}

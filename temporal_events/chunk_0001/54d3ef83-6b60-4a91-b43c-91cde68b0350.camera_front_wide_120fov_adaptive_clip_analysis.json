@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 22:56:03",
+    "processing_time_seconds": 12.21
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车沿双车道乡村公路匀速行驶，左侧为茂密树林与白色护栏，右侧为草地及零星树木；远处可见一辆深色轿车在前方同向行驶，天气阴沉但路面干燥。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "右侧出现金属护栏，道路两侧电线杆密集；一辆银灰色皮卡从对向车道驶来并完成超车，自车保持原车道未减速，无行人或其他障碍物出现。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "道路右侧出现一栋两层住宅，周围有高大乔木；前方车辆逐渐远离，自车继续直行，未见交叉路口或交通信号灯，环境安静且视野开阔。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "右侧路边出现小型商业建筑入口标识牌，停车场内停有多辆汽车；自车接近该区域时未减速，前方车辆仍保持匀速行驶，无行人或突发障碍。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "道路右侧出现多面旗帜与小型路牌，远处可见更多建筑物轮廓；自车持续直行，未发生变道或避让行为，整体场景平稳无显著动态交互。"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 22:56:45",
+    "processing_time_seconds": 21.29
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在高速公路最右侧车道匀速行驶，左侧车道有黑色SUV和白色轿车交替超车，右侧为高架墙与植被覆盖的土坡，前方出现黄色行人过街标志和橙色施工警示牌。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "车辆接近一个红灯路口，右侧交通信号灯显示红灯，旁边设有“STOP HERE ON RED”标志，自车减速并保持在当前车道，左侧车道有黑色SUV持续向前行驶，未发生变道或碰撞风险。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "自车在红灯前稳定停车，前方黑色SUV同样停在停止线后，左侧车道有银色轿车从左向右快速驶过，未与自车产生路径冲突，道路两侧墙体上有藤蔓植物，部分呈红色秋季特征。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "红灯转绿，自车与前方黑色SUV同时启动前行，左侧车道一辆灰色SUV加速并入本车道，与自车保持安全距离，道路右侧出现绿色高速公路编号路牌（I-65 North），无行人或其他障碍物。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车继续沿直道行驶，左侧灰色SUV完成超车后回到原车道，前方黑色SUV保持匀速，道路两侧无新增交通参与者或设施变化，天气晴朗，路面干燥无障碍。"
+    }
+  ]
+}

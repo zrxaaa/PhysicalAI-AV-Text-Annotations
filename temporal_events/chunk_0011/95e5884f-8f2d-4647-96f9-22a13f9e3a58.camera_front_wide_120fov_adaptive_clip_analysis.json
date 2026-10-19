@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 03:17:05",
+    "processing_time_seconds": 11.47
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车沿街道直行，左侧一辆银色轿车从对向车道驶过，右侧路边停有多辆汽车。阳光从前方照射，路面干燥，无明显障碍物。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "自车继续前行，接近十字路口，右侧出现蓝色小型车停靠，左侧人行道有行人步行。前方路面上标有“STOP”字样，交通标志显示为停车让行。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车在十字路口前减速停车，右侧人行道上一名穿粉色上衣的行人牵着狗正在横穿马路。远处可见多栋联排住宅楼和电线杆，天空晴朗。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "行人与狗完全通过路口后，自车启动继续直行，前方道路两侧停放车辆增多，右侧出现黄色隔离柱。阳光开始强烈，产生镜头眩光。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车保持匀速行驶，道路两侧建筑风格多样，部分房屋带有楼梯外廊。右侧人行道上有行人行走，未见显著交叉冲突，整体交通流畅。"
+    }
+  ]
+}

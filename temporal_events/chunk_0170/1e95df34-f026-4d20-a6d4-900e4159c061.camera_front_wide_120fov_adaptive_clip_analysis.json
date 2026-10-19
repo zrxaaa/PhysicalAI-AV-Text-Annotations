@@ -1,0 +1,44 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.68,
+    "analysis_time": "2026-01-24 04:41:06"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，云层较薄，光照均匀，无异常天气。【自车】在中间车道匀速沿道行驶，未见明显加速或减速。【左侧】停放多辆私家车及一辆白色面包车（Mercedes Sprinter），部分车辆旁有行人站立或行走。【右侧】商铺林立，包括“Dan Küchen”、“Bäckerei Aycan”等，人行道上有行人活动。【交通设施】道路两侧设有停车线与路缘石，无明显施工或障碍物。【关键风险】无显著违规行为或遮挡风险，场景平稳。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】光照稳定，天空云量适中，能见度良好。【自车】保持中间车道匀速前进。【前方】两名行人从右侧人行道横穿马路，其中一人穿浅色长裤、手持公文包，另一人穿深色上衣，两人均面向道路中央，步速较快，已进入自车行驶路径前方约8米处。【左侧】出现一辆黑色轿车从对向车道驶来，与自车同向行驶，未发生交互。【右侧】停有一辆蓝色小型车，后方为“Taekwondo 1”广告牌店铺。【关键风险】行人横穿未走斑马线，且位于自车正前方盲区边缘，存在潜在碰撞风险，但行人已开始横穿，自车未减速，构成轻微“鬼探头”隐患。",
+      "risk_tags": [
+        "pedestrian_crossing",
+        "no_crosswalk",
+        "potential_collision"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "【环境】阳光略偏斜，右侧建筑投下阴影。【自车】继续在中间车道匀速行驶。【右侧】一辆大型白色货车（车身印有“DENDE”字样）从右侧路边缓慢驶出，切入自车所在车道，车头朝向与自车一致，但速度较慢，未开启转向灯。【左侧】可见“BarberShop”、“Stoma Reisebüro”等店铺，门前停放多辆汽车。【交通设施】前方路口设有红绿灯，当前为红灯状态，但自车尚未完全停止。【关键风险】货车突然切入本车道，属于“非预期切出”行为，虽未造成直接冲突，但增加了横向避让需求，存在“切出”风险。",
+      "risk_tags": [
+        "cut_out_vehicle",
+        "unannounced_lane_change"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】光线柔和，树影投射于路面，无强逆光或雨雾。【自车】在接近十字路口时减速，准备停车等待红灯。【前方】红绿灯显示为红色，信号灯杆下方有“SCHULE”警示标志，提示学校区域。【左侧】人行道上有数名学生及家长聚集，部分行人正在过街，其中一名穿橙色外套的行人正从左向右横穿，动作迅速。【右侧】停有一辆银灰色宝马旅行车，车门微开，疑似有人刚下车。【交通设施】路口设有斑马线和交通柱，地面标线清晰。【关键风险】行人横穿与自车停车位置重叠，存在“开门杀”风险（右侧车门可能突然打开），同时学生群体密集，若自车未充分制动，易引发二次事故。",
+      "risk_tags": [
+        "pedestrian_crossing_at_intersection",
+        "door_opening_risk",
+        "red_light_waiting"
+      ]
+    }
+  ]
+}

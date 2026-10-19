@@ -1,0 +1,41 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.01,
+    "analysis_time": "2026-01-22 04:25:53"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】暴雨天气，雨滴密集覆盖前挡风玻璃，能见度严重降低。路面积水反光，形成水雾干扰视觉。【自车】位于中间车道，匀速沿直道行驶，未进行转向或变道。【前方】多辆轿车在同向车道行驶，尾灯清晰可见，保持安全距离。【右侧】路口处有交通信号灯显示绿灯，一辆白色皮卡停于右转待行区，未移动。【交通设施】右侧路旁设有“Southland Mall”商业标识牌及“For Lease”广告牌，处于雨雾中模糊可见。【关键风险】左侧对向车道有车辆因视线受阻而减速，存在潜在违规超车或变道风险；自车前方车辆刹车灯短暂亮起，提示可能突发制动。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility",
+        "potential_cut_in",
+        "braking_event"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】雨势略有缓和，但云层低垂，光线昏暗，仍属阴雨天气。挡风玻璃雨刷器持续工作，但视野仍有水痕残留。【自车】保持在中间车道，匀速前行，未发生横向位移。【左侧】一辆白色SUV从左后方快速切入当前车道，完成切变动作，位置由左后侧移至左前侧，速度高于自车。【右侧】路边绿化带与树木因雨水显得轮廓模糊，无行人或动物出现。【交通设施】道路右侧出现绿色路牌“San Juan Rd”，指示方向明确。【关键风险】左侧白色SUV的突然切入行为构成“Aggressive Cut-in”，虽未造成碰撞，但迫使自车紧急调整纵向间距，增加追尾或剐蹭风险。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "lane_change_risk",
+        "wiper_interference"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】持续阴雨，能见度维持在约50米内，部分路段因积水反射灯光形成眩光。【自车】在中间车道保持匀速行驶，随道路微弯自然前进，未主动转向。【前方】两辆深色轿车在前方同向行驶，尾灯稳定亮起，无急刹迹象。【右侧】人行横道标线清晰，但无行人通过；路边设有黄色菱形警示牌，提示前方为学校区域或交叉口。【非标准物体】无施工车辆、动物或遗撒物出现。【交通设施】前方路口设有“YIELD”让行标志，但无车辆停车让行。【关键风险】前方车辆刹车灯偶有闪烁，暗示前方可能存在临时障碍或减速点，需警惕“鬼探头”或突发制动；同时，路面湿滑导致轮胎抓地力下降，若遇紧急避让易引发侧滑。",
+      "risk_tags": [
+        "low_visibility",
+        "potential_braking_event",
+        "wet_road_slip_risk"
+      ]
+    }
+  ]
+}

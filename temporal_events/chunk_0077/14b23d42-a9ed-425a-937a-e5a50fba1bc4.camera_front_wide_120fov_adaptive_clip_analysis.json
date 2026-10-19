@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.62,
+    "analysis_time": "2026-01-22 14:30:50"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间行车，路灯照明充足，无异常天气。【自车】在中间车道匀速沿道行驶，车头朝向道路前方曲率方向，未进行转向或变道。【右侧】路边停放多辆汽车（含白色皮卡、蓝色轿车），部分车辆尾灯亮起，处于静止状态。【交通设施】右侧出现大型广告牌（SweetJanes），下方有“ACCIDENT or INJURY?”字样，灯光照明良好；路面上方标有“HUMP”字样，提示前方为减速带区域。【关键风险】无明显风险，但右侧停车车辆密集，存在潜在开门杀或行人突然从车后穿出的遮挡风险。",
+      "risk_tags": [
+        "parked_vehicle_occlusion",
+        "no_aggressive_behavior"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】夜间，路灯持续照明，能见度稳定。【自车】保持在中间车道匀速前行，随道路曲线自然行驶，未发生横向偏移。【右侧】连续停放多辆皮卡与SUV，部分车辆车身突出至行车道边缘，形成窄道通行压力。【左侧】高墙与绿化带构成封闭边界，无对向干扰。【交通设施】路面出现“HUMP”标记，前方可见限速15英里/小时标志牌，提示减速。【关键风险】右侧停车车辆中，一辆深色皮卡在行驶过程中突然向左切入自车所在车道（Aggressive Cut-in），导致自车紧急制动避让，存在碰撞风险。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "speed_limit_violation_risk",
+        "narrow_road_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】夜间，道路两侧路灯间距均匀，无降水或雾气影响。【自车】在中间车道维持匀速行驶，通过多个弯道时自动调整方向盘以贴合车道线。【右侧】停放车辆逐渐减少，转为商业建筑前的临时停车区，偶有行人从建筑物门口走出。【左侧】高墙持续延伸，墙外可见围栏及远处工业区灯光。【交通设施】前方出现绿色高速公路指示牌（方向：I-5 North），提示即将进入高速入口匝道区域。【非标准物体】右侧人行道上一名行人背对自车方向行走，手持手机，未观察路况，有横穿马路趋势。【关键风险】行人未注意来车，且位于自车盲区（因右侧车辆遮挡），存在“鬼探头”风险；同时，前方道路即将汇入高速，需警惕突发变道车辆。",
+      "risk_tags": [
+        "pedestrian_crossing_risk",
+        "ghost_probe",
+        "highway_merge_zone"
+      ]
+    }
+  ]
+}

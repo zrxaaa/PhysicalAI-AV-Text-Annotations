@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 08:09:00",
+    "processing_time_seconds": 17.17
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "自车在十字路口停车等待红灯，前方及右侧车道有多辆汽车正在左转或直行通过路口，交通信号灯从红灯转为绿灯，右侧一辆深色SUV和一辆灰色轿车先后完成左转。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "自车在绿灯亮起后启动前行，同时左侧对向车道有车辆驶来，右侧人行横道附近无行人，路口右转车道的交通灯为绿色，自车平稳通过交叉口并进入主干道。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:15",
+      "scene_description": "自车沿主干道直行，道路两侧有光秃树木和商铺，左侧对向车道有车辆驶过，右侧路边停放多辆汽车，未见行人或其他动态障碍物，天气阴沉但路面干燥。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "自车继续直行，前方出现弯道，左侧车道有一辆黑色SUV加速超车并切入自车所在车道，自车保持当前车道行驶，未发生碰撞或紧急避让行为。"
+    }
+  ]
+}

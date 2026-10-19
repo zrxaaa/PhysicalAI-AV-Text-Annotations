@@ -1,0 +1,48 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.18,
+    "analysis_time": "2026-01-22 20:39:57"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间，降雪后路面湿滑，部分路肩积雪未清理，能见度受路灯与车灯影响略有散射。【自车】位于中间车道，处于停车等待状态，前方为红灯路口。【周围交通参与者】左侧对向车道有一辆公交车静止待行；右侧人行道旁有购物车静置，无行人活动。【交通设施】路口信号灯为红灯，右侧可见7-Eleven加油站广告牌及Starbucks咖啡店招牌，路牌显示“2100 South”。【关键风险】无明显违规或遮挡行为，但路面湿滑+夜间低能见度构成基础安全风险。",
+      "risk_tags": [
+        "wet_road",
+        "low_visibility",
+        "no_immediate_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】持续夜间湿滑路面，路灯照明稳定，无明显降水或雾气。【自车】在中间车道由静止转为启动，跟随绿灯信号向前加速行驶。【周围交通参与者】左侧公交车开始左转，完成转向后驶离交叉口；对向车道多辆轿车同步通行，无异常变道行为。【交通设施】信号灯由红转绿，右侧交通灯组同步切换，路牌“State St”清晰可见。【关键风险】无显著风险，但自车起步时需注意左侧公交车转弯轨迹可能侵入本车道。",
+      "risk_tags": [
+        "normal_acceleration",
+        "left_turn_crossing_path"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】道路两侧仍有积雪堆积，路面因车辆碾压形成薄冰层，反光明显。【自车】保持中间车道匀速沿直道前行，车头偏航角无明显变化，属沿道行驶。【周围交通参与者】右侧路边出现一辆白色SUV从停车区驶出并右转进入主路，切入自车所在车道前缘，未打转向灯，存在潜在切线风险。【交通设施】经过Starbucks Drive Thru入口，右侧设有大型广告牌（内容模糊），前方远处可见另一组红绿灯。【关键风险】白色SUV无转向灯突然切入，构成“Aggressive Cut-in”，自车需紧急制动避让，存在碰撞风险。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "icy_road_surface",
+        "lack_of_turn_signal"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】夜间持续阴沉，无新降水，路面水迹仍存，部分区域有结冰痕迹。【自车】保持中间车道匀速行驶，随道路曲线轻微调整方向，未发生变道或急刹。【周围交通参与者】左侧对向车道有数辆轿车快速通过，无异常行为；右侧路边树木枝干裸露，无行人或动物活动。【交通设施】前方远处可见绿色信号灯，路旁广告牌内容为“Medical Associates”等商业信息，无施工或障碍物。【关键风险】无直接威胁，但因路面湿滑、夜间光线不足，存在长尾事故隐患（如后车追尾或失控）。",
+      "risk_tags": [
+        "long_tail_risk",
+        "night_driving_challenges",
+        "no_active_threat"
+      ]
+    }
+  ]
+}

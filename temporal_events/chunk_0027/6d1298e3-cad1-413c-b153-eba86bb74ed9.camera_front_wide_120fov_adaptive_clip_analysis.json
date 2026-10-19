@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 09:01:47",
+    "processing_time_seconds": 15.58
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "自车在十字路口前停车等待，前方交通信号灯为红灯，多辆汽车在交叉口对向车道排队等候，右侧人行道有行人站立但未穿越马路，天气晴朗，路面干燥无湿滑迹象。"
+    },
+    {
+      "time_segment": "00:00:06-00:00:10",
+      "scene_description": "信号灯转绿，自车开始向前行驶，左侧车道有银色SUV从右侧并入本车道，与自车保持安全距离，前方车辆依次通过交叉口，右侧路边有施工围栏但无人员活动。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "自车完成直行通过交叉口后，向左转向进入一条辅路，路口处可见“WILLOWS RD”路牌，左侧路边停有一辆大型卡车，树木排列整齐，无其他车辆或行人干扰转向动作。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "自车沿辅路平稳行驶，道路两侧停放多辆私家车，前方一辆红色轿车在同向车道上缓慢行驶，自车保持安全跟车距离，未进行超车或变道，环境安静，光照充足无阴影遮挡。"
+    }
+  ]
+}

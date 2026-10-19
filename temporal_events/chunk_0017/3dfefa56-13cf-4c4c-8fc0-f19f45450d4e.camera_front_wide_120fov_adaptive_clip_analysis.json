@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 05:18:16",
+    "processing_time_seconds": 12.54
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在晴朗天气下沿双向两车道公路行驶，左侧车道有白色SUV和白色货车先后从对向车道驶过，右侧为自行车道与草地，路边设有‘限速40’标志牌。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "前方出现十字路口交通信号灯，自车保持匀速接近，左侧对向车道有银色SUV和灰色轿车依次通过交叉口，右侧路旁有围栏和稀疏树木，无行人或障碍物。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:16",
+      "scene_description": "自车继续向前，前方黑色SUV在同车道内行驶，交通信号灯由绿转黄，车辆开始减速，左侧对向车道一辆红色轿车正在左转进入支路，未与自车路径冲突。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:20",
+      "scene_description": "信号灯变为红灯，自车及前方黑色SUV均在停止线前停下，路口左侧有交通指示牌，右侧为开阔草地与电线杆，无行人或其他动态物体介入，场景稳定等待通行。"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 10.58,
+    "analysis_time": "2026-01-22 23:01:34"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:12",
+      "scene_description": "【环境】晴朗白天，天空无云，光照充足，无异常天气。【自车】位于中间车道，初始静止等待红灯，随后在绿灯亮起后匀速向前行驶。【周围交通参与者】：左前方路口有多辆汽车（银色轿车、红色SUV、黑色越野车）依次通过交叉口，均按信号灯指示通行；右侧人行道有行人站立，未横穿马路；远处可见一辆白色皮卡在对向车道等待。【交通设施】路口设有多个交通信号灯，当前为红灯转绿灯过程；路旁有“Folsom”和“Capitol”方向指示牌，以及“JAYNA GYRO”、“YOU BUILD THIS”等商业广告牌。【关键风险】无明显违规行为或遮挡风险，所有车辆均遵守信号灯规则，未出现强行加塞或鬼探头情况。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】阳光斜射，道路两侧树木投下长影，光线由直射转为侧光。【自车】完成十字路口左转，进入Folsom街，沿道路中线继续前行，横向动作已完成，当前保持沿道行驶。【周围交通参与者】：右侧路边停放多辆私家车，包括一辆深色SUV；左侧人行道有两名行人并排行走，面向自车方向，步速平稳，未靠近车道；远处可见一辆黑色轿车在对向车道行驶。【交通设施】路口已通过，无信号灯控制，道路标线清晰，右侧有“Cosmo's”店铺招牌及停车指示牌。【非标准目标】无特种车辆、动物或路面遗撒物。【关键风险】无显著风险，但右侧人行道存在行人与车辆共用空间，若行人突然转向或横穿，可能构成潜在碰撞风险，需保持警惕。",
+      "risk_tags": [
+        "pedestrian_near_road_edge",
+        "low_risk_crossing"
+      ]
+    }
+  ]
+}

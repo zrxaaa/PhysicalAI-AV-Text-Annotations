@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 04:32:15",
+    "processing_time_seconds": 16.33
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车沿城市街道匀速行驶，前方有一辆白色FedEx货车在中间车道，右侧路边停有多辆私家车，左侧人行道有行人活动，道路标线清晰，天气晴朗无遮挡。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "车辆接近十字路口，路面出现‘STOP’字样，前方FedEx货车减速并最终在斑马线前完全停下，右侧可见红色停车标志，左侧有行人准备过街，自车同步减速保持安全距离。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "行人开始穿越斑马线，包括一名穿浅色外套的行人和一名骑自行车者，他们从自车正前方横穿马路，FedEx货车仍停在路口，自车保持静止等待通行许可。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:18",
+      "scene_description": "行人与骑行者完成穿越后，自车前方左侧驶来一辆银灰色轿车，正在左转进入交叉路口，同时FedEx货车开始缓慢右转，自车继续等待其完成转向动作。"
+    },
+    {
+      "time_segment": "00:00:18-00:00:20",
+      "scene_description": "FedEx货车完成右转后驶离路口，自车观察确认无其他冲突车辆或行人后，平稳启动向前行驶，前方道路恢复畅通，两侧建筑与商铺轮廓清晰可见。"
+    }
+  ]
+}

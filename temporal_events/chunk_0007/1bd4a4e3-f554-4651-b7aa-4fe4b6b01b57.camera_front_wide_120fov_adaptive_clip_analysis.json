@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 01:51:24",
+    "processing_time_seconds": 12.49
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在晴朗天气下沿多车道道路直行，前方为绿灯，左侧有一辆深色SUV正在变道至中间车道，右侧路边有绿化带和交通信号灯杆。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "车辆通过十字路口后继续直行，前方黑色轿车保持匀速行驶，道路两侧树木茂密，右侧人行道旁设有公交站台，无行人或障碍物干扰交通流。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车接近下一个交叉口，路面上出现‘PED XING’人行横道标记，两侧设有黄色行人警示标志，前方车辆未减速，自车维持当前车道与速度平稳跟进。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "车辆驶过人行横道区域，前方无行人穿越，交通信号灯仍为绿灯，右侧路边出现橙色施工锥桶但未影响车道通行，自车保持直线行驶。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车接近下一个路口，前方车辆在红灯前减速停车，自车同步跟随，路口处设有行人过街信号灯及指示牌，周围无其他动态交通参与者介入。"
+    }
+  ]
+}

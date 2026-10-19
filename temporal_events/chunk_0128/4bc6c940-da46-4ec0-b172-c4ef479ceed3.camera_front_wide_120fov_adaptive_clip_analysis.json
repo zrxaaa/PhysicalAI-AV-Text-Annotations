@@ -1,0 +1,47 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.6,
+    "analysis_time": "2026-01-23 12:28:19"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】暴雨天气，路面严重积水，雨滴密集导致挡风玻璃视野模糊，能见度低。【自车】位于中间车道，处于十字路口停车等待状态，车头朝向正前方道路。【交通设施】前方红绿灯为红灯，右侧交通信号灯同步显示红灯；路旁设有多个方向指示牌（指向Hannover、Offenbach、Zoo、Römer等），标示清晰但受雨水侵蚀略显模糊。【周围参与者】左侧人行道有数名行人撑伞快速通过，部分骑自行车者在湿滑路面减速；远处对向车道有车辆排队等候。【关键风险】无明显违规行为，但因暴雨和视线遮挡，存在潜在的刹车距离延长与误判信号风险。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility",
+        "braking_distance_increase"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:08",
+      "scene_description": "【环境】雨势略有缓和，但仍持续降雨，路面反光强烈。【自车】在红灯转绿后启动，沿中间车道匀速前行。【交通设施】右侧交通信号灯由红灯转为黄灯再转绿灯，自车响应通行指令。【周围参与者】左前方一辆白色轿车从邻近车道切入自车前方，未打转向灯；右侧非机动车道有骑行者在湿滑路面谨慎行驶。【关键风险】白色轿车“未打灯强行切入”构成“Aggressive Cut-in”，虽未发生碰撞，但需紧急调整车速以避免追尾或变道冲突。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "unpredictable_vehicle_behavior"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】阴天，雨势减弱，路面仍湿滑，部分区域积水形成水洼反射灯光。【自车】保持当前车道沿弯曲道路平稳行驶，车头偏航角随道路曲率微调。【周围参与者】左侧对向车道有两辆银色小型车（含Mini Cooper）并排行驶，车速适中；右侧车道有三辆汽车依次驶过，均开启前照灯。【交通设施】道路两侧为现代建筑群，右侧可见“MEISER”标识建筑；前方出现限速40km/h标志及人行横道警示牌。【关键风险】无直接碰撞威胁，但湿滑路面增加制动距离，且右侧建筑立面高大，可能造成局部阴影区，影响视觉判断。",
+      "risk_tags": [
+        "wet_road_surface",
+        "shadow_effect_on_vision"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】持续阴雨，能见度稳定，无强降水。【自车】在中间车道沿直线道路匀速行驶，前方可见电车轨道延伸至远方。【周围参与者】左侧车道有两辆卡车（含洒水车）同向行驶，其中一辆洒水车正在作业，喷水雾气弥漫；右侧人行道有行人站立观望，未进入车道。【非标准物体】左侧洒水车作业时喷水，水雾覆盖路面，形成临时“水幕”，降低能见度。【交通设施】道路两侧为高层办公楼，顶部有架空电线；远处可见一座红色砖砌历史建筑（钟楼结构）。【关键风险】洒水车作业产生的水雾属于“动态遮挡物”，可能干扰自车传感器感知前方障碍物；同时，电车轨道区域若遇突发状况，存在交叉冲突风险。",
+      "risk_tags": [
+        "water_spray_obstruction",
+        "track_crossing_risk",
+        "sensor_interference"
+      ]
+    }
+  ]
+}

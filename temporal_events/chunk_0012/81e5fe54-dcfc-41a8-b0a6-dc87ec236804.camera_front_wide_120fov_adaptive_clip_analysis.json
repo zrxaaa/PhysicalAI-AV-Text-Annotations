@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 03:29:11",
+    "processing_time_seconds": 14.12
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "车辆在十字路口等待绿灯，前方一辆深色轿车位于中间车道，右侧人行道有行人开始行走，交通信号灯为绿色，自车保持静止状态。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "绿灯亮起，自车向前行驶，前方深色轿车加速驶离路口，右侧人行道上行人继续前行，道路两侧树木无叶，天气阴沉但路面干燥。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "自车在直行车道上匀速行驶，右侧车道有一辆灰色轿车从后方超车并汇入前方车道，左侧对向车道有车辆正常通行，路边停有多辆汽车。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "前方出现红绿灯路口，自车减速准备停车，右侧车道一辆黑色SUV提前变道至最右车道，远处可见高压电塔和山丘轮廓，天空云层较厚。"
+    },
+    {
+      "time_segment": "00:00:19-00:00:20",
+      "scene_description": "自车在路口停车等待，前方多辆车同时停止，右侧建筑旁有行人站立，道路标线清晰，无明显障碍物或突发状况。"
+    }
+  ]
+}

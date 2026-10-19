@@ -1,0 +1,35 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.46,
+    "analysis_time": "2026-01-24 11:23:54"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，蓝天白云，光照充足，无明显遮挡或恶劣天气。【自车】位于中间车道，匀速沿直道行驶，未进行转向或变道。【前方车辆】一辆黑色SUV在正前方同车道行驶，保持稳定车距；左侧对向车道有白色货车驶过，未对自车构成威胁。【交通设施】道路两侧为绿化带与围栏，右侧可见人行道及路灯，无施工区域。【关键风险】无显著风险，前车行驶平稳，无加塞或违规行为。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】天空云层较厚，但光线仍充足，无降水或能见度下降。【自车】保持中间车道匀速前行，随道路轻微右弯平顺行驶，未发生横向偏移。【前方车辆】黑色SUV持续在前方行驶，尾灯未亮起，无减速迹象。【交通设施】道路右侧出现混凝土护栏与施工警示牌，左侧开始出现橙色施工锥桶，排列于路边，提示前方施工区。【非标物体】右侧人行道旁有绿色涂装的公交专用道标线，但无公交车或行人活动。【关键风险】施工区域存在潜在障碍物（锥桶），需注意前方可能的车道收缩或临时绕行，但当前无突发危险。",
+      "risk_tags": [
+        "construction_zone",
+        "lane_narrowing_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】阳光略显刺眼，部分区域出现眩光，但整体视野良好。【自车】仍在中间车道匀速行驶，车头朝向与道路曲率一致，无转向意图。【前方车辆】黑色SUV在前方行驶，车尾贴有“ROAD WORK AHEAD”警示标识，表明其可能为工程或市政车辆。【交通设施】右侧出现菱形“ROAD WORK AHEAD”警告标志，同时路面施划绿色公交专用道区域，但无实际公交车通行。左侧施工锥桶密集延伸至前方路口，暗示施工范围扩大。【关键风险】前方车辆虽为工程车，但未开启警示灯，且未显示作业状态，存在潜在盲区风险；右侧施工区域因锥桶和绿道标线形成视觉干扰，可能影响后方车辆判断车道边界，增加误入施工区概率。",
+      "risk_tags": [
+        "unmarked_engineering_vehicle",
+        "visual_distraction_from_cones",
+        "lane_boundary_confusion"
+      ]
+    }
+  ]
+}

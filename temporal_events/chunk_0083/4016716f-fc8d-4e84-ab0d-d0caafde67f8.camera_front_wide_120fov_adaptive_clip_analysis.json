@@ -1,0 +1,38 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.33,
+    "analysis_time": "2026-01-22 17:10:25"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴朗天气，太阳位于正上方形成强烈逆光，路面无积水或遮挡物。【自车】在中间车道匀速行驶，未进行变道或转向。【周围车辆】右侧有一辆黑色SUV（凯迪拉克Escalade）与自车并行，保持约2米横向距离；前方为一辆银色轿车，尾灯亮起，表明其处于减速或等待状态。【交通设施】道路两侧可见商业标识牌（如Chipotle、Ross、Marshalls），路边有绿化带和路灯，无信号灯或施工区域。【关键风险】无明显违规行为或障碍物，但右侧黑色SUV在部分帧中出现轻微向左偏移趋势，存在潜在切出风险。",
+      "risk_tags": [
+        "potential_cut_out",
+        "no_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】阳光依旧强烈，天空无云，能见度良好。【自车】保持中间车道匀速沿直道前行，未发生转向或紧急制动。【周围车辆】左侧对向车道车流密集，多辆轿车与皮卡有序通行；右侧黑色SUV持续在邻近车道行驶，未超越自车。前方银色轿车逐渐加速驶离视野。【交通设施】道路两侧棕榈树排列整齐，右侧出现高耸的商业广告牌（含Walmart、Ross、Marshalls等品牌），提示临近商业区。【非标物体】无动物、施工车或遗撒物。【关键风险】无显著风险，但右侧黑色SUV在接近路口时短暂减速，可能预示即将变道，需保持警惕。",
+      "risk_tags": [
+        "no_hazard",
+        "caution_for_lane_change"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】晴天，光照强度略有下降，但仍属强光条件。【自车】进入十字路口前段，维持中间车道匀速行驶，准备通过红绿灯控制路口。【周围车辆】前方有多辆车在路口处减速或停车，包括一辆棕色SUV（Jeep Grand Cherokee）位于右前方车道，正在等待左转信号；左侧对向车道有车辆左转或直行通过。【交通设施】前方设有三组交通信号灯，当前显示为黄灯倒计时，路口标线清晰，人行横道可见。【关键风险】右侧棕色SUV在黄灯期间未完全停止，有闯黄灯或抢行趋势；同时，左侧对向车道有车辆试图强行左转，存在交叉冲突风险。此外，路口右侧人行道边缘有行人站立，但未进入斑马线，暂无横穿意图。整体场景属于典型城市路口博弈，需注意突发变道或抢行行为。",
+      "risk_tags": [
+        "yellow_light_violation_potential",
+        "left_turn_conflict",
+        "pedestrian_presence"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 19.52,
+    "analysis_time": "2026-01-22 18:04:07"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴朗秋日，阳光从左上角斜射，造成镜头眩光；树叶呈现秋季黄红色彩，部分遮挡视野。【自车】位于中间车道，处于十字路口停车状态，刹车灯亮起。【周围车辆】左侧为白色SUV（左前侧邻车道），右侧为银灰色MPV（右前侧邻车道），前方为米色马自达SUV（正前方邻车道）。所有车辆均静止等待绿灯。【行人】人行道上有3名行人（左前方人行横道旁），其中两人站立，一人正在行走，面部朝向街道，无明显横穿意图。【交通设施】前方交通信号灯为红灯，倒计时显示剩余约3秒；路牌与斑马线清晰可见。【关键风险】无明显违规或危险行为，但自车前方车辆可能在绿灯亮起后突然起步，存在轻微“起步冲突”风险。",
+      "risk_tags": [
+        "no_aggressive_behavior",
+        "light_obstruction_by_leaves",
+        "potential_starting_conflict"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:08",
+      "scene_description": "【环境】阳光角度降低，树影投射于路面，能见度良好。【自车】接收到绿灯信号后启动，沿中间车道匀速前行。【周围车辆】左侧白色SUV完成左转，驶离交叉口；右侧银灰色MPV保持原位未动。【行人】人行道上行人已离开路口区域，无横穿行为。【交通设施】信号灯由红转绿，右侧建筑墙面上有“SCHACHTER'S OPTIQUE”招牌，街角设有“NO STANDING ANYTIME”禁停标志。【关键风险】无显著风险，但自车需注意左侧转弯车辆的动态，避免因盲区发生碰撞。",
+      "risk_tags": [
+        "normal_traffic_flow",
+        "left_turn_vehicle_interaction"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】道路两侧树木茂密，部分枝叶伸入行车道上方，形成局部遮蔽；天空晴朗，光照充足。【自车】保持中间车道匀速行驶，随道路曲线自然前进。【周围车辆】道路两侧停放多辆私家车（左前侧、右前侧邻近车道），包括一辆红色跑车（左前方约15米处）和一辆深灰色商务车（右前方约10米处）。【行人】远处人行道上有零星行人，均在 sidewalk 上行走，无靠近车道趋势。【交通设施】道路标线清晰，双黄实线分隔对向车道，路边设有“Kiosk”便利店标识。【关键风险】无直接碰撞风险，但左侧红色跑车停靠位置较窄，若自车变道需谨慎评估横向间隙。",
+      "risk_tags": [
+        "parked_vehicle_narrow_spacing",
+        "tree_branch_overhang_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】持续晴朗，阳光照射使建筑物立面产生强烈阴影，部分路段出现明暗对比。【自车】维持当前车道匀速直线行驶，沿弯曲道路前进。【周围车辆】道路两侧长期停放车辆密集，左侧有黑色轿车、银色SUV、白色面包车等，右侧有深色SUV及小型货车，均静止。【行人】远处人行道偶有行人经过，动作平稳，无快速移动或横穿迹象。【交通设施】沿途可见多个住宅楼带外置消防梯，部分店铺卷帘门关闭；无交通信号灯或施工区域。【关键风险】整体场景安全，但道路两侧停车密度高，存在“开门杀”风险（如右侧车辆乘客突然开门），且部分车辆尾部遮挡视线，需保持警惕。",
+      "risk_tags": [
+        "high_parking_density",
+        "door_opening_risk",
+        "visual_obstruction_from_parked_vehicles"
+      ]
+    }
+  ]
+}

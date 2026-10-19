@@ -1,0 +1,42 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 10.87,
+    "analysis_time": "2026-01-24 13:54:27"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】夜间，浓雾笼罩道路，能见度显著降低，路面湿滑反光严重。车窗上附着水珠与蜘蛛网状污渍，影响视线清晰度。【自车】位于中间车道，匀速沿道行驶，未进行变道或转向。【右侧】一辆银色轿车在相邻车道保持匀速行驶，尾灯亮起，无明显加速或减速迹象。【左侧】对向车道有数辆汽车驶过，因雾气和逆光，轮廓模糊。【交通设施】前方路口信号灯为绿灯，但受雾气干扰，灯光呈现扩散光晕效果。【关键风险】左侧对向车道车辆因能见度低，存在误判距离或突然变道风险；右侧银色轿车虽稳定行驶，但其刹车灯未亮，可能未预判前方路况。",
+      "risk_tags": [
+        "low_visibility",
+        "reduced_reaction_time",
+        "potential_lane_change"
+      ]
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "【环境】雾气略有消散，但仍持续弥漫，路灯与车灯形成强烈眩光。【自车】保持中间车道匀速前行，车头偏航角稳定，未发生横向移动。【左侧】一辆深色SUV从左前侧邻车道快速超车并切入自车所在车道，动作迅猛且未打转向灯，属于“强行加塞”行为（Aggressive Cut-in）。【右侧】多辆轿车在各自车道内有序行驶，部分车辆因红灯停于路口，刹车灯频繁闪烁。【交通设施】前方路口设有黄色菱形警示牌，提示前方交叉口，但因雾气遮挡，标识辨识困难。【关键风险】左侧突发的强行加塞行为导致自车紧急避让空间压缩，存在碰撞或追尾风险；同时，雾中警示牌失效，增加驾驶员判断误差。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "low_visibility",
+        "sign_obstruction",
+        "emergency_avoidance_required"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】雾气进一步加重，能见度降至约50米以内，路面积水反射灯光形成大面积光斑。【自车】继续在中间车道匀速行驶，未进行制动或转向。【前方】多辆汽车在绿灯下依次通过路口，车流密集但秩序良好。【右侧】一辆白色轿车在右后方车道缓慢行驶，尾灯常亮，疑似因前方拥堵而减速。【左侧】对向车道车辆因雾气几乎不可见，仅能通过灯光轮廓判断其存在。【交通设施】多个交通信号灯处于绿色状态，但因雾气和眩光，实际控制作用减弱。【关键风险】由于能见度极低，所有车辆均依赖灯光而非视觉判断，易引发误操作；右侧白色轿车若突然急刹，将因自车反应延迟导致追尾；此外，前方路口存在潜在“鬼探头”风险——因雾气遮挡，行人或非机动车可能从两侧盲区突然出现。",
+      "risk_tags": [
+        "extreme_low_visibility",
+        "ghost_probe_risk",
+        "rear_collision_potential",
+        "signal_light_reliability_issue"
+      ]
+    }
+  ]
+}

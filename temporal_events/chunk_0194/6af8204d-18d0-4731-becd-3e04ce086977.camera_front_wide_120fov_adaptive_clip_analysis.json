@@ -1,0 +1,46 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.26,
+    "analysis_time": "2026-01-24 12:44:56"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，云层厚重，光线昏暗，无明显降水或结冰。路面干燥，能见度良好。【自车】位于中间车道，正接近十字路口，执行停车制动动作（因前方有STOP标志）。【右前方】路肩处停有一辆黑色面包车，车身静止，未移动。【左前方】对向车道有数辆轿车驶近，其中一辆黑色SUV在斑马线前减速。【交通设施】前方路口设有“STOP”红色八角牌及“ALL WAY”标识，地面标有“STOP”字样；右侧人行道旁有“N-LINE OUTBOUND”公交站牌。【关键风险】自车在停车过程中，左侧对向车道有车辆加速通过，存在轻微冲突风险，但未发生越线或强行变道行为。",
+      "risk_tags": [
+        "stop_sign_compliance",
+        "cross_traffic_monitoring"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】天空仍阴沉，无明显天气突变。【自车】完成停车后起步，沿中间车道匀速前行。【左侧】一辆红灰相间的轻轨列车（Muni Metro）从左侧轨道驶过，车身长且速度稳定，与自车平行行驶约3秒后离开视野。【右侧】路边停放多辆私家车，包括白色SUV和银色轿车，均处于静止状态。【交通设施】经过路口后，右侧出现“LEFT LANE TRAINS LEFT TURN ONLY AT ALL TIMES”指示牌，提示该车道仅限列车左转；同时可见“28TH AVE”路牌。【非标物体】右侧人行道上有一个蓝色垃圾桶，位置固定，无移动趋势。【关键风险】轻轨列车与自车并行时存在横向空间挤压风险，但列车运行轨迹稳定，未侵入自车车道，无直接碰撞威胁。",
+      "risk_tags": [
+        "train_parallel_motion",
+        "lane_usage_warning"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】光线略有改善，但仍为阴天。【自车】保持中间车道匀速行驶，道路呈缓坡向上延伸。【左侧】轻轨列车已完全驶离，后续无其他轨道交通工具。【右侧】路边停放的车辆逐渐增多，包括一辆白色大众Tiguan SUV，其车头朝向与自车行驶方向一致，处于静止状态。【交通设施】前方出现“NO U-TURN”禁令标志，以及“7AM–9AM Mon-Fri Only”限时禁行标志。【行人/生物】远处人行道上有两名行人背对镜头行走，未进入车道区域，无横穿意图。【关键风险】右侧停车车辆密集，部分车辆尾部突出至行车道边缘，存在“开门杀”潜在风险，但当前无人打开车门；同时，前方路口有斑马线，需注意可能突然出现的行人。",
+      "risk_tags": [
+        "parked_vehicle_obstruction",
+        "pedestrian_crossing_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】天空云层稀疏，局部透出微弱阳光，整体仍为阴天。【自车】继续沿中间车道匀速行驶，道路两侧为连续住宅建筑群，多为三至四层联排结构。【左侧】对向车道有少量车辆通行，包括一辆白色轿车在远处驶离。【右侧】建筑物前停放多辆私家车，部分车辆后备箱开启，但无人员活动迹象。【交通设施】道路标线清晰，包含双黄线、车道分隔线及人行横道。【非标物体】右侧人行道上发现一个废弃纸箱，位于距自车约15米处，未被移动，不影响通行。【关键风险】无显著违规行为或突发障碍物；但道路两侧停车率高，存在视线遮挡隐患，尤其在转弯或交叉口处，需提高警惕以防“鬼探头”。此外，部分车辆后备箱开启，存在物品掉落或人员突然下车的风险。",
+      "risk_tags": [
+        "parking_obstruction",
+        "potential_open_door_risk",
+        "ghost_probe_precaution"
+      ]
+    }
+  ]
+}

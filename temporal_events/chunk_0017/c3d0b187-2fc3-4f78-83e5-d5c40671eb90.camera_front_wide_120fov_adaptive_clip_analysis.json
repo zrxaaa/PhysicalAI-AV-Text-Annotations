@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 05:10:46",
+    "processing_time_seconds": 13.66
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车沿双黄线道路平稳行驶，前方有一辆深色轿车保持匀速，右侧路边停有一辆红色掀背车。道路两侧为住宅区，有木栅栏和树木，天气晴朗，无明显障碍物或行人干扰。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:11",
+      "scene_description": "车辆接近十字路口，左侧出现砖砌建筑与消防栓，右侧路牌显示“DEAF CHILDREN AHEAD”警示标志。前方车辆减速，自车保持跟车距离，未见行人或交叉冲突车辆，交通状况平稳。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:15",
+      "scene_description": "自车继续前行，经过限速20英里标志，右侧出现花店及彩色气球装饰。前方灰色SUV在右转车道等待，同时一名行人从右侧人行道走向路口，但未横穿马路，自车未减速。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:18",
+      "scene_description": "车辆在十字路口停车等待，前方灰色SUV亦停下。左侧有行人过街，右侧花店前一名提气球的行人正沿人行道行走。一辆紫色经典轿车从右侧横向驶入路口，与自车路径存在短暂交叉风险。"
+    },
+    {
+      "time_segment": "00:00:18-00:00:19",
+      "scene_description": "紫色轿车完成左转，驶离路口；行人已安全通过，自车仍保持静止状态。路口信号灯未见变化，周围无其他动态车辆或行人进入自车路径范围，场景恢复平稳。"
+    }
+  ]
+}

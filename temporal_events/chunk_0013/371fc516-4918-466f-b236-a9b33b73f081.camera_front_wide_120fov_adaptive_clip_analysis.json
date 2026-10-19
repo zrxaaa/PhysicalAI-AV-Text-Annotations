@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 03:43:15",
+    "processing_time_seconds": 13.85
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车在湿滑路面上沿有轨电车轨道行驶，前方十字路口红灯亮起，右侧白色轿车从右转车道加速驶过，左侧对向车道有深色SUV驶来，行人站在街角等待通行。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "信号灯转绿，自车向前匀速行驶，左侧车道多辆汽车并行通过交叉口，右侧人行道上有行人行走，路边建筑和裸露树枝在阴天背景下清晰可见，路面因雨而反光。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车继续直行，经过Marion St路口，交通灯为绿灯，右侧有车辆左转进入支路，路边公交站台有人站立等候，一辆白色货车从左侧超车后驶离。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车接近下一个路口，前方交通灯仍为绿灯，左侧车道有数辆汽车排队停靠路边，右侧人行道上两名行人正在横穿马路，与自车路径无冲突但处于视野边缘。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:20",
+      "scene_description": "自车在接近下一个红灯路口时减速，前方有多辆汽车同时刹车，右侧有施工围栏但无工人活动，远处建筑工地塔吊清晰可见，天气阴沉，路面持续湿滑。"
+    }
+  ]
+}

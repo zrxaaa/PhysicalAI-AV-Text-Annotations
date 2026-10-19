@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 01:05:31",
+    "processing_time_seconds": 11.91
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "黄昏时分，自车沿海岸公路行驶，前方交通信号灯为红灯，左侧沙滩旁有行人行走，右侧路边有房屋。远处山丘轮廓在渐暗天色中可见，路面干燥，无明显湿滑或障碍物。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:10",
+      "scene_description": "信号灯转绿，两名手持冲浪板的行人从人行横道穿越马路，位于自车正前方，与自车路径交叉。自车保持静止等待，直至行人完全通过后开始缓慢前行。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "自车启动并沿道路继续行驶，左侧对向车道有车辆驶来，包括一辆白色轿车和一辆深色SUV，均在各自车道内正常行驶。右侧路边有住宅建筑，部分窗户亮灯，风力较大导致树木摇曳。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "自车持续匀速前进，前方远处仍有红灯信号，但未进入交叉路口。左侧对向车道车辆陆续超车或并线，右侧路边偶有行人出现，但未与自车路径发生交互。环境光线进一步变暗，路灯照明增强。"
+    }
+  ]
+}

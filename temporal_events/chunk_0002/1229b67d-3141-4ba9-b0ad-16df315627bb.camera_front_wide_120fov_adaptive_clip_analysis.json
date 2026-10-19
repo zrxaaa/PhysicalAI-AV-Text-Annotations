@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:27:16",
+    "processing_time_seconds": 20.56
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车沿双向车道行驶，右侧路边停有红色皮卡和灰色SUV，前方路口地面标有'STOP'字样，阳光强烈导致镜头眩光，无行人或显著动态障碍物。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "自车接近十字路口并减速停车，前方可见白色栅栏、树木及对向车道车辆，右侧路口有红色停车标志，无行人穿越，路面干燥，天气晴朗。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "自车左转进入新街道，左侧出现围栏公园与人行道，有两名行人正在行走，右侧停放多辆轿车与一辆黑色货车，自车保持低速平稳通过交叉口。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "自车沿单向双车道继续前行，右侧为公寓楼前停车位，停满车辆，左侧为带围栏的运动场，远处有行人过马路，自车未变道，保持直行。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车驶近下一个路口，前方道路两侧停满车辆，左侧有红色皮卡从对向车道驶入路口，自车减速准备停车，阳光从右上方照射，无突发交通冲突。"
+    }
+  ]
+}

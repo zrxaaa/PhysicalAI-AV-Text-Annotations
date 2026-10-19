@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.63,
+    "analysis_time": "2026-01-24 14:45:25"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】夜间，浓雾笼罩街道，能见度极低，路灯与车灯在雾中形成强烈光晕。【自车】位于中间车道，匀速向前行驶，未进行转向或变道。【前方】对向车道有车辆驶来，车灯因雾气严重散射，无法辨识车型；右侧路边停放多辆汽车，部分车身被雾遮挡。【交通设施】前方路口出现红色停车标志（STOP），地面标有“STOP”字样，但因雾气模糊，需依赖视觉提示识别。【关键风险】雾天导致视线严重受限，前方车辆位置和运动状态难以精确判断，存在碰撞风险。",
+      "risk_tags": [
+        "low_visibility",
+        "collision_risk_due_to_fog",
+        "limited_perception"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】雾层略有稀薄，但仍维持低能见度，路灯照明增强。【自车】在中间车道减速至停止，等待路口通行信号。【左侧】一辆白色轿车从左前侧邻车道驶入画面，缓慢向右并线，意图进入右侧支路；其刹车灯亮起，表明减速行为。【右侧】一个红色停车标志立于路口拐角，下方为黄色人行横道，路面标线清晰可见。【交通设施】自车正对路口中央，前方无直行绿灯，但右侧停车标志强制要求停车。【关键风险】左侧车辆突然切入自车前方车道，若未充分确认安全距离，可能引发追尾或剐蹭事故。",
+      "risk_tags": [
+        "cut_in_by_left_vehicle",
+        "stop_sign_compliance_required",
+        "reduced_reaction_time_due_to_fog"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】雾气持续弥漫，部分区域出现轻微风力扰动，使雾层局部流动。【自车】完成路口停顿后，重新启动并沿中间车道加速前行。【左侧】多栋联排住宅楼旁停放多辆私家车，部分车辆引擎盖微开，疑似维修中；一名行人从左侧人行道走出，身穿深色衣物，面向自车方向行走，步态平稳，未观察路况。【右侧】一辆银色SUV从右侧车道快速超车，车头偏航角向左调整，完成切出动作。【交通设施】道路两侧设有连续斑马线，部分路段因雾气影响，标线边缘模糊。【关键风险】行人未注意来车，且处于自车盲区边缘；右侧超车车辆速度较快，存在横向间距不足的风险，易引发侧面碰撞。",
+      "risk_tags": [
+        "pedestrian_crossing_without_attention",
+        "high-speed_cut_out",
+        "blurred_lane_markings"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雾气逐渐消散，能见度提升至约50米，路灯照明稳定。【自车】保持中间车道匀速行驶，随道路曲线自然前进，未进行转向操作。【两侧】街道两侧密集停放车辆，包括黑色SUV、银色轿车、白色面包车等，部分车辆后备箱开启，疑似装卸货物；远处可见红绿灯闪烁，但未在本段直接交互。【非标准物体】右侧路边有一只流浪猫静止蹲坐于灌木丛旁，头部朝向自车方向，身体呈警戒姿态，未移动。【交通设施】道路为双向单行道，无明显交叉口，仅存连续斑马线与限速标志（未显示具体数值）。【关键风险】流浪猫处于道路边缘，若自车速度过快或避让不当，可能触发紧急制动或碰撞；同时，路边车辆开启的后备箱构成潜在开门杀风险，尤其在夜间光线不足时。",
+      "risk_tags": [
+        "animal_presence_at_edge_of_road",
+        "open_door_risk_from_parked_vehicles",
+        "gradual_improvement_in_visibility_with_residual_risk"
+      ]
+    }
+  ]
+}

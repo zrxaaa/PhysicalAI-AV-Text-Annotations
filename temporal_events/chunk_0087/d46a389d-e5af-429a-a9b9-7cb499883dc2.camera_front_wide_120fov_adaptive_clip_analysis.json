@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 23.19,
+    "analysis_time": "2026-01-22 19:11:26"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "【环境】夜间城市街道，天空阴云密布，能见度中等偏低，路灯照明充足但存在眩光。【自车】位于中间车道，执行匀速行驶，前方交通信号灯为绿灯，车辆有序通行。【右侧】一辆黑色SUV在右前方车道同向行驶，尾灯亮起；一名骑电动三轮车的人员从右侧人行横道横穿马路，车速较慢，未影响自车路径。【左侧】一辆白色SUV从左前侧邻车道切入自车所在车道，未打转向灯，属于违规加塞行为（Aggressive Cut-in），自车紧急减速避让。【交通设施】路口设有斑马线、交通信号灯（当前绿灯）、路牌“25 MPH”限速标志清晰可见。【关键风险】左侧突发违规变道，存在碰撞风险；右侧行人/非机动车横穿，虽未直接冲突，但增加了横向交互不确定性。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "pedestrian_crossing_risk",
+        "signal_light_interaction"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】自车驶离主干道，进入次级街道，路灯密度降低，部分区域出现光照盲区。【自车】保持中间车道沿弯曲道路前行，无明显加速或减速。【两侧】街道两侧停放多辆私家车，部分车辆车门开启，存在“开门杀”潜在风险。【非标物体】左侧路边有一棵倒伏树木，树冠部分遮挡人行道，但未侵入行车道。【交通设施】前方出现黄色弯道警示牌和“25 MPH”限速标志，提示前方为弯道。【关键风险】左侧停车车辆车门开启状态未被识别，若行人突然从车后走出，可能引发开门事故；倒伏树木虽未阻碍通行，但可能在强风或震动下进一步倾倒，构成长期障碍物风险。",
+      "risk_tags": [
+        "door_opening_risk",
+        "fallen_tree_obstacle",
+        "low_light_navigation_challenges"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】街道两侧为住宅楼，部分窗户亮灯，树木茂密形成天然遮光带，夜间光线呈黄绿色调。【自车】持续沿道行驶，速度稳定，无转向动作。【两侧】街道两侧停满车辆，部分车辆为新能源车（尾部有充电口标识），无明显动态变化。【行人】远处可见两名行人并排沿人行道行走，面部朝向前方，未观察到手机或异常动作，无横穿意图。【交通设施】路面标线基本完整，但因夜间光线不足，部分标线反光弱，需依赖车灯辅助识别。【关键风险】无显著安全威胁，但存在低能见度下的视觉疲劳风险；部分车辆停放位置紧贴路缘石，可能影响紧急车辆通行；树木枝叶过密，可能遮挡未来设置的监控摄像头或路牌。",
+      "risk_tags": [
+        "low_visibility_driving",
+        "parked_vehicle_blocking",
+        "vegetation_obstruction"
+      ]
+    }
+  ]
+}

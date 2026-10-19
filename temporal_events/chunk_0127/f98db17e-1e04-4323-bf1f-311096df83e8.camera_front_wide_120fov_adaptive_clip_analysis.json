@@ -1,0 +1,33 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.39,
+    "analysis_time": "2026-01-23 11:58:37"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，云层厚重，光线昏暗，能见度中等。无明显降水或结冰现象。【自车】位于中间车道，匀速沿直道行驶。【左侧】对向车道有数辆轿车和卡车在通行，未见异常行为。【右侧】高架隔音墙（黄红相间条纹）沿路延伸，无遮挡。【交通设施】左侧出现白色指示牌，显示“Bürckheim nach Nürnberg 160 m”，提示前方出口信息。【关键风险】无显著风险，车辆均在合法车道内行驶，无违规或突发障碍。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】天空仍阴沉，光线持续偏暗，无降雨迹象。【自车】保持中间车道匀速行驶。【右侧】一辆黑色SUV从右后方超车并切入自车所在车道，完成变道动作，尾灯亮起，动作流畅。【左侧】对向车道可见多辆大型货车及轿车，部分车辆在减速，疑似接近前方收费站区域。【交通设施】出现蓝色高速公路指示牌，标示“Frankfurt Bef. Würzburg”及“Bürckheim Nürnberg/Augsburg”，距离分别为450m与150m。【关键风险】右侧车辆变道时未保持安全横向间距，存在轻微切出风险，但未影响自车路径，未触发紧急响应。",
+      "risk_tags": [
+        "minor_cut_in"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】道路进入桥梁段，右侧为混凝土护栏，远处可见山丘与低矮建筑群；光照条件无明显变化，仍属阴天。【自车】在中间车道减速，因前方车流密集而逐渐降低速度，准备通过收费站区域。【前方】多辆重型卡车与轿车排队缓行，其中一辆银灰色SUV在左前方车道缓慢移动，刹车灯频繁亮起。【右侧】出现限速80km/h标志牌，以及“300m”距离提示牌，表明前方即将进入匝道或收费口。【非标准物体】无特种车辆、动物或路面遗撒物。【关键风险】前方车流拥堵导致自车需持续制动，存在追尾风险；同时，右侧车道有车辆试图强行变道至最左侧车道，可能引发交叉冲突（Aggressive Cut-in），但该车在视频结束前未完成变道，风险暂未升级。",
+      "risk_tags": [
+        "traffic_congestion",
+        "potential_aggressive_cut_in"
+      ]
+    }
+  ]
+}

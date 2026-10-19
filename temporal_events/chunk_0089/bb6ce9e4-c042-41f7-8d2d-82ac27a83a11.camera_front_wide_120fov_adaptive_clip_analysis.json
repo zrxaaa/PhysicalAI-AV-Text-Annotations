@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.93,
+    "analysis_time": "2026-01-22 19:45:04"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，蓝天白云，能见度良好，无异常天气。【自车】在中间车道匀速沿直道行驶，未进行转向或变道。【右侧】路侧可见Target、Sprouts、Bostons Market等商业建筑，路边有绿化带和路灯。【左侧】对向车道有车辆正常通行，包括一辆蓝色公交车停靠在站点。【交通设施】道路标线清晰，无施工区域或障碍物。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】光照稳定，晴朗。【自车】保持中间车道匀速前行，随道路轻微右弯行驶，未跨越车道线。【右侧】出现Pret A Manger、Chipotle等商铺，人行道旁种植高大乔木与灌木。【左侧】对向车道车流持续，包括白色轿车、黑色SUV等，均按规行驶。【交通设施】前方路口设有交通信号灯，当前为绿灯，路面划有斑马线及导向箭头。【关键风险】无明显风险行为，但前方路口存在多车汇入，需注意横向车流交汇。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:10-00:00:13",
+      "scene_description": "【环境】晴天，视野开阔。【自车】接近十字路口，维持当前车道，准备左转或直行（视信号灯）。【前方】交通信号灯显示绿灯，路口处有Chick-fil-A门店及美国国旗飘扬。【右侧】一辆黄色轮式装载机（挖掘机）静止停放在路口东北角施工区域，未作业，无警灯闪烁，车身部分遮挡右转车道。【左侧】对向车道有数辆汽车正在通过路口。【关键风险】施工车辆虽静止，但占据部分路口空间，可能影响转弯车辆的通行路径；同时，其位置处于自车右前方约15米，若自车右转，存在潜在碰撞风险（需避让），属于“通用障碍物”类别。",
+      "risk_tags": [
+        "construction_vehicle",
+        "obstacle_in_intersection",
+        "potential_collision_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】阳光强烈，部分区域出现眩光。【自车】通过路口后进入直行路段，保持中间车道匀速行驶。【右侧】沿路可见住宅区与商铺混合布局，有电线杆、树木及限速35 mph标志牌。【左侧】对向车道车流稀疏，偶有车辆驶过。【交通设施】道路两侧设有人行横道、红白相间减速带及限速标识。【非标准物体】无特种车辆作业，无动物或行人突然出现。【关键风险】无显著违规或危险行为，但右侧树影投射于路面，可能造成视觉干扰；远处路口红灯已亮起，提示后续需停车等待，属“长尾场景”——需提前预判制动距离。",
+      "risk_tags": [
+        "visual_distraction_from_shadows",
+        "anticipatory_braking_required"
+      ]
+    }
+  ]
+}

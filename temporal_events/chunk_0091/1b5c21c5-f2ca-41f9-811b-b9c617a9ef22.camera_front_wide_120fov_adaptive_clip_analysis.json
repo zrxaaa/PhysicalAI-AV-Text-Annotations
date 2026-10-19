@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.52,
+    "analysis_time": "2026-01-22 20:51:28"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间，无明显降水或雾气，但路灯与车灯造成强眩光，能见度受限。【自车】位于中间车道，匀速向前行驶，车头朝向道路中心线。【前方】一辆红色尾灯车辆在前车道内同向行驶，保持稳定距离。【交通设施】前方路口信号灯为红灯，两侧路灯呈黄色光晕，右侧路旁有绿色“Rosedale Center”指示牌及限速标志。【关键风险】前方红灯未变绿前，自车需减速准备停车；若前方车辆突然急刹，存在追尾风险。",
+      "risk_tags": [
+        "red_light_waiting",
+        "braking_required",
+        "rear_collision_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】夜间，路灯照明稳定，无遮挡物，视野清晰。【自车】在中间车道匀速通过交叉路口，进入直行绿灯通行阶段。【右侧】一辆银色SUV在右转车道内等待，绿灯亮起后开始右转，其转向灯未开启但动作符合交通规则。【左侧】对向车道有一辆黑色轿车从左前侧邻车道驶过，完成超车并回归原车道。【交通设施】路口设有“Hamline Ave”路牌、人行横道标线、多组交通信号灯（含左转箭头灯），当前所有直行与右转灯均为绿色。【关键风险】银色SUV右转时未打转向灯，虽未违规但存在视觉盲区风险；左侧黑色轿车快速变道，需警惕其可能切入自车车道。",
+      "risk_tags": [
+        "unlit_turn_signal",
+        "lane_change_nearby",
+        "crossing_traffic"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】夜间，道路两侧树木浓密，路灯间距较大，局部区域光线较暗。【自车】通过交叉口后，沿弯曲道路继续前行，车道线为双黄实线+白色虚线，自车保持在中间车道内沿曲线行驶。【周边】无其他车辆或行人出现在半径50米内，道路空旷。【交通设施】右侧出现蓝色“78号公路”指示牌及禁止停车标志，左侧有弯道警示牌和导向箭头标线。【关键风险】道路曲率增大，前方视线受树木遮挡，存在潜在“鬼探头”风险；无施工或动物等非标准目标，整体风险较低。",
+      "risk_tags": [
+        "curved_road_navigation",
+        "limited_visibility",
+        "low_traffic_risk"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 07:28:22",
+    "processing_time_seconds": 14.86
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "道路两侧停有车辆，左侧树木遮挡部分视线，未见行人或其他动态交通参与者，自车保持直行无转向动作。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "该SUV在交叉口左转，完成转向后驶离画面，自车在斑马线前完全停止，等待通行信号或确认安全。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "该SUV完成转弯后驶离路口，自车观察确认无其他横向车辆或行人穿越后，缓慢起步继续沿原方向行驶。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "右侧路边设有绿色自行车道标识和限速20英里/小时标志，自车未进入自行车道，保持在机动车道内稳定行驶。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "视频结束时自车仍在平稳行驶中，未遇行人、变道车辆或信号灯变化，整体场景保持连续性与稳定性。"
+    }
+  ]
+}

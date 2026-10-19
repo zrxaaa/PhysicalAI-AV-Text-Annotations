@@ -1,0 +1,35 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.57,
+    "analysis_time": "2026-01-22 22:58:05"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间，能见度较低，天空灰暗，疑似有薄雾或霾，路面反光明显。【自车】在中间车道匀速行驶，未见明显加速或减速。【周围车辆】左侧邻车道有一辆深色轿车，右侧邻车道有一辆银灰色轿车，均保持同向匀速行驶。【交通设施】道路两侧有护栏，左侧为高架隔音墙，右侧为低矮护栏，远处可见城市灯光。【关键风险】无明显违规行为或障碍物，但因夜间能见度低，存在潜在视线遮蔽风险。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】夜间雾气持续，左侧隔音墙后树木轮廓模糊，路灯照明增强但光线被雾散射，形成眩光。【自车】保持中间车道匀速沿道行驶，车头偏航角与道路曲率一致，未变道。【周围车辆】右侧车道一辆白色特斯拉从后方超车并切入自车右前方车道，完成变道动作；其尾灯亮起，表明刹车或减速意图不明显，属正常超车。【交通设施】左侧出现高架路牌支撑柱，前方约100米处有绿色高速公路指示牌（方向信息模糊）。【关键风险】无紧急避让需求，但右侧车辆变道时未开启转向灯，存在轻微交互风险。",
+      "risk_tags": [
+        "improper_lane_change",
+        "low_visibility"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雾气略有消散，但整体仍影响视野，前方路牌区域受强光干扰，部分文字模糊。【自车】维持中间车道匀速行驶，接近并即将通过大型悬臂式交通指示牌。【周围车辆】右侧车道多辆轿车密集排列，部分车辆刹车灯亮起，表明前方可能有缓行或出口分流。【交通设施】前方高架指示牌清晰显示“SOUTH 101 San Jose”及“Alemanny Blvd / Daly City”，为典型高速公路分岔口。【关键风险】无突发障碍物或动物，但前方车辆密集且刹车频繁，存在追尾或紧急制动连锁反应风险；同时，指示牌强光造成视觉干扰，可能影响对前方路况的判断。",
+      "risk_tags": [
+        "traffic_congestion",
+        "visual_obstruction",
+        "braking_chain_reaction_risk"
+      ]
+    }
+  ]
+}

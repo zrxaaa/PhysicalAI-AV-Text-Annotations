@@ -1,0 +1,35 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.21,
+    "analysis_time": "2026-01-22 14:26:18"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间行车，路灯照明充足，无明显降水或雾气，能见度良好。【自车】位于中间车道，通过十字路口时减速并完成左转/直行决策（根据交通灯状态），随后加速进入主干道。【左侧】一辆银色SUV在交叉口左转，与自车路径交叉但已完成转向；【右侧】一辆黑色面包车沿同向车道行驶，保持稳定速度。【交通设施】路口上方悬挂多组绿灯信号，路牌显示“E Russell”。【关键风险】无显著风险，车辆均按信号灯正常通行，未出现违规行为。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】道路两侧路灯持续照明，部分区域存在强光眩晕（如路灯正对镜头）。【自车】保持在中间车道匀速沿直线道路前行，未进行变道或紧急制动。【右侧】可见Lowe's、Walmart、Ross Dress for Less等商业标识牌，路边有高大棕榈树及绿化带；【左侧】出现FedEx Office、OptumCare等商业建筑，部分区域有施工锥桶和临时围挡。【非标物体】右侧施工区域设有橙白相间锥桶，但无施工车辆作业，未见人员活动。【关键风险】无直接碰撞或违规行为，但右侧施工区存在潜在遮挡风险，若后续有行人或车辆从锥桶后方突然出现，可能引发‘鬼探头’事件。",
+      "risk_tags": [
+        "construction_zone_risk",
+        "occlusion_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】夜间道路光照稳定，无天气异常。【自车】维持中间车道匀速行驶，前方可见红绿灯及车流尾灯。【左侧】出现大型空置广告牌结构，下方有少量停放车辆；【右侧】绿化带后方有围墙，部分区域树木茂密，形成视觉遮挡。【交通设施】前方约300米处为连续红灯路口，当前绿灯倒计时中；道路标线清晰，车道分隔明确。【关键风险】无突发障碍物或违规行为。但右侧植被密集区域存在视线盲区，若遇行人或非机动车从隐蔽路径横穿，将构成高风险‘鬼探头’场景。此外，前方车流较密集，若前车急刹，自车需保持安全跟车距离以避免追尾。",
+      "risk_tags": [
+        "blind_spot_risk",
+        "following_distance_required",
+        "traffic_density"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.7,
+    "analysis_time": "2026-01-22 09:15:01"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间强浓雾天气，能见度极低（<50米），路面灯光与车灯在雾中严重散射，形成大面积光晕与视觉遮蔽。【自车】位于中间车道，匀速沿道路前行，未进行变道或转向。【前方】多辆车辆尾灯可见，但轮廓模糊，其中一辆白色厢式货车在前方约80米处行驶，无明显加速或减速迹象。【右侧】路肩区域有路灯及模糊建筑轮廓，但无法辨识具体设施。【交通设施】上方出现绿色高速公路指示牌，显示“Mountain View”和“Palisades Boulevard”，表明自车正驶向出口匝道区域。",
+      "risk_tags": [
+        "low_visibility",
+        "reduced_perception",
+        "high_ambiguity"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】雾气持续弥漫，部分区域因车灯照射呈现粉红色/黄绿色光斑，加剧视觉干扰。【自车】保持中间车道匀速行驶，未发生横向偏移。【左侧】一辆大型卡车从左后方超车，其红色尾灯在雾中形成不规则光晕，车身轮廓短暂清晰后被雾吞没。【右侧】远处有车辆灯光闪烁，疑似应急车辆，但无法确认类型或是否在作业。【交通设施】前方出现高架桥结构阴影，道路标线因雾气虚化，仅能依稀辨认为双实线分隔车道。【关键风险】左侧卡车超车动作存在切出风险，其位置从左后方快速逼近至左前侧，若未保持安全距离，可能引发剐蹭或碰撞；同时，右侧应急灯光闪烁未明确来源，存在突发紧急事件（如事故、故障）的潜在威胁。",
+      "risk_tags": [
+        "cut_in_risk",
+        "unidentified_emergency_light",
+        "poor_visual_clarity"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雾层略有稀薄，但整体仍属重度能见度受限状态，车灯反射更强烈，形成大面积眩光。【自车】维持当前车道匀速前进，未进行任何转向或制动操作。【前方】白色厢式货车继续在前方行驶，间距稳定在60-70米。【右侧】出现一个大型光斑（疑似对向来车远光灯），因雾气扩散呈星芒状，遮挡了右侧车道边缘及护栏细节。【交通设施】道路进入弯道区域，地面箭头标线隐约可见，提示右转方向。【关键风险】右侧光斑造成视线盲区，可能掩盖路边障碍物或行人；前方车辆虽稳定，但因能见度低，若突然刹车将导致追尾风险；整体场景缺乏明确路标指引，增加导航误判可能性，属于长尾高危驾驶环境。",
+      "risk_tags": [
+        "visual_obstruction",
+        "rear_collision_risk",
+        "navigation_uncertainty",
+        "heavy_fog"
+      ]
+    }
+  ]
+}

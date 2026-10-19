@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.71,
+    "analysis_time": "2026-01-23 02:47:34"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间暴雨，雨滴密集附着于挡风玻璃，造成严重眩光与视野模糊。路面因积水反射路灯与车灯，形成强烈光斑干扰。【自车】位于中间车道，匀速向前行驶，正通过高架桥下方区域。【前方车辆】一辆银色轿车在前车距约25米处，保持匀速行驶。【交通设施】左侧为混凝土高架桥墩，右侧为匝道入口，设有“SPEED LIMIT 35”限速标志。【关键风险】雨雾导致能见度低于50米，前方车辆刹车灯易被水雾虚化，存在误判制动距离风险。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility",
+        "brake_light_obscuration"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】雨势略有减弱，但云层低垂，局部区域出现强逆光（来自对向车灯）。【自车】继续沿中间车道行驶，进入高架桥交错结构区，道路呈轻微左弯。【前方车辆】银色轿车持续在前，未变道，尾灯稳定亮起。【交通设施】右侧出现绿色高速公路指示牌，标示“San Francisco 101”与“San Jose”，提示即将汇入主干道。【非标物体】右侧路边停有一辆白色大型工程车（疑似市政维护车），车身静止，未作业，无警示灯开启。【关键风险】高架桥结构遮挡部分视线，且前方红绿灯信号灯受雨水反光干扰，可能导致误读。",
+      "risk_tags": [
+        "bridge_obstruction",
+        "signal_light_glare",
+        "stationary_vehicle_on_right"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】夜间强降雨持续，挡风玻璃雨刷器高频工作，但仍无法完全清除水膜。【自车】在中间车道减速，准备在前方路口停车。【前方车辆】银色轿车同步减速，刹车灯亮起，车距缩至约15米。【交通设施】前方为十字交叉路口，两侧均设红灯，左侧有“NO LEFT OR U TURN”禁令标志。【关键风险】自车与前车均处于减速状态，但前方红灯信号可能因雨水反射而产生视觉延迟或误判；同时，左侧人行横道区域有模糊人影晃动，疑似行人试图穿越，但因雨雾遮挡无法确认其动作意图，构成潜在‘鬼探头’风险。",
+      "risk_tags": [
+        "red_light_confusion",
+        "ghost_probe_risk",
+        "pedestrian_uncertainty"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】暴雨加剧，能见度进一步下降，部分路段出现水雾弥漫现象。【自车】已完全停止，位于直行车道末端，等待红灯。【前方车辆】银色轿车紧随自车停下，车距约8米，刹车灯持续亮起。【交通设施】右侧高架桥下立柱旁设有交通信号灯组，当前显示红灯；左侧亦有红灯及“禁止左转/掉头”标志。【非标物体】右侧路肩草丛中可见一个模糊的红色物体（疑似废弃塑料袋或反光物），随风摆动，无移动趋势，不构成直接威胁。【关键风险】多车排队等候时，若前方车辆突然启动或闯红灯，将引发连锁碰撞；此外，雨夜中行人或非机动车可能从高架桥阴影区突然冲出，存在极高“鬼探头”概率。",
+      "risk_tags": [
+        "queue_collision_risk",
+        "ghost_probe_risk",
+        "red_light_violation_potential"
+      ]
+    }
+  ]
+}

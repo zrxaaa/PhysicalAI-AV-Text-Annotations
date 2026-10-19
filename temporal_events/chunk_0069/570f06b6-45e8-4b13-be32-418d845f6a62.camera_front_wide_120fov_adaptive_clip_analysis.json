@@ -1,0 +1,42 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 20.28,
+    "analysis_time": "2026-01-22 10:57:06"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，阳光强烈，路面无积水或遮挡，能见度良好。【自车】位于中间车道，匀速沿直道前行，未进行转向或变道。【左侧】人行道有行人行走，其中一人推婴儿车，面向前方，步速平稳；另有一名穿深色外套的行人从街角走出，正横穿人行横道。【右侧】停放多辆私家车（含黑色轿车、红色SUV），路边设有橙色锥桶，提示临时施工区域。【交通设施】左侧路牌显示“Parking Only”及“Permit Parking Garage”，右侧可见“FOR SALE”广告牌。【关键风险】无明显违规行为或障碍物，但右侧锥桶区域存在潜在施工扰动风险，需注意行人突然进入车道。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】晴朗，阳光照射下建筑物阴影投射于路面。【自车】保持中间车道匀速行驶，随道路轻微弯曲前行。【左侧】出现“HOKS WUN TUN HOUSE”等中式餐馆招牌，门前有临时围栏与桌椅，一名穿粉色上衣的行人从店门口走出，向右横穿人行道。【右侧】停有银色SUV和黑色SUV，后方为“EAST WEST BANK”银行，外墙有脚手架。【交通设施】前方路口设有交通信号灯，当前绿灯亮起；路旁有“ONE WAY”单行标志。【关键风险】右侧人行道上有散落纸箱与垃圾袋，虽未直接阻碍车道，但可能被风吹动或引发行人绊倒，属于低风险通用障碍物。",
+      "risk_tags": [
+        "general_obstacle"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "【环境】阳光充足，部分路段因高楼产生阴影区。【自车】在中间车道继续匀速前进，接近十字路口。【前方】一辆灰色皮卡（车身印有“EVEREST”字样）停靠在左转车道，未移动；同时，两名行人正在横穿马路，其中一人携带购物袋，另一人穿深色外套，两人均朝自车方向步行，已进入人行横道。【右侧】“Heart of Shanghai”商店前有行人站立，面朝街道，观察来车。【交通设施】路口设有红绿灯，当前绿灯通行；两侧路灯柱挂有红色灯笼，具有中式装饰风格。【关键风险】行人横穿时未完全进入安全岛，且靠近自车行驶路径，存在“鬼探头”潜在风险；皮卡静止占用左转车道，若自车需左转将受阻。",
+      "risk_tags": [
+        "ghost_probe",
+        "pedestrian_crossing_risk",
+        "lane_blockage"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】晴天，光照均匀，视野开阔。【自车】保持中间车道匀速行驶，通过十字路口后继续沿直线道路前行。【左侧】停放多辆汽车，包括白色SUV、银色轿车，部分车辆后备箱开启；一家名为“Church of Jesus Christ of Latter-day Saints”的教堂建筑显眼，门前有金属栅栏。【右侧】“Imperial Palace Restaurant”餐厅外立面装饰华丽，悬挂中文招牌；旁边有“CANLAN MARKET”超市，门口堆放纸箱与塑料筐。【交通设施】道路两侧设有限速20英里/小时标志，部分路段有涂鸦墙，墙面有大型龙形图案。【关键风险】右侧市场门口堆放杂物，可能影响行人通行或突发倾倒；无显著违规行为，但存在“开门杀”风险（如商铺人员突然打开门或拉出货物）。",
+      "risk_tags": [
+        "door_opening_risk",
+        "debris_on_sidewalk"
+      ]
+    }
+  ]
+}

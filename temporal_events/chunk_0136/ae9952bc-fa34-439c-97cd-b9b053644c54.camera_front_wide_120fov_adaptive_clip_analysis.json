@@ -1,0 +1,35 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.83,
+    "analysis_time": "2026-01-23 16:03:35"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】夜间城市道路，无明显降水或雾气，路面干燥，路灯照明充足。【自车】位于中间车道，匀速沿直道前行，未进行转向或变道。【交通设施】左侧为高架桥护栏结构，右侧为多层建筑及停车场入口围栏。【关键风险】无显著风险，场景平稳。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】夜间，道路两侧建筑灯光照明良好，无遮挡物影响视线。【自车】保持在中间车道匀速行驶，随道路微弯向前行进。【周围行人】一名身穿深色外套、浅色裤子的行人从左侧人行道（靠近高架桥护栏）沿路面向自车方向行走，步速稳定，面部朝前，双手自然下垂，无横穿意图。【交通设施】前方出现“MONT PARANAIS”字样的门式标志牌，下方为停车场道闸系统，右侧设有红白相间警示柱。【关键风险】行人与自车同向且保持安全距离，未进入行车道，无碰撞风险；但其位置紧邻车道边缘，存在轻微侧向侵入风险，需保持警觉。",
+      "risk_tags": [
+        "pedestrian_near_lane_edge",
+        "low_risk_crossing"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】夜间，光照稳定，无天气异常。【自车】继续在中间车道匀速前进，接近停车场入口区域。【周围车辆】一辆银灰色轿车从对向车道驶来，保持在左侧行车道，未变道，正常通行。【行人交互】前述行人已行至自车正前方约8米处，仍沿路边行走，未横穿马路，亦未改变路径。【交通设施】右侧道闸系统处于关闭状态，红色警示柱清晰可见；远处有蓝色公交站牌和交通信号灯（绿灯）。【关键风险】无突发危险行为；但行人持续靠近车道边界，若其突然转向或被后方车辆干扰，可能引发“鬼探头”风险；此外，自车临近道闸区域，需注意前方可能存在的临时停车或障碍物。",
+      "risk_tags": [
+        "potential_ghost_probe",
+        "pedestrian_boundary_proximity",
+        "entrance_zone_caution"
+      ]
+    }
+  ]
+}

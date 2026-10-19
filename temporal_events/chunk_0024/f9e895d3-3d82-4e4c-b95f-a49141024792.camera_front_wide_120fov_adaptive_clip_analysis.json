@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 07:48:37",
+    "processing_time_seconds": 14.33
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在高速主路中间车道匀速行驶，前方有一辆黑色SUV，左侧车道有白色轿车驶过，右侧为绿化带和多层停车场建筑，天气晴朗，路面干燥无湿滑迹象。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "一辆大型白色半挂卡车从左侧车道加速超车，逐渐占据自车左侧车道，自车保持当前车道未变道，道路右侧出现停车区域及少量车辆停放，无行人或其他障碍物。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "卡车完成超车后驶离视野，自车继续沿直道行驶，前方出现高架桥结构，右侧路边出现限速50 MPH的“RAMP”标志牌，道路开始轻微向右弯曲，远处可见多条匝道汇入主线。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:18",
+      "scene_description": "自车进入弯道区域，道路两侧出现棕榈树与高架桥支撑柱，前方黑色SUV保持匀速行驶，未发生变道或减速行为，右侧草坡与护栏清晰可见，无其他车辆或行人干扰路径。"
+    },
+    {
+      "time_segment": "00:00:18-00:00:20",
+      "scene_description": "自车持续沿弯道行驶，高架桥结构在左上方延伸，道路标线清晰，右侧草坡略有起伏，无新增交通参与者，整体环境稳定，自车未进行转向或加速调整。"
+    }
+  ]
+}

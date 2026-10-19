@@ -1,0 +1,75 @@
+{
+  "analysis_metadata": {
+    "video_duration": "20.167",
+    "model_used": "qwen3-vl-flash",
+    "analysis_time": "2026-01-29 01:49:57",
+    "keyframe_count": 10,
+    "analysis_type": "natural_language_frame_analysis",
+    "frame_analysis_order": [
+      "00:00:00.033",
+      "00:00:02.267",
+      "00:00:04.500",
+      "00:00:06.733",
+      "00:00:08.967",
+      "00:00:11.200",
+      "00:00:13.433",
+      "00:00:15.667",
+      "00:00:17.900",
+      "00:00:20.167"
+    ],
+    "total_processing_time_seconds": 39.84,
+    "actual_keyframes": 10
+  },
+  "frame_descriptions": [
+    {
+      "timestamp": "00:00:00.033",
+      "scene_overview": "夜间雪地道路，车辆前灯照亮前方狭窄的积雪路面，两侧为黑暗树林。",
+      "object_descriptions": []
+    },
+    {
+      "timestamp": "00:00:02.267",
+      "scene_overview": "夜间雪地林间道路上，车辆前灯照亮前方狭窄的积雪路面，两侧是浓密黑暗的树林。",
+      "object_descriptions": []
+    },
+    {
+      "timestamp": "00:00:04.500",
+      "scene_overview": "夜间雪地林间道路，车辆前灯照亮前方积雪路面及两侧黑暗树丛，视野受限。",
+      "object_descriptions": []
+    },
+    {
+      "timestamp": "00:00:06.733",
+      "scene_overview": "夜间雪地林间道路，车辆前灯照亮前方积雪路面及两侧树木，视野受限。",
+      "object_descriptions": []
+    },
+    {
+      "timestamp": "00:00:08.967",
+      "scene_overview": "夜间雪地林间道路，车辆前灯照亮前方蜿蜒的积雪路面及两侧黑暗树林。",
+      "object_descriptions": []
+    },
+    {
+      "timestamp": "00:00:11.200",
+      "scene_overview": "夜间雪地林间道路上，车辆前灯照亮前方蜿蜒的积雪路面，两侧是浓密黑暗的树林。",
+      "object_descriptions": []
+    },
+    {
+      "timestamp": "00:00:13.433",
+      "scene_overview": "夜间，车辆在被车灯照亮的雪地道路上行驶，两侧是黑暗的树林，前方道路延伸至视野尽头。",
+      "object_descriptions": []
+    },
+    {
+      "timestamp": "00:00:15.667",
+      "scene_overview": "夜间雪地林间道路，车辆前灯照亮前方路面及两侧积雪与树木，视野受限。",
+      "object_descriptions": []
+    },
+    {
+      "timestamp": "00:00:17.900",
+      "scene_overview": "夜间雪地道路，车辆前灯照亮前方蜿蜒的积雪路面，两侧为黑暗树林，无其他交通参与者。",
+      "object_descriptions": []
+    },
+    {
+      "timestamp": "00:00:20.167",
+      "scene_overview": "夜间雪地道路，车辆前灯照亮前方积雪路面及两侧黑暗树林，无其他车辆或行人可见。",
+      "object_descriptions": []
+    }
+  ]
+}

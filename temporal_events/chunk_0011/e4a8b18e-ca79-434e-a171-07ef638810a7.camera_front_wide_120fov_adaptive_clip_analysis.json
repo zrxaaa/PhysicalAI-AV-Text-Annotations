@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 03:05:21",
+    "processing_time_seconds": 15.33
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "道路两侧停放多辆汽车，路面标线清晰，无行人或突发障碍物，天气阴沉但能见度良好，自车保持稳定车道行驶。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:08",
+      "scene_description": "路口上方悬挂‘San Fernando St’路牌，交通灯控制多个方向车流，自车在黄灯倒计时内完成减速，未发生与其他车辆的路径冲突。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "左侧一栋教堂式建筑显眼，其门前有“BLACK LIVES MATTER”标语，自车静止期间未见行人横穿马路，环境安静有序。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "道路两侧停满车辆，部分车辆在自车前方缓慢移动，自车保持中速行驶，未进行变道或紧急避让，整体交通流畅。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "天空呈淡蓝色，光线柔和，表明为傍晚时分，路面干燥无积水，所有交通设施正常运作，自车无转向或加速异常行为。"
+    }
+  ]
+}

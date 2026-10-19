@@ -1,0 +1,41 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.66,
+    "analysis_time": "2026-01-22 02:36:45"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】持续暴雨天气，挡风玻璃布满雨滴，视野受严重干扰，左侧出现明显彩色光晕（镜头眩光或雨雾折射）。【自车】位于中间车道，沿双黄线弯道匀速行驶，未见明显加速或减速。【右侧】路肩有金属护栏，护栏外为陡坡与茂密灌木丛，无其他车辆或行人。【交通设施】道路左侧设有连续弯道警示牌（黄色菱形），但尚未进入其影响范围。【关键风险】因雨雾导致能见度低于50米，路面湿滑反光强烈，存在打滑或失控风险；挡风玻璃水渍造成视觉模糊，增加对突发障碍物的反应延迟。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility",
+        "wet_road",
+        "visual_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】雨势略有缓和，但仍阴沉，能见度约80米。【自车】保持在中间车道，随道路曲线平稳转向，车头偏航角随弯道自然调整，未发生变道或紧急制动。【前方】道路连续左转，右侧山体植被密集，无任何车辆或动物活动。【交通设施】前方出现两个黄色菱形“连续弯道”警示标志，安装于右侧路肩，提示驾驶员减速。【关键风险】弯道半径较小且视线被山体遮挡，若遇对向来车或突发障碍物，避让空间极小；当前无直接威胁，但属于高曲率危险路段，需保持低速谨慎驾驶。",
+      "risk_tags": [
+        "continuous_curve_road",
+        "limited_line_of_sight",
+        "speed_control_required"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雨雾持续，部分区域出现薄雾笼罩山腰，能见度维持在60–70米。【自车】继续在中间车道沿S型弯道行驶，横向动作平顺，无急转或刹车。【周边】道路两侧均为自然山林，植被覆盖厚实，无施工、无行人、无动物出没。【交通设施】右侧弯道处设有一段混凝土防撞墙，与护栏衔接，用于防止车辆冲出路面。【关键风险】虽无动态威胁，但该路段属山区盘山公路，地形复杂，一旦发生车辆故障或轮胎打滑，极易引发侧翻事故；此外，雨天长时间行驶易致驾驶员疲劳，间接提升事故概率。",
+      "risk_tags": [
+        "mountain_road_hazard",
+        "fatigue_risk",
+        "rollover_potential"
+      ]
+    }
+  ]
+}

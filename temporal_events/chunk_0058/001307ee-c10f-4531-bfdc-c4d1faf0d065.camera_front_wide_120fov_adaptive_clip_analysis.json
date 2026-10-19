@@ -1,0 +1,36 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.66,
+    "analysis_time": "2026-01-22 06:05:04"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，云层低垂，能见度中等，无明显降水。路面干燥，但路肩有散落垃圾与碎石。【自车】位于中间车道，匀速沿直道行驶，未进行变道或转向。【左侧】一辆白色SUV（宝马X4）在左邻车道由远及近，保持匀速，未显示变道意图。【右侧】路边有商业建筑群，包括“Benjamin Moore”和“Wag Hotels”店面，墙上有大型狗类壁画；路边有混凝土护栏，护栏外有少量植被与杂物。【交通设施】前方可见黄色“直行”指示牌，道路标线清晰。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】天空仍灰暗，无降水，光线均匀。【自车】保持中间车道匀速行驶，随道路轻微右弯延伸。【左侧】白色宝马X4持续在左邻车道行驶，尾灯亮起，表明其可能减速或准备变道。【右侧】出现“CO-OP”便利店招牌与橙色“DETOUR AHEAD”警示牌，提示前方施工。路边有电线杆、枯树及堆积的落叶与塑料垃圾。【非标物体】右侧护栏外有一棵倒伏小树，枝叶部分伸入行车道边缘，存在刮蹭风险。【交互行为】宝马X4在00:08时开始向右微调方向，疑似准备变道至自车所在车道，但尚未完成切入动作。",
+      "risk_tags": [
+        "potential_cut_in",
+        "obstacle_on_roadside",
+        "debris_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】天气无变化，能见度稳定。【自车】继续在中间车道匀速行驶，接近出口匝道区域。【前方】绿色高速公路指示牌显示“Trimble Rd EXIT 391 / De La Cruz Blvd 1/2 MILE”，同时右侧出现橙色“SLOW FOR THE ZONE”警示牌。【左侧】多辆轿车与货车在相邻车道正常通行，其中一辆黑色特斯拉从左后方快速超越自车。【右侧】施工区域围挡与临时锥桶可见，但无特种车辆作业。【关键风险】宝马X4在00:15时完成向右变道，切入自车前方车道，其刹车灯短暂亮起，表明其在出口前减速，存在与自车发生纵向距离缩小的风险。此外，前方出口匝道入口处有施工标志，暗示潜在的车道压缩或变道冲突点。",
+      "risk_tags": [
+        "lane_change_conflict",
+        "exit_zone_hazard",
+        "braking_cascade_risk"
+      ]
+    }
+  ]
+}

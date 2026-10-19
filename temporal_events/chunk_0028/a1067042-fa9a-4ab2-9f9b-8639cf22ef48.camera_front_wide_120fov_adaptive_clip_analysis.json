@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 09:24:49",
+    "processing_time_seconds": 15.94
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "车辆在十字路口等待绿灯，行人从前方斑马线横穿道路，左侧车道有白色轿车和黑色皮卡依次通过，右侧人行道有行人正在过街。交通信号灯为绿色，路面湿滑但无明显积水。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "行人穿过马路后，自车启动前行，左侧对向车道有银色SUV与白色混合动力车先后驶过，右侧路边停放多辆汽车，交通信号灯保持绿灯状态，无显著障碍物或突发行为。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:15",
+      "scene_description": "自车沿电车轨道方向匀速行驶，左侧车道有灰色轿车和红色轿车依次超车并入前方车道，右侧人行道可见少量行人站立，未发生交叉冲突，天气晴朗，阳光反射于湿滑路面。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "车辆继续直行，前方道路空旷，两侧建筑风格多样，右侧出现自行车道标识，无行人或车辆突然横穿，交通信号灯未变化，自车维持稳定速度通过街区。"
+    }
+  ]
+}

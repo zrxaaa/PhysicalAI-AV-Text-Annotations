@@ -1,0 +1,48 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.46,
+    "analysis_time": "2026-01-24 12:23:15"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】阴天，天空灰暗，无明显降水但路面湿滑反光。【自车】位于中间车道，正向十字路口减速停车，车头对准前方‘STOP’地面标线。【左侧】一辆灰色皮卡停在左转待行区，未移动；后方有银色轿车静止于路边。【右侧】蓝色建筑旁设红色八角形‘STOP’标志牌，其后方一辆深灰色SUV正在右转进入支路。【交通设施】路口设有黄色斑马线与‘STOP’地面标识，符合标准交叉口设计。【关键风险】右侧SUV在未确认直行车辆完全停止前提下启动右转，存在切入自车路径的潜在冲突（Cut-in Risk）。",
+      "risk_tags": [
+        "potential_cut_in",
+        "intersection_conflict",
+        "wet_road"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:08",
+      "scene_description": "【环境】阴天，能见度良好，无降水迹象。【自车】完成停车后，在十字路口处向右转向，沿右转车道驶入支路。【右侧】一辆深灰色Jeep Cherokee从右前方横穿斑马线，完成右转动作，已驶离交叉口。【左侧】多栋联排住宅楼前停放多辆私家车，无行人或非机动车活动。【交通设施】路口右侧设有消防栓与人行道，无施工或障碍物。【关键风险】自车右转时，Jeep Cherokee虽已完成转向，但其车身宽度较大，若自车起步过快可能与其发生并行碰撞风险（需注意横向间隙）。",
+      "risk_tags": [
+        "right_turn_conflict",
+        "wide_vehicle_clearance_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:09-00:00:12",
+      "scene_description": "【环境】阴天，光线均匀，无遮挡。【自车】已转入支路，保持匀速沿道路中心线行驶。【左侧】一排彩色联排住宅，门前停放多辆汽车（含白色SUV、银色MPV），部分车辆处于静止状态。【右侧】一栋大型砖混结构建筑（疑似学校或社区中心），外墙有“BUS STOP”标志牌，旁边停有一辆白色本田思域。【交通设施】道路两侧设有电线杆与密集架空电缆，无信号灯或限速标志。【关键风险】右侧建筑旁有公交站牌，但无实际公交车停靠，存在“虚假站点”误导风险；同时，路边停放车辆占用车道边缘，限制自车横向空间，增加变道难度。",
+      "risk_tags": [
+        "parked_vehicle_obstruction",
+        "false_bus_stop",
+        "narrow_lane_condition"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】阴天，光照稳定，无降水或雾气。【自车】继续沿支路匀速前行，车道线清晰可见。【左侧】多栋联排住宅，门前停放车辆包括红色轿车、白色轿车、银色SUV等，部分车辆缓慢驶出车位。【右侧】大型建筑（标注为“BAYVIEW ELEMENTARY SCHOOL”）旁设有无障碍坡道与金属护栏，无行人活动。【交通设施】道路右侧设有限速标志（25mph）及“BUS STOP”指示牌，但无实际公交运行。【关键风险】左侧部分车辆在停车位内缓慢启动，存在突然切入车道的风险（如：驾驶员未观察后方即启动）；此外，道路尽头可见远处有车辆排队，可能存在临时拥堵点，需提前预判速度调整。",
+      "risk_tags": [
+        "parked_vehicle_sudden_movement",
+        "traffic_queue_proximity",
+        "school_zone_warning"
+      ]
+    }
+  ]
+}

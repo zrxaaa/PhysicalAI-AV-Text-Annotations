@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 06:50:07",
+    "processing_time_seconds": 13.26
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在湿滑的十字路口停车，前方有银色SUV和对向白色轿车，右侧路边停有蓝色轿车，天空阴沉，路面有积水，交通标志显示为‘STOP’和街道名‘Renton’与‘Los Padres’。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "自车启动前行，左侧白色轿车从对向车道左转进入路口，同时右侧蓝色轿车开始右转驶离，自车保持直行，道路两侧可见住宅区和光秃树木，天气持续阴雨，能见度较低。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车通过交叉口后继续沿双黄线道路直行，左侧出现多辆停放车辆，包括白色面包车和皮卡，右侧人行道旁有自行车道标识，路面仍有明显水迹，无行人或突发障碍物。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车维持匀速行驶，道路两侧房屋密集，部分树木枝干裸露，右侧路肩有积水坑，限速25英里标志清晰可见，前方无显著车辆变道或紧急行为，整体交通流畅。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车接近下一个路口，前方道路标线提示‘SCHOOL AREA’，右侧停有一辆深色SUV，左侧有白色轿车驶入对向车道，自车未减速，继续保持直行状态，环境仍为阴雨天气。"
+    }
+  ]
+}

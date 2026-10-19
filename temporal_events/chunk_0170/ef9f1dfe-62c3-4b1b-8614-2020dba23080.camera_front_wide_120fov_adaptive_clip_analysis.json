@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 9.78,
+    "analysis_time": "2026-01-24 04:42:59"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】阴天暴雨天气，天空灰暗，路面湿滑积水，能见度较低。雨滴附着于挡风玻璃，部分区域有水雾干扰视线。【自车】位于中间车道，保持匀速沿道行驶，未进行变道或转向。【左侧邻车道】一辆白色厢式货车（带车顶行李架）与自车并行，距离约15米，速度相近，无明显加速或减速。【前方】一辆深色SUV在前车流中稳定行驶，与自车纵向间距约40米。【交通设施】左侧高架龙门架横跨多车道，右侧为金属护栏+铁丝网围栏，路肩外为开阔农田。【关键风险】无明显违规行为或障碍物，但低能见度环境下存在潜在追尾或失控风险。",
+      "risk_tags": [
+        "low_visibility",
+        "wet_road",
+        "no_immediate_threat"
+      ]
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "【环境】持续阴雨，能见度略有改善，但仍存在薄雾感。【自车】保持中间车道匀速行驶，未变道。【左侧】一辆红色半挂卡车从左后方超车，车身较长，完成超车后驶离视野；其后方紧随一辆黄色厢式货车。【右侧】出现蓝色高速公路指示牌，标示“Rastplatz Fischamend 2000 m”，含停车、WC、餐饮等服务信息。【交通设施】道路右侧护栏外为开阔田野，远处可见稀疏树木和低矮丘陵。【关键风险】左侧卡车超车时因车身宽大，短暂遮挡自车右侧盲区，存在视觉盲区碰撞风险，但未发生交互。",
+      "risk_tags": [
+        "blind_spot_obstruction",
+        "large_vehicle_passing",
+        "no_collision_occurred"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】雨势减弱，云层仍厚重，光线昏暗。【自车】维持中间车道匀速行驶，未进行任何横向或纵向动作调整。【前方】深色SUV持续在前车流中行驶，与自车保持稳定距离。【左侧】一辆白色半挂卡车（车头印有“haschka”字样）在对向车道行驶，与自车形成相对运动，无交叉意图。【右侧】金属护栏延伸至远方，路边无行人或动物活动迹象。【交通设施】道路两侧护栏连续，无施工区域或临时标志。【关键风险】整体场景平稳，无突发障碍、无违规车辆、无恶劣天气突变，属于低风险常规高速巡航阶段。",
+      "risk_tags": [
+        "stable_driving_condition",
+        "no_traffic_anomalies",
+        "low_risk_environment"
+      ]
+    }
+  ]
+}

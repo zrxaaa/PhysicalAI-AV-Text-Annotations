@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 22:10:55",
+    "processing_time_seconds": 20.05
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车在双黄线分隔的多车道公路上行驶，左侧车道有白色轿车和银色SUV依次超车并入中间车道，右侧为光秃树木与灌木带，天气阴沉但无雨，路面干燥。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:10",
+      "scene_description": "车辆驶过弯道后进入直道，前方可见数辆对向来车，道路两侧为落叶林与低矮石墙，无明显交通标志或信号灯，自车保持稳定速度行驶，未进行变道或加速操作。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:16",
+      "scene_description": "道路右侧出现限速35英里/小时标志，对向车道有黑色SUV与小型轿车先后驶过，自车继续沿中间车道直行，未改变行驶轨迹，环境光线逐渐变暗，云层较厚。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:20",
+      "scene_description": "自车前方及对向车道车辆稀疏，右侧路边出现菱形“让行”标志，一辆深色越野车从左侧车道快速超越自车，随后一辆白色货车从对向车道驶过，自车维持当前车道与速度。"
+    }
+  ]
+}

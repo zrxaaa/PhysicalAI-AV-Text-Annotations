@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 00:07:00",
+    "processing_time_seconds": 12.93
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "夜间街道，自车沿双黄线车道行驶，前方约30米处有一辆公交车停靠在右侧公交站台，路边停放多辆汽车，右侧人行道上有行人站立，未横穿马路。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "自车接近十字路口，路面标有“STOP”字样，前方对向车道出现一辆迎面驶来的车辆，其前大灯强烈眩光；两名行人从左侧人行横道穿越至右侧，与自车路径无直接冲突但处于交叉区域。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "行人完成穿越后，自车继续前行，通过十字路口，右侧公交站台结构清晰可见，路灯照明下道路两侧停放车辆密集，无其他动态障碍物进入自车路径。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "自车进入直行路段，道路两侧持续停放车辆，右侧有数辆汽车快速从后方超车，其中一辆白色皮卡在右侧行驶并短暂并入自车所在车道，随后迅速驶离。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车保持匀速直行，前方远处可见红色尾灯车队，道路两侧建筑灯光亮起，无行人或突发交通事件，环境稳定，自车未进行转向或变速操作。"
+    }
+  ]
+}

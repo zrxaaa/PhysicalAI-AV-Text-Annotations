@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.44,
+    "analysis_time": "2026-01-24 07:59:08"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】持续暴雨天气，能见度低，雨滴密集附着于挡风玻璃，雨刷器高频工作但视野仍受阻。路面湿滑积水，反光严重。【自车】在中间车道匀速沿道行驶，未进行转向或变道。【前方】对向车道有一辆深色SUV迎面驶来，距离约40米，保持直行；该车灯光开启，因雨雾影响亮度模糊。【交通设施】道路两侧为绿化带与路灯，左侧可见蓝色“Nuenen”路牌，提示进入村庄区域。【关键风险】雨雾导致视觉衰减，前车轮廓模糊，存在识别延迟风险；无明显违规行为，但需警惕突发障碍物。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility",
+        "low_contrast_vehicle"
+      ]
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "【环境】雨势略有减弱，但仍为阴雨天，路面持续湿滑，部分区域有积水反光。【自车】在中间车道减速通过一个带有“30”限速标线的交叉路口，随后继续沿道行驶。【左侧】出现一栋正在施工的砖砌建筑，屋顶结构裸露，外围设金属围栏；围栏外立有黄色“HOUDA”广告牌及施工警示标志。【右侧】路边停放多辆私家车（白色、银色、黄色），其中一辆白色小型车停在自行车道旁，车身部分压线。【交通设施】路口设有斑马线、人行横道标识，以及指向“Nuenen West”的黄色指示牌和三角形让行标志。【关键风险】右侧停车车辆侵占非机动车道，可能引发行人或骑行者突然横穿；左侧施工区域存在材料或工具掉落风险，虽未见动态物体，但属潜在障碍源。",
+      "risk_tags": [
+        "parked_vehicle_obstruction",
+        "construction_zone_risk",
+        "crossing_hazard"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】雨势基本停止，天空灰蒙，能见度中等偏高，挡风玻璃水珠减少，视野清晰度提升。【自车】在中间车道匀速行驶，轻微右转以适应道路弯度。【右侧】出现一排传统荷兰风格木屋，门前有绿篱与红色邮筒；路边停放多辆汽车，包括一辆黑色SUV与一辆黄色小轿车，均处于静止状态。【左侧】施工建筑继续延伸，围栏内可见临时卫生间与施工告示牌。【交通设施】道路右侧设自行车道标线，前方有“HULPVERLENER BEDIANKT”感谢志愿者的公益标语牌，以及“DE WATERMOLEN”方向指示牌。【关键风险】右侧自行车道与人行道紧邻，虽无行人活动，但存在“鬼探头”隐患；左侧施工围栏未完全封闭，若遇强风或车辆碰撞，可能引发碎片飞溅；无车辆违规行为，整体风险可控。",
+      "risk_tags": [
+        "potential_ghost_probe",
+        "construction_debris_risk",
+        "low_traffic_environment"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:28:25",
+    "processing_time_seconds": 14.33
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在黄昏时分沿双向两车道街道匀速行驶，右侧一辆深色SUV从后方加速并入中间车道，左侧停放多辆皮卡与SUV，前方车辆尾灯亮起，表明缓行或即将停车。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "自车继续直行，右侧出现多栋联排住宅，路边停有轿车与SUV；前方车辆减速，自车保持安全距离跟随，无明显变道或超车行为，道路两侧可见路灯照明，天空呈暮色。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "车辆接近一个无信号灯的十字路口，路面标有导向箭头，左侧驶来一辆米色面包车，右侧有一辆白色皮卡缓慢驶离停车位；自车未减速，平稳通过交叉口。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车继续沿街前行，右侧出现一栋黄色斜屋顶房屋，前方有红色轿车从右侧车道并入自车所在车道，自车保持原速避让；道路两侧车辆密集，部分车辆正在启动或停靠。"
+    },
+    {
+      "time_segment": "00:00:19-00:00:20",
+      "scene_description": "自车接近视频终点，前方道路视野开阔，两侧仍停满车辆，无行人或突发障碍物；自车维持稳定行驶状态，未进行转向或紧急制动操作。"
+    }
+  ]
+}

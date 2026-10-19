@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.6,
+    "analysis_time": "2026-01-23 23:47:42"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间无路灯照明，能见度低，仅靠车灯照明道路。【自车】在中间车道匀速沿直道行驶。【前方】一辆白色轿车位于正前方，保持安全距离，尾灯亮起。【左侧】对向车道有车辆驶来，灯光清晰可见但未进入本车道。【交通设施】右侧路肩设有白色护栏，远处可见蓝色指示牌，内容模糊但指向右转或出口方向。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】道路进入弯道区域，两侧出现路侧护栏与土坡，光线依旧昏暗。【自车】在中间车道随弯道曲率平缓转向，未变道，车头偏航角微调以贴合曲线。【前方】白色轿车持续在前，刹车灯偶有闪烁，表明轻微减速。【右侧】一辆深色轿车从右侧超车道快速驶过，完成切出动作，未影响自车路径。【交通设施】弯道处设置三角警示标志，提示前方线路变化。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "【环境】自车驶入隧道入口，外部自然光骤减，隧道内照明开始接管视野。【自车】保持当前车道，沿隧道内直线段匀速前进，车头稳定对准中线。【前方】白色轿车仍在前方，尾灯亮度因隧道内反光略有增强。【左侧】隧道入口处有施工围挡与锥桶，但无作业车辆或人员。【交通设施】隧道入口上方悬挂限速标志（40km/h），并设有多组照明灯具，但部分区域存在照明盲区。",
+      "risk_tags": [
+        "tunnel_light_transition",
+        "partial_illumination_blind_spot"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】驶出隧道后，道路恢复户外黑暗环境，能见度仍低。【自车】在中间车道继续前行，接近一个交叉路口。【前方】白色轿车在路口前减速，准备左转或直行。【左侧】路口设有斑马线与导向箭头标志，同时立有圆形禁行标志（红圈白底）。【右侧】另一条支路有车辆驶入，但未进入主路冲突区域。【关键风险】前方车辆在无明显转向灯情况下突然减速，可能引发追尾；同时路口无信号灯控制，存在潜在的违规横穿或抢行风险。",
+      "risk_tags": [
+        "unannounced_deceleration",
+        "intersection_without_signal",
+        "potential_jaywalking_risk"
+      ]
+    }
+  ]
+}

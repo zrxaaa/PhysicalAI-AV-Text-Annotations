@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.94,
+    "analysis_time": "2026-01-24 10:13:04"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，云层厚重，无明显降水，路面干燥但略显湿滑。【自车】位于中间车道，处于十字路口停车等待状态，前方交通信号灯由红转绿。【左侧邻道】一辆银灰色雷克萨斯SUV停在左转车道，车头朝向与自车平行，未启动。【右侧人行横道】多名行人正在通过斑马线，其中两人携带行李箱，动作平稳；一名骑自行车者从右后方进入画面，正沿非机动车道向左前方骑行。【交通设施】路口设有标准交通信号灯、人行横道标线及“CITY SPEED LIMIT 25”限速标志。【关键风险】右侧人行横道上行人密集，存在未观察车辆即横穿的风险（Jaywalking）；自行车者未在非机动车道内靠右行驶，有侵入机动车道趋势。",
+      "risk_tags": [
+        "jaywalking",
+        "bicycle_crossing_risk",
+        "pedestrian_density"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】天气持续阴沉，能见度良好，无降水迹象。【自车】在绿灯后启动，保持中间车道匀速前行。【前方】银灰色雷克萨斯SUV完成左转并驶离画面，自车跟随其轨迹平顺前进。【右侧】沿街商铺林立，包括“CHAIR TABLE OUTLET”、“WELLS FARGO”等，部分墙面有涂鸦。人行道上有行人行走，其中一位戴白色帽子的女性提购物袋，正朝向自车方向步行，步速中等。【非标物体】右侧路边停放多辆货车，包括一辆印有“BUCK-MILLER”字样的白色厢式货车，车身静止，未作业。【交通设施】道路右侧设有限速25英里/小时标志牌，路旁有“HOUSTON ST”路牌。【关键风险】右侧人行道上行人与自车纵向距离逐渐缩小，若其突然转向或加速横穿，可能引发碰撞；同时，右侧施工区域尚未出现，暂无施工干扰。",
+      "risk_tags": [
+        "pedestrian_proximity",
+        "static_vehicle_occupancy"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】天空仍阴沉，无降水，路面干燥。【自车】保持中间车道匀速行驶，车速约30km/h。【前方】一辆深色SUV在前车流中稳定行驶，未变道。【右侧施工区】道路右侧设置橙色锥桶围挡，形成临时施工通道，区域内有一辆红色自卸卡车静止停放，车斗向上倾斜，疑似准备卸料。【左侧】对向车道有数辆轿车和皮卡正常通行，部分车辆在路口处减速。【行人】一名身穿深色外套的男性从右侧人行道走向施工区域边缘，动作缓慢，未横穿马路。【非标物体】施工区域地面有散落建筑材料，但未影响主车道通行。【交通设施】道路右侧可见“RETAIL SPACE FOR LEASE”广告牌，以及“ROGER & SONS HOME SUPPLIES”店铺招牌。【关键风险】右侧施工区域存在潜在障碍物（锥桶+卡车），若自车偏离车道或因避让而急打方向盘，可能引发失控；同时，施工人员若在锥桶外活动，存在“鬼探头”风险（Occlusion Risk）。此外，前方车辆若突然刹车，自车需保持安全跟车距离以防追尾。",
+      "risk_tags": [
+        "construction_zone_obstacle",
+        "occlusion_risk",
+        "rear_collision_potential"
+      ]
+    }
+  ]
+}

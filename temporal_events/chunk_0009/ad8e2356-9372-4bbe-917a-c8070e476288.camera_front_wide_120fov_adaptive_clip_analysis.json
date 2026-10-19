@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 02:21:55",
+    "processing_time_seconds": 13.0
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "自车沿双黄线道路平稳行驶，右侧一辆深色SUV驶离路边，随后左侧出现一辆灰色轿车迎面驶来，两车在中间车道交错通过。道路两侧停有多辆私家车，树木枝叶稀疏，天气晴朗，云层较厚但无遮挡阳光。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:10",
+      "scene_description": "前方路口出现‘STOP’路面标记与红色停车标志，自车减速并停于停止线前。对向车道有黑色面包车和白色皮卡依次驶近，右侧人行道上一名行人提着橙色桶正走向住宅区。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:14",
+      "scene_description": "自车在路口左转，完成转向动作后进入新街道。路口右侧可见消防栓与绿化带，远处有车辆从横向道路驶入，未与自车路径冲突。天空云层移动，光线略有变化但不影响能见度。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "自车继续沿新街道直行，道路两侧为低密度住宅，部分车道旁停放车辆。前方无显著障碍物或行人，交通流畅。树木逐渐茂密，部分遮挡视线，但未影响行车安全。"
+    }
+  ]
+}

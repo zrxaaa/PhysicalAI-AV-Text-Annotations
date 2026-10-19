@@ -1,0 +1,42 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.09,
+    "analysis_time": "2026-01-24 14:03:00"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴朗天气，能见度良好，无降水或遮挡。【自车】位于中间车道，匀速沿直道行驶，未进行变道或转向。【周围车辆】左侧邻车道有黑色SUV和灰色SUV依次超车；前方有一辆水泥搅拌车与一辆深色轿车同向行驶，保持安全距离。【交通设施】右侧路肩设有临时施工围栏与橙白相间锥桶，后方可见电子显示屏广告牌；左侧为高架桥结构，下方有阴影区域。【关键风险】无明显违规行为或障碍物，但右侧施工区存在潜在视线遮挡风险，需警惕突发横穿或施工设备移动。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】持续晴天，光照稳定。【自车】保持中间车道匀速行驶，道路开始轻微右转。【周围车辆】左侧车道多辆车维持正常行驶，部分车辆在弯道处减速；前方车辆队列未发生明显变道或加塞。【交通设施】右侧出现黄色“LANE ENDS MERGE LEFT”警示牌，提示前方车道合并；随后出现绿色出口指示牌（EXIT 148），指向Washington St、Jefferson St及Rental Car Return。【关键风险】无直接碰撞威胁，但出口预告标志与车道合并提示叠加，可能引发后方车辆突然变道，需注意后车动态。",
+      "risk_tags": [
+        "lane_merge_warning",
+        "exit_sign_complexity"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】晴朗，阳光从右上方照射，局部产生眩光。【自车】继续沿当前车道行驶，进入弯道末端并接近出口匝道入口。【周围车辆】左侧车道车辆逐渐减少，部分车辆提前变道至最左侧车道准备下高速；前方车辆保持队列，无急刹或异常行为。【交通设施】右侧出现“EXIT 148”绿色出口指示牌，同时前方有横向龙门架式交通标志，包含多个方向指引。【非标物体】右侧路边有小型商业建筑群，未见施工设备或动物活动。【关键风险】自车即将进入出口匝道，需注意右侧汇入车流可能突然切入，存在“切出”或“鬼探头”风险，尤其在弯道视野受限区域。",
+      "risk_tags": [
+        "exit_lane_transition_risk",
+        "blind_spot_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】晴空，光线充足，无天气异常。【自车】已驶入出口匝道，道路由主路过渡为双向分离车道，自车位于右侧车道，随弯道平缓右转。【周围车辆】前方及左侧车道均有车辆按出口导向行驶，未见强行加塞或紧急制动。【交通设施】前方可见多个悬臂式交通标志，包括“Downtown Cultural/Sports Facilities”方向指示；右侧有大型广告牌显示动态内容。【关键风险】匝道转弯半径较小，且前方有交叉路口信号灯，若后车未及时减速，可能发生追尾或误入对向车道。目前无动物、施工设备或路面遗撒物，整体风险较低。",
+      "risk_tags": [
+        "exit_turning_risk",
+        "intersection_proximity"
+      ]
+    }
+  ]
+}

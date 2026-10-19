@@ -1,0 +1,47 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.79,
+    "analysis_time": "2026-01-22 18:44:25"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】夜间，路灯照明良好，无异常天气。【自车】在中间车道匀速沿道行驶，接近一个交叉路口。【右侧】设有一个红色‘STOP ALL WAY’标志牌，下方有橙白相间施工锥桶与临时护栏围挡，提示前方为四向停车路口。【交通设施】路侧设有路灯和街道路牌（可辨识为‘E 23rd St’），但未见信号灯。【关键风险】施工区域存在临时障碍物，若自车未减速或误判通行权，可能引发碰撞或违规通过。",
+      "risk_tags": [
+        "construction_zone",
+        "stop_sign_intersection",
+        "potential_speeding_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】夜间，道路两侧树木茂密，路灯提供局部照明。【自车】完成在交叉口的左转动作（车头偏航角约-45度），进入新路段。【左侧】可见一排住宅、停放车辆及垃圾桶；【右侧】有施工锥桶继续延伸至远处，提示该路段仍在施工中。【非标物体】无特种车辆作业，无动物或行人出现。【关键风险】左转后进入新道路，视野受限于树冠遮挡，且路面标线因灯光反射略显模糊，存在轻微视觉干扰风险。",
+      "risk_tags": [
+        "left_turn_transition",
+        "limited_visibility",
+        "road_marking_reflection"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:15",
+      "scene_description": "【环境】夜间，道路两侧为低密度住宅区，路灯间距较大，部分区域光线较暗。【自车】在中间车道保持匀速直线行驶，车头朝向道路中心线延伸方向。【左侧】可见一辆黄色厢式货车停靠在路边，车身静止，未见作业迹象；【右侧】有数个垃圾桶沿路边排列，无其他移动目标。【交通设施】道路中央为双黄实线，两侧为白色虚线，标线清晰，无施工围挡。【关键风险】无明显风险，但夜间能见度较低，需警惕突然横穿的行人或动物，尤其在路灯间隙区域。",
+      "risk_tags": [
+        "low_light_driving",
+        "no_immediate_threat"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】夜间，道路两侧植被浓密，路灯稀疏，整体光线昏暗。【自车】维持当前车道匀速前行，未进行转向或变道。【周围】左侧偶有停放车辆，右侧为草地与灌木丛，无行人、动物或施工活动。【交通设施】道路标线完整，无临时障碍物或警示标志。【关键风险】此段为纯直线道路，无直接交互威胁，但因夜间环境单一，易导致驾驶员疲劳，间接增加事故概率。未发现任何突发障碍物或违规行为。",
+      "risk_tags": [
+        "driver_fatigue_risk",
+        "monotony_driving"
+      ]
+    }
+  ]
+}

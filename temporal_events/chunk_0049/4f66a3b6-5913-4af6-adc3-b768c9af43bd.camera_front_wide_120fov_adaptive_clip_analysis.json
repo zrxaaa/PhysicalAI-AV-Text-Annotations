@@ -1,0 +1,35 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.88,
+    "analysis_time": "2026-01-22 02:13:38"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】多云天气，天空云层较厚但无明显降水，能见度良好。【自车】位于中间车道，匀速沿直道行驶，未进行变道或转向。【前方车辆】一辆白色厢式货车（车身印有“MRN LIFE, LLC”字样）在正前方车道行驶，尾灯未亮，保持稳定速度。【右侧】路边可见一栋粉色建筑及一座红顶黄墙的“TICKET OFFICE”店铺，门前停放一辆白色轿车。【交通设施】道路两侧设有路灯、电线杆及绿化带，左侧为对向车道，无明显障碍物。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】天空云量略增，光线略有减弱，无降雨迹象。【自车】仍保持在中间车道，匀速前行，接近前方交叉路口。【前方车辆】白色厢式货车开始减速，疑似准备左转或停车。【左侧】一辆灰色SUV从左邻车道切入自车前方，完成切出动作，未打转向灯，存在轻微违规风险。【右侧】“TICKET OFFICE”店铺旁出现行人，身穿深色衣物，站立于店门口，面向街道，无明显移动意图。【交通设施】前方路口设有红绿灯和“SCHOOL ZONE”限速标志（40mph），当前信号灯为红灯，车辆开始排队等候。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "un signaled_lane_change",
+        "pedestrian_near_roadside"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】阴天，光照均匀，无强逆光或遮挡。【自车】在交叉路口处停车等待，处于中间车道，刹车灯亮起。【前方车辆】多辆轿车与一辆蓝色平板卡车（无载货）停在自车正前方，形成排队队列。蓝色卡车位于自车左前方邻车道，车头朝向与自车一致，未发生横向移动。【右侧】加油站区域清晰可见，标有“Food Mart”标识，有多辆车在加油区停留。【关键交互】自车与前车保持安全距离，未出现急刹或强行加塞行为。【非标准物体】无动物、施工车辆或路面遗撒物。【交通设施】路口设有“SCHOOL ZONE 40”限速牌及人行横道警示标志，当前红灯持续亮起，所有车辆静止。【关键风险】因前方车辆密集且信号灯为红灯，存在长时间等待导致后方车辆可能违规变道的风险，但当前时段内未发生实际违规行为。",
+      "risk_tags": [
+        "long_wait_at_intersection",
+        "potential_aggressive_lane_changing"
+      ]
+    }
+  ]
+}

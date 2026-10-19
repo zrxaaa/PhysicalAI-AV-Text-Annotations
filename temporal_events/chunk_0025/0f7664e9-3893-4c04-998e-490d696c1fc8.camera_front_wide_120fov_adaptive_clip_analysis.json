@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 08:28:30",
+    "processing_time_seconds": 14.23
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在街道上匀速行驶，前方右侧一辆红色轿车从路边驶出并停在路口停止线前，同时右侧人行道旁有停车标志和禁止左转标志，天空晴朗，路面干燥无积水。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "自车在十字路口停车等待，左侧对向车道有银色SUV驶过，右侧蓝色小型车正在右转，路口中央有行人准备穿越马路，交通信号灯为红灯状态，道路两侧可见电车轨道和住宅建筑。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "绿灯亮起后自车启动前行，右侧路边停放着黑色敞篷跑车，前方街道两侧排列着多栋彩色联排住宅，电车轨道贯穿道路，无显著行人或障碍物干扰自车路径。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:16",
+      "scene_description": "自车继续沿街行驶，右侧人行道出现一名行人正走向路口，前方路口设有黄色“注意儿童”警示牌及禁止左转标志，左侧对向车道有白色货车驶过，路面标线清晰可见。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车接近下一个路口，右侧路边停放多辆私家车，包括银色SUV与灰色轿车，前方道路无明显障碍，天气晴好，光线充足，自车保持稳定速度直行通过该路段。"
+    }
+  ]
+}

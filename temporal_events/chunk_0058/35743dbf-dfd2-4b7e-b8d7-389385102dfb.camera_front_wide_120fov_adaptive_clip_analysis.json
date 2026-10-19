@@ -1,0 +1,41 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.27,
+    "analysis_time": "2026-01-22 06:03:34"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，能见度良好，无降水或雾气。【自车】在中间车道匀速沿直道行驶，未进行变道或转向。【左侧】路肩为干燥黄土坡，有稀疏枯树；右侧为茂密绿植与棕榈树。【交通设施】前方约50米处设有绿色高速公路指示牌，显示“Junction 101, Gish Road 3/4, Brokaw Road 1 1/2”。【关键风险】无显著风险，道路视野开阔，无遮挡物或异常行为。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】光照稳定，天空有少量云层，无天气异常。【自车】保持中间车道匀速行驶，随道路微弯向前。【左侧】出现黄色菱形“前方弯道”警示牌，后方可见对向车道停放的黑色轿车及小型建筑。【右侧】树木密集，部分枝叶伸入路肩。【交通设施】接近交叉口，出现“2 CAR PER GREEN THIS LANE”限流标志及红绿灯杆。【关键风险】无直接碰撞或违规行为，但左侧对向车道存在静止车辆，可能构成潜在遮挡风险（如突然开门或行人横穿），需保持警惕。",
+      "risk_tags": [
+        "potential_occlusion_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】进入多车道主干道，光照充足，视野受限于右侧高大树木。【自车】维持中间车道匀速行驶，未变道。【左侧】并行车道车流量增大，可见白色特斯拉、银色SUV、灰色皮卡拖挂平板车等，均正常行驶。【右侧】绿化带后方有低矮灌木丛，无明显施工或障碍物。【交通设施】前方出现“USE SOUTH 101”指示牌，提示前方分岔。【关键风险】左侧车道有大型平板拖车缓慢行驶，其车身宽度接近车道极限，存在轻微横向侵占风险，但未影响自车路径。无急刹或强行加塞行为。",
+      "risk_tags": [
+        "large_vehicle_proximity",
+        "lane_width_constraint"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】晴朗，远处山体轮廓清晰，无遮挡。【自车】继续在中间车道匀速行驶，临近出口匝道区域。【左侧】对向车道车流密集，包括白色轿车、深色SUV、工程卡车等，均按车道有序通行。【右侧】出现“THRU TRAFFIC MERGE LEFT”和“END ROAD WORK”警示牌，提示前方合并车道。【非标物体】右侧路边有橙白相间施工围栏，但无施工车辆或人员活动。【关键风险】前方车辆开始减速准备汇入主路，存在“切出”（Cut-out）行为，自车需注意保持安全距离以防紧急制动。无闯红灯、鬼探头或动物出现。",
+      "risk_tags": [
+        "merge_zone_warning",
+        "rear_vehicle_braking"
+      ]
+    }
+  ]
+}

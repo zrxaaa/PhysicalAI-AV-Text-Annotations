@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 10.94,
+    "analysis_time": "2026-01-24 01:58:33"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "【环境】夜间降雪，路面湿滑且部分被积雪覆盖，能见度受路灯黄光与雪花反射影响。【自车】在中间车道匀速沿道行驶，车头朝向道路中心线，未进行转向或变道。【右侧】路肩处停放一辆深色轿车，车身静止，无明显动作；路边有蓝色交通指示牌，显示“Gentilly-St-Michel”等方向信息。【交通设施】前方约50米处为混凝土结构下穿隧道入口，两侧护栏及坡面覆盖积雪，隧道口内灯光可见。【关键风险】隧道入口处路面湿滑，存在水雾反光，可能影响前车刹车距离；右侧停车车辆未设警示标识，存在潜在的开门或突然启动风险。",
+      "risk_tags": [
+        "wet_road",
+        "reduced_visibility",
+        "parked_vehicle_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "【环境】进入隧道后，光照由外部路灯转为隧道内人工照明，光线呈暖黄色，隧道壁为混凝土结构，两侧有照明灯带。【自车】保持在中间车道匀速前行，车头方向与隧道轴线一致，无横向偏移。【周围】隧道内无其他车辆，路面湿润但无明显积水，两侧混凝土墙与地面有少量积雪残留。【交通设施】隧道内设有连续照明系统，顶部有电缆和支撑结构，无异常障碍物。【关键风险】隧道内光线较暗，虽无对向车流，但若前方出现紧急制动车辆，因视线受限易导致追尾；隧道入口处存在明暗突变，驾驶员需适应视觉过渡。",
+      "risk_tags": [
+        "tunnel_light_transition",
+        "low_visibility_in_tunnels",
+        "no_traffic_obstacle"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】驶出隧道后，恢复至户外雪夜场景，两侧树木及灌木丛覆盖厚雪，路灯间距均匀，光线呈黄白色。【自车】维持中间车道匀速沿道行驶，随道路轻微左弯而自然调整方向，未进行主动转向。【左侧】对向车道有车辆驶来，车灯清晰可见，保持安全距离；右侧路肩有金属护栏，护栏外侧积雪堆积。【交通设施】道路标线部分被雪覆盖，但仍可辨识；前方设有圆形禁行标志（禁止直行）及箭头指示牌，提示前方路线选择。【关键风险】路面湿滑且部分车道线模糊，增加误判车道的风险；右侧护栏外雪堆过高，若遇突发情况可能限制避让空间；夜间行车中，远处车辆灯光易造成眩目，影响判断。",
+      "risk_tags": [
+        "slippery_road",
+        "partial_lane_marking_obscured",
+        "glare_from_oncoming_lights"
+      ]
+    }
+  ]
+}

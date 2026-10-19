@@ -1,0 +1,20 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 22:14:07",
+    "processing_time_seconds": 25.7
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:10",
+      "scene_description": "自车沿直道匀速行驶，右侧为高混凝土墙，左侧有低矮围栏和树木；前方一辆白色轿车保持在前车距内，道路标线清晰，无明显交通信号或施工标志。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "车辆接近交叉路口，右侧出现‘SOUTH 101 FREEWAY ENTRANCE’指示牌，左侧车道有大型绿色工程车及白色皮卡停靠；自车平稳通过路口，未停车，前方车辆减速并变道，阳光产生镜头眩光。"
+    }
+  ]
+}

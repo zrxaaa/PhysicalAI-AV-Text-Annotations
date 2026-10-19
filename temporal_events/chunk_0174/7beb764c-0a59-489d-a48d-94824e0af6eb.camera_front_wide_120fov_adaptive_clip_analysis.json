@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.61,
+    "analysis_time": "2026-01-24 06:08:15"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间暴雨天气，雨滴密集附着于挡风玻璃，导致视野模糊；路面严重积水，反射路灯与车灯形成强烈眩光。【自车】位于中间车道，执行匀速直线行驶，未见明显转向或变道动作。【右侧】路肩处可见一排高杆路灯及行道树，远处有红绿灯信号（当前为绿灯）。【左侧】对向车道有车辆驶过，尾灯在雨幕中呈拖尾状。【交通设施】前方路口设有斑马线与交通指示牌，但因雨水干扰，标识辨识度低。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility",
+        "glare_effect"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】雨势略有减弱，但仍持续降雨，挡风玻璃雨刷器开始高频工作，部分区域视线恢复。【自车】保持中间车道匀速前行，车头偏航角稳定，无横向移动。【右侧】出现多层商业建筑，底层商铺亮灯，其中一家“PIZZA TERRA”招牌清晰可见；路边停放数辆私家车，部分车门开启。【左侧】对向车道车辆密度增加，部分车辆减速通过路口。【关键风险】右前方人行横道处，一名行人背对自车方向站立于路边，面部朝向不明，双手插兜，未观察来车，存在潜在横穿意图（Jaywalking风险）。",
+      "risk_tags": [
+        "jaywalking_risk",
+        "pedestrian_in_blind_spot",
+        "partial_visibility_recovery"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】雨势再次增强，挡风玻璃水雾加重，雨刷器频率提升至最高档位；能见度下降至约50米内。【自车】维持中间车道匀速行驶，未进行任何变道或紧急制动。【右侧】一栋高层住宅楼沿街延伸，部分窗户亮灯；楼下商铺招牌灯光闪烁，如“Optikka Ukkonen”。【左侧】对向车道车流密集，部分车辆开启远光灯，加剧眩光。【非标物体】道路右侧人行道边缘发现一个被雨水冲刷的塑料箱体，静止于路边，距离车道约2米，可能影响非机动车通行但对自车无直接威胁。",
+      "risk_tags": [
+        "heavy_rain_reintensification",
+        "glare_from_opposite_traffic",
+        "debris_on_sidewalk"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】暴雨持续，路面水膜厚度增加，车辆驶过时溅起高浪花，部分遮挡前车尾灯。【自车】在中间车道继续匀速行驶，接近前方交叉口。【右侧】一辆白色轿车从后方超车并切入自车右侧邻车道，未打转向灯，完成切出动作后加速离开。【左侧】对向车道有一辆公交车停靠站点，车身遮挡部分视野，其后方隐约可见一名行人正准备横穿马路。【关键风险】右侧突发车辆强行切出（Aggressive Cut-out），虽未碰撞，但迫使自车调整纵向间距以避让；同时，左侧公交遮挡区域存在“鬼探头”隐患，行人横穿概率高，需高度警惕。",
+      "risk_tags": [
+        "aggressive_cut_out",
+        "ghost_probe_risk",
+        "rear_vehicle_unexpected_maneuver"
+      ]
+    }
+  ]
+}

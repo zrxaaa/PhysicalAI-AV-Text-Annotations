@@ -1,0 +1,46 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.48,
+    "analysis_time": "2026-01-21 18:41:21"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天多云，能见度良好，无降水或强逆光。【自车】位于中间车道，匀速沿直道行驶。【交通设施】前方约30米处设有一个橙色菱形“ROAD WORK AHEAD”警示牌，立于右侧路肩，未见施工活动。【周围车辆】左侧对向车道有车辆驶过，但未进入本车所在车道；右侧路边停有一辆白色轿车，静止状态。【关键风险】无明显风险，道路畅通，仅存在前方施工提示，需保持警惕。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】光照稳定，树影投射在路面，无遮挡。【自车】保持中间车道匀速前行。【前方车辆】一辆白色SUV从左侧超车后，切入自车前方车道并减速，疑似因前方施工绕行。【交通设施】右侧路肩出现第二个橙色警示牌：“RIGHT LANE CLOSED”，配合锥桶引导车流。【行人】右侧人行道上一名穿黄色反光背心的施工人员站立，面向车流方向，未横穿马路。【关键风险】施工区域开始影响车道分配，右侧车道关闭，左侧车道车流密度增加，存在潜在变道冲突风险。",
+      "risk_tags": [
+        "lane_closure",
+        "increased_traffic_density",
+        "potential_cut_in"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】天气晴朗，视野开阔。【自车】维持中间车道匀速行驶，接近施工区。【前方车辆】白色SUV持续在前车流中缓慢行驶，未加速超越。【施工区域】右侧车道被锥桶完全封闭，多名身穿高亮安全服的工人在路侧作业，部分工人手持指挥棒引导车流。【非标准目标】远处可见一台黄色挖掘机静止停放于施工区域内，未作业，无臂架伸出。【关键风险】施工区域存在多个动态行人与静态重型机械，若工人突然移动或车辆误入封闭车道，将引发严重事故。自车需保持与前车距离，避免急刹。",
+      "risk_tags": [
+        "construction_zone",
+        "worker_presence",
+        "heavy_equipment_static",
+        "braking_distance_required"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】光线略显昏暗，可能为午后云层增厚。【自车】在中间车道继续匀速前进，即将通过施工区。【周围车辆】一辆白色沃尔沃SUV从左侧车道切入自车前方，完成变道动作，未影响自车路径。【行人】右侧人行道上一名行人（穿深色衣裤）正沿路行走，与车流同向，无横穿意图。【交通设施】施工区域锥桶排列整齐，引导车流由左向右绕行。【关键风险】当前路段已进入施工尾段，车流趋于恢复，但仍需注意突发行人或车辆违规行为。无直接碰撞风险，但存在轻微延误和变道博弈。",
+      "risk_tags": [
+        "minor_delay",
+        "lane_change_interaction",
+        "low_risk_environment"
+      ]
+    }
+  ]
+}

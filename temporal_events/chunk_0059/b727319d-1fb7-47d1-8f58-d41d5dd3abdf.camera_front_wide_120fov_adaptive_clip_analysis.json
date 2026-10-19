@@ -1,0 +1,35 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.33,
+    "analysis_time": "2026-01-22 06:17:01"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴朗天气，太阳位于正前方形成强烈逆光，导致路面反光及部分区域视觉遮蔽。【自车】位于中间车道，匀速沿道行驶，未进行转向或变道。【左侧】对向车道有多辆轿车与SUV依次驶过，包括一辆银色SUV从左前侧切入并超越自车，完成切出动作。【右侧】路边停放多辆私家车，包括一辆深色皮卡在右后方缓慢驶离停车区。【交通设施】道路两侧为商业街建筑，可见“79”路牌及人行横道警示标志，但无行人活动。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】逆光持续，阳光直射镜头造成眩光，但能见度整体良好。【自车】保持中间车道匀速行驶，车头朝向道路中心线延伸方向。【前方】一辆银色轿车（车牌被遮挡）在自车正前方行驶，尾灯亮起，表明其处于制动或缓行状态。【左侧】一辆黑色皮卡从左前侧超车后驶入对向车道，完成切出；随后一辆黑色SUV从左后方接近并试图切入自车所在车道，但未成功，最终保持在左后方。【右侧】一辆浅灰色Jeep牧马人停靠在路边，车门关闭，无人员活动。【交通设施】右侧出现“PEDESTRIAN CROSSING”黄色警示牌，提示前方有人行横道，但当前无行人穿越。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "braking_vehicle_ahead"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】强逆光持续，阳光在挡风玻璃上形成明显光晕，影响部分视野。【自车】维持中间车道匀速行驶，未发生转向或紧急制动。【前方】银色轿车持续在自车正前方行驶，刹车灯间歇亮起，表明其可能在等待路口信号或前方拥堵。【左侧】一辆黑色轿车从左前侧快速驶过，完成切出；随后一辆深色SUV从左后方接近，因前方车辆减速而减速并保持安全距离。【右侧】浅灰色Jeep牧马人仍停靠在路边，车身轻微倾斜，疑似正在装卸物品，但无人员活动。【交通设施】右侧商铺招牌显示“Freehold CENTER”及“SEAFOOD LOVERS FRIED”，下方有“ICE CREAM”字样，表明为商业街区；人行横道标志清晰可见，但无行人通过。【关键风险】前方银色轿车频繁制动，存在潜在追尾风险；右侧Jeep虽静止，但车身倾斜且无人员监控，存在“开门杀”或突发移动的隐患；左侧后方SUV若加速可能引发加塞行为，需保持警惕。",
+      "risk_tags": [
+        "potential_rear_collision",
+        "parked_vehicle_risk",
+        "aggressive_following"
+      ]
+    }
+  ]
+}

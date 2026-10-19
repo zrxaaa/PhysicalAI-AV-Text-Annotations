@@ -1,0 +1,48 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.67,
+    "analysis_time": "2026-01-22 06:25:38"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "【环境】晴天，能见度良好，无异常天气。【自车】位于中间车道，执行缓慢匀速行驶，未发生转向或变道。【左侧】一辆白色福特全顺货车（车顶装梯架）与自车并行，保持左前侧邻车道位置，车速与自车同步。【右侧】一辆白色IDK Cooling Corp.工程货车停靠路边，车身部分侵入行车道，尾部朝向后方，未移动。【前方】一辆银色大众途观SUV在自车正前方，刹车灯常亮，表明其处于缓行状态。【交通设施】道路两侧为高层商业建筑，左侧有脚手架，右侧人行道有商铺（如美甲、理发店），行人零星行走。【关键风险】右侧IDK货车虽停靠，但车身侵占车道，存在“开门杀”风险；左侧福特货车与自车距离过近，若突然加速可能引发追尾。无明显违规行为。",
+      "risk_tags": [
+        "narrow_lane_clearance",
+        "parked_vehicle_obstruction",
+        "potential_door_opening"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】城市街道，光照均匀，无遮挡。【自车】继续沿中间车道行驶，速度略有提升。【左侧】一辆U-Haul搬家卡车从左前方切入，车身横跨两条车道，车头朝向自车右前方，意图超车。【右侧】一辆Ryder租赁卡车从右后方驶入，车头已越过自车右侧，正在完成超车动作。【前方】银色大众途观SUV开始加速，逐渐脱离自车视线范围。【交通设施】前方路口出现斑马线与交通信号灯，绿灯亮起，允许直行。【关键风险】左侧U-Haul卡车强行切入，未打转向灯，属于“非礼切车”（Aggressive Cut-in），对自车形成横向威胁；右侧Ryder卡车高速接近，存在侧面碰撞风险。路口行人尚未完全通过，需警惕突发横穿。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "high_speed_cross_traffic",
+        "pedestrian_crossing_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "【环境】晴朗，城市街景开阔，远处可见摩天大楼轮廓。【自车】在交叉路口完成左转/直行决策，进入新路段，车辆轻微减速以适应路口通行规则。【左侧】行人组群正在通过斑马线，其中一人推婴儿车，面部朝向前方，步速稳定；另一人低头看手机，未观察路况。【右侧】Ryder卡车已完成超车，驶离自车视野；U-Haul卡车已驶出画面。【前方】路口中央有橙色施工锥桶，提示前方有临时施工区域。【交通设施】路口设有清晰的斑马线、导向箭头及交通信号灯（绿灯）。【关键风险】行人中有人低头看手机，存在“鬼探头”或突然横穿的风险；施工锥桶区域暗示路面可能不平整，需注意避让。无车辆违规行为，但行人注意力分散构成潜在危险。",
+      "risk_tags": [
+        "distracted_pedestrian",
+        "construction_zone_awareness",
+        "crosswalk_violation_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "【环境】城市主干道，两侧为商业楼宇，光线充足。【自车】进入直行车道，保持匀速行驶。【左侧】一辆白色皮卡从左前方快速超越自车，车头偏航角向右，完成超车后回归原车道。【右侧】一辆Verizon工程车停靠在路边，车身部分占用非机动车道，未作业，无警示灯。【前方】道路通畅，无大型障碍物。【交通设施】路旁设有自行车道标识（Bike Lane），地面标线清晰；右侧人行道有花坛和座椅，无行人活动。【关键风险】左侧皮卡超车时车距极近，存在刮蹭风险；右侧Verizon工程车虽静止，但车身侵占车道，可能引发“开门杀”或紧急避让。整体风险较低，无严重事故前兆。",
+      "risk_tags": [
+        "close_passing_vehicle",
+        "parked_vehicle_blocking_lane"
+      ]
+    }
+  ]
+}

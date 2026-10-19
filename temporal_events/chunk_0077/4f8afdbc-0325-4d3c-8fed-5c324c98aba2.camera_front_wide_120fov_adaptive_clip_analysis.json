@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 18.35,
+    "analysis_time": "2026-01-22 14:23:44"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】冬季清晨，道路两侧积雪覆盖，路面湿滑且部分区域有融雪水迹；太阳位于前方偏左位置，形成强烈逆光，导致视野局部眩光。【自车】在中间车道匀速沿道行驶，未进行转向或变道。【左侧】电线杆与光秃树木密集排列，部分树枝伸入路侧空间；【右侧】雪堆高耸，边缘有倒伏枯枝。【交通设施】左侧可见电线杆及架空线缆，无明显标志牌；右侧远处出现黄色弯道警示牌（Yield Sign），提示前方弯道。【关键风险】逆光导致对向来车及行人识别困难，存在视觉盲区；路边雪堆可能遮挡突发障碍物或行人。",
+      "risk_tags": [
+        "strong_backlight",
+        "reduced_visibility",
+        "obstacle_occlusion_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:06-00:00:12",
+      "scene_description": "【环境】逆光持续，阳光角度略有降低，树影拉长投射于雪地与路面；气温低，空气清冽，无降水或雾气。【自车】保持中间车道匀速前进，随道路微弯自然调整方向，未越线。【右侧】一名行人（着深色冬装，头戴毛帽）出现在雪坡边缘，面向自车方向行走，步速平稳，未横穿马路，但处于自车右后方约8米处，随车辆前行而逐渐远离。【交通设施】右侧出现限速25英里/小时的白色矩形标志牌，安装于木桩上；前方道路呈缓弯，无其他车辆或障碍物。【关键风险】行人虽未横穿，但其位置紧邻行车道边缘，若突然转向或滑倒，可能侵入车道；雪地反光加剧眩光，影响对行人动态的及时判断。",
+      "risk_tags": [
+        "pedestrian_near_lane_edge",
+        "glare_impact_on_detection",
+        "low_visibility_pedestrian"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】太阳继续西沉，光线更显柔和，但仍为逆光；道路两侧雪地反射强光，路面因融雪略显湿润。【自车】维持中间车道匀速沿弯曲道路行驶，车头偏航角随弯道平缓调整。【左侧】树林间隙中隐约可见远处水面反光（疑似湖泊或河流），树木枝干交错，部分倒伏枯枝横卧于雪堆旁。【右侧】雪堆高度增加，部分区域有被车辆碾压形成的压实痕迹；无行人或动物出现。【交通设施】无新增标志牌，仅见远处电线杆与稀疏林带。【关键风险】道路曲率增大，视线受树木遮挡，存在“鬼探头”潜在风险；雪地反射光干扰摄像头对路面标线和障碍物的识别精度，需依赖辅助系统增强感知。",
+      "risk_tags": [
+        "curved_road_with_obstruction",
+        "snow_reflection_glare",
+        "potential_ghost_probe"
+      ]
+    }
+  ]
+}

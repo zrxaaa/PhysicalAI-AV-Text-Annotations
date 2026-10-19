@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.43,
+    "analysis_time": "2026-01-21 22:40:59"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】暴雨天气，路面严重积水，雨滴密集附着于挡风玻璃，雨刷器高频工作但视野仍受阻。天空阴云密布，能见度低于200米。【自车】位于中间车道，匀速沿直道前行，未进行转向或变道。【右侧】路边停放多辆私家车（白色SUV、黑色皮卡），部分车辆后方有绿色施工围挡，但无作业车辆活动。【左侧】对向车道有车辆驶过，因雨水反光与雾气遮挡，细节模糊。【交通设施】前方路口设有左转箭头标线，路侧可见限速25标志牌，但未见信号灯。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility",
+        "wet_road_surface"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】雨势略有减弱，云层间隙透出微弱阳光，但仍存在水汽弥漫导致的局部眩光。【自车】在中间车道执行右转动作，车头偏航角从正向前逐渐向右调整，完成转弯进入新支路。【右侧】转弯后可见一排住宅区，门前停有深色SUV及白色面包车；其中一辆SUV在自车转弯过程中缓慢启动并驶离车位，未打转向灯。【左侧】对向车道有车辆驶近，但保持安全距离未切入。【交通设施】路口处设黄色“NO PARKING”警示牌，地面有“25”限速标识，但无红绿灯控制。【关键风险】右侧SUV突然启动且未打转向灯，存在切出车道意图，可能与自车发生横向冲突。",
+      "risk_tags": [
+        "unannounced_vehicle_movement",
+        "right_turn_conflict",
+        "partial_obstruction_by_parking_vehicle"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】光线进一步改善，天空出现云隙，逆光区域明显，挡风玻璃上仍有水珠残留。【自车】完成右转后进入新道路，保持中间车道匀速行驶。【前方】道路呈缓弯，两侧为低密度住宅，树木多为落叶乔木，枝干裸露。【右侧】停有一辆深蓝色轿车，车身紧贴路缘石，车尾朝向行车方向，疑似临时停车。【左侧】对向车道有白色皮卡驶来，保持稳定车距。【交通设施】路旁立有“SPEED LIMIT 25”标志牌，前方交叉口无信号灯，仅设“YIELD”让行标志。【关键风险】右侧蓝色轿车虽静止，但位置紧贴路肩，若自车靠右行驶易发生剐蹭；同时，前方交叉口无信号控制，需警惕横向来车。",
+      "risk_tags": [
+        "parked_vehicle_close_to_lane_edge",
+        "intersection_without_signal",
+        "potential_cross_traffic"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】天气持续好转，云层稀薄，阳光照射下路面反光增强，部分区域积水形成镜面反射。【自车】在中间车道继续沿弯道行驶，车头随道路曲率自然调整，未急加速或制动。【前方】道路延伸至下一个十字路口，右侧可见一栋单层住宅，门前有修剪整齐的灌木丛。【左侧】对向车道有车辆驶过，未发现异常行为。【交通设施】路口前设“SPEED LIMIT 25”地面标线，无其他指示牌或护栏。【非标准物体】路边绿化带内偶见落叶堆积，无动物或施工设备活动。【关键风险】当前路段无直接威胁，但弯道半径较小，需注意前方视线盲区可能存在的行人或非机动车。",
+      "risk_tags": [
+        "gentle_curve_driving",
+        "low_risk_environment",
+        "potential_blind_spot_at_curves"
+      ]
+    }
+  ]
+}

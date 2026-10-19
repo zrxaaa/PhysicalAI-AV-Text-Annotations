@@ -1,0 +1,47 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.99,
+    "analysis_time": "2026-01-23 19:41:36"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】阴天多云，光线均匀，无降水或结冰迹象。路面干燥，能见度良好。【自车】位于道路左侧入口车道，正缓慢驶出停车场区域，执行起步与左转准备动作。【右侧】人行道上有三名行人（两男一女）并排行走，其中一名男性面向镜头方向，双手插兜，步速平稳；另两人侧身行走，未观察周围交通。【交通设施】右侧设有“LAVORI IN CORSO”施工警示牌及金属围栏，前方有红白相间路桩引导车辆转向。【关键风险】行人未在斑马线处横穿，且靠近车道边缘，存在“鬼探头”潜在风险；自车起步时需警惕行人突然横穿。",
+      "risk_tags": [
+        "pedestrian_crossing_risk",
+        "ghost_probe_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】天空云层较厚，局部有阳光透出，无异常天气。【自车】完成左转进入主干道，当前位于最左侧车道，保持匀速行驶。【左侧】对向车道有多辆汽车（含红色面包车、黑色SUV、银色轿车）正在通过交叉路口，部分车辆在停止线前减速。【右侧】路边设有“STOP”标志及右转箭头指示牌，后方可见“Salario Center Jeep”广告牌。【交通设施】路口设有双柱式交通信号灯杆，但当前未显示红绿灯状态。【关键风险】对向车道多车同时通行，存在加塞或变道冲突可能；自车需注意右侧转弯车辆的优先权。",
+      "risk_tags": [
+        "multi_vehicle_conflict",
+        "right_of_way_uncertainty"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】光照稳定，无遮挡或眩光。【自车】沿主干道中间车道继续直行，速度维持约30km/h。【左侧】对向车道有数辆轿车和SUV依次通过，包括一辆蓝色SUV从左前方切入本车道，完成超车后回归原车道。【右侧】路边有“限速30”警示牌及“strada divietata”警告标志，提示前方禁止通行。【非标物体】路边绿化带内有倒伏枯枝，未影响行车路径。【关键风险】蓝色SUV在超车过程中未保持安全横向距离，存在切出风险；右侧限速标志与前方禁行标识形成信息冲突，易引发驾驶员误判。",
+      "risk_tags": [
+        "unsafe_overtaking",
+        "sign_conflict",
+        "lateral_distance_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】天空云量减少，阳光增强，部分区域出现强逆光。【自车】继续沿主干道直行，即将进入一个环形交叉口。【前方】多辆汽车在环岛外围等待，包括红色小型车、灰色SUV及摩托车。【右侧】可见“Jeep”、“Fiat”等汽车品牌门店，墙面有涂鸦，无明显障碍物。【交通设施】环岛入口处设有人行横道及导向箭头，上方悬挂多个电子指示牌，但内容模糊不清。【关键风险】环岛入口处车流密集，存在多车交织风险；自车若未提前减速，可能因视线受阻或他人抢行而发生碰撞。",
+      "risk_tags": [
+        "roundabout_congestion",
+        "visual_obstruction_by_sunlight",
+        "multi_lane_interference"
+      ]
+    }
+  ]
+}

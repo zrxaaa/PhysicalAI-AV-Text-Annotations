@@ -1,0 +1,48 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 21.74,
+    "analysis_time": "2026-01-21 21:52:47"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】多云天气，部分区域有阳光穿透云层，路面干燥无积水。【自车】位于中间车道，保持匀速沿道行驶。【左侧】一辆白色联邦快递半挂卡车（车头印有“UNITED STATES POSTAL SERVICE”字样）在左侧行驶，与自车并行约2秒后开始加速超越。【右侧】路肩为碎石护坡，无明显遮挡物。【交通设施】前方高架龙门架下设电子可变情报板，当前显示空白。【关键风险】无显著风险，但左侧卡车加速超车行为需注意其变道轨迹。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】天空云层较厚，光线均匀，无强逆光或眩光。【自车】维持中间车道匀速行驶。【左侧】一辆金色斯巴鲁Crosstrek SUV从左前方车道切入自车所在车道，完成变道后位于自车左前侧，速度略高于自车。【右侧】出现“禁止停车”标志牌及消防栓标识，路肩为混凝土护栏+碎石斜坡。【交通设施】前方高架桥下设有“SPEED LIMIT 50”限速标志，以及“REDUCED SPEED ZONE”提示牌。【关键风险】左侧车辆突然切入，存在切线不平顺风险，但未影响自车路径，暂无碰撞威胁。",
+      "risk_tags": [
+        "lane_change_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "【环境】阴天转晴，局部阳光照射导致挡风玻璃轻微反光。【自车】继续在中间车道匀速行驶，接近前方高架桥。【前方】一辆白色CREOWORKS厢式货车在正前方车道行驶，车身侧面印有公司LOGO和网址“CREOWORKS.COM”，车尾无刹车灯亮起。【右侧】混凝土护栏上出现涂鸦墙，内容包含彩色喷绘文字与图案；护栏外为植被覆盖的土坡。【交通设施】通过高架桥下方时，可见黄色“WET ROAD”警示标志，提示前方路面湿滑。【关键风险】无直接碰撞风险，但湿滑警示标志提示路面可能存水，需警惕制动距离延长。",
+      "risk_tags": [
+        "wet_road_warning"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "【环境】能见度良好，城市天际线（含西雅图标志性建筑）在远处清晰可见。【自车】保持中间车道匀速行驶。【左侧】一辆银色丰田普锐斯轿车从左后方车道切入自车左前方，完成变道后稳定行驶于左前侧。【右侧】涂鸦墙持续延伸，墙面上有“GURU”、“FUNK”等艺术字体涂鸦；护栏外树木茂密，无行人或动物活动迹象。【交通设施】前方出现大型绿色高速公路指示牌，标示“EXIT 165A”、“Convention Center”、“Dearborn St”、“James St”、“Madison St”、“HOSPITAL”、“I-5 NORTH / I-90 EAST”。【关键风险】无紧急风险，但前方出口信息密集，驾驶员注意力易分散，存在误判出口可能性。",
+      "risk_tags": [
+        "exit_sign_congestion",
+        "driver_distraction_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "【环境】晴朗多云，光照充足，视野开阔。【自车】仍在中间车道匀速行驶，准备进入165A出口匝道。【前方】一辆白色厢式货车（CREOWORKS）在右前方车道缓慢减速，即将进入右侧出口导向。【左侧】对向车道车辆有序通行，无异常行为。【右侧】出现橙色“ROAD WORK AHEAD”施工警示牌，提示前方有施工区域。【交通设施】出口指示牌下方附有“USE EXIT 165”和“EXIT ONLY”字样，明确引导车辆分流。【关键风险】右侧施工警示牌提示潜在障碍物或车道缩减，需提前观察右侧车道动态；前方货车减速可能引发后车追尾风险，但当前未发生。",
+      "risk_tags": [
+        "construction_zone_warning",
+        "rear_end_collision_risk"
+      ]
+    }
+  ]
+}

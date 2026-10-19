@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 10.8,
+    "analysis_time": "2026-01-23 23:01:36"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】夜间无路灯，仅靠车灯照明，能见度受限。路面干燥，无明显积水或结冰。【自车】在中间车道匀速沿直道行驶，未进行转向或变道。【交通设施】道路两侧设有混凝土护栏，右侧为土坡或山体，左侧护栏外无明显障碍物。【关键风险】前方约80米处出现三组白色箭头导向标志牌，提示前方为连续弯道，但因光线不足，无法预判弯道半径与长度，存在潜在路径误判风险。",
+      "risk_tags": [
+        "low_visibility",
+        "limited_path_prediction",
+        "signage_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:06-00:00:12",
+      "scene_description": "【环境】持续夜间驾驶，光照条件未改善。【自车】保持当前车道，开始随道路曲率向右轻微转向（车头偏航角变化约5°），执行右转弯动作。【交通设施】右侧土坡区域有散落石块，被车灯照亮但未形成明显障碍；左侧护栏持续延伸，无突变结构。【关键风险】右转过程中，车灯照射范围边缘出现模糊的“人形阴影”（疑似路边站立人员），但因距离过远（>30米）且图像模糊，无法确认其身份、动作及是否横穿，存在“鬼探头”潜在风险。",
+      "risk_tags": [
+        "ghost_probe_potential",
+        "ambiguous_object",
+        "turning_with_low_visibility"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】夜间，无异常天气，路面状况稳定。【自车】完成右转后进入下一弯道，继续沿曲线道路行驶，横向位置稳定在车道中央。【交通设施】前方再次出现三组白色箭头导向标志牌，提示连续弯道，道路右侧护栏逐渐过渡为混凝土挡墙。【非标物体】右侧土坡区域可见零星植被，无动物活动迹象；左侧护栏外无行人或车辆。【关键风险】无直接威胁，但连续弯道+夜间低照度组合构成高阶驾驶疲劳场景，需警惕驾驶员注意力下降导致的路径偏离风险。",
+      "risk_tags": [
+        "driving_fatigue_risk",
+        "continuous_curve_driving",
+        "no_immediate_threat"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 06:38:06",
+    "processing_time_seconds": 13.0
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车沿41st Avenue向前行驶，前方路口设有红绿灯与多个STOP标志，右侧一辆银色轿车驶离车道，左侧多栋住宅楼旁停有车辆。交通信号灯为红灯，自车减速准备停车。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "自车在停止线前完全停下，右侧一辆黑色皮卡（带车顶行李架）正在右转进入支路，同时对向车道有数辆汽车从左向右通过交叉口。一名行人出现在右侧人行道，正朝路口方向行走。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "行人穿过人行横道，完成过街后离开画面；对向车道车辆陆续通过路口，自车保持静止等待。右侧黑色皮卡完成转弯并驶离，自车仍处于停车状态，未移动。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "交通信号灯转为绿灯，自车启动前行，左侧一辆银灰色SUV从路边驶出并切入本车道，与自车形成短暂并行。右侧路边停放多辆汽车，树木茂密遮挡部分视野。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车继续沿道路直行，道路两侧可见连续停放的车辆，左侧建筑群逐渐过渡为低层住宅。天气晴朗，云层较厚但无明显降水，路面干燥，无其他显著动态事件发生。"
+    }
+  ]
+}

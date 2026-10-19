@@ -1,0 +1,36 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.66,
+    "analysis_time": "2026-01-21 18:43:08"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，天空布满灰云，路面湿滑反光，雨滴附着于挡风玻璃，能见度中等偏低。【自车】位于中间车道，沿道路曲线匀速前行，未进行转向或变道。【周围车辆】前方多辆轿车尾灯亮起，呈队列行驶；左侧对向车道有车辆快速驶过，无明显交互意图。【交通设施】远处可见红绿灯及路侧加油站标识，道路标线清晰可见。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】持续阴雨天气，路面积水反射灯光，部分区域形成水雾。【自车】在中间车道减速，准备在前方路口左转或直行。【前方车辆】右侧车道一辆银色SUV（型号：Subaru Outback）与一辆深色Mustang GT并排停靠，两车均处于刹车状态，尾灯持续亮起。【相对位置】该SUV位于自车右前方约3米处，正缓慢向右车道移动，意图切入自车所在车道。【交通设施】前方路口信号灯为红灯，横杆式交通灯架清晰可见，左侧有加油站建筑及广告牌。【关键风险】右侧SUV存在“强行加塞”行为（Aggressive Cut-in），其车身已部分侵入自车横向安全空间，若不及时调整，可能引发剐蹭或紧急制动事故。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "wet_road",
+        "braking_required"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】光线由黄昏转为暮色，路灯开始点亮，但整体照明仍偏暗。【自车】保持静止状态，等待红灯结束。【周围车辆】前方多车排队等候，包括一辆深灰色SUV（Subaru）和一辆Mustang GT，均未移动。右侧车道有一辆银色轿车（型号：Dodge Journey）从后方加速超车，试图在自车左侧完成变道，但因距离过近且无转向灯提示，存在碰撞风险。【非标准物体】无动物、施工车辆或遗撒物出现。【交通设施】路口信号灯仍为红灯，地面标有左转箭头，指示车道功能明确。【关键风险】右侧超车车辆存在“危险变道”行为，其速度较快且未打灯，与自车纵向间距不足5米，构成高概率剐蹭风险；同时，前方车辆刹车灯持续亮起，暗示可能突发急刹，增加追尾可能性。",
+      "risk_tags": [
+        "dangerous_lane_change",
+        "high_speed_crossing",
+        "braking_sudden_risk"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 10.9,
+    "analysis_time": "2026-01-24 06:40:27"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】阴天，天空灰暗，无明显降水，路面干燥但略显湿滑，能见度良好。【自车】位于中间车道，匀速沿直道行驶，未进行变道或转向。【左侧邻车道】一辆深灰色旅行车（疑似奔驰E级Wagon）在自车左前方约5米处同向行驶，保持稳定车距。【右侧路肩】可见现代玻璃幕墙建筑（标有“magasin”字样），建筑旁有绿化带与行道树，无行人或动物活动。【交通设施】道路两侧设有多组路灯，远处可见高架桥结构及路牌轮廓，但尚未进入交叉口区域。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "【环境】天气仍为阴天，光照均匀，无遮挡。【自车】维持中间车道匀速行驶。【左侧邻车道】一辆红色旅行车（斯柯达Octavia）从左后方加速切入自车左侧车道，完成变道动作，切入时未打转向灯，存在轻微违规风险。【右侧邻车道】一辆黄色出租车（车身印有“TAXI MALMÖ”字样）从右后方加速并入自车右侧车道，车速与自车接近，两车横向间距缩小至约3米。【交通设施】前方出现大型悬臂式交通指示牌，绿色路牌显示“E4/E6 E22 M11 F4 STOCKHOLM GÖTEBORG LANDSKRONA KALMAR SIMRISHAMN LUND”，蓝色路牌指向“E6 TRELLEBORG E20 KÖPENHAMN C-RING”。自车正接近该交叉路口，需准备选择车道。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "improper_lane_change",
+        "lane_conflict"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】阴天，无降水，能见度正常。【自车】在中间车道继续匀速前行，即将通过交叉路口。【左侧邻车道】红色旅行车已提前变至左转/直行车道，车头朝向左前方，正在执行左转或直行准备动作。【右侧邻车道】黄色出租车在自车右前方约8米处，保持匀速，未再靠近。【后方车辆】一辆黑色SUV（沃尔沃V70）从右后方切入自车右侧车道，完成变道，与自车横向距离约4米，速度略有提升。【交通设施】自车正通过带有方向指示的高架路牌下方，路牌清晰标明各路线编号与目的地。右侧路边有低矮灌木墙和草坪，无行人或动物。【关键风险】多车在交叉口前同时变道，存在潜在冲突点；黑色SUV从后方切入右侧车道，若其速度过快或未保持安全距离，可能引发追尾或剐蹭风险。",
+      "risk_tags": [
+        "multi-lane_conflict",
+        "rear_cut_in",
+        "intersection_preparation_risk"
+      ]
+    }
+  ]
+}

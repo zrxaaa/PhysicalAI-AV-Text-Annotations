@@ -1,0 +1,46 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 19.47,
+    "analysis_time": "2026-01-23 16:28:35"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，无降水，能见度良好，路面干燥。【自车】位于中间车道，处于停车状态，等待前方交通信号。【前方】一辆白色SIXT租赁货车（后部广告：'J'AI DE BEAUX VOLUMES ET JE LES ASSUME!'）静止于自车正前方，车牌被模糊处理。【右侧】一辆蓝色公交车从右方驶过，车身贴有“28”路牌及广告，完成超车动作后驶离。【行人】左侧人行道有多组行人行走，其中一位穿粉色长裙女性携带购物袋，朝向十字路口方向；另有一名戴头盔骑电动车者从左前方快速切入，进入自车左前侧车道并减速。【关键风险】骑电动车者未在非机动车道行驶，且突然切入机动车道，存在碰撞风险。",
+      "risk_tags": [
+        "unauthorized_lane_crossing",
+        "pedestrian_vehicle_conflict"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:09",
+      "scene_description": "【环境】城市街景，天空灰白，无明显天气异常。【自车】在绿灯亮起后启动，沿中间车道匀速前行。【前方】SIXT货车与公交车同步向前移动，保持安全距离。【右侧】一辆白色雪铁龙C3轿车从右侧车道并入自车所在车道，完成变道动作。【左侧】人行横道处有行人正在穿越，其中一名穿西装男性低头看手机，另一名穿紫色外套女性手提包，步态平稳。【交通设施】前方十字路口设有交通信号灯，当前为绿灯通行状态，地面标线清晰可见。【关键风险】右侧车辆并道时未充分观察后视镜，存在轻微切出冲突风险。",
+      "risk_tags": [
+        "lane_change_with_insufficient_check",
+        "distracted_pedestrian"
+      ]
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "【环境】街道两侧建筑林立，树木茂盛，光照均匀。【自车】继续沿中间车道直行，通过十字路口后进入主干道。【前方】出现一辆绿色巴黎市政垃圾车（车尾显示“PARIS”字样），停靠在左侧路边，车厢门打开，正在进行垃圾收集作业。【左侧】多名行人站在垃圾车旁等待，其中一人撑伞，面部朝向车体方向。【右侧】一辆深蓝色大众ID.4电动SUV从右侧车道超越自车，完成超车后驶离。【非标物体】垃圾车作业区域占据部分车道，其后方停放多辆私家车，形成临时拥堵。【关键风险】垃圾车作业时车身占用部分行车道，且后方车辆可能因视线遮挡而误判通行时机，存在潜在追尾或剐蹭风险。",
+      "risk_tags": [
+        "obstruction_by_construction_vehicle",
+        "reduced_visibility_due_to_obstacle"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】城市街道，树荫覆盖，光线柔和，无天气异常。【自车】保持在中间车道，跟随前方车辆匀速行驶。【前方】绿色垃圾车已驶离作业点，但仍有数辆同类型垃圾车在道路左侧排队等候作业。【右侧】一家名为“LE PERIGEUX”的餐厅外，有顾客坐在户外座位区，部分行人沿人行道行走。【非标物体】道路右侧停放多辆自行车，其中一辆倒伏在路边，未被清理，构成潜在障碍物。【关键风险】倒伏自行车位于自车右后方盲区，若自车变道或紧急制动，可能引发刮擦事故；同时，多辆垃圾车排队导致车道压缩，增加变道难度。",
+      "risk_tags": [
+        "abandoned_object_risk",
+        "narrow_road_with_queue",
+        "blind_spot_hazard"
+      ]
+    }
+  ]
+}

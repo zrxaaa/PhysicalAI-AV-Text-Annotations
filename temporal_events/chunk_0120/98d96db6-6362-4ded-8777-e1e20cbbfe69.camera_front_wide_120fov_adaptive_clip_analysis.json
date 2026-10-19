@@ -1,0 +1,42 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 19.43,
+    "analysis_time": "2026-01-23 08:47:18"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】晴天，阳光从左上方照射，存在轻微眩光。【自车】位于中间车道，匀速沿直道行驶，通过十字路口时绿灯通行。【左侧】一辆黑色SUV从左前侧邻车道加速超车，完成变道后驶离视野；人行道上有两名行人（一穿红衣、一穿浅色）静止站立，面朝道路方向，无横穿意图。【右侧】一辆粉色轿车停靠路边，未移动。【交通设施】前方十字路口信号灯为绿色，横向车流有序通过，无冲突。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "【环境】光照稳定，树木秋叶呈金黄色，部分遮挡视线。【自车】保持中间车道匀速前行，道路开始微弯。【左侧】多辆汽车（含白色大众Polo、银色奔驰C级）在对向车道行驶，部分车辆在路边停车区停靠；一辆白色厢式货车（车身印有“Pfälzische Hausreinigung”字样）从左侧切入自车所在车道，完成并线后继续向前。【右侧】灰色面包车（Volkswagen Transporter）在右侧行驶，与自车保持平行；路边公交站台有行人候车，但未进入车道。【关键风险】无明显违规或危险行为，但左侧货车切入动作较急促，存在轻微切向干扰风险。",
+      "risk_tags": [
+        "cut_in_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "【环境】道路两侧建筑密集，左侧为多层住宅楼，右侧为绿化带及行道树。【自车】沿弯曲道路保持中间车道匀速行驶。【左侧】一辆银色Smart Fortwo从左前侧邻车道快速超车，完成变道后驶离；随后一辆白色福特 Transit 货车从左侧切入，短暂占据自车车道后回归原位。【右侧】灰色面包车持续在右侧行驶，与自车距离稳定；远处可见一辆红色Mini Cooper 停靠于路边。【非标物体】无动物、施工车辆或路面遗撒物。【交通设施】前方无信号灯，道路标线清晰，无交叉冲突。",
+      "risk_tags": [
+        "cut_in_risk",
+        "close_proximity_vehicle"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】阳光仍充足，部分区域因树影产生明暗交替。【自车】维持中间车道匀速行驶，道路呈缓坡上行趋势。【左侧】一辆大型蓝白涂装的Scania卡车（车头印有“HALD & GRUNEWALD”字样）从左前侧邻车道缓慢超越，车身宽大，占用约两个车道宽度，自车需保持安全距离避让。【右侧】多辆私家车停靠于路边，包括一辆白色Mini Cooper 和一辆深色SUV；一名骑自行车者从右侧人行道经过，未进入车道。【关键风险】大型卡车超车时存在视觉盲区，且其车身高度和宽度可能遮挡后方来车，自车需警惕后方潜在切向车辆（如紧急加塞）。此外，道路右侧停车密集，存在“开门杀”风险，但当前无车辆开窗或开门动作。",
+      "risk_tags": [
+        "large_vehicle_obstruction",
+        "blind_spot_risk",
+        "parked_car_door_risk"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.55,
+    "analysis_time": "2026-01-23 04:15:09"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】夜间，无明显降雨或大雾，能见度主要依赖车灯照明。【自车】在中间车道匀速沿道行驶，未进行变道或转向。【交通设施】道路两侧设置红白相间反光锥桶，呈线性排列引导车流，部分锥桶顶部装有黄色警示灯。【前方】可见限速30km/h标志牌及弯道警告标志（S形曲线）。【关键风险】锥桶阵列形成狭窄通道，若自车偏离车道线易发生剐蹭；右侧锥桶后方存在临时施工围挡，可能隐藏未标识障碍物。",
+      "risk_tags": [
+        "narrow_road_guidance",
+        "obstacle_implicit"
+      ]
+    },
+    {
+      "time_segment": "00:00:06-00:00:10",
+      "scene_description": "【环境】继续夜间行驶，左侧出现开阔草地，右侧为混凝土护栏。【自车】保持中间车道匀速前进，车头方向随路面微弯调整，未做主动转向。【交通设施】右侧出现“T”字交叉路口警示牌及临时施工围栏，围栏后方可见蓝色移动厕所和堆放的管材。【非标物体】右侧施工区域有数个圆柱形管道堆叠于路边，未设警示标识，属于潜在通用障碍物。【关键风险】施工区域未完全封闭，管道堆叠可能被风吹动或被车辆碰撞移位，造成突发障碍；交叉路口警示牌未配闪光灯，夜间辨识度低。",
+      "risk_tags": [
+        "unmarked_obstacle",
+        "incomplete_construction_barrier",
+        "low_visibility_signage"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】进入高架桥下隧道区域，光照骤降，仅靠车灯照明。【自车】维持当前车道匀速直线行驶，车头与道路中心线基本对齐，无转向动作。【交通设施】高架桥由多根粗壮混凝土立柱支撑，桥底结构清晰可见；路面施划双黄实线及导向箭头，指示直行方向。【周围】远处可见其他车辆尾灯，但无近距离交互目标；右侧路肩有少量施工材料堆积，未见作业人员或特种车辆。【关键风险】隧道内光线不足，视觉疲劳易导致误判车道边界；桥墩密集区域存在视野遮挡，若前方有突然减速车辆或行人，自车反应时间缩短；路面导向箭头因灯光反射略显模糊，可能引发轻微路径误判。",
+      "risk_tags": [
+        "low_light_driving",
+        "visual_obstruction_by_structure",
+        "reduced_lane_boundary_clarity"
+      ]
+    }
+  ]
+}

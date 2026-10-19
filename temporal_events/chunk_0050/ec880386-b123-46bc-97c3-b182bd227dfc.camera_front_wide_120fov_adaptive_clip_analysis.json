@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.78,
+    "analysis_time": "2026-01-22 02:23:28"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:02",
+      "scene_description": "【环境】晴天，能见度良好，阳光直射导致部分区域产生眩光。【自车】位于十字路口最左侧车道，正执行左转或直行准备动作，车头朝向Montgomery街方向。【行人】一名背着双肩包、穿深色外套的行人从右侧人行横道由右向左横穿马路，面部朝向前方，步速平稳，未观察交通状况。【交通设施】路口设有红绿灯（当前为绿灯）、限速20标志牌、禁止右转标志。【关键风险】行人横穿时未注意来车，存在“鬼探头”与“闯红灯式横穿”风险；自车需在通行前确认行人完全通过，否则可能触发碰撞。",
+      "risk_tags": [
+        "jaywalking",
+        "pedestrian_crossing_risk",
+        "intersection_hazard"
+      ]
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "【环境】晴朗，道路两侧建筑投下阴影，路面干燥。【自车】驶入一条陡峭上坡街道，保持中间车道匀速沿道行驶，车头随道路曲率自然调整。【周围车辆】道路两侧停满私家车，包括银色皮卡、白色SUV、黑色轿车等，无明显移动；右侧有绿色施工围挡，表面有涂鸦，未见施工活动。【交通设施】沿途可见路灯、路牌及停车标志，无信号灯控制。【非标物体】右侧施工围挡内无作业设备，未发现特种车辆或动物。【关键风险】道路狭窄且坡度大，前方视野受建筑遮挡，存在盲区；若遇对向来车，需谨慎会车。",
+      "risk_tags": [
+        "narrow_road",
+        "steep_grade",
+        "limited_visibility"
+      ]
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "【环境】蓝天白云，光照均匀，无遮挡。【自车】继续沿陡坡上行，保持中间车道匀速前进。【前方路口】到达一个三岔路口，地面喷涂“STOP”字样，两侧设红色八角形停车标志牌，右侧立有“ALL WAY”和“NO TURN ON RED”标志。【周围车辆】左侧停放多辆汽车（含一辆黑色宝马），右侧停有一辆白色面包车，车身部分伸出车道，但未阻碍通行。【行人】远处人行道上有两名行人站立，面向自车方向，未移动。【交通设施】路口设有消防栓、路缘石、人行道，无动态障碍物。【关键风险】自车需在路口停车确认安全后方可通行；右侧面包车违规停靠，可能影响转弯视线，存在“开门杀”或“切出”风险。",
+      "risk_tags": [
+        "stop_sign_compliance_required",
+        "improper_parking",
+        "blind_corner_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】晴天，阳光从右上方照射，部分区域形成阴影。【自车】在路口完成停车后，缓慢起步，沿道路继续上坡行驶，车头略微向右微调以避让右侧停放车辆。【周围车辆】右侧白色面包车仍停在路边，车门关闭；左侧停放车辆中，一辆银色轿车开始启动并缓慢驶离车位。【交通设施】路口处“STOP”标记清晰，右侧“ALL WAY”标志明确指示四向停车规则。【非标物体】无施工车辆、动物或遗撒物。【关键风险】左侧银色轿车启动时未打转向灯，有突然切入自车车道趋势，构成“Aggressive Cut-in”风险；自车需保持警惕，避免因起步延迟引发追尾或剐蹭。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "un signaled_vehicle_movement",
+        "slow_start_risk"
+      ]
+    }
+  ]
+}

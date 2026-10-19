@@ -1,0 +1,45 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 18.09,
+    "analysis_time": "2026-01-24 00:01:17"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，无降水，能见度良好，路面干燥。【自车】位于中间车道，匀速沿直道行驶，未进行转向或变道。【前方】一辆白色厢式货车（车身印有“Grupo Empresas Apesti”广告）在自车正前方同车道行驶，车速约30km/h。【左侧】对向车道有车辆驶过，包括一辆银色SUV从左前侧切入当前车道，完成超车后回归原车道。【右侧】路边停放多辆私家车，人行道上有行人站立或行走。【关键风险】银色SUV在未打转向灯情况下快速切入，存在轻微切出风险，但未影响自车路径。",
+      "risk_tags": [
+        "cut_in_without_signal",
+        "minor_lane_change_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】阴天，光线均匀，无特殊天气现象。【自车】保持中间车道匀速前行，通过斑马线区域。【前方】白色厢式货车在斑马线前减速并右转，完成转弯动作后驶离视野。【行人交互】一名穿深色外套的男性从左至右横穿斑马线，步行速度中等；随后一对母子（女性穿黑衣，儿童穿橙色上衣）从右至左横穿斑马线，母亲牵着孩子，两人步速缓慢。【交通设施】路面上标有清晰的斑马线和导向箭头，右侧设有“注意行人”警示牌。【关键风险】行人横穿时未完全在斑马线内，且与自车距离小于10米，存在轻微碰撞风险，但行人已进入安全区，风险可控。",
+      "risk_tags": [
+        "pedestrian_crossing_near_vehicle",
+        "partial_jaywalking"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】天空灰白，无明显降水或强光，光照稳定。【自车】继续在中间车道匀速行驶，接近下一个十字路口。【左侧】对向车道有白色面包车（Citroën Jumpy）从左前侧驶入本车道，完成变道后继续直行。【右侧】路边有公交站台，站台旁有数名行人等待，其中一人坐在长椅上。【交通设施】前方路口设有“30”限速标志及绿灯信号，地面标线清晰。【关键风险】左侧面包车变道时未充分观察后方，但因自车速度平稳且保持车道，未发生冲突，无紧急避让需求。",
+      "risk_tags": [
+        "lane_change_with_limited_visibility",
+        "low_risk_traffic_interaction"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:20",
+      "scene_description": "【环境】阴天，无降水，路面干燥，能见度良好。【自车】在中间车道匀速行驶，接近下一个交叉口。【前方】一辆黑色轿车从对向车道驶来，正在通过斑马线，车速约25km/h。【右侧】路边停放多辆汽车，包括一辆红色SUV，人行道上有行人行走，部分行人靠近路边停车区域。【交通设施】道路两侧设有“30”限速标志、斑马线、公交专用道标识（黄色文字“BUS”），以及“注意行人”三角警示牌。【关键风险】右侧人行道上有行人靠近停车车辆，存在“开门杀”潜在风险，但目前无车辆开启车门行为；同时，前方黑色轿车在斑马线处减速，符合礼让规则，整体场景安全。",
+      "risk_tags": [
+        "potential_open_door_risk",
+        "low_pedestrian_proximity_to_parked_cars"
+      ]
+    }
+  ]
+}

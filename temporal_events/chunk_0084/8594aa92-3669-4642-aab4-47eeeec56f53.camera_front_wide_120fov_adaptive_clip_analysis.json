@@ -1,0 +1,36 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.22,
+    "analysis_time": "2026-01-22 17:37:49"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】夜间，天空灰暗，有轻微雾气或湿气导致路灯出现光晕，能见度中等偏低。【自车】在中间车道匀速沿直道行驶，未进行转向或变道。【左侧】路边有高大棕榈树和绿化带，电线杆沿路排列；【右侧】可见低矮建筑与围栏，无明显行人或车辆活动。【交通设施】道路两侧路灯均匀分布，前方约80米处可见绿色交通信号灯。【关键风险】无显著障碍物或违规行为，但因雾气影响，远处目标识别存在延迟风险。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:06-00:00:12",
+      "scene_description": "【环境】夜间雾气持续，路灯光晕加剧，部分区域出现眩光。【自车】保持中间车道匀速前行，接近一个十字路口。【右侧】出现商业街建筑群，包括“Toc Salon”及大型广告牌，灯光较亮。【前方】交通信号灯为绿灯，路口设有左转箭头标识。【周围车辆】对向车道有少量车辆驶过，右侧车道有黑色轿车从后方超车并切入自车所在车道（Cut-in），未打转向灯，距离自车约15米。【关键风险】右侧车道车辆强行切线，存在碰撞风险，需紧急制动或避让。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "low_visibility",
+        "lane_change_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】进入十字路口区域，雾气略有消散，但能见度仍受路灯眩光影响。【自车】在绿灯状态下继续直行，通过路口后减速至约30km/h。【右侧】路口右转车道有数辆静止等待红灯的车辆，包括一辆白色轿车和一辆深色SUV，均停在停止线后。【左侧】对向车道车流稀疏，无异常。【非标物体】路口右侧人行道旁有三棵高耸柏树，树影投射在路面，形成视觉遮挡。【关键风险】自车通过路口时，右侧停车车辆可能突然启动或开门，存在“开门杀”风险；同时，前方红灯车辆若突然闯灯，将引发严重事故。",
+      "risk_tags": [
+        "door_opening_risk",
+        "red_light_violation_potential",
+        "visual_obstruction"
+      ]
+    }
+  ]
+}

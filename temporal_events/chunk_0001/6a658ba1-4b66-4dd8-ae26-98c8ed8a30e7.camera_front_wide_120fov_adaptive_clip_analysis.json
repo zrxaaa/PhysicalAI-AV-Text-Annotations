@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:03:00",
+    "processing_time_seconds": 18.49
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在阴天雾气环境中沿双黄线道路平稳行驶，右侧为橙色施工围栏与铁丝网，左侧可见住宅区及少量停放车辆，无行人或动态障碍物干扰。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "车辆驶入弯道，前方出现迎面驶来的黑色轿车，该车从对向车道驶近并完成超车动作，自车保持原速未变道，右侧施工区域持续存在但无人员活动。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "黑色轿车驶离后，一辆银色SUV从对向车道驶来，在弯道处减速并完成超车，随后驶出视野；自车继续沿弯道行驶，道路左侧出现新停靠的白色车辆。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "自车继续沿弯道前进，对向车道有白色皮卡和另一辆深色轿车先后驶过，均未与自车发生路径交叉；右侧施工围栏末端出现一名穿反光背心的工人，但未进入行车路径。"
+    }
+  ]
+}

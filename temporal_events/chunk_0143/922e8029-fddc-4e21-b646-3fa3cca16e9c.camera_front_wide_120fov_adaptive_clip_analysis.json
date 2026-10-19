@@ -1,0 +1,45 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.29,
+    "analysis_time": "2026-01-23 19:13:21"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】阴雨天，天空灰暗，路面湿滑反光严重，挡风玻璃有水珠影响视线。【自车】位于中间车道，正沿直线道路匀速行驶。【左侧】一排联排石砌住宅楼，底层为商业店铺（FOLLIOT房产中介），门前停放多辆私家车。【右侧】路边停满车辆，远处可见广告牌和路灯。【交通设施】前方路口设有红绿灯，当前为绿灯状态，无明显障碍物或违规行为。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】持续阴雨，能见度中等偏低，路面积水反射灯光。【自车】保持在中间车道，匀速向前行驶，未进行变道或转向。【前方】一辆白色SUV（雪铁龙C3 Aircross）进入视野，尾灯亮起，表明即将减速。【右侧】一辆绿色SUV（大众ID.4）从右侧车道缓慢切入，意图并线至自车所在车道，但未打转向灯。【关键风险】绿色SUV存在“无灯强行切入”行为（Aggressive Cut-in），与自车横向距离小于5米，构成潜在碰撞威胁。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "low_visibility",
+        "lane_change_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】雨势未减，路面水雾弥漫，部分区域出现积水溅射。【自车】在中间车道减速，准备在前方路口停车。【前方】白色雪铁龙SUV完全停止，刹车灯持续亮起。【右侧】绿色SUV已切入至自车右后方邻车道，车身倾斜，疑似因避让而紧急调整方向。【交通设施】前方路口信号灯由绿转红，倒计时显示剩余约5秒。【关键风险】两车均处于停车前的动态调整阶段，绿色SUV切入动作未完成且位置不稳定，存在“切出失败导致剐蹭”的风险；同时，自车需警惕前方车辆突然启动或变道。",
+      "risk_tags": [
+        "signal_light_transition",
+        "unstable_lane_change",
+        "braking_conflict"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】阴云密布，光线昏暗，雨滴持续落在挡风玻璃上，影响视觉清晰度。【自车】在中间车道完全停止，等待红灯。【前方】白色雪铁龙SUV静止于停止线后，尾灯常亮。【右侧】绿色SUV亦同步停车，车身稳定，未再移动。【左侧】对向车道车辆有序排队，无异常行为。【交通设施】红灯持续亮起，路口无行人或非机动车横穿迹象。【关键风险】当前场景为标准停车等待，无突发危险。但因天气恶劣、路面湿滑，制动距离延长，若前方车辆突然起步，自车需保持足够跟车距离以防追尾。",
+      "risk_tags": [
+        "wet_road",
+        "long_braking_distance",
+        "standard_stop"
+      ]
+    }
+  ]
+}

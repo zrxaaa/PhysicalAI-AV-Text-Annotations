@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 06:12:30",
+    "processing_time_seconds": 12.78
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车在十字路口等待，前方交通灯为绿灯，右侧车道有数辆汽车正在左转或直行，左侧路旁有棕榈树和住宅区，天气晴朗，阳光强烈导致部分区域过曝。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "自车在绿灯变黄后开始加速驶入高速公路入口匝道，左侧出现土坡与树木，右侧是高架隔音墙，路边设有‘FREEWAY ENTRANCE’及‘INTERSTATE 210’标志，无行人或其他障碍物。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车沿匝道平稳加速，进入主干道前的汇流区，左侧可见施工锥桶与临时护栏，右侧隔音墙持续延伸，远处有大型货车与轿车在主路上行驶，无紧急情况发生。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车完成并道动作，切入主干道最右侧车道，与多辆卡车、SUV及轿车同向行驶，车流稳定，道路两侧有山体轮廓，天空中有飞机尾迹，光照条件良好。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车保持当前车道匀速行驶，前方车辆间距适中，未见明显加速或减速行为，道路右侧隔音墙继续延伸，远处可见高架桥结构，整体交通流畅无冲突。"
+    }
+  ]
+}

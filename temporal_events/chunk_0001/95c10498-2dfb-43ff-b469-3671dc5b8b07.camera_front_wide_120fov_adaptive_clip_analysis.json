@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 22:50:22",
+    "processing_time_seconds": 17.05
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "车辆在Arapahoe街与17th街交叉口，绿灯亮起，自车平稳通过路口，右侧可见加油站和建筑，左侧为住宅区，无行人或冲突车辆出现。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "自车沿双黄线道路直行，左侧有白色SUV驶入对向车道，随后一辆黑色皮卡从对向车道超车，自车保持原速未变道，路边有树木和围栏，无行人交互。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "前方接近19th街交叉口，交通信号灯为绿灯，自车继续直行，右侧出现蓝色商业建筑，对向车道有银色轿车驶过，无行人横穿或紧急行为。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "通过19th街路口后，自车继续沿主路行驶，右侧出现带台阶的住宅楼和长椅，左侧为木栅栏围合的院落，远处有车辆迎面驶来但未进入自车路径范围。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车接近下一个路口，前方有两辆对向车辆正在减速，道路两侧为低层住宅和商铺，天气阴沉，路面干燥，无行人或突发交通事件。"
+    }
+  ]
+}

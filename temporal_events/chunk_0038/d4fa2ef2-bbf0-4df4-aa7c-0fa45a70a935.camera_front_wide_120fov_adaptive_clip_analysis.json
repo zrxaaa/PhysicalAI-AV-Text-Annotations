@@ -1,0 +1,42 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.8,
+    "analysis_time": "2026-01-21 21:24:47"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，能见度良好，无降水或雾气。【自车】位于中间车道，匀速沿直道行驶。【左侧邻车道】一辆白色轿车从左后方超车并切入自车前方车道，完成变道动作。【右侧邻车道】一辆红色SUV在自车右前方保持稳定距离行驶。【交通设施】道路两侧为绿化带与低矮护栏，无明显障碍物。【关键风险】白色轿车变道未充分观察，存在切出（Cut-out）风险，但未影响自车路径。",
+      "risk_tags": [
+        "lane_change_risk",
+        "cut_out"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】持续晴朗，阳光直射导致部分区域轻微眩光。【自车】保持中间车道匀速行驶。【前方】多辆车辆在前方有序通行，包括一辆白色皮卡和银色轿车。【交通设施】右侧出现“RIGHT LANE MUST EXIT”指示牌，随后上方高架路牌显示“Bailey Avenue EXIT 373”。【非标物体】无特种车辆、动物或路面遗撒物。【关键风险】无显著风险，仅需注意前方出口预告，自车未提前变道。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】道路进入弯道区域，右侧为开阔荒地，左侧有缓坡与灌木丛。【自车】保持中间车道，随道路曲率自然转弯，未进行主动转向。【前方】车辆间距拉大，车流稀疏，无紧急制动行为。【交通设施】右侧出现限速40 MPH标志牌，提示即将进入出口匝道。【关键风险】无违规行为或遮挡风险，但弯道处视线受地形影响略有局限，需警惕对向来车可能因视野盲区突然出现。",
+      "risk_tags": [
+        "limited_visibility_curve",
+        "speed_limit_compliance_required"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】天气仍晴朗，光照均匀，无异常气象。【自车】在中间车道继续沿弯道前行，车速稳定。【前方】道路标线清晰，出现白色箭头指示分道方向，引导车辆驶入出口匝道。【周围车辆】左侧车道有一辆银色轿车缓慢减速，准备变道；右侧无车辆靠近。【交通设施】右侧护栏外为干燥草地，无施工或障碍物。【关键风险】无突发危险，但银色轿车减速变道行为需关注其是否影响自车后续路线，目前未构成直接威胁。",
+      "risk_tags": [
+        "gradual_lane_change",
+        "low_traffic_risk"
+      ]
+    }
+  ]
+}

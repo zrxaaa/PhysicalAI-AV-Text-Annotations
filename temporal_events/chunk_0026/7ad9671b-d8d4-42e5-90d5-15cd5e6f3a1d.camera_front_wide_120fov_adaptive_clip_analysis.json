@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 08:30:14",
+    "processing_time_seconds": 15.18
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "自车停在十字路口等待绿灯，前方有多辆汽车和一辆公交车依次通过交叉口；右侧人行道有行人行走，左侧建筑旁有交通信号灯显示绿灯。车辆从右向左依次驶过，包括银色轿车、皮卡、灰色轿车及白色SUV，均完成左转或直行动作。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:11",
+      "scene_description": "信号灯由绿转黄，随后变为红灯，所有车辆停止行驶，自车保持静止状态；公交车在路口中央完成转向，后方红色SUV紧随其后，两车均在停止线前停下，无行人穿越当前车道。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:14",
+      "scene_description": "自车开始沿Santa Clara街左转，路口信号灯为红灯，对向车道有车辆排队等候；左侧人行横道处有行人站立，右侧路边有彩色柱状雕塑，街道两侧停放多辆私家车，未见施工围挡或障碍物。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "自车沿Santa Clara街平稳前行，道路两侧停满车辆，左侧有大型货车与小型轿车并排停放；右侧人行道上有行人牵狗行走，远处可见黄色“PEDESTRIAN AHEAD”警示牌，路面无明显障碍。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车继续直行，前方出现一辆白色卡车正在缓慢靠右变道，自车保持安全距离跟随；右侧人行道上一名穿红色外套的行人正走向路口，树木枝干光秃，天气晴朗，路面干燥无积水。"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 09:10:33",
+    "processing_time_seconds": 13.47
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:02",
+      "scene_description": "自车在十字路口右转，前方有绿色‘Freeway Entrance’路牌和人行横道标志，左侧车道有一辆白色SUV正在驶离路口。天空阴沉，路面干燥，无行人出现。"
+    },
+    {
+      "time_segment": "00:00:02-00:00:08",
+      "scene_description": "自车完成右转并沿弯道行驶，右侧出现多栋办公楼，道路两侧有干草和灌木。对向车道有数辆轿车和一辆皮卡正常行驶，未见行人或突发障碍物。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车继续沿弯道前进，接近一个高架桥入口，左侧出现一辆白色厢式货车和一辆黑色SUV正在左转进入主路。远处可见高架桥下方的交通指示牌。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车驶入高架桥下方路段，前方有多车道高速公路，包括一辆白色皮卡、一辆红色轿车和一辆大型货车在相邻车道行驶。路牌显示出口方向为Lawrence Expwy、Fair Oaks Ave等。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车在高架桥下保持直行，周围车辆均维持当前车道行驶，未见明显变道或减速行为。天气仍阴沉，路面无积水，视野良好，无行人或其他动态障碍物。"
+    }
+  ]
+}

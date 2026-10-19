@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.62,
+    "analysis_time": "2026-01-23 21:23:11"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，光照充足，无异常天气。【自车】在中间车道匀速沿道行驶，未见明显加速或减速。【左侧】路边停放多辆私家车，部分车辆车门开启；右侧路肩停有白色货车及拖车，后方有摩托车排队。【行人】一名穿花衬衫短裤的男性从右侧 parked 车辆旁走出，向左横穿车道，步态自然，未观察交通状况。【关键风险】行人横穿行为未走人行横道，且位于自车前方约15米处，存在“鬼探头”与“Jaywalking”风险，需警惕突然切入路径。",
+      "risk_tags": [
+        "jaywalking",
+        "ghost_probe_risk",
+        "pedestrian_crossing"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】道路两侧植被茂密，左侧为山坡树林，右侧为高草丛与护栏。【自车】保持匀速前行，通过斑马线区域。【右侧】一名穿蓝色长裙女性站在路边，面向自车方向，手持手机，未移动；其后方有数辆汽车排队等待。【交通设施】前方设有“人行横道”标志牌（蓝底白图案），并配有太阳能供电的监控摄像头。【非标物体】右侧路边有蓝色“SINGLE LANE ONLY”禁行标志牌，但未见实际限行执行。【关键风险】右侧行人静止站立于车流密集区边缘，若突然移动可能引发碰撞；同时，右侧车辆因拥堵缓慢通行，存在加塞或变道意图，增加交互复杂度。",
+      "risk_tags": [
+        "pedestrian_standing_in_traffic_zone",
+        "lane_confusion_risk",
+        "slow_traffic_congestion"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】阳光直射，部分区域出现眩光反射。【自车】继续在中间车道匀速行驶，道路略有弯曲。【左侧】出现多栋多层建筑，底层为商铺，部分建筑外墙挂有“PARKING”标识；路边停放车辆密集，部分车辆引擎盖打开，疑似故障或维修。【右侧】一辆银色SUV从右侧车道缓慢超车，完成变道后驶离视野。【交通设施】前方可见“禁止停车”标志牌，但实际路边仍大量违停。【关键风险】左侧违停车辆中部分车辆引擎盖开启，可能存在突发机械故障或人员临时下车，构成“开门杀”或“突然移动”风险；右侧车辆变道动作未打转向灯，属“违规切出”，对自车形成潜在横向威胁。",
+      "risk_tags": [
+        "illegal_parking",
+        "unannounced_lane_change",
+        "mechanical_failure_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】道路进入城镇边缘，两侧建筑密度上升，绿化带减少。【自车】维持当前车道匀速行驶，前方车流稳定。【左侧】一栋浅黄色三层公寓楼前，一辆黑色轿车正在倒车入库，车身部分侵入行车道，驾驶员未观察后方。【右侧】一辆白色小型货车停靠在路边，车尾朝向自车方向，无警示标识。【非标物体】右侧路边有多个废弃轮胎堆叠，位于护栏外侧，未被清理。【关键风险】左侧倒车车辆未使用后视镜或鸣笛提示，存在“倒车盲区”风险；右侧废弃轮胎可能成为路面障碍物，影响紧急避让；整体场景呈现“低规管、高风险”的混合交通状态。",
+      "risk_tags": [
+        "reverse_driving_without_caution",
+        "road_obstacle_risk",
+        "poor_traffic_management"
+      ]
+    }
+  ]
+}

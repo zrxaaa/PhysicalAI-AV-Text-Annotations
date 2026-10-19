@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 05:12:59",
+    "processing_time_seconds": 10.35
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在中间车道匀速行驶，前方红色轿车保持稳定车距，左侧车道有一辆黑色轿车正从左后方接近并试图变道至中间车道。右侧路边有商业标识牌，天空晴朗，无明显遮挡物。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "黑色轿车完成变道进入中间车道，与自车并行，随后减速并逐渐靠右。前方红色轿车继续匀速行驶，未见明显刹车或变道行为，道路右侧出现停车场及多辆静止车辆。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "自车维持当前车道和速度，前方红色轿车开始缓慢减速，疑似接近前方路口或交通拥堵区域。左侧车道一辆深色SUV加速超越自车，右侧车道有白色SUV驶入并切入中间车道。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "交通流出现轻微拥堵，自车跟随前方红色轿车减速，右侧车道的白色SUV和左侧车道的深色SUV均在调整位置以适应车流变化。所有车辆均处于低速行驶状态，无紧急制动或突然变道行为。"
+    }
+  ]
+}

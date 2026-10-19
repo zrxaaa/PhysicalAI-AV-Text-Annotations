@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.24,
+    "analysis_time": "2026-01-24 07:05:05"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "【环境】夜间，降雪天气，路面湿滑，部分路肩积雪未清，路灯照明造成镜头光晕。【自车】在中间车道匀速沿弯道行驶，未变道，车头偏航角随道路曲率平缓调整。【周围车辆】左侧邻车道有一辆红色公交车（左前侧）与多辆轿车同向行驶，其中一辆黑色轿车从左后方快速接近并切入自车前方车道；右侧为高架隔音墙，无横向干扰。【交通设施】右侧路肩设有橙色施工警示牌，提示“Kort avstängd mot Södra”（部分封闭向南），但无实际施工活动。【关键风险】左侧黑色轿车在未打转向灯情况下强行切至自车前方，构成“Aggressive Cut-in”，存在碰撞风险。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "wet_snow_road",
+        "light_haze"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "【环境】继续夜间行车，能见度受雾气影响略有下降，路灯光晕持续存在。【自车】保持中间车道匀速行驶，通过弯道后进入直道段。【周围车辆】前方白色厢式货车维持稳定车距，左侧对向车道有卡车、轿车等正常通行。【交通设施】右侧出现红黄相间临时路障，提示前方施工区；上方悬挂绿色与蓝色高速指示牌，分别指向“GUSTAVSBERG NACKA 222 70”和“DICKLA HAMMARBY SJÖSTAD 1 Nocka”。【非标物体】无特种车辆或动物出现。【关键风险】前方路障区域可能引发车流减速，需注意后车跟车距离；指示牌下方可见施工锥桶与一名穿反光背心的工人（位于右后方路肩），但其未进入行车道，无直接威胁。",
+      "risk_tags": [
+        "construction_zone",
+        "signage_interaction",
+        "moderate_visibility_reduction"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】城市夜景背景，远处建筑群灯光亮起，天空阴云密布，无明显降水，路面干燥但仍有薄冰残留。【自车】驶入直道，加速至稳定速度，保持中间车道行驶。【周围车辆】左侧对向车道车流密集，包括大型货车与轿车，均按车道有序行驶；右侧隔音墙后可见现代建筑群，部分窗户亮灯。【交通设施】无显著障碍物或施工标志，仅保留远端路牌信息。【关键风险】无突发危险行为，但因夜间光线不足及路面潜在结冰，存在“隐性滑移风险”；左侧车道有车辆频繁变换车道，增加交互不确定性。",
+      "risk_tags": [
+        "night_driving_risk",
+        "potential_ice_on_road",
+        "lane_changing_traffic"
+      ]
+    }
+  ]
+}

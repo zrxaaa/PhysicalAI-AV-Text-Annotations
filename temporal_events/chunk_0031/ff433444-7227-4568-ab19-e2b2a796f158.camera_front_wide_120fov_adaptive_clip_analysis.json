@@ -1,0 +1,41 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.15,
+    "analysis_time": "2026-01-21 18:14:31"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，阳光强烈导致画面存在眩光，天空有薄云。【自车】位于中间车道，匀速沿直道行驶，接近十字路口。【前方】多辆轿车在同向车道行驶，其中一辆深色SUV在左前方邻车道，保持稳定车距。【交通设施】前方交叉口信号灯由绿转黄，随后变为红灯，自车在停车线前减速准备停车。【关键风险】右侧对向车道有一辆白色SUV从右方切入直行方向，未观察自车动向，存在潜在碰撞风险（Aggressive Cut-in）。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "signal_light_transition",
+        "glare_effect"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:08",
+      "scene_description": "【环境】光照稳定，无明显遮挡或天气异常。【自车】在红灯前完成停车，车头与停止线距离约5米。【左侧】一辆深灰色轿车从左前方邻车道缓慢超越自车，完成变道后驶离视野。【右侧】可见“Citi Florist”招牌及“Silicon Valley Eyecare”建筑，路边无行人活动。【交通设施】路口信号灯为红灯，横向车流亦已停止，路口空旷无冲突车辆。",
+      "comment": "此段无显著风险，自车安全等待，周围车辆行为正常。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】阳光逆射导致挡风玻璃上部出现强光晕，但路面清晰。【自车】绿灯亮起后启动，沿中间车道匀速前行。【前方】深色SUV在左前方邻车道持续行驶，与自车保持约15米间距；其后方有一辆白色轿车加速并入当前车道，完成切出动作。【道路特征】右侧出现限速35英里/小时标志牌，路旁为住宅区，绿化良好，无施工或障碍物。【非标物体】无动物、遗撒物或特种车辆出现。",
+      "comment": "此段为平稳行驶阶段，无紧急交互或危险行为。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】阳光仍强烈，部分区域因树荫产生阴影。【自车】保持中间车道匀速行驶，车速约35mph。【左侧】对向车道有多辆汽车驶过，包括一辆银色轿车和一辆白色面包车，均按规行驶。【右侧】路边停放多辆私家车，包括一辆黑色SUV和一辆皮卡，部分车辆停在车道外侧人行道边缘。【交通设施】无信号灯或特殊标识，道路为双向四车道，两侧为低密度住宅区。【关键风险】右侧一辆黑色SUV在自车后方约20米处突然向右转向，意图驶入路边停车位，但未打转向灯，存在“开门杀”潜在风险（Open Door Risk），且可能影响后方车流。",
+      "risk_tags": [
+        "un signaled_turn",
+        "open_door_risk",
+        "lane_narrowing_by_parked_cars"
+      ]
+    }
+  ]
+}

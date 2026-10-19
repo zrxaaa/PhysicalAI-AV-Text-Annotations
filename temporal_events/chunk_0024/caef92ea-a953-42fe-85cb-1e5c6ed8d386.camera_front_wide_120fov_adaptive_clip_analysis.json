@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 07:51:58",
+    "processing_time_seconds": 14.76
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在晴朗天气下沿直线车道平稳行驶，右侧一辆白色轿车从路边驶入并道至自车前方，未发生冲突，道路两侧为住宅区，无行人或障碍物。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "车辆接近一个左转路口，前方一辆银色SUV正在右转进入支路，自车保持直行，未减速，路口无交通信号灯，周围房屋前停放多辆私家车。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "自车继续直行，左侧出现一辆红色皮卡停靠在路边，车后装有梯子等工具，一名人员站在车旁，但未横穿道路，自车与皮卡无交互，保持安全距离。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "车辆经过皮卡后，前方道路出现另一辆深色轿车正从对向车道驶来，自车保持当前车道匀速通过交叉口，无其他动态参与者介入，环境安静且视野开阔。"
+    }
+  ]
+}

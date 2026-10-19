@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 06:21:52",
+    "processing_time_seconds": 13.94
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "自车在十字路口等待绿灯，左侧白色SUV和右侧骑自行车者从右方车道切入中间车道，前方多辆汽车在绿灯亮起后依次通过路口，交通信号灯为绿色，天气晴朗，路面干燥无湿滑。",
+      "scene_description_2": "行人站在路口两侧人行道，未进入斑马线，右侧建筑悬挂彩虹旗，无明显冲突车辆或行人与自车路径交叉。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:10",
+      "scene_description": "自车在左转车道完成转向，驶入18th Street，前方交通灯已转为红灯，自车在停车线前停下，右侧停有白色货车，左侧商铺前有行人站立但未横穿马路。",
+      "scene_description_2": "道路两侧停放多辆私家车，包括皮卡和SUV，树木沿街排列，无施工或障碍物影响通行，环境安静有序。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "自车在18th Street上保持匀速直行，右侧路边连续停放多辆轿车和SUV，左侧对向车道有车辆驶过，部分行人出现在远处人行道，未靠近道路边缘。",
+      "scene_description_2": "街道两旁为多层住宅楼，部分窗户可见晾衣架，无显著交通标志变化，光照均匀，无阴影遮挡视线，行车环境稳定。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "自车继续沿18th Street直行，前方出现红灯提示牌，但当前仍为绿灯，右侧一辆灰色SUV缓慢驶离停车位，未影响自车行驶路径，远处有行人正在过街。",
+      "scene_description_2": "道路中央有清晰车道线，两侧绿化带整齐，无突发障碍物或紧急行为，整体交通流平稳，自车维持安全跟车距离。"
+    }
+  ]
+}

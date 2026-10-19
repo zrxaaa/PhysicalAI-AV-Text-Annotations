@@ -1,0 +1,48 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 18.43,
+    "analysis_time": "2026-01-22 18:19:59"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间城市街道，路灯照明充足，无异常天气。【自车】在中间车道匀速沿道行驶，未变道。【左侧】人行道旁有金属脚手架覆盖商铺，堆放大量纸箱与施工材料；一辆黑色SUV停靠路边，后方有行人站立交谈。【右侧】同样有脚手架结构，路边堆积多个黑色垃圾袋及木板，一名骑自行车者从右前方驶过。【交通设施】道路两侧设有白色分道线，前方可见绿色交通信号灯。【关键风险】右侧人行道上堆放物占据部分通行空间，存在“开门杀”或行人突然冲出的风险；左前方脚手架底部有临时照明，可能造成视觉干扰。",
+      "risk_tags": [
+        "obstruction_by_construction_materials",
+        "pedestrian_crossing_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】夜间，街景灯光稳定，无降水或雾气。【自车】保持中间车道匀速前进，接近十字路口。【左侧】出现CVS Pharmacy门店，其外立面被脚手架包围，门前有数名行人驻足；紧邻其后为H&M门店，橱窗亮红色灯光，门面正在装修。【右侧】Banana Republic门店清晰可见，橱窗展示模特服装，门前有行人行走。【交通设施】前方路口设有斑马线与“ONLY”路面标线，交通信号灯为绿灯。【关键风险】左前方H&M入口处有行人正准备横穿马路，但未走斑马线；右侧Banana Republic门口有行人向自车方向移动，存在潜在碰撞风险。",
+      "risk_tags": [
+        "jaywalking",
+        "crosswalk_violation",
+        "pedestrian_in_frontal_path"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】夜间城市街景，光照均匀，无遮挡。【自车】在十字路口前减速，准备左转或直行（因视角限制无法确认转向意图）。【左侧】H&M门店位于路口拐角，红色招牌醒目，店门口有两名行人正在整理物品，其中一人推着购物车。【右侧】Banana Republic门店继续可见，门前有行人站立等待过街。【交通设施】路口设有标准斑马线、交通信号灯（绿灯）和倒计时器。【关键风险】左前方行人未观察车辆即开始横穿，且靠近自车行驶路径；右侧人行道上有行人携带大件行李，步速缓慢，易引发追尾或避让冲突。",
+      "risk_tags": [
+        "jaywalking",
+        "slow_pedestrian_on_crosswalk",
+        "potential_collision_with_crosser"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】夜间，街道两侧建筑灯光持续亮起，无异常天气。【自车】完成路口转弯或直行后，进入下一段单向车道，保持匀速行驶。【左侧】H&M门店已驶离视野，取而代之的是多辆停放的私家车，其中一辆银色SUV后备箱打开，两人正在装卸物品。【右侧】Banana Republic门店亦已远离，后续为其他商业店铺，橱窗内陈列服装。【交通设施】道路两侧设有消防栓、路缘石及停车标识。【非标物体】右侧路边停放一辆白色奔驰SUV，车身与自车横向间距约2.5米，无明显动态行为。【关键风险】左侧停车区域有人员活动，若突然开启车门或搬运货物，可能对自车构成“开门杀”威胁；远处可见一辆大型货车静止于路边，车身高度遮挡部分视线，存在“鬼探头”隐患。",
+      "risk_tags": [
+        "door_opening_risk",
+        "ghost_probe_potential",
+        "parked_vehicle_obstruction"
+      ]
+    }
+  ]
+}

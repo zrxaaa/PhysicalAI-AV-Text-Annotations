@@ -1,0 +1,54 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.17,
+    "analysis_time": "2026-01-22 01:59:44"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，能见度良好，无异常天气。【自车】位于中间车道，匀速沿直道行驶。【左侧】一辆NJ TRANSIT巴士（编号21028）从左前方并行超车，车身贴有“BINGO”广告，其后方为一辆银色SUV。【右侧】路边设有橙色施工锥桶，形成临时隔离带；远处可见“SUDDEN STOPS”警示牌。【交通设施】道路右侧为石砌挡土墙，上方有住宅楼和商业建筑。【关键风险】左侧巴士在超车过程中未保持安全横向距离，存在轻微刮蹭风险；右侧施工区域未设置明显作业区引导，潜在遮挡行人或非机动车。",
+      "risk_tags": [
+        "close_pass",
+        "construction_zone_undesignated"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:09",
+      "scene_description": "【环境】阳光充足，无遮挡。【自车】保持中间车道匀速行驶。【左侧】一辆灰色大众轿车从左后方切入至自车左前侧车道，完成变道动作。【右侧】一辆警用SUV（车牌号部分可见：64069）停靠在路边，车门打开，一名身穿深色夹克的男性站在车旁，面向道路方向，疑似执勤人员。【交通设施】右侧路肩设有一个红色STOP标志，前方有数个橙色锥桶围成临时停车区。【关键风险】警车突然停靠且人员下车，可能引发后方车辆误判或紧急制动；左侧变道车辆未打转向灯，存在加塞嫌疑。",
+      "risk_tags": [
+        "un signaled_cut_in",
+        "emergency_vehicle_presence",
+        "pedestrian_near_traffic"
+      ]
+    },
+    {
+      "time_segment": "00:00:09-00:00:13",
+      "scene_description": "【环境】晴朗，光照稳定。【自车】在中间车道继续匀速前行，接近前方隧道入口。【前方】公交车与银色SUV正驶向隧道口，两车均保持正常车距。【左侧】灰色大众轿车已完全切出至左车道，远离自车。【右侧】一辆银色SUV从右后方快速超越自车，完成变道。【交通设施】隧道上方设有三组绿色箭头信号灯，显示允许通行；隧道入口处立有“SPEED LIMIT 45”限速牌及“HUDSON AV”路牌。【关键风险】隧道入口处光线由亮转暗，存在视觉适应延迟；右侧超车车辆速度较快，若与自车间距不足，易引发追尾或剐蹭。",
+      "risk_tags": [
+        "tunnel_light_transition",
+        "high_speed_overtake"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "【环境】进入隧道，光照骤降，隧道内顶部照明均匀。【自车】保持当前车道，匀速通过隧道。【前方】公交车与银色SUV仍在前方行驶，车距稳定。【两侧】隧道壁为混凝土结构，左侧有金属护栏，右侧为石砌挡土墙，墙顶有铁丝网围栏。【交通设施】隧道内无特殊标志，仅保留基本车道线与照明。【关键风险】隧道内光线变化剧烈，可能导致驾驶员短暂视觉模糊；隧道内无应急车道标识，若发生突发状况，救援通道受限。",
+      "risk_tags": [
+        "light_adaptation_risk",
+        "limited_emergency_access"
+      ]
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "【环境】离开隧道，恢复户外强光照射。【自车】在中间车道继续匀速行驶。【前方】公交车与银色SUV已驶离隧道，进入开阔路段。【右侧】一辆银色SUV从右后方切入至自车右前方车道，完成变道。【交通设施】隧道出口处设有“CRIME STOPPERS”宣传牌，提示公众举报犯罪行为。【关键风险】右侧车辆加速变道，若未充分观察后视镜，可能与自车发生侧面碰撞；隧道出口处因光线突变，驾驶员需重新调整视线聚焦。",
+      "risk_tags": [
+        "high_speed_lane_change",
+        "light_glare_after_tunnel"
+      ]
+    }
+  ]
+}

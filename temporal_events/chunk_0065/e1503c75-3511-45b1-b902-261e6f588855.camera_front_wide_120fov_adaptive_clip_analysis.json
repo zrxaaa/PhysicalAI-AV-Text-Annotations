@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.77,
+    "analysis_time": "2026-01-22 08:55:18"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】阴天，天空灰暗，能见度中等偏低，挡风玻璃有水雾或雨滴导致局部视野模糊。【自车】位于主干道中间车道，匀速向前行驶，准备进入右侧弯道。【周围交通参与者】左侧对向车道有多辆轿车（含白色特斯拉、银色轿车）正常行驶；右前方路口处有绿色‘FREWAY ENTRANCE 101’指示牌及黄色‘15-3’限高标志。【交通设施】道路右侧设有混凝土护栏与灌木带，路口处有清晰的车道分隔线和导向箭头。【关键风险】自车即将进入弯道，但左侧对向车道有车辆在弯道入口处减速，存在潜在切入风险；挡风玻璃水雾影响视线，增加误判概率。",
+      "risk_tags": [
+        "reduced_visibility",
+        "potential_cut_in",
+        "lane_change_preparation"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】持续阴天，无明显降水，但路面湿滑，部分区域有积水反光。【自车】从中间车道向右转向，执行右转进入匝道，车头偏航角增大，沿弯道曲线行驶。【周围交通参与者】右侧路边出现红色储物单元建筑群，其后方有少量停放车辆；路肩处立有‘CARPOOL IS 2 OR MORE PERSONS PER VEHICLE’标志牌。【交通设施】路面标有‘CAR’和‘POOL’字样，提示为拼车专用车道；右侧为绿化带与低矮灌木，无行人或障碍物。【关键风险】自车转弯时需注意右侧路肩凸起边缘，可能因湿滑路面导致侧滑；无其他车辆或行人直接交互威胁。",
+      "risk_tags": [
+        "right_turn_maneuver",
+        "wet_road_surface",
+        "lane_marking_confusion_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "【环境】云层较厚，光线昏暗，部分区域有阳光穿透云层形成局部强光。【自车】继续沿右转弯道行驶，保持匀速，未进行紧急制动或变道。【周围交通参与者】前方交叉路口可见一辆红色轿车停于左转待行区，后方有白色SUV等待通行；远处有数辆汽车在直行车道上行驶。【交通设施】路口设有红绿灯信号杆，当前显示为绿灯；上方高架桥结构清晰可见，桥下有‘Great America Pkwy’及‘Bowers Avenue’方向指示牌。【关键风险】自车在转弯过程中需警惕交叉口左侧来车可能突然左转或加速通过；红绿灯虽为绿灯，但前方车辆静止状态表明可能存在非机动车或行人横穿风险。",
+      "risk_tags": [
+        "intersection_crossing_risk",
+        "green_light_caution",
+        "cross_traffic_monitoring_needed"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】阴云密布，能见度稳定，无明显降水或大雾。【自车】完成右转并驶入高架桥下方通道，进入高速公路匝道，纵向速度略有提升。【周围交通参与者】高架桥下有多辆汽车在不同车道行驶，包括一辆黄绿色SUV和一辆白色皮卡，均保持安全距离；左侧对向车道有车辆快速驶过。【交通设施】高架桥上有明确的绿色高速路牌，标注‘EXIT 393 Great America Pkwy / Bowers Avenue ½ MILE’；桥墩旁有施工围栏与临时警示标志。【关键风险】自车即将汇入高速主线，需注意右侧车道车辆可能加速并入；桥下空间狭窄，若前方车辆急刹，自车反应时间有限；无明显遮挡物，但高架结构可能造成局部阴影，影响视觉判断。",
+      "risk_tags": [
+        "highway_merge_zone",
+        "bridge_shadow_effect",
+        "speed_control_required"
+      ]
+    }
+  ]
+}

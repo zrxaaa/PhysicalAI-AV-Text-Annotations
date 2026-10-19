@@ -1,0 +1,34 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.04,
+    "analysis_time": "2026-01-23 16:19:13"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，光照充足，无异常天气。【自车】在中间车道匀速沿道行驶，未进行转向或变道。【左侧】一辆白色欧宝Vivaro货车从左前方邻车道超车并驶离，完成切出动作。【右侧】一名穿紫色外套的行人正在人行道上行走，面向前方，低头看手机，未进入车道。【交通设施】道路两侧为典型巴黎街景建筑，路边设有禁停标志（P符号）及金属隔离桩。【关键风险】无明显风险，但行人低头看手机存在潜在横穿意图，需保持警觉。",
+      "risk_tags": [
+        "pedestrian_distraction",
+        "no_aggressive_behavior"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】阳光直射，部分区域出现强阴影，无降水或能见度问题。【自车】继续在中间车道匀速前行，通过一个十字路口时减速至停车线前等待。【前方】一名穿红色上衣、蓝色牛仔裤的老年男性从右侧人行道走向斑马线，面部朝向正前方，步态稳健，正在横穿马路。【交互】该行人于自车正前方斑马线上完成横穿，期间自车完全停止，待其通过后才重新启动。【交通设施】路口设有清晰的人行横道标线和禁止驶入标志（红圈白杠），右侧店铺招牌显示“NETTOYAGE-SEC”与“CONFISEUR”。【关键风险】行人横穿行为符合交通规则，但因自车需停车等待，存在轻微延误风险；无其他高危行为。",
+      "risk_tags": [
+        "pedestrian_crossing",
+        "traffic_light_compliance"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】晴朗，光线均匀，无遮挡或天气干扰。【自车】在中间车道恢复匀速行驶，沿弯曲街道前行。【左侧】多辆汽车（包括白色标致208、银色SUV、白色雷诺Kangoo等）沿路边停放，部分车辆有轻微移动迹象（如司机开门）。【右侧】沿街商铺包括“ASSURANCES CAPILOR”、“COFFEE”、“CONFISEUR”，部分店面门口有自行车停放。【非标准物体】无动物、施工车辆或路面遗撒物。【交通设施】道路两侧设有多处禁停柱与路缘石，部分路段有黄色网格线标记。【关键风险】无显著风险。自车保持稳定行驶，未遭遇突发障碍或违规行为，场景整体安全可控。",
+      "risk_tags": []
+    }
+  ]
+}

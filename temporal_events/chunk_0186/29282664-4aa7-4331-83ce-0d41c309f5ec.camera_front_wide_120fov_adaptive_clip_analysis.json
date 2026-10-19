@@ -1,0 +1,43 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.39,
+    "analysis_time": "2026-01-24 09:56:52"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】阴天，天空灰暗，能见度中等偏低，路面湿滑无明显积水反光。【自车】位于中间车道，匀速沿直道行驶。【前方】一辆黄色出租车（NYC Taxi）在左前方车道，保持匀速；右侧车道有一辆深色SUV，与自车同向行驶。【交通设施】上方龙门架电子显示屏显示“LEFT LANE CLOSED EXPECT DELAYS”，提示前方左侧车道封闭。【关键风险】无明显违规或障碍物，但前方车道封闭提示需提前准备变道，存在潜在变道冲突风险。",
+      "risk_tags": [
+        "lane_closure_warning",
+        "potential_lane_change_conflict"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】持续阴天，无降水，光线均匀。【自车】保持中间车道匀速行驶。【左侧】对向车道车辆密集，包括白色轿车、银色SUV等，均正常行驶。【右侧】深色SUV从右后方加速并完成向右变道，切入自车所在车道，其动作未开启转向灯，存在轻微危险。【交通设施】右侧出现大型广告牌（PALEY KND），背景为高层住宅楼群，无遮挡视线。【关键风险】右侧车辆强行加塞（Aggressive Cut-in），虽未发生碰撞，但增加了自车避让空间压力，属于高风险博弈行为。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "unsafe_lane_change",
+        "no_turn_signal"
+      ]
+    },
+    {
+      "time_segment": "00:00:11-00:00:16",
+      "scene_description": "【环境】天气无变化，道路两侧混凝土护栏清晰可见，部分区域有铁丝网围栏。【自车】继续在中间车道匀速行驶。【左侧】黄色出租车在左前方车道内，开始缓慢减速并向左靠拢，疑似准备驶离主路或进入匝道。【右侧】深色SUV已完全离开自车右侧车道，不再构成威胁。【非标物体】路边护栏外偶有行人身影，但距离较远（>30米），无横穿意图。【交通设施】远处可见一座钢结构桥梁，桥体呈灰色，无明显施工或事故迹象。【关键风险】黄色出租车减速变道，若其突然转向或停车，可能引发后车追尾或紧急制动，存在“前车急刹”前兆风险。",
+      "risk_tags": [
+        "pre-collision_risk",
+        "sudden_deceleration_anticipation"
+      ]
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "【环境】阴云密布，无降水，视野开阔。【自车】在中间车道维持匀速直线行驶。【前方】道路延伸至远方，无明显障碍物。【周围】左侧对向车道车辆有序通过，右侧无干扰车辆。【交通设施】右侧高层住宅建筑群持续存在，无新增设施或警示标志。【关键风险】此段为平稳行驶阶段，无任何异常交互或环境威胁，未发现违规行为、动物、遗撒物或遮挡风险，整体安全等级高。",
+      "risk_tags": []
+    }
+  ]
+}

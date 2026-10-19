@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 01:31:05",
+    "processing_time_seconds": 17.39
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在十字路口停车等待，前方有一辆灰色轿车停在人行横道前，右侧交通信号灯为绿灯，左侧教堂建筑清晰可见，天空多云但光线充足。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:09",
+      "scene_description": "信号灯转为黄灯，前方灰色轿车开始缓慢前行，左侧一辆黑色SUV从对向车道左转进入路口，同时一名行人从右侧人行道横穿马路，自车保持静止状态。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:13",
+      "scene_description": "信号灯变为红灯，自车及前方车辆均停止，灰色轿车完成左转驶离路口，右侧交通灯仍为绿灯，远处有车辆沿直行方向驶来，教堂位于道路左侧显著位置。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车启动并沿Eucalyptus Ave直行，前方灰色轿车继续行驶，右侧路边停有一辆白色SUV，道路两侧有树木和围栏，天气晴朗，路面干燥无积水。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车继续直行，左侧出现一列停靠的轻轨列车，与道路平行，前方车辆保持匀速行驶，右侧为绿化带和居民区围墙，无行人或其他动态障碍物出现。"
+    }
+  ]
+}

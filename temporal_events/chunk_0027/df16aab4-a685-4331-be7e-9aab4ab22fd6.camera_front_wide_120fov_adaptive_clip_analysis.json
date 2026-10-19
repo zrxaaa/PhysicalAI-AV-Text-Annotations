@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 09:21:56",
+    "processing_time_seconds": 18.67
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在晴朗天气下沿双向四车道道路直行，前方有白色轿车和一辆大型卡车从对向车道驶过，右侧路边有住宅和围栏，无行人或显著障碍物。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "车辆接近十字路口，交通信号灯为绿灯，前方白色轿车保持直行，左侧对向车道有黑色SUV驶入交叉口，右侧人行道上有行人正在等待过街。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "信号灯转为红灯，自车及前方白色轿车、左侧银色SUV均在停止线前停车，路口横向车流中有车辆左转或直行，右侧人行横道上无行人移动。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "所有车辆静止等待红灯，自车位于中间直行车道，前方白色SUV与左侧银色SUV并排停靠，右侧路边可见一名坐在长椅上的行人，未参与交通交互。"
+    }
+  ]
+}

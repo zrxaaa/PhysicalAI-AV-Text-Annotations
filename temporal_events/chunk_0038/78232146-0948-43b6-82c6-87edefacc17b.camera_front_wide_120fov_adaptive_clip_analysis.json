@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.63,
+    "analysis_time": "2026-01-21 21:36:06"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间，浓雾笼罩道路，能见度极低，路灯与车灯在雾中形成强烈光晕。【自车】位于中间车道，执行减速制动，准备通过前方交叉路口。【前方】一辆深色SUV停于路口停车线后，尾灯亮起。【左侧】对向车道有车辆驶来，灯光因雾气模糊不清，无法辨识具体车型。【交通设施】前方为十字路口，交通信号灯显示绿灯，但受雾影响，视觉判断存在延迟风险。",
+      "risk_tags": [
+        "low_visibility",
+        "braking_required",
+        "signal_light_delay"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】雾气略有消散，但仍影响视线。【自车】完成左转动作，沿Willows Rd方向行驶，横向移动至右侧车道。【前方】深色SUV完成左转并驶离路口，其后方有数辆轿车依次通过。【右侧】路边出现白色围栏与石墙，树木枝叶部分遮挡视线。【交通设施】路口上方悬挂“Willows Rd”路牌，交通信号灯由绿灯转为红灯，提示直行车辆停止。【关键风险】自车在转弯过程中，左侧对向车道有车辆快速接近，因雾气未及时识别其速度与意图，存在潜在碰撞风险。",
+      "risk_tags": [
+        "lane_change_with_obstruction",
+        "cross_traffic_uncertainty",
+        "reduced_visibility_during_turn"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】雾气持续，路面湿滑，路灯照明稳定但光线反射明显。【自车】在中间车道保持匀速行驶，沿弯曲道路前行。【左侧】对向车道有多辆汽车迎面驶来，车灯亮度高但轮廓模糊。【右侧】石墙与灌木丛沿路延伸，无行人或动物活动迹象。【交通设施】道路右侧设有橙色菱形施工警示牌，提示前方可能有施工区域，但未见实际作业车辆或人员。【关键风险】由于雾气导致能见度不足，自车需依赖前车尾灯判断距离；同时，前方车辆刹车灯频繁闪烁，暗示前方可能存在突发减速情况，存在追尾风险。",
+      "risk_tags": [
+        "poor_visibility_driving",
+        "rear-end_collision_risk",
+        "construction_zone_warning"
+      ]
+    }
+  ]
+}

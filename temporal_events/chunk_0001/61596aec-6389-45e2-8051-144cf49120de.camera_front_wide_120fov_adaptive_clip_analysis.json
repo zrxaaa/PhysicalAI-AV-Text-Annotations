@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 22:44:00",
+    "processing_time_seconds": 17.95
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在直行车道上跟随前方一辆深色皮卡车，接近十字路口时前方车辆减速并停在停止线前，右侧人行道旁设有红色STOP标志和‘ALL WAY’标识，天气晴朗，路面干燥无湿滑。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "自车在停止线前停车等待，前方皮卡车同样静止，路口左侧出现一辆白色轿车驶过，右侧建筑墙面上有彩色涂鸦，路口处设有铁路道口警示牌与‘NO TRAIN HORN’标志，无行人或障碍物干扰交通流。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "自车通过铁路道口，道口栏杆已升起，右侧墙面为大型花卉壁画，旁边立有‘LOOK’指示牌，前方皮卡车继续前行，未见其他车辆或行人横穿道路，环境安静且通行顺畅。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "自车驶离道口后继续沿街道直行，右侧为砖砌商业建筑，左侧为混凝土隔离带与对向车道，前方无显著障碍物，车辆保持匀速行驶，路边无行人活动，光照充足无阴影遮挡视线。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车继续沿街行驶，右侧出现多层住宅楼与绿化灌木，左侧隔离带外可见对向车道车辆，前方无红绿灯或交叉路口，整体路况良好，无紧急事件或动态交互发生。"
+    }
+  ]
+}

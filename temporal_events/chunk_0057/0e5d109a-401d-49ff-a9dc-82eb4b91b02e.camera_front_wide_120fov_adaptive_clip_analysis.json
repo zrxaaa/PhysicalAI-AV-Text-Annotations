@@ -1,0 +1,51 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.49,
+    "analysis_time": "2026-01-22 05:32:25"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】暴雨天气，能见度极低，雨滴密集附着于挡风玻璃，雨刷器高频工作但视野仍模糊。路面湿滑积水严重，反射天空灰暗光线。【自车】位于中间车道，匀速向前行驶，未进行变道或转向。【右侧】一辆银色轿车从右后方快速超车，车身因高速运动呈现动态模糊，完成超车后驶离视野。【交通设施】前方路口设有三组红灯信号，当前为红灯状态，横跨道路的交通灯杆清晰可见。【关键风险】雨天视线受阻+高速车辆超车，存在侧向碰撞与失控风险；红灯未亮时车辆加速通过存在闯红灯隐患。",
+      "risk_tags": [
+        "heavy_rain",
+        "low_visibility",
+        "high_speed_overtake",
+        "red_light_violation_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:08",
+      "scene_description": "【环境】雨势略有缓和，但仍持续降雨，挡风玻璃水珠分布不均，部分区域有水流滑落。【自车】在中间车道保持匀速前进，通过路口时减速至停车线前等待。【交通设施】前方交通信号灯由红灯转为绿灯，横向灯组同步变化，指示直行可通行。【左侧】对向车道有一辆深色SUV静止等待，未移动。【右侧】远处建筑群轮廓依稀可见，无明显施工或障碍物。【关键风险】虽信号灯已变绿，但自车需确认前方无突发横穿车辆或行人，雨天刹车距离延长，需谨慎起步。",
+      "risk_tags": [
+        "signal_light_change",
+        "braking_distance_increase",
+        "caution_at_intersection"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】阴云密布，光线昏暗，路面积水反光强烈，形成“镜面效应”，影响视觉判断。【自车】启动并沿中间车道加速前行，速度由0提升至约40km/h。【左侧】一辆白色皮卡从左后方切入本车道，短暂并行后加速超越自车，未开启转向灯，存在违规变道嫌疑。【右侧】路边出现橙色锥桶围挡，提示前方施工区域，但无施工车辆或人员活动。【交通设施】道路右侧设有多根路灯杆，部分被雾气遮挡；前方高架桥入口处有绿色指示牌，内容模糊不清。【关键风险】左侧车辆违规切道，存在“加塞”行为；路面积水导致轮胎打滑风险上升；锥桶围挡区域可能隐藏未标识的施工障碍物。",
+      "risk_tags": [
+        "illegal_lane_change",
+        "wet_road_slip_risk",
+        "construction_zone_undisclosed_obstacle"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】持续强降雨，能见度维持在50米以内，挡风玻璃水迹严重干扰视线，雨刷器处于最高档位。【自车】保持中间车道匀速行驶，未进行任何转向或紧急制动。【右侧】施工区域锥桶排列成直线，延伸至前方约50米，无施工机械或人员出现。【左侧】对向车道有数辆汽车缓慢行驶，其中一辆深色SUV在湿滑路面上行驶轨迹偏移，疑似打滑。【交通设施】前方道路标线因积水而部分模糊，但主干道车道线仍可辨识；远处有大型建筑物轮廓，疑似工业区或仓储设施。【关键风险】路面湿滑导致车辆操控性下降；对向车辆打滑可能引发事故；锥桶围挡区域若无警示标志，易造成自车误判路径；雨雾环境下，驾驶员注意力易分散，存在反应延迟风险。",
+      "risk_tags": [
+        "wet_road_control_loss",
+        "reduced_visibility",
+        "poor_signaling_in_construction_zone",
+        "driver_attention_lapse_risk"
+      ]
+    }
+  ]
+}

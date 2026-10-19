@@ -1,0 +1,38 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.29,
+    "analysis_time": "2026-01-21 23:55:23"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】阴天，云层较厚，无明显降水或强光干扰，能见度良好。【自车】位于中间车道，停在十字路口红灯前，保持静止状态。【前方】一辆棕色Mini Cooper位于自车正前方，同样处于停车状态；其车牌区域被模糊处理。【左侧】多辆车辆（包括深色SUV、白色轿车、黑色轿车）从左向右横穿路口，部分车辆在绿灯亮起后加速通过。【右侧】人行道与路缘石清晰可见，无行人活动。【交通设施】路口上方交通信号灯为红色，右侧悬臂式信号灯显示“Ahwane”街名标识，左侧有“2nd Street”路牌。【关键风险】无明显违规行为，但左侧多车密集通过，存在潜在切出风险；Mini Cooper在红灯时未完全停止于停车线内，有轻微越线趋势。",
+      "risk_tags": [
+        "potential_cut_out",
+        "minor_stop_line_violation"
+      ]
+    },
+    {
+      "time_segment": "00:00:06-00:00:10",
+      "scene_description": "【环境】天气持续阴天，光线均匀，无遮挡。【自车】在红灯转绿后启动，沿中间车道向右转向进入Ahwane街方向，完成左转动作。【周围】红灯期间，左侧对向车道车辆已清空；绿灯亮起后，多车（含红色轿车、深色SUV、皮卡、白色特斯拉）从不同方向驶入交叉口，部分车辆在自车转弯路径上横向移动。【交通设施】路口信号灯由红转绿，右侧悬臂灯显示“Ahwane”街名，同时有“7”字形转向指示标志。【关键风险】自车在转弯过程中，右侧车道有一辆红色皮卡快速接近并试图切入自车前方，形成潜在切出冲突；该皮卡未提前打转向灯，存在加塞风险。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "turning_conflict",
+        "late_turn_signal"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】道路两侧绿化良好，树木茂密，路边设有“SPEED LIMIT 30”限速标志及“SPEED CHECKER RADAR”提示牌，天气仍为阴天，无降水。【自车】完成路口转弯后，进入Ahwane街主干道，保持中间车道匀速行驶。【前方】一辆深色轿车在自车前方约30米处行驶，未见异常行为。【左侧】对向车道有多辆汽车（含白色SUV、黑色皮卡）正常通行，无异常变道。【右侧】路边停放多辆私家车，包括红色轿车、银色SUV等；人行道旁有“76”加油站广告牌和“FAR OAKS”社区标识牌。【非标准物体】无特种车辆、动物或路面遗撒物。【交通设施】道路标线清晰，包含“30”限速标记、自行车道标识及人行横道虚线。【关键风险】无显著风险，但右侧路边停放车辆可能引发“开门杀”隐患，尤其在后续转弯或靠边停车时需注意。此外，前方车辆若突然减速，自车需保持安全距离以防追尾。",
+      "risk_tags": [
+        "parked_vehicle_open_door_risk",
+        "following_distance_maintenance_needed"
+      ]
+    }
+  ]
+}

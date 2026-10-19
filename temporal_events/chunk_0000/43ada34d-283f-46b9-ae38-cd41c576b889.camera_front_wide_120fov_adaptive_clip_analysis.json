@@ -1,0 +1,24 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 22:12:33",
+    "processing_time_seconds": 25.06
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "夜间行车，道路两侧树木林立，路灯照明昏暗。自车沿双黄线车道平稳行驶，前方可见橙色施工警示牌和弯道提示标志，无其他车辆或行人干扰。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "迎面驶来一辆对向车辆，其前大灯在雾气中形成强光眩晕，自车保持原车道减速避让。随后前方出现多辆尾灯亮起的车辆，表明交通流密集，自车跟随车流缓慢前行。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "道路右侧出现施工区域，有临时围栏、土堆及工程车辆灯光闪烁，自车未变道，保持当前车道通过。远处可见桥梁结构与更多车流，环境仍为夜间且能见度较低。"
+    }
+  ]
+}

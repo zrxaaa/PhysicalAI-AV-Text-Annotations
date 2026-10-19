@@ -1,0 +1,36 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.28,
+    "analysis_time": "2026-01-24 13:40:35"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，光照充足，无异常天气。【自车】位于中间车道，匀速沿道行驶，未进行转向或变道。【左侧】对向车道有白色皮卡和厢式货车驶过，均在各自车道内正常行驶。【右侧】人行道旁停放多辆工程车（含AYOBB&PEERY、Networks等品牌），行人零星行走，其中一人穿红色外套从右前方人行横道走向街角。【交通设施】道路两侧建筑密集，可见“SPECIAL DISTRICT”、“CIGAR”等商铺招牌，路侧设有邮筒及停车收费桩。无明显障碍物或违规行为。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】阳光直射导致部分建筑立面反光，但无遮挡或眩光影响行车。【自车】保持中间车道匀速前行，未变道。【前方】一辆黑色小型轿车（疑似福特福克斯）在前车流中稳定行驶，刹车灯偶有亮起。【右侧】多辆白色工程车（含ACCO engineered systems、TRI-SIGNAL INTEGRATION）停靠路边，部分车辆顶部装有工具架。【左侧】一辆黄色DHL货车从左前侧超车，完成变道后驶离视野。【关键风险】右侧停靠车辆与人行道间存在狭窄间隙，一名行人从车尾后方突然出现并横穿马路，因被工程车遮挡，存在“鬼探头”风险；同时，左侧超车车辆速度较快，切入时未充分观察后方，构成潜在碰撞威胁。",
+      "risk_tags": [
+        "ghost_probe",
+        "aggressive_cut_in",
+        "occlusion_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】城市核心区，建筑高耸，街道狭窄，光照仍充足。【自车】继续在中间车道匀速行驶，接近十字路口（Montgomery St）。【前方】黑色轿车减速，准备左转或等待信号灯。【左侧】一辆白色本田雅阁从左前侧快速超越自车，完成切出动作。【右侧】一辆白色厢式货车（标有“BARRY'S”字样）从右后方加速超车，车身贴近自车右侧，形成横向挤压风险。【交通设施】路口设有“RIGHT LANE MUST TURN RIGHT”及“BUS LANE AHEAD”标志牌，提示车道功能。【非标准物体】远处可见施工围挡与“ROAD CLOSED”警示牌，但未影响当前车道通行。【关键风险】右侧货车超车时未保持安全横向距离，且其车身宽度接近自车极限，存在刮蹭或被迫急刹风险；同时，前方黑色轿车制动不规律，可能引发追尾连锁反应。",
+      "risk_tags": [
+        "close_proximity_passing",
+        "unstable_braking",
+        "lane_conflict"
+      ]
+    }
+  ]
+}

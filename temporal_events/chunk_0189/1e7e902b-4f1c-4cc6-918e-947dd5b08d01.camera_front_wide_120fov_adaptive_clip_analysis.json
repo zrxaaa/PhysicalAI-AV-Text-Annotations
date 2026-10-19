@@ -1,0 +1,50 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.46,
+    "analysis_time": "2026-01-24 11:02:51"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】暴雨天气，雨滴密集覆盖前挡风玻璃，能见度严重降低；路面湿滑积水反光。【自车】在中间车道匀速沿直道行驶，未进行转向或变道。【左侧】路边有绿化带与行道树，部分树木无叶，枝干裸露；远处可见一个红绿灯路口及少量对向车辆。【右侧】停有一辆黄色工程车（疑似洒水车），车身静止，未作业。【交通设施】前方路口设有交通信号灯，当前显示为红灯，但因雨雾遮挡，细节模糊。【关键风险】自车接近路口时，前方红灯未清晰识别，存在闯红灯误判风险；同时雨雾导致后方车辆刹车距离判断困难。",
+      "risk_tags": [
+        "heavy_rain",
+        "low_visibility",
+        "traffic_light_uncertainty",
+        "braking_distance_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】雨势略有减弱，但云层低垂，光线昏暗，仍属阴雨天气。【自车】完成路口左转动作，进入新街道，当前位于中间车道，保持匀速前行。【左侧】出现多栋联排住宅楼，门前草坪绿化，部分房屋前停放SUV与轿车。【右侧】道路右侧停满车辆，包括银色轿车、黑色SUV等，部分车辆车门开启状态不明。【交通设施】路旁出现限速25英里/小时标志牌，清晰可见。【关键风险】自车转弯后，右侧停车车辆密集，存在“开门杀”风险；同时，部分车辆未完全停稳，可能突然启动或开门，需警惕突发横向移动。",
+      "risk_tags": [
+        "parked_vehicle_open_door_risk",
+        "turning_trajectory_obstruction",
+        "speed_limit_compliance_required"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "【环境】持续阴雨，雨滴仍在玻璃上形成水膜，视野仍有轻微模糊。【自车】在中间车道匀速直线行驶，随道路微弯向前。【前方】一辆白色厢式货车（印有“MILKMAN”字样）迎面驶来，车头灯光开启，正对自车方向，正在缓慢靠近。【左侧】住宅区前院可见儿童游乐设施（滑梯、攀爬架），附近无行人活动。【右侧】停放车辆增多，包括红色皮卡、深色轿车等，部分车辆尾部朝向道路。【非标物体】一辆红色轿车从左侧车位驶出，车头偏右，意图并入主路，但未打转向灯，属于潜在切出行为。【关键风险】前方迎面货车与自车距离缩短，若其减速不及时将构成碰撞威胁；左侧红色轿车强行切出，存在“Aggressive Cut-in”风险，可能导致自车紧急避让。",
+      "risk_tags": [
+        "oncoming_vehicle_collision_risk",
+        "aggressive_cut_in",
+        "unmarked_vehicle_emergence"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】雨势稳定，能见度维持中等偏低水平，挡风玻璃水珠分布均匀。【自车】继续沿中间车道匀速前进，道路两侧均为住宅区，绿化良好，偶有高大松树。【前方】白色牛奶配送货车已驶过自车，目前位于自车前方约30米处，正沿道路中央行驶。【左右两侧】停车密度增加，多辆私家车紧贴路边，部分车辆后备箱打开或有人在车旁活动（如取物、交谈），但未见明显横穿行为。【交通设施】道路两侧无明显交通标志或信号灯，仅见限速25标识。【关键风险】虽无直接碰撞威胁，但道路狭窄、停车密集，存在“鬼探头”隐患——尤其当自车经过拐角或盲区时，可能突然出现从停车位走出的行人或动物；此外，部分车辆未规范停放，占用部分行车空间，影响通行效率。",
+      "risk_tags": [
+        "ghost_probe_potential",
+        "narrow_road_with_parking_obstruction",
+        "pedestrian_animal_sudden_appearance_risk"
+      ]
+    }
+  ]
+}

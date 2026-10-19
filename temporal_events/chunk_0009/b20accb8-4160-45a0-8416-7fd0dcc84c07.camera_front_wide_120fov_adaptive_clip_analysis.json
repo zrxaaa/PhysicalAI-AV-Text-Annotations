@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 02:35:11",
+    "processing_time_seconds": 11.68
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在湿滑路面上沿主干道匀速行驶，左侧车道有车辆快速驶过，右侧路边可见商铺招牌和树木，天空阴沉，路灯已亮起，路面反光明显影响视线。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:11",
+      "scene_description": "前方路口交通信号灯为红灯，自车减速准备停车，右侧出现一栋黄色建筑，左侧对向车道有车辆驶近，路面标线清晰显示直行与左转车道分隔。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:15",
+      "scene_description": "信号灯转绿，自车开始缓慢前行，同时左侧对向车道多辆汽车加速通过交叉口，右侧一辆黑色SUV从人行横道前右转进入支路，与自车路径无冲突。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "自车继续沿直行方向前进，前方路口仍有红灯车辆等待，右侧店铺前有行人站立但未穿越马路，路面湿滑导致车灯反射强烈，影响视觉判断。"
+    }
+  ]
+}

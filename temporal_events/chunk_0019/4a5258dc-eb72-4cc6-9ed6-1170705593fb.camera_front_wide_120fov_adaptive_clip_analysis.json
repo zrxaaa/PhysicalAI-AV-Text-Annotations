@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 05:54:44",
+    "processing_time_seconds": 12.78
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车在十字路口通过绿灯，前方为铁路道口，右侧有交通信号灯和停车标志。一辆红色皮卡在前方车道行驶，左侧路边停有白色轿车和黑色SUV。",
+      "environment_conditions": "阴天，云层较厚，路面干燥，能见度良好"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "自车驶过铁路道口后继续直行，前方红绿灯由绿转红，红色皮卡减速并最终停车。左侧路边有黑色SUV驶入车道，与自车保持平行。",
+      "environment_conditions": "天空阴沉，道路两侧有落叶堆积，树木无叶，显示秋冬季节特征"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车在红灯前停车，前方红色皮卡保持静止。右侧车道有一辆灰色SUV从后方超车并驶入右转车道，随后左转进入另一条街道。",
+      "environment_conditions": "天气持续阴沉，路灯已开启，道路标线清晰可见，无明显湿滑或积水现象"
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "自车仍处于停车状态，等待红灯。左侧车道出现一辆蓝色老式皮卡，从左向右横穿画面并驶离。远处人行道上有行人站立，未进入车道。",
+      "environment_conditions": "光线逐渐变暗，城市街景中建筑物轮廓清晰，无强风或降水迹象"
+    }
+  ]
+}

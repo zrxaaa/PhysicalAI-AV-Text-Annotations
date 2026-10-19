@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:58:17",
+    "processing_time_seconds": 20.22
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "前方路口信号灯为绿灯，道路宽阔，两侧建筑高耸，阳光照射在左侧建筑物上形成强光眩晕，路面干燥无积水。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "自车在斑马线前完全停下，右侧有一辆白色轿车停在交叉口外侧，未进入冲突路径，远处可见另一组红绿灯系统和高层建筑群。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "自车后方及左侧车道车辆均未移动，路口无行人穿越，环境安静，阳光角度变化导致部分阴影投射在路面，不影响行车视线。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "前方出现一辆印有“Epoxy Floors”广告的面包车，正沿右侧车道缓慢行驶，自车与其保持安全距离并跟随，未发生超车或变道行为。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "道路尽头可见远处高楼轮廓，天气晴朗，能见度良好，路面标线清晰，自车维持匀速平稳行驶，未进行任何转向或加速操作。"
+    }
+  ]
+}

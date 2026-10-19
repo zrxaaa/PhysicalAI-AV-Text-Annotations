@@ -1,0 +1,45 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.59,
+    "analysis_time": "2026-01-23 10:05:38"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】夜间无路灯照明，仅靠车灯照亮前方道路，能见度受限。【自车】在中间车道匀速沿直道行驶，未进行转向或变道。【交通设施】右侧路边出现一盏高杆路灯，后方有多个黄色和白色路牌（含方向指示与限速标志），左侧为开阔田野，无遮挡物。【关键风险】无明显风险，但夜间强光眩射与黑暗区域交替易导致视觉疲劳，存在潜在感知延迟风险。",
+      "risk_tags": [
+        "night_driving",
+        "limited_visibility"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】继续夜间驾驶，道路两侧植被茂密，局部无照明。【自车】进入左转弯道，车头偏航角向左调整，保持在当前车道内沿曲线行驶，未越线。【交通设施】右侧弯道外侧设置多个红色箭头导向标志（左转提示），并配有“70”限速标志。【非标物体】无动物、施工车辆或遗撒物。【关键风险】弯道处视线被树木遮挡，存在盲区；若对向来车灯光刺眼，可能影响判断。",
+      "risk_tags": [
+        "curve_driving",
+        "blind_spot_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "【环境】持续夜间驾驶，道路两侧草坡与灌木丛密集，无人工光源。【自车】完成左转弯道，恢复直线行驶，车头偏航角归正。【交通设施】右侧路肩出现“GERETSRIED”字样标识牌（地名），紧邻弯道出口。【周围参与者】无其他车辆、行人或动物出现在50米范围内。【关键风险】该路段缺乏连续照明，且标识牌位于弯道外侧，驾驶员需提前预判，否则易因误判弯道曲率而超速或偏离车道。",
+      "risk_tags": [
+        "low_illumination",
+        "wayfinding_challenged"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】道路进入直行段，两侧植被仍浓密，无路灯或反光设施。【自车】保持在中间车道匀速直线行驶，车速稳定，无转向动作。【交通设施】远处可见零星路桩与反光柱，用于界定车道边界。【非标物体】无动物、施工设备或路面障碍物。【关键风险】长时间无照明与单调道路环境易导致驾驶员注意力下降，存在疲劳驾驶风险；同时，缺乏动态交通参与者使系统难以验证感知模型在低交互场景下的鲁棒性。",
+      "risk_tags": [
+        "driver_drowsiness_risk",
+        "low_interactivity_scene"
+      ]
+    }
+  ]
+}

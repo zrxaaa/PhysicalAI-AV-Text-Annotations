@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:20:42",
+    "processing_time_seconds": 18.39
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车在晴朗天气下沿多车道道路直行，左侧车道有一辆银色轿车从后方驶入并短暂并线，随后驶离视野，无明显交通信号或行人干扰。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:09",
+      "scene_description": "前方红色轿车保持匀速行驶，道路两侧有绿化带和低矮建筑，右侧出现Taco Bell门店标识，交通灯为绿灯，车辆有序通行，未见行人或突发障碍物。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "自车接近十字路口，右侧一辆蓝色轿车从侧方切入当前车道并保持并行，前方红车继续直行，交通信号灯仍为绿灯，无行人横穿或紧急制动行为。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:18",
+      "scene_description": "蓝色轿车在右侧车道持续行驶，自车保持与前车安全距离，对向车道有白色SUV、皮卡及货车依次通过，路边出现小型商业建筑和围栏，无显著交互事件。"
+    },
+    {
+      "time_segment": "00:00:18-00:00:20",
+      "scene_description": "自车继续沿道路直行，前方红色轿车维持速度，右侧蓝色轿车逐渐远离，对向车道大型货车驶过，道路两侧树木与电线杆分布均匀，无交通冲突或异常行为。"
+    }
+  ]
+}

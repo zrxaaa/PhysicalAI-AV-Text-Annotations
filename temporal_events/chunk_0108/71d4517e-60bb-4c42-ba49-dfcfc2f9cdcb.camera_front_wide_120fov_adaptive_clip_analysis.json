@@ -1,0 +1,31 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 9.42,
+    "analysis_time": "2026-01-23 04:04:24"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:12",
+      "scene_description": "【环境】夜间无路灯，仅靠车灯照明，能见度受限；道路两侧为草地与路桩，部分区域有雾气或水汽导致灯光散射。【自车】在中间车道沿弯道匀速行驶，未发生变道或转向，车头偏航角随路面曲率自然调整。【交通设施】道路右侧设有多根白色反光路桩，左侧为低矮护栏；前方可见一个红白相间左转警示牌，提示弯道方向。【关键风险】无明显动态障碍物或违规行为，但夜间强逆光环境下，远处对向车辆灯光易造成眩目，存在视线干扰风险。",
+      "risk_tags": [
+        "night_driving",
+        "low_visibility",
+        "glare_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】进入桥梁段，两侧出现混凝土护栏，远处山坡上有零星建筑灯光；车灯照射范围扩大，路面反射增强，局部出现轻微水汽雾化现象。【自车】保持中间车道匀速直行，横向无偏移，纵向无加速或减速。【交通设施】右侧护栏连续延伸，左侧护栏与山体之间有少量植被遮挡；前方约80米处迎面驶来一辆对向车辆，其前大灯亮度高，形成强烈逆光。【关键风险】对向车辆在无会车灯切换情况下持续使用远光灯，造成自车驾驶员视觉暂时性致盲，存在碰撞或避让失误风险；同时，桥梁段护栏可能限制紧急避让空间，增加事故后果严重性。",
+      "risk_tags": [
+        "high_beam_glare",
+        "bridge_confinement",
+        "collision_risk"
+      ]
+    }
+  ]
+}

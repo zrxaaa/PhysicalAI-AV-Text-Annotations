@@ -1,0 +1,35 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.09,
+    "analysis_time": "2026-01-24 14:54:08"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "【环境】晴天，能见度良好，无降水或雾气。【自车】在中间车道匀速沿直道行驶，车头朝向道路中心线，未进行转向或变道。【周围交通参与者】左侧路肩停有一辆深色轿车（静止），右侧木栅栏后可见住宅区；前方约50米处有对向来车（黑色SUV，匀速驶近）。【交通设施】道路两侧设有木质围栏、行道树及电线杆；右侧路边设有一个黄色“STOP AHEAD”警示牌，提示前方路口。【关键风险】无明显风险，但前方路口存在红灯信号与停车标志，需注意潜在的交叉冲突。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "【环境】光照稳定，无天气异常。【自车】接近十字路口，减速至停止状态，等待红灯。【周围交通参与者】前方路口横向车道有车辆（黑色SUV）正在左转，已进入交叉区域；右侧人行横道前有行人站立（未移动，无明显横穿意图）。【交通设施】路口设有红色“STOP”标志牌（ALL WAY）、交通信号灯（当前为红灯）、人行横道标线清晰。【关键风险】自车在红灯前停车，但右侧人行横道上有行人静止站立，若其突然横穿将构成碰撞风险；同时，横向来车正在左转，存在与自车发生冲突的可能性，需警惕‘鬼探头’或违规转弯行为。",
+      "risk_tags": [
+        "pedestrian_crossing_risk",
+        "intersection_conflict",
+        "left_turn_violation_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】晴朗，视野开阔。【自车】在红灯结束后启动，沿原车道右转进入新道路，完成转向动作。【周围交通参与者】右转后，对向车道出现一辆白色轿车（从左侧车道驶来，保持匀速，未切入自车车道）；右侧路边可见围栏内有施工区域，设有“COMMUNITY SERVE DAY”标识牌，但无施工车辆或人员活动。【交通设施】路口设有斑马线、交通信号灯（已转绿）、路侧广告牌及临时围挡。【关键风险】自车右转时，左侧对向车道有白色轿车快速接近，虽未越线，但因距离较近，存在轻微剐蹭或紧急避让风险；施工区域虽无作业，但围挡可能遮挡部分视线，增加盲区风险。",
+      "risk_tags": [
+        "close_encounter_with_oncoming_vehicle",
+        "blind_spot_risk_from_construction_barrier"
+      ]
+    }
+  ]
+}

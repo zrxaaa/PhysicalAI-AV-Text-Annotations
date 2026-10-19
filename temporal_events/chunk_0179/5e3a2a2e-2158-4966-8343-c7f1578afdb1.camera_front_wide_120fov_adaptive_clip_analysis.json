@@ -1,0 +1,46 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.14,
+    "analysis_time": "2026-01-24 07:44:02"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】晴天，光照充足，无异常天气。【自车】位于中间车道，从十字路口起步，执行匀速沿道行驶。【左侧】一名行人（男性，穿深色上衣）从粉色建筑前的人行道向道路中央行走，未观察来车，处于自车左前方约8米处。【右侧】停有一辆银色轿车及一辆白色货车，均静止。【交通设施】路口设有禁止驶入标志（红色圆圈内斜杠），但未见车辆违规闯入。【关键风险】行人横穿路径与自车行驶轨迹交叉，存在“鬼探头”潜在风险，需保持警惕。",
+      "risk_tags": [
+        "pedestrian_crossing_risk",
+        "ghost_probe_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:10",
+      "scene_description": "【环境】晴朗，阳光直射，部分区域出现阴影。【自车】在中间车道匀速前行，道路两侧停满车辆，形成狭窄通道。【前方】一辆黑色SUV（Peugeot）在自车正前方行驶，尾灯亮起，表明其正在减速或等待通行。【左侧】一辆白色厢式货车（Fiat Ducato）停靠于路边，车门开启，疑似装卸货物，车身占据部分车道空间。【右侧】一辆银色小型车（Renault Clio）停在路肩，车头朝向与自车同向。【交通设施】道路两侧设置有多个停车禁停标志（P符号）、限速标志（20km/h），以及人行横道标线。【关键风险】前方黑色SUV刹车行为可能引发自车跟随制动，同时左侧厢式货车车门开启存在“开门杀”风险，若行人或非机动车靠近易发生碰撞。",
+      "risk_tags": [
+        "follow_braking",
+        "door_opening_hazard"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】晴天，光线均匀，无遮挡。【自车】在中间车道减速至停止，准备右转。【前方】黑色SUV（Peugeot）在路口中央停下，未继续前行，疑似等待对向车流通过。【左侧】一辆银灰色小型车（Opel Corsa）从左侧支路驶出，向右转弯进入主路，切入自车左前方车道，未打转向灯，属于“强行加塞”。【右侧】一辆橙色小型车（Mitsubishi Mirage）停在路口右侧，车头朝向与自车相反，未移动。【交通设施】路口设有禁止左转标志（红圈内左箭头）和让行三角牌，提示自车应优先让行对向车辆。【关键风险】左侧银灰色小车“Aggressive Cut-in”，且未打转向灯，迫使自车紧急制动以避让，存在高概率碰撞风险；同时，前方黑色SUV停滞不前，加剧路口拥堵与交互冲突。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "emergency_braking",
+        "intersection_congestion"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】晴天，视野开阔，无遮挡。【自车】完成右转动作，进入新街道，当前位于最右侧车道。【前方】黑色SUV（Peugeot）已右转离开路口，不再构成直接威胁。【左侧】一栋浅蓝色弧形建筑旁，停放多辆汽车，其中一辆深色SUV（Jeep Compass）正从停车位缓慢驶出，车头朝向自车方向，有切入自车车道趋势。【右侧】路边设有多个大型分类垃圾桶（金属材质），排列整齐，无移动迹象。【交通设施】路口设有“禁止左转”和“让行”标志，自车已完成右转，符合交通规则。【关键风险】左侧深色SUV驶出车位时未观察后方，存在“开门杀”及“切出车道”风险，若自车未及时减速，可能发生侧面碰撞。",
+      "risk_tags": [
+        "cut_out_risk",
+        "parked_vehicle_reversal_hazard"
+      ]
+    }
+  ]
+}

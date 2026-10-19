@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.17,
+    "analysis_time": "2026-01-22 02:22:30"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】阴天，云层较厚，无明显降水或强光，能见度良好。路面干燥，无积水或结冰。【自车】位于中间车道，沿双黄线道路匀速前行，未进行转向或变道。【左侧】多辆私家车（含银色轿车、深灰色SUV、白色面包车）沿路边静态停放，部分车辆在自车前方约15米处缓慢驶离停车位。【右侧】一辆黑色吉普车在右前方约8米处向右变道并停靠于路肩，其后方有白色丰田普锐斯正从右侧车道驶入停车区域。【交通设施】右侧可见人行横道警示牌（黄色三角形+行人图标），前方约30米处有“SCHOOL”标志牌及学校名称标识牌（Louisville Middle School）。【关键风险】右侧吉普车突然向右切入，占用自车右侧车道空间，虽未发生碰撞，但存在切出干扰风险；同时，左侧停放车辆中个别车辆启动时可能突然驶入行车道，构成潜在“鬼探头”风险。",
+      "risk_tags": [
+        "cut_out_interference",
+        "ghost_probe_risk",
+        "sudden_vehicle_movement"
+      ]
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "【环境】天气仍为阴天，光照均匀，无遮挡物影响视线。【自车】保持中间车道匀速行驶，随道路曲线自然前进，未进行横向调整。【左侧】连续停放多辆SUV与轿车，其中一辆深蓝色SUV在自车左前侧约10米处缓慢向前移动，疑似准备驶离车位。【右侧】学校入口区域清晰可见，设有“SCHOOL ZONE”电子显示屏及橙色施工锥桶围挡，提示限速与注意学生。【行人】在右侧人行道上，一名穿灰色上衣、深色长裤的行人由远及近步行，面向自车方向，步态平稳，未横穿马路，无手机等分散注意力行为。【交通设施】前方路口设有“STATE LAW TO YIELD TO PEDESTRIAN CROSSWALK”警示牌，以及“SCHOOL”区域专用停车标志。【关键风险】行人虽在人行道，但若其突然偏离路径进入车道，将构成“Jaywalking”风险；此外，右侧施工锥桶区域存在临时障碍物，需警惕施工人员或设备突现。",
+      "risk_tags": [
+        "jaywalking_risk",
+        "construction_obstacle",
+        "pedestrian_path_deviation"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】天空云层略薄，光线增强，但仍属阴天。路面干燥，无异常天气影响。【自车】继续在中间车道匀速沿直线道路前行，车头偏航角稳定，未出现转向动作。【左侧】多栋住宅建筑排列，部分房屋前有白色栅栏，树木茂密。一辆深灰色SUV在左前方约12米处静止停放，未移动。【右侧】远处可见铁丝网围栏内有儿童活动区域，多名学生聚集在围栏外，但均未靠近道路。【非标准物体】无动物、特种车辆或路面遗撒物。【交通设施】前方路口设有“SCHOOL ZONE”标志和减速带，但无实际减速要求标识。【关键风险】右侧围栏内学生群体虽未直接进入道路，但存在因追逐或嬉戏冲向车道的可能性；左侧停放车辆若突然启动，可能引发“开门杀”或“切出”事故，尤其在无转向灯提示情况下。",
+      "risk_tags": [
+        "student_crossing_risk",
+        "parked_vehicle_startup",
+        "no_turn_signal_risk"
+      ]
+    }
+  ]
+}

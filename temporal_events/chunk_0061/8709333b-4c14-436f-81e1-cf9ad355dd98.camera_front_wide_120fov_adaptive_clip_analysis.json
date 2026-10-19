@@ -1,0 +1,37 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.87,
+    "analysis_time": "2026-01-22 07:07:51"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】晴天，能见度良好，无异常天气。【自车】在中间车道匀速沿直道行驶。【右侧】一名身穿荧光黄背心的行人正沿人行道向车头方向行走，手持物品，面部朝向前方，步态平稳，未横穿马路。【交通设施】右侧为黑色铁艺围栏，围栏后有草坪和树木；路边设有黄色“SCHOOL ZONE AHEAD”警示牌。【关键风险】行人位于非机动车道边缘，但无横穿意图，未构成直接威胁。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】晴朗，阳光充足，部分区域存在树影遮挡。【自车】保持中间车道匀速行驶。【左侧】出现多栋住宅，其中一栋门前有蓝色垃圾桶；对向车道有一辆白色雪佛兰科迈罗轿车迎面驶来，完成超车后驶离视野。【右侧】出现一个“SPEED LIMIT 25”的限速标志牌，以及一个“DEPARTMENT OF PUBLIC SAFETY”的标牌。【交通设施】前方路口设有红绿灯杆及交通信号灯，当前为绿灯。【关键风险】无显著风险，但对向车道车辆速度较快，需注意横向间距。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:11-00:00:14",
+      "scene_description": "【环境】晴天，光照稳定。【自车】在中间车道接近十字路口，前方绿灯亮起，准备通过。【左侧】一辆银色SUV从左转车道切入直行车道，未打转向灯，与自车并行约3米后完成变道。【右侧】一个黄色“PEDESTRIAN CROSSING AHEAD”警示牌立于路旁，提示前方有人行横道。【交通设施】路口上方悬挂绿色“Deckner Ave”路牌，信号灯为绿灯，允许直行。【关键风险】银色SUV违规变道（压实线），存在切出风险，虽未碰撞，但增加了横向交互不确定性。",
+      "risk_tags": [
+        "aggressive_cut_in"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】晴天，道路两侧绿化良好，无遮挡物。【自车】继续在中间车道匀速行驶，已通过十字路口。【左侧】可见一排低层住宅，部分房屋前有台阶或矮墙；右侧为斜坡式绿化带，配有砖砌挡土墙。【交通设施】路边设有“NO PARKING ANYTIME”禁停标志，以及“SCHOOL ZONE AHEAD”重复警示牌。【关键风险】无明显危险行为，但右侧绿化带内有少量落叶堆积，可能影响排水或引发湿滑，属于低风险环境隐患。",
+      "risk_tags": [
+        "low_risk_environment_hazard"
+      ]
+    }
+  ]
+}

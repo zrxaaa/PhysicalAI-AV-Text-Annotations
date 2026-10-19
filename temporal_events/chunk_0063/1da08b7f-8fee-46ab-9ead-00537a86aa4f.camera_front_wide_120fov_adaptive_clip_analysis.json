@@ -1,0 +1,45 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 18.39,
+    "analysis_time": "2026-01-22 08:04:57"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "【环境】阴天，能见度中等，无明显降水或雾。路面干燥，但部分区域有湿痕。【自车】位于中间车道，正通过十字路口，绿灯亮起后加速前行。【左侧】一辆白色半挂卡车（带红色集装箱）在左邻车道并行，车头朝前，未变道；其车身高度遮挡部分视野。【前方】一辆白色厢式货车在正前方车道匀速行驶，尾灯未亮。【交通设施】路口交通信号灯为绿色，右侧人行横道清晰可见。【关键风险】自车与左侧大货车横向间距小于1.5米，存在“剐蹭”风险；货车因体型庞大，可能遮挡其后方行人或非机动车。",
+      "risk_tags": [
+        "narrow_lateral_clearance",
+        "obstruction_by_large_vehicle"
+      ]
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "【环境】城市街道，两侧建筑密集，天空灰白，无降水。【自车】保持中间车道匀速行驶，沿直线道路前进。【左侧】沿街商铺林立，包括“CC FILSON CO.”、“metropolitan appliance”等招牌清晰可见；路边停放多辆私家车。【右侧】出现橙色施工警示牌（ROAD WORK AHEAD），后方有临时围栏和锥桶；远处可见停车场及“NO EVENT PARKING”标识。【前方】白色厢式货车持续在前，未变道，车距稳定。【交通设施】路旁设有“SPEED LIMIT 30”限速标志，以及“PARKING”指示牌。【关键风险】右侧施工区域存在潜在障碍物，若前方车辆急刹，自车需预留更长制动距离；施工警示牌提示前方可能有突发变道或停车行为。",
+      "risk_tags": [
+        "construction_zone_warning",
+        "increased_braking_distance_required"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "【环境】城市街区，光线均匀，无强逆光或阴影干扰。【自车】维持中间车道匀速行驶，随道路微弯向前。【左侧】对向车道有数辆轿车驶过，其中一辆银色轿车在左前方车道完成超车动作。【右侧】出现“BE PREPARED TO STOP”警示牌，紧邻一排停靠的轿车（含灰色、红色车型），部分车辆尾灯亮起，显示处于等待状态。【前方】白色厢式货车继续直行，未减速。【交通设施】右侧路边设有多块标牌，包括“FOR LEASE”、“PUBLIC PARKING”及“RIGHT LANE CLOSED AHEAD”标志；远处可见大型广告牌（含信用卡推广信息）。【关键风险】右侧车道有车辆排队等候，且存在“右车道关闭”提示，暗示可能即将发生车道合并或变道冲突；若自车未提前观察，易遭遇右侧车辆突然切入。",
+      "risk_tags": [
+        "lane_closure_warning",
+        "potential_cut_in_from_right"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】城市街道，天气仍阴沉，无明显光照变化。【自车】保持中间车道匀速行驶，车速稳定。【左侧】对向车道有银色轿车驶离，后方无显著阻碍。【右侧】一辆红色轿车从右侧车道缓慢超越自车，完成切出动作；其后方有一辆灰色轿车静止于路边，尾灯亮起。【前方】白色厢式货车继续直行，车距约20米，未见刹车迹象。【交通设施】右侧人行道旁设有人形警示牌（施工人员引导），提示前方有作业区；远处可见红绿灯杆及电线杆。【关键风险】右侧红色轿车在超车过程中短暂进入自车所在车道，虽已完成切出，但存在“切出时未充分确认安全距离”的博弈行为；若该车速度过快或突然变道，将构成高风险交互。",
+      "risk_tags": [
+        "aggressive_lane_change",
+        "close_passing_with_insufficient_clearance"
+      ]
+    }
+  ]
+}

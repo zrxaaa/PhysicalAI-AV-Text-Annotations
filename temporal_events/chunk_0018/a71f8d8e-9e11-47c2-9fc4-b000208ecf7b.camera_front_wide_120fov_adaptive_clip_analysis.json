@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 05:42:17",
+    "processing_time_seconds": 17.38
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在双黄线道路中间车道匀速行驶，右侧有一辆绿色垃圾车并行，随后其驶离视野。左侧路边停放多辆汽车，包括白色皮卡和SUV，无行人或显著动态障碍物出现。天气阴沉，路面干燥，无明显交通标志变化。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "前方车辆逐渐减速，自车保持跟车距离平稳行驶。右侧车道有黑色轿车和银色SUV依次驶入停车区，未影响自车路径。道路两侧可见住宅楼与公交站台，无行人横穿或突发行为。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:13",
+      "scene_description": "接近十字路口，自车继续直行，右侧人行道上一名行人从公交站后方走出并沿路边行走，未横穿马路。前方车辆在路口前减速，自车维持安全车距，未见红绿灯或停车标志。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车通过路口后继续沿直线车道行驶，右侧路边停满车辆，包括白色SUV和红色轿车，部分车辆从停车位驶出但未进入主路。左侧人行道上有两名行人并肩行走，与自车无交互。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "临近视频结尾，自车仍保持匀速直行，右侧出现黄色“STOP FOR PEDESTRIAN”警示牌，但无行人出现。前方车辆持续行驶，未发生变道或急刹，整体交通流畅，环境无显著变化。"
+    }
+  ]
+}

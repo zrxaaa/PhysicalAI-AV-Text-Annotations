@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 22:45:15",
+    "processing_time_seconds": 26.14
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "雨天，自车在十字路口等待红灯，左侧一辆深色掀背车正在左转，前方交通信号灯由红变绿，路面湿滑，能见度较低。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "信号灯转绿后，自车向前行驶，左侧深色掀背车完成左转并驶离，对向车道车辆开始通行，右侧出现砖砌拱门结构和人行横道标志。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "自车沿Tinton Ave直行，道路两侧停有多辆汽车，包括一辆印有“Dairy Pure”字样的白色货车，右侧路肩有围栏和光秃树木，限速40标志可见。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "继续前行，右侧出现限速35标志及禁止左转标志，对向车道车辆排队缓行，路边停放多辆私家车与货车，天气阴沉，挡风玻璃有水雾影响视线。"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 08:10:38",
+    "processing_time_seconds": 16.68
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在Brannan街行驶，前方为红色轿车和白色SUV，交通信号灯为绿灯，道路右侧有行人及自行车道，远处可见大桥结构，天气阴沉但无雨，路面干燥。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "自车保持匀速跟车，右侧人行道上行人与骑行者持续活动，左侧路旁出现绿色街道指示牌（Bryant & Harrison），车辆未发生变道或加速行为，环境稳定无突发状况。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "自车继续跟随前方红色轿车，右侧车道有黑色轿车从后方快速超车并驶离，同时一辆银灰色轿车从右侧进入画面并切入相邻车道，自车未改变速度或方向。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "自车维持当前车道，前方红色轿车减速，右侧多辆车辆（包括银灰轿车、灰色SUV）陆续通过，右侧人行道上有行人持续行走，整体交通流平稳，无紧急事件或信号变化。"
+    }
+  ]
+}

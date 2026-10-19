@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 03:37:44",
+    "processing_time_seconds": 13.07
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "自车在直行车道上跟随前方银色轿车行驶，接近十字路口时，左侧人行道有行人正在过街，右侧交通信号灯为绿灯，允许直行和右转。前方银色轿车在斑马线前减速并完成左转动作。"
+    },
+    {
+      "time_segment": "00:00:06-00:00:10",
+      "scene_description": "自车在十字路口等待，信号灯转为红灯后停车，左侧人行横道上有三名行人从左向右步行通过，右侧车道有车辆驶入本车道，自车保持静止状态，未发生变道或加速行为。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "信号灯转绿，自车启动向前行驶，前方银色轿车已驶离路口，道路两侧停放多辆汽车，右侧有一辆黑色SUV从后方快速超车并切入自车前方车道，自车保持安全距离跟随。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "自车继续沿林荫街道行驶，阳光从树梢间照射形成光斑，前方车辆逐渐稀疏，右侧路边出现一个红色停车标志，但无车辆在此处停靠，自车平稳加速，未见行人或其他动态障碍物。"
+    }
+  ]
+}

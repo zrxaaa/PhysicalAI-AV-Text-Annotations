@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 05:47:53",
+    "processing_time_seconds": 11.63
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "夜间城市道路，自车沿多车道直行，前方交通信号灯为绿灯，右侧有商铺和路灯照明，左侧对向车道有车辆驶过，无行人或障碍物干扰自车路径。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:11",
+      "scene_description": "接近十字路口，信号灯仍为绿灯，自车平稳通过人行横道，右侧人行道上有两名行人站立，未横穿马路，无其他车辆与自车发生路径冲突。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:15",
+      "scene_description": "通过交叉口后，前方信号灯转为红灯，自车减速并停在停止线前，左侧车道有一辆深色皮卡车从旁超车驶过，未影响自车停车行为。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "自车在红灯前保持静止，远处可见多个红灯车辆排队，右侧路边有少量停放车辆，无行人或动态障碍物进入自车安全区域，环境安静且视野清晰。"
+    }
+  ]
+}

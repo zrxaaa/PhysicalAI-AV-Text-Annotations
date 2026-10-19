@@ -1,0 +1,36 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.02,
+    "analysis_time": "2026-01-23 01:42:55"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】日落时分，太阳位于正前方天空，形成强烈逆光，路面反射眩光。【自车】在中间车道匀速沿直道行驶，未进行转向或变道。【周围车辆】对向车道有数辆轿车和SUV驶过，均保持正常行驶轨迹；右侧路边停有数辆车，无明显动态。【交通设施】道路两侧可见电线杆、路灯及远处的交通信号灯结构，但尚未进入交叉口区域。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】逆光持续，天空渐暗，能见度因强光略有下降，但无降雨或雾气。【自车】仍保持在中间车道匀速前行，接近前方十字路口。【左侧】对向车道多辆汽车加速通过，部分车辆在红灯前减速。【右侧】一个公交站台结构清晰可见，其后方草坪旁停放多辆私家车。【交通设施】前方约50米处出现一组悬吊式交通信号灯（红灯状态），横跨整条道路。【关键风险】右侧一辆白色SUV从停车区启动，准备右转进入主路，其起步动作与自车当前车道存在潜在冲突，需警惕切入行为。",
+      "risk_tags": [
+        "potential_cut_in",
+        "strong_ambient_light"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】逆光加剧，太阳接近地平线，光线呈金黄色，路面反光增强。【自车】在中间车道维持匀速，即将通过交叉口。【右侧】白色SUV完成右转动作，切入自车所在车道前方，完成变道并驶入对向车道。【左侧】多辆轿车从左前侧邻车道快速驶过，其中一辆银色轿车在绿灯亮起后加速通过路口。【交通设施】信号灯显示为红灯，但部分车辆无视信号继续通行（闯红灯迹象）。【关键风险】右侧SUV右转切入时未充分观察自车动向，存在“切出”后与自车发生横向碰撞的风险；同时，左侧多车闯红灯，构成多方向违规博弈，增加路口交互复杂性，属于高危场景。",
+      "risk_tags": [
+        "red_light_violation",
+        "unsafe_lane_change",
+        "multi_agent_conflict",
+        "high_ambient_light_blinding"
+      ]
+    }
+  ]
+}

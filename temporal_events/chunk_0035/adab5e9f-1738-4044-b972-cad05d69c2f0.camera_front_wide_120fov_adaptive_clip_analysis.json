@@ -1,0 +1,44 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.51,
+    "analysis_time": "2026-01-21 20:19:06"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间暴雨，挡风玻璃布满水珠与雨痕，导致视觉严重扭曲。灯光在水膜上形成彩色光晕与拖影（红、绿、白光带交织），能见度极低。【自车】位于中间车道，匀速沿直道前行，未见明显转向或变道动作。【周围交通】前方约30米处有数辆汽车尾灯亮起，呈排队缓行状态；左侧对向车道有车辆驶过，因雨水干扰无法辨识车型。【交通设施】道路两侧为城市住宅区，可见路灯与街牌（如“LARKIN”路牌），但被雨雾模糊。【关键风险】由于视线受阻，前方车辆刹车灯闪烁频率不规律，存在前车急刹而自车反应不及的风险；右侧路边有不明物体轮廓（疑似施工锥桶），但因水雾遮挡无法确认其是否构成障碍物。",
+      "risk_tags": [
+        "heavy_rain",
+        "low_visibility",
+        "braking_uncertainty",
+        "obstacle_ambiguity"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】雨势略有减弱，但路面积水仍严重，灯光反射加剧视觉干扰。【自车】保持中间车道匀速行驶，车头偏航角无明显变化，沿道路曲线平稳前进。【周围交通】右侧车道一辆深色SUV快速超车并切入自车前方，未打转向灯，距离自车不足5米，属于典型“强行加塞”行为。【非标物体】右侧人行道边缘出现一个模糊的白色物体（疑似行人携带伞具），正朝马路方向移动，面部朝向不清，肢体动作显示其可能准备横穿。【交通设施】前方路口设有斑马线与交通信号灯，当前绿灯亮起，但因雨水反光，信号灯细节难以辨认。【关键风险】右侧SUV强行切入+左侧行人潜在横穿=双重碰撞风险；自车需紧急制动避让，存在“开门杀”或“鬼探头”隐患。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "pedestrian_crossing_potential",
+        "emergency_braking_required",
+        "signal_light_obscured"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】持续暴雨，挡风玻璃水渍分布不均，部分区域形成“水幕”，导致前方视野局部失真。【自车】维持中间车道，减速至约20km/h，因前方拥堵及视线受限采取谨慎驾驶策略。【周围交通】前方多车排队，尾灯密集且闪烁频繁，表明交通流缓慢。左侧邻车道有一辆白色轿车静止等待，未见任何转向或加速迹象。【非标物体】右侧路边出现一排橙色施工锥桶，排列整齐，暗示前方有施工区域；锥桶后方隐约可见工程车轮廓，但未作业，无警灯闪烁。【交通设施】道路右侧设有“SPEED LIMIT 25”的限速标志，清晰可见；前方路口已进入红灯倒计时阶段（约5秒），但因雨雾影响，信号灯颜色判断困难。【关键风险】前方车辆密集+视线受阻+红灯倒计时=潜在追尾风险；施工锥桶区域存在“盲区绕行”可能性，若自车误判通行条件易引发事故；行人再次出现在左前方人行道边缘，动作缓慢，可能突然闯入车道。",
+      "risk_tags": [
+        "traffic_congestion",
+        "reduced_speed_due_to_weather",
+        "construction_zone_ambiguity",
+        "red_light_confusion",
+        "pedestrian_sudden_appearance"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 04:21:08",
+    "processing_time_seconds": 12.65
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:02",
+      "scene_description": "自车在十字路口前方行驶，前方有白色面包车和一辆皮卡，交通信号灯为绿灯，车辆正通过交叉路口。右侧路旁有绿化带和围栏，天气晴朗，路面干燥无湿滑迹象。"
+    },
+    {
+      "time_segment": "00:00:02-00:00:08",
+      "scene_description": "自车驶入主干道，前方白色面包车保持匀速行驶，左侧护栏外有广告牌和树木，右侧为坡地与围栏。自车未变道，保持当前车道行驶，无其他近距车辆或行人交互。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "车辆继续沿高架桥路段行驶，两侧出现混凝土护栏和灌木丛，远处可见城市建筑群。前方两辆车保持安全距离，自车未加速或减速，无紧急避让行为。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:18",
+      "scene_description": "自车接近一个弯道，右侧护栏上出现涂鸦，左侧车道有灰色轿车从后方超车并汇入当前车道。自车维持原速，未进行变道或制动，前方车辆仍保持稳定行驶。"
+    },
+    {
+      "time_segment": "00:00:18-00:00:20",
+      "scene_description": "自车继续直行，前方道路开阔，两侧绿化带延伸，远处城市天际线清晰可见。无行人、无突发障碍物，交通状况平稳，自车保持巡航状态，未发生任何交互或动作变更。"
+    }
+  ]
+}

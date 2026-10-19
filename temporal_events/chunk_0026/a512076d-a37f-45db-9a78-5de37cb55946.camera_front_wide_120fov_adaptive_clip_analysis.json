@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 08:31:58",
+    "processing_time_seconds": 17.13
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在雨天沿双向两车道湿滑道路匀速行驶，前方可见黄色交通标志和人行横道，右侧路边有住宅与树木，挡风玻璃上有水滴影响视野。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "车辆接近十字路口，左侧出现停车的白色轿车，右侧住宅区前有白色围栏，路面标线清晰，雨势未减，能见度较低，自车保持当前车道平稳前进。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "自车继续直行，经过限速40英里/小时标志，道路两侧植被茂密，右侧出现施工区域警示锥桶，远处可见高架桥结构，雨滴持续冲击挡风玻璃。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "车辆驶近并即将通过高架桥下方，桥体结构遮挡部分视野，右侧施工区域有橙白相间路障，对向车道有车辆迎面驶来，自车未变道或减速。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车穿过桥洞后，前方道路恢复开阔，两侧绿化带与电线杆延续，无行人或其他显著动态参与者，雨势仍持续，挡风玻璃水渍影响视线清晰度。"
+    }
+  ]
+}

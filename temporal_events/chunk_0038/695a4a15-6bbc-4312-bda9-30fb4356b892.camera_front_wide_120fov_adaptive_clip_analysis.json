@@ -1,0 +1,41 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.28,
+    "analysis_time": "2026-01-21 21:40:21"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "【环境】持续暴雨天气，雨滴密集附着于挡风玻璃，导致视野模糊；路面湿滑积水严重，反射车灯形成水雾干扰。【自车】位于中间车道，执行匀速行驶，未明显加速或减速。【左侧】多辆轿车与皮卡在左邻车道排队缓行，部分车辆开启转向灯试图变道；一辆银色皮卡从左前方切入当前车道，未打灯且速度较快。【右侧】无显著障碍物，但路肩有枯草与裸树，能见度受阴云影响。【交通设施】前方路口信号灯为绿灯，但因雨雾遮挡，需依赖车流动态判断通行状态。【关键风险】左侧频繁出现“无灯强行切入”行为（Aggressive Cut-in），尤其银色皮卡在00:00:03突然切入，存在碰撞风险。",
+      "risk_tags": [
+        "heavy_rain",
+        "aggressive_cut_in",
+        "reduced_visibility",
+        "lane_changing_violation"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】雨势略有减弱，但仍维持阴沉天气，能见度中等偏低。【自车】保持中间车道匀速前行，接近十字路口。【前方】一辆白色FedEx货车在左转车道等待，车身横跨车道线，未完全进入待转区；其后方有多辆轿车排队等候。【右侧】一辆深灰色轿车在右邻车道以稳定速度行驶，尾灯亮起，未显示变道意图。【交通设施】前方交通信号灯为绿色直行箭头，右侧人行横道标志清晰可见。【关键风险】FedEx货车在路口处位置偏移，可能影响直行车辆通行路径；同时，右侧深灰色轿车在自车右后方快速逼近，存在切出（Cut-out）风险，若自车减速易引发追尾。",
+      "risk_tags": [
+        "vehicle_position_uncertainty",
+        "cut_out_risk",
+        "traffic_light_interaction"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雨势进一步减小，但路面仍湿滑，部分区域积水反光。【自车】维持中间车道匀速行驶，车速略低于前段，因前方车流密度增加。【左侧】多辆SUV及轿车在左邻车道缓慢移动，部分车辆刹车灯亮起，表明前方有拥堵或红灯。其中一辆银灰色SUV在00:00:15向右轻微偏移，疑似准备变道。【右侧】深灰色轿车持续在右邻车道行驶，与自车保持约15米距离，未超车也未减速。【非标物体】道路右侧路肩有少量倒伏树枝，未侵入行车道，但可能影响紧急避让空间。【交通设施】前方为连续直行车道，无明显交叉口，仅远处可见高压电塔与林带。【关键风险】左侧银灰色SUV变道意图不明确，若突然切入将造成横向冲突；右侧车辆虽稳定，但若突发急刹，自车因湿滑路面制动距离延长，存在潜在追尾风险。",
+      "risk_tags": [
+        "unclear_lane_change_intent",
+        "wet_road_braking_distance_increase",
+        "obstacle_near_edge"
+      ]
+    }
+  ]
+}

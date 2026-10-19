@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 01:34:32",
+    "processing_time_seconds": 12.77
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "夜间高速公路上，自车在中间车道匀速行驶，左侧车道有一辆深色SUV和一辆白色皮卡先后加速并入右侧车道，前方车辆尾灯密集，道路两侧有路灯照明，无明显障碍物或行人。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "自车继续直行，前方出现绿色高速公路指示牌，提示出口信息；左侧车道一辆蓝色轿车加速超车，右侧车道一辆红色轿车从后方快速接近并超越自车，三车保持安全距离，未发生路径冲突。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车维持当前车道行驶，前方车辆因交通流量增大而减速，右侧白色皮卡在相邻车道缓慢行驶，左侧蓝色轿车完成超车后回归原车道，所有车辆均在各自车道内有序移动，无紧急变道或危险行为。"
+    },
+    {
+      "time_segment": "00:00:18-00:00:20",
+      "scene_description": "自车继续沿主线车道前进，前方车辆逐渐恢复稳定速度，道路右侧出现远处商业区灯光，但无新增交通参与者；整体路况平稳，无显著动态变化或交互事件发生。"
+    }
+  ]
+}

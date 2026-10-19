@@ -1,0 +1,20 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 22:09:40",
+    "processing_time_seconds": 18.72
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "自车沿双向四车道道路平稳行驶，左侧路边停放多辆汽车，右侧为绿化带与围栏；前方交通信号灯显示红灯，车辆逐渐减速准备停车。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:19",
+      "scene_description": "自车在十字路口停止等待，前方横向车道有数辆车同时停驶，包括一辆白色SUV和一辆深色轿车；右侧远处可见旗杆与开阔绿地，所有信号灯保持红色，无行人或突发动态事件发生。"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.94,
+    "analysis_time": "2026-01-22 01:20:11"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】晴天，光照充足，无遮挡，能见度良好。【自车】位于中间车道，匀速沿直道前行。【右侧】一辆UPS快递货车停靠在路边，车身占据部分行车道，未移动；其后方有黑色轿车静止停放。【左侧】施工围挡区域，有临时路障和蓝色涂装的临时建筑结构，无明显作业活动。【交通设施】前方路口信号灯为红灯，自车在停车线前减速等待。【关键风险】右侧UPS货车与后方轿车形成“路侧静态障碍”，若自车变道需谨慎评估横向间隙。",
+      "risk_tags": [
+        "static_obstacle_on_right",
+        "signal_wait"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】晴朗，树影投射于路面，无天气异常。【自车】在中间车道，绿灯亮起后加速通过交叉口。【左侧】一辆白色Jeep SUV从支路左转进入主路，完成转向动作，未对自车造成干扰。【右侧】一辆黑色福特自动驾驶测试车（车顶装激光雷达）停在路边，车身与自车平行，未移动。【交通设施】交叉口设有清晰的人行横道与交通信号灯，当前为绿灯通行状态。【关键风险】无显著风险，但右侧自动驾驶车辆存在潜在“切出”或突然启动风险，需保持横向距离。",
+      "risk_tags": [
+        "autonomous_vehicle_parked",
+        "left_turn_crossing"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】阳光斜射，树影拉长，无遮挡。【自车】保持中间车道匀速行驶，道路呈轻微右弯趋势。【左侧】一排低矮商业建筑，部分店铺卷帘门关闭，无行人活动。【右侧】一个蓝色垃圾箱置于人行道边缘，紧邻车道；后方出现一个绿色垃圾箱，位置稳定。【交通设施】沿街设置多个路牌标识“Downtown Parking”及“Public Parking”，指示清晰。【关键风险】右侧垃圾箱虽静止，但属于“路侧固定障碍物”，若自车紧急避让可能引发碰撞或失控；无行人/动物出现，风险较低。",
+      "risk_tags": [
+        "fixed_obstacle_on_right",
+        "low_risk_maneuver"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】晴天，光线均匀，无强逆光或阴影遮挡。【自车】在中间车道持续匀速前进，道路逐渐接近大型建筑群。【左侧】出现“City Convention Center”白色建筑，入口处标有“Public Parking”，门前有少量行人活动，但均在人行道内，未靠近车道。【右侧】一栋现代玻璃幕墙高层建筑，底层商铺有“Back Bar”招牌，门前无行人聚集。【交通设施】前方为十字路口，信号灯显示绿灯，人行横道清晰可见；自车顺利通过，无停车行为。【关键风险】无突发危险行为，无遮挡、无违规车辆、无动物或遗撒物，整体场景安全可控。",
+      "risk_tags": []
+    }
+  ]
+}

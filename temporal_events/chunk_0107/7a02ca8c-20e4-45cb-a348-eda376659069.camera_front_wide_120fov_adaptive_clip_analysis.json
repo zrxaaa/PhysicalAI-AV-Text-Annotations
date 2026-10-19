@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.69,
+    "analysis_time": "2026-01-23 03:33:57"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴雨天气，路面湿滑积水严重，雨滴附着于挡风玻璃，部分区域出现水雾反光。【自车】位于中间车道，匀速沿直线道路前行，未进行变道或转向。【右侧】路边停放多辆汽车，其中一辆黑色SUV在自车右后方缓慢驶离停车位，切入行车道，未打转向灯。【左侧】对向车道车辆正常通行，无异常行为。【交通设施】远处可见限速30km/h标志及人行横道标线，但尚未进入交叉口区域。",
+      "risk_tags": [
+        "un signaled_cut_in",
+        "wet_road",
+        "reduced_visibility"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】持续降雨，能见度中等偏低，雨刷器工作频率适中。【自车】保持中间车道匀速行驶，前方车流密集，尾灯频繁闪烁。【右侧】一辆银色轿车从右侧超车后，突然减速并切入自车前方车道，形成“切出”（Cut-out）动作，与自车横向距离小于2米。【左侧】对向车道有大型公交车驶过，车身遮挡部分视野。【关键风险】该银色轿车无预判信号即强行切入，存在加塞风险，可能导致自车紧急制动。",
+      "risk_tags": [
+        "aggressive_cut_out",
+        "lane_change_without_signal",
+        "close_proximity_encounter"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】雨势略有减弱，但路面仍积水明显，反射灯光造成眩光。【自车】在中间车道维持低速匀速行驶，接近前方路口。【前方】多辆汽车排队等待红灯，包括一辆白色面包车和一辆黑色轿车，均处于静止状态。【右侧】公交站台旁有行人站立，部分撑伞，一名骑自行车者从右侧非机动车道快速通过，未进入机动车道。【交通设施】前方为三组绿灯信号灯，当前显示为绿灯，路侧设有“30km/h”限速牌及“停车让行”标志。【非标物体】右侧人行道边缘有一处临时施工围栏，内有橙色锥桶，但无作业车辆或人员活动。",
+      "risk_tags": [
+        "queueing_traffic",
+        "pedestrian_presence_near_crosswalk",
+        "non_operational_construction_zone"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】阴天，局部有云层移动导致光照变化，路面水迹反光增强。【自车】在中间车道继续前行，即将通过路口，车速进一步降低。【右侧】一辆出租车从右侧车道并入自车所在车道，完成变道动作，未影响自车行驶轨迹。【前方】交通信号灯转为黄灯，前车开始刹车，自车同步减速。【行人】在右侧人行横道处，两名行人正在等待过街，其中一人低头看手机，另一人推婴儿车，未进入车道。【关键风险】黄灯阶段车流减速，存在因误判而加速闯灯的风险；同时，右侧出租车变道时未充分观察后视镜，存在潜在碰撞隐患。",
+      "risk_tags": [
+        "yellow_light_phase_risk",
+        "incomplete_lane_change_check",
+        "pedestrian_distraction"
+      ]
+    }
+  ]
+}

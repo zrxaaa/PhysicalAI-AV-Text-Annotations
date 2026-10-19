@@ -1,0 +1,36 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.62,
+    "analysis_time": "2026-01-23 01:45:19"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "【环境】夜间行车，路灯照明充足，无明显降水或雾气，路面干燥。【自车】在中间车道匀速沿直道行驶，未进行转向或变道。【周围交通】道路两侧可见住宅、树木及电线杆；左侧远处有加油站建筑轮廓，右侧为低矮民房。无显著动态车辆或行人出现。【交通设施】前方可见红绿灯信号系统，当前为红灯状态，但距离尚远，尚未进入停车区。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "【环境】夜间，路灯与加油站霓虹灯提供局部强光，形成轻微眩光。【自车】保持在中间车道，匀速接近交叉路口，车速未明显变化。【周围交通】左侧出现“76”加油站，其价格牌清晰可见（汽油价格：2.991 / 3.591），加油站内有数辆汽车停放；右侧路边停有一辆深色皮卡，车尾朝向道路。【交通设施】前方路口信号灯显示为红灯，横跨道路的交通灯组已亮起红色箭头，提示禁止直行。【关键风险】自车正驶向红灯路口，需准备停车；右侧皮卡停靠位置靠近人行横道，存在潜在“开门杀”风险，但当前无人员活动迹象。",
+      "risk_tags": [
+        "red_light_approach",
+        "parked_vehicle_obstacle",
+        "potential_open_door_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】夜间，交叉口区域灯光集中，部分区域因路灯角度产生阴影。【自车】在交叉路口前完全停止，等待红灯。【周围交通】左侧“Benjamin Auto Sales”店前有数辆轿车静止；右侧“R.A. Smoke Shop”门前停有一辆拖车，拖车后方有行人站立（面部朝向商店，未移动）。一辆白色轿车从左向右横穿路口，完成通行后离开视野。【交通设施】路口上方悬挂“Guadalupe”路牌，红灯持续亮起，横向交通灯为绿色（允许横向车辆通行）。【关键风险】横向通行车辆（白色轿车）在自车停车期间快速通过，虽未直接威胁，但存在“闯红灯”或误判信号的风险（因其在自车前方红灯时仍通行）；此外，右侧拖车旁行人站立于非人行道区域，若突然移动可能进入车道，构成“鬼探头”隐患。",
+      "risk_tags": [
+        "crossing_vehicle_at_red_light",
+        "pedestrian_in_non_crosswalk",
+        "ghost_probe_potential"
+      ]
+    }
+  ]
+}

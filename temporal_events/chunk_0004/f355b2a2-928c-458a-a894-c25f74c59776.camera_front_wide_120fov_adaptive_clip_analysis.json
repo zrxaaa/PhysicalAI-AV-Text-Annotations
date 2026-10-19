@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 00:41:21",
+    "processing_time_seconds": 16.21
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:02",
+      "scene_description": "自车在十字路口左转，右侧白色SUV从右车道驶入中间车道，同时两名行人从左侧人行道走向街角，距离自车较近。天气阴沉，路面干燥，无明显湿滑迹象。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "自车沿直行车道继续前行，前方红色轿车保持匀速行驶于前车位置，左侧出现蓝色‘PAWN’招牌建筑及通信塔，右侧有‘E&D SPORTS’和‘X-PRESS WASH N DRY’标志。无行人或突发障碍物，交通流畅。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "自车接近下一个十字路口，道路两侧出现多栋商业建筑与停放车辆，包括‘JOHNNY’S LIQUOR’和‘MALIBU BAR’等店铺。前方红车持续在车道内行驶，未见变道或急刹行为，交通信号灯尚未变化。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:18",
+      "scene_description": "自车接近Collett Ave交叉口，前方红车在路口减速并停在停止线后，交通信号灯显示绿灯倒计时，右侧有白色货车准备左转。自车跟随前车减速，准备停车等待。"
+    },
+    {
+      "time_segment": "00:00:18-00:00:19",
+      "scene_description": "交通信号灯转为绿灯，自车平稳通过交叉口，前方红车启动前行，右侧路口有车辆加速进入主路，无行人横穿，整体交通秩序良好，天气仍阴云密布。"
+    }
+  ]
+}

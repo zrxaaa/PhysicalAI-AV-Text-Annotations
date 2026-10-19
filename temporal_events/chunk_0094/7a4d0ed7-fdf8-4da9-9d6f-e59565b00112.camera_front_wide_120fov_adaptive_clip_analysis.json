@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.08,
+    "analysis_time": "2026-01-22 22:15:55"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间，浓雾笼罩，路灯灯光被严重散射，能见度显著降低。【自车】在城市主干道中间车道匀速前行，接近十字路口。【周围交通参与者】左侧路边停放多辆轿车（白色、银色），右侧有红绿灯控制的交叉路口，对向车道车辆在绿灯下有序通行。【交通设施】前方路口设有“Freeway Entrance”指示牌及人行横道标线；右侧建筑旁有红灯亮起，提示右转禁止。【关键风险】自车即将进入交叉口，但因雾气遮挡，无法清晰识别对向非机动车或行人是否正在横穿，存在“鬼探头”潜在风险。",
+      "risk_tags": [
+        "low_visibility",
+        "ghost_probe_risk",
+        "intersection_hazard"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】雾气略有消散，但天空仍阴云密布，路灯照明稳定。【自车】驶离十字路口后，沿弯道向右转向行驶，进入高速公路匝道区域。【周围交通参与者】左侧为绿化带与树木，右侧出现施工围挡与橙色锥桶，远处可见一辆白色轿车在相邻车道匀速行驶。【交通设施】道路右侧设有大型高速公路入口指示牌，下方有黄色菱形警示标志；匝道边缘设置护栏。【关键风险】右侧施工区域未完全封闭，锥桶间距较大，存在车辆误入施工区的风险；同时，自车转弯时需注意右侧车道车辆可能因视线受阻而减速或变道。",
+      "risk_tags": [
+        "construction_zone_risk",
+        "lane_change_uncertainty",
+        "turning_hazard"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】夜空云层较厚，部分区域有微弱星光透出；路面干燥，无积水或结冰。【自车】已驶入高速公路主路，保持当前车道匀速行驶，车速约60km/h。【周围交通参与者】前方及左右车道均有车辆正常行驶，尾灯形成连续光流；右侧远处有一栋高层建筑正在施工，塔吊高耸并亮有红色警示灯。【交通设施】道路两侧设有连续路灯，右侧桥梁护栏清晰可见；远处有高速公路限速标志（如“Speed Limit 55”）和出口预告牌。【关键风险】右侧施工塔吊高度超出常规路侧设施，虽未侵入车道，但在强风或极端天气下存在结构失稳风险；夜间行车中，塔吊灯光可能造成眩目，影响驾驶员判断前方路况。",
+      "risk_tags": [
+        "construction_tower_light_hazard",
+        "highway_traffic_flow",
+        "tall_structure_obstruction_risk"
+      ]
+    }
+  ]
+}

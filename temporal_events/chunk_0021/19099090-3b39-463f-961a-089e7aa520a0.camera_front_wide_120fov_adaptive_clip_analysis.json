@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 06:47:27",
+    "processing_time_seconds": 12.85
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车沿双黄线乡村道路行驶，右侧出现黄色‘SCHOOL BUS STOP AHEAD’标志牌，左侧有黑色SUV和白色皮卡对向驶来，树木光秃，天气晴朗，路面干燥无积水。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "车辆接近十字路口，前方可见交通信号灯组，左侧路边出现橙色施工锥桶，一辆白色厢式货车从对向车道驶过，自车保持直行，未减速，道路两侧为落叶林与电线杆。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:13",
+      "scene_description": "自车在十字路口前减速停车，前方红灯亮起，左侧有黑色轿车左转，右侧有车辆右转，交通信号灯为垂直排列，路旁设有禁止左转标志，环境光线充足，视野清晰。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "绿灯亮起后自车启动前行，右侧出现绿色高速公路入口指示牌，指向‘PARKWAY ENTRANCE South’，同时前方道路开始向右弯曲，护栏与路灯沿路分布，无行人或其他障碍物。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车沿弯道继续行驶，进入高架桥或立交匝道区域，左侧为金属护栏，远处可见其他车道上的车辆，天空晴朗，无遮挡，整体路况顺畅，无突发交通事件。"
+    }
+  ]
+}

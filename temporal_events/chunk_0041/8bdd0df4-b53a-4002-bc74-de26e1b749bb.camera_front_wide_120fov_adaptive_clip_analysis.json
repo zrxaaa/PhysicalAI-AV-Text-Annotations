@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.78,
+    "analysis_time": "2026-01-21 22:54:43"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】暴雨天气，雨滴密集覆盖挡风玻璃，能见度显著降低，路面湿滑积水反光。【自车】位于中间车道，匀速沿道路前行，未进行变道或转向。【前方】一辆深色SUV在前车流中行驶，尾灯亮起，保持稳定距离。【右侧】一辆红色皮卡从右侧并行超车后驶离，短暂遮挡视线。【交通设施】道路两侧可见电线杆、无明显标线缺失，但因雨水模糊，车道线辨识困难。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility",
+        "temporary_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】持续降雨，雨刷器高频工作，挡风玻璃仍有水雾残留。【自车】保持中间车道匀速行驶，接近前方路口。【左侧】对向车道有车辆排队等待，部分车辆刹车灯亮起。【右侧】路边停放多辆私家车（含银色SUV、黑色轿车），其中一辆深灰色皮卡停靠于NAPA店铺门前，未移动。【交通设施】前方出现交通信号灯杆，绿灯亮起，但因雨雾影响，灯光略显模糊。【关键风险】右侧停车车辆与自车间距小于5米，存在“开门杀”潜在风险；同时，前方路口处有车辆突然减速，可能引发追尾连锁反应。",
+      "risk_tags": [
+        "parked_vehicle_risk",
+        "signal_light_obscured",
+        "braking_chain_reaction"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】雨势略有减弱，但天空灰暗，光线昏暗。【自车】在中间车道执行左转准备动作，车头偏航角逐渐向左调整，进入左转专用车道。【前方】一辆白色轿车在左转车道内缓慢行驶，尾灯闪烁，疑似等待绿灯。【右侧】一辆白色SUV正在右转，与自车形成交叉路径。【交通设施】前方为十字路口，设有斑马线和交通信号灯组，当前方向绿灯亮起。【非标物体】路口中央有一排临时隔离锥桶，用于引导车流，未被占用。【关键风险】自车左转与右侧SUV右转路径交叉，存在碰撞风险；且因雨天路面湿滑，制动距离延长，需谨慎控制转向速度。",
+      "risk_tags": [
+        "lane_crossing_risk",
+        "turning_conflict",
+        "wet_road_braking_distance_increase"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】雨势进一步减小，视野恢复较好，但仍存轻微水雾。【自车】完成左转动作，进入新路段，车头朝向左前方，横向位置由中间车道移至左侧行车道。【前方】左转后可见一条横向道路，有车辆从右侧驶入，包括一辆深色轿车和一辆白色面包车。【左侧】对向车道有车辆正常通行，未见异常行为。【交通设施】路口信号灯已切换为红灯，自车在绿灯结束前完成转向，未闯红灯。【关键风险】左转后进入新路口，需注意横向来车；由于自车刚完成转向，车身动态不稳定，易受侧风或湿滑路面影响，存在侧滑风险。",
+      "risk_tags": [
+        "post_turn_stability_risk",
+        "cross_traffic_monitoring_required",
+        "signal_light_transition"
+      ]
+    }
+  ]
+}

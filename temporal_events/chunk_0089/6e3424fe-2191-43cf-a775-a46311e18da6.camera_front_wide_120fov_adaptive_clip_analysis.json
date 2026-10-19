@@ -1,0 +1,51 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 23.79,
+    "analysis_time": "2026-01-22 19:56:07"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间，持续小雨或毛毛雪天气，挡风玻璃布满水珠导致视野模糊，路面湿滑反光严重。【自车】位于中间车道，保持匀速沿弯曲道路前行，未进行转向或变道。【右侧】一排商业店铺（含“Cedulation”、“MATTRESSFIRM”等）沿街排列，门前停有白色SUV、银色轿车等，部分车辆尾灯亮起。【左侧】对向车道有数辆汽车驶过，其中一辆黑色SUV在左前侧邻车道缓慢行驶。【交通设施】远处可见交通信号灯为绿灯，路灯照明充足，但因雨雾影响，能见度受限。",
+      "risk_tags": [
+        "reduced_visibility",
+        "wet_road",
+        "low_light_condition"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】雨势略有增强，挡风玻璃水珠增多，部分区域出现轻微水雾。【自车】继续在中间车道匀速沿道行驶，车头偏航角与道路曲率一致，无转向动作。【右侧】商业区停车场内多辆汽车静止停放，包括白色奔驰GLC、灰色特斯拉Model 3等；一名行人从右侧店铺门口走出，走向人行道，手持物品，步态平稳。【左侧】对向车道车辆逐渐减少，一辆蓝色SUV从左前侧邻车道驶离画面。【交通设施】前方路口处可见“URGENT CARE”和“OPEN 24 HRS”标识建筑，入口处有车辆进出，红绿灯仍为绿灯。",
+      "risk_tags": [
+        "pedestrian_crossing_path",
+        "parked_vehicle_obstruction",
+        "moderate_rain"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】雨雪混合天气，空中可见细小冰晶飘落，路面积水加剧，部分区域形成薄冰反射。【自车】维持当前车道匀速前进，未变道。【右侧】一辆红色SUV从右侧停车位驶出，车头朝向自车方向，刹车灯亮起，疑似准备汇入主路；同时，一名穿深色外套的行人从右后方商铺走出，横穿停车区域，走向左侧人行道，面部朝向前方，双手插兜，步伐稳定。【左侧】一辆银色轿车从左前侧邻车道加速超车并切入自车前方车道，未打转向灯，存在潜在切线风险。【交通设施】远处可见“FedEx Office”、“barkin’ BRR”等店铺招牌，装饰有圣诞花环，灯光闪烁，营造节日氛围。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "pedestrian_crossing",
+        "ice_on_road",
+        "unmarked_lane_change"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】降水持续，挡风玻璃水珠密集，部分区域形成水幕，视线受阻明显。【自车】在中间车道减速，准备进入前方商业区出口匝道，车速由匀速转为缓行。【右侧】红色SUV完成汇入主路动作，已驶至自车右后方；另一名行人正从右侧店铺门口走向人行道，背对自车，手提购物袋。【左侧】一辆黑色轿车从左前侧邻车道驶离，未对自车造成干扰。【交通设施】前方路口设有“URGENT CARE”和“OPEN 24 HRS”标识，路边有黄色标线及警示柱，提示转弯区域。【关键风险】由于自车减速且前方有行人横穿路径，存在“开门杀”或“鬼探头”风险——右侧商铺门口可能有车辆突然打开车门，或行人突然冲出，需高度警惕。",
+      "risk_tags": [
+        "deceleration_phase",
+        "pedestrian_crossing_risk",
+        "door_opening_hazard",
+        "reduced_visibility"
+      ]
+    }
+  ]
+}

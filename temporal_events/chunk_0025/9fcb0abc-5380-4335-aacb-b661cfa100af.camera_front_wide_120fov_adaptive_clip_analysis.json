@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 08:25:18",
+    "processing_time_seconds": 15.79
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在十字路口起步，前方一辆紫色电车（编号4562）正在左转车道上完成转向，车身横跨人行横道，右侧为消防局建筑及红色车库门。自车保持直行，未进行变道或加速。",
+      "environment_conditions": "阴天，路面干燥，能见度良好，街道两侧有路灯和交通标志牌"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "电车完成左转后驶离，自车继续沿直行车道前进，左侧出现一辆黑色丰田普锐斯从路边驶出并切入前方车道，右侧路边停放多辆轿车，包括一辆灰色马自达。自车维持当前车道，无明显加减速。",
+      "environment_conditions": "城市街景，两侧为砖石结构商业建筑，部分店铺悬挂旗帜，天气仍阴沉但无降水迹象"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车接近下一个十字路口，前方一辆白色厢式货车（车牌号部分可见5010A）在双黄线车道内缓慢行驶，刹车灯亮起，表明其即将停车。右侧银色本田思域停靠在路边，未移动。行人出现在右侧人行道，正走向路口。",
+      "environment_conditions": "交通信号灯为红灯状态，路口设有“禁止右转”和“注意行人”标志，街道两侧有商铺和遮阳棚，环境人流稀少"
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "自车在红灯前稳定停车，与前方白色厢式货车保持安全距离。右侧银色本田思域仍停在路边，未启动。一名行人从右侧人行道穿过马路，进入对面人行道，动作已完成。远处可见另一名行人站立于路口角落。",
+      "environment_conditions": "阴云密布，光线均匀，路面无积水，交通标志清晰可见，整体场景安静有序，无突发交通事件"
+    }
+  ]
+}

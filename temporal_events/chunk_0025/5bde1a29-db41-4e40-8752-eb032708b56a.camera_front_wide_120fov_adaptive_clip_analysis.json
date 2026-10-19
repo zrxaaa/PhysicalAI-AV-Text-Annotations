@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 08:28:16",
+    "processing_time_seconds": 18.72
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在环形交叉路口入口处，前方道路标有直行箭头，右侧为自行车道，左侧是开阔草坪。天气晴朗，路面干燥，无其他车辆或行人干扰自车路径。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "自车沿环岛内侧车道平稳行驶，道路右侧出现自行车道标识和路灯，左侧草坪边缘有少量停放车辆，未见行人或障碍物，环境安静且视野开阔。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "自车继续沿环岛内圈行驶，经过一个限速35英里/小时的标志牌，道路两侧树木逐渐稀疏，远处可见住宅区边界围栏，无其他动态交通参与者进入自车路径范围。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "自车接近环岛出口，前方出现分叉路口指示牌，右侧为单向通行标志，左侧草坪区域有几盏高杆灯，无行人或车辆横穿，自车保持匀速直线行驶。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车即将驶离环岛，道路恢复为直行线，右侧自行车道与主路分离，左侧草坪延伸至远方，无显著交通冲突或行为变化，整体场景平稳过渡至下一路段。"
+    }
+  ]
+}

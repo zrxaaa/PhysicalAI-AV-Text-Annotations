@@ -1,0 +1,46 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.61,
+    "analysis_time": "2026-01-23 00:55:06"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】夜间，天空阴云密布，无明显降水，路面干燥但有部分湿滑反光。【自车】在中间车道匀速沿直道行驶，车头朝向正前方。【交通设施】左侧为高架桥结构，右侧路边设有大型广告牌及铁路道口警示标志（含红灯与栏杆）。【交互行为】自车在接近道口时，前方横向道路有车辆静止等待，未见明显移动；道口栏杆处于升起状态，无列车接近迹象。【关键风险】道口区域存在潜在“鬼探头”风险，因视线被广告牌和树木部分遮挡，且右侧有施工围挡，需警惕突然出现的行人或非机动车。",
+      "risk_tags": [
+        "ghost_probe_risk",
+        "obstruction_by_signage",
+        "railroad_crossing_zone"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】夜间，路灯照明良好，能见度正常。【自车】驶过铁路道口后，进入主干道，保持中间车道匀速行驶。【交通设施】右侧出现橙色菱形施工警告标志，提示前方有施工区。【周围参与者】右侧路肩有少量堆积土方，无人员或设备活动；左侧高架桥下无异常车辆。【关键风险】施工警告标志距离较近，但未见实际施工机械或人员，暂无直接碰撞风险，但仍需注意可能突发的施工区域变道或障碍物。",
+      "risk_tags": [
+        "construction_zone_warning",
+        "low_immediate_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】夜间，道路两侧路灯均匀分布，路面平整，无积水或结冰。【自车】在中间车道持续匀速行驶，车速稳定。【交通设施】右侧设置一排橙白相间施工锥桶，形成临时隔离带，引导车流向左侧行驶。【周围参与者】锥桶后方可见施工围挡及远处停放的工程车辆（静止），未见作业中设备或人员。【关键风险】锥桶排列密集，若自车偏离车道线，可能触发轻微剐蹭；但当前车道线清晰，无变道意图，风险可控。",
+      "risk_tags": [
+        "cone_barrier_proximity",
+        "minimal_lane_deviation_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】夜间，天空仍多云，但无降雨迹象。【自车】保持在中间车道匀速行驶，通过多个绿色高速指示牌（如“EXIT 153B”、“New Braunfels Ave”），表明即将进入出口匝道区域。【交通设施】左侧为混凝土护栏，右侧为绿化带与低矮建筑。【周围参与者】对向车道有数辆汽车同向行驶，均保持安全距离，无加塞或变道行为。【关键风险】前方指示牌显示出口临近，自车未见减速或转向信号，存在错过出口的风险；同时，右侧建筑物灯光较亮，可能造成视觉干扰，影响对突发障碍物的识别。",
+      "risk_tags": [
+        "exit_miss_risk",
+        "visual_interference_from_lighting"
+      ]
+    }
+  ]
+}

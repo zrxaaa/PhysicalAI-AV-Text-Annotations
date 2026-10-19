@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.17,
+    "analysis_time": "2026-01-21 21:31:16"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，云层厚重，光线昏暗，无明显降水但路面有湿迹。【自车】位于中间车道，匀速沿直道向前行驶，未进行转向或变道。【周围交通】右侧路肩有围栏及小型建筑；左侧对向车道有车辆驶过，包括一辆白色厢式货车。【交通设施】前方可见绿色高速公路指示牌（101 South/North），以及铁路道口警示标志。【关键风险】无显著风险，但道路两侧存在施工围挡与未开放区域，潜在遮挡风险需注意。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:08",
+      "scene_description": "【环境】天气仍为阴沉，能见度良好，无降水迹象。【自车】保持在中间车道，继续匀速直线行驶，接近交叉路口。【周围交通】左侧对向车道出现一辆白色厢式货车正在左转，同时远处有黑色SUV在右前方车道等待。【交通设施】前方路口设有交通信号灯杆和“NO LEFT OR U TURN”禁令标志，右侧有“FREEWAY ENTRANCE”指示牌。【关键风险】无直接碰撞风险，但左侧厢式货车的左转动作可能与自车路径产生冲突，需警惕其转向轨迹。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】天空持续阴云密布，光照均匀但偏暗。【自车】在交叉路口前减速并停车，处于最右侧车道（靠近右转专用车道），等待红灯。【周围交通】左侧对向车道有红色轿车和白色轿车依次通过；右侧车道有一辆银色轿车从后方驶入并右转进入匝道。【交通设施】前方交通信号灯显示为红灯，左侧有“NO LEFT OR U TURN”标志，右侧有“FREEWAY ENTRANCE”及“San Jose / San Francisco”方向指示牌。【关键风险】右侧银色轿车在红灯时强行右转，违反交通规则，存在与自车发生侧面碰撞的风险；同时，左侧对向车辆若误判绿灯通行，也可能引发冲突。",
+      "risk_tags": [
+        "illegal_turn",
+        "right_of_way_violation",
+        "potential_collision"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】阴天，无降水，视野开阔。【自车】保持静止状态，停在交叉路口右转车道内，等待红灯转为绿灯。【周围交通】左侧对向车道车辆已通过路口；右侧银色轿车完成右转并驶离画面；远处高架桥下有车辆缓慢驶出。【交通设施】交通信号灯仍为红灯，右侧“FREEWAY ENTRANCE”标志清晰可见，路边有“SECONDARY WAY”提示牌。【关键风险】虽无直接危险，但右侧银色轿车违规右转行为构成历史风险记录；此外，高架桥下方存在视线盲区，若有行人或非机动车从桥下突然出现，将构成“鬼探头”风险。",
+      "risk_tags": [
+        "ghost_probe_risk",
+        "historical_illegal_behavior"
+      ]
+    }
+  ]
+}

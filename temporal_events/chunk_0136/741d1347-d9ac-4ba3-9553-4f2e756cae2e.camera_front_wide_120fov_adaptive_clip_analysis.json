@@ -1,0 +1,46 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 21.1,
+    "analysis_time": "2026-01-23 16:08:27"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "【环境】阴天多云，无降水，能见度良好。【自车】位于中间车道，处于十字路口停车等待状态。【交通设施】前方红绿灯为红灯，右侧人行横道信号灯同步显示红灯；左侧设有“ROUTE BARBEE VITRY”路牌及自行车道标志。【周围参与者】右侧人行道有2名行人站立等待过街；左前方斑马线旁停放一辆自行车；远处对向车道有白色轿车静止待行。【关键风险】无明显风险，但行人与非机动车在路口边缘活动，存在潜在“鬼探头”或突然横穿风险。",
+      "risk_tags": [
+        "potential_ghost_probe",
+        "pedestrian_near_crosswalk"
+      ]
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "【环境】天空云层较厚，光线均匀。【自车】接收到绿灯信号后启动，沿中间车道匀速前行。【横向交互】左侧一栋红白相间建筑旁，一辆白色雷诺Clio从左转车道驶出并切入自车前方车道，完成变道动作；右侧人行道有2名行人正在横穿马路，其中一人推婴儿车。【交通设施】右侧路口设有“PASSENGER ONLY”禁行标志及限速30标识。【关键风险】左侧车辆未打转向灯即强行切入，属于“违规加塞”行为，可能引发碰撞；右侧行人横穿且携带婴儿车，视线受阻，需警惕其突然加速或偏离路径。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "jaywalking",
+        "obstructed_view_by_stroller"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "【环境】道路两侧绿化带茂盛，天气稳定。【自车】保持匀速沿直道行驶，进入城市主干道。【周围参与者】左侧对向车道有多辆公交车和私家车正常通行；右侧人行道上，一名穿蓝色制服的女性（疑似工作人员）正挥手示意，旁边有轮椅使用者及另一名行人同行，三人正通过公交站台区域。【交通设施】右侧设有一个带顶棚的公交候车亭，标有“BUS”和“VÉLO”标识；路边有多个“30”限速标志。【关键风险】右侧公交站台区域人流密集，部分行人注意力分散（如看手机），存在突然闯入车道的风险；轮椅使用者行动缓慢，若自车未减速，易发生剐蹭。",
+      "risk_tags": [
+        "pedestrian_distraction",
+        "slow_mobility_hazard"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】光照由阴天转为局部强光，路面干燥无积水。【自车】维持当前车道匀速行驶，车速约40km/h。【周围参与者】左侧对向车道有一辆大型旅游巴士（车身印有“JIMENEXFORA”字样）正在超车；右侧路边停有多辆私家车，包括一辆深灰色奥迪SUV；前方远处可见施工围挡及“道路施工”警示牌。【交通设施】右侧人行道旁设有“LASCAPPATA PIZZA”餐厅户外座位区，用木栅栏围挡；路边设置“30”限速标志及“道路变窄”三角警示牌。【关键风险】左侧旅游巴士超车时占用部分车道，存在视觉盲区；右侧餐厅外摆区域因围栏遮挡，无法确认是否有行人从后方突然出现，构成“遮挡风险”；前方施工路段提示驾驶员注意避让，但未见明显障碍物或施工机械，暂无直接威胁。",
+      "risk_tags": [
+        "blind_spot_during_overtake",
+        "occlusion_risk_from_restaurant_fencing"
+      ]
+    }
+  ]
+}

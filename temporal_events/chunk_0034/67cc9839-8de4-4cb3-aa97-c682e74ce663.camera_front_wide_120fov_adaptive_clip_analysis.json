@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.51,
+    "analysis_time": "2026-01-21 19:48:17"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "【环境】阴天，天空灰暗，无明显降水，路面干燥但有落叶堆积。【自车】位于中间车道，匀速沿直线道路前行，未进行转向或变道。【前方】一辆白色厢式货车（车牌号部分可见“1710”）在前车道行驶，尾灯亮起，表明其正在减速或准备停车。【右侧】人行道旁有白色多层住宅楼、路灯、消防栓及“NO TRAM HORN”、“LOOK”等交通标志牌。【左侧】混凝土隔离带与铁丝网围栏分隔出铁路轨道区域，轨道旁有“CROSSING”警示牌。【交通设施交互】自车接近铁路道口，前方货车在道口前减速并最终停于“STOP”标线后，同时右侧路口设有“STOP ALL WAY”标志，提示需完全停车。【关键风险】货车在道口前突然减速，若其未观察横向来车或未确认安全即停车，可能引发后方自车紧急制动；铁路道口无自动栏杆，仅靠警示牌和司机判断，存在潜在冲突风险。",
+      "risk_tags": [
+        "railroad_crossing_risk",
+        "sudden_deceleration",
+        "incomplete_intersection_check"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】天气仍阴沉，能见度良好，无降水迹象。【自车】在停止线后等待，随后缓慢起步，向右转向前方交叉路口。【前方】货车完成左转，驶离交叉口，进入Bassett St方向。【右侧】路口处设有人行横道、自行车道标识及“BASSSETT ST”路牌。【左侧】铁路道口护栏已关闭，但无物理阻挡，仅靠警示牌。【周围车辆】远处可见对向车道有车辆驶近，但未进入自车视野范围。【关键风险】自车在十字路口转弯时，需注意右侧非机动车道是否有骑行者或行人突然出现；货车左转后留有盲区，自车起步时应确认右侧无横向通行车辆或行人，否则易发生碰撞。",
+      "risk_tags": [
+        "intersection_turn_risk",
+        "blind_spot_crossing",
+        "pedestrian_bike_overlap"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】阴天，光线均匀，无强光或阴影干扰。【自车】转入Bassett St主干道，保持中间车道匀速行驶。【两侧】街道两侧为多层公寓建筑，路边停放大量私家车（包括SUV、轿车），部分车辆占用非机动车道。【交通设施】道路标线清晰，设有“SPEED LIMIT 25”限速标志，右侧有自行车道标识。【周围车辆】对向车道有车辆迎面驶来，包括一辆小型电动代步车（类似高尔夫球车）从左侧超车，车身低矮，驾驶员穿着深色外套，正朝自车方向快速靠近。【非标准目标】该电动代步车在非机动车道内行驶，未使用转向灯，且在自车左侧近距离超车，存在切出风险。【关键风险】电动代步车在狭窄车道中高速超车，可能因避让不及导致剐蹭；同时，路边停放车辆的车门开启风险增加，尤其在转弯或停车时，可能突然打开车门造成事故。",
+      "risk_tags": [
+        "high_speed_crossing_vehicle",
+        "unmarked_road_obstacle",
+        "door_opening_risk"
+      ]
+    }
+  ]
+}

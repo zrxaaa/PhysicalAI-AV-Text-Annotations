@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 09:54:36",
+    "processing_time_seconds": 19.28
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车沿街道匀速行驶，右侧一辆蓝色轿车从路边驶出并变道至右前方车道，左侧停放多辆私家车，道路两侧为联排住宅，天空晴朗，路面干燥无湿滑。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "车辆接近十字路口，路面上标有“STOP”字样，右侧路口设有红色停车标志，前方无行人或动态障碍物，自车在进入交叉口前减速准备停车，周围无其他车辆横穿或抢行。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "通过十字路口后，自车继续直行，道路两侧停满车辆，右侧出现自行车道标识，前方无显著障碍，自车保持稳定速度行驶，未见行人或突发交通行为。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车继续沿街行驶，右侧出现多辆SUV和轿车依次停靠，左侧房屋前有少量树木遮挡视线，前方路口再次出现“STOP”标记，但无车辆或行人干扰自车路径。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "车辆接近下一个十字路口，前方道路清晰，右侧停有一辆白色货车，左侧有小型厢式车驶入主路，自车维持当前车道，未进行转向或紧急制动，环境安静且交通流畅。"
+    }
+  ]
+}

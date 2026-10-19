@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.74,
+    "analysis_time": "2026-01-24 06:54:50"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴雨天气，路面湿滑积水严重，能见度因雨水和车窗水雾略有降低。【自车】位于中间车道，匀速沿道路前行，未进行转向或变道。【左侧】停放多辆私家车（含白色SUV、红色轿车），部分车辆尾灯亮起；右侧路肩停有白色货车及一辆带红色吊臂的工程车（静止状态）。【交通设施】道路两侧设有路灯与人行横道标志，但无明显信号灯控制。【关键风险】右侧工程车吊臂伸出，占据部分路肩空间，存在潜在剐蹭风险；左侧停车车辆未设警示标识，夜间或雨天易引发开门杀。",
+      "risk_tags": [
+        "wet_road",
+        "obstacle_on_sidewalk",
+        "potential_door_opening"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】雨势减弱，天空仍灰暗，路面反光持续。【自车】保持中间车道匀速行驶，随道路微弯自然转向。【右侧】连续停放多辆私家车（含黑色奥迪、白色SUV、小型掀背车），其中一辆白色小车在靠近路口处缓慢启动并试图向左变道，未打转向灯。【左侧】高层住宅楼林立，底层商铺灯光开启，部分窗户透出室内照明。【交通设施】前方出现蓝色行人过街标志牌，距离约30米。【关键风险】右侧白色小车“无灯强行切入”（Aggressive Cut-in），意图进入自车所在车道，迫使自车紧急减速避让，构成高风险交互。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "lack_of_turn_signal",
+        "lane_encroachment"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】持续阴雨，局部区域有积水溅起水雾。【自车】继续沿中间车道匀速前进，通过轻微弯道。【右侧】新出现一家“TE SUSHI RAMEN”餐厅，门前停放数辆车，其中一辆白色丰田致炫正从停车位驶出，车头朝向自车方向，呈横向切入趋势。【左侧】一栋高层公寓楼外立面有多个阳台，部分住户正在活动。【交通设施】前方路口设有橙色施工警示牌，提示“道路施工，注意绕行”。【关键风险】右侧丰田致炫从停车位突然驶出，未观察后方来车，存在“鬼探头”风险；同时施工警示牌暗示前方可能有障碍物或临时车道变更，需提高警惕。",
+      "risk_tags": [
+        "parking_exit_risk",
+        "ghost_probe_potential",
+        "construction_zone_warning"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】雨势基本停止，路面仍有水迹，光线由阴转为微亮。【自车】在中间车道匀速直行，即将通过前方交叉路口。【左侧】施工警示牌后方可见黄色围挡与临时路障，无作业车辆或人员活动。【右侧】餐厅前停车位已空，无车辆驶出；远处可见几辆静止停放的汽车。【交通设施】前方路口设有斑马线与蓝底白图案行人标志，无红绿灯。【关键风险】虽无直接冲突，但前方路口无信号灯控制，且存在施工围挡，若行人或非机动车突然从围挡后穿出，将形成“遮挡盲区碰撞”风险；此外，自车需提前预判路口通行权，避免与横向来车发生冲突。",
+      "risk_tags": [
+        "uncontrolled_intersection",
+        "occlusion_risk_from_construction",
+        "preemptive_braking_required"
+      ]
+    }
+  ]
+}

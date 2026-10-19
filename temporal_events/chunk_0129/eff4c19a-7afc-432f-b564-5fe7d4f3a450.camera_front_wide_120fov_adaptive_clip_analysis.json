@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.79,
+    "analysis_time": "2026-01-23 12:54:54"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】夜间浓雾天气，能见度极低，路灯灯光被雾气散射形成黄色光晕。【自车】在中间车道匀速沿道行驶，未进行转向或变道。【左侧】一辆白色BKS货车从左前方快速驶过，车身部分遮挡视线，完成超车后离开视野。【交通设施】道路两侧设置红白相间施工围栏，配有黄色警示灯，提示前方为施工区域。【关键风险】施工围栏与雾气叠加导致视觉干扰，存在潜在的行人或非机动车突然出现的风险（Occlusion Risk）。",
+      "risk_tags": [
+        "heavy_fog",
+        "visual_obstruction",
+        "occlusion_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:10",
+      "scene_description": "【环境】雾气持续，但路面照明稳定，能见度略有改善。【自车】保持中间车道匀速前行，随道路曲线自然行驶，无转向动作。【右侧】路边停放多辆汽车（含银色轿车、红色小型车），部分车辆尾灯亮起。【左侧】树木茂密，部分树叶泛黄，地面有落叶堆积。【交通设施】路旁设有“限速30”标志牌及禁止停车标志，无明显动态障碍物。【关键风险】右侧停放车辆形成视觉盲区，若行人从车后突然横穿，易引发碰撞（Ghost Probe Risk）。自车未减速，存在潜在安全裕度不足。",
+      "risk_tags": [
+        "parked_vehicle_blind_spot",
+        "ghost_probe_risk",
+        "low_speed_margin"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】雾气仍浓，路灯间距均匀，光线呈暖黄色。【自车】在中间车道匀速行驶，通过轻微弯道时保持稳定轨迹。【左侧】出现公交站台结构，站内无人员活动；其后方停有一辆白色面包车。【右侧】连续停放多辆SUV与轿车，其中一辆蓝色掀背车尾灯亮起，疑似刚启动或准备驶离。【交通设施】前方路口设有限速30标志与禁止停车标志，远处可见绿色信号灯。【关键风险】右侧蓝色车辆尾灯亮起，可能即将启动并切入行车道，存在“切出”（Cut-out）风险；同时，公交站台遮挡左侧人行道，增加“鬼探头”可能性。",
+      "risk_tags": [
+        "potential_cut_out",
+        "ghost_probe_risk",
+        "signal_light_approach"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】雾气依旧，路面湿滑反光，能见度维持在约30米内。【自车】继续在中间车道匀速前进，临近路口时未减速。【右侧】停放车辆密集，包括一辆深蓝色MPV和一辆银灰色两厢车，车距较近。【左侧】一栋多层住宅楼，部分窗户透出灯光，树影摇曳。【交通设施】前方路口绿灯持续亮起，设有“注意行人”三角警示牌，但无实际行人出现。【关键风险】右侧车辆排列紧密，若任意一辆车突然开门或启动，将对自车构成“开门杀”威胁；同时，前方路口无行人监控，存在“无预警横穿”风险（Long-tail Safety Gap）。",
+      "risk_tags": [
+        "door_opening_hazard",
+        "unmonitored_crossing",
+        "low_visibility_intersection"
+      ]
+    }
+  ]
+}

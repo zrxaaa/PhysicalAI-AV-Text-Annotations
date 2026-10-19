@@ -1,0 +1,35 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 18.18,
+    "analysis_time": "2026-01-22 21:14:33"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】冬季黄昏，天空多云，局部有粉紫色霞光；路肩及山坡覆盖积雪，部分路面湿滑，无明显结冰；车灯已开启，前方道路照明主要依赖自车大灯。【自车】在中间车道沿弯道行驶，未变道，车头偏航角随道路曲率平缓调整，保持匀速。【右侧】山坡上树木无叶，积雪覆盖，无行人或动物活动迹象。【左侧】对向车道可见多辆汽车尾灯，车流稳定，未见异常行为。【交通设施】右侧路边设有黄色双左转箭头警示牌，提示前方连续弯道。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】天色渐暗，云层较厚，能见度良好；道路两侧仍有积雪，但未影响车道线识别。【自车】保持在中间车道匀速前行，未进行横向移动。【左侧】对向车道车流量增加，部分车辆加速超车，未见违规行为。【右侧】山坡逐渐被混凝土隔音墙取代，墙体上方仍可见少量积雪与枯树。【交通设施】出现绿色高速公路指示牌（指向Bloomington Rd、Westchester Ave），下方为“EXIT 6W-E”，并标注“TO 127 Harrison / ½ MILE”。【关键风险】前方车辆刹车灯频繁亮起，疑似因前方出口匝道入口减速，存在潜在追尾风险，但未发生实际碰撞或急刹。",
+      "risk_tags": [
+        "potential_tailgating",
+        "exit_sign_warning"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】进入隧道前区域，光照由自然光转为隧道口阴影区，前后光线对比强烈；路面干燥，无积水或积雪残留。【自车】保持当前车道匀速通过高架桥下通道，未变道。【前方】高架桥横跨道路，桥体结构清晰，桥下有数辆车排队等待通行，其中一辆红色轿车在右前方车道缓慢行驶，刹车灯持续亮起。【交通设施】高架桥上方悬挂大型绿色高速出口指示牌，明确标示“EXIT 6W-E”、“BLOOMINGDALE RD”、“WESTCHESTER AVE”、“WESTCHESTER MALL PL”、“TO 127 Harrison / ½ MILE”，并附“EXIT ONLY”标识。【关键风险】前方车辆减速明显，且位于出口匝道入口前，若自车未提前减速或变道，可能错过出口；同时，右侧混凝土墙与左侧护栏之间存在狭窄空间，若后方车辆强行加塞，易引发剐蹭或碰撞。",
+      "risk_tags": [
+        "exit_lane_confusion",
+        "rear_vehicle_braking",
+        "narrow_clearance_risk"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.95,
+    "analysis_time": "2026-01-22 11:47:05"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】夜间暴雨天气，挡风玻璃布满水珠与雨痕，导致视野严重模糊。路灯与车灯在湿滑路面上形成强烈光晕与反射，能见度极低。【自车】位于中间车道，执行缓慢减速动作，以应对前方路面湿滑及视线遮挡。【右侧】一辆深色SUV从右后方快速接近并切入至自车右前方，未打转向灯，存在潜在碰撞风险。【交通设施】前方可见“STOP”路面标线，但因雨水干扰难以清晰辨识。【关键风险】右侧车辆强行切入（Aggressive Cut-in），结合恶劣天气与视线遮挡，构成高风险交互。",
+      "risk_tags": [
+        "heavy_rain",
+        "low_visibility",
+        "aggressive_cut_in",
+        "emergency_braking_required"
+      ]
+    },
+    {
+      "time_segment": "00:00:06-00:00:12",
+      "scene_description": "【环境】雨势略有缓和，但仍持续降雨，挡风玻璃水渍分布不均，部分区域出现彩虹色光斑（镜头眩光）。【自车】保持中间车道匀速行驶，车速稳定，无明显转向或制动。【左侧】多辆静止停放的轿车沿路边排列，部分车辆尾灯亮起；对向车道有车辆驶过，速度适中。【右侧】一辆白色皮卡车从右侧超车后，逐渐远离自车，未发生交互冲突。【交通设施】道路两侧可见住宅区建筑，部分窗户透出暖光；远处可见绿色交通信号灯亮起，提示通行。【关键风险】无显著违规行为或障碍物，但因路面湿滑、视线受限，仍需保持警惕。",
+      "risk_tags": [
+        "low_risk_maintenance",
+        "wet_road_surface"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】夜间城市街道，雨势减弱，但路面仍有积水反光，部分区域形成水雾。【自车】在中间车道继续前行，接近一个十字路口，前方路面出现“STOP”字样及人行横道标线。【左侧】一辆红色轿车从左前侧快速驶过，完成变道动作，未对自车造成影响。【右侧】一辆银色SUV停靠于路边，车门开启状态，疑似乘客上下车，存在“开门杀”风险。【非标物体】右侧人行道边缘有一名行人站立，面部朝向自车方向，双手插兜，姿态放松，未立即横穿马路。【交通设施】前方为交叉路口，设有斑马线与停车标识，当前绿灯通行。【关键风险】右侧车辆可能突然开门（Open Door Risk），行人站立位置靠近车道，若其突然移动将引发碰撞；同时，路面积水与眩光叠加，增加视觉判断难度。",
+      "risk_tags": [
+        "open_door_risk",
+        "pedestrian_proximity",
+        "wet_road_surface",
+        "low_visibility_after_rain"
+      ]
+    }
+  ]
+}

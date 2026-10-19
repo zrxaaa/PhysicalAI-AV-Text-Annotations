@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 03:42:38",
+    "processing_time_seconds": 12.54
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "路面湿滑，路灯照明昏暗，能见度较低，街道两侧建筑密集，无行人出现，自车保持低速平稳通过路口，未进行转向或变道操作。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "道路两侧房屋密集，部分窗户亮灯，街景中可见少量圣诞灯饰，环境安静，无行人或其他动态障碍物，自车保持匀速直线前进。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:15",
+      "scene_description": "路灯间距均匀，光线覆盖良好，路面干燥但反射较强，自车未进行任何转向或加速动作，保持稳定巡航状态，与周围车辆无冲突行为。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "街道两侧住宅区特征明显，部分车辆尾灯亮起，夜间交通流量较小，自车持续直行，未遇红绿灯或停车标志，无紧急避让行为。"
+    }
+  ]
+}

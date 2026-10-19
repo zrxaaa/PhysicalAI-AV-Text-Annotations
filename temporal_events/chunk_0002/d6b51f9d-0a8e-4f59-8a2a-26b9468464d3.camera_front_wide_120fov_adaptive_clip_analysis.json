@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:40:55",
+    "processing_time_seconds": 18.74
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车在十字路口左转，前方一辆银色皮卡从左侧车道驶过，右侧路边停有两辆白色轿车，天空阴云密布，路面干燥无积水。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "自车完成左转后沿街道直行，右侧依次出现多辆停放的皮卡和SUV，左侧为低矮住宅区，道路两侧有绿化带，未见行人或动态障碍物。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车继续直行，前方出现一名行人牵狗在右侧人行道行走，与自车路径平行但无交叉风险；道路标线清晰，设有自行车道标识，天气仍阴沉。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车经过一排停靠车辆，左侧出现一辆黑色皮卡从停车位驶出并切入车道，与自车保持安全距离；右侧房屋前有小型灌木丛，无其他行人活动。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车接近下一个路口，前方道路两侧停放多辆SUV及轿车，右侧有一辆橙色跑车从车库驶出，与自车同向行驶但未发生交互，整体交通流平稳。"
+    }
+  ]
+}

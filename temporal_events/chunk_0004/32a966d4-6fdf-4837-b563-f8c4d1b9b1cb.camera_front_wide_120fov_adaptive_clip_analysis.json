@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 00:42:07",
+    "processing_time_seconds": 13.54
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在多车道道路上匀速行驶，前方一辆红色轿车从右侧车道向左变道至中间车道，未与自车发生冲突。道路两侧有商业建筑和光秃树木，天气晴朗，路面干燥无湿滑迹象。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "自车继续直行，前方车辆逐渐减速，道路右侧出现‘Available’租赁广告牌及白色厂房。左侧对向车道有银色轿车驶过，未见行人或突发障碍物，交通流畅。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "接近前方交叉路口，交通信号灯为红灯，自车减速停车等待。前方有多辆汽车排队等候，包括一辆黑色SUV和一辆银色轿车，均位于自车正前方车道。道路标线清晰，无施工或临时障碍。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "信号灯转绿，自车及前方车辆开始缓慢启动前行。右侧车道有一辆黑色SUV加速并入中间车道，与自车保持安全横向距离。道路右侧可见‘PRO’标识建筑，无行人或其他动态障碍物干扰。"
+    }
+  ]
+}

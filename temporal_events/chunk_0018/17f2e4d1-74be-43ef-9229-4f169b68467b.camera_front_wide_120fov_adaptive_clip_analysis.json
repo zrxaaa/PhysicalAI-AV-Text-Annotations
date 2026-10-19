@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 05:43:18",
+    "processing_time_seconds": 11.72
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在晴朗天气下沿双黄线道路行驶，右侧出现施工区域，摆放多个橙白相间路障，一辆黑色SUV从对向车道驶过，未与自车发生交互。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "道路右侧停放着工程车辆（挖掘机和拖车），路边有混凝土构件，前方出现‘LEFT LANE MUST TURN LEFT’标志牌，自车保持直行，未变道或减速。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "道路中央及右侧布满路障，形成临时车道引导，前方出现‘CENTER LANE CLOSED AHEAD’菱形警示牌，自车继续沿当前车道平稳前进，无明显转向或加速行为。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "自车接近一个左转导向的‘DETOUR’指示牌，左侧车道被路障封闭，前方车辆开始向左并线，自车维持原车道，未参与变道。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "道路恢复为三车道布局，右侧出现自行车道标志，自车继续直行通过施工区末端，前方无显著障碍物或行人，环境稳定，光线充足。"
+    }
+  ]
+}

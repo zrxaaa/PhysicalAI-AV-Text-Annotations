@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 10:57:39",
+    "processing_time_seconds": 12.72
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "自车在夜间沿弯曲道路平稳行驶，前方右侧路边有两名行人站立，未移动；左侧停放车辆，右侧有蓝色垃圾桶，路灯提供照明，无明显交通冲突。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:11",
+      "scene_description": "自车继续沿弯道行驶，前方右侧出现一辆黑色轿车从停车位驶出并横向切入车道，车轮轨迹显示其完成变道动作，与自车路径存在潜在交叉风险，但未发生碰撞或紧急避让。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:15",
+      "scene_description": "自车保持当前车道行驶，前方道路右侧停有一辆白色面包车及数个蓝色垃圾桶，左侧路边停放多辆汽车，远处可见围栏和树木，无行人或动态障碍物干扰自车路径。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车接近前方停靠的白色面包车，该车后方有自行车停放，周围环境静止，无其他车辆或行人进入自车行驶路径，自车维持低速平稳通过，未见转向或紧急操作。"
+    }
+  ]
+}

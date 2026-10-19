@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 06:20:55",
+    "processing_time_seconds": 12.01
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车沿双黄线道路平稳行驶，前方路口有白色SUV从左侧驶入主路，右侧路边有电线杆和茂密树木，阳光从右上方照射造成镜头眩光。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "一辆载有挖掘机的工程卡车从左侧超车驶过，随后自车继续沿直道行驶，道路两侧出现住宅区，左侧路边有黑色垃圾桶，右侧为绿化灌木丛。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "自车在车道内跟随前方黑色SUV行驶，左侧对向车道有银灰色轿车驶来并完成超车，右侧路边出现限速标志牌，天气晴朗，路面干燥无积水。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "自车保持与前方黑色SUV的跟车距离，车辆未加速或减速，道路右侧出现一个岔路口，远处可见停放的两辆黑色轿车，周围环境安静无行人活动。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车持续跟随前车，前方无明显障碍物或交通信号变化，道路两侧绿树成荫，阳光透过树叶形成斑驳光影，整体行驶状态稳定，未发生变道或紧急操作。"
+    }
+  ]
+}

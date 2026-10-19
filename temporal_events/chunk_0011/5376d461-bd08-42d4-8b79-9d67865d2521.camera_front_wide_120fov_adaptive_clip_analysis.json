@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 03:14:40",
+    "processing_time_seconds": 12.23
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "自车沿双向四车道道路平稳行驶，左侧对向车道有黑色皮卡和轿车驶过，右侧人行道旁有树木与白色桥栏，天气晴朗无云，路面干燥。前方可见绿色停车指示牌，提示Pearl Street Mall Parking方向。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "车辆继续直行，接近十字路口，右侧出现公交站台与行人候车区，远处可见交通信号灯为绿灯。一辆银色SUV在右前方车道减速，准备靠边停车，自车保持当前车道匀速跟进。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:16",
+      "scene_description": "自车接近交叉路口，前方银色SUV完成靠边停车，左侧对向车道有一辆银色轿车正在超车，右侧人行道上有两名行人并肩行走，距离自车约15米，未进入车道冲突范围。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "前方交通信号灯转为红灯，自车减速并在停止线前停下，左侧灰色皮卡同时左转进入支路，右侧人行道上一名行人正走向路口，未横穿马路，整体场景稳定，无突发冲突。"
+    }
+  ]
+}

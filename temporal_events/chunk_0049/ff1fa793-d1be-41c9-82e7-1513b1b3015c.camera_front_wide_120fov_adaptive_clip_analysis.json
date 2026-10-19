@@ -1,0 +1,43 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.81,
+    "analysis_time": "2026-01-22 02:17:26"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，云层厚重，光线昏暗，无明显降水但路面有湿滑反光迹象。【自车】位于中间车道，保持匀速沿道行驶，未见明显加速或减速。【左侧】一辆灰色皮卡在左邻车道由远及近驶过，未进行变道；其后方有多辆轿车和面包车有序通行。【右侧】路肩植被茂密，无行人或动物活动。【交通设施】前方约80米处出现绿色高速公路指示牌（Mission College / Santa Clara Convention），提示下个出口。【关键风险】无显著风险行为，但左侧皮卡在超车后未及时回正车道，存在轻微切入风险。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】天空仍为灰云覆盖，能见度良好，无降雨或雾气。【自车】维持中间车道匀速行驶，随道路微弯向前。【左侧】一辆银色丰田普锐斯从左邻车道加速超越自车，完成变道后稳定行驶于左前方；其后方一辆白色SUV紧随其后。【右侧】出现黄色菱形“THRU TRAFFIC MERGE LEFT”警示牌，提示前方合并车道。【非标准物体】路边绿化带内偶有枯枝落叶，无大型遗撒物或障碍物。【交通设施】右侧出现红色广告牌（Great America）与多栋玻璃幕墙办公楼（含HITACHI GLOBAL LOGIC、AMD等标识），建筑群密集，无施工区域。【关键风险】左侧普锐斯超车动作迅速，虽未违规，但因距离较近，存在潜在切出干扰风险。",
+      "risk_tags": [
+        "close_proximity_passing",
+        "merge_zone_warning"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】光照略有增强，但仍属阴天，无强逆光或眩光。【自车】保持中间车道匀速前进，车辆轨迹随道路曲线自然偏转。【左侧】一辆白色皮卡（载有金属框架）从左邻车道缓慢超越并保持在自车左前方，未变道；其后方有数辆轿车依次通过。【右侧】出现多个绿色高速出口指示牌，包括“UC Santa Cruz Silicon Valley Campus NEXT EXIT”和“Great America Pkwy Bowers Avenue”，上方有“RIGHT LANE MUST EXIT”限行标志。【非标物体】右侧路肩有少量垃圾堆积，但未影响行车路径。【交通设施】前方高架桥下设有橙色锥桶，提示右侧车道即将封闭或引导分流。【关键风险】右侧锥桶区域暗示可能的施工或变道引导，需警惕突发变道行为；左侧皮卡装载物较高，存在遮挡视线风险。",
+      "risk_tags": [
+        "lane_closure_warning",
+        "overheight_load_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】天空持续阴沉，无降水，路面干燥。【自车】仍在中间车道匀速行驶，接近前方出口匝道入口。【前方】蓝色轿车与白色货车保持同向行驶，间距稳定，无急刹或变道意图。【右侧】锥桶区域延伸至出口前，形成物理隔离带；同时可见一个橙色交通锥立于右侧行车道边缘，提示即将进入分叉口。【交通设施】高架横跨道路，悬挂“Great America Pkwy Bowers Avenue”主干道指示牌，下方附有“RIGHT LANE MUST EXIT”强制出口标志。【关键风险】右侧锥桶与出口导向标志组合构成“强制变道”场景，若自车未提前观察，可能错过出口；此外，前方蓝色轿车在出口前未减速，存在追尾风险。",
+      "risk_tags": [
+        "exit_lane_forced",
+        "following_distance_insufficient",
+        "obstacle_cone_proximity"
+      ]
+    }
+  ]
+}

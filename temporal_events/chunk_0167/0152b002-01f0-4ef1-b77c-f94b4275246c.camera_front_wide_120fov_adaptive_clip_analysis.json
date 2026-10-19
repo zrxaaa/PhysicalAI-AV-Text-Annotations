@@ -1,0 +1,43 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 10.66,
+    "analysis_time": "2026-01-24 03:53:30"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间浓雾天气，能见度极低（约30-50米），路灯灯光在雾中呈弥散光晕。【自车】位于中间车道，匀速沿直线道路前行，未进行转向或变道。【右侧】路边出现一排白色围墙及树木，后方有大型货车车身快速掠过（非施工状态，属正常通行）。【交通设施】道路两侧路灯间距均匀，无明显标线或障碍物干扰。【关键风险】因大雾导致前方车辆与行人难以识别，存在潜在“鬼探头”风险；路面湿滑，需警惕制动距离延长。",
+      "risk_tags": [
+        "heavy_fog",
+        "low_visibility",
+        "wet_road",
+        "ghost_probe_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】雾气持续，但能见度略有改善，部分路牌和交通锥桶开始清晰可见。【自车】保持中间车道匀速行驶，随道路微弯向前。【左侧】出现红白相间施工围挡，沿道路延伸，提示前方可能有施工区域。【右侧】多个广告牌及树木在雾中轮廓模糊，无动态物体靠近。【交通设施】前方出现多组交通信号灯杆，但当前为绿灯状态，无停车需求。【关键风险】施工围挡区域存在潜在非机动车或工人穿越风险，但当前无直接交互；自车未减速，存在轻微超速风险（若限速低于60km/h）。",
+      "risk_tags": [
+        "construction_zone_nearby",
+        "moderate_fog_improvement",
+        "no_immediate_threat"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】浓雾持续，夜间光照稳定，无明显天气突变。【自车】在接近交叉路口时主动减速，准备停车。【前方】人行横道清晰可见，右侧交通信号灯显示为红色（行人灯亮起），左侧对向车道有车辆驶近并减速。【右侧】一个黄色三角警示牌与行人过街标志并列，下方有小型绿化带覆盖薄霜。【周围参与者】远处对向车道有一辆深色轿车正以低速接近路口，未见转向灯；左侧辅路有一辆电动滑板车静止于路边（无骑行者，疑似停放）。【关键风险】自车即将停车等待红灯，但前方路口存在多方向车流交汇，且雾中视线受限，易发生误判；电动滑板车虽静止，但其位置紧邻人行横道，若有人突然启动将构成突发危险；红灯状态下，对向车辆若闯灯将引发严重碰撞事故。",
+      "risk_tags": [
+        "red_light_waiting",
+        "crossing_traffic_conflict",
+        "low_visibility_intersection",
+        "unattended_electric_scooter",
+        "potential_red_light_violation"
+      ]
+    }
+  ]
+}

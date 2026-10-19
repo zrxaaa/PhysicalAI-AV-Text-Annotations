@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 03:51:28",
+    "processing_time_seconds": 12.05
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车在十字路口左转车道，前方交通信号灯为绿灯，右侧有黑色轿车沿环岛外侧绕行，路旁设有‘FREEWAY ENTRANCE’及US 101 SOUTH指示牌。天气阴沉，路面湿滑，挡风玻璃有水雾影响视野。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "自车完成左转并驶入主干道，前方道路呈缓弯向右，右侧路边有黑色轿车保持同向行驶，远处可见多栋办公楼和绿化带。挡风玻璃水雾持续遮挡部分视野，但未影响转向操作。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车继续沿弯道前进，左侧出现多车道高速公路入口，对向车道有白色货车与银色SUV驶过，右侧草坡上有行人站立但未横穿马路。前方高架桥下设有绿色方向指示牌，提示前往San Tomas Expwy及De La Cruz Blvd。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车驶近并穿过高架桥下方，桥上悬挂的绿色路牌清晰显示出口信息，同时左侧车道有白色轿车加速超车，右侧车道车辆减速避让。自车保持当前车道稳定行驶，未进行变道或急刹。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车进入高架桥下的直行路段，前方车流密集但无明显拥堵，两侧车道均有车辆匀速通行。挡风玻璃水雾因车速提升略有扩散，但不影响视线，整体交通流畅，无突发障碍或行人干扰。"
+    }
+  ]
+}

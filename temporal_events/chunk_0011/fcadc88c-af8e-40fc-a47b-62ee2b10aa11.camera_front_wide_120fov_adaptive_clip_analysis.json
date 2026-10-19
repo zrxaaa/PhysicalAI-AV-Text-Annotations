@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 03:15:56",
+    "processing_time_seconds": 11.55
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在夜间城市道路上匀速行驶，道路两侧有路灯照明，左侧车道有数辆汽车同向行驶，右侧为住宅区和绿化带，无行人或突发障碍物。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:09",
+      "scene_description": "车辆接近学校区域，路面上出现‘SCHOOL’和‘SLOW’字样标记，前方出现黄色警示牌，提示减速，右侧路边有建筑物但无行人活动，自车未减速仍保持原速通过。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:13",
+      "scene_description": "自车驶过人行横道，前方路口设有交通标志牌，包括让行标志和方向指示，左侧对向车道有车辆驶来，自车保持直行并维持当前车道，未进行变道或转向操作。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "道路进入宽阔路段，两侧出现公交站台及候车亭结构，对向车道有车辆驶近，自车继续直行，未受干扰，路面标线清晰，无施工或临时障碍物。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车接近下一个交叉路口，前方可见红绿灯信号尚未变化，道路两侧有低矮围墙与绿化隔离带，无行人或非机动车进入车道，自车保持稳定速度继续前行。"
+    }
+  ]
+}

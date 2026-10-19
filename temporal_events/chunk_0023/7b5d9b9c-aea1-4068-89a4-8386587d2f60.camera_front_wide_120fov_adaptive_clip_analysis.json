@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 07:24:00",
+    "processing_time_seconds": 15.55
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在城市多车道道路上行驶，前方为绿灯路口，左侧有车辆从辅路汇入，右侧可见Cubesmart仓库建筑。交通信号灯由绿转黄，自车保持匀速接近交叉口。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:07",
+      "scene_description": "自车在路口左转车道内减速，驶入一条狭窄的单向坡道，道路两侧有茂密灌木和工业建筑。前方路牌指示前往Bailard Bridge与City Center方向，无行人或障碍物干扰。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:14",
+      "scene_description": "自车沿坡道持续前行，道路两侧植被繁茂，右侧为高墙围栏，左侧为斜坡。途中经过两个黄色“行人 Ahead”警示牌，提示前方有行人通行区域，但未见行人出现。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "车辆接近一座混凝土桥梁下方通道，桥下两侧停放着房车和SUV，路边设有橙色锥桶。自车平稳通过桥洞，未遇其他车辆或行人交互，环境略显荒凉。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车驶出桥洞后，前方道路微弯，两侧仍为围栏与植被，远处可见水域与对岸建筑轮廓。天气阴沉，路面湿润，无显著动态交通参与者，自车维持低速平稳行驶。"
+    }
+  ]
+}

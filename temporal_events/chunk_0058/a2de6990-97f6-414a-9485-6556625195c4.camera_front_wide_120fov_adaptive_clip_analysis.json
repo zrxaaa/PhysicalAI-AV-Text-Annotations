@@ -1,0 +1,44 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.48,
+    "analysis_time": "2026-01-22 05:59:06"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】多云天气，部分区域有阴云覆盖，路面湿滑但无明显积水或雨幕。【自车】位于中间车道，匀速沿直道行驶，未见明显加速或减速。【周围交通参与者】左侧邻车道有一辆银色SUV由远及近驶过；右侧路肩处可见橙色施工锥桶，呈线性排列，提示前方有施工区。【交通设施】右侧混凝土护栏后方为现代建筑群，其中一栋楼体挂有红色广告牌“LUXURY APARTMENTS NEWLY RENOVATED”。【关键风险】右侧施工锥桶区域存在潜在障碍物，需警惕施工车辆或临时路障突然出现；左侧SUV在变道前未打转向灯，存在轻微切入风险。",
+      "risk_tags": [
+        "construction_zone",
+        "un signaled_lane_change"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】天空云层较厚，光线分布均匀，无强逆光或阴影遮挡。【自车】保持中间车道匀速行驶，车头朝向与道路曲率一致，未进行横向转向。【周围交通参与者】左侧车道持续有黑色轿车、银色SUV等车辆正常通行；右侧路肩锥桶间距增大，逐渐过渡至无锥桶区域。【交通设施】上方出现绿色高速公路指示牌“EXIT 7 Taylor Street”，下方附有“EXIT ONLY”标识，提示即将进入出口匝道。【关键风险】前方出口指示牌高度较高，可能对低矮车辆造成视觉盲区；右侧建筑外墙有裸露钢筋结构，若发生坠落将构成严重威胁。",
+      "risk_tags": [
+        "exit_sign_obstruction_risk",
+        "structural_fall_hazard"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "【环境】光照条件稳定，能见度良好，无降水或雾气影响。【自车】维持当前车道匀速行驶，车速接近限速55英里/小时（路边标牌显示）。【周围交通参与者】左侧车道一辆黑色SUV从左前侧超车并完成切出；右侧车道有数辆轿车保持安全距离跟随前行。【交通设施】右侧出现“SPEED LIMIT 55 RADAR ENFORCED”限速标志，提醒驾驶员注意测速设备。【关键风险】左侧SUV超车时未保持足够横向安全距离，存在轻微剐蹭风险；右侧限速标志与前方出口指示牌叠加，易造成驾驶员注意力分散。",
+      "risk_tags": [
+        "close_passing",
+        "sign_confusion_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】天空云量减少，阳光增强，局部区域出现强光反射。【自车】继续在中间车道匀速行驶，未进行任何变道或转向操作。【周围交通参与者】前方有多辆轿车保持队列行驶，无急刹或异常行为；左侧车道偶有车辆快速通过，但均在安全距离内。【交通设施】远处可见多个高架指示牌和电力塔，道路两侧设有绿化带与混凝土护栏。【关键风险】无显著风险事件；但因光照变化剧烈，可能导致后视镜反光干扰视线，建议驾驶员调整遮阳板角度。",
+      "risk_tags": [
+        "glare_risk"
+      ]
+    }
+  ]
+}

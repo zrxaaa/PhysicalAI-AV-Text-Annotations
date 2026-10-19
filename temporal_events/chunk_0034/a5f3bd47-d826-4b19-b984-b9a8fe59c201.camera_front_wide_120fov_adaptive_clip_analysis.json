@@ -1,0 +1,37 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.59,
+    "analysis_time": "2026-01-21 19:30:59"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】晴天，蓝天白云，光照充足，无降水或遮挡。【自车】位于主干道最右侧车道，正执行向右转向动作，车头偏航角从正向前逐渐增大至约25度，准备驶入匝道。【周围交通参与者】左侧邻车道有一辆白色丰田普锐斯，与自车同向匀速行驶；其后方有银色SUV和黑色轿车，均保持安全距离。右侧路肩处可见绿色‘FREEWAY ENTRANCE’及‘NORTH 101’指示牌，无行人或非机动车。【交通设施】前方路口设有‘15'-3”’限高标志，道路标线清晰，引导车辆进入匝道。【关键风险】无明显违规行为或障碍物，但自车在高速路出口处进行转向，需注意后方来车可能因误判转向意图而加速超车。",
+      "risk_tags": [
+        "lane_change_at_highway_exit",
+        "potential_overtake_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:12",
+      "scene_description": "【环境】阳光强烈，部分区域出现眩光，天空云层较厚但未影响能见度。【自车】完成右转动作，进入弯曲匝道，沿曲率道路匀速行驶，车身姿态稳定，未跨越车道线。【周围交通参与者】左侧为低矮灌木与杂草带，无车辆靠近；右侧对向车道有数辆汽车（含一辆深色SUV）在远处行驶，速度适中，未出现切入或变道行为。【交通设施】匝道内侧路面标有‘CARPOOL’字样，外侧设有限高杆（15'3\"），并有‘CARPOOL IS 2 OR MORE PERSONS PER VEHICLE’提示牌。远处可见一排红色储物仓建筑，无施工活动。【关键风险】无直接碰撞威胁，但强逆光可能导致后视镜反光干扰，且匝道弯度较大，需警惕前车减速或紧急制动引发追尾。",
+      "risk_tags": [
+        "strong_sunglare",
+        "high_curvature_lane_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】晴朗，太阳位于画面左上方，形成强烈逆光，部分路面反射眩光。【自车】继续沿匝道前行，即将汇入主干道，车速保持稳定。【周围交通参与者】前方有一辆深色SUV正在通过高架桥下，与自车同向，保持安全间距；左侧对向车道有多辆汽车正常通行，未见异常变道或急刹。【交通设施】高架桥下方设有绿色指示牌，标明‘Great America Pkwy EXIT 393’及‘Bowers Avenue ½ MILE’，桥体结构清晰，限高15'3\"。桥下阴影区光线较暗，但无遮挡物。【关键风险】自车即将进入主干道汇流区，存在与主路车辆汇合时的交互风险，尤其需注意右侧可能突然切入的车辆。目前无动物、施工车或遗撒物等非标准目标，整体风险较低。",
+      "risk_tags": [
+        "merge_zone_risk",
+        "bridge_shadow_area"
+      ]
+    }
+  ]
+}

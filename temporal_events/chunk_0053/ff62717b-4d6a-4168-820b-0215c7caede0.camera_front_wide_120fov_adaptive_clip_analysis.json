@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.95,
+    "analysis_time": "2026-01-22 03:53:25"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】暴雨天气，挡风玻璃布满水珠与雨雾，能见度显著降低。【自车】位于中间车道，沿直线道路匀速前行，未明显加速或减速。【左侧】多辆私家车（含深色SUV、银色轿车）沿路边停放，部分车辆在自车前方缓慢驶离。【右侧】一辆灰色SUV从右后方快速超车，车身因高速运动产生动态模糊，短暂遮挡视线。【交通设施】前方路面出现白色“STOP”字样标记，提示即将进入交叉路口。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility",
+        "high_speed_crossing_vehicle"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】雨势持续，路面湿滑反光，部分区域积水形成水雾。【自车】在中间车道减速至停车线前，准备在人行横道前停车。【前方】一辆白色厢式货车停于路口右侧，车头朝向与自车方向垂直，处于静止状态。【左侧】对向车道有数辆汽车排队等待通行，其中一辆黑色轿车在左前方缓慢移动。【右侧】一个红色八角形“STOP”标志牌立于路口拐角，下方附有“ALL WAY”标识。【关键风险】自车在湿滑路面上接近停止点，但右侧有车辆（如SUV）可能因视野盲区突然切入，存在“鬼探头”风险。",
+      "risk_tags": [
+        "wet_road",
+        "stop_line_proximity",
+        "ghost_probe_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "【环境】雨势略有减弱，但挡风玻璃仍存水痕，影响视觉清晰度。【自车】完成停车后，在路口处短暂停留，随后启动并沿原车道继续前行。【右侧】一辆白色面包车从右前方横向驶过，车身部分遮挡自车视野，其行驶轨迹与自车平行，无变道意图。【左侧】一辆深色SUV从左前方驶入画面，沿对向车道行驶，未靠近自车车道。【交通设施】路面“STOP”标线已越过，人行横道清晰可见，无其他障碍物。【关键风险】右侧面包车高速横穿时造成局部视野遮挡，若行人或非机动车从其后方突然出现，将构成高危交互。",
+      "risk_tags": [
+        "partial_obstruction",
+        "crossing_vehicle_risk",
+        "low_visibility_after_rain"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】阴天，雨势基本停止，路面仍有积水反光，挡风玻璃水迹逐渐消散。【自车】保持中间车道匀速行驶，随道路曲线自然前进，未进行转向或变道。【两侧】街道两侧房屋密集，多为联排住宅，门前停放大量私家车（含白色特斯拉、银色轿车、皮卡等）。【前方】远处可见另一组“STOP”标线及人行横道，预示下一个交叉口。【非标准物体】右侧路边一棵树的枝叶因风力摇晃，部分落叶飘落至路面，但未对行车路径构成直接威胁。【关键风险】道路两侧停车密集，存在“开门杀”风险；同时，部分车辆尾灯亮起，暗示可能随时启动，需警惕突发变道行为。",
+      "risk_tags": [
+        "parked_car_door_risk",
+        "fallen_leaves_obstacle",
+        "low_traffic_density_with_high_parking_ratio"
+      ]
+    }
+  ]
+}

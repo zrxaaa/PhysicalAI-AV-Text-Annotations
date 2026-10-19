@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.35,
+    "analysis_time": "2026-01-22 16:04:33"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】黄昏时分，天空云层较薄，光线柔和但偏暗，无明显降水或雾气。【自车】在中间车道匀速沿直道行驶，未见明显加速或减速。【交通设施】前方路口出现交叉路牌（Elmhurst & Oakman），右侧设红色STOP标志及橙色“DETOUR”指示牌，提示前方施工绕行。【关键风险】路口右侧可见“ONE WAY”单行标志，与自车行驶方向冲突，需警惕对向违规车辆；同时，路口左侧有静止的红色砖房建筑，其旁有施工围挡，存在潜在障碍物。",
+      "risk_tags": [
+        "conflicting_signage",
+        "construction_zone"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】光照持续减弱，树木阴影逐渐拉长，能见度稳定。【自车】保持中间车道匀速前行，车头偏航角随道路微弯略有调整，属正常沿道行驶。【周围环境】右侧出现红砖商业建筑（标有“FRESH FURNITURE & WOODSTOVE”），门前无行人或车辆活动；左侧为绿化带与低矮住宅区。【交通设施】路口处设有“NO LEFT TURN”禁左标志，与当前自车直行路径一致，无冲突。【非标准物体】右侧路边立有“END ROAD WORK”橙色告示牌，表明施工即将结束，但仍有锥桶和临时围栏残留，构成局部障碍物。【关键风险】自车接近路口时，右侧施工区域遗留的锥桶可能因反光或位置突兀导致驾驶员误判，存在轻微碰撞风险。",
+      "risk_tags": [
+        "residual_construction_hazard",
+        "visual_obstruction_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】天色进一步变暗，路灯尚未点亮，整体照明依赖自然余晖。【自车】维持中间车道匀速前进，道路两侧植被茂密，部分路段树冠低垂遮挡视线。【周围环境】左侧出现多栋独立住宅，部分房屋外观老旧，院内草坪杂草丛生；右侧为开阔绿地，偶有灌木丛遮挡。【交通设施】前方路口无信号灯，仅设“NO U-TURN”标志，且路面标线清晰。【非标准物体】右侧路边发现一只静止的野兔（位于距路肩约8米处），头部朝向道路，呈警觉姿态，未移动，无横穿意图。【关键风险】由于路灯未开启、天色昏暗，且树木枝叶遮挡部分视野，存在“鬼探头”风险——若突然有行人或动物从树后冲出，自车反应时间将被压缩。此外，部分路段路面坑洼不平，虽未造成明显颠簸，但可能影响轮胎抓地力。",
+      "risk_tags": [
+        "low_light_condition",
+        "occlusion_risk",
+        "animal_presence",
+        "poor_road_surface"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 22:10:35",
+    "processing_time_seconds": 16.26
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "右侧路边有住宅建筑和树木，道路标线清晰，自车保持当前车道行驶，未进行变道或超车，前方车辆陆续停在停止线后等待通行。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:13",
+      "scene_description": "通过路口后，道路两侧出现自行车道标识，右侧有公交站牌和消防栓，天气阴沉，路面持续湿滑，能见度受雨水和雾气影响。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "雨势未减，挡风玻璃水渍仍影响视野，但自车保持稳定匀速前进，未遇交叉路口或突发状况，整体交通流顺畅。"
+    }
+  ]
+}

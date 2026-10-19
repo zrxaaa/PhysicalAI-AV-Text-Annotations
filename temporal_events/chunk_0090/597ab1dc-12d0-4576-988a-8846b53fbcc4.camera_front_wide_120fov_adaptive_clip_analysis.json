@@ -1,0 +1,44 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 18.3,
+    "analysis_time": "2026-01-22 20:17:14"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】夜间，路灯照明偏黄，存在轻微雾气或水汽导致灯光散射，能见度中等。【自车】位于中间车道，匀速沿直道行驶，未进行转向或变道。【周围交通】左侧对向车道有数辆轿车迎面驶来，右侧路边有橙色施工锥桶排列，提示前方可能有施工区域。【交通设施】前方路口信号灯为绿灯，道路标线清晰可见。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】无明显天气变化，但路灯与霓虹灯（如麦当劳、Wells Fargo）造成部分眩光。【自车】继续在中间车道匀速前行，接近十字路口。【周围交通】左侧一辆银色轿车从左前侧邻车道切入至自车前方并减速；右侧路口处有黑色SUV正在右转。【交通设施】前方交叉口信号灯由绿灯转为红灯，自车开始减速准备停车。",
+      "risk_tags": [
+        "braking_for_red_light",
+        "cut_in_by_adjacent_vehicle"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】夜间城市街景，强光来自两侧商业建筑霓虹灯及路灯，路面反射光较强。【自车】已完全停止于停车线后，等待红灯。【周围交通】左侧对向车道多辆车同步停车；右侧路口，一辆黑色SUV完成右转，另一辆深色轿车从右后方进入视野并缓慢驶入本车道；远处有车辆在路口等待。【非标准物体】右侧人行道边缘有两名行人站立，面向马路，未使用斑马线，疑似准备横穿。【关键风险】行人处于盲区位置，且未走斑马线，存在“鬼探头”潜在风险；同时，右后方车辆缓慢切入本车道，可能引发加塞冲突。",
+      "risk_tags": [
+        "pedestrian_crossing_without_crosswalk",
+        "ghost_probe_risk",
+        "aggressive_cut_in_from_rear"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】夜间光照稳定，无天气异常。【自车】保持静止状态，等待红灯转换。【周围交通】右侧车道车辆持续缓慢移动，其中一辆黄色出租车从右后方切入至自车正前方车道，完成变道；左侧对向车道车辆仍保持静止。【交通设施】信号灯维持红灯，右侧人行横道信号灯为绿色，但行人未动。【关键风险】黄色出租车在自车后方完成切出动作，其速度较慢，但因切入路径紧贴自车，存在轻微碰撞风险；同时，右侧行人虽信号灯允许通行，却未行动，可能因注意力分散（如看手机）而延迟过街，构成“静态鬼探头”隐患。",
+      "risk_tags": [
+        "vehicle_cut_out_from_rear",
+        "pedestrian_delayed_crossing",
+        "collision_potential_with_slow_vehicle"
+      ]
+    }
+  ]
+}

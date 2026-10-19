@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 00:55:01",
+    "processing_time_seconds": 17.61
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车在双黄线道路中间车道匀速行驶，左侧一辆白色SUV从对向车道驶过并切入右侧车道，右侧路边出现‘END CENTER LANE ONLY’交通标志牌，天气阴沉，路面干燥。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "车辆继续沿直线道路前行，前方路口信号灯为绿灯，右侧路边有倒置的橙白施工锥桶，道路两侧树木茂密，无行人或其他显著动态参与者，自车保持稳定跟车距离。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "接近前方交叉路口，信号灯转为红灯，自车减速停车，前方一辆银色SUV停在停止线后，左侧对向车道有黑色SUV和白色轿车依次驶过，右侧绿化带内可见房屋轮廓。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车在红灯前静止等待，左侧车道一辆黑色SUV从后方加速超车并切入自车所在车道，与自车形成并行状态，其尾灯亮起，表明正在减速或准备停车。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "黑色SUV完成变道后继续向前行驶，自车仍保持停车状态，前方银色SUV及后方车辆均未移动，路口信号灯仍为红色，无行人或突发状况发生。"
+    }
+  ]
+}

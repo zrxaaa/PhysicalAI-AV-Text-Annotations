@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 10:22:03",
+    "processing_time_seconds": 24.05
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "夜间雨天，自车在湿滑路面上匀速直行，挡风玻璃有水珠导致灯光出现星芒状散射。左侧车道有车辆快速驶过，右侧路边有树木和路灯，无行人或其他显著动态参与者。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:11",
+      "scene_description": "自车继续直行，前方出现对向来车灯光，因雨水和雾气影响视线模糊。右侧车道有车辆从后方超车并变道至自车所在车道，未发生冲突，自车保持原速未干预。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:15",
+      "scene_description": "道路两侧出现更多路灯与树木，路面标线清晰可见。自车前方有数辆对向车辆驶近，但均保持在各自车道内行驶，无交叉或变道行为，环境仍为夜间雨天，能见度较低。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车接近一个路口，前方无明显信号灯或行人，右侧车道有车辆短暂减速后加速并入主车道，未与自车产生路径交集。整体场景稳定，自车持续平稳行驶。"
+    }
+  ]
+}

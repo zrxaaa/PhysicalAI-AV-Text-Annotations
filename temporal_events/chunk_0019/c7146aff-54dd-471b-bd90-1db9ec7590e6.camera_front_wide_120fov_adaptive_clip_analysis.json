@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 05:59:14",
+    "processing_time_seconds": 13.73
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在晴朗天气下沿双向两车道道路行驶，左侧有黑色奔驰轿车和白色本田小型车驶过，右侧停放多辆私家车及一辆黄色Penske货车；前方出现一辆白色EMS救护车，正从对向车道驶来，与自车保持安全距离。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "自车继续直行，前方一辆黄色校车从左侧对向车道驶近，车身印有“SCHOOL BUS”字样，校车减速并靠右停靠，自车在其后方保持安全跟车距离，未发生变道或超车行为。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:13",
+      "scene_description": "校车完成停靠后，自车继续向前行驶，左侧出现一辆白色厢式货车迎面驶来，与自车在交叉路口短暂并行后错开；右侧路边可见行人站立于人行道，但未横穿马路，无明显交互行为。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车在无信号灯控制的路段匀速前行，道路两侧持续停放车辆，包括银色轿车、深色SUV等；前方有一辆白色皮卡在右侧车道缓慢行驶，自车与其保持稳定横向间距，未尝试超越。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "临近视频结尾，自车接近一个路口，左侧有黑色轿车从停车线前启动并左转进入支路，自车未受影响继续直行；道路右侧绿化带旁有行人活动迹象，但未进入车道路径范围。"
+    }
+  ]
+}

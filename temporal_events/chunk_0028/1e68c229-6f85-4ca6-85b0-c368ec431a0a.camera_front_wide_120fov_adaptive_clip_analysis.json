@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 09:29:54",
+    "processing_time_seconds": 15.6
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车沿直线道路平稳行驶，左侧停放一辆银色轿车，前方路口有行人从右侧人行道走向路中央，背景可见带穹顶的商业建筑和美国国旗。天气晴朗，路面干燥，无明显障碍物或交通信号变化。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "行人横穿马路，自车减速并保持停车状态以让行，同时一辆白色轿车从左侧对向车道驶过路口。路口设有‘KEEP RIGHT’指示牌和三角形让行标志，自车在斑马线前静止，未发生路径冲突。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "行人完成穿越后，自车开始右转进入环岛区域，前方为砖铺路面，环岛中心有雕塑装饰。右侧路边设有旗杆，悬挂美国与加州旗帜，无其他车辆或行人干扰转向动作。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "自车继续沿环岛顺时针行驶，左侧出现带有‘Meet Fresh’标识的商铺建筑，右侧为连续商业店面。期间无行人或车辆进入自车路径，车道线清晰，转弯半径适中，未见紧急制动或避让行为。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车完成环岛转弯后驶入直行街道，左侧有黑色轿车从对向车道驶来并完成超车，自车保持当前车道匀速前进。远处可见停车场入口及多辆停放车辆，环境安静，无突发交通事件。"
+    }
+  ]
+}

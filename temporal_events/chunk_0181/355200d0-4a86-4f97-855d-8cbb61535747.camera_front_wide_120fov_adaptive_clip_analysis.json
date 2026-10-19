@@ -1,0 +1,44 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.42,
+    "analysis_time": "2026-01-24 08:27:36"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "【环境】暴雨天气，能见度极低，雨滴密集附着于挡风玻璃，路面严重积水并反射车灯形成眩光。【自车】位于中间车道，匀速沿直线道路前行，未进行转向或变道。【周围交通参与者】左侧对向车道有多辆轿车与公交车快速驶过，其中一辆白色轿车在左前侧邻车道加速超车；右侧路肩停放多辆私家车，部分车辆尾灯亮起。【交通设施】道路两侧为绿化带与行道树，右侧可见加油站标识牌（“Ultimate”），远处有施工塔吊轮廓模糊可见。【关键风险】因雨水导致视线严重受限，前方车辆灯光反射干扰感知，存在潜在碰撞风险；无明显违规行为，但湿滑路面增加制动距离。",
+      "risk_tags": [
+        "heavy_rain",
+        "low_visibility",
+        "wet_road_surface",
+        "reflected_light_hazard"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】持续暴雨，雾气弥漫，能见度维持在约50米内。【自车】保持在中间车道，匀速接近前方交叉路口，未减速或转向。【周围交通参与者】左侧对向车道有一辆银色轿车与一辆黑色SUV依次通过；右侧路口处一辆白色厢式货车正在左转，其后方有一辆深色轿车等待红灯。【交通设施】前方交叉口设有红绿灯信号系统，当前显示为红灯；右侧人行横道标线清晰，路边设有蓝色方向指示牌（指向“Kassel”）。【关键风险】自车即将进入停车等待状态，但前方红灯信号尚未完全稳定（部分车辆仍向前移动），存在误判信号或闯红灯风险；右侧路口有车辆左转，可能与自车形成冲突路径，需警惕切入行为。",
+      "risk_tags": [
+        "red_light_approach",
+        "intersection_conflict",
+        "signal_uncertainty",
+        "left_turn_crossing_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】暴雨持续，路面水膜较厚，反光强烈，部分区域积水深度约2cm。【自车】在交叉路口停止，处于中间车道，车头正对红灯方向，未发生横向移动。【周围交通参与者】左侧一辆白色厢式货车完成左转，驶离路口；右侧一辆黑色SUV从右前方车道切入至自车正前方，试图抢行通过路口（Aggressive Cut-in）；远处对向车道仍有车辆缓慢驶近。【交通设施】红灯持续亮起，右侧设有“禁止直行”警示标志；路口中央有斑马线与导向箭头标线。【关键风险】右侧黑色SUV强行切入自车前方车道，构成高危加塞行为，可能导致自车紧急制动或碰撞；由于暴雨和视线遮挡，该车辆切入动作未被及时识别，存在“鬼探头”与“突然切入”的双重风险；同时，自车因停车等待，无法有效规避，属于典型低速交叉口安全威胁场景。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "ghost_probe_risk",
+        "low_speed_intersection_hazard",
+        "poor_visibility_obstacle",
+        "red_light_violation_potential"
+      ]
+    }
+  ]
+}

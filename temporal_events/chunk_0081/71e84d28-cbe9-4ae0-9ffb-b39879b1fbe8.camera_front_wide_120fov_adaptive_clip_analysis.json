@@ -1,0 +1,33 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.49,
+    "analysis_time": "2026-01-22 16:25:05"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】黄昏时分，天空呈蓝橙渐变，光线柔和，无异常天气。【自车】在中间车道匀速沿直道行驶，未进行转向或变道。【周围交通参与者】前方一辆银色轿车在同车道行驶，保持稳定车距；左侧对向车道有数辆汽车驶过，无明显交互意图。【交通设施】右侧出现黄色菱形“15-3”限高标志牌，下方为绿色“EXIT 101”指示牌，提示即将进入匝道出口。【关键风险】无显著风险行为或障碍物，场景平稳。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】夕阳西下，阳光从右后方照射，形成强烈逆光，部分区域视野略显昏暗。【自车】开始向右转弯，车头偏航角增大，沿弯道曲线行驶，未跨越车道线。【周围交通参与者】前方银色轿车同步右转，保持在右转车道内；右侧路边可见红色储物单元建筑群及棕榈树，无行人或动物活动。【交通设施】路侧出现“CARPOOL 2 OR MORE PERSONS PER VEHICLE”标识牌，地面标有“POOL LANE”字样，提示为拼车专用车道。【关键风险】自车与前车均执行右转动作，无交叉冲突；但因逆光，后视镜及侧窗反射可能影响视觉辅助系统判断，存在轻微感知干扰风险。",
+      "risk_tags": [
+        "lighting_interference"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】日落余晖笼罩天际，光线由强逆光转为低照度，道路两侧植被与桥梁结构剪影明显。【自车】完成右转并切入主路，继续沿弯曲道路前行，车速保持稳定。【周围交通参与者】前方车辆在桥下通过，无紧急制动或突然变道行为；左侧对向车道有车辆正常通行，未见违规切线或加塞。【交通设施】前方高架桥横跨道路，桥体下方设有绿色路牌：“Great America Pkwy EXIT 393 Bowers Avenue ½ MILE”，同时桥上标有“15 FT 3 IN”限高警示。【关键风险】无直接碰撞威胁；但高架桥结构遮挡部分前方视野，存在潜在“鬼探头”风险（如桥下突然出现非机动车或行人），需保持警惕。",
+      "risk_tags": [
+        "occlusion_risk",
+        "bridge_structure_obstruction"
+      ]
+    }
+  ]
+}

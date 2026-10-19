@@ -1,0 +1,47 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.81,
+    "analysis_time": "2026-01-22 21:27:01"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间，阴天多云，路面湿滑积水，路灯与商铺灯光造成明显眩光。【自车】位于中间车道，正向一个环岛路口减速，准备右转。【右侧】大型Target商业标识牌立柱紧邻车道，下方设有“STOP”及“禁止右转”交通标志。【左侧】对向车道有车辆驶过，但未进入自车路径。【关键风险】自车在接近环岛时，右侧路肩绿化带内有不明移动物体（疑似动物）快速闪现，因距离近且光线暗，存在突发横穿风险。",
+      "risk_tags": [
+        "wet_road",
+        "low_visibility",
+        "sudden_obstacle"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】持续夜间湿滑路面，部分区域出现水雾反光。【自车】完成右转动作，进入环岛外侧车道，保持匀速沿弯道行驶。【前方】可见Arawan Thai Cuisine、OnPoint Credit Union等商铺招牌，灯光明亮。【右侧】环岛中央绿化带边缘有低矮灌木丛，无明显障碍物。【左侧】对向车道车辆正常通行，未见异常行为。【关键风险】自车转弯过程中，右侧路边出现一名行人（性别不明），身着深色衣物，正沿人行道行走，方向与自车运动轨迹垂直，存在潜在碰撞风险，但行人未进入车道。",
+      "risk_tags": [
+        "pedestrian_crossing_risk",
+        "curved_path_navigation"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】雨势减弱，能见度略有提升，但路面仍存积水反光。【自车】驶离环岛，进入直行主干道，保持匀速前进。【左侧】空旷停车场区域，偶有车辆驶入或停靠。【右侧】沿街商铺灯光连续，包括ZOOM Hours等标识清晰可见。【非标物体】道路右侧绿化带中发现一只小型犬（约中型犬体型），静止于灌木丛旁，未主动移动，但头部朝向自车行驶方向，存在突然冲出的可能。【关键风险】狗处于视线盲区边缘，若自车加速通过，可能引发紧急避让；同时，右侧车道有车辆快速驶过，形成切出风险。",
+      "risk_tags": [
+        "animal_sitting_in_blind_spot",
+        "fast_oncoming_vehicle",
+        "blind_spot_crossing_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】夜间，局部区域灯光较弱，路面湿滑反射强。【自车】继续沿主干道直行，车速稳定。【前方】可见多家连锁店铺（如CVS、U.S. Bank等）入口，门前有少量行人活动。【左侧】树木枝条密集，部分遮挡路灯，形成光影斑驳。【右侧】无显著障碍物，但远处有车辆尾灯拖影，表明车流仍在运行。【关键风险】无直接威胁，但整体场景为高密度商业区夜间行车，存在“鬼探头”和行人突然闯入的风险，尤其在商铺门口区域。自车未进行任何变道或急刹动作，场景总体可控。",
+      "risk_tags": [
+        "high_density_traffic_area",
+        "potential_ghost_probe_at_shops"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.07,
+    "analysis_time": "2026-01-21 20:52:23"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "【环境】阴天，天空灰白，太阳位于左上方形成强逆光眩光，能见度中等偏低。路面干燥但略显湿滑，无明显积水或结冰。【自车】位于中间车道，正通过一个四向交叉路口，交通信号灯为绿灯，自车在绿灯期间匀速前行。【周围车辆】左侧对向车道有白色SUV（Subaru Outback）、白色皮卡（Chevrolet Silverado）、银色轿车（Nissan Sentra）、黑色SUV（Jeep Cherokee）依次通过；右侧车道有黑色SUV（Volvo XC90）从右前方切入直行方向，与自车同向行驶。【交通设施】路口设有交通信号灯、人行横道线、路牌（显示“E 516 Leonardville Rd”），信号灯状态为绿灯通行。【关键风险】右侧黑色SUV（Jeep Cherokee）在绿灯时从右前方快速切入自车所在车道，存在轻微切出风险，但未发生碰撞；无行人或动物出现。",
+      "risk_tags": [
+        "minor_cut_in",
+        "strong_sun_glare",
+        "intersection_crossing"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】继续阴天，逆光减弱，视野清晰。【自车】在通过交叉口后，于“Leonardville Rd”主干道上保持中间车道匀速行驶。【周围车辆】左侧对向车道有一辆白色沃尔沃XC90（Volvo XC90）在自车左前方并行，随后在路口前减速并左转；右侧路边停有数辆私家车，无动态干扰。【交通设施】道路标线清晰，包含“NO TURN ON RED”标志、“CENTER LANE ONLY”指示箭头及“ONLY”字样。【非标准物体】无特种车辆、动物或路面遗撒物。【关键风险】无显著风险，仅需注意左侧对向车辆的左转意图，避免横向冲突。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】天气仍阴沉，光线均匀，无强逆光。【自车】沿弯曲道路行驶，车道线保持双黄线，自车未变道，仅随道路曲率自然转向。【周围车辆】前方远处可见一辆深色轿车在弯道处减速，右侧路边停有白色SUV（Jeep Grand Cherokee）和另一辆白色SUV，均静止。【交通设施】前方路口设有“MUST TURN LEFT”标志牌，地面标有“ONLY”左转箭头，提示该车道仅允许左转。【关键风险】自车即将进入左转专用道，需提前观察左侧来车是否违规直行；右侧路边停放车辆可能引发开门杀风险（Open Door），但当前无人员活动迹象；无动物或施工障碍物。整体场景安全，属常规驾驶。",
+      "risk_tags": [
+        "lane_change_preparation",
+        "parked_vehicle_risk"
+      ]
+    }
+  ]
+}

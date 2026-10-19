@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 02:04:47",
+    "processing_time_seconds": 17.03
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车沿双黄线道路平稳行驶，左侧停放多辆轿车与SUV，右侧人行道有自行车停放；前方路口出现红色停车标志，车辆接近路口时未减速。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "自车在十字路口前减速并停车，前方横向车道有白色SUV驶过，右侧路边停有数辆私家车，远处可见交通信号灯为红灯，无行人或动态障碍物干扰。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "绿灯亮起后自车启动前行，右侧路边一辆深色皮卡从停车位驶出并切入车道，自车保持安全距离避让；道路两侧房屋密集，无行人活动。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "自车继续直行，前方对向车道有两辆皮卡同时驶入交叉口，其中一辆白色皮卡左转，另一辆银色皮卡直行，自车与它们无冲突路径交集。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "接近下一个路口，右侧路边停有多辆SUV和轿车，前方交通信号灯为红灯，自车在斑马线前停止等待；天气晴朗，路面干燥，无其他动态参与者介入。"
+    }
+  ]
+}

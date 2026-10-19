@@ -1,0 +1,25 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "direction_position_action_precision",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.79,
+    "analysis_time": "2026-01-17 11:19:58"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【自车】在中间车道保持匀速直行，车头朝向正前方。【左前侧】左侧人行道旁有橙白相间的施工锥桶，沿路排列；一辆深色轿车从左侧邻车道驶入画面，正在向右变道，其车头已部分进入自车所在车道。【右侧】右侧路边停放一辆深蓝色轿车，后方可见红色“STOP”停车标志牌及禁止右转标志。【环境】夜间城市街道，路灯照明充足，路面干燥，能见度良好。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【自车】在接近十字路口时减速，随道路曲率向左微调方向，未跨越车道线，保持沿道行驶。【前方】路口地面标有白色“STOP”字样，前方对向车道有车辆驶近，但均未闯红灯或违规通行。【右侧】路口拐角处停有一辆蓝色SUV，其后方为一栋多层住宅楼，窗户透出灯光。【左侧】左侧建筑为“San Francisco CPMC Pacific Heights Outpatient Center”，门前有绿化与座椅。【环境】街道两侧树木茂密，路灯间距均匀，整体场景安静，无行人活动。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【自车】通过十字路口后继续沿弯曲道路直行，速度稳定。【左侧】路边停放多辆汽车，包括白色SUV、银色轿车等，部分车辆尾灯亮起，表明处于静止状态。【右侧】右侧为多层住宅区，部分房屋带有阳台和外置楼梯，门前有围栏。【前方】远处可见另一组斑马线及“STOP”标记，对向车道有车辆缓慢驶来。【环境】夜间光照条件稳定，路面有轻微反光，树木枝叶在车灯照射下呈现绿色轮廓，整体驾驶环境安全可控。"
+    }
+  ]
+}

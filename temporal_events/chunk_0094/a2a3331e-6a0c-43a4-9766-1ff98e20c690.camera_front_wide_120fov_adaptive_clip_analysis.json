@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 21.35,
+    "analysis_time": "2026-01-22 21:56:26"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "【环境】晴朗无云，能见度极佳，阳光直射路面。【自车】在中间车道匀速沿道行驶。【前方】一辆白色SUV（丰田汉兰达）位于左前方邻车道，保持稳定车距；另一辆白色SUV（别克昂科威）位于右前方邻车道。【交通设施】车辆正驶向一座高架桥，桥下有绿色路牌指示“Lawrence Expwy Caribbean Drive ¼ MILE”。【交互】三车均未变道，无横向交互意图。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "【环境】持续晴天，右侧出现高大绿篱屏障，左侧为混凝土护栏与低矮树木。【自车】保持中间车道匀速行驶。【周围车辆】左前方白色丰田SUV维持原位；右前方白色别克SUV在本车道内稳定行驶，未超车或变道。【交通设施】通过桥洞后，道路两侧出现高压电塔与电线杆，右侧绿篱延伸至视野尽头。【关键风险】无明显风险，但右侧绿篱可能遮挡突发障碍物（如倒伏树枝或行人），存在潜在遮挡风险。",
+      "risk_tags": [
+        "occlusion_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】天空湛蓝，光照均匀，无天气异常。【自车】在中间车道匀速行驶。【周围车辆】右前方白色斯巴鲁SUV从右侧车道加速并入自车所在车道，完成变道动作，位于自车右后方约5米处，随后调整至右前方邻车道。【交通设施】道路右侧出现黄色菱形警示牌，标示“EXIT 15-2”，提示前方出口。【交互】斯巴鲁SUV的变道行为符合交通规则，未见违规，但其切入路径短暂接近自车，需注意横向间距变化。",
+      "risk_tags": [
+        "lane_change",
+        "close_proximity"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】晴空万里，远处可见山脉轮廓，光线充足。【自车】保持中间车道匀速行驶。【周围车辆】前方白色SUV持续在车道内行驶，未发生制动或变道；左侧对向车道有多辆车正常通行，包括一辆红色皮卡和一辆白色轿车，均未进入本车道。【交通设施】前方出现大型绿色高速公路指示牌，显示“CITRUS AVE / LAWRENCE EXPWY”及“EXIT 15-2”，同时左侧出现金属龙门架结构。【关键风险】无直接碰撞风险，但前方指示牌高度较高，若自车速度过快可能影响视线读取，属于轻微信息干扰风险。",
+      "risk_tags": [
+        "sign_obstruction_risk"
+      ]
+    }
+  ]
+}

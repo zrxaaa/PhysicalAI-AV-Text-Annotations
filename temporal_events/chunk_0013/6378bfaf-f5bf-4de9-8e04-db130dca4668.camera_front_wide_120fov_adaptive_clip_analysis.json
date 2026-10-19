@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 03:43:54",
+    "processing_time_seconds": 12.78
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车沿住宅区街道行驶，左侧有银色SUV和白色SUV依次驶离路边，右侧一辆白色掀背车从后方快速超车并入前方车道，自车保持匀速直行。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "前方道路右侧停放多辆汽车，包括一辆盖着车衣的轿车，左侧出现黑色皮卡与白色轿车对向驶来，自车平稳通过交叉口前路段，未见明显减速或转向。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:13",
+      "scene_description": "自车接近一个T字路口，前方有一辆白色厢式货车停在路中，右侧有黑色SUV从支路驶出，自车减速并准备在路口停车，路口设有红色STOP标志。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车在路口停止，前方白色厢式货车仍停在路中，对向车道有两辆白色SUV正在转弯，右侧人行道无行人，路面标有“STOP”字样，自车等待通行许可。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车在路口等待数秒后，确认安全，缓慢启动并左转进入下一条街道，前方车辆已离开交叉口，道路两侧树木茂密，天气晴朗无遮挡。"
+    }
+  ]
+}

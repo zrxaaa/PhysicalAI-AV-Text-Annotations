@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.82,
+    "analysis_time": "2026-01-22 18:48:13"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】夜间，天空灰暗，存在明显雾气或霾层，能见度中等偏低，路灯与车灯产生明显光晕。【自车】位于中间车道，沿直线道路匀速前行，未进行转向或变道。【周围车辆】左侧路边停放多辆轿车，右侧有白色面包车和SUV缓慢驶过；前方远处可见红绿灯及对向车流。【交通设施】道路两侧设有电线杆、路牌（如“West”路牌）、交通信号灯（当前为红灯）。【关键风险】无明显违规行为或障碍物，但雾气导致视觉干扰，需警惕前方突发刹车或行人横穿。",
+      "risk_tags": [
+        "reduced_visibility",
+        "low_visibility_environment"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】雾气持续，路灯照明增强，部分区域出现强眩光。【自车】在中间车道减速至停止，等待前方交叉路口的红灯。【周围车辆】左侧对向车道有数辆车在红灯前停车；右侧车道一辆银色SUV从右前方横向穿过路口，完成左转；另一辆深色轿车从正前方直行通过路口。【交通设施】路口处设有“West”与“Lampson”双方向路牌，信号灯由红转绿后，右侧车辆获得通行权。【关键风险】右侧SUV在绿灯亮起时快速左转，其轨迹与自车所在车道存在潜在冲突点，若自车未充分确认盲区，可能遭遇切出（Cut-out）风险。",
+      "risk_tags": [
+        "potential_cut_out_risk",
+        "intersection_conflict",
+        "light_haze_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:11-00:00:19",
+      "scene_description": "【环境】雾气略有消散，但整体仍影响视线，路灯与车灯反射造成局部眩光。【自车】保持静止状态，等待前方红灯再次变为绿灯。【周围车辆】左侧车道有黑色轿车从左前方驶入路口并完成左转；右侧车道有数辆汽车在绿灯下有序通过。【交通设施】路口信号灯显示为红灯，但右侧“Lampson”方向已放行绿灯，左侧“West”方向仍为红灯。【关键风险】自车处于十字路口中央停车位置，前方视野受路灯与对向车灯干扰，存在“鬼探头”隐患——尤其当左侧车辆启动左转时，可能突然从遮挡区域（如房屋、树木）出现行人或非机动车。此外，右侧绿灯通行车辆速度较快，若自车误判剩余时间，易发生追尾或碰撞。",
+      "risk_tags": [
+        "ghost_probe_risk",
+        "intersection_stall_risk",
+        "high_light_interference"
+      ]
+    }
+  ]
+}

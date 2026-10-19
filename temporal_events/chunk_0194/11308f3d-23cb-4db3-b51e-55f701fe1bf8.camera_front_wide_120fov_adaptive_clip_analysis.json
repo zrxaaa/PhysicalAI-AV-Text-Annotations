@@ -1,0 +1,44 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.03,
+    "analysis_time": "2026-01-24 12:57:16"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】晴朗白天，阳光从右上方照射，存在轻微眩光。【自车】在中间车道匀速沿直道行驶。【左侧】一辆白色皮卡与一辆白色罐车并行于左邻车道，均向右前方行驶；后方一辆银色轿车从左超车后驶离视野。【右侧】路边停有一辆白色工程车（带作业臂），前方有橙色锥桶围挡施工区域。【交通设施】道路为双向四车道，中央双黄线清晰，右侧路肩有绿化带与人行道。【关键风险】右侧施工车辆虽静止，但其伸出的吊臂部分侵入行车空间，存在潜在碰撞风险；无明显违规行为。",
+      "risk_tags": [
+        "construction_vehicle_obstruction",
+        "potential_collision_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】光照稳定，无遮挡，能见度良好。【自车】保持中间车道匀速前行，随道路微弯沿曲线行驶。【左侧】对向车道有数辆车正常通行，未见异常变道。【右侧】绿化带内树木枝干稀疏，部分落叶覆盖路面边缘。【交通设施】前方路口出现环岛结构，地面标有导向箭头（直行/左转/右转）。【关键风险】无显著风险，自车未进行转向或变道，周围车辆均按规行驶。",
+      "comment": "此段无关键风险，故不包含risk_tags字段"
+    },
+    {
+      "time_segment": "00:00:08-00:00:15",
+      "scene_description": "【环境】阳光持续从右上方照射，形成局部眩光，影响右侧视野。【自车】在中间车道匀速行驶，接近前方交叉路口。【前方】一辆银色SUV在自车正前方同车道行驶，刹车灯未亮，保持匀速。【左侧】对向车道有黑色轿车驶过，未见异常动作。【右侧】人行道上有行人站立，面向道路方向，未横穿；远处可见“FASHION ISLAND”标识牌。【交通设施】前方路口设有红绿灯，当前显示为红灯，车辆需停车等待。【关键风险】前方SUV未减速，可能闯红灯；右侧人行道行人站立位置靠近斑马线，若突然横穿将构成“鬼探头”风险；自车需在红灯前安全制动。",
+      "risk_tags": [
+        "red_light_crossing_risk",
+        "pedestrian_ghost_probe_risk",
+        "front_vehicle_speeding"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】晴天，逆光加剧，右侧树影投射至路面。【自车】在停止线前完全停车，等待红灯。【前方】银色SUV同样在停止线前停车，尾灯亮起。【左侧】对向车道黑色轿车正在左转，完成转向后驶离。【右侧】一名行人从人行道右侧走向斑马线，面朝自车方向，手持包，步态平稳，无急促动作。【交通设施】路口信号灯为红灯，地面标有“STOP HERE”字样及斑马线。【关键风险】行人即将进入斑马线，但未观察自车动向，存在横穿马路意图；自车需保持静止并确认行人安全通过后再启动，否则易发生碰撞事故。",
+      "risk_tags": [
+        "pedestrian_crossing_intent",
+        "intersection_waiting_risk",
+        "failure_to_yield_pedestrian"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.62,
+    "analysis_time": "2026-01-23 02:21:59"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天多云，部分区域蓝天可见，无明显降水或能见度下降。【自车】位于中间车道，匀速沿直道行驶，未进行转向或变道。【周围交通参与者】左侧对向车道有白色轿车和银色SUV驶过；右侧路边有公交站台及一名站立行人（面部朝向道路，双手插兜，无横穿意图）。【交通设施】右侧设有大型广告牌（内容为“SOMETHING WRONG? CALL ANH PHOONG”），后方有施工围挡与橙色“SHOULDER CLOSED”警示牌。【关键风险】无显著风险，但右侧施工区域存在潜在遮挡，需注意后续可能的突发障碍。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】天空云层较厚，局部透出蓝色，光线均匀，无强逆光或阴影干扰。【自车】保持在中间车道，匀速前行，通过人行横道时轻微减速。【周围交通参与者】前方黑色轿车维持前车距离；左侧对向车道有白色轿车、灰色SUV依次驶过；右侧施工区边缘有橙色锥桶排列，无施工车辆作业。【交通设施】前方路口信号灯为绿灯，路侧设有“RIGHT LANE CLOSED AHEAD”警示牌，提示车道缩减。【关键风险】无直接碰撞风险，但右侧施工区域锥桶排列密集，若自车偏离车道线可能触发避障反应。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】天空云层继续移动，部分区域阳光穿透，形成明暗交替光影。【自车】在中间车道保持匀速行驶，随道路微弯自然调整方向，未做主动转向。【周围交通参与者】左侧有蓝色轿车从对向车道超车驶过；右侧远处有施工人员身着荧光背心，在锥桶旁活动，但未进入行车道。【交通设施】道路右侧持续设置橙色锥桶与“SHOULDER CLOSED”标志，前方出现“ROAD WORK AHEAD”警示牌。【关键风险】施工人员靠近车道边缘，存在被车辆误撞风险；蓝色轿车快速超车，其轨迹接近自车左侧，存在切出风险，但未实际切入。",
+      "risk_tags": [
+        "construction_worker_proximity",
+        "high_speed_crossing_vehicle"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】光照稳定，无天气突变。【自车】在中间车道匀速行驶，接近十字路口。【周围交通参与者】前方黑色轿车减速至停车线；右侧车道有一辆白色工程卡车（带升降臂）静止停靠，车身占用部分车道，司机未下车；左侧有蓝色SUV驶入左转车道。【交通设施】路口处设有“10th St”路牌，多个交通信号灯显示绿灯，路面标线清晰。【关键风险】工程卡车虽静止，但其车身宽度超出标准车道，对右侧车道车辆构成空间侵占；蓝色SUV左转时未充分观察，存在与自车发生交叉冲突的可能性，需警惕‘鬼探头’或突然变道行为。",
+      "risk_tags": [
+        "vehicle_space_occupancy",
+        "left_turn_conflict_risk",
+        "construction_vehicle_obstruction"
+      ]
+    }
+  ]
+}

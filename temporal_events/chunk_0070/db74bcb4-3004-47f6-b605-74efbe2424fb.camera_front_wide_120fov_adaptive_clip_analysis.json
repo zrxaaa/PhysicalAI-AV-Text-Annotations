@@ -1,0 +1,45 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.74,
+    "analysis_time": "2026-01-22 11:09:26"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】浓雾天气，能见度显著降低，雨滴附着于挡风玻璃，导致视野模糊。【自车】在中间车道沿直线道路匀速行驶，未进行转向或变道。【左侧】路边可见一栋两层住宅，前院有修剪整齐的灌木与开花树木；右侧为茂密树林及低矮灌木丛，部分植被呈紫红色。【交通设施】前方约50米处出现一个左转指示牌（弯道箭头），提示前方为曲线路段。【关键风险】因雾气和雨滴遮挡视线，存在潜在“鬼探头”风险，尤其在弯道区域，对向来车或行人可能突然出现。",
+      "risk_tags": [
+        "heavy_fog",
+        "reduced_visibility",
+        "ghost_probe_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:06-00:00:09",
+      "scene_description": "【环境】雾气略有消散，但路面仍湿滑，雨滴持续影响视线。【自车】继续在中间车道匀速前行，接近十字路口。【右侧】出现一个红底白字的“STOP ALL WAY”停车标志，立柱为红白相间。【左侧】一辆银灰色小型SUV从对向车道驶过，未见明显转向灯。【交通设施】路口地面标有白色“STOP”字样，人行横道清晰可见。【关键风险】自车即将进入交叉路口，需注意横向车辆是否遵守停车规则；同时，左侧对向车辆在无转向灯情况下快速通过，存在潜在违规风险。",
+      "risk_tags": [
+        "intersection_approach",
+        "un signaled_crossing_vehicle",
+        "wet_road_surface"
+      ]
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "【环境】阴天，雾气进一步减轻，但挡风玻璃仍有水珠残留。【自车】在路口前减速并停车等待，红灯信号亮起（位于路口正上方）。【前方】一辆黑色特斯拉Model 3从右侧横向驶入路口，完成左转动作，穿越自车所在车道。【左侧】一辆银灰色小型SUV从对向车道驶近，准备直行通过路口。【交通设施】路口设有红绿灯、停车线、斑马线及“STOP”地面标识。【关键风险】黑色特斯拉在红灯未亮时即开始左转，属于闯红灯行为；其路径与自车当前停靠位置重叠，构成高风险碰撞威胁。",
+      "risk_tags": [
+        "red_light_violation",
+        "crossing_vehicle_in_front",
+        "collision_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】天气仍阴沉，路面湿滑，无明显降水。【自车】在红灯结束后启动，沿原车道继续前行。【前方】黑色特斯拉已完成左转，驶离路口；银灰色SUV也已通过路口，进入直行道。【右侧】路边有一排木质围栏，后方为林地。【交通设施】路口后方恢复为直线道路，车道线清晰，无其他障碍物。【关键风险】所有涉事车辆均已离开交叉口，自车可安全通行。无持续风险，场景恢复正常。",
+      "risk_tags": []
+    }
+  ]
+}

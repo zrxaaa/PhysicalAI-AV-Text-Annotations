@@ -1,0 +1,33 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.43,
+    "analysis_time": "2026-01-22 23:57:18"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴朗天气，太阳位于正前方高空，形成强烈逆光眩光，导致部分路面和车辆轮廓模糊。【自车】在中间车道匀速沿道行驶，未进行变道或转向。【左侧】路边有商业建筑（Danish Concepts）及行道树，树叶呈现秋季红黄色彩；右侧可见商铺与人行道。【交通设施】道路两侧设有路缘石、消防栓及路灯杆，无明显施工或障碍物。【关键风险】无显著风险，但强逆光可能影响后视镜及侧方感知精度。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】逆光持续，阳光仍位于车头正前方，天空清澈无云。【自车】保持中间车道匀速行驶，随道路曲线轻微调整方向，未越线。【右侧】出现“SURPLUS”便利店及“RELAX DAY SPA”招牌，路边停放多辆货车与私家车。【左侧】对向车道车流逐渐密集，部分车辆减速准备右转。【交通设施】前方路口出现交通信号灯杆与人行横道标线，但当前为绿灯通行状态。【关键风险】无直接碰撞风险，但对向车道车辆频繁变道，存在潜在切出风险。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】逆光加剧，太阳接近地平线，光线刺眼，造成镜头光晕与局部过曝。【自车】进入拥堵路段，从匀速转为低速跟车，尾随前方白色轿车。【周围车辆】左侧邻车道有多辆SUV与轿车排队缓行，部分车辆刹车灯亮起；右侧车道有车辆加速超车并切入自车所在车道（Aggressive Cut-in）。【非标准物体】右侧远处可见“Baskin Robbins”门店标识，其旁有一棵高大棕榈树，无异常活动。【交通设施】前方路口设有红绿灯与交通指示牌，当前为红灯状态，所有车辆均停车等待。【关键风险】右侧车辆强行加塞切入，存在剐蹭或紧急制动风险；同时，因逆光严重，后方车辆动态难以准确判断，易引发追尾或误判距离。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "reverse_light_blinding",
+        "traffic_jam",
+        "braking_uncertainty"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 08:04:02",
+    "processing_time_seconds": 15.34
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车位于十字路口停车线前，前方一辆编号21058的有轨电车正从左侧车道驶离车站，车身横跨交叉口，右侧人行道旁设有红色岗亭和黄色隔离桩。自车保持静止，等待电车完全通过。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "电车驶离后，自车开始向右转弯，同时另一辆有轨电车从右侧道路驶入画面并沿轨道向前行驶。路口设有‘STOP’地面标识和‘ONLY RIGHT TURN’交通标志，行人尚未出现，路面干燥，天空晴朗。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车完成右转，进入主干道，前方轨道延伸至远方，两侧为多层住宅建筑。左侧停有一辆白色皮卡，右侧路边停放数辆私家车，无行人或障碍物干扰，自车保持匀速直行。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车继续沿街道前行，接近前方第二个十字路口，路旁设有‘LEFT LANE TRAM LINE AHEAD’指示牌和红色停车标志。右侧人行道上出现三名行人，其中一人携带黄色包，正准备过马路。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车在停车线前减速，等待行人安全通过。三名行人中两人已进入人行横道，另一人站在路边等候。远处可见一辆红色电车正在驶近，自车与行人之间无直接冲突，环境光线充足，路面清晰可见。"
+    }
+  ]
+}

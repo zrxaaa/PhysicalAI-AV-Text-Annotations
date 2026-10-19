@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 10:07:39",
+    "processing_time_seconds": 21.65
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "天气晴朗，阳光充足，道路干燥，树木落叶散落于路边。自车保持直行，未进行转向或变速操作，接近十字路口时减速准备停车。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:09",
+      "scene_description": "路口处可见‘ALL WAY’停车标志，周围建筑为多层住宅与商业混合结构，无行人活动。自车与左转车辆存在路径交叉，但无冲突，因双方均遵守停车规则。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "道路标线清晰，包含直行箭头与人行横道，自车匀速通过道口区域，未遇任何障碍物或突发交通参与者，环境安静且通行顺畅。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "道路两侧树木枝叶稀疏，显示秋季特征，阳光照射下阴影明显。自车未改变车道或速度，保持稳定巡航，与周边静态环境无交互冲突。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "整体场景维持平稳，无交通信号变化、无紧急避让行为，自车动作连续完整，未发生转向、加速或制动等显著动态调整。"
+    }
+  ]
+}

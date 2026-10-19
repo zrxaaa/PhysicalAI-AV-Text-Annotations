@@ -1,0 +1,31 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.93,
+    "analysis_time": "2026-01-23 18:45:58"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，光照充足，无明显遮挡或天气异常。【自车】在中间车道匀速沿直道行驶。【左侧】对向车道有数辆轿车和一辆白色面包车驶过，均未越线；左侧路边有施工围挡（绿色围栏），后方可见一栋高层住宅楼。【右侧】路肩为绿化带与土坡，无行人或障碍物。【交通设施】前方约80米处设有交通信号灯，当前显示绿灯，路面标线清晰。【关键风险】无显著风险行为或障碍物。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】晴朗，阳光从上方照射，部分区域出现轻微眩光。【自车】保持中间车道匀速前行，道路略有弯曲但未变道。【两侧】道路两侧植被茂密，左侧为灌木丛与行道树，右侧为草地与低矮树木，风力使树叶摇曳明显。【交通设施】沿途路灯均匀分布，无特殊标志牌。【非标准物体】右侧路边出现一个公交站台结构，但无乘客或活动迹象。【关键风险】无违规行为、无动物或遗撒物，无遮挡风险。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】晴天，能见度良好，天空略显灰白，可能为大气悬浮颗粒影响。【自车】在中间车道匀速行驶，接近交叉路口。【前方】出现大型悬臂式交通指示牌，蓝底标“GRENOBLE CHAMBERY SAINT EXUPERY”，绿底标“PARIS GENÈVE Périphérique Porte du Vinatier”。【周围车辆】右侧车道有一辆白色厢式货车正在右转，完成转向后驶离画面；其后方有数辆轿车跟随，均正常通行。【交通设施交互】自车在通过路口前，经过一组交通信号灯（绿灯）及多个禁止进入/限速70标志牌。【关键风险】无闯红灯、无强行加塞、无鬼探头；但右侧货车右转时车身横向占用部分车道，存在短暂的横向交互风险，不过其动作平稳且未侵入自车路径，不构成紧急威胁。",
+      "risk_tags": [
+        "normal_traffic_flow",
+        "crossing_vehicle_interaction"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 19.05,
+    "analysis_time": "2026-01-23 01:14:09"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，路面湿滑，有积水反光，能见度中等。【自车】位于中间车道，处于停车等待状态，刹车灯亮起。【前方】一辆红色Jeep Commander（备胎罩标有“HUMMER”）停在路口中央，尾灯亮。【右侧】一辆银色SUV停靠路边，车头朝向与自车同向。【左侧】一辆白色SUV停在人行道旁，其后方有一辆绿色SUV从左向右快速驶过路口，完成横穿动作。【交通设施】右侧路口设有红色八角形“STOP”标志牌，位于路权交叉口。【关键风险】绿色SUV在未完全确认安全的情况下高速横穿，存在闯红灯或误判路口通行规则的风险；同时，红色Jeep Commander在停止状态下未及时清除路口，构成潜在阻塞。",
+      "risk_tags": [
+        "aggressive_crossing",
+        "obstruction_at_intersection",
+        "poor_visibility"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】持续阴天，无明显降水，路面仍湿。【自车】保持静止，未移动。【前方】红色Jeep Commander开始缓慢启动，向右转向准备进入右侧支路。【左侧】一辆白色皮卡（Dodge Ram）停在对向车道，车身横跨部分车道线，未移动。【右侧】银色SUV仍停靠路边，未发生位移。【交通设施】“STOP”标志牌清晰可见，无遮挡。【关键风险】红色Jeep Commander在停止后启动时未充分观察右侧来车，存在切入冲突风险；白色皮卡违规停靠在行车道边缘，可能引发后车避让事故。",
+      "risk_tags": [
+        "improper_parking",
+        "unsafe_turning",
+        "lack_of_visual_check"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】天气无显著变化，路面湿滑但无积水。【自车】开始沿道路向前行驶，进入直行主干道。【前方】红色Jeep Commander完成右转，驶离路口，不再影响自车路径。【左侧】白色皮卡保持原位，未移动。【右侧】银色SUV仍停靠路边，无动态。【交通设施】路口已清空，无交通信号灯或指示牌干扰。【非标准物体】路边一棵高大红叶树（秋季落叶），树冠完整，无倒伏迹象，不影响视线。【关键风险】无直接碰撞风险，但白色皮卡长期占用行车道边缘，构成持续性道路资源侵占，属于低概率但高影响的长尾风险。",
+      "risk_tags": [
+        "persistent_obstruction",
+        "low_probability_high_impact_risk"
+      ]
+    }
+  ]
+}

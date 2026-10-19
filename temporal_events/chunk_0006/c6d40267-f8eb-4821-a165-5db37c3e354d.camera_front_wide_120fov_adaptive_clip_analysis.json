@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 01:07:16",
+    "processing_time_seconds": 19.4
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "夜间雨天，自车停在十字路口等待红灯，前方交通信号灯为红色，右侧人行道有行人站立，左侧建筑旁有商铺招牌。路面湿滑，雨水在挡风玻璃上形成水珠。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "信号灯转绿，自车启动前行，左侧一辆白色SUV从辅路汇入主路并切入自车前方车道，右侧人行横道上有两名行人正在过街，其中一人穿条纹外套。自车保持匀速通过交叉口。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车右转进入狭窄街道，前方有一辆黄色出租车正沿街道行驶，其后方有白色皮卡和多辆停放车辆。右侧路边有大型金属集装箱，街道两侧建筑物密集，部分窗户亮灯。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车沿狭窄街道继续直行，道路两侧停满车辆，左侧为多层住宅楼，右侧有树木和临时围栏。前方远处可见对向来车灯光，自车保持低速平稳行驶，未发生变道或紧急操作。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车接近街道尽头，前方无明显障碍物，道路两侧车辆静止停放，右侧集装箱上有涂鸦。天气仍为雨夜，能见度较低，路灯提供主要照明，自车维持当前车道和速度继续前进。"
+    }
+  ]
+}

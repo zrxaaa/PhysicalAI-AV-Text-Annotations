@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 04:10:00",
+    "processing_time_seconds": 11.89
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在高架桥主干道上匀速行驶，前方有一辆白色轿车保持同向行驶，道路两侧设有混凝土隔离带和金属围栏，远处可见棕榈树与电线杆，天空晴朗无云，光照充足。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:11",
+      "scene_description": "左侧对向车道有数辆车驶过，包括银色面包车、黑色SUV及白色轿车，均完成超车或并线动作；右侧路肩出现行人步行，但未进入行车道，自车保持当前车道稳定行驶，未进行变道或减速。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:15",
+      "scene_description": "道路逐渐从高架过渡至平交路口，左侧出现商业建筑与围墙，右侧有玻璃幕墙商铺；自车继续直行，前方车道线清晰，无明显拥堵，车辆间距保持安全距离，未见紧急制动或转向行为。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "接近十字路口，路面标有左转箭头，前方交通信号灯为红灯，多辆汽车在停止线前有序停车；右侧有车辆试图右转，但因红灯而暂停，自车亦减速并最终停于停止线后，等待信号灯变化。"
+    }
+  ]
+}

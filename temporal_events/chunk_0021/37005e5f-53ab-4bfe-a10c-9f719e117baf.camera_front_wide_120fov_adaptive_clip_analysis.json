@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 06:49:26",
+    "processing_time_seconds": 12.86
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "夜间高速公路上，自车在中间车道匀速行驶，前方有多辆汽车尾灯可见，道路两侧有护栏和路灯照明，能见度较低但路面干燥。右侧车道有一辆深色轿车在远处缓慢行驶，未发生变道或超车行为。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:13",
+      "scene_description": "自车保持当前车道继续前行，右侧车道一辆银灰色轿车开始加速并逐渐靠近自车，随后向左变道至自车所在车道前方，完成变道后稳定行驶于前车位置。道路右侧出现黄色菱形警示标志，提示前方弯道。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "自车在接近出口匝道时，前方银灰色轿车提前减速并靠右车道准备驶出，自车维持原速跟随其后方，同时上方绿色高速公路指示牌显示“Willow Road”出口方向及距离。道路左侧出现橙白相间的施工锥桶，无明显施工活动。"
+    },
+    {
+      "time_segment": "00:00:18-00:00:19",
+      "scene_description": "自车继续沿主路直行，前方车辆已驶离主道，道路恢复空旷状态，右侧护栏与路灯持续延伸，无其他车辆或行人进入视野范围，环境安静且光线稳定。"
+    }
+  ]
+}

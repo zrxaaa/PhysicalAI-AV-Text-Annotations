@@ -1,0 +1,38 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.27,
+    "analysis_time": "2026-01-22 19:17:04"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】强逆光天气，太阳位于画面左上角，造成严重眩光与镜头光晕，能见度受中度影响。【自车】在中间车道匀速沿道行驶，未进行转向或变道。【右侧】一辆深灰色MPV从右侧并入本车道，完成切入动作，车头偏航角向左微调，随后稳定于右侧行驶。【交通设施】前方路口设有三组红绿灯信号杆，当前显示为红灯（直行与左转），道路两侧有施工锥桶围挡，提示前方可能有施工区域。【关键风险】右侧车辆切入行为未提前打转向灯，存在潜在加塞风险；同时强光遮蔽部分路面标线，增加识别误差。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "strong_ambient_light",
+        "reduced_visibility"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】逆光持续，天空晴朗无云，但眩光仍显著。【自车】保持中间车道匀速前行，未发生制动或转向。【左侧】对向车道有多辆轿车正常通行，其中一辆黑色SUV在左转车道等待信号灯。【右侧】深灰色MPV维持在右侧行驶，未再切入。【交通设施】前方红灯持续亮起，路口处可见“Fowler St”路牌标识，右侧人行道旁有棕榈树及高层住宅建筑。【非标物体】路边施工区域设置多个橙色锥桶，未见施工车辆或人员活动，无作业状态。【关键风险】左侧对向车道车辆密集，若信号灯突变，可能发生交叉冲突；右侧车辆虽未变道，但其位置紧贴自车，存在轻微剐蹭风险。",
+      "risk_tags": [
+        "cross_traffic_potential",
+        "narrow_lateral_clearance"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】光照条件未变，逆光依旧，但自车已接近路口，视野范围扩大。【自车】继续在中间车道匀速前进，即将通过红灯路口。【前方】交通信号灯仍为红灯，但横向车道车辆开始缓慢移动，预示即将放行。【右侧】深灰色MPV在右侧行驶，车距稳定，未出现加速或减速迹象。【交通设施】路口上方悬挂的交通信号灯组显示直行红灯、左转红灯、右转红灯，右侧路牌清晰标注“Fowler St”。【关键风险】前方路口存在多方向车流交汇，且当前为红灯状态，若信号灯突然变为绿灯，将引发复杂交叉冲突；此外，右侧车辆若突然转向，可能因自车处于中间车道而形成夹击风险。",
+      "risk_tags": [
+        "intersection_conflict_risk",
+        "signal_light_transition_hazard"
+      ]
+    }
+  ]
+}

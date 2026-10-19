@@ -1,0 +1,42 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 19.33,
+    "analysis_time": "2026-01-22 12:27:13"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间，低能见度，路灯照明不足，路面潮湿反光。【自车】位于中间车道，执行左转动作，车头偏航角向左调整。【左侧】路肩处有白色灯柱和大型树木，树冠遮挡部分视线；远处可见一栋两层住宅，门廊亮灯。【右侧】对向车道无车辆，但有白色灯柱与绿化带。【交通设施】路口设有“STOP”标志牌（未完全显示），道路两侧为住宅区入口，无明显标线。【关键风险】自车转向时，左侧树木阴影区域存在视觉盲区，可能隐藏行人或动物，需警惕‘鬼探头’风险。",
+      "risk_tags": [
+        "low_visibility",
+        "turning_with_obstruction",
+        "ghost_probe_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】进入主干道，两侧高大乔木形成林荫道，路灯间距较密，但雾气或水汽导致灯光散射，能见度下降至约50米。【自车】完成左转后，沿直道保持匀速行驶，车头朝向正前方。【前方】多辆汽车尾灯亮起，呈队列缓慢前行，疑似交通拥堵或红灯等待。【左侧】一辆白色轿车从路边驶出并切入自车所在车道（Aggressive Cut-in），距离自车约8米，速度较快。【右侧】停有一辆黑色SUV，车身部分遮挡人行道。【交通设施】路面标有自行车道标识，前方可见限速30标志牌及停车让行标志。【关键风险】左侧突发车辆强行切入，存在碰撞风险；前方车辆密集且减速，自车需保持安全跟车距离，避免追尾。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "low_visibility",
+        "rear_collision_risk",
+        "traffic_congestion"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】浓雾加剧，能见度进一步降低至30米内，路灯灯光在雾中形成光晕。【自车】在中间车道减速至停止，车头正对前方交叉路口，地面有“STOP”字样喷涂。【前方】多辆汽车静止，尾灯闪烁，疑似红灯停车。【右侧】一辆银色SUV从右方快速驶入画面，紧急刹车后停于路口右侧，车头朝向自车方向。【左侧】一辆红色公交车从左侧车道高速驶过，车身侧面印有“METRO”字样，车速约40km/h，未见异常作业状态。【交通设施】路口设有红色停车标志牌，地面有“STOP”字迹，右侧有人行横道标线。【关键风险】自车停车时，右侧SUV突然切入，存在开门杀或变道冲突风险；前方车辆密集，若误判红灯状态可能导致闯红灯；公交车高速通过，其盲区可能遮挡行人或非机动车，构成‘鬼探头’隐患。",
+      "risk_tags": [
+        "stop_line_violation_risk",
+        "door_opening_hazard",
+        "ghost_probe_risk",
+        "high_speed_vehicle_crossing"
+      ]
+    }
+  ]
+}

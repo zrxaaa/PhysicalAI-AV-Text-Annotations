@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 06:51:59",
+    "processing_time_seconds": 12.32
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在双向两车道公路上匀速行驶，左侧车道有车辆依次超车，包括蓝色小型电动车、灰色旅行车和红色皮卡；右侧为自行车道，路边有绿化带和树木，天气阴沉但路面干燥。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "前方出现施工区域，左侧设置橙色锥桶与围栏，一辆白色工程卡车停靠路边；自车保持直行，未变道，道路标线显示左转箭头，远处可见交通信号灯和施工机械。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "自车接近交叉路口，左侧施工区有工人活动，右侧为桥梁护栏；前方有多辆货车排队等待红灯，其中一辆白色厢式货车车身印有公司标识，自车减速准备停车。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "自车在交叉口停车等待，前方货车及多辆轿车均静止；右侧车道有大型货车缓慢右转，自车保持原位，交通信号灯为红灯，路面上有清晰的转向箭头标线。"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 06:50:57",
+    "processing_time_seconds": 11.4
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "夜间城市十字路口，自车前方有对向车辆亮着远光灯，右侧人行道上有行人站立，左侧及右侧车道停有多辆汽车，交通信号灯为红灯。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "信号灯转绿，对向车辆开始驶过路口，右侧行人仍站在路边，一辆白色轿车从左侧车道加速通过路口，自车保持静止等待。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "自车启动沿道路直行，进入有电车轨道的街道，左侧出现一辆白色SUV迎面驶来，右侧有黑色轿车驶过，路面湿滑反射灯光。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "自车沿电车轨道继续前行，两侧停放多辆汽车，前方远处可见红色尾灯，表明前方有车辆或交通信号，道路两侧树木和建筑在夜色中轮廓模糊。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车持续向前行驶，道路两侧车辆密集停放，前方红灯再次亮起，自车减速准备停车，周围环境光线昏暗，能见度受雾气影响略有降低。"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.69,
+    "analysis_time": "2026-01-24 11:37:04"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间，路灯照明充足但存在光晕干扰，无明显降水或结冰。【自车】在中间车道匀速沿直道行驶，车头朝向与道路线一致。【左侧】一辆白色轿车从对向车道驶过，完成超车动作；【右侧】多辆静止停放的车辆（含SUV与轿车）沿路边排列，未见行人或动物。【交通设施】道路两侧可见路灯、树木及低矮围栏，无显著施工或障碍物。【关键风险】无明显违规行为或遮挡风险，场景平稳。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】夜间，右侧树丛挂有节日灯饰，灯光反射造成局部眩光。【自车】继续在中间车道匀速前行，接近一个T字路口。【前方】路面出现“STOP”字样标线，右侧立有红色八角形停车标志牌。【左侧】停有一辆深色SUV，车身部分遮挡人行道入口。【非标物体】无动物、施工车或遗撒物。【关键风险】自车在接近路口时未减速，且未观察右侧停车标志牌的完整信息（可能为“Stop Sign”），存在潜在闯红/未礼让风险，但当前无其他车辆或行人进入交叉口，风险暂可控。",
+      "risk_tags": [
+        "potential_ignoring_stop_sign",
+        "lack_of_speed_reduction"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "【环境】夜间，路灯亮度略有下降，能见度稳定。【自车】在中间车道执行左转动作，车头偏航角由正向转为左偏约15°，完成转向后恢复直行。【左侧】一辆深灰色SUV从停车位驶出，横向切入自车前方车道，完成变道动作；【右侧】路边有三角警示牌和锥桶组合围挡，疑似临时施工区域，但无作业车辆或人员活动。【交通设施】路口处设有“YIELD”地面标线，提示让行。【关键风险】左侧SUV变道未打转向灯，且切入速度较快，存在“鬼探头”或加塞风险，自车需保持警惕以避免碰撞。",
+      "risk_tags": [
+        "un signaled_lane_change",
+        "aggressive_cut_in",
+        "partial_obstruction_by_cone_barrier"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】夜间，道路两侧住宅区灯光较弱，树木枝干裸露，无天气异常。【自车】在中间车道恢复匀速直线行驶，车头方向与道路曲率一致。【右侧】一辆白色轿车从后方快速超越自车，完成切出动作；【左侧】多栋独立住宅沿街分布，部分窗户亮灯，未见行人活动。【交通设施】路面上方无信号灯，仅存“STOP”与“YIELD”标线，无新设障碍物。【关键风险】右侧超车车辆速度较快，与自车间距小于5米，存在轻微刮蹭风险，但未发生危险交互，属常规驾驶行为。",
+      "risk_tags": [
+        "high_speed_overtake",
+        "close_proximity_vehicle"
+      ]
+    }
+  ]
+}

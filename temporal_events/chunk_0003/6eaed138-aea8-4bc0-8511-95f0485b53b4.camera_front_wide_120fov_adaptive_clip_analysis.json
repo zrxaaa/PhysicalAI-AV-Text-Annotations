@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:59:17",
+    "processing_time_seconds": 13.28
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车沿街道匀速前行，右侧一辆白色SUV从后方加速并入中间车道，左侧多辆轿车停靠路边，未见行人或显著障碍物。天空微亮，为黄昏时分，路面干燥无积水。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:09",
+      "scene_description": "前方出现黄色斑马线与‘STOP’路面标记，右侧一辆黑色吉普车从停车区驶出并右转，自车减速准备在路口停车，远处可见红绿灯尚未变化，无行人穿越。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:13",
+      "scene_description": "自车在十字路口停车等待，右侧白色轿车完成左转后驶离，前方车辆静止，路口设有红色STOP标志牌，无行人活动，天空中可见新月，光线柔和。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "自车启动继续前行，左侧出现一栋浅蓝色建筑，路边停放多辆汽车，对向车道有车辆驶来但未发生交互，路口无行人，交通状况平稳有序。"
+    },
+    {
+      "time_segment": "00:00:18-00:00:19",
+      "scene_description": "自车经过一个标有‘SCHOOL SLOW’的路段，前方道路两侧停满车辆，无行人或突发障碍，自车保持低速平稳行驶，环境安静，天气晴好。"
+    }
+  ]
+}

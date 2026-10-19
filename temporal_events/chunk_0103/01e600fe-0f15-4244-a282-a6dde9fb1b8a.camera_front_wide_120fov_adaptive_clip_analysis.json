@@ -1,0 +1,33 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.5,
+    "analysis_time": "2026-01-23 01:48:13"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，云层厚重，无明显降水，能见度良好。路面干燥，无积水或结冰。【自车】位于中间车道，沿直道匀速行驶，未进行转向或变道。【周围交通参与者】左侧对向车道有三辆白色轿车在红灯前停车等待；右侧路边停有一辆银色SUV，未移动。【交通设施】前方路口设有红绿灯、左转专用道标识（ONLY）、右转必须右转标志牌（RIGHT LANE MUST TURN RIGHT），路面上标有“ONLY”字样及导向箭头。【关键风险】无明显违规行为或障碍物，场景平稳。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】天空仍为阴云，光线均匀，无天气突变。【自车】保持在中间车道，继续匀速向前行驶，接近十字路口。【周围交通参与者】左侧对向车道的三辆白色轿车开始启动并左转通过路口；右侧一辆银色轿车从路边驶出，沿右转车道完成右转动作，动作流畅，未影响自车。【交通设施】路口信号灯显示为红灯，禁止直行与左转；右转车道允许通行（根据“RIGHT LANE MUST TURN RIGHT”标志）。【关键风险】无违规行为，但左侧车辆在红灯未亮时提前启动，存在轻微闯红灯风险，不过其动作已进入左转专用车道，未直接威胁自车路径。",
+      "risk_tags": [
+        "potential_red_light_violation"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】持续阴天，无降水或强光干扰。【自车】在中间车道维持静止状态，因前方红灯而停车等待。【周围交通参与者】远处对向车道有车辆缓慢驶近，其中一辆红色轿车在红灯前停下；右侧人行横道附近无行人活动。【交通设施】路口信号灯保持红灯状态，右侧“RIGHT LANE MUST TURN RIGHT”标志清晰可见，提示右转车辆需遵守规则。【关键风险】自车处于停车等待状态，无其他车辆或行人侵入本车道；但远处对向车道有车辆在红灯前缓慢逼近，若突然加速可能引发冲突，存在潜在碰撞风险，需保持警觉。",
+      "risk_tags": [
+        "potential_collision_risk",
+        "red_light_waiting"
+      ]
+    }
+  ]
+}

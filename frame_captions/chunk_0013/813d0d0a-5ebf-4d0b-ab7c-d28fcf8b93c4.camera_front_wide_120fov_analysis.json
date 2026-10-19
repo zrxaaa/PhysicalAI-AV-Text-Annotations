@@ -1,0 +1,66 @@
+{
+  "analysis_metadata": {
+    "video_duration": "20.167",
+    "model_used": "qwen3-vl-flash",
+    "analysis_time": "2026-01-17 09:51:04",
+    "keyframe_count": 8,
+    "analysis_type": "natural_language_frame_analysis",
+    "frame_analysis_order": [
+      "00:00:00.033",
+      "00:00:02.900",
+      "00:00:05.767",
+      "00:00:08.633",
+      "00:00:11.533",
+      "00:00:14.400",
+      "00:00:17.267",
+      "00:00:20.167"
+    ],
+    "total_processing_time_seconds": 31.27,
+    "actual_keyframes": 8
+  },
+  "frame_descriptions": [
+    {
+      "timestamp": "00:00:00.033",
+      "scene_overview": "从车内前视视角拍摄，画面因模糊或雨雾导致能见度极低，道路及周边环境轮廓不清，无法识别明确交通物体或设施。",
+      "object_descriptions": []
+    },
+    {
+      "timestamp": "00:00:02.900",
+      "scene_overview": "从车内视角拍摄的模糊道路场景，画面因运动或镜头污染导致严重失焦，难以辨识清晰物体，仅能隐约看到前方道路及两侧模糊轮廓。",
+      "object_descriptions": [
+        "左侧可见一个模糊的深色大型物体，疑似车辆，位于自车左前方，但因图像模糊无法确认其具体类型、距离及相对运动状态。",
+        "画面中央及右侧存在大面积模糊区域，可能为路边景物或对向来车，由于分辨率极低且动态模糊，无法判断其交通属性或行为。"
+      ]
+    },
+    {
+      "timestamp": "00:00:05.767",
+      "scene_overview": "从车内视角拍摄的模糊道路场景，画面因运动或镜头污染导致严重失焦，背景可见树木和天空，路面状况不明。",
+      "object_descriptions": []
+    },
+    {
+      "timestamp": "00:00:08.633",
+      "scene_overview": "从车内视角拍摄的模糊道路场景，能见度低，疑似雨雪天气，前方道路及两侧景物轮廓不清。",
+      "object_descriptions": []
+    },
+    {
+      "timestamp": "00:00:11.533",
+      "scene_overview": "从车内视角拍摄的模糊道路场景，前方路面湿滑，两侧有积雪和光秃树木，天气阴沉且能见度低。",
+      "object_descriptions": []
+    },
+    {
+      "timestamp": "00:00:14.400",
+      "scene_overview": "从车内视角拍摄的雪天道路场景，前方路面湿滑，两侧积雪覆盖，能见度较低，画面整体模糊。",
+      "object_descriptions": []
+    },
+    {
+      "timestamp": "00:00:17.267",
+      "scene_overview": "从车内视角拍摄的雪天道路场景，前方路面被积雪覆盖，两侧树木和远处山体轮廓模糊，整体画面因天气或镜头污渍而失焦。",
+      "object_descriptions": []
+    },
+    {
+      "timestamp": "00:00:20.167",
+      "scene_overview": "从车内视角拍摄的雪天道路场景，前方道路被积雪覆盖，两侧树木和远处山体可见，画面因运动或天气原因模糊不清。",
+      "object_descriptions": []
+    }
+  ]
+}

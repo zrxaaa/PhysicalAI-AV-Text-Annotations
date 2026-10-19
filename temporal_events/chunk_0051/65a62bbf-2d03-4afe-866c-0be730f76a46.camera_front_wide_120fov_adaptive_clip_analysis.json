@@ -1,0 +1,41 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.84,
+    "analysis_time": "2026-01-22 02:52:08"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】夜间暴雨，雨滴密集附着于挡风玻璃，形成大面积水膜与光晕干扰，能见度显著降低。路面积水严重，反射路灯与车灯形成强烈眩光。【自车】位于最左侧车道，沿直线道路匀速前行，未进行变道或转向。【前方】多辆汽车在湿滑路面上行驶，尾灯因雨水散射呈模糊红光；右侧交通信号灯为绿色，指示通行。【交通设施】右侧为混凝土护栏，左侧为高架桥边缘，无明显施工区域。【关键风险】挡风玻璃水渍导致视觉遮蔽，存在“鬼探头”风险；前方车辆刹车灯频繁亮起，暗示前方可能有突发减速或障碍物，但未被清晰识别。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility",
+        "ghost_probe_risk",
+        "braking_pattern_anomaly"
+      ]
+    },
+    {
+      "time_segment": "00:00:06-00:00:12",
+      "scene_description": "【环境】暴雨持续，部分区域出现局部雾化，雨刷器动作频繁但未能完全清除水膜，视野仍受干扰。【自车】从最左侧车道向右轻微转向，进入中间车道，车头偏航角约5°，完成平缓变道。【周围】右侧车道有一辆白色轿车在后方跟随，保持安全距离；左前方对向车道有数辆车快速驶过，车流密度中等。【交通设施】道路右侧出现橙色锥桶，提示前方有临时施工或改道区域；远处可见桥梁结构与路灯照明。【非标准物体】无特种车辆、动物或遗撒物。【关键风险】自车变道过程中，右侧车道车辆未及时调整速度，存在轻微切入风险；锥桶区域暗示潜在施工区，需警惕突发障碍物或行人。",
+      "risk_tags": [
+        "lane_change_with_lateral_proximity",
+        "cone_zone_warning",
+        "partial_obstruction_by_weather"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雨势略有减弱，但仍为夜间强降雨，路面反光依旧强烈，部分区域出现水雾漂浮。【自车】已稳定在中间车道，保持匀速沿弯曲道路前行（道路曲率半径约300米），未进行紧急制动或转向。【前方】多辆汽车在湿滑路面上匀速行驶，尾灯呈连续红色光带；右侧护栏外可见植被与低矮建筑轮廓。【交通设施】道路两侧设有路灯，间距约50米，提供基本照明；无信号灯或施工标志。【非标准物体】无异常车辆、动物或遗撒物。【关键风险】由于路面湿滑及视线模糊，自车需维持更长跟车距离；前方车辆若突然急刹，自车反应时间受限，存在追尾风险。",
+      "risk_tags": [
+        "wet_road_surface",
+        "longitudinal_following_distance_increase_required",
+        "low_visibility_driving_condition"
+      ]
+    }
+  ]
+}

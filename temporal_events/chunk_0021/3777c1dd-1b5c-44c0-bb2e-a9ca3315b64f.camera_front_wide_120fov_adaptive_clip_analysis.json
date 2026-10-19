@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 06:35:22",
+    "processing_time_seconds": 12.85
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "自车在林间双车道公路上沿弯道平稳行驶，道路两侧为茂密树木与土坡，阳光透过树冠形成斑驳光影，前方无其他车辆，路面标线清晰。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "随着车辆继续前行，阳光逐渐被浓密树冠遮挡，视野略显昏暗，道路仍保持蜿蜒状态，右侧出现黄色弯道警示标志，未见其他交通参与者。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "远处对向车道出现一辆白色皮卡车，正沿弯道迎面驶来，自车保持当前车道和速度，未进行变道或减速，两车将在弯道中段交汇但无冲突风险。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "白色皮卡车在弯道处完成会车，逐渐驶离视线范围，自车继续沿道路前行，周围环境恢复为林木环绕的自然路段，无行人或其他障碍物。"
+    }
+  ]
+}

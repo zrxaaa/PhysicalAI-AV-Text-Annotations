@@ -1,0 +1,48 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.38,
+    "analysis_time": "2026-01-23 06:57:52"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，无降水，能见度良好，路面干燥。【自车】位于中间车道，匀速沿直道行驶。【左侧】一辆红色小型货车与白色奔驰SUV并行停靠于路边，未移动；后方一辆黑色奔驰GLC SUV从对向车道驶来，正向自车方向靠近，处于左前侧约15米处，运动状态为匀速接近。【右侧】一辆红色大众Polo静止停放于路肩，未参与交通流。【关键风险】对向奔驰SUV在无明显转向意图下持续逼近自车车道，存在潜在切出风险，但当前未越线，暂不构成紧急避让。",
+      "risk_tags": [
+        "potential_cut_in",
+        "oncoming_vehicle_close_proximity"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】阴天，光线均匀，无遮挡。【自车】保持中间车道匀速前行。【左侧】一辆橙色“DERICH WEILER”货运卡车（梅赛德斯底盘）从对向车道驶入本车道，正在完成超车动作，车身占据自车左侧车道，相对速度较快，已切入至自车左前方约8米处。【右侧】一辆灰色奥迪A4旅行车从后方加速超越自车，完成切出动作。【交通设施】道路两侧建筑密集，人行道上有垃圾桶及少量行人，未进入车道。【关键风险】货运卡车超车行为具有高风险性，其车身宽度大、盲区多，若突然变道或制动，可能引发碰撞；同时右侧奥迪车高速切出，形成双侧夹击态势，需警惕横向交互冲突。",
+      "risk_tags": [
+        "high_speed_cut_out",
+        "large_vehicle_crossing",
+        "dual_lateral_interaction"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "【环境】阴天，局部有树荫遮挡，光照变化轻微。【自车】继续在中间车道匀速行驶，通过人行横道区域。【前方】一辆白色轿车在斑马线前减速停车，等待行人通行。【左侧】一辆白色“Rent-a-Car”搬家货车停靠于路边，车厢门打开，一名搬运工推着手推车从车尾走向人行道，面部朝向右前方，手部动作显示正在搬运纸箱。【右侧】一栋商业楼前有“märklin”店铺招牌，门前无行人活动。【关键风险】搬运工在车流中行走且未穿戴反光装备，存在“鬼探头”风险；前方车辆临时停车导致自车需减速，若后车跟车过近易引发追尾。",
+      "risk_tags": [
+        "pedestrian_in_traffic_zone",
+        "unprotected_worker_crossing",
+        "rear-end_collision_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】阴天，无降水，视野开阔。【自车】在中间车道维持匀速行驶，接近下一个路口。【左侧】一辆蓝色小型车与一辆深色轿车依次停靠，未移动；后方一辆银色大众高尔夫从对向车道驶来，已完成超车。【右侧】一辆白色日产逍客SUV从停车位驶出，向右转弯进入主路，车头偏航角约30°，运动轨迹与自车平行但距离拉远。【交通设施】前方设有“P”字停车标志和自行车道标线，路边有“Ulmert”药店标识。【关键风险】右侧车辆转弯时未充分观察后方，存在与自车发生侧面碰撞的潜在风险；此外，路边商铺门口有行人站立，视线被建筑物部分遮挡，存在“开门杀”隐患。",
+      "risk_tags": [
+        "right_turn_conflict",
+        "partial_obstruction_by_building",
+        "door_opening_risk"
+      ]
+    }
+  ]
+}

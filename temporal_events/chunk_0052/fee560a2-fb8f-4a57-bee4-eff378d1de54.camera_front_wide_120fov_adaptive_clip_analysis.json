@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.79,
+    "analysis_time": "2026-01-22 03:28:17"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴朗天气，能见度良好，无降水或遮挡。【自车】位于中间车道，匀速沿直道行驶，未进行变道或转向。【周围车辆】左侧对向车道有多辆轿车和SUV快速驶过；右侧邻车道有一辆银色SUV与自车并行，保持稳定距离；前方一辆深红色SUV在同车道内匀速行驶。【交通设施】道路右侧有高架墙及绿化带，远处可见黄色“SLOW TRAFFIC AHEAD LEFT”警示牌。【关键风险】无明显违规行为或障碍物，场景平稳。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】持续晴天，光照均匀，无遮挡。【自车】仍保持在中间车道，匀速行驶，随道路微弯向前。【周围车辆】左侧对向车道车流密集，多辆轿车、SUV交替通过；右侧车道一辆深红色SUV完成超车动作，向右切出至最右侧车道；后方一辆银色轿车从右侧超车后切入自车左后侧邻车道。【交通设施】路面上出现“LANE”、“EXPRES”等白色路面标线，提示前方为高速出口导向区；左侧出现“EXIT ONLY”指示牌。【关键风险】右侧银色轿车在未打转向灯情况下突然切入左后侧邻车道（Aggressive Cut-in），但因距离较远且自车保持匀速，未构成直接碰撞威胁。",
+      "risk_tags": [
+        "aggressive_cut_in"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】阳光强烈，部分区域存在轻微眩光，但未影响视线。【自车】维持中间车道，匀速行驶，未变道。【周围车辆】前方黑色SUV在同车道内行驶，车距稳定；左侧对向车道车流持续，包括一辆白色皮卡和一辆灰色SUV；右侧车道一辆白色皮卡在自车右后方缓慢行驶，未超车。【交通设施】上方出现大型绿色高速公路指示牌，显示“EXIT 409 Whipple Ave 1¼ MILES”及“WEST Woodside Rd / Seaport Blvd”，下方有“EXIT ONLY”标识；道路两侧出现工业建筑群和低矮灌木丛。【关键风险】无突发障碍物或违规行为，但右侧白色皮卡与自车纵向距离缩小，存在潜在追尾风险，需保持警惕。",
+      "risk_tags": [
+        "potential_tailgating"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】晴空万里，视野开阔，无天气异常。【自车】继续在中间车道匀速行驶，道路略有弯曲，自车随曲率自然前行，未主动转向。【周围车辆】前方黑色SUV保持稳定速度；左侧对向车道车流中出现一辆白色特斯拉Model Y，正从左侧车道超越；右侧车道白色皮卡已驶离自车视野范围。【交通设施】道路左侧出现“Carbon”字样建筑外墙，右侧远处有“Public Storage”商业招牌；前方路牌再次确认出口信息。【关键风险】无显著危险源，但左侧特斯拉Model Y加速超越时短暂进入自车盲区，存在轻微视觉遮挡风险，不过其动作规范，未构成实际威胁。",
+      "risk_tags": [
+        "blind_spot_crossing"
+      ]
+    }
+  ]
+}

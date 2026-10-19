@@ -1,0 +1,45 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.61,
+    "analysis_time": "2026-01-24 11:33:51"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴朗白天，光照充足，无明显天气异常。【自车】位于最右侧车道，沿弯道平缓向左转向行驶，未跨越车道线，保持沿曲率道路前行。【周围交通参与者】左侧路肩有稀疏灌木与树木，无车辆或行人；远处可见一栋多层建筑及少量停放车辆。【交通设施】左侧设有“LAST LANE CARPOOLS FOR MORE THAN 2”指示牌，提示专用车道信息。【关键风险】无显著风险，但弯道处视野受限，需警惕对向来车。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】阳光开始出现强烈逆光，镜头产生眩光，能见度轻微下降。【自车】继续在右侧车道匀速行驶，横向动作为持续左转以适应弯道。【周围交通参与者】前方交叉路口可见数辆汽车（含白色SUV）在红灯前等待，右侧路边有交通信号灯柱。【交通设施】右侧出现“STOP HERE ON RED”标志牌，提示停车规则；前方高架桥结构逐渐进入视野，桥下有烟雾状排放物（疑似工业区排气）。【关键风险】强逆光导致视线模糊，可能影响对红灯状态的判断；高架桥下方存在排放物，可能存在空气污染或视觉干扰，增加驾驶认知负荷。",
+      "risk_tags": [
+        "glare_effect",
+        "reduced_visibility",
+        "industrial_emission"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "【环境】自车驶入高架桥下方，光线骤暗，形成隧道效应，随后再次被强光照射。【自车】保持当前车道，匀速通过桥下区域，无变道行为。【周围交通参与者】桥下可见对向车道有车辆通行，速度平稳；右侧坡面有植被覆盖，无行人或动物。【交通设施】桥上悬挂绿色路牌：“De La Cruz Blvd 1 1/4, Trimble Road 1 1/2, JUNCTION 87 SOUTH”，并标有“15 FT 2 IN”限高标识。【关键风险】进出桥洞时明暗剧烈变化，易造成短暂视觉适应不良；限高标识提示大型车辆需注意，但本车为普通轿车，无碰撞风险，但仍属潜在视觉干扰源。",
+      "risk_tags": [
+        "light_transition_risk",
+        "tunnel_effect",
+        "height_clearance_warning"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】出桥后阳光直射，形成严重眩光，路面反光明显，部分区域有积水痕迹。【自车】在中间车道维持匀速行驶，未进行转向或变道。【周围交通参与者】左侧为多车道高速公路，有多辆轿车和货车同向行驶，车距稳定；右侧为绿化带与低矮围栏，无行人或非机动车。【交通设施】无明显标志牌，但远处可见广告牌与山丘轮廓。【关键风险】强逆光严重影响视线清晰度，可能导致误判前方车辆距离或车道线位置；路面湿滑区域（积水）增加打滑风险，尤其在高速行驶中需谨慎控制车速。",
+      "risk_tags": [
+        "severe_glare",
+        "wet_road_surface",
+        "high_speed_risk"
+      ]
+    }
+  ]
+}

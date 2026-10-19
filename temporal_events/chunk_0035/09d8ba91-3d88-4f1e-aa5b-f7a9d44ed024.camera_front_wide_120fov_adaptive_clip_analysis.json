@@ -1,0 +1,42 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.6,
+    "analysis_time": "2026-01-21 19:59:02"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "【环境】阴天，天空灰暗，路面干燥但略显湿滑，无明显降水。【自车】位于交叉路口中间车道，正通过绿灯信号，执行直行加速动作。【周围交通参与者】左侧对向车道有一辆深色SUV正在左转，已进入路口；右侧人行横道附近有两名行人站立，未横穿。【交通设施】路口设有双向绿灯、方向指示牌（左转箭头）、‘FREEWAY ENTRANCE’路牌及‘RAMP METERED AHEAD WHEN FLASHING’警示牌。【关键风险】左侧SUV左转时未礼让直行自车，存在轻微冲突风险，但因距离较远且双方均在合法通行，暂不构成紧急事件。",
+      "risk_tags": [
+        "potential_conflict",
+        "left_turn_crossing"
+      ]
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "【环境】阴天，能见度中等，道路两侧植被茂密，部分树木落叶堆积于路边。【自车】驶入匝道入口，沿右前方弯曲道路匀速前进，车道线清晰，未变道。【周围交通参与者】前方约50米处有一辆黑色轿车在同向车道行驶，保持稳定车距；右侧路肩有灌木丛和混凝土护栏，无行人或动物活动。【交通设施】路旁设有‘FREEWAY ENTRANCE’绿色标志牌，以及一个黄色菱形警示牌提示‘RAMP METERED AHEAD WHEN FLASHING’。【关键风险】无显著风险，但右侧混凝土墙上有涂鸦，可能影响视觉辨识，非安全威胁。",
+      "comment": "此段为平稳过渡阶段，无高危行为或遮挡，故不标记风险标签。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】阴天，光线由室外渐入隧道口，出现明暗突变。【自车】进入混凝土结构的地下通道，保持当前车道匀速直线行驶。【周围交通参与者】左侧为高架桥下辅路，有数辆汽车在并行车道行驶（包括一辆银色SUV），与自车同向；右侧为混凝土侧墙，无其他车辆或行人。【交通设施】隧道入口上方设有限高标志（限高3.0m）及方向指示箭头；隧道内照明良好，顶部有通风管道。【关键风险】隧道内光线变化剧烈，可能导致短暂视觉适应延迟；左侧辅路车辆速度较快，存在轻微切出风险，但未实际切入自车车道。",
+      "risk_tags": [
+        "light_transition_risk",
+        "cross_traffic_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】阴天，隧道出口后恢复户外光照，路面干燥，无积水。【自车】驶出隧道，进入主干道，保持中间车道匀速行驶。【周围交通参与者】左侧车道有一辆白色SUV正在超车，已完成变道；前方约100米处有两辆轿车（一红一白）在同向车道行驶，车距适中；右侧为绿化带与混凝土护坡，无行人或障碍物。【交通设施】隧道出口处设有‘SPEED LIMIT 55’限速标志及‘SHOULD USE LEFT LANE WHEN METERED’提示牌；道路两侧路灯正常亮起。【关键风险】无直接碰撞或违规行为，但左侧SUV超车动作迅速，若其突然回位可能造成横向干扰，需保持警惕。",
+      "risk_tags": [
+        "lane_change_caution",
+        "speed_variability"
+      ]
+    }
+  ]
+}

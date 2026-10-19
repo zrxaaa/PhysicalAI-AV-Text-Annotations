@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 00:06:05",
+    "processing_time_seconds": 23.86
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "车辆从高架桥下驶出，前方道路右侧有白色SUV和银色轿车停靠，左侧人行道有行人行走，自车保持直行通过桥洞区域，路面干燥，天气晴朗。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "车辆接近十字路口，一辆红灰相间的公交车正在左转，车身横跨路口，自车在停止线前减速停车，路口设有红色STOP标志牌，右侧人行道有树木和停放车辆。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "公交车完成左转后驶离路口，自车向前行驶，前方为单向街道，右侧有一辆红色SUV从支路驶出并右转，两名行人沿左侧人行道行走，路边有电线杆和住宅建筑。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "自车继续沿直线道路行驶，对向车道有银色轿车和U-HAUL货车迎面驶来，右侧路边有消防栓和自行车道标识，左侧有绿化带和低矮围墙，无行人或突发障碍物。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "车辆平稳通过街区，前方道路两侧为多层住宅楼，电线杆密集，偶有行人出现在远处人行道，自车未进行转向或变速，保持匀速直行，环境安静，无交通信号灯或交叉冲突。"
+    }
+  ]
+}

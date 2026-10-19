@@ -1,0 +1,36 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 9.94,
+    "analysis_time": "2026-01-24 07:27:14"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "【环境】阴雨天气，路面湿滑积水，能见度较低，雨滴附着于挡风玻璃影响视线。【自车】位于中间车道，沿弯曲石板路匀速前行，未进行转向或变道。【左侧】一排白色及浅灰色住宅楼，部分带铁艺围栏；【右侧】绿色施工围挡与工业风格建筑并行，无明显行人或车辆活动。【交通设施】道路两侧电线杆密集，路灯正常亮起，无明显标线或信号灯干扰。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】持续阴雨，路面水雾反射加剧视觉干扰。【自车】保持中间车道匀速行驶，随道路微弯自然前进，未发生横向偏移。【前方】一辆黑色轿车（车牌区域模糊）在前方约15米处同向行驶，尾灯常亮，表明处于缓行或制动状态。【右侧】一栋黄绿色建筑墙面有菱形窗格防护网，无行人或动物出现。【关键风险】前方黑车刹车灯亮起，但未见其减速幅度变化，存在“前车急刹但自车未感知”的潜在碰撞风险，需警惕突发制动。",
+      "risk_tags": [
+        "potential_braking_suddenness",
+        "reduced_visibility_rain"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雨势略有减弱，但仍湿滑，路面反光明显。【自车】在接近十字路口时减速，准备停车。【前方】黑色轿车在斑马线前完全停下，刹车灯持续亮起。【左侧】一辆黄色小型货车停靠在路边，车身横跨人行道边缘，未开启警示灯。【右侧】可见红色“STOP”标志牌，位于路口右转方向，提示交叉口停车义务。【交通设施交互】自车在斑马线前与前车同步停车，遵守停车让行规则。【非标准目标】黄色货车静止停放，无作业行为，未见司机或乘客活动，无明显危险动作。【关键风险】路口存在多车交汇可能（包括对向驶来的黑色轿车、右侧待转车辆），且自车需在停车状态下等待通行信号或确认安全，存在“鬼探头”或“加塞”风险——尤其当右侧车辆试图强行左转而未观察后方时。",
+      "risk_tags": [
+        "intersection_hazard",
+        "multi_vehicle_conflict",
+        "stop_sign_compliance_required",
+        "parked_vehicle_obstruction_risk"
+      ]
+    }
+  ]
+}

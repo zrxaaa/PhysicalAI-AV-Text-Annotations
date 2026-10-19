@@ -1,0 +1,42 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.71,
+    "analysis_time": "2026-01-22 23:26:22"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】暴雨天气，路面严重积水，雨滴附着于挡风玻璃形成水雾与光晕，严重影响视线。【自车】位于中间车道，正沿道路线性减速，准备在交叉路口停车。【左侧】一辆白色SUV停靠在路边停车场入口处，未移动。【右侧】一辆银色轿车从右前方驶过，尾灯因雨水反射呈模糊光斑。【交通设施】前方路口信号灯为红灯，但因雨雾遮挡，部分灯组显示不清晰。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility",
+        "braking_for_intersection"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:12",
+      "scene_description": "【环境】雨势略有减弱，但仍持续，路面反光强烈，灯光产生明显眩光。【自车】保持静止状态，在交叉路口等待红灯，未发生横向移动。【左前方】一栋砖红色建筑上“CACCIAFORT”霓虹招牌亮起，其后方有施工塔吊轮廓可见。【右前方】多辆汽车在对向车道排队等候，包括一辆白色厢式货车和数辆私家车。【关键风险】右侧人行横道区域出现一名行人（性别不明），身穿深色衣物，手持雨伞，正从路缘石向马路中央行走，但未走斑马线，且面部朝向自车方向，存在闯红灯或鬼探头风险。同时，右后方一辆红色SUV突然加速切入自车所在车道，意图超车，未打转向灯。",
+      "risk_tags": [
+        "jaywalking",
+        "aggressive_cut_in",
+        "pedestrian_crossing_risk",
+        "poor_visibility"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】夜间城市照明增强，路灯与车灯交织形成强逆光，雨滴仍在持续落下，挡风玻璃水渍导致画面边缘模糊。【自车】仍处于停止状态，等待红灯转绿。【左侧】一辆白色轿车从左前侧缓慢驶入自车所在车道，疑似变道失败，车身倾斜，刹车灯亮起。【右侧】红色SUV完成超车动作，已驶离至右前方车道；同时，一辆黑色轿车从右后方快速接近并切入自车右侧盲区，未开启转向灯。【交通设施】前方十字路口信号灯仍为红灯，但远处可见绿灯倒计时提示。【关键风险】右侧后方车辆强行切入，构成“切出”威胁；左侧变道车辆可能引发剐蹭；行人仍在横穿路径中，未完全离开车道，存在碰撞可能性。",
+      "risk_tags": [
+        "blind_spot_cut_in",
+        "unsafe_lane_change",
+        "pedestrian_in_traffic",
+        "high_light_glare"
+      ]
+    }
+  ]
+}

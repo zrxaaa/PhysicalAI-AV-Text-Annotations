@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 06:45:05",
+    "processing_time_seconds": 13.46
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在晴朗天气下沿双黄线道路行驶，前方有一辆银色SUV保持匀速，右侧出现黄色弯道警示牌，路边有落叶和光秃树木，无行人或突发障碍物。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "车辆继续直行，经过一个路口，右侧出现带美国国旗的住宅区入口标志，前方银色SUV未变道，左侧对向车道有黑色皮卡驶过，道路两侧有低矮灌木和路灯，无交叉冲突。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "自车接近第二个路口，右侧出现限速25英里标志，一辆白色面包车从左侧车道超车并入前方车道，银色SUV仍保持前车位置，道路两侧可见住宅与商铺，无行人或临时障碍。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "车辆通过路口后，前方银色SUV在右转车道减速，自车保持安全距离跟随，左侧对向车道有深色SUV驶过，路边有花坛和小型建筑，无紧急事件发生。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车继续沿直线道路行驶，前方银色SUV进入下一个十字路口左转，自车未改变车道或速度，道路两侧为住宅区，树木部分落叶，光线充足，无显著动态交互。"
+    }
+  ]
+}

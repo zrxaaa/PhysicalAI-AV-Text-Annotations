@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 03:13:15",
+    "processing_time_seconds": 10.68
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "自车在夜间桥面主车道匀速行驶，前方有一辆载满货物的卡车，右侧车道一辆黑色轿车加速并入中间车道，与自车发生短暂并行。桥体结构清晰可见，路灯照明良好，路面干燥无积水。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:11",
+      "scene_description": "自车完成对前方卡车的超越，卡车逐渐被甩在后方，右侧车道一辆白色货车从后方快速驶过，与自车形成短暂并行。桥面结构持续延伸，远处城市天际线灯光闪烁，无行人或其他障碍物出现。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:16",
+      "scene_description": "自车保持当前车道继续前行，前方视野开阔，无其他车辆近距离交互。左侧车道有车辆缓慢行驶，但未进入自车路径范围。桥下结构和照明系统稳定，环境安静，无突发交通事件。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:20",
+      "scene_description": "自车接近桥段末端，右侧出现一辆白色厢式货车从后方超车，迅速完成变道并驶离自车视野。桥面结构逐渐过渡至开放区域，远处城市建筑群轮廓清晰，自车维持稳定速度行驶。"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.52,
+    "analysis_time": "2026-01-24 10:28:34"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间暴雨天气，路面严重积水，雨水在车灯照射下形成强烈反光，雨刮器高频工作但视野仍受水幕干扰。【自车】位于中间车道，匀速沿直线道路前行，未进行变道或转向。【右侧】一辆红色轿车从后方快速超车，切入自车右前方车道，完成变道动作。【交通设施】道路两侧路灯照明不足，左侧为高大树木遮挡，右侧可见电线杆及部分住宅轮廓。",
+      "risk_tags": [
+        "heavy_rain",
+        "high_speed_overtake",
+        "reduced_visibility"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】持续暴雨，雨滴密集附着于挡风玻璃，部分区域因雨刷扫动产生动态模糊。【自车】保持中间车道匀速行驶，随道路轻微左弯。【右侧】多辆静止停放的车辆（含白色皮卡、工程车）沿路边排列，部分车身被雨水浸湿。【交通设施】路面上出现“STOP AHEAD”字样标线，提示前方路口需停车。【关键风险】右侧停放车辆与自车间距小于5米，存在“开门杀”潜在风险；同时，一辆白色货车从右侧车道加速超越自车，其车轮溅起大量水花，短暂遮蔽自车前视镜头。",
+      "risk_tags": [
+        "parked_vehicle_door_risk",
+        "water_splash_obstruction",
+        "high_speed_crossing_vehicle"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】雨势略有减弱，但仍维持中雨等级，能见度约30米。【自车】在中间车道减速，准备进入前方交叉路口。【左侧】对向车道有数辆汽车驶过，其中一辆银色SUV在左前方邻车道减速并靠右，疑似准备右转。【右侧】一个绿色自行车道标识出现在路面，旁边设有“STOP”地面标线。【非标物体】右侧人行道边缘有一名行人（性别不明）站立，身穿深色衣物，面向自车方向，手持雨伞，身体微倾，疑似等待过马路。【关键风险】行人处于自车右前方盲区，且无明显通行信号，存在“鬼探头”风险；同时，前方路口处有多个停车标志和交通锥桶，暗示施工或临时管制区域。",
+      "risk_tags": [
+        "pedestrian_in_blind_spot",
+        "ghost_probe_risk",
+        "temporary_construction_zone"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】暴雨加剧，雨刷频率提升至最高档，挡风玻璃上水雾更厚，视觉干扰显著。【自车】在交叉路口前完全停车，等待绿灯。【前方】路口中央有清晰的“STOP”地面标线，两侧设有多组红白相间交通锥桶，围挡出施工或管制区域。【右侧】一辆黑色SUV从右侧车道缓慢驶入路口，车头朝向自车所在车道，疑似准备左转。【左侧】对向车道有车辆排队等候，尾灯闪烁。【关键风险】右侧SUV在自车正前方5米内突然启动并加速左转，未提前打转向灯，构成“违规强行变道”行为；同时，由于雨雾遮挡，自车无法清晰识别该车是否已越过停止线，存在碰撞或追尾风险。",
+      "risk_tags": [
+        "unannounced_left_turn",
+        "aggressive_driving",
+        "visibility_degradation_collision_risk"
+      ]
+    }
+  ]
+}

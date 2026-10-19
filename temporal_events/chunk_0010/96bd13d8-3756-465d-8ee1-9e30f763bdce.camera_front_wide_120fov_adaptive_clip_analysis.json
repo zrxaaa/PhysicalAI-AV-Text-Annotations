@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 02:58:00",
+    "processing_time_seconds": 12.23
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车在十字路口等待红灯，前方一辆白色货车和一辆灰色轿车从左侧车道驶过，交通信号灯由红转绿，自车准备前行。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "自车通过交叉口后直行，右侧出现QuickChek加油站及价格牌，左侧有“ONLY”标线引导左转车道，对向车道有车辆驶来但未发生交互。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车沿双黄线道路继续行驶，右侧路边出现商业广告牌与停车区域，左侧有对向车辆驶过，道路两侧有电线杆和树木，无行人或突发障碍物。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车经过Morganville Square商业区入口标志，右侧出现多面旗帜广告牌，对向车道有SUV和轿车交替驶过，路面标线清晰，天气晴朗无遮挡。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车接近下一个路口，前方道路右侧出现“NO STOPPING OR STANDING”标志，远处可见红绿灯和少量停靠车辆，自车保持匀速直行，无紧急行为。"
+    }
+  ]
+}

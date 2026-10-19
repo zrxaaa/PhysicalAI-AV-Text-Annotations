@@ -1,0 +1,72 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 07:05:28",
+    "processing_time_seconds": 17.02
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "夜间城市街道，自车在中间车道行驶，前方人行横道有两名行人正在穿越马路，右侧商铺灯光照亮街景，路面有电车轨道。行人完成穿越后，自车继续向前行驶。",
+      "traffic_objects": [
+        {
+          "type": "pedestrian",
+          "position": "right crosswalk",
+          "motion": "crossing street from right to left"
+        }
+      ]
+    },
+    {
+      "time_segment": "00:00:03-00:00:09",
+      "scene_description": "自车保持匀速前进，道路两侧停有车辆，左侧为电车轨道，右侧建筑立面有霓虹灯装饰。前方出现红色“STOP”路标和停车线，自车减速准备停车。",
+      "road_conditions": [
+        {
+          "type": "stop_sign",
+          "location": "ahead on right side",
+          "status": "visible and approaching"
+        }
+      ]
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "自车在十字路口停车等待，前方一辆白色SUV从左侧车道驶过并右转，同时右侧人行道上有行人站立。自车保持静止，观察交通状况，未见其他冲突车辆或行人进入路径。",
+      "traffic_objects": [
+        {
+          "type": "vehicle",
+          "position": "left lane, turning right",
+          "motion": "passing through intersection"
+        },
+        {
+          "type": "pedestrian",
+          "position": "right sidewalk",
+          "motion": "standing, not crossing"
+        }
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:18",
+      "scene_description": "信号灯变绿，自车启动前行，右侧路边停放多辆汽车，包括皮卡和轿车。左侧电车轨道旁设有公交站台，远处可见红绿灯及对向车流。自车平稳加速，无紧急避让行为。",
+      "road_conditions": [
+        {
+          "type": "traffic_light",
+          "location": "far ahead",
+          "status": "green"
+        }
+      ]
+    },
+    {
+      "time_segment": "00:00:18-00:00:20",
+      "scene_description": "自车继续沿直线车道行驶，右侧车辆逐渐增多，部分车辆停靠在路边。前方无显著障碍物或行人，环境稳定，自车维持当前速度与车道，未发生转向或变道动作。",
+      "traffic_objects": [
+        {
+          "type": "vehicle",
+          "position": "right side, parked along curb",
+          "motion": "stationary"
+        }
+      ]
+    }
+  ]
+}

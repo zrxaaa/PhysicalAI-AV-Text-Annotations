@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 08:50:36",
+    "processing_time_seconds": 20.08
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在夜间沿双车道道路行驶，左侧为停车场区域，右侧为住宅区；路灯照明良好，路面干燥，无行人或显著障碍物。自车保持直行，未进行变道或加速操作。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "车辆接近一个弯道路口，前方出现对向来车灯光，右侧路边有蓝色垃圾桶和消防栓；自车继续直行并略微减速，未与任何车辆或行人发生交互。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "自车进入直道路段，右侧有白色皮卡和银色SUV先后从路边驶出并汇入主路，自车保持当前车道，未进行超车或避让动作。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "对向车道有数辆汽车迎面驶来，其中一辆深色轿车从左侧车道快速超越自车；自车维持稳定速度，未改变行驶路径或加减速。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "道路两侧出现更多住宅及停放车辆，前方远处可见红绿灯信号，但当前为绿灯通行状态；自车持续直行，未遇行人或其他动态障碍物。"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 01:37:15",
+    "processing_time_seconds": 16.17
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车在十字路口起步，前方绿灯亮起，左侧一辆深色轿车从对向车道驶过，右侧人行道上有行人站立等待，交通信号灯为绿色，道路两侧有电线杆和建筑。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "自车沿街道向前行驶，道路两侧停满车辆，右侧有一辆白色厢式货车正在缓慢驶离路边停车位，左侧出现一排停放的轿车与SUV，远处可见一座钟楼建筑。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车继续前行，道路两侧车辆密集，右侧有树木遮挡部分视线，前方出现双向车道标线，对向车道有车辆驶来，包括一辆黑色轿车和一辆白色SUV，自车保持中速平稳行驶。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车接近一个路口，左侧出现一辆红色救护车停靠在路边，旁边有医护人员推着担架，右侧有行人从人行道经过，自车减速并保持安全距离通过该区域。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车驶过救护车后继续直行，前方道路两侧车辆排列整齐，右侧有围栏和草坪，左侧为多层建筑，天气晴朗，路面干燥，无明显障碍物或突发状况。"
+    }
+  ]
+}

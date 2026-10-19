@@ -1,0 +1,22 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 8.05,
+    "analysis_time": "2026-01-23 14:06:03"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:19",
+      "scene_description": "【环境】夜间行车，无路灯照明，仅靠车灯照亮前方约30米路面。天空阴沉，能见度受限，无明显降雨或结冰迹象，但整体环境昏暗，存在视觉盲区风险。【自车】位于中间车道，全程匀速沿道路曲线行驶，未进行变道或转向操作，车头始终对准道路中心线延伸方向。【交通设施】道路两侧设有白色护栏及路肩反光柱，右侧护栏外为林地，左侧为开阔田野区域；护栏与路肩在车灯照射下形成连续的视觉参照物，辅助路径识别。【周围环境】无其他车辆、行人或动物出现，视野内无任何动态目标。【关键风险】虽无直接交互对象，但因夜间黑暗环境、缺乏外部光源及道路两侧植被遮挡，存在“鬼探头”（Ghost Probe）潜在风险——若前方或侧方突然出现行人/动物，因可视距离短且反应时间不足，易引发碰撞事故。此外，道路呈缓弯走向，需持续关注曲率变化以避免偏离车道。",
+      "risk_tags": [
+        "night_driving_risk",
+        "limited_visibility",
+        "ghost_probe_potential"
+      ]
+    }
+  ]
+}

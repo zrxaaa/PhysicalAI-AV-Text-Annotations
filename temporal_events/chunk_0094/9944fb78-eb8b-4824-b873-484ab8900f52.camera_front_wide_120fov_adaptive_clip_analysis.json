@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.35,
+    "analysis_time": "2026-01-22 21:58:19"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间暴雨天气，路面严重积水，雨水反射路灯与车灯形成强烈眩光，能见度显著降低。【自车】位于中间车道，沿直线道路匀速行驶，未进行转向或变道。【前方】多辆汽车尾灯在雨幕中呈红色光带，因积水反光导致视觉模糊。【右侧】一栋高层建筑轮廓在雾气中若隐若现，部分窗户亮灯。【交通设施】道路两侧路灯均匀分布，但受雨雾影响光线散射严重。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility",
+        "glare_effect"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】雨势略有减弱，但仍持续，路面水膜较厚，灯光反射明显。【自车】保持中间车道匀速前行，车头随道路微弯自然调整方向，无主动转向动作。【左侧】对向车道有数辆轿车驶过，车速稳定；路边可见低矮商业建筑群，部分店铺已关闭。【右侧】一栋多层办公楼旁设有公交站台，无行人活动。【交通设施】前方路口信号灯由红转绿，绿灯清晰可见，倒影在湿滑路面上形成绿色光斑。【关键风险】前方一辆深色SUV在绿灯亮起后突然减速，疑似未注意前方路况，存在潜在追尾风险。",
+      "risk_tags": [
+        "sudden_deceleration",
+        "green_light_confusion",
+        "wet_surface_glare"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】进入交叉路口区域，雨雾稍浓，能见度约50米。【自车】维持当前车道，接近路口时轻微减速，准备通过人行横道。【前方】多个交通信号灯组显示为绿灯，其中右侧直行灯与左转灯同步亮起。【左侧】一排住宅式小楼沿街排列，门前有树木遮挡视线。【右侧】一个黄色“YIELD”（让行）标志牌立于路口拐角，下方有小型公交站亭。【非标物体】在右前方人行横道边缘，短暂出现一名行人（面部朝向自车方向），身着深色外套，手持伞具，正从树荫下走向马路中央，步态平稳但未观察来车。【关键风险】行人处于盲区边缘，且未走斑马线，存在“鬼探头”和违规横穿风险；同时，自车需警惕右侧可能突然切入的非机动车或转弯车辆。",
+      "risk_tags": [
+        "pedestrian_crossing_violation",
+        "ghost_probe_risk",
+        "blind_spot_interaction"
+      ]
+    }
+  ]
+}

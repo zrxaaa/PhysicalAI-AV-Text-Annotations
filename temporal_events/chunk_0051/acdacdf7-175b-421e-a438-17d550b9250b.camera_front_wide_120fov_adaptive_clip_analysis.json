@@ -1,0 +1,57 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.28,
+    "analysis_time": "2026-01-22 03:02:32"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，云层厚重，无明显降水，路面干燥但略显湿滑。【自车】位于中间车道，正前方为十字路口，处于停车等待状态。【交通设施】前方电子告示牌显示“EXPRESS LANES CLOSED DO NOT ENTER”，红灯亮起；右侧人行横道及路侧有“NO PARKING”标志。【周围车辆】左侧一辆灰色小型SUV从左向右横穿路口（非直行），右侧一辆黑色轿车停于路边；远处对向车道有两辆白色轿车在红灯前静止。【关键风险】自车前方电子告示牌与红灯同时存在，提示禁止进入，但未见明显障碍物或施工围挡，属于典型“信息冲突”场景，需警惕误入封闭区域。",
+      "risk_tags": [
+        "information_conflict",
+        "red_light_waiting",
+        "no_obstacle_confusion"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:08",
+      "scene_description": "【环境】天空仍阴沉，无降水，能见度良好。【自车】在中间车道，信号灯由红转绿，开始匀速前行。【交通设施】右侧路口信号灯同步变绿，电子告示牌仍显示“CLOSED DO NOT ENTER”。【周围车辆】前方一辆深色SUV正沿直行方向驶过路口；右侧车道有两辆轿车在绿灯下正常通行。【关键风险】自车与前方SUV同向行驶，无横向交互；但电子告示牌与实际绿灯通行形成矛盾，若系统未识别该告示牌，可能引发误判进入封闭路段，存在潜在导航/决策风险。",
+      "risk_tags": [
+        "sign_conflict",
+        "navigation_risk",
+        "green_light_misalignment"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】阴天，光线均匀，无强逆光或遮挡。【自车】完成路口左转，进入一条双向双黄线城市支路，保持匀速沿道行驶。【道路特征】左侧为现代公寓楼，右侧为低层住宅与绿化带；路边设有“SPEED LIMIT 25”限速标志。【周围车辆】左前方一辆银色轿车迎面驶来，已完成超车；右侧后方一辆黑色SUV从后方接近并超越自车，未打转向灯，存在轻微切入风险。【非标准物体】右侧人行道旁有一处“NO PARKING”临时告示牌，立于施工围栏边缘，未见施工设备或人员。【关键风险】后方车辆无转向灯强行超车，虽未造成碰撞，但构成“不安全切出”行为，需注意其后续轨迹。",
+      "risk_tags": [
+        "unsafe_cut_out",
+        "lack_of_turn_signal",
+        "temporary_sign_awareness"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "【环境】阴天，无降水，视野开阔。【自车】保持中间车道匀速行驶，道路略有上坡。【周围车辆】左侧对向车道有多辆车依次驶过，包括一辆蓝色SUV和一辆黑色轿车，均保持正常行驶；右侧车道偶有车辆驶入或驶离。【交通设施】路边出现“SPEED LIMIT 25”标志，以及“NO PARKING”告示牌，背景中可见一处建筑工地围挡。【非标准物体】右侧路边停放一辆带涂鸦的拖车，车身倾斜，疑似废弃，未影响行车路径。【关键风险】无直接碰撞威胁，但拖车和工地围挡可能构成视觉干扰，增加驾驶员注意力分散风险。",
+      "risk_tags": [
+        "visual_distraction",
+        "abandoned_vehicle",
+        "construction_zone_nearby"
+      ]
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "【环境】阴天，光线稳定，无特殊天气现象。【自车】继续沿中间车道行驶，道路两侧为住宅区与少量商业建筑。【周围车辆】前方远处有数辆汽车在缓行，未见异常加速或急刹；右侧车道有车辆缓慢驶离。【交通设施】道路标线清晰，无新增信号灯或告示牌。【非标准物体】右侧路边草丛中有几只野兔短暂出现，随即跳入灌木丛，未靠近道路。【关键风险】野兔活动属低概率事件，且已远离车道，无实际碰撞风险；整体场景平稳，无显著安全隐患。",
+      "risk_tags": [
+        "animal_crossing_low_probability",
+        "low_risk_environment"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.56,
+    "analysis_time": "2026-01-23 23:35:16"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】阴天，路面湿滑，有明显水迹反光，能见度中等。【自车】在中间车道匀速行驶，接近前方十字路口。【右前方】一辆白色SUV停靠在路边人行道旁，未移动。【左前方】一辆黑色轿车从左侧车道切入自车前方，完成变道动作。【交通设施】路口设有斑马线、STOP标志及让行三角牌，右侧路旁有行人过街警示标志。【关键风险】左侧车辆无转向灯提示即强行变道，存在切出（Cut-out）风险，可能引发碰撞。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "wet_road",
+        "lack_of_turn_signal"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】持续阴雨天气，天空灰暗，无明显降水强度变化。【自车】在中间车道执行向右转弯动作，车头偏航角逐渐增大，沿弯道轨迹行驶。【右侧】一辆白色大众Polo从右后方驶入视野，正在完成右转，与自车同向行驶但位于外侧车道。【左前方】对向车道有数辆汽车正常通行，无异常行为。【交通设施】路口中央为环岛绿化带，设有圆形限速标志（30km/h），道路标线清晰。【关键风险】自车右转时，白色Polo车距较近，若其转向角度过大或减速不及时，可能与自车发生横向冲突。",
+      "risk_tags": [
+        "right_turn_conflict",
+        "close_proximity_vehicle"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】阴云密布，光线昏暗，部分区域因路灯照明产生轻微眩光。【自车】完成右转，进入新直行道路，保持匀速行驶。【右侧】一名行人牵着一只黑狗横穿人行横道，行人面向自车方向行走，狗在行人左侧并列前行，步态平稳。【左前方】远处可见涂鸦墙和围栏，无施工或障碍物。【交通设施】路口设有“Castellar del Vallés”方向指示牌，下方为“Ronda del Vallés”路名标识。【关键风险】行人与狗处于自车正前方约15米处，虽在斑马线上，但行人未观察来车，狗有突然冲向路面趋势，存在“鬼探头”与动物横穿双重风险。",
+      "risk_tags": [
+        "pedestrian_crossing",
+        "animal_crossing",
+        "lack_of_attention"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】持续阴雨，路面湿滑，部分区域积水反射灯光。【自车】在中间车道继续直线行驶，车速稳定。【左侧】多栋高层住宅楼排列，其间夹杂常绿树木；左侧对向车道有白色货车驶过，未见异常。【右侧】沿路设有公交站牌广告牌，无行人活动；远处可见公交车停靠站点。【交通设施】道路两侧设有人行道、路灯、限速标志（40km/h）、禁止停车标志。【关键风险】无直接碰撞威胁，但右侧公交站牌遮挡视线，若后续有行人从站台突然走出，将构成“鬼探头”风险；另，路面湿滑可能导致制动距离延长，需保持安全车距。",
+      "risk_tags": [
+        "wet_road",
+        "occlusion_risk",
+        "longitudinal_distance_management"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 08:44:38",
+    "processing_time_seconds": 17.58
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "车辆在浓雾中沿双黄线道路行驶，右侧为土坡和光秃树木，左侧有建筑物和电线杆。前方远处可见一辆深色SUV迎面驶来，自车保持匀速直行，未进行变道或超车。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "雾气略有消散，能见度改善。左侧出现一栋标有“CAR WASH”的建筑，一辆黑色SUV从对向车道驶过，自车继续沿直线车道平稳前进，未与其他车辆发生交互。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "道路两侧植被增多，部分树木呈枯黄色。左侧出现加油站和白色货车停靠区，一辆皮卡从对向车道驶过。自车持续直行，未减速或转向，道路两侧设有护栏。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:18",
+      "scene_description": "右侧出现黄色“鹿出没”警示牌，路边有小型建筑和广告牌。一辆银色轿车从对向车道驶近并超越自车，自车保持原车道行驶，未改变速度或方向。"
+    },
+    {
+      "time_segment": "00:00:18-00:00:20",
+      "scene_description": "道路左侧出现“THE WINE HUT”招牌及多辆停放车辆，右侧有白色厢式货车停靠。自车继续沿主路直行，无其他车辆或行人进入自车路径范围，环境仍略显朦胧。"
+    }
+  ]
+}

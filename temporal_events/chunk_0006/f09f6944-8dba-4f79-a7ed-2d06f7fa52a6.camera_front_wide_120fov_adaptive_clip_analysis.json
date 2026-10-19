@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 01:13:18",
+    "processing_time_seconds": 14.92
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "自车在晴朗天气下沿多车道公路直行，前方有车辆驶向右侧隧道入口，道路右侧设有‘NO TURNS’和‘ONE WAY’标志，左侧有棕榈树与灌木丛，路面干燥无积水。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:11",
+      "scene_description": "一辆深色SUV从左侧车道变道至自车所在车道并加速超车，随后自车平稳进入隧道入口，隧道内灯光已开启，两侧墙壁为混凝土结构，无行人或其他障碍物。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:15",
+      "scene_description": "进入隧道后，自车保持匀速行驶，前方有一辆黑色皮卡车在右侧车道行驶，两车保持安全距离，隧道内照明均匀，无明显遮挡或突发状况。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "自车继续在隧道内直行，前方车辆稳定行驶，隧道尽头可见出口光亮，两侧墙壁无异常，未见行人、施工或其他交通参与者，环境安静且通行顺畅。"
+    }
+  ]
+}

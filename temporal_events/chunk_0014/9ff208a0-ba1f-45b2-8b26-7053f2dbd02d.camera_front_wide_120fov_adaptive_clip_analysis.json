@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 04:12:26",
+    "processing_time_seconds": 13.07
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车在十字路口左转，前方右侧停有一辆白色皮卡，左侧人行道有消防栓和树木遮挡。车辆完成转向后驶入主干道，道路两侧出现商业建筑与住宅楼。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "自车沿主干道直行，天空中可见一架飞机飞过。左侧车道有黑色皮卡从对向驶来，右侧路边停放多辆汽车，包括一辆白色厢式货车。道路中央有绿化带分隔双向车道。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车继续直行，前方交叉路口有行人正在横穿马路，同时一辆红色SUV从右侧路口驶出。左侧一栋粉色双层住宅前有两名行人步行，其中一人推着婴儿车。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车接近下一个路口，左侧人行道上有三名行人并排行走，其中两人穿着鲜艳上衣。右侧路口有黑色皮卡正在右转，与自车路径无冲突。天气阴沉，云层较厚。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车保持匀速直行，道路两侧为住宅区与商铺混合区域，远处可见少量车辆行驶。右侧人行道上有一名骑自行车者，与自车保持安全距离。无显著交通信号或障碍物影响通行。"
+    }
+  ]
+}

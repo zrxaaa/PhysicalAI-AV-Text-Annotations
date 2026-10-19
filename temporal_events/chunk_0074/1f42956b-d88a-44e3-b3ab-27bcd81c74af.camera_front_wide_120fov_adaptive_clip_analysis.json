@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.41,
+    "analysis_time": "2026-01-22 13:20:06"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】暴雨天气，雨滴密集覆盖前挡风玻璃，能见度严重降低。路面湿滑积水，车辆行驶时溅起大量水雾。【自车】在中间车道匀速沿道行驶，未进行变道或转向。【周围交通参与者】左侧邻车道有一辆黑色SUV（型号疑似沃尔沃XC60）从左向右并线，完成动作后保持在左前方车道；其后方一辆深色轿车（疑似特斯拉Model 3）紧随其后，保持稳定跟车距离。【交通设施】道路右侧为绿化坡面，无明显标牌；左侧有混凝土护栏及路灯杆，远处可见高架桥轮廓。【关键风险】因雨水遮挡视线，前方车辆尾灯模糊，存在刹车灯识别延迟风险；左侧并线车辆未打转向灯，存在潜在切入冲突。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility",
+        "unannounced_lane_change"
+      ]
+    },
+    {
+      "time_segment": "00:00:06-00:00:12",
+      "scene_description": "【环境】持续暴雨，雨势略有减弱但视野仍受阻。【自车】保持中间车道匀速行驶，车头朝向与道路曲率一致，未发生横向偏移。【周围交通参与者】前方约50米处有三辆轿车依次行驶，尾灯清晰可见但亮度受雨雾影响；左侧车道一辆黑色SUV（疑似Jeep Grand Cherokee）加速超车，短暂进入自车左前方，随后切回原车道。【交通设施】上方出现绿色高速公路指示牌，显示“NE 31st St EXIT 1/4 MILE”，表明即将临近出口。【关键风险】前方车辆制动灯闪烁频率增加，暗示可能减速或拥堵；右侧路肩出现施工区域围挡，但无作业车辆活动，未构成直接威胁。",
+      "risk_tags": [
+        "approaching_exit",
+        "braking_indication",
+        "lane_change_with_speed_increase"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】暴雨加剧，雨刷器高频摆动仍无法完全清除挡风玻璃上的水膜，视觉干扰显著。【自车】维持中间车道匀速前进，车身姿态稳定，无转向或紧急制动行为。【周围交通参与者】左侧车道多辆车辆密集排列，包括一辆黑色皮卡（疑似福特F-150）和一辆白色面包车（疑似丰田Sienna），均在低速缓行；右侧车道有一辆深色SUV（疑似本田CR-V）缓慢超越自车，完成变道后保持在右前方。【交通设施】右侧出现限速60英里/小时的标志牌，下方为绿色植被斜坡；前方高架桥结构逐渐清晰，预示即将通过立交节点。【关键风险】左侧车道车辆密集且速度不一，存在加塞或突然变道风险；右侧超车车辆距离较近，若其刹车不及易引发追尾；整体场景中无动物、施工车或遗撒物，但恶劣天气导致所有车辆反应时间延长，事故概率上升。",
+      "risk_tags": [
+        "dense_traffic",
+        "close_proximity_overtake",
+        "weather-induced_reaction_delay"
+      ]
+    }
+  ]
+}

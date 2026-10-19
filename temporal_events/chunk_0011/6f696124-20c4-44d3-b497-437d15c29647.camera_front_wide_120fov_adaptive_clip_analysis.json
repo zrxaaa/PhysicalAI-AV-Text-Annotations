@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 03:03:15",
+    "processing_time_seconds": 11.5
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在夜间街道十字路口处，前方一辆深色SUV从左侧车道向右变道，穿过交叉口后驶离。道路两侧停有车辆，路灯照明充足，路面干燥无积水。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:11",
+      "scene_description": "自车沿直行方向继续前进，进入双向两车道路段，道路两侧停放多辆汽车，对向车道有车辆驶来。右侧出现铁路道口标志和“X”形减速标线，自车保持匀速通过。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:15",
+      "scene_description": "自车接近铁路道口，路面上方标有“STOP”字样，道口栏杆尚未落下。对向车道有白色轿车和皮卡驶过，右侧人行道上有行人快速走过，未与自车路径冲突。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "自车在铁路道口前停车等待，前方横向路口有黑色SUV左转，同时对向车道有红色SUV驶近。道口栏杆仍处于升起状态，自车保持静止，未见列车接近迹象。"
+    }
+  ]
+}

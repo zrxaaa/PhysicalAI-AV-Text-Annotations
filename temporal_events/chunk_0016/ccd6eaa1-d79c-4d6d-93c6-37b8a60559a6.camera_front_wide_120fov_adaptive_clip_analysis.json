@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 04:57:47",
+    "processing_time_seconds": 11.25
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "自车在双黄线乡村公路上匀速行驶，天空多云但能见度良好；左侧出现一辆黑色皮卡和一辆深色SUV从对向车道驶来，均完成超车并驶离视野。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "前方道路右侧出现‘自行车道’与‘限速40 MPH’标志，自车继续直行；经过一座桥梁，桥两侧设有护栏，对向车道有车辆驶过，未发生交互。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:16",
+      "scene_description": "自车驶离桥梁后进入弯道，道路两侧树木稀疏，远处可见山丘轮廓；一辆灰色面包车从左侧车道迎面驶来，完成会车后消失于视野。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "接近一个T字路口，右侧设有红色停车标志，但无车辆或行人出现；自车保持当前车道匀速前进，未做转向或减速动作，环境安静且交通稀少。"
+    }
+  ]
+}

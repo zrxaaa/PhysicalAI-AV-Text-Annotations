@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.62,
+    "analysis_time": "2026-01-22 06:52:29"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间，浓雾或雨雾天气导致能见度显著降低，路灯与车灯产生强烈光晕和眩光。【自车】位于中间车道，正通过一个带斑马线的交叉路口，执行减速并准备左转。【左侧】一辆白色轿车从对向车道快速驶过，未开启转向灯；【右侧】一名行人站立于人行道边缘，面向道路，双手插兜，无明显横穿意图。【交通设施】左侧可见蓝色拱形高架桥结构，桥下有“Eating Store”标识；前方路口设有倒三角让行标志。【关键风险】左侧对向车辆高速通过，存在潜在碰撞风险；右侧行人虽未移动，但处于盲区边缘，若突然横穿将构成“鬼探头”威胁。",
+      "risk_tags": [
+        "reduced_visibility",
+        "aggressive_crossing_risk",
+        "pedestrian_occupancy_in_blind_spot"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】雾气持续，路面湿滑反光，部分区域出现水雾遮挡视线。【自车】完成左转动作，进入直行主干道，保持匀速行驶。【前方】绿灯亮起，交通信号正常运作；【左侧】一辆深色SUV在邻近车道匀速行驶，未变道；【右侧】路边有多个商铺及停车场，灯光闪烁，无行人活动。【交通设施】经过一个绿色高速公路指示牌（显示“705 North Everett”和“405 South Bellevue”），提示即将进入高速入口。【关键风险】无明显违规行为或障碍物，但因雾气导致后视镜与侧窗视野受限，存在潜在侧方切入风险。",
+      "risk_tags": [
+        "low_visibility_driving",
+        "limited_side_view"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雾气略有缓解，但仍存在轻微水汽弥漫，路灯与车灯仍造成视觉干扰。【自车】在最右侧车道沿直线加速前行，接近高速公路入口匝道。【右侧】路边停放多辆私家车，部分车辆尾灯亮起；【前方】远处可见Chick-fil-A餐厅招牌及停车场，无行人活动。【交通设施】道路右侧设有多组路牌，包括“EXIT 13A”、“BELLEVUE”等方向指示；前方为高速公路入口导向区，车道线清晰。【关键风险】自车即将进入高速匝道，需注意右侧停车车辆可能突然开门或行人横穿；当前路段无直接碰撞威胁，但因光线与雾气叠加，建议保持警惕。",
+      "risk_tags": [
+        "highway_entry_risk",
+        "parked_vehicle_open_door_potential",
+        "light_haze_interference"
+      ]
+    }
+  ]
+}

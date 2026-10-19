@@ -1,0 +1,48 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 19.48,
+    "analysis_time": "2026-01-22 18:10:44"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "【环境】夜间，无明显天气异常，但路灯照明呈黄绿色光晕，存在眩光干扰。【自车】位于中间车道，正通过一个向右的弯道，执行沿弯曲道路前行动作，未变道。【交通设施】路口处有“STOP”路面标记及右侧停车标志，前方可见蓝色垃圾桶与路缘石。【关键风险】弯道处视野受限，左侧路边有不明物体阴影，可能为行人或障碍物，存在潜在遮挡风险。",
+      "risk_tags": [
+        "occlusion_risk",
+        "limited_visibility"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】道路两侧住宅区灯光亮起，部分房屋挂有节日彩灯，无降水或雾气。【自车】保持在中间车道匀速直线行驶，车头方向随道路微曲调整，未进行转向或变道。【周围车辆】右侧路边停放多辆私家车（含白色SUV、银色轿车），部分车辆停于斜坡上；左侧远处可见对向来车灯光。【交通设施】右侧出现“SPEED LIMIT 25”限速牌及“ROAD AHEAD”提示标线。【关键风险】右侧停放车辆占用车道边缘，若行人突然从车后走出，易形成“鬼探头”；同时，前方路面有“SCHOOL ZONE”警示牌，需警惕儿童横穿可能。",
+      "risk_tags": [
+        "ghost_probe_risk",
+        "parked_vehicle_obstruction",
+        "school_zone_warning"
+      ]
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "【环境】夜间光照稳定，路灯亮度均匀，无强逆光或眩光。【自车】继续在中间车道匀速直行，道路平缓延伸，无转向意图。【周围车辆】右侧连续停放多辆汽车（含黑色SUV、白色皮卡），部分车辆尾部朝向道路，存在开门杀风险。左侧偶有行人沿人行道行走，距离自车约15米外，未进入车道范围。【交通设施】右侧出现“PEDESTRIAN CROSSING”人行横道标志牌，前方有减速带标识。【关键风险】右侧车辆密集，若有人突然打开车门，将直接威胁自车安全；行人虽未靠近车道，但其面部朝向不确定，存在横穿可能性，需保持警觉。",
+      "risk_tags": [
+        "open_door_risk",
+        "pedestrian_crossing_potential",
+        "dense_parking_area"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】夜间，路灯照明良好，无天气影响。【自车】维持中间车道匀速行驶，前方道路略有起伏，路面有白色箭头引导标识。【周围车辆】左侧对向车道有车辆驶近，车灯清晰可见，但未进入本车道；右侧路边仍停放多辆车，其中一辆深色SUV车尾朝向道路，车门关闭。【交通设施】右侧设有黄色“BUMP AHEAD”减速警示牌，前方为交叉路口预兆区域。【关键风险】前方路面有减速带，自车需提前减速以避免颠簸；右侧车辆虽静止，但若有人从车后绕出，可能突然闯入行车路径，构成“鬼探头”风险；整体场景无紧急危险，但需持续监控右侧视线盲区。",
+      "risk_tags": [
+        "speed_bump_required",
+        "ghost_probe_risk",
+        "blind_spot_monitoring_needed"
+      ]
+    }
+  ]
+}

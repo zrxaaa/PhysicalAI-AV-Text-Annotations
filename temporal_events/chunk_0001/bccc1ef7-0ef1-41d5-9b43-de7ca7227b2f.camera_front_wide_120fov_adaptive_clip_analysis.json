@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:06:15",
+    "processing_time_seconds": 19.52
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车沿双向两车道道路直行，前方路口交通灯为绿灯，右侧一辆深色SUV在右转车道等待，左侧有白色轿车从对向车道驶来，道路两侧有住宅和行道树，天气晴朗，路面干燥无湿滑。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "自车接近十字路口，交通信号灯保持绿色，前方车辆陆续通过交叉口，右侧人行道上有行人正在行走，自车平稳减速并准备在路口左转，未见明显冲突车辆或行人与自车路径交集。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:13",
+      "scene_description": "自车完成左转进入新街道，路口右侧出现黄色单层住宅及停放的房车，左侧有银色轿车迎面驶来，自车继续沿道路直行，经过一个指向“Central Expressway”的绿色路牌，无行人或障碍物干扰路径。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车沿弯曲街道行驶，道路两侧可见多栋住宅、树木及停靠车辆，右侧路边设有“SPEED LIMIT 25”的限速标志，自车保持匀速行驶，未遇显著交通参与者或行为变化，环境安静有序。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车继续沿街直行，右侧出现木制围栏和小型车库，左侧有红色轿车和浅色皮卡停于路边，远处可见电线杆和高压线，无行人或突发交通事件，整体场景稳定，自车维持当前车道行驶。"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.37,
+    "analysis_time": "2026-01-21 21:33:12"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】晴天，能见度良好，天空有少量云层。【自车】位于中间车道，沿直线道路匀速前行，未进行转向或变道。【左侧】路边有绿化带与行道树，无行人或障碍物。【右侧】彩色多层住宅楼排列整齐，底层为商铺，无显著遮挡。【交通设施】路口处交通信号灯为绿灯，路牌显示“32nd Avenue”，路面标线清晰，人行横道为黄色条纹。【关键风险】无明显风险，车辆与行人均在正常通行范围内。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】晴朗，光照充足，无遮挡。【自车】继续在中间车道匀速行驶，接近十字路口。【前方】一辆红灰相间的铰接式公交车（Clean Air Vehicle）从右侧驶入画面，正沿对向车道向路口驶来。【左侧】路口设有“LEFT TURN YIELD ON GREEN”标志牌，提示左转需让行。【交通设施】路口中央交通信号灯由绿灯转为黄灯，两侧人行横道已开启，地面白色斑马线清晰可见。【关键风险】公交车即将进入交叉口，若自车未及时减速，可能因黄灯切换导致冲突；但当前自车保持匀速，未提前制动，存在轻微时间窗口风险。",
+      "risk_tags": [
+        "potential_conflict_at_intersection",
+        "yellow_light_transition_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:19",
+      "scene_description": "【环境】晴天，阳光直射，部分区域产生眩光。【自车】在十字路口停车等待，车头朝向正前方，未移动。【前方】交通信号灯变为红色，自车完全停止于人行横道前。【左侧】对向车道中，公交车已停靠在路口左侧，车身横跨车道，后方有黑色轿车和红色轿车依次排队等候。【右侧】沿街商铺前有行人站立，其中一人面向街道，双手插兜，另一人背对镜头行走。【非标物体】右侧人行道上有一根废弃的红色消防栓立柱，未被移除，位于人行道边缘，无动态行为。【关键风险】自车在红灯下静止，但左侧对向车道车辆密集，存在“加塞”或“抢行”潜在可能；右侧人行道上有行人活动，虽未横穿，但靠近车道边缘，存在“鬼探头”风险；此外，公交车车身较长，遮挡了部分右侧视野，若后续有车辆或行人从其后方突然出现，将构成严重安全隐患。",
+      "risk_tags": [
+        "red_light_waiting_risk",
+        "ghost_probe_potential",
+        "occlusion_by_bus",
+        "pedestrian_proximity_to_road_edge",
+        "traffic_jam_in_front"
+      ]
+    }
+  ]
+}

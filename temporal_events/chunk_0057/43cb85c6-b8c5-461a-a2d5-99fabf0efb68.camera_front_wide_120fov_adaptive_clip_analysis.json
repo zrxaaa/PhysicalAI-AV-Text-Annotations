@@ -1,0 +1,38 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.8,
+    "analysis_time": "2026-01-22 05:39:23"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "【环境】城市街道，晴朗无雨，光线充足，能见度良好。【自车】位于中间车道，处于静止等待状态，前方为一辆 NYPD Police Transit 车辆，尾灯亮起。【左侧】一辆白色 Range Rover 停在左邻车道，车头朝向与自车一致。【右侧】停放多辆私家车，包括一辆深色SUV和一辆Jeep，路边有“WHOLESALE ORGANIC MARKET”商店招牌。【非标准车辆】NYPD Police Transit 车辆后部贴有“$10,000 REWARD”字样，顶部装有警灯（未闪烁），车身无明显作业动作，处于常规停靠或缓行状态。【行人】一名骑自行车者从左侧人行道快速穿过车道间隙，进入自车左前方空隙，完成横穿动作。【交通设施】道路两侧设有金属护栏，路口处有斑马线和交通信号灯（当前绿灯）。【关键风险】骑车者突然横穿，虽未直接威胁自车，但存在“鬼探头”潜在风险；左侧Range Rover 有轻微向前移动趋势，可能影响自车起步时横向空间。",
+      "risk_tags": [
+        "ghost_probe_potential",
+        "crossing_pedestrian",
+        "vehicle_position_uncertainty"
+      ]
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "【环境】光照稳定，无天气异常。【自车】开始缓慢起步，跟随前方NYPD Police Transit 车辆沿直道前行。【前方】NYPD Police Transit 车辆在通过十字路口前减速，随后左转驶离主路，完成转向动作。【左侧】另一辆 NYPD Police 货车从对向车道驶来，与自车同向行驶，经过自车左侧并超越。【右侧】停放车辆未移动，人行道上有行人行走，部分骑自行车者在非机动车道骑行。【交通设施】路口处交通信号灯为绿色，路面标线清晰，设有斑马线及自行车道标识。【关键风险】左侧NYPD货车超车时距离较近，存在轻微剐蹭风险；前方警车左转变道，自车需保持安全跟车距离以防急刹。",
+      "risk_tags": [
+        "close_proximity_passing",
+        "lane_change_interaction"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】阳光斜射，部分区域出现阴影，无降水或雾气。【自车】继续沿中间车道匀速前进，已通过十字路口，进入下一段直行街。【左侧】可见一排铁丝网围栏内为运动场，有行人和骑车者在围栏外的人行道活动。【右侧】路边停放多辆汽车，非机动车道上整齐排列共享单车，有数名行人正在过马路或站立等候。【非标准车辆】前方有一辆白色 ASH NYC 货车，车尾印有公司标识，正沿右侧车道缓慢行驶，未显示任何作业行为。【行人】多名行人沿右侧人行道行走，其中一人推婴儿车，面部朝向前方，步态平稳；另有一名骑车者从右侧非机动车道快速驶过，未进入机动车道。【交通设施】道路两侧设有交通指示牌（如“E 20 St”）、路灯、人行横道及自行车道标志。【关键风险】右侧共享单车密集停放，若自车变道需注意避让；远处有车辆从交叉路口驶入，存在汇入冲突风险，但当前无紧急交互。",
+      "risk_tags": [
+        "bicycle_lane_overlap",
+        "pedestrian_crossing_nearby"
+      ]
+    }
+  ]
+}

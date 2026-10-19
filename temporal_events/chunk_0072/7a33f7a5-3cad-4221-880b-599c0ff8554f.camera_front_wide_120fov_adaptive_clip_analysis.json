@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 20.18,
+    "analysis_time": "2026-01-22 12:19:42"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，云层厚重，无明显降水，路面干燥但略显湿滑。【自车】在中间车道匀速前行，前方交通信号灯为绿灯。【左侧】一辆银色SUV与蓝色轿车并行于左前侧邻车道，正向路口驶近。【右侧】施工区域设置橙色锥桶围挡，一名身穿荧光黄背心的施工人员站立于路肩，未移动；其后方停有一辆白色工程卡车（车头朝向自车），车身部分遮挡右侧车道。【关键风险】右侧施工区域存在作业静止车辆，且有施工人员近距离站立，若自车变道需谨慎评估安全距离；同时，前方路口右转方向有大型绿色公交车（8 MT BAKER TC）正在进入交叉口，其车身宽度可能遮挡对向来车视线。",
+      "risk_tags": [
+        "construction_zone_obstacle",
+        "narrow_clearance",
+        "blind_spot_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】道路两侧树木茂密，电线杆密集，光照均匀但偏暗。【自车】保持中间车道匀速行驶，通过交叉口后进入直行路段。【右侧】施工区持续存在，一台黄色小型挖掘机（CASE品牌）停在路边，操作员在驾驶室内，机械臂处于收拢状态，未作业；其后方是一辆灰色自卸卡车，车斗升起，司机在车旁活动。【左侧】一辆黑色特斯拉Model Y从左前侧邻车道超车并入自车所在车道，完成变道动作，未见转向灯提示。【非标物体】右侧人行道旁设有一个绿色移动厕所，旁边立有“NO PARKING”警示牌。【关键风险】左侧特斯拉突然切入，因未打灯且速度较快，存在切出风险；右侧施工设备虽静止，但占据部分路权，影响横向通行空间。",
+      "risk_tags": [
+        "unannounced_cut_in",
+        "construction_equipment_obstruction",
+        "partial_lane_blockage"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】天气仍阴沉，能见度良好，无降水迹象。【自车】沿中间车道继续直线行驶，道路两侧出现住宅区与公交站台。【左侧】一个公交候车亭位于人行道上，亭内有乘客等候，背景墙上有涂鸦。【右侧】停放多辆私家车，包括一辆深灰色轿车和一辆银色轿车，车距较近。【交通设施】前方约50米处设有“ROAD CLOSED TO THRU TRAFFIC”告示牌，提示前方道路封闭；同时可见“DETOUR”指示牌指向右前方支路。【行人】两名行人（一穿绿色外套，一穿深色外套）在右侧人行道行走，其中一人携带背包，正朝向路口方向移动。【关键风险】前方道路封闭标志与绕行指示形成潜在冲突，若自车误判路线可能进入封闭区域；右侧停车车辆占用部分路肩，限制了紧急避让空间。",
+      "risk_tags": [
+        "road_closure_confusion",
+        "parked_vehicle_obstruction",
+        "pedestrian_crossing_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】天空灰白，光线均匀，无强风或降水。【自车】维持当前车道匀速前进，接近下一个十字路口。【前方】一辆白色福特SUV从对向车道驶来，正准备左转；其后方有数辆小轿车排队等待。【右侧】一个黄色双层住宅楼前，两名行人（儿童与成人）站在人行横道起点处，面向自车方向，似乎准备过街。【交通设施】路口设有“E John St 32nd Ave”路牌及“PARKING”禁停标志；人行横道旁立有“DETOUR”箭头标识。【非标物体】路边散落少量落叶与垃圾，未构成直接障碍。【关键风险】行人位于自车正前方人行横道，若自车未减速将构成碰撞风险；同时，对向左转车辆可能与自车形成冲突路径，需注意交叉口通行规则。",
+      "risk_tags": [
+        "pedestrian_crossing_risk",
+        "intersection_conflict",
+        "left_turn_obstacle"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 22:57:38",
+    "processing_time_seconds": 18.51
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车在湿滑的双黄线道路上匀速直行，左侧一辆银色SUV从对向车道驶过并完成变道至中间车道，右侧路边停有一辆深色SUV。天气阴沉，路面有水迹，能见度略低。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "自车继续沿道路前行，接近一个T字路口，右侧出现红色STOP标志和黄色‘ROAD END’警示牌，前方无其他车辆或行人，道路两侧为住宅区，树木高大且部分落叶。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "自车在T字路口前减速停车，等待交通状况，路口右侧可见消防栓和灌木丛，远处有另一条横向道路交叉，路口设有‘ALL WAY STOP’标志，无其他车辆或行人进入交叉口。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "自车完成左转动作，驶入横向道路，前方视野开阔，道路两侧分布着住宅和车库，路边停放多辆汽车，包括一辆白色皮卡和一辆红色轿车，环境安静，无行人活动。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车在横向道路上保持匀速行驶，道路右侧连续停放多辆汽车，左侧为住宅区及围栏，天空阴云密布，路面持续湿润，无显著障碍物或突发交通事件。"
+    }
+  ]
+}

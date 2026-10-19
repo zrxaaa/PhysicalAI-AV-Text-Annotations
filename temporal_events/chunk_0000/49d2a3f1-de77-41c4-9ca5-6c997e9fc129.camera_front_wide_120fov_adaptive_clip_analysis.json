@@ -1,0 +1,24 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 22:29:45",
+    "processing_time_seconds": 14.71
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "街道左侧出现蓝色装饰灯串，远处可见其他停放车辆，无行人或突发障碍物，路面干燥，无明显交通标志变化。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "前方路口处有黄色人行横道线，但无行人通过；自车未减速，保持稳定速度通过该区域，路灯照明覆盖道路，视野清晰。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:19",
+      "scene_description": "道路两侧仍停有数辆汽车，部分房屋亮灯，无显著动态事件发生。自车持续匀速直行，未进行转向或变速操作，环境安静且交通流稀疏。"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 09:35:00",
+    "processing_time_seconds": 20.08
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车沿多车道城市道路直行，右侧路边停有一辆银色SUV，随后该车启动并加速变道至中间车道，自车保持匀速行驶未干预。天气晴朗，路面干燥，无明显障碍物或行人干扰交通流。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "前方出现住宅区入口标识牌，右侧人行道有行人步行，但未横穿马路。自车继续直行，未减速或转向，道路两侧绿化良好，无交叉路口或信号灯变化。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "自车接近一个十字路口，左侧对向车道有车辆驶入，右侧路边出现停车的黑色轿车和白色SUV，但均未影响自车路径。自车维持当前车道，未进行变道或刹车动作。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "右侧人行道上一名穿粉色上衣的行人从树荫下走出并沿路前行，距离自车约8米，未横穿马路。同时，一辆黑色轿车从右侧支路驶出并右转，与自车无冲突。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车继续沿主路直行，接近下一个路口，右侧出现咖啡店建筑及橙色装饰结构，无行人或车辆突然进入车道。天气持续晴好，路面光照充足，视野清晰。"
+    }
+  ]
+}

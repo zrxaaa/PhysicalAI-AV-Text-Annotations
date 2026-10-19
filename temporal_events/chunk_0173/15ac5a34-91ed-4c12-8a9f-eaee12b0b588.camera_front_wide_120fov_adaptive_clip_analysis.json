@@ -1,0 +1,47 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 10.77,
+    "analysis_time": "2026-01-24 05:35:53"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】夜间城市街景，路面有积雪与融雪水，能见度受路灯眩光影响。【自车】位于中间车道，静止等待红灯。【交通设施】前方十字路口信号灯为红灯，左侧人行横道信号灯亦为红色；右侧交通信号灯显示直行红灯、左转箭头灯亮起。【关键风险】无明显动态威胁，但路面湿滑+积雪可能影响制动性能。",
+      "risk_tags": [
+        "wet_road",
+        "low_visibility",
+        "braking_performance_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:06-00:00:09",
+      "scene_description": "【环境】同上，路灯照明稳定，无新增天气变化。【自车】保持静止，未移动。【交通设施】左侧人行横道信号灯由红变绿（左转箭头灯仍红），直行信号灯由红转绿。【交互动作】自车在绿灯亮起后启动，准备左转。【关键风险】左转信号灯未全绿，仅左转箭头灯亮，需确认是否允许左转；若误判将引发交叉冲突。",
+      "risk_tags": [
+        "signal_confusion_risk",
+        "left_turn_violation_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:09-00:00:12",
+      "scene_description": "【环境】道路两侧积雪堆积，部分路段有冰层反光。【自车】执行左转动作，车头偏航角从正向前转向左方，沿左转弧线行驶。【周围车辆】对向车道一辆深色轿车在自车左转时加速通过，与自车形成横向接近；右侧车道一辆白色轿车在自车左转过程中减速并保持安全距离。【行人】远处人行道上有两名行人站立，面向自车方向，未横穿马路。【交通设施】左转车道上方悬挂“1”号导向标志，指示左转专用道；前方路口设有停车线和斑马线。【关键风险】对向车辆加速左转，存在潜在碰撞风险；自车左转路径与对向车流交汇点较近，需警惕切向切入行为。",
+      "risk_tags": [
+        "cross_traffic_collision_risk",
+        "aggressive_crossing_vehicle",
+        "left_turn_path_interference"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】进入主干道，路旁建筑密集，部分店铺橱窗亮灯，路灯间距均匀。【自车】完成左转后进入新车道，保持匀速沿道行驶。【周围车辆】前方约30米处有一辆红色尾灯轿车，保持匀速；左侧对向车道有数辆汽车驶过，均未侵入自车车道。【行人】路边偶有行人行走，均在人行道内，无横穿行为。【交通设施】道路两侧设有“P”停车标志及禁停标线；部分路段有圆形禁止掉头标志。【关键风险】无显著风险，但路面仍有残雪与冰面，需持续关注制动响应；右侧人行道边缘有积雪堆，可能影响非机动车通行，但未进入机动车道。",
+      "risk_tags": [
+        "slippery_road_surface",
+        "minimal_traffic_interaction"
+      ]
+    }
+  ]
+}

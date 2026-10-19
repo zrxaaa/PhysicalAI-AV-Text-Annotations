@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.37,
+    "analysis_time": "2026-01-22 21:15:47"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "【环境】夜间，路灯照明呈黄绿色光晕，存在轻微雾气或空气颗粒物导致的光散射，能见度中等。【自车】位于中间车道，沿弯曲街道匀速前行，未进行转向或变道。【周围交通参与者】道路两侧停放多辆私家车（左侧：白色Mini Cooper、黑色轿车；右侧：银色SUV、黑色轿车），均处于静止状态。无行人活动。【交通设施】路面可见白色箭头导向标线，右侧路边有橙色施工锥桶，但无施工车辆作业。【关键风险】无明显违规行为或障碍物，但左侧停车车辆密集，部分车门开启或后备箱打开，存在“开门杀”潜在风险；右侧锥桶区域未见施工人员或警示牌，可能引发误判。",
+      "risk_tags": [
+        "parked_vehicle_open_door_risk",
+        "low_visibility_environment"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】继续夜间行驶，路灯亮度稳定，雾气略有消散。【自车】保持中间车道匀速前进，接近一个交叉路口。【前方交通设施】路面上出现白色‘STOP’字样标记，前方5米处设有一个红色八角形停车标志（STOP Sign）。【周围交通参与者】右侧停放车辆增多，包括一辆银色轿车和一辆深色SUV，均静止。左侧远处可见一排停放车辆，未见移动目标。【关键风险】自车在接近停车标志时未减速，仍保持匀速，存在违反停车标志指令的风险；同时，前方路口左侧人行道边缘有模糊人影（疑似行人）站立，但因距离较远且光线昏暗，无法确认其动作意图，构成潜在遮挡与鬼探头风险。",
+      "risk_tags": [
+        "failure_to_stop_at_sign",
+        "pedestrian_occlusion_risk",
+        "low_light_identification_limit"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】进入十字路口区域，两侧路灯更密集，光照增强。【自车】在路口前完全停止，车头对准斑马线，等待通行。【周围交通参与者】左侧车道有两辆轿车（一辆白色、一辆深色）正在左转或直行通过路口；右侧车道有一辆深色SUV停在停车线后，未移动。路口中央无行人或非机动车穿越。【交通设施】路口设有清晰的斑马线、停车线及黄色菱形警示标志（提示注意行人）。【关键风险】自车在停车线后安全等待，未发生碰撞或违规行为；但右侧SUV长时间静止于停车线后，未观察路口情况，存在潜在“闯红灯”或“抢行”风险，需进一步监控其动态。此外，路口左侧建筑物旁有棕榈树遮挡部分视野，增加“鬼探头”可能性。",
+      "risk_tags": [
+        "vehicle_stopped_unexpectedly",
+        "partial_obstruction_by_vegetation",
+        "intersection_waiting_state_monitoring_required"
+      ]
+    }
+  ]
+}

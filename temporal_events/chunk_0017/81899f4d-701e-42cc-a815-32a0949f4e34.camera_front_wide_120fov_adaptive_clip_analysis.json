@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 05:09:54",
+    "processing_time_seconds": 11.48
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在阴天湿滑路面上沿双向两车道道路行驶，左侧车道有白色轿车、黑色SUV及深色MPV依次超车，右侧路边可见消防栓与绿化带，无行人或突发障碍物。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:11",
+      "scene_description": "前方出现黄色弯道警示牌与限速30标志，自车保持匀速直行，左侧对向车道有白色货车驶过，右侧坡地植被稀疏，未见交叉路口或行人活动。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:16",
+      "scene_description": "自车继续沿直线道路前进，左侧车道有红色SUV和银色皮卡先后驶过，右侧路边出现木制围栏与低矮房屋，路面标线清晰，无明显交通冲突。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:20",
+      "scene_description": "前方出现小型交叉路口，左侧对向车道有大型卡车驶来，自车维持当前车道，未进行转向或变道，道路两侧树木光秃，天气阴沉，路面略显潮湿。"
+    }
+  ]
+}

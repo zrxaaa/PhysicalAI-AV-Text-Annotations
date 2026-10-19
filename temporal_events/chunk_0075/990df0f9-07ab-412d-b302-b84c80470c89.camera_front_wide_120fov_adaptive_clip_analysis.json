@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.61,
+    "analysis_time": "2026-01-22 13:37:50"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间暴雨天气，路面严重积水，反射车灯形成强烈眩光。【自车】位于中间车道，执行匀速行驶，车头保持正向，未进行变道。【左侧】多辆轿车在邻近车道快速通过，部分车辆因积水溅起水雾。【右侧】一辆蓝色公交车停靠在路肩，车身静止，无明显作业动作；其后方有行人站立于公交站台。【交通设施】上方为高架桥结构，桥下设有“VEHICLES OVER 9-6”限高标志及“NO RIGHT TURN”禁右转标志。【关键风险】前方一辆银灰色SUV在湿滑路面急刹，尾灯亮起，导致自车需减速避让；同时，左侧一辆黑色SUV在未打转向灯情况下突然加速切入自车前方车道，存在加塞风险。",
+      "risk_tags": [
+        "heavy_rain",
+        "wet_road_surface",
+        "emergency_braking",
+        "aggressive_cut_in"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】雨势略有减弱，但仍持续降水，路面反光明显。【自车】保持中间车道匀速前行，随道路曲率自然转弯。【左侧】对向车道车流密集，车辆依次通过，无异常行为。【右侧】路肩区域出现橙白相间施工锥桶，提示前方施工区；锥桶后方可见一名身穿荧光背心的施工人员站立，但未见作业设备。【交通设施】高架桥下方设有“WEIGHT LIMIT 30,000 LBS”限重标志，以及“FALLING OBJECTS”警示牌。【关键风险】右侧施工锥桶与施工人员位置紧邻行车道，若自车偏离车道线可能碰撞；同时，前方一辆深色SUV在湿滑路面突然减速，引发后车追尾隐患。",
+      "risk_tags": [
+        "construction_zone",
+        "wet_road_surface",
+        "rear_end_collision_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】夜间城市照明充足，但雨天仍造成能见度下降。【自车】沿中间车道继续前行，车速稳定，未进行横向移动。【左侧】一辆白色轿车从左前侧超车，完成切出动作；随后一辆黄色出租车驶入画面，快速通过。【右侧】路肩停放大量共享单车，整齐排列，无骑行者活动；远处可见现代化建筑群灯光闪烁。【交通设施】高架桥下设有多个交通信号灯，当前绿灯通行；路边设有“PASSENGER VEHICLE ONLY”专用道指示牌。【关键风险】左侧超车车辆未保持安全距离，存在刮蹭风险；右侧共享单车虽静止，但若遇突发情况（如被风吹倒）可能侵入行车道。",
+      "risk_tags": [
+        "close_passing",
+        "unpredictable_object",
+        "urban_traffic_density"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】雨势基本停止，路面积水减少，但仍存水洼。【自车】保持中间车道匀速行驶，车头方向与道路曲线一致，无转向意图。【左侧】一辆白色面包车从左前侧驶过，速度较快；其后方一辆银灰色轿车跟随行驶。【右侧】施工区域已结束，路肩恢复通畅，无锥桶或施工人员；远处可见桥梁结构和城市天际线。【交通设施】高架桥结构逐渐抬升，道路标线清晰可见；前方路口设有“LEFT TURN SIGNAL”指示牌。【关键风险】无显著风险事件，但路面仍有少量积水，可能导致轮胎打滑；自车需注意前方车辆刹车灯变化，以防突发制动。",
+      "risk_tags": [
+        "low_risk_water_puddle",
+        "continuous_traffic_flow"
+      ]
+    }
+  ]
+}

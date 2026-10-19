@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 06:27:33",
+    "processing_time_seconds": 12.41
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "自车沿直线道路平稳行驶，右侧为工业区围栏及大型储罐，路边设有‘OPEN TRENCH’施工警示牌与橙色锥桶；左侧为行道树与低矮围墙，路面无明显障碍物，天气多云但能见度良好。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "车辆接近十字路口，前方交通信号灯为红灯，自车减速准备停车；路口两侧可见多辆待转或等待的车辆，包括白色SUV和轿车，右侧有WSS商店建筑及高大棕榈树，电线杆与横跨道路的电缆清晰可见。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "信号灯转绿，自车启动前行，同时左侧多辆轿车与SUV从交叉口左转或直行通过，部分车辆与自车路径交叉，形成动态交汇；右侧车道有车辆静止等待，未发生冲突。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:20",
+      "scene_description": "自车继续直行通过路口，前方车辆已基本完成转向，路口内无行人出现；右侧WSS商店前停放多辆车，远处可见其他商铺与交通设施，整体车流有序，无紧急或异常行为。"
+    }
+  ]
+}

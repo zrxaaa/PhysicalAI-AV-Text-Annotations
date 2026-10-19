@@ -1,0 +1,37 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 01:06:39",
+    "processing_time_seconds": 25.14
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车沿街道直行，左侧有一辆Sysco货车停靠在路边，右侧为多层商业建筑。前方车道有白色轿车行驶，路面标有'SLOW BUMP SPEED'字样，提示减速。自车保持匀速，未进行转向或制动。",
+      "scene_description_additional": "道路两侧种植高大棕榈树，路灯已亮起，天色渐暗，环境光线柔和，无明显雨雪影响路面状况。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "自车接近十字路口，右侧出现Nike门店及行人聚集点。一辆银色SUV从右方驶入画面并切入自车前方车道，自车未减速，保持原路径行驶。",
+      "scene_description_additional": "人行道上有数名行人正在行走，部分靠近路口等待过街，但未横穿当前车道，与自车路径无直接冲突。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车继续前行，两名行人从右侧人行横道横穿马路，位于自车正前方约10米处。自车在行人穿越期间保持静止，未加速或变道，确保安全通过。",
+      "scene_description_additional": "左侧可见餐厅外摆桌椅区域，有顾客停留；右侧商店橱窗明亮，行人活动频繁，整体交通流平稳，无突发障碍物。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "行人完成穿越后，自车重新启动向前行驶，前方车辆（包括一辆红色SUV）在路口处排队等候，自车跟随其后缓慢前进，未发生超车或紧急制动。",
+      "scene_description_additional": "道路两侧停放多辆私家车，部分车辆尾灯亮起，表明处于停车状态。自车保持在中间车道，未偏离当前行驶轨迹。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车继续沿直线车道行驶，进入下一段商业街区，两侧建筑风格统一，路灯和商铺灯光持续照明。无行人或车辆突然横穿，交通秩序良好。",
+      "scene_description_additional": "前方车辆逐渐减少，自车速度略有提升，未见明显减速或转向动作，场景整体稳定，无显著动态变化。"
+    }
+  ]
+}

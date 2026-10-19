@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.15,
+    "analysis_time": "2026-01-22 04:16:35"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】晴朗天气，阳光充足，无异常天气现象。【自车】位于中间车道，正沿直道匀速行驶。【左侧】一辆白色半挂卡车（无拖车）停靠在路边，车身横跨部分车道，处于静止状态。【右侧】另一辆白色半挂卡车（无拖车）紧邻前车停放，同样静止。【交通设施】道路两侧为住宅区，有木栅栏、落叶树木及低矮灌木，未见明显施工或障碍物。【关键风险】两辆大型卡车并排停放，占据部分行车道，存在遮挡后方来车视线的风险，但当前无车辆从其后方快速接近，暂未触发紧急交互。",
+      "risk_tags": [
+        "large_vehicle_obstruction",
+        "visibility_impediment"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】光照良好，树影投射于路面，无眩光或阴影遮挡。【自车】保持中间车道匀速前进，未进行转向或变道。【前方】一辆黄色校车出现在视野中，正沿同向车道行驶，尾灯亮起，表明其可能减速或准备停车。【左侧】对向车道有一辆深色轿车驶过，未与自车发生交互。【右侧】路边停放着一辆银灰色SUV和一辆带顶棚的皮卡（红白相间），均静止。【交通设施】道路标线清晰，右侧设有自行车道标识（Bike Lane Sign），提示非机动车通行区域。【关键风险】校车尾灯亮起，暗示其可能即将停车上下客，若自车未保持安全距离，存在追尾或被迫急刹风险。",
+      "risk_tags": [
+        "school_bus_braking_indication",
+        "rear_following_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:19",
+      "scene_description": "【环境】晴天，阳光直射，无降水或雾气。【自车】持续在中间车道匀速行驶，未转向，车头方向与道路曲率一致。【前方】校车已完全停下，位于交叉路口中央偏右位置，尾灯常亮，车牌号“164”清晰可见，后窗贴有标语“WELCOME TO PARK HILL! LET’S LEARN TOGETHER”。【右侧】停放的红白皮卡（带顶棚）车身完整，轮胎朝向道路外侧，未移动。【左侧】对向车道有数辆车通过，包括一辆黑色轿车和一辆红色轿车，均正常行驶。【交通设施】前方为十字路口，设有交通信号灯（当前显示红灯），路旁有“BIKE LANE”标志牌。【关键风险】校车静止于路口中央，自车需在红灯状态下等待，若校车突然启动或有学生横穿，将构成“鬼探头”风险；同时，右侧皮卡虽静止，但其车头朝向与自车行驶方向不一致，存在潜在开门杀或突然启动风险，需保持警惕。",
+      "risk_tags": [
+        "school_bus_stopped_at_intersection",
+        "red_light_waiting",
+        "ghost_probe_risk",
+        "parked_vehicle_door_risk"
+      ]
+    }
+  ]
+}

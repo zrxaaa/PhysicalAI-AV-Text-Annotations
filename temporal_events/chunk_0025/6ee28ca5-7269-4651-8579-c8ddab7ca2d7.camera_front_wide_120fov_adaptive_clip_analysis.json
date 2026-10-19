@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 08:12:55",
+    "processing_time_seconds": 13.87
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车沿直行道路平稳行驶，右侧路边停放多辆汽车，前方可见Infiniti和Nissan汽车经销商招牌；左侧一辆白色轿车在相邻车道同向行驶，未发生变道或交互。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:08",
+      "scene_description": "车辆接近十字路口，交通信号灯为绿灯，自车保持直行通过交叉口；右侧有蓝色小型车从横向车道驶入，与自车路径无冲突，同时人行道上有行人站立但未横穿马路。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "通过交叉口后，自车进入弯道路段，道路两侧停满车辆，右侧有一辆白色皮卡在对向车道行驶，自车保持当前车道并减速适应弯道；路旁出现‘SPEED LIMIT 25’标志牌。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "自车继续沿弯曲道路行驶，左侧出现多辆并排停放的车辆，右侧车道有银色轿车缓慢前行，自车与其保持安全距离；远处可见电线杆及低矮建筑，无行人或其他动态障碍物。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "道路趋于平直，右侧停靠车辆减少，前方出现几栋低层住宅式建筑；自车维持匀速行驶，未见明显变道或加速行为，周围车辆均静止或低速移动，无紧急交互事件。"
+    }
+  ]
+}

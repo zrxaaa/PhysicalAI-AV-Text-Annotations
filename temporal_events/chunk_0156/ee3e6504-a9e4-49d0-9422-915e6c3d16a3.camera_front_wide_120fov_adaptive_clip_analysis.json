@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 10.55,
+    "analysis_time": "2026-01-24 00:02:37"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】夜间，重度大雾天气，能见度极低，车灯照射范围仅约30米。路面湿滑，有明显水雾反光。【自车】在中间车道匀速沿道行驶，未进行变道或转向。【交通设施】道路两侧设有黄黑相间警示柱及白色导向箭头标志牌，随弯道布置；右侧为护栏结构，左侧为土坡或路肩。【关键风险】前方道路存在连续左转弯道，但因浓雾遮挡，无法预判弯道内是否有障碍物或对向来车，存在“盲区碰撞”风险。",
+      "risk_tags": [
+        "heavy_fog",
+        "low_visibility",
+        "blind_curve_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:06-00:00:12",
+      "scene_description": "【环境】雾气略有扩散，但仍维持低能见度状态。路面持续湿润，车灯照射区域出现轻微水汽凝结现象。【自车】保持中间车道匀速行驶，随弯道自然转向，车头偏航角与道路曲率同步。【交通设施】右侧护栏持续延伸，左侧警示柱间距均匀，部分柱体顶部有反光贴膜，在灯光下闪烁。【关键风险】无明显动态目标进入50米半径范围，但前方远处隐约可见对向车辆尾灯（距离约80米），因雾气干扰无法判断其速度与轨迹，存在潜在迎面碰撞风险。",
+      "risk_tags": [
+        "distant_vehicle_uncertainty",
+        "wet_road_surface"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雾气进一步加重，车灯照射区域边缘模糊，形成“白茫茫”视觉效果。路面积水反射灯光，形成眩光。【自车】继续在中间车道沿直道行驶，横向无偏移，纵向速度稳定。【交通设施】前方道路标线因雾气和水汽影响，部分虚线轮廓模糊不清；右侧路肩处出现一个临时指示牌（方向箭头），因距离过远且雾气遮挡，无法辨识内容。【关键风险】无其他车辆或行人进入视野，但自车前挡风玻璃上出现水珠/雾气附着，可能影响驾驶员视线（若为人工驾驶场景）。当前无直接碰撞威胁，但属于高风险长尾场景：极端天气下的持续低能见度驾驶，易引发操作失误。",
+      "risk_tags": [
+        "extreme_low_visibility",
+        "windshield_obstruction_risk",
+        "long_tail_driving_challenge"
+      ]
+    }
+  ]
+}

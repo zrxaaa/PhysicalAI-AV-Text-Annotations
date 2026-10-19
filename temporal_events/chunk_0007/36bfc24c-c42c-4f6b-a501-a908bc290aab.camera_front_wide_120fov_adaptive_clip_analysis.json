@@ -1,0 +1,37 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 01:36:22",
+    "processing_time_seconds": 22.04
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车停在十字路口前，前方红灯亮起，左侧有一辆白色货车正在左转，右侧人行道上有行人等待过街，远处有公交车和轿车在路口处静止。",
+      "road_conditions": "晴天，路面干燥，交通信号灯为红灯，人行横道清晰可见。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "信号灯变绿，自车开始向前行驶，左侧一辆银色轿车同时启动并左转进入主路，右侧人行横道上两名行人开始穿越马路，与自车路径交叉。",
+      "road_conditions": "绿灯通行，车道畅通，右侧设有‘ROAD WORK AHEAD’警示牌，但无施工人员或设备直接干扰车流。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车驶入直行车道，左侧一辆公交车（编号19）并行缓慢前行，右侧为绿色自行车道，路边停放多辆私家车，一名穿荧光背心的工人出现在前方施工区域边缘。",
+      "road_conditions": "道路两侧有商铺及住宅楼，中间车道有施工锥桶引导车流，天气晴朗，光照充足，路面无障碍物。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车继续沿直线行驶，前方出现橙色施工锥桶排列成临时通道，一名工人在锥桶间行走，右侧公交站台有乘客等候，一辆白色面包车从右侧驶出并入主路。",
+      "road_conditions": "施工区域持续存在，锥桶引导车辆绕行，交通秩序良好，无拥堵，天气稳定，能见度高。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车接近下一个十字路口，前方有红绿灯和斑马线，右侧公交站台有人上下车，左侧建筑旁有小型电动车驶出，自车保持匀速通过当前路段。",
+      "road_conditions": "临近路口，交通信号灯未变化，道路标线清晰，环境安静有序，无突发障碍或冲突事件。"
+    }
+  ]
+}

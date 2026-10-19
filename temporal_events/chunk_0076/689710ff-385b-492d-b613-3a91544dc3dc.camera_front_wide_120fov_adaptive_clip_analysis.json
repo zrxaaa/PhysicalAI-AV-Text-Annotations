@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.87,
+    "analysis_time": "2026-01-22 14:12:34"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "【环境】夜间城市街道，能见度受路灯与雾气影响，部分区域有轻微水汽或烟尘导致视线模糊。【自车】在中间车道匀速沿道行驶，未进行转向或变道。【左侧】停放多辆私家车，包括一辆黄色出租车；右侧人行道有商铺（如“AGORA PLAZA”、“PANKYPIAN COMMUNITY CENTER”）及少量行人活动。【交通设施】高架铁路结构横跨道路，下方布满钢梁与电缆，形成视觉遮挡。【关键风险】前方红灯路口处，车辆密集，存在潜在刹车延迟风险；左侧路边有不明物体（疑似垃圾袋）堆放在人行道边缘，可能引发轮胎刮蹭。",
+      "risk_tags": [
+        "low_visibility",
+        "braking_delay_risk",
+        "obstacle_on_sidewalk"
+      ]
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "【环境】进入高架桥下阴影区，光照骤降，仅靠路灯和车灯照明，能见度进一步降低。【自车】继续在中间车道行驶，接近前方红灯停车线，车速缓慢下降。【前方】一辆黑色轿车停于红灯前，尾灯亮起，无明显移动趋势。【右侧】出现一个白色食品车（标有“ICE CREAM”字样），停靠在路边，一名顾客正在购买，车门开启，但未对车道造成直接阻碍。【交通设施】高架桥结构压迫感增强，桥墩上可见涂鸦，部分区域电线杂乱悬挂。【关键风险】右侧食品车顾客突然从车门侧向走出，可能横穿车道；同时，前方黑车刹车灯持续亮起，若其突然熄灭或异常启动，将构成“鬼探头”风险。",
+      "risk_tags": [
+        "ghost_probe_risk",
+        "pedestrian_crossing_attempt",
+        "sudden_brake_failure_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】高架桥阴影区逐渐结束，右侧路灯重新提供照明，视野恢复。【自车】在红灯前完全停止，保持静止状态。【前方】黑色轿车同样停稳，车牌被模糊处理，无任何变道或启动迹象。【左侧】交叉路口有数名行人正在过街，其中一人推婴儿车，面部朝向前方，动作平稳；另有一名骑电动车者从左转车道驶入直行车道，未打转向灯，存在切入风险。【右侧】食品车旁新增一名站立顾客，正面向车窗，未移动；后方店铺（如“Sprint”）橱窗灯光明亮，无异常。【关键风险】左侧骑电动车者无转向信号强行切入自车所在车道，构成“违规加塞”行为；同时，因自车处于停车状态，对横向切入车辆反应时间极短，碰撞风险极高。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "no_turn_signal",
+        "high_collision_risk"
+      ]
+    }
+  ]
+}

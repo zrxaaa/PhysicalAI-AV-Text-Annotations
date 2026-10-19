@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 06:02:28",
+    "processing_time_seconds": 14.21
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "车辆行驶过程中，右侧出现一辆银色SUV从停车位驶出并汇入车道，与自车保持安全距离，未发生交互。远处可见几栋低层住宅和稀疏树木。"
+    },
+    {
+      "time_segment": "00:00:06-00:00:11",
+      "scene_description": "右侧一棵大树遮挡部分视野，但未影响行车路径。远处可见电线杆和横跨道路的电缆，天气晴朗，阴影投射在路面上，表明太阳位于偏高位置。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:15",
+      "scene_description": "左侧路边停放着一辆白色货车，车身覆盖防尘罩，疑似用于长期停放。右侧住宅前草坪上有少量灌木，无行人或动物活动，整体环境安静有序。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "远处可见一个红色停车标志牌，提示驾驶员需停车确认安全。自车保持中速行驶，未进行变道或超车动作，整个过程平稳无突发状况。"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 03:14:14",
+    "processing_time_seconds": 11.75
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "自车沿弯道行驶，前方有一辆深色SUV在右车道行驶，道路左侧有混凝土护栏和绿化带，右侧为树木与草地，天空多云但阳光充足，路面干燥无湿滑迹象。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:11",
+      "scene_description": "车辆驶过弯道后进入直道，前方出现交通信号灯与路牌，提示‘LOW ZONE NEXT 22 MI’，右侧路边有停车标志及施工区域警示牌，对向车道有车辆驶入交叉路口。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:15",
+      "scene_description": "自车继续直行，进入多车道高速公路，右侧出现橙白相间的施工锥桶与工程车辆，前方一辆银灰色SUV保持匀速行驶，左侧车道有卡车与轿车交替通过。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "自车接近NE 85th St出口指示牌，右侧施工区域有大型工程车停靠，车道因施工压缩，车辆减速并保持与前车安全距离，未见行人或其他突发障碍物。"
+    }
+  ]
+}

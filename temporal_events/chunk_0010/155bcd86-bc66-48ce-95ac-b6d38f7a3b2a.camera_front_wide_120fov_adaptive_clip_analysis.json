@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 02:57:19",
+    "processing_time_seconds": 12.22
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车在湿滑的双向四车道道路上直行，前方路口为十字交叉口，右侧路边停有多辆汽车，左侧可见住宅楼和电线杆，天空多云但阳光透过云层照射路面。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "自车左转进入另一条街道，道路两侧出现更多住宅建筑，部分树木无叶，路面因雨后仍显湿润，阳光在路面上形成反光，对向车道有车辆驶来但未与自车路径冲突。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "自车继续沿主干道直行，前方交通信号灯为红灯，对向及右转车道有车辆正在等待或转弯，自车减速并保持在车道内，未见行人或其他动态障碍物靠近路径。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "自车在红灯前完全停止，前方路口有数辆车同时停车，包括一辆SUV和一辆轿车正从右侧支路汇入主路，交通灯控制下车辆有序等待，无行人穿越或突发状况。"
+    },
+    {
+      "time_segment": "00:00:19-00:00:20",
+      "scene_description": "交通信号灯转绿，自车启动前行，前方车辆同步起步，道路两侧建筑和树木持续掠过视野，路面湿滑反射阳光，整体场景平稳过渡至下一个路段。"
+    }
+  ]
+}

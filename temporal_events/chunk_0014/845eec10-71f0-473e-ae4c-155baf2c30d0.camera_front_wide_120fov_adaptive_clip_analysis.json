@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 04:15:37",
+    "processing_time_seconds": 10.37
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在狭窄城市街道中匀速前行，阳光从前方高楼间直射，形成强烈眩光。左侧停有一辆黑色工程车，右侧人行道有行人步行，一名骑自行车者从左侧超越自车进入前方车道。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "自车继续沿街行驶，左侧出现一辆白色厢式货车并排停放，右侧为施工围挡区域。前方道路中央出现一辆黄色出租车，自车保持安全距离跟随其后，未进行变道或加速。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "自车接近前方黄色出租车，同时左侧大型搬家货车（车身印有“Moving & Storage”字样）开始缓慢向左移动，试图驶离路边。右侧人行道上有两名穿反光背心的工人站立，未横穿马路。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:20",
+      "scene_description": "自车与黄色出租车保持稳定跟车距离，搬家货车完成左转驶离主路，不再构成路径冲突。右侧工人仍站立于施工区域旁，无进一步动作。阳光持续照射，路面反射明显，整体交通流平稳。"
+    }
+  ]
+}

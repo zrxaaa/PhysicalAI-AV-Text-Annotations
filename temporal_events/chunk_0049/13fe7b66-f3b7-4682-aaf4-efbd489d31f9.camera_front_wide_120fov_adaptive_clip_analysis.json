@@ -1,0 +1,38 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.9,
+    "analysis_time": "2026-01-22 02:05:26"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "【环境】夜间行车，无明显降水或雾气，路面干燥，能见度受限于车灯照射范围（约50米）。【自车】位于中间车道，匀速沿道路曲线行驶，未进行变道或紧急制动。【交通设施】道路右侧设有多个黄色弯道警示标志（左转箭头），沿路分布；左侧为土坡与稀疏植被，无照明。【关键风险】无显著障碍物或违规行为，但道路曲率较大且缺乏路灯，存在潜在视线盲区风险。",
+      "risk_tags": [
+        "low_visibility",
+        "curved_road_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "【环境】继续夜间行驶，车灯照亮前方弯道及路肩区域。【自车】保持在中间车道，随道路曲率自然转向，车头偏航角持续微调以贴合车道线。【周围车辆】远处左侧山坡上可见数个零星灯光，疑似住宅区，未发现移动车辆。【交通设施】右侧连续出现多个黄色“S”形弯道警示牌，提示前方为复合弯道。【关键风险】无直接威胁，但弯道密集且无中央隔离带，若对向来车超速或失控将构成严重碰撞风险。",
+      "risk_tags": [
+        "multiple_curves",
+        "no_divider_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】夜间，道路两侧仍为黑暗林地，局部有积雪或霜冻痕迹覆盖路肩。【自车】维持当前车道匀速前进，通过弯道后进入直道段。【周围车辆】在弯道末端右侧路边，发现一辆白色SUV静止停放，车尾朝向道路，未开启警示灯，车身部分侵入路肩。【非标准物体】该SUV无明显作业状态，亦无人员活动迹象，可能为临时停车或故障车。【关键风险】车辆停靠位置靠近弯道出口，存在“鬼探头”隐患——若后续有行人或摩托车从弯道内侧突然出现，可能因遮挡无法及时反应；同时，其占据路肩可能影响后方车辆避让空间。",
+      "risk_tags": [
+        "parked_vehicle_obstruction",
+        "ghost_probe_risk",
+        "night_driving_hazard"
+      ]
+    }
+  ]
+}

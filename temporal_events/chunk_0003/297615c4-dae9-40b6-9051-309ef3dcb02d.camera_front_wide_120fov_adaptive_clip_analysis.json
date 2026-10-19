@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:46:46",
+    "processing_time_seconds": 15.77
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车沿街道行驶，右侧为一排商铺及停车场，多辆轿车和SUV停放在路边。一辆深色轿车从右侧停车位驶出并汇入车道，与自车保持平行行驶，未发生路径冲突。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "自车进入大型商业区停车场，前方出现宽阔的空地和多个店铺招牌。一辆灰色轿车从左侧驶入画面并横向穿越停车区域，随后驶离视野，自车平稳减速准备转向。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "自车在停车场内向右转，前方出现行人横穿道路，该行人从右侧商铺方向走向对面路口，手持物品，步行速度中等，与自车路径无直接交集但需注意避让。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "行人完成横穿后，自车继续右转，前方可见大型超市建筑及广告牌。一辆银色轿车从对向车道驶过，与自车在交叉口处短暂形成相对运动，但无碰撞风险。天气晴朗，路面干燥，能见度良好。"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.69,
+    "analysis_time": "2026-01-24 11:15:27"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴朗天气，能见度良好，无异常光照或路面状况。【自车】在中间车道匀速沿直道行驶，未进行转向或变道。【周围交通参与者】左侧对向车道有数辆轿车和SUV正常通行；右侧路肩为围栏隔离的空地，无车辆或行人。【交通设施】道路左侧设有AMC影院标志牌及路侧停车区，前方可见限速30标识。【关键风险】无明显风险，道路结构清晰，无遮挡物或突发障碍。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】阳光充足，部分区域出现树影投射，无遮挡或眩光问题。【自车】保持中间车道匀速前行，随道路轻微左弯行驶，未越线。【周围交通参与者】左侧路边出现红色商业建筑群（含SmokeEaters、FedEx Office），有少量停放车辆；右侧为铁丝网围栏内空地，偶有车辆驶过。【交通设施】道路中央分隔带由碎石与低矮灌木构成，无施工锥桶或临时围挡。【关键风险】无显著风险，但右侧空地存在潜在非机动车或行人闯入风险，需保持警觉。",
+      "risk_tags": [
+        "potential_pedestrian_crossing_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】晴天，光照稳定，视野开阔。【自车】在接近路口时减速并准备左转，车头偏航角逐渐向左调整。【周围交通参与者】左前方一辆银色轿车正从交叉口驶出，完成左转动作；右侧人行道上有两名行人静止站立，面向街对面，未横穿马路。【交通设施】通过白色拱形“MERCADO Santa Clara”门楼，下方为Panda Express餐厅入口，建筑立面为红砖风格，门前有棕榈树装饰。【关键风险】自车即将进入转弯区域，需注意左侧来车及行人动态；右侧人行道上行人虽未移动，但处于视线盲区边缘，存在潜在“鬼探头”风险。",
+      "risk_tags": [
+        "turning_intersection_risk",
+        "pedestrian_blind_spot_risk"
+      ]
+    }
+  ]
+}

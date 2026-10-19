@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.67,
+    "analysis_time": "2026-01-23 03:05:48"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】暴雨天气，能见度低，雨滴密集覆盖挡风玻璃，雨刷器高频工作。路面湿滑，积水反光严重。【自车】在最左侧车道匀速行驶，前方为多车道直行路段，即将进入弯道。【右侧】路边有“FREEWAY ENTRANCE”绿色指示牌及黄色“15-3”限高标志，后方有商业建筑与树木。【交通设施】道路标线清晰，但因雨水模糊部分边缘。【关键风险】无明显违规或障碍物，但低能见度导致潜在视觉遮蔽风险。",
+      "risk_tags": [
+        "heavy_rain",
+        "low_visibility",
+        "wet_road"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】持续暴雨，雨势未减，挡风玻璃水雾加剧。【自车】开始向右转向，沿弯道行驶，车头偏航角增大，从左车道切入中间车道。【右侧】出现红色临时围挡区域，内有施工设备轮廓，但无施工车辆作业。【左侧】对向车道有数辆轿车快速驶过，车灯在雨幕中呈条状光斑。【交通设施】路肩出现“CAR POOL LANE”字样，提示专用车道。【关键风险】自车变道过程中，右侧施工围挡区域存在视线盲区，若行人或非机动车突然出现将构成“鬼探头”风险。",
+      "risk_tags": [
+        "lane_change",
+        "ghost_probe_risk",
+        "construction_zone_occlusion"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】雨势略有缓和，但仍阴沉，能见度约150米。【自车】完成右转动作，进入匝道并继续沿曲线道路行驶，保持匀速。【前方】可见一座高架桥横跨道路，桥下有多个车道通行。【右侧】桥墩旁有绿化带与棕榈树，远处有红绿灯信号杆。【周围车辆】一辆白色SUV在自车右前方邻近车道匀速行驶，未见异常行为；另有一辆黑色轿车在更远距离的对向车道行驶。【交通设施】桥体下方设有“Great America Pkwy”与“Bowers Avenue”双方向指示牌，出口编号393。【关键风险】高架桥结构形成局部阴影区，光线变化可能影响感知；桥下车辆速度不一，存在潜在汇入冲突风险。",
+      "risk_tags": [
+        "bridge_shadow_effect",
+        "multi-lane_conflict_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】暴雨持续，路面水雾较厚，部分路段积水深度目测超过5cm，车辆驶过时溅起大量水花。【自车】加速通过桥下通道，车速由60km/h提升至70km/h，穿越限高15ft 3in的混凝土桥洞。【桥洞内】两侧墙壁潮湿，顶部有排水孔滴水，地面反射强光。【周围车辆】桥洞外侧车道有多辆货车与轿车高速通过，其中一辆大型卡车在左前方车道超车，车身晃动明显。【交通设施】桥洞上方悬挂绿色路牌，标明“EXIT 393”，同时有黄色限高警示牌。【关键风险】自车在桥洞内行驶时，因水雾与结构阴影叠加，视觉信息丢失；大型卡车超车伴随强烈气流扰动，可能引发自车横向偏移；桥洞底部积水可能造成轮胎打滑或涉水故障。",
+      "risk_tags": [
+        "high_speed_crossing",
+        "water_flood_risk",
+        "large_vehicle_wind_disturbance",
+        "bridge_tunnel_visual_loss"
+      ]
+    }
+  ]
+}

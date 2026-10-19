@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 21.46,
+    "analysis_time": "2026-01-23 15:20:28"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】阴天，天空灰暗，无明显降水但路面湿滑，能见度中等。【自车】位于中间车道，处于停车等待状态，刹车灯亮起。【左侧】一辆银灰色WITTE品牌厢式货车停在左邻车道，车身贴有德语广告文字；【右侧】一辆白色inlinе快递厢式货车停在右邻车道，车尾印有“inline-kurier.de”字样。【前方】红色宝马SUV停于路口中央，刹车灯常亮。【交通设施】前方双向红灯信号灯亮起，横跨道路的交通灯杆结构清晰可见。【关键风险】无明显违规行为或遮挡风险，但多车同时静止于交叉口，存在潜在追尾或误启动风险。",
+      "risk_tags": [
+        "queue_waiting",
+        "brake_light_still",
+        "no_immediate_hazard"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:07",
+      "scene_description": "【环境】天气未变，仍为阴天，路面微湿。【自车】接收到绿灯信号后，开始匀速起步，沿中间车道向前行驶。【左侧】WITTE货车同步启动，向左前方转向并驶入左转车道；【右侧】inlinе货车亦启动，向右前方转向并进入右转车道。【前方】红色宝马SUV保持原位，待绿灯后跟随自车前行。【交通设施】两侧交通信号灯由红转绿，横向灯杆结构随车辆移动逐渐移出视野。【关键风险】两辆厢式货车同时转向，存在轻微切入自车车道的风险（Cut-in），但均在各自车道内完成转向，未发生碰撞或强行变道。",
+      "risk_tags": [
+        "simultaneous_turning",
+        "cut_in_potential",
+        "controlled_transition"
+      ]
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "【环境】阴云密布，光线均匀，无强光或阴影干扰。【自车】已驶入主干道，保持中间车道匀速行驶。【左侧】一辆蓝色小型轿车从左前侧超车并入自车所在车道，完成变道动作；【右侧】一名骑自行车者沿非机动车道与自车平行前进，距离约5米，未进入机动车道。【前方】红色宝马SUV及后方黑色奥迪SUV保持队列行驶，车距稳定。【交通设施】道路两侧设有路灯、路牌和人行横道标线，右侧建筑底层有商铺（如“USTAM”），部分区域有施工围栏。【关键风险】右侧自行车骑行者虽未侵入车道，但在弯道处可能因视线遮挡突然转向；左侧蓝色小车超车动作迅速，需注意其后视镜盲区。",
+      "risk_tags": [
+        "lane_change_by_small_car",
+        "bicycle_parallel_motion",
+        "blind_spot_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】持续阴天，树木枝叶茂盛，部分路段有施工围挡。【自车】继续沿中间车道匀速行驶，道路呈缓坡上升趋势。【左侧】一辆深色面包车从对向车道驶过，未进入本车道；【右侧】施工区域可见橙色挖掘机静止作业，周围设置临时围栏，无人员活动。【前方】红色宝马SUV与黑色奥迪SUV维持安全车距，未出现急刹或异常行为。【交通设施】道路两侧绿化带完整，路灯间距均匀，远处可见一座尖顶塔楼轮廓。【关键风险】右侧施工区域存在潜在障碍物（如散落物料或设备），但当前无直接威胁；左侧对向车流平稳，无违规行为。整体场景安全可控。",
+      "risk_tags": [
+        "construction_zone",
+        "stable_traffic_flow",
+        "no_active_threat"
+      ]
+    }
+  ]
+}

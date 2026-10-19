@@ -1,0 +1,50 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.84,
+    "analysis_time": "2026-01-24 08:19:08"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】夜间，暴雨天气，路面严重积水并反射路灯与交通信号灯，能见度因雨雾降低。【自车】位于中间车道，沿弯曲道路匀速前行，未进行转向或变道。【前方交通设施】前方路口设有多个蓝底白字方向指示牌，左侧为绿灯通行信号，右侧为红灯。【交互关系】自车正接近交叉路口，尚未减速，处于正常行驶状态。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility",
+        "no_immediate_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】持续暴雨，雨滴在挡风玻璃上形成动态模糊，部分灯光出现光晕。【自车】继续沿中间车道行驶，进入路口前段，开始减速准备停车。【交通设施】左侧交通信号灯由绿灯转为黄灯，右侧信号灯仍为红灯。【相对位置】自车前方约15米处为路口停止线，两侧路灯照明均匀，但受雨雾影响亮度衰减明显。【交互关系】自车响应黄灯信号，执行减速制动，准备在停止线前停车。",
+      "risk_tags": [
+        "yellow_light_response",
+        "deceleration_required",
+        "rain_blur"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】暴雨加剧，雨幕浓重，部分路灯因水汽折射呈现红色光晕。【自车】已完全停车于停止线后，保持静止状态。【交通设施】左侧信号灯由黄灯转为红灯，右侧信号灯维持红灯。【周围交通参与者】右侧对向车道一辆蓝色小型轿车从右后方驶入画面，以约30km/h速度通过路口，未在自车所在车道停留。【关键风险】该蓝色车辆在自车停车等待期间完成横穿，未造成直接交互，但其高速通过增加了路口横向冲突概率，存在潜在“鬼探头”风险（因树木遮挡视线）。【非标物体】无特种车辆、动物或遗撒物。",
+      "risk_tags": [
+        "crossing_vehicle",
+        "ghost_probe_risk",
+        "high_speed_crossing"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】暴雨持续，路面反光强烈，部分区域积水较深。【自车】保持静止于停止线后，未移动。【周围交通参与者】蓝色小轿车已驶离路口，后续无其他车辆进入视野。【交通设施】左侧红灯持续亮起，右侧红灯亦保持不变，路口无行人或非机动车活动迹象。【空间定位】自车左前方有护栏及绿化带，右侧为开阔路肩，远处路灯照明稀疏。【关键风险】当前时段无直接碰撞威胁，但因暴雨导致的低能见度和湿滑路面，长期停车可能增加追尾风险（若后车未保持安全距离），同时存在因视线受阻而忽略突然出现的行人或动物的风险。",
+      "risk_tags": [
+        "low_visibility",
+        "wet_road",
+        "potential_rear_collision",
+        "occlusion_risk"
+      ]
+    }
+  ]
+}

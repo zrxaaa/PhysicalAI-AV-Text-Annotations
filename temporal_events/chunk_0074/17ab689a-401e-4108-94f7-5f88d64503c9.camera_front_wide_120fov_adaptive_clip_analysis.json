@@ -1,0 +1,37 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 21.62,
+    "analysis_time": "2026-01-22 12:54:36"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴朗天气，无降水或雾，能见度良好；阳光从右上方照射，路面有清晰阴影。【自车】位于中间车道，匀速沿直道行驶，未进行变道或转向。【右侧】一辆深灰色SUV在相邻车道并行，保持约5米横向距离，未超车也未减速。【左侧】对向车道有车辆驶过，包括一辆白色卡车，均在对向车道正常行驶。【交通设施】道路左侧设有“MERGE RIGHT”菱形警示牌，前方可见“TRAFFIC CIRCLE 40 MPH”标志，提示前方为环岛区域。【关键风险】无明显违规行为或障碍物，但右侧SUV与自车间距较小（<5m），存在轻微切出风险，需保持警惕。",
+      "risk_tags": [
+        "minimal_lateral_proximity"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】光照稳定，天空湛蓝，无遮挡。【自车】仍保持中间车道匀速行驶，随道路微弯向前。【右侧】路边出现商业建筑群，包括ShopRite、TD Bank、IHOP等，停车场内停满车辆。【前方】出现两个黄色菱形警示牌，分别标示“TRAFFIC CIRCLE 40 MPH”和“40 MPH”，提示前方为环岛入口及限速。【左侧】对向车道车辆稀疏，偶有轿车通过。【非标准物体】无特种车辆、动物或遗撒物。【关键风险】无直接碰撞威胁，但前方环岛入口处存在多车汇入可能，需注意右侧车道车辆可能突然切入自车所在车道（潜在Cut-in风险）。",
+      "risk_tags": [
+        "potential_cut_in",
+        "intersection_approach"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】阳光角度降低，右侧建筑物投下长影，部分路段进入阴影区。【自车】继续在中间车道匀速行驶，未改变速度或方向。【右侧】路边商业区车辆密集停放，包括T-Mobile门店前的多辆皮卡与轿车，部分车辆处于静止状态。【前方】道路进入环岛过渡段，地面出现黄色斜纹减速标线，引导车辆减速。【左侧】对向车道车辆持续通行，未见异常。【交通设施】路侧多个指示牌清晰可见，包括“STORE FOR RENT”、“ZEPLER'S AUTO”等商业标识。【关键风险】右侧停车区域存在“开门杀”风险：部分车辆驾驶员可能突然打开车门，尤其在环岛入口附近；同时，前方减速标线提示需提前准备制动，若后车跟车过近易引发追尾。此外，环岛入口处存在多方向车流交汇，需防范突发变道或强行切入。",
+      "risk_tags": [
+        "door_opening_risk",
+        "braking_required",
+        "multi_lane_convergence"
+      ]
+    }
+  ]
+}

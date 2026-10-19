@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 01:24:33",
+    "processing_time_seconds": 14.34
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车沿双向四车道道路平稳行驶，左侧路侧有学校限速20英里标志，右侧可见施工警示牌与橙色锥桶。一辆白色SUV从对向车道驶过，未与自车发生交互。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:09",
+      "scene_description": "前方出现人行横道警示牌与“前方有学生”标志，道路两侧为围栏和树木。自车继续直行，右侧施工区域持续存在，无行人或施工人员活动，远处有黑色SUV从对向车道驶来并驶离。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:13",
+      "scene_description": "车辆接近十字路口，交通信号灯显示绿灯，自车减速准备通过。路口上方悬挂“White Rock Road”路牌，左侧有白色皮卡在交叉口左转，未与自车路径冲突。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "通过路口后，自车继续直行，道路两侧出现路灯与监控杆，左侧有白色SUV从对向车道驶过并完成变道。天气晴朗，路面干燥，无明显障碍物或行人。"
+    },
+    {
+      "time_segment": "00:00:18-00:00:19",
+      "scene_description": "自车驶近一座桥梁，桥面两侧设有护栏，对向车道有车辆正常通行。前方无红绿灯或行人，环境安静，自车保持匀速行驶，未见显著动态变化。"
+    }
+  ]
+}

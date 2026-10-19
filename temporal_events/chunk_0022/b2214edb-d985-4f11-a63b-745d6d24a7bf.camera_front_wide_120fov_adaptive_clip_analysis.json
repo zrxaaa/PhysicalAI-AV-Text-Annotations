@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 07:14:51",
+    "processing_time_seconds": 11.58
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在中间车道匀速行驶，前方为一辆白色皮卡，右侧有一辆灰色轿车和一辆U-Haul货车并行，左侧对向车道有车辆驶过，路边设有右转指示标志。天气晴朗，路面干燥，无明显障碍物。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "自车继续跟随前方白色皮卡，右侧灰色轿车开始减速并缓慢向右变道，左侧对向车道出现一辆公交车驶近，与自车形成相对运动。道路标线清晰，无行人或突发障碍。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "自车保持当前车道，前方皮卡刹车灯亮起，表明前方交通流减速。右侧多辆轿车排队等待，部分车辆开始缓慢移动，自车随之减速。左侧公交车已驶离，未对自车路径造成干扰。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "自车与前方皮卡保持安全距离，处于缓行状态，右侧车道车辆陆续向前移动，但整体车流仍较慢。无行人出现，道路两侧商铺无显著动态交互，环境稳定，光线充足。"
+    }
+  ]
+}

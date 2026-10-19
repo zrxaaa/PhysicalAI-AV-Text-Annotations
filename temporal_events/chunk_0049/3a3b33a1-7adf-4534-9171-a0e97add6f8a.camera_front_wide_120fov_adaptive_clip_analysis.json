@@ -1,0 +1,45 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.98,
+    "analysis_time": "2026-01-22 01:58:27"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴朗天气，天空有稀疏云层，阳光从左上方照射，无降水或雾气。【自车】位于中间车道，匀速沿直道行驶，未进行转向或变道。【左侧】一辆银色皮卡（Ram 1500）在邻近车道同向行驶，保持稳定速度；其后方有一辆银色SUV（Chevrolet Tahoe）正从左侧超车并切入自车前方车道。【右侧】多辆轿车（含黑色本田Accord、白色本田Civic）停靠在路边，部分车辆缓慢驶离车位。【交通设施】前方路口设有“STOP”路面标线及红色八角形停车标志，路牌显示为“Third St & Davis St”。【关键风险】左侧银色SUV在未打转向灯情况下快速切入自车前方车道，存在“Aggressive Cut-in”风险，迫使自车紧急减速规避。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "lane_change_risk",
+        "stop_sign_compliance"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】阳光增强，出现轻微眩光，但能见度良好。【自车】在交叉路口前减速至停止，遵守“STOP”标线与停车标志。【前方】对向车道有多辆汽车等待通行，包括一辆深蓝色SUV和一辆白色SUV，均处于静止状态。【右侧】路口拐角处一栋两层住宅前停放着一辆蓝色小型货车与一辆白色SUV，树木叶片呈红黄相间，属秋季典型景观。【交通设施】路口设有清晰的“STOP”路面标记与街道路牌，无遮挡物影响视线。【关键风险】无显著风险，但需注意右侧转弯车辆可能突然启动，存在“开门杀”潜在风险（如住户开门），不过当前无行人或明显开门动作。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "【环境】逆光加剧，太阳位于左上角，形成强光晕。【自车】完成停车后，在绿灯亮起时启动，向右转进入新路段。【横向交互】一辆银色福特Edge SUV从右侧横穿路口，完成左转后驶入自车所在方向车道，与自车形成交叉路径。【左侧】对向车道有数辆汽车正常行驶，未见异常行为。【非标物体】路边绿化带内有落叶堆积，未对行车造成直接影响。【关键风险】银色福特Edge在转弯过程中未充分观察自车动向，存在“Crossing Path”风险，虽未发生碰撞，但需警惕其转向轨迹与自车路径重叠区域。",
+      "risk_tags": [
+        "crossing_path",
+        "turning_vehicle_risk",
+        "sun_glare_impact"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】阳光仍强烈，路面干燥，无降水或结冰迹象。【自车】已转入新街道，保持中间车道匀速行驶。【左侧】一辆白色皮卡（Toyota Tundra）停靠在路边，车身部分伸出车道线，构成潜在障碍。【右侧】多辆私家车（含黑色SUV、红色轿车）停放在人行道旁，部分车辆缓慢驶离停车位。【交通设施】道路两侧设有电线杆、路灯及低矮围栏，无施工区域或锥桶。【关键风险】左侧白色皮卡停靠位置不当，若司机突然打开车门或车辆启动，将引发“Open Door”事故；此外，右侧多辆车频繁进出停车位，存在“鬼探头”风险，尤其在自车加速或变道时需特别留意。",
+      "risk_tags": [
+        "open_door_risk",
+        "parked_vehicle_crossing",
+        "parking_lot_entrance_hazard"
+      ]
+    }
+  ]
+}

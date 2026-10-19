@@ -1,0 +1,44 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.18,
+    "analysis_time": "2026-01-22 07:17:20"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】晴天，能见度良好，无异常天气。【自车】位于中间车道，匀速沿直道前行，未进行转向或变道。【左侧】多辆私家车（含白色Jeep、黑色SUV、银色轿车）沿路边静态停放，部分车辆在自车前方约5-20米处。【右侧】人行道旁有绿化带与现代建筑，无行人活动。【交通设施】道路标线清晰，包括双黄实线及“ONLY”字样；前方路口设有交通信号灯，当前为绿灯。【关键风险】无明显违规行为或障碍物，场景平稳。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:06-00:00:10",
+      "scene_description": "【环境】阳光开始西斜，出现轻微眩光但未影响视线。【自车】保持中间车道行驶，接近十字路口，速度略有降低以准备左转。【前方】对向车道有车辆正在左转，右侧车道有白色轿车驶入本车右后方邻车道，意图并线。【交通设施】路口设有“JULIAN ST”和“TERRAINE ST”路牌，交通信号灯显示绿色直行箭头。【关键风险】右侧白色轿车在未打转向灯情况下快速切入自车右后侧车道，存在切出（Cut-out）风险，但未发生碰撞。",
+      "risk_tags": [
+        "aggressive_lane_change",
+        "un signaled_cut_in"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】强逆光，太阳位于画面右上方，造成镜头眩光与局部阴影。【自车】在右转专用车道内减速，准备右转。【左侧】路口中央设有一组骑马人物雕塑，雕塑基座位于人行道边缘，无动态干扰。【右侧】一辆深色SUV与一辆皮卡并排行驶于自车右前方，均处于右转车道。【交通设施】路面喷涂“ONLY”与“FHY”（可能为“FOR HOV”或“FIRE HYDRANT”）字样，提示车道用途。【关键风险】因逆光导致后视镜与侧窗视野受限，且右前方车辆距离较近，存在盲区碰撞风险；同时，雕塑区域无行人，但若有人突然从雕塑后方走出将构成遮挡风险。",
+      "risk_tags": [
+        "strong_ambient_light",
+        "blind_spot_risk",
+        "occlusion_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】逆光持续，太阳高度降低，光线穿透力增强。【自车】完成右转动作，进入新路段，当前位于最右侧车道。【前方】右转后可见高架桥横跨路口，桥下有车辆通行。【右侧】一辆银色皮卡在自车右前方行驶，保持稳定车距。【交通设施】路口设有多个交通信号灯，当前右转箭头为绿灯；桥下区域有“NO STOPPING ANY TIME”禁停标志。【非标物体】桥墩附近有数名行人站立，面向桥面方向，未横穿马路，无明显移动趋势。【关键风险】无紧急避让需求，但桥下区域存在潜在“鬼探头”风险——若行人突然从桥下或护栏后方冲出，将因视线遮挡无法及时反应。",
+      "risk_tags": [
+        "ghost_probe_risk",
+        "bridge_obstruction",
+        "pedestrian_standby"
+      ]
+    }
+  ]
+}

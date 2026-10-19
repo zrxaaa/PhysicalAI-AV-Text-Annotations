@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 06:33:09",
+    "processing_time_seconds": 13.96
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车从十字路口起步，沿林荫道平稳前行，右侧路边停有一辆黑色垃圾清运卡车，左侧为住宅区围墙与树木，无行人或交叉车辆干扰。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "道路两侧出现多辆停放的私家车，包括SUV和轿车，部分车辆停在车道旁，绿色垃圾桶沿路分布；自车保持匀速直行，未进行变道或减速，天气多云但光线充足。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:15",
+      "scene_description": "自车继续沿街行驶，两侧车辆密集，部分车辆停在碎石车道上，棕榈树与灌木丛交错；前方出现黄色‘SPEED HUMP’警示牌，提示路面有减速带，自车未明显减速。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "接近路段末端，右侧出现一辆白色皮卡和一辆银色轿车并排停放，左侧房屋前有被遮盖的车辆；自车维持当前车道，未遇行人或其他动态障碍物，环境安静且无交通信号控制。"
+    }
+  ]
+}

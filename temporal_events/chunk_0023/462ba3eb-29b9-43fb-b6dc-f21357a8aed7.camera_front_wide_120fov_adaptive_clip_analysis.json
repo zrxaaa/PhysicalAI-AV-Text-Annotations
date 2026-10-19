@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 07:35:19",
+    "processing_time_seconds": 13.66
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车停在十字路口红灯前，右侧一辆白色轿车从右转车道加速驶入中间直行车道，与自车路径发生交叉冲突，行人正在左侧人行横道上行走。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "信号灯变绿，自车启动前行，左侧一辆深色跑车并入自车所在车道，同时一名骑自行车者从右侧人行横道进入道路，与自车保持平行行驶。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车继续沿直行道前进，前方一辆绿色工程卡车从对向车道驶来，随后在右侧路边停靠，自车与其保持安全距离通过。道路两侧可见商铺和停放车辆。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车经过一个大型白色厢式货车（车身印有“GENERAL BOTTLE SUPPLY”字样），该货车正从右侧支路驶出并缓慢转向主路，自车减速避让后顺利通过。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车继续直行，左侧一辆黑色敞篷跑车加速超越自车，两车短暂并行后跑车完成超车动作，自车恢复匀速行驶，道路两侧为住宅区与绿化带。"
+    }
+  ]
+}

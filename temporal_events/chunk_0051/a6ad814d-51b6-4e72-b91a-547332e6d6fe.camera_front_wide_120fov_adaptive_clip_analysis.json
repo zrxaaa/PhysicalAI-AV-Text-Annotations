@@ -1,0 +1,43 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.75,
+    "analysis_time": "2026-01-22 03:05:45"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴朗天气，阳光充足，无降水或雾气，能见度极佳。【自车】位于中间车道，处于十字路口停车等待状态，未移动。【左侧】一辆白色福特Expedition SUV停在自车左前方，车身部分遮挡左转车道。【右侧】一辆深色SUV从右向左横穿路口，已完成通过。【交通设施】前方交通信号灯为红灯，路牌显示“Orchard Lane”，路口设有行人过街标志和限速70标识。【关键风险】左侧白色SUV在红灯时未完全停止，车身前部已越线，存在闯红灯或抢行风险；同时其位置阻碍自车视线，可能引发“鬼探头”隐患。",
+      "risk_tags": [
+        "red_light_violation",
+        "occlusion_risk",
+        "aggressive_positioning"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】晴天，光照稳定，无遮挡。【自车】在红灯转绿后启动，沿中间车道匀速前行。【左侧】白色福特Expedition SUV完成左转，驶入对向车道并逐渐远离。【前方】远处可见一列高大棕榈树排列成行，道路笔直延伸。【交通设施】信号灯由红变绿，右侧人行道旁有“ONLY”指示牌，提示该车道仅允许直行或右转。【非标物体】无明显施工车辆、动物或路面遗撒物。【关键风险】无显著风险，但自车起步时需注意左侧原停车车辆的动态，以防其突然回转或变道。",
+      "comment": "此段无关键风险，故不包含risk_tags字段"
+    },
+    {
+      "time_segment": "00:00:10-00:00:16",
+      "scene_description": "【环境】晴朗，阳光投射出清晰长影，道路两侧树木与建筑轮廓分明。【自车】保持在中间车道，沿直线道路匀速行驶。【前方】白色福特Expedition SUV持续在左前方车道行驶，保持约20米距离，未变道。【右侧】路边停放多辆私家车，包括红色皮卡、银色轿车等，部分车辆尾部朝向道路。【交通设施】道路右侧设自行车道标线，前方出现“BASIL HILL ROAD”方向指示牌，提示前方交叉口。【关键风险】右侧路边停放车辆密集，存在“开门杀”风险（如后方乘客突然打开车门）；另有一辆白色厢式货车从右侧车道缓慢超车，其速度低于自车，但横向间距不足，存在切出干扰风险。",
+      "risk_tags": [
+        "door_opening_risk",
+        "cut_out_interference"
+      ]
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "【环境】光线仍明亮，无异常天气。【自车】继续沿中间车道匀速前进，车速稳定。【前方】白色福特Expedition SUV仍在左前方，保持同速行驶。【右侧】一辆白色混合动力公交车（编号A130）从右侧车道驶入，车头朝向自车方向，正在超越自车。【非标物体】公交车车身印有“Hybrid”字样，属于公共交通工具，无作业状态，正常行驶。【关键风险】公交车体积庞大，其超越动作导致自车横向空间压缩，若自车未及时调整车距，可能发生剐蹭；此外，公交车后方视野盲区较大，存在潜在碰撞风险。",
+      "risk_tags": [
+        "large_vehicle_passing",
+        "narrow_lateral_clearance"
+      ]
+    }
+  ]
+}

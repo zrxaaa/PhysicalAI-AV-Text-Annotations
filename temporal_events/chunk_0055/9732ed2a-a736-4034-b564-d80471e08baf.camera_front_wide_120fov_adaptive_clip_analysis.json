@@ -1,0 +1,42 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.69,
+    "analysis_time": "2026-01-22 04:51:44"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】持续暴雨天气，路面严重积水并形成大面积水膜反光，能见度因雨幕和湿滑路面显著降低。【自车】位于中间车道，匀速沿直道行驶，未进行变道或转向。【周围车辆】左前方邻车道一辆白色厢式货车快速驶过（相对位置：左前侧，距离<20米），无转向灯提示；右前方对向车道有红色尾灯车辆驶来，保持稳定车距。【交通设施】道路右侧设置橙色锥桶与“SIDEWALK CLOSED”警示牌，提示人行道封闭。【关键风险】路面湿滑导致制动距离延长，前方车辆刹车灯亮起但未见明显减速动作，存在追尾风险；左侧货车超车时未打灯，构成潜在切入风险。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility",
+        "unpredictable_vehicle_behavior",
+        "wet_road_surface"
+      ]
+    },
+    {
+      "time_segment": "00:00:06-00:00:12",
+      "scene_description": "【环境】进入高架桥下隧道区域，光照由自然光骤变为阴暗人工照明过渡区，路面仍湿滑，积水反射桥体结构。【自车】保持在中间车道，匀速通过桥下通道，未进行横向移动。【周围车辆】前方有一辆深色SUV，尾灯清晰可见，保持稳定跟车距离（约30米）；右侧路肩出现施工锥桶阵列，引导车流绕行。【交通设施】高架桥墩柱密集排列，形成视觉压迫感，部分桥底有落叶堆积，可能影响排水。【关键风险】桥下光线突变易造成视觉适应延迟，增加反应时间误差；前方车辆未显示减速迹象，若突发紧急情况，自车需依赖长距离制动，存在碰撞风险。",
+      "risk_tags": [
+        "light_transition_risk",
+        "bridge_structural_obstruction",
+        "long_braking_distance_required"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】离开桥下区域，恢复至开阔路段，天空灰蒙，雨势略有减弱但路面仍湿滑。【自车】在中间车道继续匀速行驶，未变道。【周围车辆】右侧车道出现一辆白色皮卡施工车，车顶闪烁黄色警示灯，正缓慢行驶于锥桶引导的临时车道内；其后方紧随一辆白色SUV，正在加速超越施工车。【交通设施】右侧设有多组橙色锥桶围挡施工区，地面标有“S”形导向箭头，指示车流分道绕行。【关键风险】右侧施工车占用部分车道，且警示灯闪烁可能干扰视线；后方白色SUV加速超车行为具有“强行加塞”倾向，未保持安全车距，存在切出车道引发剐蹭或碰撞的风险；同时，锥桶阵列可能导致驾驶员误判车道边界，增加越线风险。",
+      "risk_tags": [
+        "construction_zone_traffic",
+        "aggressive_cut_in",
+        "lane_boundary_confusion",
+        "visual_distraction_from_flashers"
+      ]
+    }
+  ]
+}

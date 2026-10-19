@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 02:25:17",
+    "processing_time_seconds": 11.97
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "夜间高速公路上，自车在中间车道行驶，右侧有一辆红色集装箱卡车保持同速前行，左侧车道有银色轿车从后方快速接近并完成变道至中间车道。",
+      "scene_description_2": "道路两侧有护栏，天空阴云密布，路灯和车灯提供照明，路面干燥，无明显施工或障碍物。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:09",
+      "scene_description": "自车继续沿中间车道前进，前方车辆保持稳定队列，左侧车道一辆深色SUV加速超车后驶离视野，同时上方高架桥结构逐渐进入画面并横跨道路。",
+      "scene_description_2": "高架桥下方光线较暗，但未影响行车视线，道路标线清晰，无紧急制动或突然变道行为发生。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "自车维持当前车道与速度，前方车辆间距稳定，右侧车道一辆银色轿车从后方快速超越自车并驶入右侧车道，远处可见广告牌灯光闪烁。",
+      "scene_description_2": "道路两侧出现电线杆与树木，天气仍为阴天，能见度良好，无雨雪等恶劣天气影响驾驶环境。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "自车持续匀速行驶，前方红色卡车保持在右前方车道，右侧银色轿车已完全驶离视野，远处广告牌内容变化，显示彩色图像，道路无突发状况。",
+      "scene_description_2": "整体交通流平稳，无行人、突发障碍或信号灯变化，自车未进行转向或变速操作，场景保持连贯性。"
+    }
+  ]
+}

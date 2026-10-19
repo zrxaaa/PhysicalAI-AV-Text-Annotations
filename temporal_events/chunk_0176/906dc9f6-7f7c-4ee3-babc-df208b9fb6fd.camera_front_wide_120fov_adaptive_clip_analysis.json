@@ -1,0 +1,58 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.08,
+    "analysis_time": "2026-01-24 06:47:27"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】阴天，无降水，能见度良好，路面干燥。【自车】位于中间车道，匀速沿直道前行，未进行转向或变道。【左侧】多辆私家车（含Mini Cooper、奥迪A4、红色SUV）沿路边平行停放，部分车辆后方有自行车倚靠。【右侧】一辆红色SUV停于路肩，一名行人从其后方步行至人行道边缘，准备横穿。【交通设施】道路两侧设有禁停标志（红圈斜杠）、残疾人停车位标识及停车计时器。【关键风险】右侧行人与车辆交互存在潜在冲突：行人即将进入机动车道，但未在斑马线上，属“鬼探头”风险预判区域。",
+      "risk_tags": [
+        "jaywalking_risk",
+        "pedestrian_crossing_without_crosswalk",
+        "occlusion_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】城市街景，光线均匀，无特殊天气影响。【自车】保持中间车道匀速行驶，车头朝向街道延伸方向。【前方路口】出现横向行人流，其中两名女性（一位戴白色帽子，一位提黑色包）从右向左横穿马路，步速中等。【左侧】一家名为“ITALIANO”的餐厅位于街角，红色遮阳篷下有顾客进出；一名骑电动自行车的男性从左向右穿过路口。【右侧】一名穿深色外套的男性站在店门口，面向自车方向，未移动。【交通设施】路口设有斑马线，但行人未完全在斑马线上行走，部分行人处于机动车道内。【关键风险】行人横穿路径与自车行驶轨迹交叉，且无明显信号灯控制，存在“非信号引导下的横穿”风险。",
+      "risk_tags": [
+        "jaywalking_risk",
+        "crossing_trajectory_conflict",
+        "lack_of_traffic_control"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】天空灰白，无降水，光照稳定。【自车】继续在中间车道匀速前进，未减速或转向。【前方】多名行人持续横穿，包括一名穿绿色大衣的女性（携带黑色手提包）从左至右穿越车道，动作流畅；一名骑电动自行车的男性从右向左快速通过路口。【左侧】“ITALIANO”餐厅前有顾客站立交谈，未进入车道。【右侧】“MARZO”店铺门前停放多辆自行车，一名穿深色外套的男性正从店门口走向人行道。【交通设施】路口两侧设有蓝色“A”型广告牌，提示“SOMMARENS HEM & DAM”，无交通信号灯。【关键风险】电动自行车与行人同时横穿，形成动态交叉，存在碰撞可能性；自行车骑行者未佩戴头盔，增加事故风险。",
+      "risk_tags": [
+        "multi_agent_crossing",
+        "unprotected_bike_rider",
+        "high_pedestrian_density"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "【环境】城市街道，无降水，能见度良好。【自车】维持中间车道匀速行驶，车头略微向右微调以避让右侧停放车辆。【右侧】一名推婴儿车的行人从右向左横穿，婴儿车为浅色，推车者穿着深色外套，面部朝向前方，动作平稳。【左侧】“ITALIANO”餐厅外有两名男性站立交谈，未进入车道。【后方】一辆灰色SUV从后方驶入画面，缓慢超越自车，未切入当前车道。【交通设施】道路两侧建筑立面完整，无施工或障碍物。【关键风险】婴儿车横穿路径与自车行驶方向重叠，虽速度慢，但若自车未及时减速，可能引发碰撞；婴儿车无反光标识，夜间风险更高。",
+      "risk_tags": [
+        "infant_transport_crossing",
+        "slow_vehicle_interaction",
+        "low_visibility_object"
+      ]
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "【环境】阴天，无降水，光线均匀。【自车】在中间车道继续匀速前行，接近下一个路口。【右侧】一排自行车整齐停放在“MARZO”店铺门前，一名穿深色外套的男性从自行车旁走过，走向人行道。【左侧】“ITALIANO”餐厅前有顾客进出，一名穿迷彩外套的男性站在店门口，面向自车方向，未移动。【后方】一辆灰色SUV停于路边，车门打开，一名乘客下车，随后关闭车门。【交通设施】路口处设有“禁止停车”标志和“残疾人停车位”标识，无其他交通信号设备。【关键风险】后方车辆突然开门，存在“开门杀”风险；行人与自行车共用空间，易发生刮蹭或碰撞。",
+      "risk_tags": [
+        "door_opening_hazard",
+        "shared_space_conflict",
+        "parked_vehicle_interaction"
+      ]
+    }
+  ]
+}

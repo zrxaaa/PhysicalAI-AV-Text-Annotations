@@ -1,0 +1,36 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.39,
+    "analysis_time": "2026-01-23 10:22:25"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "【环境】夜间，天空呈深蓝色，云层较厚，无明显降水或雾气，路灯提供局部照明。【自车】位于中间车道，正接近一个T字形交叉路口，执行左转前的减速与转向准备动作。【横向交互】自车向右轻微转向，以对准右侧支路入口。【交通设施】路口设有“让行”三角警示牌、方向指示牌（指向Mohringen和Lagerloch），以及红灯信号灯（当前为红灯）。【关键风险】前方红灯未亮但有车辆从右侧支路驶出的可能性，需警惕‘鬼探头’；路边树木遮挡部分视野，存在盲区。",
+      "risk_tags": [
+        "intersection_crossing_risk",
+        "blind_spot",
+        "red_light_waiting"
+      ]
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "【环境】道路两侧草地被车灯照亮，呈现绿色荧光效果，远处可见稀疏村落灯光。【自车】完成左转后进入主干道，保持在中间车道匀速行驶。【相对位置】左侧出现禁止卡车通行标志（红色圆圈内卡车图案），右侧为限速60公里/小时标志。【交通设施】方向指示牌清晰显示“Mohringen”与“Lagerloch”，提示前方为分岔路口。【非标物体】无动物、施工车或遗撒物。【关键风险】无显著风险，但左侧禁行标志提示未来可能遇到重型车辆限制，需注意后续路段。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:08-00:00:19",
+      "scene_description": "【环境】夜空云层流动，能见度良好，无异常天气。【自车】在中间车道持续匀速沿直道前行，车速稳定，未进行变道或紧急制动。【周围环境】道路两侧为茂密树林与高草丛，右侧远处可见村庄灯光及建筑轮廓，其中一座塔吊结构清晰可见。【交通设施】限速60标志位于右侧路肩，距离自车约20米；前方远处有车辆尾灯闪烁，表明对向车道有车流。【关键风险】无直接碰撞威胁；但右侧高草丛区域存在潜在“鬼探头”风险（如行人或动物突然冲出），且远处建筑群中可能存在临时施工活动（塔吊），需保持警觉。此外，夜间行车视线受车灯范围限制，建议维持安全车距。",
+      "risk_tags": [
+        "low_visibility_zone",
+        "vegetation_obstruction_risk",
+        "construction_nearby"
+      ]
+    }
+  ]
+}

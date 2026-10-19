@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 09:03:12",
+    "processing_time_seconds": 22.17
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车沿双向两车道道路平稳行驶，左侧停有白色SUV和银色轿车，右侧人行道上有行人步行，前方路口可见绿色路牌‘Lupina St’，天气晴朗，阳光充足，路面干燥无湿滑迹象。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "自车继续直行，左侧迎面驶来一辆蓝色轿车并完成超车，右侧路边停放多辆汽车，包括红色轿车与白色轿车，树木枝叶部分遮挡视线，但未影响行车路径，无显著障碍物或突发行为。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "自车经过一个缓弯路段，右侧出现多排并列停放的车辆，包括银色SUV与白色轿车，左侧对向车道有白色面包车驶过，未发生交叉冲突，环境安静，无行人横穿或交通信号变化。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:18",
+      "scene_description": "自车保持匀速前进，两侧停车密度增加，右侧出现红色SUV与黑色轿车，左侧有白色轿车驶离停车位，自车与这些车辆均无交互，道路标线清晰，无施工或临时障碍。"
+    },
+    {
+      "time_segment": "00:00:18-00:00:20",
+      "scene_description": "自车接近前方路口，左侧迎面驶来一辆深色SUV，与自车在双车道中错开通过，右侧路边有白色轿车缓慢驶出停车位，自车未减速，整体交通流畅，无紧急事件或行为突变。"
+    }
+  ]
+}

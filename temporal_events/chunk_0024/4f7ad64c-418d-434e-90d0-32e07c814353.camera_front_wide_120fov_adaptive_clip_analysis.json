@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 07:39:27",
+    "processing_time_seconds": 14.51
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车沿住宅区街道匀速直行，道路两侧停有车辆，右侧人行横道标志牌清晰可见，前方路口有行人准备过街。天气阴沉，路面干燥，无明显湿滑或障碍物。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:09",
+      "scene_description": "一名行人从右侧车道旁的人行道走出，横穿马路至左侧，同时一辆白色SUV从右侧驶入画面并停在路边，自车减速避让行人与车辆，保持安全距离继续前行。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:13",
+      "scene_description": "自车继续沿道路直行，右侧出现一辆白色皮卡停靠在路边，左侧为绿化带和低矮围栏，前方有一辆银色轿车正缓慢行驶，未见明显交通信号灯或交叉冲突。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "前方银色轿车在右转车道处减速并完成转向，自车保持原速跟随其轨迹，右侧房屋前停放多辆私家车，包括一辆深色SUV，未对自车路径造成阻碍。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车接近前方路口，右侧深色SUV停在路边，车身部分伸出车道，但未影响自车通行；远处可见另一辆黑色SUV正在驶离，整体环境安静，无突发行人或车辆行为。"
+    }
+  ]
+}

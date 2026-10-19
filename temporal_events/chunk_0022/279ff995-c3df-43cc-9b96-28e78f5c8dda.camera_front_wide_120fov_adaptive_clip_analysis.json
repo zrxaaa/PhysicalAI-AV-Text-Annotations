@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 06:55:28",
+    "processing_time_seconds": 12.49
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车沿街道匀速行驶，左侧停放多辆私家车，右侧为联排住宅楼；前方出现白色皮卡车，正缓慢驶向十字路口，路面标有‘STOP’字样，天空晴朗无云。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "车辆接近十字路口，前方红白相间的铰接式公交车正在横穿人行横道，自车在停车线前减速并停下；右侧路边停有一辆黑色皮卡，行人从远处人行道走向路口。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "公交车完成横穿后驶离路口，自车保持静止等待信号灯变化；右侧人行道上两名行人开始穿越马路，与自车路径交叉，但距离较远未构成直接冲突。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "信号灯转为绿灯，自车启动前行，前方道路畅通，左侧对向车道有银色SUV驶来；右侧人行道上一名行人已走过斑马线，未再进入自车路径范围。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车继续沿街行驶，前方出现一辆白色MPV停靠于右侧路边，左侧车道有红色皮卡同向行驶；道路两侧仍为住宅区，无显著交通障碍或突发行为。"
+    }
+  ]
+}

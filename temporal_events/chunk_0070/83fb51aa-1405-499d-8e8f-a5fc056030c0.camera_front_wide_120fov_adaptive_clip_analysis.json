@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.13,
+    "analysis_time": "2026-01-22 11:18:00"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，云层较厚，无明显降水或强光。道路两侧绿树茂密，能见度良好。【自车】位于中间车道，匀速沿直线道路前行，未进行变道或转向。【周围车辆】左侧对向车道有多辆汽车驶过，包括银色MPV、深色皮卡和白色轿车，均在各自车道内正常行驶；右侧路边有“Polo Club”入口标识及绿化带。【交通设施】右侧路旁设有绿色“SOUTH 34 MILE 17.5”里程牌，前方可见电线杆与横跨道路的电缆。【关键风险】无显著风险行为或障碍物，所有车辆交互正常。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】天气仍为阴天，光线均匀，无遮挡或异常光照。【自车】保持在中间车道，匀速向前行驶，随道路轻微右弯而自然调整方向。【周围车辆】左侧对向车道持续有车辆通过，包括一辆银色SUV（BMW X3）、一辆白色轿车（Lexus）和一辆灰色轿车（Toyota Camry），均未侵入本车道；右侧路边出现“SUNOCO”加油站及美国国旗装饰，后方有“NOW HIRING”招聘广告牌。【交通设施】前方约80米处出现交通信号灯，当前显示为绿灯；右侧路口有黄色校车停靠，但未影响主路通行。【关键风险】无违规行为，无遮挡或突发障碍物，整体交通流畅。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】阴天，视野开阔，无降水或雾气。【自车】接近十字交叉路口，维持中间车道，准备左转或直行。【周围车辆】前方有一辆银色皮卡（Ford F-150）在路口前减速，准备右转；右侧路口处有多辆车静止等待，包括一辆红色皮卡（Ford F-250）、一辆白色SUV（Jeep Wrangler）及数辆私家车；左侧对向车道有红色跑车（Chevrolet Corvette）和灰色SUV正在通过交叉口。【交通设施】路口设有多个交通信号灯，当前绿灯亮起；路旁立有大型绿色指示牌，标明“EAST 520 / WEST 520”、“HOLMDEL”、“BRADEVELT”等方向信息；右侧路边有“NO LIMIT”汽车服务店及施工围挡区域。【关键风险】自车即将进入交叉路口，需注意右侧待转车辆可能突然启动；部分车辆在绿灯下未完全清空路口，存在潜在冲突；无动物或施工设备干扰，但多车汇流区域存在轻微加塞风险（如红色皮卡可能提前切入直行车道），属于低风险博弈场景。",
+      "risk_tags": [
+        "intersection_conflict",
+        "partial_lane_clearance",
+        "low_aggression_risk"
+      ]
+    }
+  ]
+}

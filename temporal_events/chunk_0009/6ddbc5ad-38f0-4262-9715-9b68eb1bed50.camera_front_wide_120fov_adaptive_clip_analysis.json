@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 02:35:23",
+    "processing_time_seconds": 12.29
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车沿城市街道向前行驶，左侧停放多辆私家车，右侧停有一辆大型白色货车。前方路口交通灯为绿灯，阳光直射镜头造成眩光，路面干燥清晰。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "车辆接近十字路口，交通信号灯转为黄灯，自车减速准备停车。一名行人携带购物袋从右侧人行横道开始穿越马路，同时一辆白色厢式货车从对向车道驶入交叉口。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "行人继续穿越人行横道，自车在斑马线前完全停止。对向车道有多个车辆（包括货车、面包车）依次通过路口，右侧白色货车保持静止未移动。阳光强烈，形成明显光晕。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "信号灯转为红灯，行人仍在横穿马路，自车保持停车状态。一辆黑色商务车从左侧横向穿过路口，随后一辆大型巴士从左向右驶过交叉口，与自车路径无直接冲突。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "行人完成穿越，自车仍处于等待状态。一名背着背包的行人从左侧人行道走向路口，同时远处有自行车和小型汽车进入视野，但均未与自车发生路径交集。天气晴朗，能见度良好。"
+    }
+  ]
+}

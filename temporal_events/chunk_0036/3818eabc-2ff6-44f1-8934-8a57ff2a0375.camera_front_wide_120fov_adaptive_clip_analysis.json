@@ -1,0 +1,35 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.62,
+    "analysis_time": "2026-01-21 20:25:36"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，云层厚重，光线昏暗，无明显降水但路面有湿滑反光迹象。【自车】位于中间车道，匀速沿直道行驶，未见明显加速或减速。【周围车辆】左侧邻车道一辆白色SUV（疑似保时捷Macan）快速超车并切入自车前方；右侧车道一辆米色SUV与自车并行，随后向右变道；后方多辆轿车保持跟车距离。【交通设施】道路两侧为混凝土隔离墙，左侧墙上有模糊涂鸦；远处可见路灯及交通信号灯（红灯）。【关键风险】左侧白色SUV在未打转向灯情况下突然切入，存在“鬼探头”和“加塞”风险，迫使自车紧急调整轨迹。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "ghost_probe_risk",
+        "lane_change_without_signal"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】天空仍阴沉，能见度良好，无强逆光或雨雾干扰。【自车】保持中间车道匀速行驶，车头朝向与道路曲率一致，未发生横向转向。【周围车辆】前方黑色SUV维持稳定车距；右侧车道多辆轿车（含银色、深蓝、白色）持续流动，部分车辆在临近路口处减速；左前方一辆灰色皮卡（福特F-150）从左侧超车后回归原车道。【交通设施】路面上出现“HOV 3+ IS 3 OR MORE PERSONS PER VEHICLE”标志牌，提示高承载车道要求；地面标有“LANE”字样，指示车道功能。【非标准物体】无特种车辆、动物或遗撒物。【关键风险】无显著风险，但右侧车道车流密集，存在轻微切出/切入博弈。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】天气无变化，光线稳定，路面干燥。【自车】继续在中间车道匀速前行，随道路微弯自然行驶，未进行主动转向。【周围车辆】前方黑色SUV逐渐远离；右侧车道一辆黑色Mini Cooper由后方切入自车右后侧，完成变道；更右侧车道一辆银色轿车加速超越。【交通设施】左侧混凝土墙持续延伸，墙外可见树木与低矮建筑；远处有高压电塔及大型广告牌；前方出现“EXPRESS LANE”地面标识，提示进入高速专用车道。【关键风险】右侧Mini Cooper切入动作迅速，虽未违规，但因距离较近，存在潜在碰撞风险；整体场景平稳，无突发障碍或违规行为。",
+      "risk_tags": [
+        "close_proximity_lane_change",
+        "highway_lane_transition"
+      ]
+    }
+  ]
+}

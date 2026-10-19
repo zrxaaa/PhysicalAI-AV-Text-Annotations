@@ -1,0 +1,35 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.87,
+    "analysis_time": "2026-01-24 11:33:25"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "【环境】晴天，光照充足，无异常天气。【自车】位于中间车道，处于路口停车状态，等待绿灯放行。【前方】一辆白色本田飞度（Honda Fit）停在自车正前方，处于直行车道；右侧车道有一辆黑色SUV（Ford Explorer）与自车并排，准备左转。【左侧】对向车道有车辆依次通过，包括一辆银色皮卡（Ford F-150）和一辆深灰色轿车（Toyota Camry），均正常通行。【右侧】一辆银色雷克萨斯SUV（Lexus RX）从右后方切入自车所在车道，完成变道动作。【交通设施】路口设有交通信号灯，当前为绿灯；路面标有“HERE”字样斑马线；路侧可见“FREEWAY ENTRANCE 170 SOUTH”及“RAMP METERED WHEN FLASHING”标志牌。【关键风险】右侧雷克萨斯SUV在未充分观察左侧盲区情况下快速切入，存在切出（Cut-out）风险；同时，前方白色飞度在绿灯亮起后突然向左转向，偏离直行路线，可能引发交叉冲突。",
+      "risk_tags": [
+        "cut_out_risk",
+        "improper_turning",
+        "lane_changing_without_check"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】晴朗，阳光直射，部分区域出现眩光。【自车】在绿灯放行后启动，沿中间车道匀速前行。【前方】白色本田飞度完成左转，驶入左侧支路，已离开主干道。【右侧】银色雷克萨斯SUV完成变道后继续直行，保持在右侧车道。【左侧】对向车道车辆有序通过，无异常行为。【交通设施】自车通过路口后，进入一条双向两车道的高架引道，两侧为混凝土隔音墙与绿化带；路旁设有“FREEWAY ENTRANCE 170 SOUTH”绿色指示牌及黄色“RAMP METERED WHEN FLASHING”警示牌。【关键风险】白色飞度在转弯时未完全礼让直行自车，存在轻微碰撞风险；右侧雷克萨斯SUV在变道后未及时调整车距，靠近自车右侧边缘，形成潜在剐蹭风险。",
+      "risk_tags": [
+        "partial_collision_risk",
+        "close_proximity_lane_change"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】晴天，阳光强烈，无降水或遮挡物。【自车】在高架引道上保持匀速行驶，车道线清晰，道路表面有轻微龟裂但无积水或障碍物。【前方】一辆深色SUV（疑似丰田汉兰达）在自车前方约30米处行驶，保持稳定车速，无变道或急刹行为。【两侧】左侧为土坡+低矮灌木，右侧为混凝土隔音墙，无行人、动物或施工设备。【交通设施】道路为高速公路入口匝道，无红绿灯，仅设有限速提示牌（未显示具体数值）。【关键风险】无显著风险。前方车辆保持安全距离，道路结构简单，无交叉冲突点，无遮挡物或突发障碍，属于常规高速入口引导场景。",
+      "risk_tags": []
+    }
+  ]
+}

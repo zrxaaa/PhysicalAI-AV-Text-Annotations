@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:54:39",
+    "processing_time_seconds": 18.65
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在第四街路口等待绿灯，前方黑色SUV和左侧红色轿车依次通过交叉口，右侧白色皮卡从对向车道驶过，交通信号灯为绿色，道路标线清晰可见。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "自车在十字路口直行通过，前方车辆陆续通过交叉口，右侧路口信号灯由绿转黄，左侧对向车道有车辆驶入，阳光从左前方照射，产生眩光但未影响行驶。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:13",
+      "scene_description": "自车驶出十字路口后沿Mission St继续直行，右侧路边停有一辆白色房车，左侧车道有对向车辆驶来，交通信号灯已转为红灯，自车减速准备停车。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车在Mission St上保持匀速行驶，道路两侧停放多辆私家车，右侧有带围栏的住宅区，左侧对向车道有车辆驶过，阳光持续照射路面，无明显遮挡物。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车继续沿Mission St向前行驶，道路右侧出现一辆银色皮卡和一辆灰色SUV，左侧对向车道有车辆驶过，前方无显著障碍物或行人，天气晴朗，视野开阔。"
+    }
+  ]
+}

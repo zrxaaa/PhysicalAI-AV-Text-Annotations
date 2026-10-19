@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-plus",
+    "region": "北京",
+    "analysis_time": "2026-01-17 10:45:24",
+    "processing_time_seconds": 22.12
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车在NW 65 ST路口前行驶，前方交通灯为绿灯，右侧车道一辆深色轿车正缓慢向右变道并停靠路边，一名身穿反光背心的工人站在路肩施工区域旁。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "自车通过路口后继续直行，前方一辆白色SUV保持匀速行驶，右侧路肩有施工锥桶和一名正在作业的工人，该工人弯腰操作后起身，与自车路径无冲突。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车沿高架桥下道路平稳行驶，左侧对向车道有车辆驶过，右侧施工区出现临时护栏，前方道路通畅，无近距离交互车辆或行人。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "自车持续直行，左侧出现一个带有禁止左转标志的交叉口，右侧施工区锥桶逐渐减少，前方道路视野开阔，无新增交通参与者进入自车路径。"
+    }
+  ]
+}

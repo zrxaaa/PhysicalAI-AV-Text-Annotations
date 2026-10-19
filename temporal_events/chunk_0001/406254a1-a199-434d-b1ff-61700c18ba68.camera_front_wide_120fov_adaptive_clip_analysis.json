@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:11:50",
+    "processing_time_seconds": 12.54
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车沿双黄线道路直行，前方有一辆黑色轿车保持匀速行驶，右侧路边出现黄色弯道警示牌和‘STOP AHEAD’标志，天空多云但能见度良好。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:08",
+      "scene_description": "一名赤膊男性行人从右侧人行道走出，横穿车道靠近前方黑色轿车，自车未减速，保持与前车安全距离继续前行。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "前方黑色轿车在接近十字路口时向右变道，一辆白色SUV从右侧支路驶出并停在路口停止线后，自车跟随前车轨迹缓慢右转进入交叉路口。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车在路口处减速停车，等待右侧白色SUV完成左转后通过，此时路口有多个车辆在不同方向等待通行，交通信号灯未显示但存在停车标志。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车在确认安全后启动前行，穿过路口，前方黑色轿车已驶离，右侧路口无其他车辆或行人干扰，道路恢复平稳通行状态。"
+    }
+  ]
+}

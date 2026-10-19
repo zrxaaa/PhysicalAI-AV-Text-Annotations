@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 10.01,
+    "analysis_time": "2026-01-24 10:55:33"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】暴雨天气，雨滴密集覆盖前挡风玻璃，能见度严重降低。路面湿滑，积水反光明显，部分区域形成水雾。【自车】在中间车道沿弯曲道路匀速前行，未进行转向或变道。【前方】一辆白色SUV（尾灯亮起）在自车正前方约25米处行驶，保持稳定车距。【左侧】对向车道有车辆快速驶过，因雨幕和速度导致视觉模糊，无法辨识车型细节。【交通设施】道路两侧为绿化带与坡地，右侧可见电线杆及低矮围栏；左侧有砖砌路肩，无明显标线或信号装置。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility",
+        "low_speed_traffic"
+      ]
+    },
+    {
+      "time_segment": "00:00:06-00:00:12",
+      "scene_description": "【环境】持续暴雨，雨刷器工作频繁但未能完全清除挡风玻璃上的水膜，视野仍受干扰。【自车】维持当前车道匀速行驶，未出现制动或加速行为。【前方】白色SUV继续前行，刹车灯偶有闪烁，表明轻微减速。【左侧】一辆深色轿车从对向车道超车并迅速驶离，未见转向灯提示，存在潜在切入风险。【右侧】路边坡地植被茂密，无行人或动物活动迹象。【关键风险】左侧超车车辆未打灯且速度较快，虽已驶离，但其突然切入行为构成“非预期变道”风险，可能引发后续交互冲突。",
+      "risk_tags": [
+        "unannounced_cut_in",
+        "poor_visibility",
+        "high-speed_crossing"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雨势略有缓和，但仍持续降雨，挡风玻璃水珠分布不均，局部区域视线稍有改善。【自车】在中间车道保持匀速行驶，未发生横向移动。【前方】白色SUV持续行驶，尾灯稳定亮起，无急刹或变道迹象。【左侧】另一辆深色轿车再次从对向车道高速驶过，车身倾斜幅度较大，疑似紧急避让障碍物，但未观察到具体目标。【右侧】坡地边缘有少量落叶被雨水冲刷至路肩，无结构性障碍物。【关键风险】左侧连续出现高速超车行为，且无灯光提示，属于“高风险非标准驾驶行为”，若遇突发状况（如行人横穿、路面障碍），自车将面临紧急避让压力。",
+      "risk_tags": [
+        "repeated_unsafe_overtake",
+        "emergency_avoidance_pressure",
+        "environmental_degradation"
+      ]
+    }
+  ]
+}

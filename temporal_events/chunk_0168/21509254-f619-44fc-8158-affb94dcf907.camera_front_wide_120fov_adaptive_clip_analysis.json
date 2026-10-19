@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.64,
+    "analysis_time": "2026-01-24 03:58:40"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】夜间暴雨天气，能见度极低，路面严重积水并反射路灯与车灯，形成强烈眩光。【自车】位于中间车道，匀速沿直道行驶，未进行转向或变道。【右侧】多辆汽车在湿滑路面上高速驶过，部分车辆尾灯因雨水模糊而扩散成光斑。【交通设施】道路两侧可见路灯、停车标志（P）及建筑物轮廓，但细节因雨雾难以辨识。",
+      "risk_tags": [
+        "heavy_rain",
+        "low_visibility",
+        "wet_road_surface"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】雨势略有减弱，但雾气仍浓，能见度约30米。【自车】在中间车道减速至接近停止状态，准备通过前方人行横道。【左侧】一名行人（男性，穿深色夹克、浅色裤子）从左侧人行道走出，正横穿马路，面向自车方向，双手自然下垂，步态平稳，无明显停顿或看手机行为。【交通设施】前方设有蓝色“人行横道”标志牌，地面标线清晰可见，但被水雾部分遮挡。【关键风险】行人横穿路径与自车当前车道重合，且自车减速不足，存在碰撞风险；同时，对向车道有车辆驶近，加剧交叉冲突。",
+      "risk_tags": [
+        "pedestrian_crossing",
+        "insufficient_braking_distance",
+        "cross_traffic_conflict"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】持续强降雨，路面水雾弥漫，灯光折射明显。【自车】在人行横道前完全停车，等待行人通过。【左侧】一辆黑色轿车（型号不明）从对向车道驶来，车头灯亮起，车身倾斜，疑似紧急避让行人后切入本车道，未打转向灯。【右侧】一辆白色SUV从右后方快速超车，车轮溅起大量水花，短暂遮蔽自车视野。【交通设施】人行横道标志牌与路边绿化带清晰可辨，但因雨水和雾气，视觉识别延迟。【关键风险】黑色轿车违规强行切入，构成“加塞”行为；白色SUV高速超车引发水雾干扰，增加视线盲区风险。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "high_speed_overtake",
+        "water_splash_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雨势稍缓，但仍为夜间湿滑路面，能见度恢复至约50米。【自车】完成停车等待后，缓慢起步，向左轻微转向以绕开路口中央绿化带，进入下一主干道。【前方】一辆深色轿车（疑似出租车）在左转车道上完成转弯，车尾灯闪烁，轨迹稳定。【右侧】一排停放的车辆沿路边排列，部分车门开启，但无人员活动迹象。【交通设施】路口处设有“注意行人”警示牌与环形交叉口标识，自车通过时未受阻碍。【关键风险】自车转向过程中，右侧车流密集，存在潜在剐蹭风险；同时，前方转弯车辆可能因路面湿滑导致侧滑，需保持安全距离。",
+      "risk_tags": [
+        "lane_change_with_caution",
+        "wet_turning_risk",
+        "parked_vehicle_obstacle"
+      ]
+    }
+  ]
+}

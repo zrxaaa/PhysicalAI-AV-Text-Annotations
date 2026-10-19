@@ -1,0 +1,35 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.45,
+    "analysis_time": "2026-01-22 01:48:12"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】阴天，路面湿滑，无明显降水但空气湿度高，能见度中等。【自车】位于中间车道，执行匀速直线行驶，未进行转向或变道。【左侧】停车场内停放多辆私家车，部分车辆在移动（如一辆白色轿车从停车位驶出）。【右侧】沿街商铺建筑群清晰可见，包括“EUROPEAN DAY SPA”、“Great Clips”、“Verizon”等，门前有停车区域和人行道。【交通设施】前方路口设有红色八角形“STOP”标志牌，位于右侧路肩，自车正接近该路口。【关键风险】无明显违规行为或遮挡风险，但右侧商铺前人行道边缘有低矮灌木丛，可能影响视线盲区。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:06-00:00:12",
+      "scene_description": "【环境】天气持续阴沉，无降水，路面干燥但仍有水渍反光。【自车】继续沿中间车道匀速前进，接近路口停止线。【前方】一辆深色SUV从左侧停车场驶出，横穿自车前方车道，完成切入动作。【右侧】进入“SAFEWAY”超市入口区域，其门廊下设有多组户外桌椅及红色遮阳伞，地面为铺装人行道。【交通设施】路口处标有“STOP”字样地面标识，与红灯标志协同作用。【关键风险】左侧SUV突然横穿，虽未闯红灯，但存在“切出”（Cut-out）风险，若自车未减速可能引发碰撞；同时，右侧商店门口的桌椅和花坛构成静态障碍物，限制横向避让空间。",
+      "risk_tags": [
+        "cut_out_risk",
+        "obstacle_constrained_lateral_space"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】光线略暗，仍为阴天，无降水迹象。【自车】完成路口通过后，向左轻微转向以进入主停车场通道，随后恢复沿道路曲线行驶。【左侧】停车场内车辆密集，部分车辆正在倒车或驶离车位（如一辆灰色本田Civic正在倒车）。【右侧】继续沿商业街前行，经过“SAFEWAY”超市入口、户外餐饮区及“Brew's Hotel”招牌区域。【非标准物体】无动物、施工车辆或遗撒物出现。【交通设施】停车场内设有多个指示箭头和“NO PARKING FIRE LANE”标线，部分车位被占用。【关键风险】自车左转进入停车场时，需注意左侧倒车车辆，存在“开门杀”或“倒车冲突”风险；此外，停车场内车辆动态频繁，存在潜在的“鬼探头”（如从车位突然冲出的行人或儿童），尤其在转弯处视野受限。",
+      "risk_tags": [
+        "parking_zone_conflict",
+        "ghost_probe_risk",
+        "door_opening_hazard"
+      ]
+    }
+  ]
+}

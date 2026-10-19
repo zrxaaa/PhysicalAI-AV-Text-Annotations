@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:53:40",
+    "processing_time_seconds": 17.57
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "自车在多车道公路上匀速行驶，前方有数辆轿车和一辆白色SUV在对向车道行驶，右侧为铁丝网围栏与光秃树木，天空阴沉，路面干燥但略显湿滑。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "车辆驶近一座桥梁，道路两侧出现金属护栏，右侧路边高草丛生，左侧对向车道有白色货车驶过，自车保持当前车道未变道，前方车辆减速准备进入桥区。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:15",
+      "scene_description": "自车平稳通过桥梁，桥面为混凝土结构，两侧护栏高度增加，前方一辆深色轿车在右车道行驶，未见明显加速或变道行为，天气仍阴沉无降水迹象。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "接近路口时，前方深色轿车突然减速并转向右车道，自车跟随其后方减速，右侧出现一栋建筑与交通标志牌，道路右侧有行人通道但无人活动，整体车流放缓。"
+    }
+  ]
+}

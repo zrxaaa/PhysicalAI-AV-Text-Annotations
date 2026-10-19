@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 10:35:38",
+    "processing_time_seconds": 68.37
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车在晴朗天气下沿道路匀速行驶，前方交通信号灯为绿，右侧银色车辆与自车同向行驶，左侧有车辆在路口等待通过，自车接近十字路口准备通行。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:07",
+      "scene_description": "自车通过十字路口后继续行驶，右侧银色车辆保持在右侧车道，交通信号灯为绿，自车沿直行方向行驶，道路两侧树木林立。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "自车经过237 East绿色路牌，继续沿有分隔带的道路行驶，前方高架桥下交通信号灯为绿，自车保持匀速，周围车辆有序通行。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:17",
+      "scene_description": "自车接近第二个十字路口，交通信号灯变为红，自车在路口停止等待，周围卡车、轿车等车辆也停止，等待信号灯变化。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:20",
+      "scene_description": "自车在红灯下保持停止状态，周围车辆同步等待，交通信号灯为红，道路环境光线充足，无行人等其他交通参与者。"
+    }
+  ]
+}

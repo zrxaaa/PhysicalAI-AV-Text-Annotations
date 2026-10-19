@@ -1,0 +1,50 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.98,
+    "analysis_time": "2026-01-22 21:20:45"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间雨天，路面湿滑积水，挡风玻璃上有明显水珠导致视野模糊，路灯与车灯产生严重光晕。【自车】在中间车道匀速沿直道行驶，未进行转向或变道。【右侧】可见Zaxby's餐厅招牌及Wells Fargo银行标志，左侧为加油站（BP）和便利店。【交通设施】前方路口信号灯为红灯，但因雨雾影响，灯光扩散严重，视觉辨识度降低。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility",
+        "light_haze"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】持续降雨，能见度维持低水平，路面反光加剧。【自车】继续在中间车道匀速前行，接近十字路口。【左侧】一辆深色SUV从对向车道驶来，刹车灯亮起，疑似准备左转或停车。【右侧】Chevron加油站清晰可见，油价牌显示2.851/3.351/3.851美元。【交通设施】前方交叉口信号灯仍为红灯，路侧有“TO 20”指示牌，提示限速或方向指引。",
+      "risk_tags": [
+        "low_visibility",
+        "approaching_intersection",
+        "oncoming_vehicle_braking"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "【环境】雨势略有减弱，但雾气仍浓，部分灯光出现星芒效应。【自车】在停止线前完全停车，等待红灯。【左侧】Walgreens药店建筑清晰可见，其霓虹灯招牌呈红色；对向车道有车辆缓慢移动，未越过停止线。【右侧】Dollar Tree商店绿色招牌发光，人行横道处有行人站立，但未进入斑马线。【交通设施】路口信号灯由红转绿，自车所在车道信号灯同步变为绿色，允许直行。",
+      "risk_tags": [
+        "stop_at_red_light",
+        "signal_transition",
+        "pedestrian_waiting"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】雨雾持续，视线仍受干扰，但较前段稍有改善。【自车】在绿灯亮起后启动，沿中间车道加速前行。【横向交互】一辆白色SUV从右前方交叉路口快速切入自车所在车道，完成变道动作，位于自车左前方约5米处，车速较快。【关键风险】该车未打转向灯，存在“鬼探头”式加塞行为，可能引发碰撞或紧急制动。【非标准目标】无动物、施工车辆或遗撒物出现，但右侧人行道边缘有消防栓，属于静态障碍物，不影响通行。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "no_turn_signal",
+        "collision_potential",
+        "pedestrian_presence_ignored"
+      ]
+    }
+  ]
+}

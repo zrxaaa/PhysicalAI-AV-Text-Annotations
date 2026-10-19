@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 03:51:42",
+    "processing_time_seconds": 13.83
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在城市双车道道路上匀速行驶，左侧有数辆轿车沿路边停放，右侧车道有白色SUV和银色SUV依次加速并入中间车道，交通信号灯为红灯但尚未影响当前车流。",
+      "environment_conditions": "黄昏时分，天空微亮，路面干燥，能见度良好，两侧建筑高耸，无明显遮挡。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:08",
+      "scene_description": "前方车辆减速并最终在十字路口停车，自车跟随其后保持安全距离，此时前方为红灯，路侧有绿色街牌显示“St James St”，右侧人行道可见少量行人活动。",
+      "road_conditions": "道路标线清晰，设有双黄实线分隔车道，路口处有交通信号灯控制，无施工或障碍物干扰。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "自车与前方黑色轿车均静止于红灯前，两车间距约10米，右侧路口有白色货车停靠，未进入主干道，无行人穿越或突发交通事件发生。",
+      "dynamic_behavior": "所有车辆保持静止状态，信号灯持续红灯，自车未进行转向或加速动作，场景稳定，无动态冲突。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "红灯持续亮起，自车与前方车辆仍保持停止状态，右侧人行道及路口无新行人出现，远处可见一辆白色皮卡驶离路口，整体交通流平稳。",
+      "environment_conditions": "光线逐渐变暗，天色接近暮色，但道路照明充足，不影响视觉感知，无天气变化或路面湿滑情况。"
+    }
+  ]
+}

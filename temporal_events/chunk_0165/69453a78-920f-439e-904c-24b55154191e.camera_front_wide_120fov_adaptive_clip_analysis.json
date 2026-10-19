@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 9.45,
+    "analysis_time": "2026-01-24 03:19:45"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】夜间，路灯照明不足，整体能见度低，路面干燥但反光较弱。【自车】在中间车道匀速沿道行驶，车头灯照亮前方约30米范围。【左侧】多辆静止或缓慢行驶的车辆停靠在路边（距离<15米），部分车辆尾灯亮起。【右侧】一辆银色轿车从右后方快速超车，完成切入动作后驶离视野。【交通设施】道路两侧为住宅区围墙与绿化带，无明显标线或信号灯。【关键风险】右侧超车车辆速度较快，存在轻微切出风险；左侧停车车辆可能突然开门（Open Door）或行人横穿，但当前未观测到行人。",
+      "risk_tags": [
+        "close_pass",
+        "parked_vehicle_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:06-00:00:12",
+      "scene_description": "【环境】继续夜间行驶，路灯间距约40米，局部区域出现灯光眩晕。【自车】保持中间车道匀速前进，无明显加减速。【前方】对向车道有数辆汽车迎面驶来，其中一辆红色轿车在左侧行驶中突然变道至自车前方车道，未打转向灯。【右侧】一栋住宅建筑旁出现一名行人（面部朝向自车方向），站立于人行道边缘，未移动。【非标物体】无动物、施工车辆或遗撒物。【关键风险】前方红色轿车“违规变道”（Aggressive Cut-in），因未打灯且切入路径紧贴自车，构成紧急避让风险；行人虽未移动，但位于盲区边缘，存在“鬼探头”潜在可能。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "unannounced_lane_change",
+        "pedestrian_nearby"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】进入一个T字路口前段，右侧出现转弯车道与路缘石，路灯亮度下降。【自车】减速准备右转，车头偏航角向右调整，沿道路曲率行驶。【右侧】一辆深色SUV在自车右前方约8米处，正执行右转动作，与自车路径交叉。【左侧】远处可见红绿灯结构，但当前显示为红灯状态。【交通设施】路口设有斑马线与导向箭头标线，但被车灯照射部分模糊。【关键风险】自车即将与右转SUV发生冲突，若对方未礼让，将引发交叉碰撞；同时，路口红灯未亮（仅远端可见），存在闯红灯风险；行人仍位于右侧人行道，未移动，但视线受遮挡，需警惕其突然横穿。",
+      "risk_tags": [
+        "right_turn_conflict",
+        "potential_red_light_violation",
+        "crossing_obstacle"
+      ]
+    }
+  ]
+}

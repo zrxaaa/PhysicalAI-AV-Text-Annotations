@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 05:36:36",
+    "processing_time_seconds": 11.27
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在黄昏时分的湿滑路面上向右转弯，前方右侧车道有一辆深色SUV正在加速并入当前车道，左侧对向车道有车辆快速驶过，路面反光明显，天空阴云密布。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "自车完成转弯后进入直行主道，保持匀速行驶，右侧为高墙与树木，左侧对向车道车流密集，远处可见路灯和交通标志牌，能见度因雨雾略有降低。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "自车继续沿主路直行，前方出现多辆同向行驶车辆，其中一辆黑色轿车从左侧车道超车并切入自车前方车道，自车未减速，保持安全距离跟随。道路两侧有低矮建筑和围墙，天气仍阴沉潮湿。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "自车在湿滑路面上维持稳定速度，前方车流逐渐稀疏，右侧路边出现交通信号灯杆但无行人或突发障碍物，左侧对向车道车辆持续高速通过，整体环境光线昏暗且能见度受限于雨雾。"
+    }
+  ]
+}

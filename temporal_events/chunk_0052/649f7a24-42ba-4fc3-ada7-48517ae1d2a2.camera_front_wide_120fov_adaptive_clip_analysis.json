@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.64,
+    "analysis_time": "2026-01-22 03:22:28"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "【环境】夜间城市街景，路灯照明充足，无异常天气。【自车】位于中间车道，处于停车等待状态（前车及红灯导致）。【周围行人】右侧人行横道有3名行人正在过街，其中2人从右向左横穿，1人从左向右横穿；左侧人行道有1名行人由近及远行走。【交通设施】前方十字路口设有标准斑马线、交通信号灯（初始为红灯），两侧建筑立面有脚手架（左侧）和商业门面（右侧）。【关键风险】右侧两名行人未在人行横道内完成穿越即进入机动车道，存在“鬼探头”潜在风险；左侧行人靠近车道边缘，若突然转向可能与自车发生碰撞。",
+      "risk_tags": [
+        "jaywalking",
+        "ghost_probe_risk",
+        "pedestrian_close_to_lane"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】夜间城市街道，光照稳定，无降水或雾气。【自车】接收到绿灯信号后，开始沿中间车道匀速起步前行。【周围车辆】前方约15米处有一辆深色SUV保持同向行驶，刹车灯已熄灭；右侧车道有1辆蓝色出租车驶入并超越自车，动作流畅无急刹。【交通设施】信号灯转绿，路侧交通标志清晰可见（含“NO TURN ON RED”标识），道路标线完整。【关键风险】右侧出租车加速超车时，车身短暂切入自车左侧车道，存在轻微切出（Cut-out）风险，但未影响自车路径。",
+      "risk_tags": [
+        "cut_out_risk",
+        "vehicle_speed_change"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】夜间城市主干道，两侧建筑密集，部分店铺亮灯，树木枝叶稀疏。【自车】保持中间车道匀速行驶，跟随前方SUV。【周围车辆】右侧车道持续有车辆汇入，包括一辆白色SUV（车牌号模糊）、一辆银灰色轿车，均在自车右侧并行或缓慢超车。【非标准目标】左侧路边出现一名骑电动滑板车的行人，从人行道快速切入机动车道，朝自车左前方移动，速度较快。【交通设施】道路设有绿色自行车道标线，前方路口有“BUS LANE”标识，但无公交车通行。【关键风险】骑车者突然切入车道，且未观察来车方向，属于高风险“横穿机动车道”行为，自车需紧急制动避让以避免碰撞。",
+      "risk_tags": [
+        "sudden_crossing",
+        "bicycle_unsafe_entry",
+        "emergency_braking_potential"
+      ]
+    }
+  ]
+}

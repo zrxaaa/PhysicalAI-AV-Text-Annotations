@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.41,
+    "analysis_time": "2026-01-22 10:16:23"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间城市街道，路灯照明充足，无异常天气。【自车】位于中间车道，匀速沿直道行驶。【左侧】多辆轿车与SUV沿路边停放，部分车辆在自车左前方邻车道缓慢驶过（如蓝色轿车、白色面包车）。【右侧】多辆轿车沿路边停放，一辆深色SUV从右后方快速超车并切入自车右侧车道，未打转向灯。【关键风险】右侧车道存在“鬼探头”潜在风险：超车车辆突然切入，且其车身遮挡了右侧人行道区域，可能有行人或非机动车突然出现。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "ghost_probe_risk",
+        "no_turn_signal"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】夜间，街角处建筑墙面有大型涂鸦，灯光较亮。【自车】在中间车道继续匀速前行，接近十字路口。【左侧】对向车道有银色SUV与白色轿车交叉通过路口，均遵守绿灯通行规则。【右侧】一辆红色SUV从右侧支路驶出，进入主路并右转，未礼让直行自车。【交通设施】路口设有红绿灯与人行横道，当前为绿灯放行状态。【关键风险】右侧红色SUV转弯时未充分减速，且车身宽度较大，存在轻微剐蹭或碰撞风险；同时，路口右侧人行道上有两名行人正在等待过街，视线被建筑物和车辆部分遮挡。",
+      "risk_tags": [
+        "improper_turning",
+        "partial_occlusion",
+        "pedestrian_crossing_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】道路两侧商铺林立，霓虹灯与招牌灯光交织，部分区域有紫色/绿色光晕。【自车】保持中间车道匀速行驶，经过20th Street路牌标识。【左侧】一辆白色轿车从左侧邻车道加速超越自车，完成变道后回归原车道。【右侧】公交站台有数名行人站立等候，其中一人手持手机低头查看，另一人推婴儿车缓慢移动。【非标物体】路边停有一辆白色厢式货车，车尾贴有“DELIVERY”字样，但未见作业人员或设备，处于静止待命状态。【关键风险】右侧公交站台行人密集，且部分行人未注意来车，存在横穿马路的潜在意图；自车需警惕突发行人闯入车道。",
+      "risk_tags": [
+        "pedestrian_distraction",
+        "stationary_delivery_vehicle",
+        "crossing_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】夜景延续，街道两侧建筑风格统一，多为两至三层商业楼。【自车】维持中间车道匀速行驶，前方可见连续车流。【左侧】多辆轿车沿路边停放，部分车辆启动并驶离停车位，进入行车道。【右侧】一辆银色轿车从右侧车道缓慢超越自车，完成变道后加速离开。【交通设施】前方路口信号灯仍为绿灯，路面标线清晰，无施工或障碍物。【关键风险】左侧停车车辆频繁启动并汇入车流，存在“开门杀”风险（虽未见车门开启，但有潜在行为）；右侧超车车辆速度较快，与自车间距缩小，需保持警惕。",
+      "risk_tags": [
+        "parking_vehicle_start",
+        "door_opening_potential",
+        "high_speed_overtake"
+      ]
+    }
+  ]
+}

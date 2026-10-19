@@ -1,0 +1,41 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.01,
+    "analysis_time": "2026-01-21 23:26:21"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，云层低垂，路面湿滑但无明显积水或雨幕。【自车】位于中间车道，匀速沿道行驶，未见明显加速或制动。【左侧】一辆深蓝色奥迪SUV在左前方邻车道行驶，保持稳定车距；后方有白色工程卡车（带吊臂）从对向车道驶过，作业状态静止，未占用行车道。【右侧】路肩区域有施工人员站立，身穿高能见度背心，手持指挥旗，引导交通；路边散落橙白相间锥桶，部分锥桶倾倒，形成潜在障碍物。【关键风险】右侧施工区域存在“倒伏锥桶”与“施工人员近距离作业”的组合风险，若自车变道需谨慎评估安全距离。",
+      "risk_tags": [
+        "construction_zone_risk",
+        "fallen_cone",
+        "pedestrian_near_road"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】持续阴天，光线均匀，无强逆光或遮挡。【自车】保持中间车道匀速行驶，前方车流逐渐密集。【左侧】一辆白色厢式货车（车身印有“CORPORATE CATERING”字样）从左前方超车并切入自车所在车道，完成变道动作，未打转向灯，存在轻微违规行为。【右侧】道路右侧出现“REDMOND TIRE PROS”商业招牌及加油站，施工区域继续延伸，锥桶排列成线，引导车流绕行。【非标物体】右侧人行道旁有黑色塑料布覆盖物，疑似施工材料遗弃，未固定，可能被风吹动或绊倒行人。【关键风险】左侧车辆“无灯强行切道”构成加塞风险，虽未引发碰撞，但增加自车避让压力。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "unsecured_debris",
+        "commercial_area_traffic"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】天空仍阴沉，无降水迹象，能见度良好。【自车】进入缓行拥堵状态，车速下降至约20mph，保持跟车距离。【前方】一辆白色特斯拉Model Y与一辆银色皮卡并排停于前车流中，刹车灯常亮，表明前方有红灯或拥堵。【左侧】一辆蓝绿色丰田普锐斯从左前方车道切入自车所在车道，完成变道，动作平稳。【右侧】施工区域持续，锥桶间距缩小，部分锥桶上印有“SWK”标识，提示为特定施工方；远处可见黄色挖掘机静止停放于施工区边缘，未作业，但其机械臂伸出，占据部分路肩空间。【关键风险】前方车辆频繁启停导致自车需持续制动，存在追尾风险；右侧施工设备（挖掘机）虽静止，但其机械臂位置可能影响紧急避让路径；同时，多车在狭窄车道内频繁变道，加剧交通博弈风险。",
+      "risk_tags": [
+        "traffic_jam",
+        "frequent_braking",
+        "obstructed_emergency_path",
+        "stationary_equipment_obstruction"
+      ]
+    }
+  ]
+}

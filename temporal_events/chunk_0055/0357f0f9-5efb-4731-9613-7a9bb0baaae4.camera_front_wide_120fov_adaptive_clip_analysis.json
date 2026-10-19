@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.01,
+    "analysis_time": "2026-01-22 04:50:12"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】晴朗白天，阳光从右上方照射，存在轻微眩光。【自车】位于中间车道，匀速沿直道行驶。【左侧】一辆白色本田轿车从对向车道驶过，完成超车动作后回归原车道。【右侧】一辆银色敞篷奥迪停靠在路边，未移动。【交通设施】道路两侧设有清晰的双黄线及人行横道标志，右侧可见行人过街警示牌。无明显风险。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】光照稳定，树影投射于路面，无遮挡。【自车】保持中间车道匀速前行。【左侧】一栋多层砖砌建筑旁有“PUBLIC PARKING”标识，一辆红色轿车从停车场出口驶出并左转进入当前道路。【右侧】一栋白色拱廊建筑前停放多辆私家车，包括一辆黑色SUV。【交通设施】前方路口设有单向指示牌（ONE WAY）和自行车道标志，无冲突行为。无关键风险。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "【环境】阳光充足，树木枝叶稀疏，部分落叶覆盖路面。【自车】维持中间车道匀速行驶，接近前方车辆。【前方】一辆银色丰田RAV4正前方行驶，尾灯亮起，表明其正在减速或等待信号。【右侧】停放着一辆黄色日产Xterra SUV和一辆黑色SUV，均静止。【左侧】一排商铺前设有临时施工围栏与橙色锥桶，显示局部施工区域，但无作业车辆或人员活动。【关键风险】前方RAV4刹车灯持续亮起，自车需保持安全跟车距离，避免急刹；施工围栏区域存在潜在“鬼探头”风险，但当前无行人或障碍物出现。",
+      "risk_tags": [
+        "following_vehicle_braking",
+        "construction_zone_occupancy"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】晴天，阳光角度略低，树影拉长。【自车】在中间车道保持匀速，跟随前方银色丰田RAV4，车距约5米。【前方】RAV4持续刹车，尾灯常亮，疑似即将停车或通过交叉口。【左侧】商铺外墙有“Opening Soon”和“Wells Fargo”广告牌，门前有临时围挡，无行人活动。【右侧】黄色Nissan Xterra与黑色SUV静止停放，未见任何动态物体。【交通设施】前方路口设有红绿灯（当前为绿灯），路侧有“NO STOPPING”禁停标志。【关键风险】自车与前车距离较近，若前车突然急刹，可能引发追尾；右侧停车区域无行人，但左侧施工围栏后方可能存在隐蔽通道，需警惕突发横穿行为。整体风险等级中等，无严重违规或异常事件。",
+      "risk_tags": [
+        "close_following_distance",
+        "potential_sudden_brake",
+        "construction_area_occlusion_risk"
+      ]
+    }
+  ]
+}

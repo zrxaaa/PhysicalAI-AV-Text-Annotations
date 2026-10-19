@@ -1,0 +1,38 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.81,
+    "analysis_time": "2026-01-23 20:10:48"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，光照充足，无异常天气。【自车】位于中间车道，正通过十字路口，执行右转动作。【左侧】一辆深灰色SUV在左前侧邻车道，正在直行通过斑马线；【右侧】一辆白色轿车从右前方切入，完成右转后驶离。【交通设施】路口设有斑马线、人行横道标志及蓝色导向箭头标志。【关键风险】无明显违规或危险行为，但右侧白色轿车在自车转弯过程中快速切入，存在轻微切出风险（Cut-out），需注意横向间距变化。",
+      "risk_tags": [
+        "minor_cut_out"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】晴朗，阳光直射，部分区域出现阴影。【自车】完成右转后进入新街道，保持中间车道匀速行驶。【左侧】沿街停放多辆汽车，包括银色Mini Cooper、黑色菲亚特等；一家名为“Macellerie”的店铺和“Ristorante del Mare”餐厅可见，门前有遮阳棚与户外桌椅。【右侧】一栋标有“ACCADEMIA DELLA GUARDIA DI FINANZA”的建筑，入口处有台阶与绿化带；一名穿粉色上衣的女性牵着儿童在人行道行走，朝向自车方向移动。【非标物体】人行道旁停放一辆电动滑板车，未锁定。【关键风险】行人与儿童在右侧人行道靠近车道，若突然横穿将构成“鬼探头”风险；滑板车未固定，可能被风吹动或被车辆刮蹭，属于潜在障碍物。",
+      "risk_tags": [
+        "ghost_probe_risk",
+        "unsecured_object",
+        "pedestrian_crossing_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】晴天，道路两侧建筑物密集，部分区域因高楼产生阴影。【自车】保持中间车道匀速前行，道路呈缓弯趋势。【左侧】停有多辆小型车，包括一辆黄色快递车（车身有涂鸦），其后方为一排蓝白相间的厢式货车；一名穿黑衣的行人从左侧人行道走出，走向路边停车区域。【右侧】多辆私家车沿路边停放，包括蓝色菲亚特、深灰大众等；远处可见一辆白色面包车在前方同向行驶。【交通设施】沿途设有多个蓝色“P”停车标志，部分标有“3 ore max”字样；道路边缘有路缘石与绿化带。【关键风险】左侧行人突然从阴影区走出，未观察来车，存在闯入车道风险；右侧停车车辆密集，部分车门开启状态不明，存在“开门杀”隐患；黄色快递车车身涂鸦严重，可能影响视觉识别，增加误判概率。",
+      "risk_tags": [
+        "pedestrian_sudden_emergence",
+        "door_opening_hazard",
+        "visual_obstruction_by_vehicle"
+      ]
+    }
+  ]
+}

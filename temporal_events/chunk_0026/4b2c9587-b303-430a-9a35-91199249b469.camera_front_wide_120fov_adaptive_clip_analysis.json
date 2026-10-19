@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 08:45:16",
+    "processing_time_seconds": 21.66
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "自车在黄昏时分沿林荫道匀速行驶，前方绿灯亮起，道路两侧有商铺和树木，右侧人行道上有行人站立。一辆白色SUV从左侧车道加速并入中间车道，与自车保持安全距离。",
+      "scene_description_additional": "交通信号灯为绿色，车辆有序通行，无明显拥堵或冲突，路面干燥，能见度良好。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "自车接近十字路口，前方信号灯仍为绿灯，右侧出现施工警示牌‘BOLLARD BRIDGE TO CLOSE’及橙白相间路障，一辆大型巴士从对向车道驶过，未与自车产生路径交叉。",
+      "scene_description_additional": "路边有行人步行，部分进入人行横道区域，但未在自车当前车道路径上移动，交通流平稳。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "自车继续直行，前方路口绿灯持续，对向车道有数辆轿车和货车正常通过，右侧人行道上一名骑自行车者从后方接近并沿路边骑行，未侵入行车道。",
+      "scene_description_additional": "天空阴沉，路灯已开启，光线较暗但不影响驾驶视线，道路标线清晰可见，无突发障碍物或行为异常车辆。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:20",
+      "scene_description": "自车即将到达下一个十字路口，前方信号灯转为黄灯，自车减速准备停车，右侧人行道上有两名行人正在过街，其中一人携带行李箱，正跨越斑马线。",
+      "scene_description_additional": "对向车道车辆同步减速，无抢行现象，交通秩序井然，整体场景符合城市傍晚通勤时段的典型特征。"
+    }
+  ]
+}

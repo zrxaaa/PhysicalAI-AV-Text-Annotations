@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 01:00:18",
+    "processing_time_seconds": 11.24
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在城市多车道道路上匀速行驶，前方有数辆汽车，道路两侧分布棕榈树与高层住宅楼，天气晴朗，光线柔和，路面干燥无湿滑迹象。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "前方红色轿车进入直行车道并减速，右侧蓝色SUV从侧方切入中间车道，自车保持原车道跟随前车，交通信号灯尚未变红，车辆间距适中未发生冲突。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "前方红灯亮起，所有车辆开始减速停车，红色轿车位于自车正前方，右侧白色轿车从右方缓慢并入本车道，自车随之完全停止，保持安全跟车距离。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "车辆在红灯前静止等待，前方红色轿车尾灯持续亮起，右侧白色轿车稳定停于相邻车道，远处路口无行人或突发交通事件，环境安静，自车未进行任何转向或加速动作。"
+    }
+  ]
+}

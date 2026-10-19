@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.42,
+    "analysis_time": "2026-01-23 05:46:36"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】阴天，路面湿滑无明显积水，能见度良好。【自车】位于中间车道，正向路口方向匀速行驶。【左侧】一辆黄色挖掘机停在施工围挡内，未作业，无动态；其后方一辆白色厢式货车正在左转，占用对向车道部分空间。【右侧】一辆黑色平板卡车正在右转进入支路，车身横跨人行横道区域。【交通设施】路口设有红绿灯及“禁止驶入”标志，右侧人行道有行人等待过街。【关键风险】黑色卡车右转时未礼让直行车辆（自车），存在交叉冲突风险；同时，左侧厢式货车左转动作与自车纵向距离不足5米，可能引发并线冲突。",
+      "risk_tags": [
+        "crossing_conflict",
+        "improper_turning",
+        "close_proximity_vehicle"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:12",
+      "scene_description": "【环境】天气阴沉，无降水，光线均匀。【自车】保持中间车道匀速前行，接近人行横道。【前方行人】共6名行人（含3名穿白色外套者）从右侧人行道集体横穿马路，其中2人佩戴口罩，1人推婴儿车，其余为步行。【相对位置】行人位于自车正前方约8-12米处，处于斑马线中央区域。【交通设施】右侧设有限速20km/h标志牌及人行横道警示牌。【关键风险】行人未观察来车即集体横穿，且部分行人低头看手机（面部朝下，肢体动作显示注意力分散），存在“鬼探头”和“Jaywalking”双重风险；自车需减速或停车避让，否则易发生碰撞。",
+      "risk_tags": [
+        "jaywalking",
+        "distracted_pedestrians",
+        "pedestrian_crossing_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】阴天，无降水，路面干燥。【自车】通过人行横道后继续沿中间车道匀速行驶。【道路两侧】左侧为多层住宅楼与商铺（含“Fick’s Neustadt”、“PENNY”等标识），右侧为商业街（含“Werner’s Bäckstube”、“IMAGE”等店铺）。【静态物体】路边停放多辆私家车（如银色奔驰、白色大众、灰色丰田），部分自行车停靠在店门口。【非标物体】右侧人行道上有一辆电动滑板车倒地，未被清理，位于距自车约7米的右前方盲区边缘。【交通设施】沿途设有多个限速20km/h标志、停车标志（P）、人行横道标志。【关键风险】倒地滑板车虽静止，但位于盲区，若自车变道或紧急制动可能刮蹭；同时，右侧店铺门口有顾客进出，存在突然冲出的“鬼探头”风险，尤其在转弯或减速时。",
+      "risk_tags": [
+        "obstacle_in_blind_spot",
+        "parked_vehicle_obstruction",
+        "pedestrian_emergence_risk"
+      ]
+    }
+  ]
+}

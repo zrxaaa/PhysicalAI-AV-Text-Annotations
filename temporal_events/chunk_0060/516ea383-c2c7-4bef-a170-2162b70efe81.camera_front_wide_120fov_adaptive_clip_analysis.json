@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.02,
+    "analysis_time": "2026-01-22 06:37:56"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】暴雨天气，雨滴密集覆盖前挡风玻璃，能见度显著降低。路面湿滑积水严重，反射灯光形成水雾干扰。【自车】位于中间车道，沿直线道路匀速前行，雨刷器高频工作但无法完全清除视野污渍。【周围交通参与者】左侧邻车道有多辆轿车（黑色、银色、红色）依次驶过，无明显变道或切入行为；右侧人行道旁有路灯与光秃树木，未见行人。【交通设施】前方路口可见绿色信号灯，路牌显示“Julian St”，道路标线因雨水模糊但仍可辨识。【关键风险】无直接碰撞威胁，但恶劣天气导致视觉感知受限，存在潜在误判风险。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility",
+        "low_confidence_perception"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】持续暴雨，云层低垂，光线昏暗，部分区域出现强逆光眩光。【自车】保持在中间车道，接近十字路口，减速准备停车。【周围交通参与者】右前方一辆深色SUV从右侧车道切入至自车正前方，完成变道动作；对向车道多辆汽车在绿灯下通行。【交通设施】路口设有“Fwy Only”专用车道标识及“Detour Ahead”施工警示牌，红绿灯为标准垂直式，当前显示绿灯。【关键风险】右侧车辆突然切入，虽未发生碰撞，但存在切出（Cut-out）风险，且雨天刹车距离延长，需警惕紧急制动需求。",
+      "risk_tags": [
+        "cut_out_risk",
+        "sudden_lane_change",
+        "wet_braking_distance_increase"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】暴雨加剧，雨幕更厚，挡风玻璃上水珠堆积，视线进一步受阻。【自车】在十字路口处停车等待红灯，车身静止，雨刷器持续摆动。【周围交通参与者】左侧车道有数辆轿车排队等候，其中一辆银色轿车在左转车道内缓慢移动；右侧人行横道附近有行人站立，但因雨雾遮挡无法看清其面部朝向与肢体动作。【交通设施】前方为红灯信号，地面标有“ONLY”字样及斑马线；右侧立柱上有“255 W. Julian”门牌号，远处高架桥下方有车辆通行。【关键风险】行人处于盲区，可能突然横穿马路；同时，右侧车道有车辆试图绕行红灯，存在闯红灯嫌疑（Aggressive Violation），构成交叉路口高危博弈场景。",
+      "risk_tags": [
+        "pedestrian_occupancy_in_blind_spot",
+        "red_light_violation_attempt",
+        "high_intersection_congestion"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】暴雨持续，天空灰暗，能见度维持在约30米以内。【自车】仍处于停车状态，等待红灯转换。【周围交通参与者】左侧车道一辆银色轿车完成左转后驶离；右侧车道一辆黑色轿车在红灯下缓慢倒车，疑似误操作或规避障碍；远处高架桥下有车辆通过，尾灯在雨中闪烁。【交通设施】路口设有“ONE WAY”单行标志，右侧人行道旁有绿化带与棕榈树，背景为山坡植被。【关键风险】右侧黑色轿车倒车行为异常，可能引发后方追尾或冲突；同时，因雨雾遮挡，自车无法清晰观察到后方来车动态，存在“鬼探头”与“倒车冲突”双重风险。",
+      "risk_tags": [
+        "unusual_vehicle_behavior",
+        "reverse_drive_risk",
+        "occlusion_based_collision_hazard"
+      ]
+    }
+  ]
+}

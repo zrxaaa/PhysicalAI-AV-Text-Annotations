@@ -1,0 +1,24 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 22:19:50",
+    "processing_time_seconds": 12.5
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "夜间城市街道，自车在交叉路口停车等待红灯，左侧有一辆深色轿车正在左转，其车身部分进入自车所在车道。右侧人行道上有行人站立，背景可见多个红绿灯和街灯照明。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:10",
+      "scene_description": "信号灯转为绿灯，左侧深色轿车完成左转并驶离路口，自车随之启动前行。一名穿红色上衣的行人从右侧人行横道开始穿越马路，与自车保持安全横向距离。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "自车沿直行方向继续行驶，道路两侧停有车辆，前方无显著障碍物或行人。路边商铺灯光亮起，交通流平稳，自车保持匀速直线行驶，未进行变道或紧急操作。"
+    }
+  ]
+}

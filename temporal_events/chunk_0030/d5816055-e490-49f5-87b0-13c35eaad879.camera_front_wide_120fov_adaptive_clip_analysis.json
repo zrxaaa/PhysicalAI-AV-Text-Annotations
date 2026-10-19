@@ -1,0 +1,25 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "direction_position_action_precision",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.96,
+    "analysis_time": "2026-01-17 11:09:23"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【自车】位于中间车道，保持匀速直行，车头朝向道路延伸方向。【左前侧】左侧路边停放多辆汽车，其中一辆银色SUV在自车前方约15米处开始向右转向，意图汇入主路。【前方】远处路口有行人正在横穿人行横道，交通信号灯为绿灯，允许直行与左转。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:10",
+      "scene_description": "【自车】在接近十字路口时减速，准备停车等待行人通过。【右侧】路口拐角处有一栋灰色建筑，其前方人行道上有三名行人从右向左横穿马路，其中两人并排行走，一人稍后。【对向车道】一辆黑色轿车从对向车道驶来，正通过路口，未受行人影响。【交通设施】路口设有交通信号灯、限速20标志及禁止停车标志，当前绿灯通行。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:20",
+      "scene_description": "【自车】在人行横道前完全停止，等待行人通过。【右侧】三名行人已基本完成横穿，其中两人继续沿人行道向北行走，另一名女性从右侧人行道进入路口边缘，准备过街。【左前侧】对向车道车辆持续排队，部分车辆因红灯停在路口前。【静态元素】路口西南角可见“FOOD MART”商店招牌，东北角为“Lombard French Cleaners”，街道名为JANES STREET，环境为典型城市街区，无突发障碍物或异常行为。"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.1,
+    "analysis_time": "2026-01-22 02:08:13"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】暴雨天气，雨滴密集覆盖前挡风玻璃，能见度显著降低。路面湿滑积水，反射强烈光斑。【自车】位于中间车道，处于停车等待状态，未移动。【左侧】一辆蓝黄相间的铰接式公交车（编号8248）停靠在左邻车道，车身部分遮挡视线。【前方】一辆黄色小型工程车（疑似挖掘机或装载机）停在前方车道中央，尾灯亮起，处于静止作业状态，可能为施工车辆。【交通设施】右侧为桥梁护栏，远处可见大型拱形建筑结构（体育场），背景中交通信号灯显示红灯。【关键风险】因暴雨和视线遮挡，存在“鬼探头”风险；工程车静止占用部分车道，若突然启动将引发紧急避让。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility",
+        "obstruction_by_construction_vehicle",
+        "ghost_probe_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】雨势略有缓和，但挡风玻璃仍布满水珠，视野模糊。【自车】开始缓慢起步，沿中间车道向前行驶。【左侧】公交车同步启动，向左前方变道并驶离，其后部标识“TRM 8248”清晰可见。【前方】工程车保持静止，未移动，但自车已与其拉开距离。【右侧】桥梁护栏与人行道区域无行人活动，但远处可见“LUMEN FIELD”字样，确认为体育场馆区域。【交通设施】前方交通信号灯由红灯转为绿灯，道路标线清晰可见。【关键风险】公交车变道时未打转向灯，存在切出不规范行为；自车起步时需警惕前方工程车突然启动或横移。",
+      "risk_tags": [
+        "improper_lane_change",
+        "delayed_response_to_green_light",
+        "construction_vehicle_stillness_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】持续阴雨，光线昏暗，无明显阳光直射。【自车】维持中间车道匀速行驶，车速稳定。【左侧】公交车已完成变道，逐渐驶离本车道，不再构成直接威胁。【前方】工程车仍静止于前方约30米处，未见任何作业动作或移动迹象。【右侧】桥梁护栏外侧为城市景观区，有少量行人活动，但均在安全区域内。【交通设施】道路进入开阔桥段，两侧设有路灯与交通信号杆，前方可见多组绿灯通行指示。【特殊区域】右侧为Lumen Field体育场入口区域，建筑结构清晰可见，无施工围挡或障碍物。【关键风险】无实时碰撞或违规行为；但工程车长期静止于行车道内，构成潜在静态障碍物风险，尤其在恶劣天气下易引发追尾或规避事故。",
+      "risk_tags": [
+        "static_obstacle_in_traffic_lane",
+        "low_visibility_driving",
+        "no_immediate_hazard"
+      ]
+    }
+  ]
+}

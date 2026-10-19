@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 05:11:23",
+    "processing_time_seconds": 12.6
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车从十字路口左转进入街道，前方道路左侧有行人沿人行道行走，右侧路边停有一辆白色皮卡，道路两侧为住宅区，树木茂密，天气晴朗，路面干燥无湿滑。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:09",
+      "scene_description": "自车沿直线车道继续行驶，前方右侧路边停有一辆深色SUV，路旁设有‘SPEED LIMIT 25’限速标志，前方路口出现红色停车标志，自车在接近路口时减速准备停车。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "自车在路口停车等待，前方横向道路有车辆驶入，包括一辆银色面包车和一辆黑色轿车，均在交叉口处减速或停止，自车保持静止状态，未发生变道或加速行为。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:17",
+      "scene_description": "自车启动并继续沿街道直行，左侧迎面驶来一辆深色SUV，两车在狭窄路段交错而过，右侧路边停放多辆私家车，部分垃圾桶置于路边，阳光强烈导致局部眩光。"
+    },
+    {
+      "time_segment": "00:00:18-00:00:19",
+      "scene_description": "自车继续平稳行驶，前方道路两侧房屋与绿化带清晰可见，无显著交通参与者或障碍物，车辆保持匀速，未见行人或其他动态物体干扰路径。"
+    }
+  ]
+}

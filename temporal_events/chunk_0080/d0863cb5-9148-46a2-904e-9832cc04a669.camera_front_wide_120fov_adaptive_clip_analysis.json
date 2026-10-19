@@ -1,0 +1,35 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.97,
+    "analysis_time": "2026-01-22 15:43:29"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间，天空呈深蓝色，路灯与车灯造成明显眩光，能见度中等偏低。无明显降水或雾气，但存在轻微大气散射导致灯光晕圈。【自车】位于中间车道，沿直线道路匀速行驶，未进行转向或变道。【周围交通】右侧可见“EyeHealth”商业建筑，左侧有绿化带及停放车辆；前方约80米处有一辆红色尾灯轿车在同向车道行驶，保持稳定距离。【交通设施】前方路口设有交通信号灯杆，当前为绿灯状态，路面标线清晰可见。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】继续夜间行驶，路灯照明增强，部分区域出现红绿灯眩光叠加现象。【自车】维持中间车道匀速前进，接近交叉路口。【周围交通】前方红色尾灯轿车在左前方邻车道减速，疑似准备右转；右侧人行横道旁有白色柱状隔离桩，未见行人。【交通设施】进入十字路口前，信号灯由绿转红（约距路口40米），自车开始减速准备停车。【关键风险】前方红色轿车在红灯前未及时制动，仍以较高速度驶近停止线，存在闯红灯或追尾风险。",
+      "risk_tags": [
+        "potential_red_light_violation",
+        "rear_end_collision_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】夜间，天空微暗，路灯与信号灯混合照明，局部区域因红灯反射产生光晕干扰视线。【自车】已完全停于停止线后，处于中间车道静止等待状态。【周围交通】左侧一辆白色轿车从左前方邻车道切入至自车正前方，完成横向移动并停于停止线内；该车未打转向灯，动作突兀。【交通设施】路口信号灯为红灯，两侧人行横道清晰，地面盲道铺装完整。【关键风险】白色轿车违规强行切入自车前方车道，构成“切出”（Cut-out）行为，可能引发自车紧急制动或碰撞，属于高风险交互事件。",
+      "risk_tags": [
+        "illegal_lane_change",
+        "cut_out_risk",
+        "aggressive_vehicle_interaction"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.51,
+    "analysis_time": "2026-01-22 23:54:46"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】晴朗日间，太阳位于右上方形成强烈逆光，导致部分视野眩光。【自车】在中间车道沿弯道行驶，未变道，保持匀速。【左侧】对向车道有多辆轿车和一辆黄色出租车并行，均正常行驶。【右侧】路边植被茂密，无行人或非机动车。【交通设施】前方出现绿色“FREIGHT ENTRANCE”指示牌，提示货运通道入口，道路曲率平缓，无明显障碍物。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:07-00:00:11",
+      "scene_description": "【环境】逆光减弱，阳光角度降低，视野清晰度提升。【自车】在中间车道减速至停车线前，因前方红灯而停止。【前方】两个垂直式交通信号灯显示为红色，位于交叉路口中央偏右位置；左侧有“SPEED LIMIT 25”限速标志。【周围车辆】多辆轿车、货车及一辆白色面包车在路口各方向静止等待，无异常行为。【关键风险】自车在红灯前停车，未发生违规行为；但右侧车道有车辆试图从右转专用车道强行左转（潜在Aggressive Cut-in），需警惕。",
+      "risk_tags": [
+        "potential_aggressive_cut_in",
+        "red_light_compliance"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:18",
+      "scene_description": "【环境】晴天，光照稳定，能见度良好。【自车】绿灯亮起后起步，沿中间车道加速前行。【前方】高架桥横跨道路，桥下有“Great America Pkwy EXIT 393 / Bowers Avenue ½ MILE”绿色路牌，下方有“15ft 3in”限高标识。【周围车辆】多辆轿车与卡车在桥下及两侧车道正常通行，无异常交互。【交通设施】自车正通过桥洞区域，桥体结构为混凝土梁柱，无遮挡；路面标线清晰，无积水或遗撒物。【关键风险】桥洞内光线由亮转暗，存在短暂视觉适应期，但无突发障碍或行人，风险可控。",
+      "risk_tags": [
+        "bridge_transition_visual_adaptation"
+      ]
+    },
+    {
+      "time_segment": "00:00:19-00:00:19",
+      "scene_description": "【环境】进入桥洞后，光照骤暗，仅靠车灯照明。【自车】继续沿直道匀速行驶，未变道。【周围车辆】前方有一黑色SUV保持同速行驶，未切入本车道。【交通设施】桥洞顶部为混凝土结构，无施工或障碍物。【关键风险】无显著风险，但隧道/桥洞过渡区属于典型视觉盲区，建议保持车距并关注前方车辆制动灯。",
+      "risk_tags": [
+        "tunnel_bridge_transition_risk"
+      ]
+    }
+  ]
+}

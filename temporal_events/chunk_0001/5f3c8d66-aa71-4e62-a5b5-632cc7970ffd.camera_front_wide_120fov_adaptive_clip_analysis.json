@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 22:51:09",
+    "processing_time_seconds": 25.34
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在城市主干道上跟随前方黄色SUV行驶，左侧有另一辆黄色出租车从左向右变道超车，右侧人行道上有行人正在过街，交通信号灯为绿灯，路面干燥，天气晴朗。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:09",
+      "scene_description": "车辆接近十字路口，信号灯转为黄灯，前方黄色SUV减速并停在斑马线前，右侧人行横道上有三名行人正在穿越马路，自车随之减速，左侧车道有白色面包车驶入画面并向前行驶。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:13",
+      "scene_description": "信号灯变为红灯，所有车辆停止，自车位于第一排等待，前方黄色SUV保持静止，右侧路边停放一辆深色SUV，行人已完全通过，自车随后向右转向进入一条较窄的街道。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车沿新街道直行，前方黄色SUV继续缓慢行驶，道路两侧为多层住宅楼，右侧人行道上有行人行走，路边停放多辆汽车，无显著交通冲突或障碍物。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "车辆继续沿街道前行，前方黄色SUV保持匀速，道路两侧可见商铺和少量行人，无交叉路口或信号灯变化，整体交通流畅，自车维持当前车道稳定行驶。"
+    }
+  ]
+}

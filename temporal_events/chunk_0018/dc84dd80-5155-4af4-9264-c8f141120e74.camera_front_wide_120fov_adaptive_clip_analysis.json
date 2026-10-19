@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 05:27:23",
+    "processing_time_seconds": 13.79
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "车辆接近十字路口时，左侧一辆银色SUV从对向车道驶来并左转，与自车路径无冲突，自车保持直行通过路口。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:09",
+      "scene_description": "自车继续直行进入支路，右侧出现棕榈树和低矮住宅，交通流量减少，无行人或障碍物出现在自车路径上。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "自车在限速区域内平稳行驶，前方无车辆横穿，右侧一辆白色SUV缓慢驶离停车位，未影响自车通行。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "自车在路口前完成减速，右侧出现消防栓和落叶覆盖的人行道，远处可见另一条街道的交叉口，环境宁静无突发状况。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "阳光照射下路面干燥清晰，自车保持稳定速度行驶，视频结束前未见任何动态交通参与者或显著环境变化。"
+    }
+  ]
+}

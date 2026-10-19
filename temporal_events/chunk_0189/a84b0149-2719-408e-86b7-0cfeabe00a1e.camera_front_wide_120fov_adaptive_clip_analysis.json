@@ -1,0 +1,42 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.84,
+    "analysis_time": "2026-01-24 11:00:00"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】晴天，部分云层，阳光从右上方照射，存在轻微眩光。【自车】位于最右侧车道，正沿直道行驶，准备进入环岛或转向路口。【左侧】一辆白色皮卡（丰田 Tacoma）在左转专用车道内，正在执行左转动作，与自车横向距离约8米，运动方向为向左切入环岛入口。【交通设施】前方设有“ONLY”三向指示牌及高架路牌，标示I-70 West、Pecos St North、48th Ave West。【关键风险】皮卡左转时未充分观察后方，其转向轨迹可能侵入自车所在车道，存在切出冲突风险。",
+      "risk_tags": [
+        "cut_out_risk",
+        "incomplete_lane_check"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "【环境】光照稳定，无遮挡，视野开阔。【自车】完成左转动作，进入环岛入口匝道，当前位于中间车道，匀速沿弧形道路行驶。【周围车辆】右侧有一辆银色SUV在平行车道上由远及近驶来，保持安全距离；远处对向车道有数辆轿车正常通行。【交通设施】环岛中央设有三角形让行标志，环岛外侧设有多组绿底白字的I-70 East/West及48th Ave West指示牌。【关键风险】无明显违规行为或障碍物，但环岛区域存在多车交汇，需警惕突然变道或停车车辆。",
+      "comment": "此段无显著风险，未标注risk_tags"
+    },
+    {
+      "time_segment": "00:00:09-00:00:13",
+      "scene_description": "【环境】晴朗，阳光强烈，右侧出现明显镜头眩光。【自车】继续沿环岛匝道行驶，即将驶离环岛并汇入主干道。【左侧】一辆黑色吉普SUV从左侧支路驶入，意图并入自车所在车道，其车头偏航角向右微调，速度略低于自车。【右侧】一排商业建筑（含“Builders FirstSource”、“Crickets”等招牌），门前停车场停有数辆车。【交通设施】高架路牌清晰显示“I-70 EAST”、“I-70 WEST”、“48th Ave WEST”，地面标线为引导转弯箭头。【关键风险】吉普SUV在汇入车道时未提前打灯，且与自车横向间距小于5米，存在切进风险，若加速不当易引发碰撞。",
+      "risk_tags": [
+        "cut_in_risk",
+        "lack_of_turn_signal"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】天气晴好，能见度良好，无降水或雾气。【自车】已驶离环岛，进入直行主干道，当前位于中间车道，保持匀速行驶。【前方】道路右侧设有“W 48th Ave West”及“SCHOOL PED”人行横道警示牌，配有黄色行人过街标志和闪光警示灯。【周边车辆】右侧车道有一辆白色厢式货车静止于路边，疑似临时停靠；远处可见数辆轿车在同向车道有序行驶。【非标准物体】人行横道附近无行人活动，但警示灯处于待触发状态，提示潜在横穿风险。【关键风险】虽无实时行人，但该区域为学校路段，存在突发儿童横穿可能性，需保持警觉；同时，右侧厢式货车若突然启动，可能造成局部车道拥堵或变道冲突。",
+      "risk_tags": [
+        "school_zone_risk",
+        "unpredictable_vehicle_start"
+      ]
+    }
+  ]
+}

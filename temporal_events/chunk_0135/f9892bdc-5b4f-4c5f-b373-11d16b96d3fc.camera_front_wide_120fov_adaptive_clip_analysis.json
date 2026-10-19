@@ -1,0 +1,47 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.87,
+    "analysis_time": "2026-01-23 15:20:42"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "【环境】晴天，强逆光导致右侧部分视野眩光，无降水或结冰。【自车】位于中间车道，处于停车等待状态（绿灯亮起前），未移动。【前方】一辆灰色轿车停在自车正前方，处于停止线后；右侧有黑色轿车从右转车道驶入直行车道，意图左转。【交通设施】前方交通信号灯为绿色，右侧设有“让行”三角警示牌与右转指示标志。【关键风险】右侧黑色轿车在绿灯亮起后未按导向车道行驶，存在违规变道风险，可能引发交叉碰撞。",
+      "risk_tags": [
+        "improper_lane_change",
+        "potential_collision",
+        "signal_light_interaction"
+      ]
+    },
+    {
+      "time_segment": "00:00:03-00:00:07",
+      "scene_description": "【环境】晴朗，光照稳定，无遮挡。【自车】启动并沿中间车道匀速前行，完成起步动作。【左侧】一辆蓝白涂装警用面包车从左转车道驶出，进入主路，车速平稳，未鸣笛或闪烁警灯。【右侧】一辆银色小型SUV从右方施工区域绕行进入主路，路径略有偏移。【交通设施】道路两侧设置红白相间锥桶与临时护栏，划分施工区与行车道；前方路口设有U型转弯指示牌（U11）及限速50标识。【关键风险】警车与施工区车辆均未按规定路线行驶，存在潜在冲突点，但当前无直接危险。",
+      "risk_tags": [
+        "unusual_vehicle_behavior",
+        "construction_zone_crossing"
+      ]
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "【环境】晴空万里，能见度极佳，无天气异常。【自车】保持中间车道匀速直线行驶，车头偏航角稳定，无转向意图。【前方】一辆白色福特SUV在对向车道快速驶过，未影响本车路径。【右侧】可见大型建筑工地，多台塔吊静止作业，地面堆放土方与建材，由围栏隔离。【交通设施】道路两侧布设红白锥桶、黄色警示柱及“W M”施工提示牌；路面标线清晰，含导向箭头与分道虚线。【关键风险】施工区域存在重型机械静止停放，若自车偏离车道或紧急制动，可能触发机械臂误操作风险，但当前无动态威胁。",
+      "risk_tags": [
+        "construction_site_obstacle",
+        "heavy_machinery_presence"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】晴天，阳光直射，无遮挡。【自车】持续沿中间车道匀速前进，通过弯道时轻微调整方向盘以贴合曲线。【前方】远处可见蓝色“Graff”品牌建筑入口，车道线引导车辆汇入该区域。【右侧】施工区扩大，出现混凝土块堆、金属管道及临时集装箱，部分区域未封闭。【交通设施】路侧设有“注意行人”警示牌、“限速50”圆形标志及“前方施工”提示牌。【关键风险】右侧施工区域存在未固定障碍物（如散落的混凝土块），若自车因避让突发情况需急刹，可能因路面不平导致轮胎打滑或失控，构成潜在事故前兆。",
+      "risk_tags": [
+        "unsecured_construction_debris",
+        "road_surface_unevenness",
+        "emergency_braking_risk"
+      ]
+    }
+  ]
+}

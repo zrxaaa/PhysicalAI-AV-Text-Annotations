@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:06:31",
+    "processing_time_seconds": 15.99
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在多车道道路上匀速行驶，前方交通信号灯为绿灯，右侧一辆白色卡车从右转车道加速驶过，左侧对向车道有车辆正常通行。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "信号灯转为黄灯，前方多辆汽车开始减速，右侧路口有银色轿车和红色SUV依次左转，自车保持当前车道并准备停车，无行人或突发障碍物。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "信号灯变为红灯，自车在停止线前平稳停车，右侧路口有白色皮卡和深色轿车完成左转，对向车道车辆也同步停止，交通秩序井然。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:18",
+      "scene_description": "信号灯转为绿灯，自车及前方车辆启动前行，左侧对向车道有两辆皮卡先后通过交叉口，右侧无显著干扰车辆，道路畅通。"
+    },
+    {
+      "time_segment": "00:00:18-00:00:20",
+      "scene_description": "自车继续沿直行方向行驶，前方路口车辆稀疏，右侧远处有施工围栏但无作业人员，天气阴云，路面干燥，无紧急行为发生。"
+    }
+  ]
+}

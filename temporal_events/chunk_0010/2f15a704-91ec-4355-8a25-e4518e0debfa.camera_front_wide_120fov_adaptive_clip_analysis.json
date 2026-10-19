@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 02:53:36",
+    "processing_time_seconds": 10.96
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "夜间雨天，自车在湿滑路面上匀速行驶，右侧车道有白色SUV和黑色轿车先后驶过，左侧对向车道有公交车迎面驶来，路面标线清晰可见。"
+    },
+    {
+      "time_segment": "00:00:06-00:00:11",
+      "scene_description": "车辆接近铁路道口标志，前方道路两侧停满车辆，右侧出现一辆邮政货车从后方超车并驶离，自车保持原车道未变道，雨滴在挡风玻璃上形成水痕影响视线。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:16",
+      "scene_description": "自车继续直行，右侧路边停放多辆私家车，其中一辆红色SUV缓慢启动并向前移动，与自车路径无冲突；左侧建筑灯光映照路面，无行人或突发障碍物。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:20",
+      "scene_description": "车辆经过一排住宅区前，右侧垃圾桶和停放的皮卡引起短暂视觉干扰，自车未减速，前方远处有车辆尾灯闪烁但距离较远，未构成直接交互。"
+    }
+  ]
+}

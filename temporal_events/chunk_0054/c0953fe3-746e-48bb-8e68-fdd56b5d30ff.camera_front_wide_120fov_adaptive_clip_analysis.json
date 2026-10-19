@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.37,
+    "analysis_time": "2026-01-22 04:09:35"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】夜间城市街道，路灯照明充足但存在轻微雾气导致能见度下降。【自车】位于中间车道，匀速沿直道前行，车头朝向正前方。【右侧】多辆轿车沿路边停放，部分车辆在自车右后方缓慢驶过（相对速度低）。【前方】交通信号灯为绿色，路口设有斑马线。【关键风险】左前方对向车道一辆深色轿车突然加速并试图向右变道，未打转向灯，切入自车前方车道，存在潜在碰撞风险。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "low_visibility",
+        "unsignalized_lane_change"
+      ]
+    },
+    {
+      "time_segment": "00:00:06-00:00:10",
+      "scene_description": "【环境】道路两侧建筑密集，左侧为多层公寓楼，右侧为住宅区，路灯分布均匀。【自车】在中间车道完成左转动作，车头偏航角从正向前转至约30度左偏，进入新支路。【右侧】停车区域有数辆私家车静止停放，其中一辆黑色SUV在自车右后方缓慢倒车，未完全退出车位。【交通设施】路口处设有“限速15英里”标志牌，人行横道清晰可见。【关键风险】自车左转时，右侧后视盲区出现一辆正在倒车的SUV，若未及时观察可能引发“开门杀”或剐蹭事故。",
+      "risk_tags": [
+        "left_turn_with_blind_spot",
+        "reverse_vehicle_interaction",
+        "speed_limit_zone"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】夜间街道，两侧为典型旧金山风格联排住宅，部分窗户亮灯，树木枝叶遮挡部分路灯。【自车】转入新支路后保持匀速行驶，沿弯曲道路前行，未进行变道或紧急制动。【两侧】道路两侧停满车辆，左侧为紧凑型轿车与SUV，右侧为大型SUV及皮卡。【前方】远处可见数辆迎面驶来的车辆，车灯在雾气中形成光晕。【非标物体】右侧人行道边缘有一只流浪猫静止蹲坐，面向自车方向，无明显移动趋势。【关键风险】道路两侧停车率高，存在“开门杀”风险；流浪猫虽当前静止，但其位置处于自车右侧盲区，若行人突然打开车门或猫突然冲出，将构成突发危险。",
+      "risk_tags": [
+        "high_parking_density",
+        "pedestrian_door_opening_risk",
+        "animal_presence_in_blind_spot"
+      ]
+    }
+  ]
+}

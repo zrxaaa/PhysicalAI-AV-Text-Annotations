@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 04:42:18",
+    "processing_time_seconds": 12.66
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车沿街道平稳行驶，左侧有连续停放的车辆和住宅楼，右侧有树木和低层建筑；一辆银色SUV从右前方加速变道至中间车道，与自车路径短暂交叉，随后驶离视野。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "自车继续直行，道路两侧出现多栋现代公寓楼，右侧人行道上有行人行走；一辆黑色皮卡在右前方缓慢驶离路边，自车未减速，保持匀速通过无信号灯的街区。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "接近十字路口，左侧出现一排共享单车，右侧停有多辆私家车；自车在接近路口时轻微减速，前方一辆白色轿车从对向车道驶来并左转，与自车形成横向交汇但无冲突。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "自车在路口停车线前停下，路面标有“STOP”字样，右侧有一辆黑色保时捷正从右转车道驶出；远处可见红绿灯为红色，对向车道有车辆正在等待通行。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车保持静止等待，右侧黑色保时捷完成右转后驶离；一辆银色轿车从对向车道快速通过路口，同时远处有行人从街角进入人行道，自车仍维持停车状态。"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.43,
+    "analysis_time": "2026-01-22 04:32:01"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】晴天，阳光强烈，存在轻微眩光。【自车】在中间车道匀速沿道行驶，未进行转向或变道。【左侧】一辆白色SUV从对向车道驶过，完成超车后回归原车道；其后方一辆银色轿车静止于路边停车位。【右侧】多辆轿车沿街停放，包括一辆灰色丰田普锐斯和一辆银色本田思域，均处于静止状态。【交通设施】前方路口设有红色STOP标志牌，位于道路右侧，与人行横道线相邻。【关键风险】无明显违规行为或障碍物，但右侧停车车辆可能引发“开门杀”风险（Open Door），需注意后视镜盲区。",
+      "risk_tags": [
+        "open_door_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "【环境】阳光直射，树影投射于路面，形成明暗交替区域。【自车】在中间车道继续匀速前行，通过十字路口时减速至停止线前，准备右转。【左侧】一辆白色奔驰轿车从左前方邻车道驶入本车道，完成切入动作，随后向右转弯离开画面。【右侧】路旁建筑为两层商业楼，底层有“FLIGHTS”、“Italian Restaurant 360”等招牌，门前设户外桌椅。【交通设施】路口处设有“STOP”标志及地面“STOP”字样标线，自车遵守停车规则。【关键风险】白色奔驰轿车在自车前方突然切入，虽未造成碰撞，但存在潜在切出干扰（Cut-out）风险，尤其在交叉口视线受阻时易引发事故。",
+      "risk_tags": [
+        "cut_out_risk",
+        "intersection_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "【环境】晴朗，树木茂密，部分路段树冠遮挡阳光，形成斑驳光影。【自车】保持中间车道匀速行驶，沿直线道路前进，未见转向意图。【左侧】沿街停放多辆汽车，包括一辆银色SUV、一辆红色SUV及一辆皮卡，均静止。【右侧】商铺林立，可见“STATE PETAL”、“NASCHE MARKET”等店铺标识，部分店门口设有户外座椅。【交通设施】道路两侧设有路灯、消防栓及人行道，无明显施工或障碍物。【关键风险】无显著风险，但右侧商铺前行人活动频繁，需警惕突然横穿马路的行人（Jaywalking）。",
+      "risk_tags": [
+        "jaywalking_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】光照稳定，无异常天气。【自车】在中间车道匀速行驶，接近前方红灯路口。【前方】一辆深色轿车在自车正前方行驶，保持安全距离。【右侧】出现橙色“ROAD WORK AHEAD”警示牌，提示前方施工区域；旁边设有铁路道口标志（2 TRACKS + RAILROAD CROSSING符号）。【非标物体】施工区域附近有临时锥桶围挡，但未见施工人员或设备作业。【关键风险】前方道路因施工提示而可能减速，需提前预判车流变化；铁路道口标志提示可能存在轨道穿越，若遇列车通行将强制停车，存在突发制动风险。",
+      "risk_tags": [
+        "road_work_warning",
+        "railroad_crossing_risk",
+        "braking_preparation_needed"
+      ]
+    }
+  ]
+}

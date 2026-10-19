@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 10.57,
+    "analysis_time": "2026-01-24 04:21:52"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间，浓雾笼罩，路灯产生强烈光晕与眩光，能见度显著降低。路面湿滑，积水反射灯光形成彩色光斑。【自车】位于中间车道，匀速沿道行驶，未进行变道或转向。【前方】一辆深色轿车在正前方车道行驶，尾灯亮起；右侧邻车道有一辆黑色SUV，与自车并行，随后向右轻微偏移。【交通设施】前方路口信号灯为绿色，指示通行。【关键风险】左侧对向车道有车辆在绿灯时加速超车，存在压线风险；右侧路肩处可见模糊行人轮廓，因雾气遮挡无法确认其动作，存在‘鬼探头’潜在威胁。",
+      "risk_tags": [
+        "reduced_visibility",
+        "ghost_probe_risk",
+        "aggressive_overtaking"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】雾气持续，但道路两侧路灯照明增强，部分区域出现强逆光。路面仍湿滑，积雪堆积于路肩。【自车】保持中间车道，匀速通过交叉路口，未减速。【前方】一辆白色面包车在右前方车道行驶，逐渐驶离路口；左侧对向车道有车辆左转，完成转向后驶离视野。【交通设施】右侧出现Shell加油站标识及限速70标志牌，前方有斑马线与红绿灯。【关键风险】自车右侧路肩有积雪堆，可能影响紧急避让空间；远处可见红色禁止驶入标志，提示该方向不可通行，但当前自车未受干扰。",
+      "risk_tags": [
+        "limited_lateral_clearance",
+        "crossing_traffic"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】进入长直路段，雾气略有消散，但路灯仍造成明显眩光。路面干燥区与积雪区交替，部分车道边缘有融雪水迹。【自车】维持中间车道，匀速直线行驶，无转向或变道行为。【前方】一辆深色轿车在前车流中稳定行驶，尾灯持续亮起；右侧车道有一辆白色厢式货车，与自车同向，保持安全距离。【交通设施】道路两侧设有隔音墙与护栏，左侧为树木覆盖的坡地，右侧为低矮建筑群。【关键风险】左侧对向车道有车辆在弯道处突然减速，疑似避让障碍物，但因雾气无法确认具体原因；右侧路边有不明物体（疑似废弃轮胎）静置于雪堆旁，存在碰撞风险，需规避。",
+      "risk_tags": [
+        "unidentified_obstacle",
+        "sudden_deceleration_risk",
+        "lateral_clearance_concern"
+      ]
+    }
+  ]
+}

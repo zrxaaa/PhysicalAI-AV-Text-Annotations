@@ -1,0 +1,36 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.63,
+    "analysis_time": "2026-01-23 02:45:30"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】黄昏时分，天空布满厚重云层，路灯已亮起，能见度中等偏低。路面干燥但反射微弱灯光，无明显积水或恶劣天气。【自车】位于中间车道，匀速沿直道向前行驶，未进行转向或变道。【左侧】对向车道有数辆汽车驶过，包括一辆白色轿车和一辆SUV，均在各自车道内正常行驶。【右侧】路边为低矮砖墙与稀疏灌木，无显著障碍物。【交通设施】前方约150米处可见多组红绿灯信号杆，当前显示为红灯，路侧有“Lindell St”与“Warm Springs Blvd”路牌标识。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】天色持续变暗，路灯照明增强，云层阴影加剧视觉对比。【自车】保持在中间车道，减速至停车线前，准备等待红灯。【左侧】一辆白色轿车从左转车道驶入交叉口，完成左转动作，未侵入自车所在直行车道。【右侧】一辆白色轿车从右方路口驶入，正通过人行横道，其车头朝向与自车行驶方向垂直，属横向穿越行为。【交通设施】前方红灯持续亮起，右侧“Warm Springs Blvd”路牌清晰可见，路口设有斑马线与交通信号灯组。【关键风险】右侧车辆在红灯未完全结束前提前进入交叉口，存在轻微闯红灯风险；同时，其横向穿越路径与自车停车位置重叠，构成潜在碰撞风险。",
+      "risk_tags": [
+        "crossing_vehicle",
+        "partial_red_light_violation",
+        "collision_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】天色进一步昏暗，路灯成为主要光源，视野受限于低光照条件。【自车】在停车线前静止等待，未发生任何横向或纵向移动。【左侧】一辆深色面包车从左前方驶入画面，缓慢向右并线，最终停在自车左前方邻近车道，车头朝向与自车一致，未发生切出或切入行为。【右侧】白色轿车已完成横穿，驶离交叉口；另有一辆白色轿车从右后方驶近，正在接近路口，但尚未进入停车线区域。【交通设施】红灯持续亮起，右侧“Warm Springs Blvd”路牌仍可见，信号灯组状态稳定。【关键风险】左侧面包车虽未违规，但其靠近自车车道的行为可能造成视线遮挡或引发误判；右侧后方来车若加速通过，可能在绿灯亮起时与自车形成冲突，存在“抢灯”风险。",
+      "risk_tags": [
+        "vehicle_proximity_risk",
+        "low_light_obstacle",
+        "potential_green_light_conflict"
+      ]
+    }
+  ]
+}

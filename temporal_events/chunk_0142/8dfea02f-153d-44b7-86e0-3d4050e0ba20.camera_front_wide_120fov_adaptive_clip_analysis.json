@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.85,
+    "analysis_time": "2026-01-23 18:39:11"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间无路灯，仅靠车灯照明，路面为双向两车道柏油路，两侧有高大树木与围栏，能见度受限。【自车】在中间车道匀速沿道行驶，未发生转向或变道。【交通设施】左侧路边可见一个绿色广告牌（标有字母“A”），后方有电线杆；右侧为草地坡面，无明显标识。【关键风险】道路两侧植被浓密，存在视觉盲区，且无任何反光路标或警示桩，增加夜间碰撞风险。",
+      "risk_tags": [
+        "low_visibility",
+        "no_traffic_signs",
+        "vegetation_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】持续夜间驾驶，雾气轻微，车灯光线在空气中形成散射，能见度略有下降。【自车】保持在中间车道，随道路曲线平稳行驶，未进行横向移动。【周围】道路两侧树木密集，部分树干因车灯照射呈现灰白色轮廓；左侧出现低矮木栅栏，右侧草坡边缘有反光路桩（间距约30米）。【非标准物体】无动物、施工车辆或遗撒物出现。【关键风险】前方远处出现微弱红光（疑似对向车辆尾灯），但因距离过远无法判断其速度与意图，存在潜在迎面碰撞风险。",
+      "risk_tags": [
+        "distant_vehicle_uncertainty",
+        "fog_scattering_light",
+        "limited_forward_view"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】进入一段更浓密的林荫路段，能见度进一步降低，车灯照射区域呈“光晕”状。【自车】维持当前车道，沿弯道缓慢行驶，车头偏航角随道路曲率调整，未越线。【前方】对向来车灯光突然增强并逐渐靠近，光线呈黄色强光，疑似开启远光灯，造成短暂眩目。【交互】该车在自车前方约40米处，未见明显减速或避让动作，仍保持直行。【关键风险】强光干扰导致自车驾驶员视线受阻，若对方未切换近光灯，将引发严重视觉遮蔽，增加碰撞概率；同时，道路右侧出现轻微弯道，需警惕对向车辆可能偏离车道。",
+      "risk_tags": [
+        "headlight_glare",
+        "oncoming_vehicle_uncontrolled",
+        "curved_road_hazard"
+      ]
+    }
+  ]
+}

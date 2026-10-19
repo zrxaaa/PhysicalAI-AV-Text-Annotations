@@ -1,0 +1,41 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.73,
+    "analysis_time": "2026-01-23 20:42:03"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，光照充足，无遮挡，能见度良好。【自车】位于中间车道，匀速沿直道前行，未进行转向或变道。【左侧】对向车道有车辆驶过，包括一辆红色小型车和一辆白色SUV，均正常行驶。【右侧】人行道上有行人行走，其中一名穿黑色上衣的男性从右前方横穿马路，已进入斑马线区域，正朝自车方向移动。【交通设施】路口设有斑马线与红绿灯，当前为绿灯通行状态。【关键风险】行人横穿路径与自车行驶轨迹交叉，存在潜在碰撞风险，但行人已进入斑马线且自车未减速，构成“闯红灯式”行人博弈行为（Jaywalking），需警惕。",
+      "risk_tags": [
+        "jaywalking",
+        "pedestrian_crossing_risk",
+        "no_braking"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】晴朗，阳光直射，部分区域产生阴影。【自车】保持中间车道匀速前进，未制动。【左侧】一辆白色洒水车从左前方驶入画面，车身印有“BUZZANCA”字样，正在执行道路清洁作业，车速缓慢，未占用行车道，但其右侧有明显作业喷雾区域。【右侧】人行道上有多名行人站立或行走，其中一名穿粉色上衣的男性携带购物袋，正沿路边行走，未横穿马路。【交通设施】前方路口信号灯转为红灯，自车在接近前停车等待。【非标物体】路边停放多辆私家车，部分车辆后备箱开启，未造成道路障碍。【关键风险】洒水车作业区域可能影响路面摩擦力，且其喷雾可能短暂降低能见度；同时，红灯前自车未及时减速，存在轻微违规风险。",
+      "risk_tags": [
+        "road_cleaning_operation",
+        "reduced_visibility_from_spray",
+        "red_light_violation_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】晴天，视野开阔，无天气异常。【自车】在中间车道停车等待红灯，车头朝向正前方，未发生横向移动。【前方】一辆白色菲亚特500停在自车正前方，处于停止状态，尾灯亮起。【右侧】一排大型垃圾箱沿路边排列，部分箱体有破损，箱体旁有少量散落垃圾。【左侧】多层住宅楼底层商铺林立，包括“Carrefour Market”、“FARMACIA”等，部分店铺门口有人进出。【交通设施】红灯持续亮起，前方路口设有环形交通标志及人行横道。【关键风险】自车与前方菲亚特500距离较近，若前方车辆突然启动，易引发追尾；右侧垃圾箱区域存在视觉盲区，若行人突然从箱后走出，将构成“鬼探头”风险；此外，路边垃圾堆积可能影响紧急车辆通行。",
+      "risk_tags": [
+        "rear_end_collision_risk",
+        "ghost_probe_risk",
+        "obstacle_in_visual_blind_spot",
+        "urban_debris_hazard"
+      ]
+    }
+  ]
+}

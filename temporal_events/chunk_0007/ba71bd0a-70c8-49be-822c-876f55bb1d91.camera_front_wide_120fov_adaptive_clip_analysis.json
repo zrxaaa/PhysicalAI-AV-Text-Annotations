@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 01:52:33",
+    "processing_time_seconds": 14.27
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在多车道公路上匀速行驶，前方有深色SUV和白色轿车，左侧对向车道有车辆汇入，右侧出现施工警示牌与人行横道标志，天空阴云密布，路面干燥但光线昏暗。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "自车接近十字路口，前方交通信号灯为绿灯，右侧车道有蓝色轿车从旁超车并切入中间车道，自车保持原车道跟随前车，路旁出现绿色高速公路指示牌，显示101号公路方向。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "通过交叉口后，自车继续沿直道行驶，右侧出现弯道警示标志与橙色锥桶，左侧对向车道有红色皮卡和白色货车驶过，道路右侧为绿化带与围栏，无行人或突发障碍物。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "自车进入高架桥路段，右侧为金属围栏与混凝土护栏，前方车辆保持稳定队列行驶，无明显变道或加速行为，天气持续阴沉，能见度良好，未见紧急事件或异常交通参与者。"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 01:12:12",
+    "processing_time_seconds": 13.02
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车沿双向车道平稳行驶，左侧有住宅楼和停放车辆，右侧为护栏与绿化带；一辆灰色SUV从对向车道驶来并完成超车，未与自车发生冲突。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:11",
+      "scene_description": "前方出现人行横道与停车标志，自车减速准备停车；一辆蓝色轿车从对向车道驶近，同时左侧路口有行人正在过街，一辆黄色小汽车在交叉口左转。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:16",
+      "scene_description": "自车在停止线前完全停下，前方交叉口有白色货车正从对向车道驶来，右侧人行道上有行人站立；交通标志显示为‘ALL WAY STOP’，无其他车辆或行人进入主路冲突区域。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:20",
+      "scene_description": "自车启动继续前行，道路两侧停有多辆汽车，右侧护栏外可见公园绿地；前方无显著障碍物或行人，车辆保持匀速直线行驶，未见明显变道或紧急行为。"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.06,
+    "analysis_time": "2026-01-22 22:27:08"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】夜间，浓雾笼罩道路，能见度显著降低，路灯灯光被雾气散射形成强眩光。【自车】在中间车道匀速沿道行驶，未进行转向或变道。【周围车辆】前方一辆银色轿车保持匀速行驶，尾灯清晰可见；左侧路边停放多辆私家车（含白色皮卡、SUV），部分车辆尾灯亮起。【交通设施】道路两侧分布路灯，间距约50米，但因雾气影响，光线模糊，无法看清远处标线。【关键风险】雾天导致视线严重受限，前方车辆刹车灯可能延迟被识别，存在追尾风险；左侧停车车辆无明显警示标识，增加剐蹭或突然开门风险。",
+      "risk_tags": [
+        "low_visibility",
+        "reduced_reaction_time",
+        "parked_vehicle_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "【环境】雾层略有稀薄，但仍维持低能见度，天空云层较厚，偶有微弱月光透出。【自车】保持中间车道匀速行驶，随道路曲线自然前行，未发生横向偏移。【周围车辆】左侧出现一排住宅区前的停车带，停有多辆轿车与SUV；右侧为绿化带与低矮建筑，无明显行人活动。【交通设施】道路右侧设有限速30标志牌，前方路口处可见红绿灯信号柱，但尚未进入交叉口。【关键风险】左侧停车车辆密集，部分车辆未开启示宽灯，在雾中难以辨识；前方车辆减速时刹车灯响应滞后，易引发后方追尾；右侧人行道边缘有垃圾桶和不明物体，虽未移动，但可能成为突发障碍物。",
+      "risk_tags": [
+        "parked_vehicle_obstruction",
+        "delayed_brake_response",
+        "limited_object_detection"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】雾气持续，但局部区域因路灯强光照射形成“光晕”效应，加剧视觉干扰。【自车】在中间车道匀速接近前方交叉路口，临近红灯时开始轻微减速。【周围车辆】前方一辆银色轿车在红灯前完全停止；右侧车道有一辆深色SUV并行停靠，尾灯亮起；左侧对向车道有数辆车排队等待通行。【交通设施】前方路口设有红绿灯及“MUTTER”商业广告牌，右侧人行横道附近有行人站立（距离约15米，未移动）。【关键风险】自车即将进入红灯路口，需严格遵守停车规则；右侧SUV与自车并行，存在切出或变道意图，若其突然转向将构成切入风险；行人位于人行横道外侧，面部朝向不明，但肢体静止，暂无横穿迹象，仍属潜在遮挡风险源（因路灯光晕可能掩盖其动作）。",
+      "risk_tags": [
+        "red_light_approach",
+        "parallel_vehicle_cut_in_risk",
+        "pedestrian_occlusion_risk"
+      ]
+    }
+  ]
+}

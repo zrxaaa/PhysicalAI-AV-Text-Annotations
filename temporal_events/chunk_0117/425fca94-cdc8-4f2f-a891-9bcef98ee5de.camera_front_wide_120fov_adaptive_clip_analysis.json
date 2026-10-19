@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.27,
+    "analysis_time": "2026-01-23 07:28:40"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "【环境】夜间，浓雾笼罩道路，能见度极低，路灯灯光在雾中形成明显光晕。【自车】位于中间车道，匀速沿直线道路前行，未进行转向或变道。【交通设施】道路两侧为林地，右侧有连续路灯杆，左侧无照明；路面标线因雾气略显模糊，但可辨识。【关键风险】无明显障碍物或车辆交互，但浓雾导致视觉感知严重受限，存在潜在“鬼探头”或突发障碍物风险（如倒伏树木、行人未被及时发现）。",
+      "risk_tags": [
+        "low_visibility",
+        "ghost_probe_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】雾气略有消散，但仍维持低能见度；路灯亮度增强，部分区域出现光柱穿透雾层。【自车】保持中间车道匀速行驶，随道路轻微右弯。【周围车辆】左前方对向车道一辆白色轿车快速驶过，车灯亮起，因距离较近产生运动模糊，未见转向灯或变道意图。【交通设施】道路右侧路灯间距均匀，远处可见高层建筑轮廓及零星窗户灯光。【关键风险】对向来车速度较快，虽未变道，但在低能见度下存在碰撞风险；建筑群区域可能隐藏行人或非机动车，视线遮挡隐患持续存在。",
+      "risk_tags": [
+        "high_speed_opposing_vehicle",
+        "low_visibility_continued",
+        "occlusion_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雾气进一步减弱，城市灯光开始清晰显现，能见度显著提升。【自车】仍在中间车道匀速行驶，道路进入直行段，无转向动作。【周围车辆】前方远处有数辆汽车尾灯亮起，呈队列缓慢行驶，疑似拥堵或红灯前排队；左侧对向车道有车辆驶离画面。【交通设施】道路两侧出现建筑物，右侧为高层住宅楼，部分窗户亮灯；左侧出现广告牌及小型商铺结构。【关键风险】前方车流密集且速度缓慢，自车需保持安全跟车距离；广告牌与建筑阴影区可能遮蔽行人或临时路障，存在“鬼探头”和突发减速风险。",
+      "risk_tags": [
+        "traffic_congestion",
+        "shadow_zone_risk",
+        "follow_distance_maintain_required"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:23:23",
+    "processing_time_seconds": 24.84
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在中间车道匀速行驶，右侧车道有一辆银色小型轿车，前方为一辆白色SUV。左侧是铁路轨道与混凝土隔离墙，墙上有涂鸦，天气晴朗，路面干燥无积水。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "右侧银色小轿车开始加速并变道至右车道，同时前方白色SUV减速，后方一辆深灰色SUV从右侧超车并切入中间车道，自车保持原车道缓慢跟随。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "交通流逐渐放缓，前方车辆开始密集排队，包括一辆红色皮卡和一辆白色皮卡。自车跟随前车减速，未进行变道或加速动作，道路两侧有树木和混凝土护栏，无行人或其他突发障碍物。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "车队进入拥堵状态，自车与前方白色SUV几乎静止，右侧红色皮卡停靠在车道内，车厢内可见橙色工具箱。左侧铁路沿线车辆快速驶过，但未对自车路径造成影响，整体场景稳定无动态变化。"
+    }
+  ]
+}

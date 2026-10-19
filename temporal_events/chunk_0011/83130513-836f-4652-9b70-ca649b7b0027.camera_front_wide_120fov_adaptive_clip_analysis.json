@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 03:13:26",
+    "processing_time_seconds": 11.34
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "夜间行车，自车在环形路口左转车道行驶，前方交通信号灯为红灯，右侧车道有车辆正在右转。路灯照明下路面清晰，无行人及其他障碍物干扰自车路径。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "信号灯转绿，自车开始左转进入主路，同时左侧对向车道有车辆直行通过交叉口。道路标线清晰，无其他车辆或行人与自车路径冲突。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车完成左转后沿直道加速前行，左侧出现一辆红色卡车停靠在路边，未影响自车行驶。道路两侧有路灯和低矮围栏，视野开阔无遮挡。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车继续直行，右侧出现棕榈树及小型建筑，远处可见城市灯光。无其他车辆或行人进入自车行驶路径，环境安静且通行顺畅。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车接近一个路口，前方道路变窄并出现临时路障标志，但无车辆或行人阻碍。自车保持当前车道匀速行驶，准备进入下一阶段道路。"
+    }
+  ]
+}

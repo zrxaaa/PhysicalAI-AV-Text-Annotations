@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 06:05:50",
+    "processing_time_seconds": 11.62
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "自车沿海滨道路匀速前进，左侧为施工围挡与链式护栏，右侧人行道设有木质花箱和露天座椅区，远处可见摩天轮结构。无显著行人或车辆与自车路径冲突。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "接近十字路口，右侧人行横道前有数名行人正在行走，其中两人从右向左穿越马路；自车减速并保持在车道内，未变道或急刹，前方有黄色行人警示标志。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:16",
+      "scene_description": "自车通过人行横道后继续直行，右侧出现多层建筑及自行车停放架，有行人沿人行道向远处移动；左侧停车场区域有少量行人活动，无车辆进入主路。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:20",
+      "scene_description": "自车驶近“Fisherman's Grotto”餐厅入口，右侧路边停有一辆黑色轿车，前方远处有车辆缓慢行驶；天气晴朗，路面干燥，无交通信号灯变化或突发行为事件。"
+    }
+  ]
+}

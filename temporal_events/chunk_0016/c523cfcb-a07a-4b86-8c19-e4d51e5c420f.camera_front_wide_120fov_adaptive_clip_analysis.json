@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 04:56:48",
+    "processing_time_seconds": 11.05
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:02",
+      "scene_description": "夜间行车，车辆停在十字路口前，前方交通信号灯为红灯，两侧路灯照明，能见度较低但路面标线清晰可见。"
+    },
+    {
+      "time_segment": "00:00:02-00:00:05",
+      "scene_description": "信号灯转绿，自车开始左转，前方无其他车辆或行人干扰，路口空旷，右侧交通灯仍为红灯，路旁有指示牌和护栏。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "左转完成后，自车沿主干道直行，道路两侧有路灯照明，左侧出现对向车道车辆驶来，右侧有施工围栏但无人员活动，能见度受雾气影响略有下降。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:17",
+      "scene_description": "前方对向车道有车辆驶近，自车保持当前车道行驶，未进行变道或超车，道路两侧树木和护栏在雾中轮廓模糊，远处有零星灯光。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车继续直行，道路左侧出现白色箭头导向标识，右侧护栏外有施工设备轮廓，前方无其他车辆或行人，环境安静且能见度持续受限于夜间雾气。"
+    }
+  ]
+}

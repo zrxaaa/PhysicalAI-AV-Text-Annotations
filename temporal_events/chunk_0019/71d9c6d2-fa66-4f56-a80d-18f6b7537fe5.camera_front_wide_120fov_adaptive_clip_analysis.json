@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 06:02:45",
+    "processing_time_seconds": 17.04
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "车辆接近一个右转弯道，路面上出现白色转向箭头标线，右侧路边有交通标志牌，但无行人或突发障碍物。自车未变道，保持当前车道行驶。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "道路右侧出现环形导向标线，自车仍保持直行，前方黑色SUV在右转车道等待，与自车路径无冲突。环境光线昏暗，路面潮湿，无明显行人活动。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "在绿灯倒计时阶段，自车减速并停于停止线前，前方黑色SUV同样停车等待。左侧车道有银灰色轿车从左向右横穿路口，与自车形成横向交汇关系。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "路口其他方向车辆持续通行，包括一辆黑色特斯拉从对向车道驶入本侧直行车道，与自车形成潜在冲突路径，但其已提前完成转向，未影响自车等待。"
+    }
+  ]
+}

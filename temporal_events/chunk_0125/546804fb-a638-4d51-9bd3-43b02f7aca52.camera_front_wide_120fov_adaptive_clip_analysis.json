@@ -1,0 +1,47 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 19.14,
+    "analysis_time": "2026-01-23 10:49:29"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，云层厚重，光线均匀但偏暗，无明显降水或强逆光。【自车】在中间车道匀速沿道行驶，未进行转向或变道。【右侧】一名骑行者（穿粉黑上衣、戴头盔）在非机动车道内同向骑行，与自车保持约5-8米横向距离，速度稳定。【左侧】路边有住宅建筑及商业设施，一辆银色SUV停于左侧停车位，未移动。【交通设施】前方出现红色倒三角“让行”标志牌，下方附“STOP 100m”提示，位于右侧路肩混凝土挡墙旁。【关键风险】骑行者未使用反光装备或警示灯，在弯道处存在视觉盲区风险；若其突然转向或减速，可能引发后方车辆追尾或碰撞。",
+      "risk_tags": [
+        "cyclist_blind_spot_risk",
+        "lack_of_visibility_equipment"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】天空仍阴沉，无降水迹象，能见度良好。【自车】保持中间车道匀速前行，轻微右倾随道路微弯。【右侧】骑行者持续在非机动车道骑行，逐渐接近一个路口，其位置从右后方移至右前方约3-5米处。【左侧】出现白色警用面包车（车身蓝白条纹）停靠于路边，车门关闭，无人员活动。【交通设施】道路右侧出现禁止停车标志（红圈蓝底），立于树丛旁。远处可见“SUZUKI Widmann”汽车销售店招牌，为蓝色背景红标，清晰可辨。【关键风险】警车静止停放但未开启警示灯，若其突然启动或车门打开，可能对骑行者或自车造成突发干扰；同时，骑行者在接近路口时未减速，存在闯入交叉口的风险。",
+      "risk_tags": [
+        "stationary_vehicle_sudden_movement_risk",
+        "cyclist_ignoring_intersection_hazard"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】阴云密布，无降雨，光照稳定。【自车】进入十字路口前段，减速准备停车。【前方】多辆汽车在交叉口等待或通行：左转车道有黑色轿车待转，直行车道有深灰色轿车正通过人行横道。【交通设施】路口上方悬挂多个交通标志：两个红色“STOP”圆形标志分别位于左右两侧，中央为行人过街信号灯（当前显示为绿灯）。左侧有丰田品牌旗帜（白底红边）竖立于汽车销售店外，随风飘动。【右侧】白色SUV正在右转进入支路，完成动作后驶离视野。【关键风险】自车需在停止线前完全停车，但前方黑色轿车在绿灯下加速通过，存在“抢灯”行为；同时，右侧SUV转弯轨迹较急，可能侵入自车所在车道，构成切出风险。",
+      "risk_tags": [
+        "red_light_crossing_violation",
+        "aggressive_turning_vehicle",
+        "intersection_cut_out_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】天气无变化，路面干燥，无遮挡物。【自车】在停止线前完成停车，等待左转或直行指示。【前方】黑色轿车已通过路口，白色SUV完成右转并驶离。【左侧】丰田展厅区域有数辆新车停放，无人员活动。【右侧】出现“RAINECK & SCHNEIDER SERVICE STUDIO”大型广告牌，背景为绿色植被和低矮建筑。【非标准物体】路口右侧草坡边缘有一只棕色野兔静止站立，头部朝向自车方向，未移动。【关键风险】野兔处于视线盲区边缘，若突然冲入车道将导致紧急避让；同时，自车停车位置靠近路口中心，若其他车辆误判停车意图而强行通过，易发生碰撞。",
+      "risk_tags": [
+        "wild_animal_presence",
+        "pedestrian_or_animal_sudden_emergence_risk",
+        "intersection_confusion_risk"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 01:05:56",
+    "processing_time_seconds": 12.56
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "自车在晴朗天气下沿多车道公路匀速行驶，前方有一辆深色轿车保持同向行驶，道路两侧为行道树与围墙，无行人或突发障碍物。右侧路边出现一个‘FOR SALE’标牌，未影响行车路径。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "车辆继续直行，左侧路肩出现停放的工程卡车和皮卡，右侧围墙后可见棕榈树与低矮建筑；前方交通信号灯为绿灯，自车维持当前车道，未进行变道或减速。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:18",
+      "scene_description": "接近十字路口，前方蓝色轿车在右转车道提前减速并转向右侧路口，自车仍保持直行；交通信号灯显示绿灯，路口有横向来车（黑色皮卡）正在通过，无行人穿越。"
+    },
+    {
+      "time_segment": "00:00:19-00:00:20",
+      "scene_description": "自车平稳通过交叉口，前方蓝色轿车已完成右转；路口右侧可见一座带钟楼的建筑物，但不影响当前车道通行；路面干净，无临时施工或障碍物。"
+    }
+  ]
+}

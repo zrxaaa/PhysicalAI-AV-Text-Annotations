@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:33:16",
+    "processing_time_seconds": 13.86
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车沿居民区小路行驶，左侧停放多辆轿车，右侧为绿化带与垃圾桶，前方出现十字路口及红色STOP标志，一辆银色SUV从左侧驶入路口准备右转。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "自车在路口停车等待，右侧白色皮卡和远处灰色SUV静止于交叉口，路口设有‘ALL WAY STOP’标志，背景为高架桥混凝土墙体，无行人出现。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车完成左转进入主干道，前方有对向来车（白色轿车）驶近，道路右侧为高架桥下混凝土墙与金属围栏，左侧为低矮灌木与护栏，天气晴朗无遮挡。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车在主干道上保持匀速直行，对向车道有两辆白色轿车先后超车通过，右侧高架桥下方区域有施工围网但无人员活动，路边设有自行车道标志。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车继续沿直线道路行驶，两侧植被逐渐稀疏，右侧高架桥延伸至视野尽头，左侧出现连续灌木篱笆，路面标线清晰，无其他车辆或行人干扰。"
+    }
+  ]
+}

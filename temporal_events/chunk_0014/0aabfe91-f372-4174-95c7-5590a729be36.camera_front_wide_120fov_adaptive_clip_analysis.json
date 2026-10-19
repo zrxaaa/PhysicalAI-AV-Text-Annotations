@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 04:07:57",
+    "processing_time_seconds": 11.99
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "车辆行驶在多车道高速公路上，前方有一座高架桥横跨道路，自车在中间车道匀速行驶。右侧白色SUV在右车道行驶，未发生变道或交互行为。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "驶出桥下后，左侧出现摩托车从左车道快速超越，同时一辆黑色轿车从左侧车道并入中间车道，与自车保持安全距离。道路两侧有混凝土护栏和树木，天气晴朗，光线充足。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "前方出现“EXPRESS LANE”地面标识，右侧车道有白色SUV和银色皮卡加速超车，自车维持当前车道行驶。远处可见交通信号灯杆和路牌，无行人或其他突发障碍物。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "车流逐渐密集，右侧车道有多辆轿车和大型货车并行，部分车辆减速。左侧混凝土护栏旁有少量杂物，未见行人或施工人员。自车保持稳定跟车，未进行变道或加速操作。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "右侧车道出现一辆白色半挂卡车，其后方紧随一辆灰色轿车，两车均在自车右侧行驶且速度相近。前方车流缓慢，无明显加塞或紧急制动行为，整体交通秩序良好。"
+    }
+  ]
+}

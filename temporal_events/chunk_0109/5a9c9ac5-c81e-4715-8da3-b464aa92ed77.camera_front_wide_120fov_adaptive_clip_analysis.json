@@ -1,0 +1,44 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.51,
+    "analysis_time": "2026-01-23 04:27:39"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，路面湿滑，有积水反光，能见度中等。【自车】位于中间车道，执行匀速行驶，前方车辆刹车灯亮起，自车随之减速。【右前方】一辆黑色奔驰轿车从左侧超车并切入自车前方车道，未打转向灯，存在违规变道风险。【左前方】一名骑自行车者沿非机动车道行驶，与自车保持安全距离。【交通设施】前方路口信号灯为绿灯，道路标线清晰可见。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "wet_road",
+        "unsignalized_lane_change"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】持续阴雨天气，无明显降水增强，路面仍湿。【自车】在中间车道继续匀速前行，通过交叉路口。【左侧】一辆白色奔驰面包车（Mercedes-Benz Sprinter）从左转车道驶出，完成左转后进入对向车道，未影响自车路径。【右侧】路边停放多辆汽车，包括一辆红色三轮快递车（Pfeiffer），车身静止，无作业活动。【交通设施】路口设有环形交通标志和人行横道，信号灯保持绿色通行状态。",
+      "comment": "此段无显著风险行为，自车与周围车辆交互平稳，未触发关键安全事件。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "【环境】道路两侧树木茂密，部分树叶呈紫红色，可能为秋季特征；光线因树冠遮挡而局部昏暗。【自车】在中间车道完成左转，进入一条单向林荫道。【右侧】一辆黑色Mini Cooper从右侧并入自车所在车道，车头偏航角向左调整，完成切道动作。【左侧】一名行人穿着黄色上衣，在人行道上行走，面朝前方，未横穿马路。【交通设施】路口处设有“禁止停车”标志牌，但实际仍有车辆违停。【关键风险】自车转弯时，右侧车辆切入速度较快，存在轻微碰撞风险，但未发生接触。",
+      "risk_tags": [
+        "lane_change_with_speed",
+        "close_proximity_turning_vehicle"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】持续阴天，无降水，路面干燥但有落叶堆积。【自车】在林荫道中间车道匀速直线行驶，道路两侧停满车辆，部分车辆占用路肩。【左侧】一辆银色SUV从停车位驶出，车头向右微调，意图汇入车流，未完全进入主车道，形成潜在切车障碍。【右侧】一辆白色厢式货车停靠在路边，车尾朝向自车方向，无移动迹象。【交通设施】道路限速30km/h标志清晰可见，但多数车辆未遵守。【关键风险】左侧车辆驶出车位时未观察后方来车，存在“开门杀”或“鬼探头”隐患；同时，道路狭窄且两侧停车密集，限制了紧急避让空间。",
+      "risk_tags": [
+        "parked_vehicle_obstacle",
+        "unsafe_vehicle_departure",
+        "limited_clearance"
+      ]
+    }
+  ]
+}

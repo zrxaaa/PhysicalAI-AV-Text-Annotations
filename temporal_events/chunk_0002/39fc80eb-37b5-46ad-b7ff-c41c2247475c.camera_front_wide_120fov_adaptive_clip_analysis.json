@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:14:40",
+    "processing_time_seconds": 22.08
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车在道路中间车道匀速行驶，左侧一辆黑色轿车从对向车道驶过，右侧一名骑自行车者沿路边骑行，与自车保持平行但未发生交互。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "前方出现一辆白色房车，停靠在左侧路边，自车平稳绕行其后方继续直行；右侧人行横道标志清晰可见，无行人通过，天气阴沉但路面干燥。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车接近一个弯道，左侧出现一辆拖挂式卡车正在缓慢转弯，右侧路边停放着另一辆房车并附有自行车架，自车减速避让，未发生碰撞或冲突。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车继续沿直线道路行驶，左侧一栋长条形建筑旁有数辆汽车停靠，右侧路边有车辆依次停放，自车保持中速行驶，未见行人或突发障碍物。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "道路中央出现‘PED’字样标记，提示前方为行人区域；右侧一辆银色跑车从停车位驶出并汇入车道，自车保持安全距离跟随，无紧急避让行为。"
+    }
+  ]
+}

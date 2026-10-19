@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 02:16:36",
+    "processing_time_seconds": 13.5
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "自车沿城市主干道匀速直行，道路两侧为多层商业与办公建筑，路旁有行道树。前方路口设有斑马线和人行标志，右侧商铺前无行人活动，路面标有‘BUS STOP’字样，交通状况通畅。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:13",
+      "scene_description": "车辆接近前方施工区域，右侧出现移动式电子告示牌显示‘WORK TO BE DONE’，并配有橙色锥桶围挡。左侧出现‘ROAD WORK AHEAD’菱形警示牌，自车保持原车道继续前行，未见其他车辆或行人干扰路径。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "前方出现‘ROAD CLOSED AHEAD’警示牌，道路右侧被临时围栏封闭，自车继续直行，对向车道有白色SUV驶过。远处可见起重机及高层建筑，天气晴朗，光照充足，路面干燥无积水。"
+    },
+    {
+      "time_segment": "00:00:18-00:00:20",
+      "scene_description": "车辆接近十字路口，前方设‘DETOUR AHEAD’指示牌，右侧车道被封堵，自车在中间车道平稳通过。一辆白色SUV从左侧车道变道至前方，信号灯为红灯，自车减速准备停车，无行人横穿。"
+    }
+  ]
+}

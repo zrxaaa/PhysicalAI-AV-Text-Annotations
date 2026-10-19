@@ -1,0 +1,38 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 21.34,
+    "analysis_time": "2026-01-22 21:42:59"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】阴天多云，光线柔和，无降水或强逆光。【自车】位于中间车道，正向十字路口方向匀速行驶，未进行转向或变道。【周围交通参与者】左侧人行道有行人行走；右侧路口处，两名行人（一男一女，女性穿浅色长裙）正在斑马线上由右向左横穿马路，动作平稳，无急停迹象；前方一辆白色厢式货车在路口停车等待，刹车灯未亮。【交通设施】路口设有“STOP”全向停车标志及“ONE WAY”单行指示牌；路面上有清晰的斑马线与“STOP”地面标线；左侧人行道旁有橙色施工围挡，围挡上有涂鸦。【关键风险】行人横穿路径与自车行驶轨迹交叉，虽为斑马线但行人未完全通过即进入自车前方车道，存在轻微碰撞风险，需保持警惕。",
+      "risk_tags": [
+        "pedestrian_crossing",
+        "intersection_conflict"
+      ]
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "【环境】天空云层较厚，光线均匀，无明显遮挡或天气异常。【自车】在中间车道继续沿直道匀速前进，车头朝向道路延伸方向，未发生横向偏移。【周围交通参与者】左侧出现一辆黑色SUV（车牌部分可见）从支路驶入主路，切入自车左前方邻车道，完成变道后加速；右侧路边停放多辆白色厢式货车（含“TITAN INDUSTRIAL SERVICES CORP.”标识），其中一辆正缓慢启动；前方黑色SUV持续行驶，刹车灯偶有闪烁。【交通设施】道路两侧建筑密集，右侧为带外置消防梯的砖石结构住宅楼，左侧为红砖现代建筑，墙上挂有“HEBREW UNION COLLEGE JEWISH INSTITUTE OF RELIGION”标识牌；路边设自行车道标线（Bike Lane）。【关键风险】左侧黑色SUV突然切入邻车道，与自车横向距离缩短至约3米，存在切出/加塞风险；右侧施工区域有临时围挡，可能影响视线，但无直接障碍物侵入车道。",
+      "risk_tags": [
+        "lane_change",
+        "cut_in_risk",
+        "construction_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】光线略暗，云层仍覆盖，无降雨或眩光。【自车】保持在中间车道，跟随前方黑色SUV匀速行驶，车距稳定在5-8米。【周围交通参与者】右侧施工区域持续存在，有橙白相间围挡、脚手架及覆盖白色防尘布的建材堆；一名工人在脚手架上作业，未对行车造成干扰；左侧人行道有零星行人走动，无集中横穿行为。【交通设施】道路右侧设置施工隔离区，包含锥桶、围挡和“Yates”、“BELMONT ST”等标识牌；左侧建筑外墙悬挂学院宣传横幅，显示“HEBREW UNION COLLEGE JEWISH INSTITUTE OF RELIGION”。【关键风险】施工区域占据部分路肩，导致车道宽度压缩，若遇紧急制动可能影响避让空间；无动物、特种车辆或突发遮挡事件，整体风险较低。",
+      "risk_tags": [
+        "construction_zone",
+        "reduced_lane_width"
+      ]
+    }
+  ]
+}

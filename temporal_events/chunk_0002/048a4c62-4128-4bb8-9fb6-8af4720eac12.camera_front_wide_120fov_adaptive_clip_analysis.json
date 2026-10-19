@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:41:54",
+    "processing_time_seconds": 22.99
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "道路两侧路灯照明，路面标线清晰，无行人出现，自车保持匀速接近路口，未进行转向或制动。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "自车与前方车辆保持安全距离，未发生变道或加速行为，环境光线稳定，无突发障碍物或行人干扰。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "道路交叉口处设有交通标志牌（A175 S），周围无行人活动，天气阴沉但无降水，路面干燥，能见度良好。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:20",
+      "scene_description": "远处可见山脉轮廓，天空呈深蓝色，路灯与车灯形成光晕，整体场景平稳，无紧急事件或显著动态交互发生。"
+    }
+  ]
+}

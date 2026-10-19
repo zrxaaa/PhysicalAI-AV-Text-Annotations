@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 01:52:06",
+    "processing_time_seconds": 12.84
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车从隧道出口驶出，前方为多车道高速公路，右侧一辆皮卡载有越野摩托车，正沿右侧行车道行驶。交通信号灯组悬于道路上方，天空多云但能见度良好。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "车辆接近十字路口，路面标有“ONLY”导向箭头，右侧皮卡在右转车道内缓慢变道至中间车道，自车保持直行。左侧对向车道有数辆轿车驶入交叉口。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "自车在红灯前停车等待，前方及左右横向车道均有车辆排队，包括一辆黑色轿车和一辆白色SUV正在左转或直行。远处可见美国国旗悬挂于灯杆，天气仍多云。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "信号灯转为绿灯，自车与前方车辆同步启动前行，右侧皮卡完成左转并驶离画面。左侧车道有摩托车和多辆轿车同时通过交叉口，无行人出现。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车继续沿直行车道行驶，前方路口已清空，两侧车道车辆陆续通过。远处可见商业广告牌和停车场入口，路面干燥，无明显障碍物或施工区域。"
+    }
+  ]
+}

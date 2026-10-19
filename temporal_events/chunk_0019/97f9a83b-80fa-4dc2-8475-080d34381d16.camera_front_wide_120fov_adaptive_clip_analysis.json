@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 05:58:47",
+    "processing_time_seconds": 11.66
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车在多车道公路上匀速行驶，前方一辆银色SUV和一辆蓝色轿车保持同向行驶，右侧路口交通信号灯由绿转红，左侧有黑色SUV从辅路汇入主路。",
+      "road_conditions": "晴天，路面干燥，道路标线清晰，设有交通信号灯与交叉口标志牌"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "通过交叉口后，自车继续直行，前方车辆保持间距，左侧绿化带旁出现“Paseo Padre Pkwy”路牌，右侧为开阔农田与新栽树木，无行人或突发障碍物。",
+      "dynamic_behavior": "自车未变道或加速，维持当前车道稳定行驶，无明显交互行为发生。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "道路两侧出现成排树木，前方蓝色轿车开始减速，自车跟随其后，左侧车道有一辆深灰色SUV驶入并超越自车，完成变道后回归原车道。",
+      "road_conditions": "道路拓宽为四车道，右侧设自行车道，前方可见“N-U TURN”指示牌，交通流平稳，无拥堵迹象。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:20",
+      "scene_description": "自车继续跟随蓝色轿车，前方路口信号灯为红灯，所有车辆均停车等待，右侧车道有白色货车缓慢驶过，未对自车路径造成干扰。",
+      "dynamic_behavior": "自车在红灯前完成制动，保持静止状态，未见行人或其他动态障碍物进入车道范围。"
+    }
+  ]
+}

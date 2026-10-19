@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 08:43:35",
+    "processing_time_seconds": 14.73
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "自车在夜间多车道城市道路上匀速行驶，前方有多辆汽车尾灯亮起，左侧为多层建筑，右侧有商铺和路牌。路灯照明下能见度良好，路面干燥无积水。",
+      "scene_description_2": "车辆保持直行，未进行变道或加速操作，前方车辆均在各自车道内稳定行驶，无行人或其他动态障碍物出现。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "自车接近一个十字路口，前方信号灯由绿转红，车辆开始减速。右侧车道有一辆白色轿车从后方快速超车并切入中间车道，与自车形成短暂并行。",
+      "scene_description_2": "自车继续跟随前车减速，未发生紧急制动，右侧超车车辆完成变道后驶离本车道，路口处其他车辆也同步停车等待。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "自车在红灯前完全停止，前方为一辆深色SUV，其刹车灯持续亮起。右侧车道有另一辆车向右转弯驶离路口，未对自车路径造成干扰。",
+      "scene_description_2": "路口信号灯仍为红色，自车保持静止状态，周围车辆均处于等待状态，无行人横穿或突发交通事件，环境安静有序。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车在红灯结束前保持原位，前方SUV未移动，表明可能为长时间停车。右侧商铺区域灯光正常，无新交通参与者进入视野。",
+      "scene_description_2": "视频结束时，自车仍处于静止等待状态，未观察到任何转向、加速或避让行为，场景整体稳定，无显著动态变化。"
+    }
+  ]
+}

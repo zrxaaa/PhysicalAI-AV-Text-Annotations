@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:26:40",
+    "processing_time_seconds": 19.57
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在浓雾天气中沿双向两车道柏油路平稳行驶，道路两侧为住宅区，右侧出现一栋白色独栋别墅，左侧有停放车辆和蓝色垃圾桶，路面湿滑但无明显积水。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:11",
+      "scene_description": "车辆继续前行，经过一个左转弯道，左侧山坡上可见多栋住宅，部分带有石砌围墙和景观绿化；右侧为高大常绿灌木篱笆，未见行人或其他动态交通参与者。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:15",
+      "scene_description": "前方道路再次转弯，右侧路边出现一辆停靠的白色厢式货车，随后自车在接近交叉口时减速，对向车道驶来一辆深色皮卡车，两车在交叉路口处错开通行。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "自车通过交叉路口后继续直行，道路两侧树木密集，能见度因雾气持续偏低；远处可见另一辆黑色轿车从右侧小路驶出并汇入主路，与自车保持安全距离。"
+    }
+  ]
+}

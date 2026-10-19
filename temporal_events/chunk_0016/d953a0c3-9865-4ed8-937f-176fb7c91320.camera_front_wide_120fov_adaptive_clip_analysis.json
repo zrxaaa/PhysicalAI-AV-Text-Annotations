@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 05:05:03",
+    "processing_time_seconds": 12.99
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "自车沿双向四车道道路直行，前方车辆在交叉口前减速，右侧多辆汽车停靠路边，左侧有车辆从对向车道驶来。道路标线清晰，天空多云但能见度良好，无行人出现。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:11",
+      "scene_description": "自车在十字路口停车等待，前方灰色SUV同样停下，路口设有红色STOP标志和地面“STOP”字样。右侧有车辆从支路驶出，左侧有红色SUV准备左转，所有车辆均遵守停车规则。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:16",
+      "scene_description": "自车在路口完成左转或直行后继续沿道路行驶，前方车辆启动并保持匀速。右侧树木遮挡部分视野，但未影响行车路径。道路两侧有停放车辆，无行人或突发障碍物。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:20",
+      "scene_description": "自车继续直行，进入下一段住宅区街道，道路两侧房屋密集，路边停放多辆私家车。前方车辆保持稳定速度，无紧急制动或变道行为，交通流畅，天气状况稳定。"
+    }
+  ]
+}

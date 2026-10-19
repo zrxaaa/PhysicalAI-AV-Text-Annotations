@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 03:01:33",
+    "processing_time_seconds": 15.67
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车沿主干道直行，前方路口有交通信号灯和‘CLEAR’路面标记，右侧人行道上有骑自行车者，左侧有红色轿车驶过，天气晴朗，阳光强烈导致部分区域眩光。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:08",
+      "scene_description": "自车在十字路口右转进入支路，右侧路边停有一辆白色面包车，前方出现带有广告牌的商铺建筑，道路两侧开始出现住宅与树木，无行人或突发障碍物。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车沿狭窄住宅区街道行驶，左侧停放多辆皮卡与轿车，右侧为坡地住宅，阳光从上方照射形成树影斑驳，前方有车辆缓慢前行，未见明显交叉冲突。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车继续沿上坡住宅街道前进，右侧车道有银色SUV与红色轿车同向行驶，左侧出现一辆黑色SUV驶入车库，自车保持匀速，未进行变道或超车动作。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车接近街道末端，前方红色轿车减速并靠右停车，自车随之缓行，两侧住宅密集，无行人或其他动态障碍物，环境安静，光线依旧强烈但无遮挡。"
+    }
+  ]
+}

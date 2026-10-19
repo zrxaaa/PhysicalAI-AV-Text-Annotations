@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.39,
+    "analysis_time": "2026-01-23 04:22:24"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，路面湿滑，无明显降水但有水渍反光，能见度中等。【自车】在中间车道匀速沿道行驶，未见明显加减速。【左侧】一名穿深色外套的行人站在路边白色SUV旁，面向车辆方向，双手交叉于胸前，无移动意图。【右侧】多辆轿车与SUV沿路边停放，其中一辆黑色Mini Cooper正从停车位驶出，向右切入自车所在车道，未打转向灯。【关键风险】该Mini Cooper存在“违规强行切入”行为（Aggressive Cut-in），与自车横向距离小于2米，构成紧急避让风险。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "unsignalized_lane_change",
+        "close_proximity_vehicle"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】持续阴天，路面干燥但仍有薄层水膜，部分区域有积水反光。【自车】保持中间车道匀速前行，通过十字路口时绿灯亮起。【左侧】一辆白色SUV在对向车道正常行驶，未见异常动作。【右侧】施工围挡区域出现，红白相间护栏与黄色警示锥桶排列，一名头戴安全帽的工人站在围挡后方，手持工具，无移动。【交通设施】前方路口设有行人过街斑马线及交通信号灯，当前为绿灯通行状态。【非标物体】施工围挡内可见一台小型挖掘机静止停放，无作业动作，未伸出机械臂。",
+      "risk_tags": [
+        "construction_zone",
+        "traffic_light_compliance",
+        "low_risk_maneuver"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】天气无显著变化，光线均匀，无强逆光或遮挡。【自车】在中间车道继续匀速行驶，道路两侧建筑风格由商业街过渡至住宅区。【左侧】一辆银灰色SUV从邻近车位驶出，向左变道进入自车所在车道，完成变道后加速离开。【右侧】一家名为“ASIA SHOP”的店铺前，一名穿粉色外套的行人站立于店门口，面朝街道，双手插兜，无横穿意图。【关键风险】左侧SUV变道动作迅速且未使用转向灯，属于“不规范变道”，虽未直接碰撞，但增加了横向冲突概率。",
+      "risk_tags": [
+        "improper_lane_change",
+        "lack_of_turn_signal",
+        "pedestrian_standing_near_road_edge"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】阴云密布，能见度稳定，无降水或雾气。【自车】接近一个环形交叉口，前方设有“Linen-verkehr frei”（轻型交通自由）标志牌及人行横道。【左侧】一名穿深色夹克、背着双肩包的行人正在横穿斑马线，步速平稳，面部朝向前方，无停顿或观望行为。【右侧】一座带玻璃顶棚的公交站台结构清晰可见，一辆黄色租赁货车停靠在站台旁，车身侧面印有“RENT”字样，处于静止状态。【交通设施】路口设有多个交通标志：直行箭头、人行横道提示、限速30km/h标识。【关键风险】行人横穿路径与自车行驶路线交叉，因自车即将进入环岛，需提前预判其穿越完成时间，存在潜在碰撞风险，尤其在视线被公交站台局部遮挡的情况下。",
+      "risk_tags": [
+        "pedestrian_crossing",
+        "intersection_conflict",
+        "partial_occlusion_by_structure"
+      ]
+    }
+  ]
+}

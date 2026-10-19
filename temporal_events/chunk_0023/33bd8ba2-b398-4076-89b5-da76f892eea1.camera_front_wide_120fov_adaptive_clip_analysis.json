@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 07:37:30",
+    "processing_time_seconds": 16.35
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车沿城市街道直行，右侧人行横道旁停有SUV，前方路口交通灯为绿灯，左侧出现一辆标有‘COUNTY OF LOS ANGELES SHERIFF’S DEPARTMENT’的巴士正从左侧车道驶离。道路两侧有棕榈树和多层住宅建筑，天气晴朗，阳光从左上方照射，产生轻微眩光。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "自车继续直行，经过一个路口，右侧路边停放多辆私家车，包括一辆红色轿车和一辆白色SUV。前方出现黄色菱形警示牌提示‘MERGE LEFT’，自车保持当前车道行驶，未进行变道。阳光强烈，造成挡风玻璃部分区域反光。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车接近下一个十字路口，左侧出现自行车道标志和‘NO TURN ON RED’标志，右侧人行道上有行人正在行走。前方交通信号灯为绿灯，自车平稳通过路口，未减速。道路两侧树木茂密，部分遮挡视线。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车在十字路口左转车道等待，前方交通信号灯仍为绿灯，但左侧人行横道有行人正在穿越马路。自车在斑马线前短暂停留，观察行人动态后缓慢启动。右侧有一辆白色轿车在等待左转。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车完成左转，进入新街道，前方可见现代建筑群和高层办公楼。道路两侧停放车辆，右侧有公交站台和自行车停放架。阳光依旧强烈，自车保持匀速行驶，未遇其他显著交通参与者或障碍物。"
+    }
+  ]
+}

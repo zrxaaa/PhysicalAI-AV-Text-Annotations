@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 03:51:16",
+    "processing_time_seconds": 13.08
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车沿住宅区街道匀速直行，左侧一辆白色SUV驶离路边，右侧停有一辆白色皮卡；道路两侧分布多栋独栋住宅，树木茂密，天气晴朗，路面干燥无积水。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "前方出现一辆白色皮卡停靠在右侧路边，自车保持安全距离平稳通过；左侧车道有黑色轿车驶入，与自车同向行驶，未发生路径交叉或冲突。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "自车继续直行，右侧人行道上出现一名行人牵着两只狗步行，与自车保持平行但无交汇风险；远处可见一辆银色轿车从对向车道驶来并完成超车。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "自车接近一个路口，右侧停放多辆SUV和轿车，左侧房屋前有儿童活动迹象但无直接交通交互；自车减速准备停车，未见明显信号灯或标志牌。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车在路口处短暂停留后继续前行，右侧出现绿色皮卡驶入车道，与自车无冲突；道路两侧车辆密集，但均未影响自车当前行驶路径。"
+    }
+  ]
+}

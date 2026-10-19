@@ -1,0 +1,48 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 22.15,
+    "analysis_time": "2026-01-22 00:36:52"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，太阳位于画面右上方，造成强逆光眩光，部分路面与建筑阴影明显。【自车】位于中间车道，处于十字路口停车等待状态，未移动。【左前方】一辆黑色轿车（本田思域）从左侧驶入交叉口，执行左转动作；其后方一辆灰色SUV（Jeep）紧随其后，亦准备左转。【右侧】一辆黑色SUV（福特Escape）从右向左横穿路口，完成转向后驶离。【交通设施】前方交通信号灯为红灯，倒计时显示剩余约3秒；路口设有斑马线及人行道。【关键风险】右侧黑色SUV在红灯未变绿前即强行横穿，存在闯红灯嫌疑；同时，左转车辆与直行自车形成潜在冲突，若无清晰通行规则易引发碰撞。",
+      "risk_tags": [
+        "red_light_violation",
+        "left_turn_conflict",
+        "obstruction_by_crossing_vehicle"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:08",
+      "scene_description": "【环境】阳光依旧强烈，但自车所在位置已脱离强光直射区，视野改善。【自车】在红灯转绿后启动，沿中间车道匀速前行。【前方】一名行人从右侧人行道进入斑马线，正横穿马路，面向自车方向，步速中等，未携带物品，无明显避让意图。【左侧】对向车道有数辆汽车排队等候，包括一辆银色皮卡和一辆白色轿车。【交通设施】信号灯已转为绿色，指示直行与左转均可通行；路侧设有“3rd St”路牌。【关键风险】行人横穿时未观察来车，且位于自车正前方盲区边缘，若自车加速或行人突然加速，可能触发碰撞。",
+      "risk_tags": [
+        "pedestrian_crossing_without_caution",
+        "frontal_obstacle_in_blind_spot"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】道路两侧建筑物密集，多为两至三层砖混结构商铺，部分店铺招牌可见（如Papa John's、TAXES INSURANCE）。阳光仍强烈，但自车已驶入街道中段，遮挡减少。【自车】保持中间车道匀速行驶，车速稳定。【左侧】一辆白色玛莎拉蒂（Maserati Levante）从左侧邻车道超车并入自车前方，完成切出动作；随后一辆红色轿车（雪佛兰）从对向车道驶过。【右侧】路边停放多辆私家车，包括一辆银色SUV（丰田RAV4）和一辆黑色轿车（别克GL6），部分车辆后备箱开启。【非标物体】右侧人行道上有一名行人背对镜头行走，手持手机，未注意路况。【关键风险】左侧玛莎拉蒂超车时未打转向灯，存在“鬼探头”风险；右侧车辆后备箱开启，可能影响后方车辆通行或引发开门事故。",
+      "risk_tags": [
+        "un signaled_overtake",
+        "open_door_risk",
+        "distracted_pedestrian"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】阳光持续照射，部分区域因建筑投射阴影形成明暗交替。【自车】继续沿中间车道匀速行驶，无明显加减速。【前方】道路两侧停满车辆，左侧为一排平行停放的SUV与轿车，右侧则为商铺前停车位，部分车辆斜停。【交通参与者】一辆白色厢式货车（GMC）从对向车道驶来，车身较长，占据近半幅路面；其后方跟随一辆小型卡车。【特殊区域】道路尽头可见一座大型砖砌建筑，疑似剧院或社区中心，门前有临时围栏。【关键风险】对向车道货车与卡车体积大，遮挡视线，若前方有行人或自行车从围栏后突然出现，将构成严重“鬼探头”隐患；此外，右侧车辆斜停导致自车需绕行，增加横向避让概率。",
+      "risk_tags": [
+        "large_vehicle_obstruction",
+        "ghost_probe_risk",
+        "parked_car_obstacle"
+      ]
+    }
+  ]
+}

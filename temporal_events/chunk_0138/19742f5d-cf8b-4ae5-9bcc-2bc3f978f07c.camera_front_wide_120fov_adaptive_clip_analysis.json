@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 24.2,
+    "analysis_time": "2026-01-23 17:06:04"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，光照充足，无异常天气。【自车】位于中间车道，匀速沿直道前行。【左侧】一辆灰色奔驰轿车从左前侧邻车道驶入交叉口，完成左转动作；同时，一名骑电动踏板车的行人从左前方横穿人行横道，已进入自车行驶路径。【右侧】一名骑自行车的行人从右后方接近，正通过人行横道。【交通设施】路口设有斑马线、红白相间施工围挡及禁停标志。【关键风险】奔驰车左转时未充分礼让直行自车，存在潜在碰撞风险；踏板车横穿路径与自车当前车道重叠，构成“鬼探头”隐患。",
+      "risk_tags": [
+        "crossing_vehicle",
+        "left_turn_conflict",
+        "ghost_probe_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】晴朗，树影投射于路面，无遮挡。【自车】保持中间车道匀速前进。【右侧】一辆银色丰田掀背车从右后方切入自车所在车道，完成变道动作；随后一辆白色厢式货车从右前方驶过，占用部分车道空间。【左侧】两名骑自行车者并排从左前方横穿人行横道，其中一人携带绿色购物袋。【交通设施】路口施工围挡持续存在，提示前方有工程作业区域。【关键风险】丰田车在未打转向灯情况下强行加塞（Aggressive Cut-in），迫使自车减速避让；自行车群横穿路径与自车纵向轨迹交叉，需警惕突然转向或刹车。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "bicycle_crossing",
+        "lane_change_violation"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "【环境】阳光强烈，部分区域出现眩光。【自车】在中间车道完成左转动作，进入新街道。【左侧】街角处有一家名为“La Marguerite”的面包店，门前停放多辆摩托车和自行车；一名行人从左侧人行道走出，面向自车方向，手持手机，步态缓慢。【右侧】一排商铺包括“FRENCH OPTICAL”、“INKUT TATTOO & BARBER”，门前有停车柱和禁停标志。【交通设施】左转后道路变为单向通行，路边设有多组停车桩和非机动车道标线。【关键风险】行人低头看手机，未观察来车，有横穿马路意图；自车转弯半径较大，需注意左侧行人与停放车辆的盲区。",
+      "risk_tags": [
+        "pedestrian_distraction",
+        "turning_blind_spot",
+        "parked_vehicle_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】晴天，天空有少量云层，能见度良好。【自车】在中间车道匀速沿狭窄街道前行。【两侧】街道两侧停满车辆，左侧为银色雪铁龙和灰色雷诺，右侧为灰色标致和红色建筑外墙商铺。【行人】一名穿紫色连衣裙的女性从右侧人行道走向路口，面朝自车方向，步伐平稳；另一名穿条纹上衣的女性站在“WOK CHEN”餐厅门口，手扶门框，未移动。【非标准物体】左侧路边停放多辆共享滑板车，车身颜色为绿色，整齐排列于指定停车区。【交通设施】道路标线清晰，设有三角形让行标志和禁止停车标志。【关键风险】街道狭窄，两侧停车密集，自车需谨慎控制车距；滑板车虽静止，但可能被行人突然取用，存在突发移动风险。",
+      "risk_tags": [
+        "narrow_road",
+        "parked_vehicle_clearance",
+        "shared_mobility_risk"
+      ]
+    }
+  ]
+}

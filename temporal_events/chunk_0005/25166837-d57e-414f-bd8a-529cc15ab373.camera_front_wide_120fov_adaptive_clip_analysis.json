@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 00:44:50",
+    "processing_time_seconds": 12.36
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在晴朗天气下沿双向两车道公路行驶，前方道路右侧出现施工区域，停有一辆绿色皮卡并配有橙色锥桶，左侧路边有稀疏灌木和围栏。阳光强烈，路面干燥，无其他车辆近距离交互。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "自车继续前行，经过右侧另一辆工程卡车及更多锥桶，前方出现一个红色菱形施工警示牌，提示“ROAD WORK AHEAD”。对向车道有车辆驶来，但未发生交叉冲突，自车保持直行通过施工区。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:17",
+      "scene_description": "自车驶离主要施工区，道路两侧植被变密，树木遮挡部分阳光，形成明暗交替的光影。对向车道一辆深色轿车从左侧超车，完成变道后驶离视野，自车未减速或转向。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:20",
+      "scene_description": "道路进入林荫段，两侧树木浓密，阳光透过枝叶洒落。远处可见数辆工程车辆停靠在右侧路肩，但无人员活动。自车平稳行驶，未见明显障碍或交通参与者交互。"
+    }
+  ]
+}

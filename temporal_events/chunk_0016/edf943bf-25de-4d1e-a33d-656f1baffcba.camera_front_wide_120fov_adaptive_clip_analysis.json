@@ -1,0 +1,37 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 04:49:16",
+    "processing_time_seconds": 15.5
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车在城市街道上匀速行驶，前方路口有红绿灯，右侧一辆深色SUV正在右转车道等待，左侧人行道上有两名行人正横穿马路。交通信号灯为绿灯，允许直行。",
+      "scene_description_additional": "道路两侧为高层建筑与商铺，树木沿街排列，天气晴朗，路面干燥，无明显障碍物或施工区域。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "自车通过十字路口后继续直行，左侧出现一家餐厅外有行人聚集，右侧路边停有一辆警车和两辆白色货车。一名行人从左侧人行道走向路口中央，准备过马路。",
+      "scene_description_additional": "前方道路因货车停靠形成局部拥堵，自车减速并保持安全距离，未进行变道或超车动作，交通流平稳。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车驶过停靠的货车群，左侧出现一个大型玻璃天桥横跨街道，下方有车辆通行。右侧人行道上一名行人拖着行李箱行走，与自车路径无交叉冲突。",
+      "scene_description_additional": "道路两侧建筑物风格现代，部分入口设有“EXIT ONLY”标识，阳光透过树叶投下斑驳阴影，整体环境安静有序，无突发交通事件。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车继续沿直线道路行驶，前方出现另一组交通信号灯，当前为绿灯。左侧有一辆白色皮卡停在路边，右侧人行道上有两名行人正在等待过街。",
+      "scene_description_additional": "道路中间有清晰的车道分隔线，自车保持中速行驶，未受其他车辆影响，环境光线充足，视野开阔，无遮挡物。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车接近下一个十字路口，前方信号灯仍为绿灯，右侧人行道上一名携带行李的行人开始穿越马路，与自车行驶方向垂直但距离较远，无碰撞风险。",
+      "scene_description_additional": "远处可见一座大型现代化建筑，街道两侧商铺招牌清晰可见，整体交通秩序良好，自车维持原路线和速度，未进行任何转向或制动操作。"
+    }
+  ]
+}

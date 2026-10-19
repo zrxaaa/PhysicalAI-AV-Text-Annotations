@@ -1,0 +1,48 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.74,
+    "analysis_time": "2026-01-23 11:43:46"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "【环境】阴天，云层低且密，能见度中等，无明显降水。路面干燥但略显湿滑。【自车】在中间车道匀速行驶，前方为一座正在施工的混凝土拱桥，桥体上方有红色塔吊及脚手架结构。【交通设施】右侧桥墩旁设有“限高 7.7m”警示牌，桥体下方为临时支撑结构。【非标物体】右侧大型红色塔吊静止作业，吊臂横跨道路，未伸展至行车道，但占据部分右侧路肩空间。【关键风险】塔吊与脚手架结构对超高车辆构成潜在碰撞风险，尤其在弯道或视线受阻时；自车需保持安全车距以规避突发障碍物。",
+      "risk_tags": [
+        "overheight_risk",
+        "construction_obstacle",
+        "limited_visibility"
+      ]
+    },
+    {
+      "time_segment": "00:00:03-00:00:07",
+      "scene_description": "【环境】进入桥下隧道区域，光线骤暗，顶部为弧形混凝土结构，两侧为金属脚手架。【自车】在中间车道匀速通过隧道，速度未明显变化。【周围车辆】左侧车道有一辆黑色轿车加速超车，完成变道后回归原车道；右侧车道一辆白色房车（品牌：Carthago）保持匀速，与自车并行。【交通设施】隧道内无照明设备，仅靠出口自然光透入，形成明暗过渡区。【关键风险】隧道内视野受限，前车刹车灯亮起时反应延迟；右侧脚手架结构突出，若车辆偏移可能剐蹭。",
+      "risk_tags": [
+        "tunnel_lighting_transition",
+        "narrow_clearance_risk",
+        "rear_braking_delay"
+      ]
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "【环境】驶出隧道，恢复开阔道路，两侧为秋季林地，树叶呈黄褐色，天空仍阴沉。【自车】在中间车道维持匀速行驶，未进行变道或加速。【周围车辆】右侧车道一辆白色房车（Carthago）持续领先，其后方为一辆白色厢式货车；左侧车道有多辆卡车和轿车交替超车，包括一辆蓝色半挂车快速驶过。【非标物体】无明显施工车辆或动物出现。【关键风险】左侧车道频繁有车辆超车，存在切出（Cut-out）风险；右侧房车因车身宽大，占用部分车道空间，影响横向避让能力。",
+      "risk_tags": [
+        "frequent_cut_out",
+        "wide_vehicle_lateral_clearance_issue"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】阴天，无降水，道路两侧植被茂密，部分树木枝叶延伸至路肩。【自车】在中间车道匀速行驶，未进行任何转向或制动。【周围车辆】右侧车道一辆黄色重型卡车（带集装箱）持续行驶，车尾贴有危险品标识；左侧车道多辆卡车依次超车，包括一辆白色半挂车和一辆银色SUV。【交通设施】道路右侧设有混凝土护栏，无锥桶或施工围挡。【关键风险】右侧黄色卡车车身高度较高，若自车突然变道可能遭遇视觉盲区；左侧超车车辆密集，存在加塞（Aggressive Cut-in）可能性，尤其在弯道或车流密集段。",
+      "risk_tags": [
+        "high_vehicle_height_risk",
+        "aggressive_cut_in_potential",
+        "lateral_blind_spot"
+      ]
+    }
+  ]
+}

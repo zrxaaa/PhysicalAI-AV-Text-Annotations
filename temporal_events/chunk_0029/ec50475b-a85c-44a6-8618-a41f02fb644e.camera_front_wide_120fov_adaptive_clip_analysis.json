@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 10:04:42",
+    "processing_time_seconds": 15.62
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "夜间城市道路，自车沿直道行驶，右侧一辆银色SUV从后方加速并入中间车道，左侧对向车道有车辆驶来，路灯照明良好，路面干燥无障碍物。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "自车接近十字路口，前方红灯亮起，右侧一辆红色轿车在右转车道减速停车，左侧对向车道多辆汽车依次减速，路中央有高大棕榈树作为视觉参照物。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:13",
+      "scene_description": "自车在路口停车等待，左侧出现一个大型汽车销售店停车场，有多辆汽车停放，右侧人行道旁有低矮围栏和广告牌，无行人或突发交通参与者出现。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "绿灯亮起，自车启动前行，前方道路空旷，两侧商铺灯光闪烁，远处可见多个交通信号灯和路牌，无其他车辆或行人与自车路径发生冲突。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车继续沿直线道路行驶，右侧出现一栋带霓虹灯招牌的建筑，左侧有几棵高大棕榈树，前方车辆保持安全距离行驶，整体交通流畅无异常事件。"
+    }
+  ]
+}

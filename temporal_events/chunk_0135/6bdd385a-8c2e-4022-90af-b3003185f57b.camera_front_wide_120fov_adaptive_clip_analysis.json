@@ -1,0 +1,48 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 19.54,
+    "analysis_time": "2026-01-23 15:24:15"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】阴天，天空布满厚重灰云，光线昏暗，无明显降水但路面湿滑。【自车】位于交叉路口左转待行区，处于静止状态，等待左转信号灯。【交通设施】右侧立有“Stadtmitte”和“alle Richtungen”方向指示牌，前方为红灯（左转箭头灯），左侧设有施工围挡与红白相间锥桶。【周围车辆】左前方一辆银色轿车在直行车道等待绿灯；对向车道有多辆汽车排队等候。【关键风险】左转信号灯即将由红灯转绿，需警惕对向直行车辆可能因误判而提前通行；右侧人行道上有行人正在行走，靠近车流交汇区域，存在横穿风险。",
+      "risk_tags": [
+        "signal_light_transition_risk",
+        "pedestrian_crossing_potential",
+        "construction_zone_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】持续阴天，能见度中等偏低，无明显降雨或结冰。【自车】在左转信号灯变绿后启动，执行左转动作，横向移动进入左转专用车道。【周围车辆】左前方银色轿车同步左转；对向车道车辆保持直行，未发生冲突。【交通设施】通过路口后，右侧出现“SB Car-Wash”洗车中心建筑群，带有多个红色拱形顶棚及广告旗帜；路边设有“Vorsicht Fußgänger”警示牌。【非标物体】一名行人从洗车中心入口处步行至人行横道，正准备横穿马路，其面部朝向道路，双手自然下垂，步速平稳。【关键风险】行人横穿路径与自车转弯轨迹存在交叉点，若行人未注意来车，可能发生碰撞；自车左转时需确保盲区内无行人突然闯入。",
+      "risk_tags": [
+        "pedestrian_crossing_in_turn_path",
+        "blind_spot_risk",
+        "turn_trajectory_conflict"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】天气无显著变化，仍为阴沉灰云，光照均匀但偏暗。【自车】完成左转后，驶入主干道中间车道，沿道路曲线匀速行驶。【周围车辆】左侧邻车道有一辆黑色SUV与自车并行，保持约5米距离；右侧非机动车道为红色专用道，目前无骑行者。【交通设施】道路右侧设有人行道、路灯及多面竖立的“toom”品牌旗帜；前方可见“Busspuren”公交专用道标识。【非标准目标】右侧路边堆放有建筑材料（如砖块、木板），未被围挡，属于潜在障碍物。【关键风险】材料堆未设警示标志，若自车偏离车道或紧急避让，可能因路面不平或突起物导致轮胎受损；同时，该区域无护栏，存在车辆失控冲入的风险。",
+      "risk_tags": [
+        "unsecured_construction_material",
+        "lane_deviation_risk",
+        "obstacle_on_roadside"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】持续阴天，无降水迹象，路面干燥但反射光较弱。【自车】在中间车道保持匀速直线行驶，随道路微弯向前。【周围车辆】对向车道有数辆汽车正常通行，包括一辆蓝色小型车从左侧超车后并线至右车道；右侧非机动车道空旷，无骑行者。【交通设施】道路两侧分布有住宅楼、商铺及“toom”大型建材超市招牌，路旁树木无叶，属冬季景象。【非标物体】右侧人行道边缘有少量落叶堆积，未影响通行；远处可见一辆白色货车停靠在路边，未作业，车身静止。【关键风险】无直接安全威胁，但冬季枯树枝条低垂，部分遮挡视线，尤其在弯道处可能影响对侧来车判断；此外，路边停车货车虽静止，但若突然开门或启动，存在“开门杀”风险。",
+      "risk_tags": [
+        "reduced_visibility_from_bare_trees",
+        "parked_vehicle_open_door_risk"
+      ]
+    }
+  ]
+}

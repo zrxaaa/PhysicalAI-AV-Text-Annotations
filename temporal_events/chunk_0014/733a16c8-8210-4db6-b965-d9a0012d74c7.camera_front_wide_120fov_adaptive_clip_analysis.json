@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 04:15:50",
+    "processing_time_seconds": 12.56
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在城市街道中央车道匀速行驶，前方有一辆深色SUV保持同速前行。左侧车道有白色皮卡和银色轿车先后驶过，右侧人行横道旁设有行人警示标志，无行人出现。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "车辆继续沿直路前进，经过多个路口斑马线，路面标有“BUS STOP”和“PED XING”字样。右侧商铺林立，但无行人或障碍物干扰交通流，自车未进行变道或减速。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "接近一个十字路口，右侧出现黄色行人警示牌，远处可见施工吊臂。自车保持当前车道，前方SUV未改变速度，道路两侧停放少量车辆，无行人横穿或突然出现的障碍物。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "自车通过十字路口，前方SUV在绿灯下继续直行，右侧路边停有数辆汽车，未见行人活动。道路标线清晰，无临时施工围栏或突发交通状况影响通行。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "车辆驶入下一个街区，道路两侧建筑风格变化，出现更多商业标识与停车设施。前方SUV仍保持稳定行驶，自车未采取任何转向或加速动作，整体交通流畅无冲突。"
+    }
+  ]
+}

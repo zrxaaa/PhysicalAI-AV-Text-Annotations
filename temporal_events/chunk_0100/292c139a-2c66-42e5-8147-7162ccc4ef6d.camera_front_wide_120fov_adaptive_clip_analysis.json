@@ -1,0 +1,36 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.33,
+    "analysis_time": "2026-01-23 00:37:03"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】夜间，天空无云但有轻微雨雾，路面湿滑反光明显，路灯与车灯造成眩光。【自车】位于中间车道，处于十字路口前停车等待红灯。【周围交通参与者】右侧人行横道处一辆红色公交车从右向左横穿路口，车身长，遮挡部分视线；其后方有数辆轿车在红灯前排队。【交通设施】多个方向的交通信号灯显示为红灯，其中正前方及左侧信号灯为红灯，右侧信号灯为绿灯（允许直行）。【关键风险】公交车横穿时未完全进入人行道区域即开始转向，存在“鬼探头”风险；同时，右侧车道有车辆在绿灯亮起后加速准备通行，可能与自车形成冲突。",
+      "risk_tags": [
+        "ghost_probe",
+        "red_light_violation_risk",
+        "crossing_vehicle_conflict"
+      ]
+    },
+    {
+      "time_segment": "00:00:06-00:00:12",
+      "scene_description": "【环境】夜间，雨雾稍减，能见度改善，路灯照明稳定。【自车】在红灯转绿后启动，沿中间车道匀速前行。【周围交通参与者】左侧对向车道多辆轿车同步起步，保持安全距离；右侧公交站台旁一辆红色轿车在绿灯后缓慢驶离，未完全离开路口。【交通设施】正前方信号灯由红转绿，右侧信号灯仍为绿灯，指示直行车辆可通行。【关键风险】自车起步时，左侧车道一辆黑色SUV突然加速并试图切入自车所在车道，未打转向灯，构成“加塞”行为，需紧急避让或减速应对。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "lane_change_without_signal",
+        "acceleration_conflict"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】夜间，无降水，路面干燥，灯光充足。【自车】已通过交叉口，沿直线道路继续行驶，保持匀速。【周围交通参与者】前方有一辆深色轿车维持相同速度行驶，尾灯清晰可见；道路两侧分布汽车销售店（如LUNA Car Center、Chase银行），路边停放大量车辆，无行人活动。【交通设施】无信号灯控制，道路为双向四车道，标线清晰，无施工区域或障碍物。【关键风险】无显著风险，所有交通参与者均按规则行驶，未出现违规行为或突发遮挡事件。",
+      "risk_tags": []
+    }
+  ]
+}

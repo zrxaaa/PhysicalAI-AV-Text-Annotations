@@ -1,0 +1,47 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.47,
+    "analysis_time": "2026-01-21 18:47:54"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】晴天，阳光强烈导致部分区域眩光，路面干燥。【自车】位于中间车道，匀速沿道路前行，未进行转向或变道。【左侧】多辆汽车沿路边停放，部分车辆在自车左前方邻近车道缓慢行驶或停靠。【交通设施】路面上方有“STOP AHEAD”字样，提示前方路口需停车。【关键风险】无明显违规行为或障碍物，但左侧停放车辆可能引发开门杀风险（Open Door），需保持警惕。",
+      "risk_tags": [
+        "no_immediate_risk",
+        "parked_vehicle_open_door_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:09",
+      "scene_description": "【环境】光照稳定，视野良好。【自车】继续在中间车道匀速前行。【右侧】一名行人（身穿深色外套）牵着一只浅色中型犬沿人行道行走，从右前方接近路口。【交通设施】右侧出现红色八角形“STOP ALL WAY”标志牌，位于人行横道旁。【交互分析】行人与狗正朝向斑马线方向移动，处于自车前方横向路径上，存在横穿马路的潜在意图。【关键风险】行人与宠物横穿路口，若自车未在停止线前完全停下，将构成碰撞风险；同时，狗的不可预测性增加风险等级。",
+      "risk_tags": [
+        "pedestrian_crossing_risk",
+        "animal_unpredictability",
+        "stop_sign_compliance_required"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "【环境】阳光仍强，但自车已进入路口区域，视线受前方交叉路口结构影响。【自车】在接近斑马线时减速，准备停车。【左侧】对向车道有黑色SUV和银色轿车正在通过交叉口，其中一辆SUV在左转车道上等待通行。【右侧】围栏后为开阔草坪，无其他动态物体。【交通设施】路面标有清晰的白色斑马线，右侧设有“STOP ALL WAY”标志牌，提示所有方向车辆必须停车。【关键风险】自车需在停止线前完全停车，而对向车辆仍在通行，若自车未充分制动或误判车流，可能发生正面碰撞。",
+      "risk_tags": [
+        "intersection_stop_required",
+        "oncoming_traffic_crossing",
+        "braking_delay_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】天气晴朗，无遮挡物，能见度高。【自车】完成停车后，在确认对向及侧向无来车后，缓慢起步并沿原车道继续前行。【左侧】对向车道车辆已通过交叉口，无滞留。【右侧】人行道上的行人与狗已安全通过斑马线，远离自车路径。【交通设施】路口已清空，路面标线与停止线清晰可见。【关键风险】无持续风险，但自车起步时需注意右侧盲区，因此前有行人活动，可能存在突然返回或二次横穿的潜在可能性。",
+      "risk_tags": [
+        "safe_intersection_exit",
+        "post_crossing_blind_spot_check_needed"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 08:58:41",
+    "processing_time_seconds": 12.89
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在十字路口等待绿灯，前方有多辆汽车和一辆拖挂卡车，右侧交通信号灯为绿色，左侧有车辆从对向车道驶来。道路标线清晰，天气晴朗，路面干燥无湿滑现象。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "绿灯亮起，自车与前方车辆开始向前行驶，右侧一辆深色轿车从并行车道加速超车并切入自车前方车道，交通信号灯保持绿色，路旁可见树木和街牌标识‘San Tomas’和‘Scott’。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "自车继续沿直道行驶，右侧深色轿车逐渐远离，前方车辆保持匀速，道路两侧出现停车的车辆和绿化带，远处可见高耸棕榈树，天气持续晴好，无遮挡物影响视线。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "自车进入多车道主干道，前方车辆稀疏，右侧路边出现‘HIGHWAY MUST EXIT’标志牌，道路右侧有灌木丛和少量施工围栏，未见行人或其他障碍物，整体交通流畅无阻。"
+    }
+  ]
+}

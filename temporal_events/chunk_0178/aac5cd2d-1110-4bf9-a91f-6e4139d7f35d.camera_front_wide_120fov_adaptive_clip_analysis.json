@@ -1,0 +1,37 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 9.55,
+    "analysis_time": "2026-01-24 07:13:39"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】夜间，能见度较低，路面湿滑反光明显，无明显降雨但存在水雾或薄雾。【自车】位于中间车道，匀速沿直线道路前行，未进行转向或变道。【周围】左侧及右侧护栏清晰可见，远处有路灯列阵照明，无其他车辆或行人出现。【交通设施】左侧路肩设有白色指示牌，前方约150米处可见收费站结构轮廓。【关键风险】无显著风险，但路面湿滑与低能见度构成潜在驾驶风险。",
+      "risk_tags": [
+        "low_visibility",
+        "wet_road"
+      ]
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "【环境】进入收费站区域，光照增强，路灯密度增加，路面仍湿润，部分区域有积水反光。【自车】保持在中间车道，匀速接近收费站通道，未减速或变道。【周围】右侧出现蓝色指示牌（含“Reservada a Aderentes”字样），提示专用车道；左侧为收费亭建筑结构，远处可见多条车道分叉。【交通设施】前方高架式收费站结构逐渐清晰，顶部有绿色通行信号灯。【关键风险】无直接碰撞或违规行为，但收费站入口处车道分叉复杂，需注意导航引导，避免误入非目标车道。",
+      "risk_tags": [
+        "complex_intersection",
+        "lane_divergence_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】夜间，收费站区域灯光充足，路面因潮湿反射强光，视觉眩晕感增强。【自车】驶入最左侧收费通道，速度明显降低并最终停车等待。【周围】左侧为收费岗亭，岗亭旁有红绿灯系统；右侧为斜坡与楼梯结构，无行人或车辆活动。【交通设施】通过收费站上方的“Reservada a Aderentes”标识确认为ETC/专用通道；红灯亮起后，栏杆自动落下，阻挡通行。【关键风险】自车在红灯前完全停止，符合规范；但收费站栏杆为机械结构，若发生故障可能造成卡顿或误启，存在轻微设备风险。无行人、动物或其他障碍物干扰。",
+      "risk_tags": [
+        "traffic_light_compliance",
+        "barrier_mechanism_risk"
+      ]
+    }
+  ]
+}

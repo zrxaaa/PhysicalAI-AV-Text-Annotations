@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 05:34:14",
+    "processing_time_seconds": 13.1
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车沿双向两车道街道行驶，右侧停有多辆汽车，左侧为多层住宅楼；前方一辆黑色SUV在车道内行驶，阳光从右上方照射造成眩光；路面标有‘NO TURN’字样，提示禁止左转。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:09",
+      "scene_description": "车辆接近十字路口，交通信号灯为绿灯，前方黑色SUV在路口左转，右侧人行道有行人正在过街；自车保持直行，与左侧驶来的红色皮卡和右侧白色皮卡形成并行态势。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "通过路口后，自车继续直行，右侧一辆黑色SUV缓慢靠边停车，左侧对向车道有银色SUV驶过；道路两侧建筑风格多样，部分带有外置消防梯，路边有行人行走但未横穿马路。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "前方出现一辆大型白色巴士，正从左侧车道驶入交叉口，自车减速避让；路面上有‘TURN RIGHT’地面标识，远处可见山丘轮廓，天气晴朗无云，路面干燥。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "巴士完成左转后驶离，自车继续前行，前方路口信号灯仍为绿灯，右侧车道有车辆准备右转；道路两侧停放车辆增多，部分区域有施工围栏但无人员活动。"
+    }
+  ]
+}

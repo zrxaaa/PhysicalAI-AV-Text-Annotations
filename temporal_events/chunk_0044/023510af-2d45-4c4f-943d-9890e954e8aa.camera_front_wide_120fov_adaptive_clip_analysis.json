@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 19.52,
+    "analysis_time": "2026-01-22 00:15:28"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴雨天气，路面湿滑积水，挡风玻璃有水珠导致视野模糊。【自车】在中间车道匀速向前行驶，未明显加速或减速。【左侧】多辆轿车与SUV沿路边停放，部分车辆缓慢驶离车位；一辆白色SUV从左前方驶入画面并横向切入自车前方车道，未打转向灯。【右侧】多辆白色货车停靠，其中一辆红色SUV从右后方快速驶过，车身溅起水花。【交通设施】前方路口地面标有“STOP”字样，右侧设有红色停车标志牌（STOP Sign），但无信号灯控制。【关键风险】左侧白色SUV突然切入，存在“鬼探头”与“违规变道”风险，迫使自车紧急避让空间压缩。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "poor_visibility",
+        "emergency_evade"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】持续阴雨，能见度中等偏低，路面反光明显。【自车】在中间车道完成左转动作，进入新路段，车头偏航角约30度。【左侧】一栋米色工业建筑旁有堆土和橙色施工锥桶，一名穿深色外套的行人站在人行道边缘，面向自车方向站立，未移动。【右侧】大型仓库式建筑，墙面有“NO PARKING”涂鸦，门前停有一辆深蓝色轿车，车门关闭。【交通设施】路口处设有多根电线杆及横跨道路的电缆，无主动交通信号设备。【非标物体】左侧施工区域有数个橙色锥桶，排列成临时引导线，无作业机械活动。【关键风险】行人静止于盲区边缘，若突然横穿将构成“鬼探头”威胁；右侧仓库门口无警示标识，存在潜在开门杀风险。",
+      "risk_tags": [
+        "pedestrian_blind_spot",
+        "construction_cone_guidance",
+        "door_opening_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雨势减弱，天空仍灰暗，路面水迹减少但仍有薄层积水。【自车】完成左转后进入直行路段，保持匀速前进。【前方】一栋现代灰色公寓楼（编号300）位于正前方，楼前有三棵绿树，无行人或车辆活动。【左侧】一排低矮商业建筑，门面有“SE HOUND LOUNGE”招牌，门前有少量垃圾堆积。【右侧】另一栋工业厂房，外墙为白蓝相间，车库门紧闭，墙边立有“NO PARKING”标志。【交通设施】前方路口再次出现“STOP”地面标记，右侧设有一个红底白字“STOP”路牌，无倒计时或灯光提示。【异常现象】自车经过路口时，前方一辆银色轿车从左向右横穿马路，未在停止线前完全停下，疑似“闯停”行为。【关键风险】该银色轿车未遵守停车标志，存在“违规横穿”与“碰撞冲突”风险，尤其在视线受树木遮挡的情况下，可能引发事故。",
+      "risk_tags": [
+        "stop_sign_violation",
+        "crossing_conflict",
+        "reduced_visibility_after_rain"
+      ]
+    }
+  ]
+}

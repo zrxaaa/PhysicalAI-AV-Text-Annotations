@@ -1,0 +1,34 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.09,
+    "analysis_time": "2026-01-24 12:08:04"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】多云天气，部分区域有阳光直射，无降水或能见度异常。【自车】位于中间车道，沿道路曲线匀速前行，未进行变道或紧急制动。【前方】一辆银色轿车在右前方邻车道行驶，保持稳定车距。【左侧】对向车道有车辆汇入，包括一辆白色皮卡和黑色轿车，均在各自车道内正常行驶。【交通设施】道路左侧设有混凝土护栏，右侧为高架墙；前方可见交通信号灯杆，当前显示绿灯。【关键风险】无明显违规行为或障碍物，场景平稳。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】天空云层较厚，光线分布均匀，无强逆光或阴影遮挡。【自车】维持中间车道匀速行驶，车头方向随道路曲率自然调整，未发生转向动作。【左侧】对向车道出现多辆大型车辆（含一辆黑色自卸卡车），与自车同向车道并行，未侵入本车道。【右侧】高架墙持续存在，墙顶有电线杆及广告牌（内容为“HAVE THE BEST LITES ON THE BLOCK”）。【非标物体】右侧墙边散落少量垃圾，未影响行车路径。【关键风险】无显著风险，但右侧广告牌下方出现一个临时施工锥桶区域，提示前方可能有施工，需注意潜在变道需求。",
+      "risk_tags": [
+        "construction_zone_warning"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】光照条件良好，云层间隙透出阳光，路面干燥无积水。【自车】保持中间车道匀速行驶，车速稳定，未见加速或减速迹象。【左侧】多辆私家车（含红色马自达、黑色SUV）从左前侧邻车道切入本车道，其中红色马自达完成切车动作后稳定行驶于自车左前方约8米处。【右侧】高架墙继续延伸，墙外可见住宅区建筑群及电线杆。【交通设施】前方出现“MINE TRAFFIC MEETS CARS”警示标志，提示前方交叉口或车流交汇点。【关键风险】左侧频繁出现车辆切车行为，尤其红色马自达在接近交叉口时未提前打灯示意，存在加塞风险（Aggressive Cut-in），虽未造成碰撞，但增加了跟车安全距离压力。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "lane_change_risk",
+        "intersection_proximity"
+      ]
+    }
+  ]
+}

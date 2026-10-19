@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.09,
+    "analysis_time": "2026-01-22 10:37:28"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间，浓雾笼罩道路，能见度低，路灯与车灯产生明显光晕。【自车】位于中间车道，匀速沿道行驶，未进行变道或转向。【右侧】路边停放多辆汽车，部分车辆尾灯亮起；一辆白色SUV从右侧超车并驶离视野。【交通设施】前方可见绿色交通信号灯，路面标线因雾气略显模糊，但可辨识‘WAIT’字样及导向箭头。【关键风险】右侧路肩停放车辆密集，存在“开门杀”潜在风险；雾中视线受限，对侧来车可能突然出现。",
+      "risk_tags": [
+        "low_visibility",
+        "parked_vehicle_risk",
+        "sudden_appearance_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】雾气持续，但局部区域灯光穿透力增强，能见度略有改善。【自车】保持在中间车道匀速前行，车头方向随道路曲线自然调整，无主动转向。【左侧】对向车道有数辆轿车驶过，均保持正常行驶轨迹。【右侧】一辆红色皮卡从右侧车道超越自车后驶入前方路口，其刹车灯短暂亮起。【交通设施】前方路口处绿灯持续亮起，路面标线‘WAIT HERE’清晰可见，提示停车等待区。【关键风险】右侧皮卡加速超车时未保持安全横向距离，存在切出干扰风险；前方路口绿灯虽亮，但雾中无法确认是否有行人或非机动车闯入。",
+      "risk_tags": [
+        "cutting_in_risk",
+        "intersection_obstruction_risk",
+        "poor_lighting_confusion"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】进入开阔路段，雾气稍散，路灯照明稳定，能见度提升至约80米。【自车】继续在中间车道匀速行驶，无转向或减速动作。【左侧】对向车道车辆稀疏，有序通行；路边住宅区偶有车辆驶出。【右侧】一辆银色SUV在自车右后方跟随，保持约15米距离，未超车也未变道。【交通设施】前方无红绿灯，仅设有限速标志（35mph）和弯道警示牌。【非标准物体】无特种车辆、动物或遗撒物出现。【关键风险】右侧SUV长时间保持跟车距离，可能意图变道，需警惕其突然切入；远处对向车道有车辆灯光闪烁，疑似紧急制动，但因距离较远暂未构成直接威胁。",
+      "risk_tags": [
+        "following_vehicle_risk",
+        "potential_lane_change",
+        "distant_braking_signal"
+      ]
+    }
+  ]
+}

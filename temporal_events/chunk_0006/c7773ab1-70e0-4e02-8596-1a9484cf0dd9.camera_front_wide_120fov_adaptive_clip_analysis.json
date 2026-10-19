@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 01:08:01",
+    "processing_time_seconds": 12.6
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "夜间城市道路，自车沿多车道直行，左侧为施工围栏区域，右侧路边停放多辆汽车，前方交通信号灯为绿灯，路面标线清晰，无行人或障碍物干扰自车路径。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "车辆接近十字路口，前方信号灯由绿转黄，自车减速准备停车，右侧车道有车辆向左变道，但未进入自车所在车道，路口处无行人穿越，交通流平稳。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "信号灯变为红灯，自车在斑马线前完全停止，左侧对向车道有车辆左转，右侧人行道上有行人站立等待，远处可见麦当劳标志和建筑灯光，无紧急事件发生。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "信号灯恢复绿灯，自车启动前行，左侧出现一辆白色货车从辅路汇入主路，与自车保持安全横向距离，未发生并线冲突，道路两侧商铺及广告牌在夜色中亮起。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车继续沿直道行驶，右侧车道有一辆大型卡车缓慢超车，与自车保持纵向间距，前方无交叉路口或行人，环境安静，路灯照明充足，路面干燥无积水。"
+    }
+  ]
+}

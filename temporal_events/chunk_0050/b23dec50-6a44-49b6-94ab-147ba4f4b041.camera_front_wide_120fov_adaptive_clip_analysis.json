@@ -1,0 +1,36 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.64,
+    "analysis_time": "2026-01-22 02:24:40"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】清晨晴天，阳光从左侧照射，存在轻微眩光但未影响视野。【自车】在中间车道匀速沿直道行驶，无明显加速或减速。【右侧】一辆银色SUV停靠于路边，车身完全静止，未见任何移动迹象。【左侧】停放多辆厢式货车及拖车，部分车辆带有“United Rentals”标识，处于非作业静止状态。【交通设施】道路两侧分布电线杆与路灯，右侧人行道设有橙色锥桶，提示施工区域。【关键风险】无显著障碍物或违规行为，仅需注意右侧锥桶可能因风力倾倒导致路面临时阻塞。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】光照持续偏暖，天空清澈，无云层遮挡。【自车】保持中间车道匀速前行，车头朝向道路延伸方向，未进行转向操作。【右侧】砖砌厂房建筑群逐渐显现，墙面有“Customer Entrance”、“SHYFT”等标识，门前摆放多个橙色锥桶，部分锥桶已倾倒。【左侧】出现“SIEGEL OIL CO.”字样建筑，其后方为工业区围栏与空地。【交通设施】前方出现“ROAD WORK AHEAD”警示牌，位于右前方人行道边缘，提示前方施工。【关键风险】右侧倾倒的锥桶可能被风吹动或被车辆碾压，引发临时路障；同时，前方铁路道口标志（X形交叉线）预示即将进入交叉路口，需提前准备制动。",
+      "risk_tags": [
+        "road_work_warning",
+        "fallen_cone_risk",
+        "railroad_crossing_approach"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】强逆光减弱，阳光角度降低，阴影拉长。【自车】继续在中间车道匀速行驶，接近铁路道口。【前方】铁路道口设有双轨、红绿灯信号、黄黑相间警示柱及“RAILROAD CROSSING”标志牌。【左侧】对向车道有一辆白色皮卡驶过，完成横向穿越动作，未对自车造成干扰。【右侧】铁路道口旁有大型工业烟囱与白色厂房，构成典型工业区背景。【交通设施交互】自车在接近道口时，前方信号灯显示为红色，道口栏杆尚未落下，但系统提示即将闭合。【关键风险】铁路道口为高风险节点，需确保自车在栏杆落下前安全通过；若信号灯异常或栏杆延迟关闭，将引发严重碰撞事故。此外，道口附近有施工锥桶和临时围栏，可能影响驾驶员视线或造成误判。",
+      "risk_tags": [
+        "railroad_crossing_hazard",
+        "signal_light_reliability_concern",
+        "obstruction_in_view"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.99,
+    "analysis_time": "2026-01-22 22:48:30"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴朗白天，天空湛蓝，无云，光照充足，无异常天气。【自车】在中间车道沿弯曲道路匀速前行，未进行转向或变道。【右侧】大型白色建筑“MONTEREY BAY AQUARIUM”及附属“PORTOLANA BRAND SARDINES”招牌清晰可见，建筑旁有三根高耸烟囱，无遮挡。【左侧】远处可见住宅区轮廓，路边设有路灯与交通标志杆。【交通设施】道路为双向两车道，路面标线清晰，无积水或障碍物。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】阳光角度降低，出现明显树影与建筑阴影，光线由顺光转为侧光。【自车】保持中间车道匀速行驶，随道路曲率自然前进。【左侧】一栋浅灰色双层住宅（带阳台）位于路旁，前方设有人行横道与黄色“BICYCLE XING”警示牌。【行人/非机动车】一名穿深色上衣的行人从左侧人行道走向马路中央，准备横穿；同时，一名骑电动自行车者从右侧人行道驶入车道，向左横穿路口。【交互意图】行人与骑行者均处于横穿状态，但未使用斑马线，存在潜在冲突风险。【交通设施】右侧树后设有一个“XING”地面标识与垃圾桶，无信号灯控制。【关键风险】行人与骑行者横向穿越车道，且未在斑马线上，属于“Jaywalking”，对自车构成潜在碰撞威胁，尤其在自车继续直行时需高度警惕。",
+      "risk_tags": [
+        "jaywalking",
+        "crossing_traffic",
+        "pedestrian_crossing_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】光照持续偏斜，阴影拉长，视野中树木与建筑投射明显阴影。【自车】维持中间车道匀速行驶，接近前方交叉路口。【前方】道路出现“STOP”路面标记与红色停车标志牌，路口设有“WAVE”方向指示牌。【行人】一名穿蓝色外套的行人从右侧人行道走向路口，正朝自车方向行走，未进入斑马线区域。【车辆】远处可见一辆红色轿车在交叉口前减速，疑似准备停车。【交通设施】路口设有停车标志、人行横道标线、停车线及多根电线杆，无自动信号灯。【关键风险】自车即将进入停车路口，而前方行人与远端车辆均未完全停止，存在“鬼探头”风险——行人可能突然横穿，车辆可能闯停或误判。此外，路口无主动信号控制，依赖驾驶员自觉停车，易引发冲突。",
+      "risk_tags": [
+        "uncontrolled_intersection",
+        "pedestrian_jaywalking",
+        "potential_collision_at_stop_line"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 20.67,
+    "analysis_time": "2026-01-23 15:18:08"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，云层厚重，光线均匀但偏暗，无明显降水或结冰。【自车】在中间车道匀速沿直道行驶，未见明显加速或减速。【交通设施】道路两侧设有混凝土护栏与金属隔音墙；左侧路肩有涂鸦；前方设置多组红白相间施工锥桶，引导车道收缩。【关键风险】右侧路肩处可见一辆深色SUV静止停放，疑似临时停车，未见警示标识，存在潜在遮挡或突然启动风险。",
+      "risk_tags": [
+        "unmarked_parked_vehicle",
+        "obstruction_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】天空仍阴沉，能见度良好，无降水迹象。【自车】保持中间车道匀速前进，随道路微弯向右平缓转向。【周围车辆】左侧对向车道有数辆轿车正常通行，未见异常变道行为。【交通设施】前方出现限速60km/h电子显示屏（当前显示为红色禁止标志），右侧增设黄色“出口”指示牌及红白锥桶围挡，提示即将进入匝道分流区。【关键风险】右侧施工区域锥桶排列密集，部分锥桶底部有轻微晃动，可能因风力或过往车辆气流扰动，存在倾倒风险。",
+      "risk_tags": [
+        "cone_instability_risk",
+        "speed_limit_warning"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】光线无显著变化，隧道入口区域开始出现阴影。【自车】继续沿中间车道行驶，车头朝向隧道入口方向，速度稳定。【交通设施】右侧出现“出口”（AUSFAHRT）黄色指路牌，下方设有限速30km/h标志；隧道入口两侧为高大混凝土结构，墙面呈绿色装饰带。【周围车辆】左侧对向车道有一辆白色轿车驶离主路，完成变道动作；右侧车道无车辆，仅见施工锥桶与隔离墙。【关键风险】隧道入口前路面标线由实线转为虚线，且有橙色导向箭头，提示车道合并，若后方车辆未及时识别，易发生强行并线冲突。",
+      "risk_tags": [
+        "lane_merge_zone",
+        "rear_vehicle_unawareness_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】自车进入隧道口，外部自然光迅速减弱，隧道内灯光开始接管照明。【自车】保持当前车道，以匀速平稳驶入隧道。【交通设施】隧道入口两侧为混凝土结构，墙面贴有绿色防撞板；隧道内顶部安装LED照明灯，亮度逐步增强。【周围车辆】前方远处可见一辆黑色轿车正进入隧道，与自车同向，距离约80米，无变道或急刹迹象。【关键风险】隧道入口处存在明显的明暗过渡，驾驶员视觉适应需短暂时间，若此时有行人或非机动车从侧边通道闯入，将构成极高碰撞风险（鬼探头）。此外，隧道内壁存在反光材料，可能造成眩光干扰。",
+      "risk_tags": [
+        "light_transition_risk",
+        "ghost_probe_potential",
+        "tunnel_visual_adaptation_delay"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 03:52:44",
+    "processing_time_seconds": 13.19
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "道路两侧可见多栋独立住宅，部分车库门关闭，树木无叶，环境安静，未见交叉路口或交通信号灯，自车保持直线匀速前进，无变道或减速行为。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "前方出现一盏高杆路灯，光线较亮，照亮了道路及周边房屋，自车未改变速度或方向，保持在中间车道行驶，与右侧停放车辆无交互，未进入任何交叉口。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:16",
+      "scene_description": "该轿车完成变道后迅速远离，自车未减速或避让，继续保持当前车道行驶；远处可见黄色交通标志牌，但未影响当前行驶路径，整体环境仍为宁静住宅区。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "道路两侧房屋灯光持续亮起，表明时间已进入傍晚，自车维持稳定速度通过弯道，未见其他动态交通参与者靠近，场景结束前无显著事件发生。"
+    }
+  ]
+}

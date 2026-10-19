@@ -1,0 +1,35 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 10.68,
+    "analysis_time": "2026-01-21 23:32:32"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "【环境】夜间行车，无明显降水或雾气，路面干燥，能见度受路灯照明限制。【自车】在中间车道匀速沿道行驶，车头偏航角随道路微弯调整，未发生变道或转向。【左侧】对向车道有车辆驶过，因运动模糊呈现光轨，未进入50米内交互范围。【右侧】路肩有树木与低矮围栏，无行人或动物活动迹象。【交通设施】前方可见路灯柱及黄色路桩，未见明显交通标志或信号灯。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "【环境】进入城市主干道区域，右侧出现商业建筑群与霓虹招牌，光照增强但仍有部分阴影区。【自车】保持中间车道匀速行驶，通过弯道时轻微调整方向以贴合车道线。【左侧】对向车道多辆轿车快速驶过，其中一辆银色SUV在左前侧邻车道加速超车，完成切出动作后回归原车道。【右侧】路边停放多辆私家车，人行道上有模糊行人轮廓，但距离>30米，无明确横穿意图。【交通设施】前方出现高架桥下部结构，悬挂大型高速公路指示牌（710 NORTH Pasadena / Santa Fe Avenue），为后续变道做准备。",
+      "risk_tags": [
+        "highway_sign_approach",
+        "cut_in_and_cut_out"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】夜间城市道路，路灯密度增加，部分区域存在眩光。【自车】在中间车道匀速接近分岔路口，即将进入右转专用车道。【前方】一辆白色轿车在右前方邻车道减速，疑似准备驶入匝道或转弯。【右侧】高架桥下方设有施工锥桶与临时围挡，但无特种车辆作业，未见施工人员。【关键风险】自车即将进入右转车道，而前方车辆减速行为可能引发跟车距离缩短，若其突然转向将形成潜在碰撞盲区；同时，右侧施工围挡虽无动态设备，但可能遮蔽视线，增加“鬼探头”风险。",
+      "risk_tags": [
+        "lane_change_preparation",
+        "potential_collision_with_slow_vehicle",
+        "occlusion_risk_from_construction_barrier"
+      ]
+    }
+  ]
+}

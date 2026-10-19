@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.12,
+    "analysis_time": "2026-01-22 08:23:24"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，云层厚重，无明显降水，能见度良好。【自车】位于中间车道，匀速沿直道行驶。【左侧】一辆白色SUV从对向车道完成左转动作，穿越路口后驶离画面；其后方紧随一辆红色消防车（Chicago Fire Dept.），车身高大，带有云梯，正沿对向车道直行，未见警灯闪烁或鸣笛，但占据部分车道空间。【右侧】路边停有一辆银色轿车，后方为Walgreens药店建筑，店前人行道有行人站立及自行车停放。【关键风险】消防车与左转SUV形成交叉冲突区域，虽未直接威胁自车，但存在潜在横向冲突风险，尤其在路口处需警惕车辆突然变道或停车。",
+      "risk_tags": [
+        "crossing_conflict",
+        "large_vehicle_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】持续阴天，光线均匀，无遮挡。【自车】保持在中间车道，跟随前方白色Jaguar SUV行驶，车距约15米，未进行加速或减速。【右侧】一辆黑色UPS快递货车从Walgreens店门口驶出，缓慢右转进入主路，车身宽大，占据右侧半幅车道，导致自车被迫与之并行。【左侧】对向车道有多辆白色SUV和轿车有序通行，无异常行为。【非标物体】UPS货车侧面印有“Worldwide Services”字样，车尾号牌清晰可见（43 592），驾驶员未见明显手势或转向灯提示。【关键风险】UPS货车因转弯动作占用多车道，与自车形成狭窄并行通道，若其转向角度过大或速度过慢，可能引发后车追尾或被迫变道风险；同时，人行道上两名骑自行车者静止等待，未避让机动车，存在潜在横穿风险。",
+      "risk_tags": [
+        "narrow_clearance",
+        "slow_maneuver_risk",
+        "pedestrian_bike_interaction"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】天气无变化，路面干燥，视野开阔。【自车】维持当前车道，与前方白色Jaguar SUV保持稳定跟车距离，刹车灯偶有亮起，表明轻微减速。【右侧】UPS货车已完全驶入主路，继续沿右侧车道行驶，车身与自车平行，未再发生交互。【左侧】对向车道车辆正常通行，其中一辆红色特斯拉从左侧超车后驶离。【交通设施】前方路口设有红绿灯，当前显示为绿灯；路边有“SCHOOL ZONE”警示牌及人行横道标志。【关键风险】自车与前方Jaguar SUV之间距离较近，若其急刹而自车反应延迟，易引发追尾；此外，前方路口虽为绿灯，但仍有行人从右侧人行道走出，未在斑马线处等待，构成“鬼探头”隐患，需提高警觉。",
+      "risk_tags": [
+        "rear_collision_risk",
+        "jaywalking",
+        "ghost_probe"
+      ]
+    }
+  ]
+}

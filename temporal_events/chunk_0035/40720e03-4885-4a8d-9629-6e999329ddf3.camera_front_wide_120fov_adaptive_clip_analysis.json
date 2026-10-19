@@ -1,0 +1,45 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 18.98,
+    "analysis_time": "2026-01-21 20:12:10"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】阴天，无明显降水，能见度良好，路面干燥。【自车】位于中间车道，匀速沿直道行驶。【右侧】一辆白色Fiesta房车停靠在路边，车身占据部分行车道，未移动。【左侧】一辆深灰色SUV从对向车道驶来，完成超车后驶离视野。【交通设施】前方路口设有双侧停车禁令标志（NO STOPPING ANYTIME）及左转箭头指示牌。【关键风险】右侧房车虽静止，但其尾部接近车道分界线，存在“开门杀”或突然启动风险；左侧对向车辆超车动作迅速，未充分保持横向安全距离。",
+      "risk_tags": [
+        "door_opening_risk",
+        "unsafe_overtake"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】城市街景，天空灰白，无降水。【自车】在中间车道减速至停止，准备右转。【前方】一辆银色SUV在路口中央等待，刹车灯亮起。【右侧】一辆红色SUV从右侧车道切入自车前方，完成变道并进入右转车道。【交通设施】路口设有多组STOP标志，包括“STOP”八角牌和“CROSS STREET DOES NOT STOP”提示牌。【关键风险】红色SUV在右转前未礼让自车，存在“强行加塞”行为；路口行人正在人行横道上行走，自车需确保其通行权。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "pedestrian_crossing_priority"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "【环境】阴天，光线均匀，无遮挡物。【自车】完成右转后，进入新路段，恢复匀速行驶。【左侧】一排商铺沿街分布，其中一家标有“THE LODGE”字样。【右侧】停车场区域停放多辆皮卡与SUV，部分车辆后备箱开启。【行人】一名穿深色外套的行人从右侧人行道走出，面向自车方向，步态平稳，未横穿马路。【交通设施】路口设有斑马线、橙色施工锥桶（非作业状态）、路牌显示“EAST 2ND ST”。【关键风险】右侧停车场内车辆后备箱开启，存在物品掉落或人员突然下车的风险；行人虽未横穿，但靠近车道边缘，若突然转向可能引发碰撞。",
+      "risk_tags": [
+        "open_trunk_risk",
+        "pedestrian_proximity"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】城市道路，天气稳定，无异常光照或降水。【自车】保持中间车道匀速前行，道路两侧停满车辆。【左侧】一辆黑色轿车从路边驶出，短暂占用行车道后汇入车流。【右侧】多辆SUV与皮卡沿路边停放，部分车辆尾灯亮起。【建筑背景】远处可见高层住宅楼及在建工地（脚手架覆盖），无施工机械活动。【交通设施】道路标线清晰，设有双黄实线与人行横道。【关键风险】左侧黑色轿车驶出时未打转向灯，存在“鬼探头”风险；右侧停车车辆中部分车门微开，可能影响后方车辆通行。",
+      "risk_tags": [
+        "un signaled_lane_change",
+        "partial_door_opening"
+      ]
+    }
+  ]
+}

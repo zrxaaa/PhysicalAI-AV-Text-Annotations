@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 10.74,
+    "analysis_time": "2026-01-24 04:55:18"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】自车正从混凝土结构的半封闭隧道出口驶出，隧道内顶棚为波纹状金属板，右侧为竖条纹混凝土墙，左侧为开放式护栏，可见林木。【自车】在中间车道匀速行驶，即将离开隧道。【交通设施】隧道出口处无明显标志，但左侧护栏外有树木和山体轮廓。【关键风险】隧道出口光线突变，存在视觉适应延迟风险；隧道内侧边缘未设防撞设施，若车辆偏移易冲出护栏。",
+      "risk_tags": [
+        "light_adaptation_risk",
+        "narrow_clearance_edge"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:12",
+      "scene_description": "【环境】进入开阔山区道路，天空多云，局部有阳光穿透云层，能见度良好。【自车】保持在中间车道沿弯道匀速行驶，随路面曲率自然转向。【周围车辆】左前方对向车道有一辆白色厢式货车与一辆深色SUV先后驶过，均未侵入本车道；右侧路肩有临时施工围挡及集装箱式建筑，无作业车辆活动。【交通设施】道路右侧设有80km/h限速标志、禁止超车标志及广告牌；左侧为金属护栏，护栏外为陡坡林地。【关键风险】弯道处存在视线遮挡（左侧树木密集），且部分路段无中央隔离带，对向车流可能因盲区发生误判；右侧施工区域虽静止，但围挡高度不足，存在小型动物或行人闯入风险。",
+      "risk_tags": [
+        "blind_spot_in_curve",
+        "low_barrier_height",
+        "animal_crossing_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】继续沿山区弯道行驶，天空云层较厚，偶有阳光照射。【自车】维持当前车道，随弯道向右微调方向，未进行变道或紧急制动。【周围车辆】前方右侧出现一栋木结构建筑（疑似旅馆或民宿），其旁停有多辆私家车；对向车道有数辆车正常通行，无异常行为。【交通设施】道路右侧设有绿色方向指示牌（指向“Garmisch-Partenkirchen”等地点），并配有黄色警示标志；路边草坡上可见“FEST 26-27 OKT”涂鸦标识，暗示附近有节庆活动。【关键风险】右侧建筑区域人流聚集，可能存在行人突然横穿道路的风险；建筑前停车区域未设减速带或警示桩，若自车速度过高易引发突发避让；远处山坡植被茂密，存在落石或倒树隐患，但当前无明显动态威胁。",
+      "risk_tags": [
+        "pedestrian_crossing_risk",
+        "unprotected_parking_area",
+        "slope_stability_concern"
+      ]
+    }
+  ]
+}

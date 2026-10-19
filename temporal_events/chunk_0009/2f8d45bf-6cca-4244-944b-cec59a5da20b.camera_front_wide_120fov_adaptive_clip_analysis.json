@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 02:19:56",
+    "processing_time_seconds": 12.87
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车在十字路口前停车等待，前方为黑色轿车和白色丰田普锐斯，右侧车道一辆红色特斯拉从右向左驶过，交通信号灯由红转绿，路面干燥，天气晴朗。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "信号灯变绿后，自车及前方车辆开始向前行驶，左侧白色普锐斯向左变道并完成超车，右侧红色特斯拉驶离画面，路口右侧可见银色敞篷跑车停靠路边。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车通过十字路口后继续直行，前方黑色轿车保持匀速，左侧出现一辆白色宝马轿车并逐渐超越自车，道路两侧有绿化带和电线杆，交通信号灯显示绿灯通行。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车在双向两车道上跟随前方黑色轿车行驶，左侧白色宝马轿车完成超车后回到原车道，道路右侧设有自行车道标识，远处可见限速40的标志牌。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车继续沿直线道路行驶，前方车辆保持稳定速度，右侧路边出现灌木丛和低矮围墙，无行人或其他突发交通参与者，天气持续晴朗，能见度良好。"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.7,
+    "analysis_time": "2026-01-24 11:27:56"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴朗秋日，天空无云，光照充足，路面干燥。【自车】位于中间车道，匀速沿直道行驶，未进行转向或变道。【右侧】一辆银色SUV从右后方超车并切入自车所在车道，完成切出动作。【前方】一辆蓝黄相间的DART校车在交叉口左转，车身横跨车道，完成左转后驶离路口。【交通设施】前方为十字路口，交通信号灯显示绿灯，路牌标识“NE 116 ST”与“WILLOWS RD”，左侧设有“LEFT TURN MUST YIELD”标志。【关键风险】银色SUV在未打转向灯情况下快速切入，存在潜在剐蹭或碰撞风险，属于非典型切出行为。",
+      "risk_tags": [
+        "aggressive_lane_change",
+        "cut_in_without_signal",
+        "intersection_crossing"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】阳光斜射，部分区域出现阴影，能见度良好。【自车】继续在中间车道匀速前行，接近十字路口。【左侧】一辆黑色轿车从左前侧邻车道加速超越自车，完成切出；随后一辆银灰色小型车从左后方切入自车前方车道。【前方】多辆轿车在对向车道有序通行，无异常。【交通设施】通过路口时，信号灯保持绿灯，路标清晰可见，右侧人行横道线完整。【关键风险】银灰色小型车在自车前方突然切入，因距离较近且无转向灯提示，存在加塞风险，可能引发紧急制动。",
+      "risk_tags": [
+        "cut_in_without_signal",
+        "close_proximity_lane_change",
+        "potential_braking_event"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】道路两侧绿化带树木落叶较多，部分地面覆盖枯叶，无积水或结冰。【自车】在通过十字路口后，进入一条双向两车道的直线道路，保持匀速沿道行驶。【左侧】一栋现代玻璃幕墙办公楼（“Sixty Acres Business Center”）沿路分布，建筑前有草坪和灌木丛。【右侧】另一栋类似办公楼，路边有自行车道标识。【交通设施】路口处设有“LEFT TURN MUST YIELD”标志，但自车已左转完毕，后续路段无红绿灯。【关键风险】无明显高危行为，但道路两侧植被稀疏，部分落叶堆积于路肩，可能影响轮胎抓地力或被风吹入行车道，属低概率障碍物风险。",
+      "risk_tags": [
+        "low_risk_debris",
+        "environmental_condition"
+      ]
+    }
+  ]
+}

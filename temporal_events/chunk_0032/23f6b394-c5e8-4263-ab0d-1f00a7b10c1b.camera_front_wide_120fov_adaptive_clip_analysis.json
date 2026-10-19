@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.89,
+    "analysis_time": "2026-01-21 18:55:12"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】持续阴雨天气，路面严重积水并反射车灯与建筑轮廓，能见度中等偏低。【自车】位于中间车道，正执行减速制动，准备在十字路口停车。【左侧】一辆红色轿车从左前方快速驶过，完成变道动作；【右侧】一辆灰色SUV在对向车道匀速行驶，未进入本车所在交叉口。【交通设施】前方路口设有红色“STOP”标志牌及地面“STOP”字样标线，路侧有黄色弯道警示牌。【关键风险】自车即将进入停车状态，但右侧对向车道有车辆未完全停止，存在轻微冲突风险。",
+      "risk_tags": [
+        "reduced_visibility",
+        "intersection_conflict",
+        "braking_required"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】雨势未减，路面水雾持续，部分落叶被冲刷至路中央。【自车】完成停车后，开始缓慢起步，沿道路中心线向前移动。【左侧】一栋白色建筑旁设有铁丝网围栏，围栏内可见一个黄色消防栓；【右侧】另一栋白色建筑前有路灯和行道树，树干光秃，无行人活动。【交通设施】自车通过路口后，右转车道标线清晰，前方无红绿灯，仅设弯道警示标志。【关键风险】无明显风险，但路面湿滑且落叶堆积可能影响轮胎抓地力，需保持低速谨慎驾驶。",
+      "risk_tags": [
+        "wet_road",
+        "leaf_obstruction",
+        "low_speed_caution"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】雨天逆光，自车挡风玻璃上有水珠，部分遮挡视线。【自车】在中间车道匀速跟随前方车辆，保持安全距离。【前方】一辆银灰色沃尔沃SUV（尾灯亮起）在前车位置，刹车灯间歇闪烁，表明其正在减速或等待信号。【后方】一辆白色厢式货车紧随其后，车尾显示“72”线路标识，为城市公交。【左侧】住宅区围墙外有临时施工围挡，围挡内可见橙色锥桶；【右侧】人行道上散落大量枯叶，无行人出现。【关键风险】前方车辆频繁刹车，暗示前方可能存在突发状况（如行人横穿、障碍物），自车需保持警惕，避免追尾。",
+      "risk_tags": [
+        "following_vehicle_braking",
+        "potential_pedestrian_crossing",
+        "rear_collision_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】持续阴雨，天空灰暗，路面反光强烈，部分区域形成水洼。【自车】维持当前车道，以低速匀速跟车行驶，未进行任何变道或转向操作。【前方】银灰色沃尔沃SUV持续刹车，车距稳定在约15米；其后方的公交车辆亦同步减速，未发生切出或加塞行为。【两侧】街道两旁树木无枝叶，地面覆盖落叶，无行人或动物活动。【交通设施】道路两侧设有路灯与交通指示牌，前方无红绿灯，仅见“Yield”提示标志。【关键风险】整体场景平稳，无直接碰撞或违规行为，但因路面湿滑、能见度差，仍存在潜在事故风险，建议保持更高警觉性。",
+      "risk_tags": [
+        "wet_road_hazard",
+        "reduced_visibility",
+        "longitudinal_following_risk"
+      ]
+    }
+  ]
+}

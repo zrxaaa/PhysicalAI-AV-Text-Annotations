@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.6,
+    "analysis_time": "2026-01-23 02:04:57"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间，浓雾笼罩，能见度极低，路灯与车灯产生明显光晕和散射。【自车】位于中间车道，匀速沿直道向前行驶，未进行转向或变道。【右侧】可见ARCO加油站，灯光明亮但被雾气模糊；左侧为Chevron加油站，同样受雾影响。【交通设施】前方路口信号灯显示为红灯，横向道路有多个红灯组，纵向绿灯已亮起但因雾无法看清对向车流。【关键风险】前方路口存在多组红灯，自车需在雾中准确判断停车位置，若误判绿灯将引发闯红灯风险。",
+      "risk_tags": [
+        "low_visibility",
+        "red_light_confusion_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】雾气持续，能见度无明显改善，部分区域出现轻微光柱穿透雾层。【自车】保持在中间车道，减速至停止状态，等待前方红灯。【右侧】Shell加油站清晰可见，加油机及价格牌在雾中仍可辨识，但周围车辆活动模糊。【左侧】对向车道有车辆缓慢驶过，因雾遮挡无法确认其速度与意图。【交通设施】前方交叉口信号灯由红转绿（约00:00:08），自车所在方向绿灯亮起，但因雾气，无法确认横向车流是否已清空。【关键风险】自车虽已停车，但横向路口仍有车辆在移动（从远处模糊轮廓判断），存在“鬼探头”或横向闯红灯风险，尤其在雾中难以预判横向车速与距离。",
+      "risk_tags": [
+        "ghost_probe_risk",
+        "cross_traffic_uncertainty",
+        "low_visibility_obstacle"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雾气略有消散，但仍较厚重，路灯与霓虹灯形成强烈眩光。【自车】保持静止状态，停于交叉口停止线后，等待绿灯通行。【前方】横向路口红灯持续亮起，对向车流稀少，仅有一辆远距离车辆在缓慢接近。【右侧】Shell加油站旁可见一个黄色菱形警示牌，提示“学校区域”，但无学生或行人出现。【非标准物体】无特种车辆、动物或路面遗撒物。【交通设施】右侧路口信号灯由绿灯转为黄灯（约00:00:16），随后变为红灯，自车维持停车状态。【关键风险】自车在雾中长时间等待，易因疲劳或注意力分散导致误判信号变化；同时，横向车流虽少，但因能见度低，任何突然启动的车辆都可能构成碰撞威胁。",
+      "risk_tags": [
+        "signal_confusion_risk",
+        "attention_fatigue",
+        "low_visibility_crossing_vehicle"
+      ]
+    }
+  ]
+}

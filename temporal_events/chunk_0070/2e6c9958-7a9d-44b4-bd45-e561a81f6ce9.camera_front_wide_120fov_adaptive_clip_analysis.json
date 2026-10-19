@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.44,
+    "analysis_time": "2026-01-22 11:11:18"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】夜间，浓雾笼罩道路，能见度显著降低，路灯灯光在雾中形成明显光晕。【自车】位于中间车道，匀速沿道行驶，未进行变道或转向。【周围车辆】左侧对向车道有多辆汽车驶过，车灯因雾气呈现模糊光斑；右侧路肩有混凝土护栏，无行人或动物出现。【交通设施】道路两侧为密林，无明显标线或指示牌可见，仅靠路灯照明维持通行。【关键风险】由于浓雾导致前方车辆尾灯模糊，自车需依赖刹车灯判断前车制动状态，存在反应延迟风险。",
+      "risk_tags": [
+        "low_visibility",
+        "reaction_delay_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "【环境】雾气略有消散，但能见度仍受限，部分路段路灯亮度增强。【自车】保持中间车道匀速行驶，随道路轻微右弯沿曲线前行，未发生横向位移。【周围车辆】左侧车道有银色轿车快速超车并切入自车前方邻车道，未打转向灯；右侧后方一辆深色SUV缓慢跟随，尾灯清晰可见。【交通设施】右侧出现金属护栏与土坡过渡带，无施工区域或锥桶。【关键风险】左侧车辆“无预警切入”（Aggressive Cut-in），虽未直接碰撞，但迫使自车紧急调整纵向间距，增加追尾或剐蹭概率。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "lane_change_without_signal",
+        "increased_following_distance_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】雾气进一步减轻，道路两侧树木轮廓更清晰，路灯照明稳定。【自车】继续在中间车道匀速行驶，前方车辆逐渐拉远，自车未加速或减速。【周围车辆】右侧路边出现多辆静止停放的车辆，其中一辆白色SUV从右侧支路驶出并汇入主路，车头朝向自车方向，但未进入当前车道；左前方有一辆深色轿车正在超越自车。【交通设施】道路右侧出现小型建筑结构及围栏，远处有“禁止掉头”交通标志。【关键风险】右侧支路出口处车辆突然汇入，存在“鬼探头”潜在风险；同时，前方车辆加速变道可能引发自车被迫减速，造成跟车距离压缩。",
+      "risk_tags": [
+        "ghost_probe_risk",
+        "sudden_lane_merge",
+        "follow_distance_compression"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 19.32,
+    "analysis_time": "2026-01-23 21:29:28"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，光照充足，无异常天气。【自车】在中间车道匀速沿道行驶，未进行转向或变道。【左侧】一名穿深色上衣、戴白色帽子的男性行人从路边走向人行道，动作平稳，无横穿意图；其后方墙面上有涂鸦。【右侧】多辆银灰色及白色轿车沿路边停放，部分车辆后视镜反射阳光。【交通设施】道路两侧建筑密集，右侧可见‘CENTRO SERVIZI’标识店铺，门前设有禁停标志（红蓝交叉圆牌）。【关键风险】无明显违规行为或障碍物，但左侧停车线与行人活动区域重叠，存在潜在开门杀风险。",
+      "risk_tags": [
+        "no_aggressive_behavior",
+        "parking_obstacle_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】阳光直射，部分建筑投下阴影，路面干燥。【自车】保持中间车道匀速前行，随道路微弯自然调整方向。【左侧】出现一排多层住宅楼，部分阳台有绿植；一个穿灰色T恤的男性行人提红色购物袋沿人行道行走，面向前方，步速稳定。【右侧】一辆白色小型货车停靠于商铺前，车身部分遮挡后方摩托车；远处可见一辆黑色SUV驶入画面并缓慢右转进入支路。【交通设施】左侧出现‘CENTRO REVISIONI AUTORIZZATO’指示牌，指向左转车道；右侧建筑外墙有空调外机和卷帘门。【关键风险】右侧黑色SUV突然右转，可能切入自车所在车道，但因距离较远且动作平缓，暂不构成紧急威胁。",
+      "risk_tags": [
+        "potential_cut_in",
+        "pedestrian_crossing_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "【环境】光线仍明亮，部分路段进入阴影区。【自车】继续在中间车道匀速行驶，道路略有起伏。【左侧】一栋米黄色老式建筑，门口有铁栅栏门；旁边停放着一辆白色菲亚特Panda，车门打开，车内无人。【右侧】多辆小型车（含白色雪铁龙C3、白色大众Polo）整齐停放在路边，其中一辆蓝色SUV正从停车位缓慢驶出，车头朝向自车方向。【非标物体】右侧人行道旁停放数辆踏板摩托车，其中一辆车座上放有塑料袋，疑似临时占位。【关键风险】蓝色SUV驶出车位时未打转向灯，且车身宽度较大，若加速驶入主路将形成切出（Cut-out）行为，对自车构成潜在碰撞风险。",
+      "risk_tags": [
+        "un signaled_cut_out",
+        "parking_vehicle_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】阳光斜射，建筑物阴影逐渐拉长，能见度良好。【自车】维持当前车道匀速前进，道路趋于笔直。【左侧】一栋古典风格建筑，门楣刻有“Profumeria del Pane”字样，为一家香水店；门前停放一辆银色雷诺Twingo，车窗贴膜。【右侧】一辆深灰色宝马X1 SUV停在路边，车尾朝向自车；其后方有一辆白色Mini Cooper正在缓慢倒车入库。【行人】一名骑电动车的男子从右侧支路驶出，佩戴头盔，沿自车右侧行驶，与自车保持平行。【交通设施】道路尽头可见山丘轮廓，两侧建筑多为5-7层公寓楼，阳台普遍装有金属护栏。【关键风险】右侧Mini Cooper倒车动作缓慢但轨迹未完全预判，存在“开门杀”或倒车盲区碰撞风险；同时，电动车与自车并行，若突然变道将引发交互冲突。",
+      "risk_tags": [
+        "reverse_vehicle_risk",
+        "parallel_traffic_conflict",
+        "door_opening_hazard"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.18,
+    "analysis_time": "2026-01-21 20:52:08"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】阴天，云层厚重，无明显降水，路面干燥但略显湿滑。【自车】位于中间车道，匀速沿直道行驶，车头朝向正前方。【左侧】一辆深灰色SUV从左侧邻车道驶过，完成超车动作；【右侧】多辆白色轿车沿路边停放，部分车辆在缓慢驶离车位。【交通设施】道路两侧设有“SPEED LIMIT 20”限速标志及自行车道标线。【关键风险】右侧停车带内有车辆启动并突然向左变道，未打转向灯，与自车横向距离小于5米，存在切出风险（Cut-out）。",
+      "risk_tags": [
+        "cut_out_risk",
+        "un signaled_turn"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "【环境】天空仍为阴云，能见度良好，无强光或遮挡。【自车】在中间车道继续匀速前行，接近十字路口。【前方】两名行人从左侧人行横道由北向南横穿马路，其中一人穿深色外套，另一人穿浅色夹克，两人均低头看手机，步速较慢。【右侧】一个红色STOP标志牌立于路口右角，下方附有“ALL WAY”标识。【交通设施】路口地面施划清晰的斑马线和“STOP”字样，路侧有“SWENSON FOR LEASE”商业建筑。【关键风险】行人横穿时未观察来车，且处于自车正前方约15米处，若自车未减速将构成碰撞风险；同时，右侧路口有车辆准备左转，与自车路径交叉，存在潜在冲突。",
+      "risk_tags": [
+        "jaywalking",
+        "pedestrian_crossing_conflict",
+        "intersection_overlap"
+      ]
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "【环境】光线稳定，无天气突变。【自车】通过十字路口后进入下一段直道，保持匀速行驶。【左侧】一栋红砖现代建筑旁设有一个“PUBLIC PARKING $8”的告示牌，旁边放置两个大型垃圾箱（一白一蓝），其中一个被推至路边边缘。【右侧】一名身穿黑色连帽衫的行人沿人行道由东向西行走，步速中等，未靠近车道。【非标物体】左侧垃圾箱旁有涂鸦痕迹，但无移动迹象；右侧路边停有一辆银色特斯拉Model X，车门关闭，无人员活动。【交通设施】道路右侧出现“MAY USE FULL LANE”指示牌，提示车道可全宽使用。【关键风险】左侧垃圾箱位置偏移，可能影响左侧车道通行宽度，若自车靠左行驶需注意避让；右侧行人虽未侵入车道，但其行走方向与自车前进方向平行，存在潜在视线遮挡风险。",
+      "risk_tags": [
+        "obstacle_on_sidewalk",
+        "narrow_clearance_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】天空仍阴沉，无降水或强风。【自车】在中间车道继续直线行驶，接近下一个十字路口。【前方】一辆白色保时捷Panamera停在右侧路边，车头朝向与自车同向，车身完整无损。【右侧】一个绿色“CALIFORNIA 87”高速公路指示牌指向右前方，下方配有箭头。【交通设施】前方路口设有“NO LEFT TURN”禁左标志、STOP标志及人行横道。【关键风险】前方路口有车辆正在左转，自车需在停止线前等待；同时，右侧路边有施工围挡区域，但无施工车辆作业，仅存少量杂物，未对行车造成直接威胁。整体场景风险较低，但需警惕路口突发变道行为。",
+      "risk_tags": [
+        "intersection_waiting",
+        "left_turn_conflict"
+      ]
+    }
+  ]
+}

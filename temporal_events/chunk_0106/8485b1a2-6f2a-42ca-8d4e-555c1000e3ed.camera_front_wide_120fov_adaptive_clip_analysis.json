@@ -1,0 +1,34 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.84,
+    "analysis_time": "2026-01-23 03:10:22"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴朗白天，无云、无降水、无强逆光。【自车】位于中间车道，匀速沿直道行驶，通过十字路口时绿灯通行，未发生制动或转向。【左侧】一辆黑色皮卡与一辆深灰色SUV在左前侧邻车道并行，保持稳定速度；后方有小型轿车加速超车。【右侧】路旁可见“Manny’s Domino’s Body Shop”及“Paint & Body”店铺，交通标志清晰，包括“Cardinal”路牌和“DO NOT BLOCK INTERSECTION”警示牌。【交通设施】前方交叉口信号灯为绿色，横向车流有序通过，无冲突。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】持续晴天，光照均匀，视野开阔。【自车】保持中间车道匀速行驶，道路略有右弯但未变道。【左侧】多辆车辆（含黑色SUV、皮卡）在左前侧邻车道行驶，部分车辆因前方拥堵减速。【右侧】依次经过“Manny’s Auto Repair”店面、高耸棕榈树、公交站台（蓝色顶棚，内有广告海报），以及“Chew Me”快餐店。【非标物体】公交站台旁有行人站立，面向站牌方向，未横穿马路，无明显动作意图。【关键风险】无显著违规行为或遮挡风险，但前方车流密集，存在轻微加塞可能（如左前方黑色SUV试图切入自车车道），尚未完成切变动作。",
+      "risk_tags": [
+        "potential_cut_in"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】阳光仍充足，但自车进入阴影区（受树木遮挡），局部视野略暗。【自车】在中间车道缓慢减速，准备停车或等待前方白色本田飞度（车牌被遮挡）完成左转或停靠。【前方】白色本田飞度位于自车正前方，刹车灯亮起，表明其正在减速。【左侧】对向车道车流密集，多车排队缓行，部分车辆在左前侧尝试变道。【右侧】公交站台后方出现“dcase”标识牌，旁边有绿化带与台阶通向住宅区。【交通设施】前方路口设有红绿灯，当前为绿灯，但车流量大导致自车被迫跟随减速。【关键风险】自车与前方白色飞度距离缩短至约8米，若其突然急刹，自车将面临追尾风险；同时，左侧车道有车辆试图强行切入自车所在车道（Aggressive Cut-in），需警惕碰撞或紧急避让。",
+      "risk_tags": [
+        "rear_collision_risk",
+        "aggressive_cut_in",
+        "traffic_congestion"
+      ]
+    }
+  ]
+}

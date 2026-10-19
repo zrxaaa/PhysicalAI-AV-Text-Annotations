@@ -1,0 +1,42 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.85,
+    "analysis_time": "2026-01-24 13:54:16"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，太阳位于正上方，存在强眩光，导致部分镜头过曝。【自车】在中间车道匀速行驶，前方为红灯路口，未进行转向或变道。【周围车辆】左侧邻车道有一辆白色跑车（尾部有扰流板），与自车同向行驶；前方红色SUV停于停止线后，刹车灯亮起。右侧人行道旁有低矮建筑及灌木丛，无行人活动。【交通设施】前方为十字路口，交通信号灯显示为红灯，路侧设有“RIGHT LANE MUST TURN RIGHT”指示牌。【关键风险】无明显违规行为或障碍物，但强逆光可能影响摄像头对远处交通标志的识别精度。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】阳光依旧强烈，但视角略微偏移，光线从正上方转为左上方。【自车】在中间车道保持静止等待，未发生横向移动。【周围车辆】左侧白色跑车开始向左变道，意图超车；前方红色SUV在绿灯亮起后启动，向右转弯驶入交叉路口。右侧车道有数辆白色轿车在等待通行。【交通设施】路口信号灯由红转绿，同时出现“Santa Fe Ave”路牌和“THRU TRAFFIC MERGE LEFT”警示牌。【关键风险】白色跑车在未打转向灯情况下向左切入自车所在车道，属于潜在“切出”行为，可能引发碰撞风险，但因距离较远且自车未移动，暂未构成紧急威胁。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "un signaled_lane_change"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "【环境】进入高架桥下方区域，光照由直射转为半遮蔽状态，阴影区扩大。【自车】在中间车道加速通过高架桥下，纵向速度略有提升。【周围车辆】左侧车道一辆黑色轿车与自车并行，随后减速并靠右；前方红色SUV继续前行，已驶入高架桥下主干道。【交通设施】高架桥结构清晰，桥墩密集，右侧设“NO STOPPING ANYTIME”禁停标志及公交站牌（编号192）。【非标物体】桥下右侧人行道边缘有少量枯草堆积，无动物或施工设备。【关键风险】无直接碰撞风险，但高架桥下视野受限，需警惕突然出现的行人或车辆（如从桥洞阴影中驶出）。",
+      "risk_tags": [
+        "occlusion_risk",
+        "limited_visibility_under_overpass"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】持续处于高架桥下，光线逐渐均匀，无强眩光。【自车】在中间车道匀速行驶，未进行任何转向或变道操作。【周围车辆】前方红色SUV保持稳定车距，左侧黑色轿车已驶离本车道；远处可见多辆汽车沿主干道行驶。【交通设施】前方出现绿色高速公路指示牌：“I-405 SOUTH San Diego”，表明即将进入高速入口匝道。【关键风险】无显著风险，但高速入口处车流可能突然汇入，需注意前方车辆加减速变化。此外，高架桥结构可能导致雷达/摄像头信号衰减，建议保持安全距离。",
+      "risk_tags": [
+        "highway_merge_zone",
+        "sensor_degradation_under_overpass"
+      ]
+    }
+  ]
+}

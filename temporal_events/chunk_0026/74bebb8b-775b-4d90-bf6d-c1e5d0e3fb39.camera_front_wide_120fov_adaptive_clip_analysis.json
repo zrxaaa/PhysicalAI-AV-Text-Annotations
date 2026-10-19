@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 08:49:02",
+    "processing_time_seconds": 16.83
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在双车道公路上匀速行驶，左侧车道有白色厢式货车和轿车依次驶过，右侧为绿化带与护栏，天气晴朗，阳光从右上方照射，路面干燥无积水。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "前方出现十字路口交通标志牌，一辆白色SUV从右侧车道缓慢变道至中间车道，自车保持原速未干预，道路两侧树木稀疏，部分枝干光秃，远处可见水域。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "自车继续直行，右侧白色SUV在前方稳定行驶，左侧对向车道有银色轿车和白色面包车相继驶过，道路右侧护栏外可见开阔水面，天空云层较薄，光线充足。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "前方出现一辆白色越野车从左侧车道加速超车，随后并入自车所在车道，与自车保持安全距离，道路左侧山坡上有灌木丛和零星房屋，无行人或其他障碍物。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车维持当前车道行驶，前方车辆逐渐拉远，右侧车道无明显车辆进入，道路两侧树木渐密，视野开阔处仍可见远处水面，整体交通流畅，无突发状况。"
+    }
+  ]
+}

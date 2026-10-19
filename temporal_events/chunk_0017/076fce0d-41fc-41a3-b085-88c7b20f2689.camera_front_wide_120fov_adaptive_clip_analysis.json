@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 05:16:53",
+    "processing_time_seconds": 11.75
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车沿街道向前行驶，左侧为停靠在轨道上的红色与灰色相间的轻轨列车（编号2063B），右侧人行道上有行人推婴儿车行走，路边停放银色轿车。天气多云，路面干燥，无明显障碍物。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "车辆接近十字路口，前方出现‘STOP’地面标线及红色停车标志，右侧一辆灰色皮卡从路边驶出并右转，轻轨列车仍停在轨道上未移动，自车减速准备停车。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "自车在路口停车等待，轻轨列车开始缓慢启动，车身向左前方移动，同时右侧路口有红色SUV和银色轿车驶入交叉口。自车保持静止，观察交通状况。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "轻轨列车继续沿轨道前行，车身部分遮挡自车视野，右侧白色SUV从路边驶入车道并向前行驶，自车仍处于停止状态，等待轻轨完全通过后通行。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "轻轨列车已基本驶离自车前方轨道区域，自车开始缓慢前进，右侧白色SUV完成变道并驶离，远处可见行人正在过街，路口无其他显著障碍物。"
+    }
+  ]
+}

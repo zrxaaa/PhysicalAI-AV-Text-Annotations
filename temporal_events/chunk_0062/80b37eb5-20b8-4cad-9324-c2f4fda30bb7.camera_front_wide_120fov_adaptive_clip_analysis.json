@@ -1,0 +1,35 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.77,
+    "analysis_time": "2026-01-22 07:26:24"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴朗天气，阳光充足，树影投射于路面。【自车】位于中间车道，匀速沿道行驶，未见明显加速或减速。【左侧】对向车道有车辆驶过，包括一辆灰色SUV从左前侧切入并超越自车。【右侧】路边停放多辆私家车，人行道上有行人站立（穿浅色上衣），无明显横穿意图。【交通设施】道路两侧商铺林立，可见“CUCINA ITALIANA”、“T-Mobile”等招牌，路旁设有公交站台和垃圾桶。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】光照稳定，无遮挡或异常天气。【自车】保持在中间车道，匀速行驶，前方有一辆银色轿车（福特）与自车同向，尾灯亮起但未急刹。【左侧】对向车道一辆白色丰田轿车与自车并行，随后缓慢超越。【右侧】路边停放车辆增多，部分车辆后门开启（如银色轿车），存在开门杀风险；一名行人从右侧店铺走出，沿人行道向后方行走，面部朝向地面，未观察路况。【交通设施】前方路口设有交通信号灯，当前显示为绿灯；道路标线清晰，双黄实线分隔双向车道。",
+      "risk_tags": [
+        "door_opening_risk",
+        "pedestrian_distraction"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】阳光仍充足，部分区域进入树荫区，光影变化明显。【自车】继续在中间车道匀速行驶，前方银色福特轿车维持安全距离，刹车灯未亮。【左侧】对向车道车辆稀疏，无异常变道行为。【右侧】一辆深灰色轿车从右侧停车带缓慢驶出，车头向左转向，意图汇入主路，但未打转向灯，存在切出风险。【非标物体】右侧人行道上有一名推婴儿车的行人，婴儿车轮子卡在路缘石缝隙中，导致其移动迟缓，可能影响后方车辆通行。【关键风险】右侧车辆无灯强行切出 + 行人推车受阻 → 可能引发碰撞或紧急避让。",
+      "risk_tags": [
+        "un signaled_cut_out",
+        "obstacle_in_path",
+        "pedestrian_mobility_issue"
+      ]
+    }
+  ]
+}

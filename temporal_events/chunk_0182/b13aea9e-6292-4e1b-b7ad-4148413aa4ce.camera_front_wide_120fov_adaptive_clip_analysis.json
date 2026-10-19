@@ -1,0 +1,30 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 10.3,
+    "analysis_time": "2026-01-24 08:35:38"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:16",
+      "scene_description": "【环境】阴天，天空云层厚重，太阳位于正上方形成强逆光，能见度中等偏低。路面干燥，无积水或结冰迹象。【自车】在中间车道匀速沿道行驶，未进行转向或变道操作，车头偏航角与道路曲率保持一致。【前方交通参与者】一辆白色罐式卡车（车尾印有“C”形标志及“rohoznikwhite.com”字样）在自车正前方同车道行驶，车速稳定，未见明显加速或减速。【左侧】路边有低矮围栏、零星枯树及一栋单层建筑；【右侧】开阔田野，偶有电线杆和稀疏树木。【交通设施】道路两侧设有白色虚线分隔车道，右侧可见一个三角形让行标志（Yield Sign），提示前方交叉路口。【关键风险】无明显违规行为或障碍物，但前方卡车体积庞大，在逆光环境下可能造成后视镜反光干扰视线，存在轻微视觉遮挡风险。",
+      "risk_tags": [
+        "visual_obstruction_by_sun",
+        "large_vehicle_following"
+      ]
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "【环境】光照条件未变，仍为阴天逆光。【自车】在中间车道维持匀速，准备超越前方卡车。【前方交通参与者】白色罐式卡车开始向右轻微偏移车道，车身逐渐进入右侧车道，表明其即将完成超车或驶入右侧汇入点。【交互动作】自车从左侧安全距离切入，完成对前方卡车的超越。【非标物体】无动物、施工设备或遗撒物出现。【关键风险】卡车突然向右变道，若其未开启转向灯或未观察后方，存在切出时与自车发生侧面碰撞的风险。此外，因车辆尺寸大，自车在超车过程中需确保横向间距足够，避免刮蹭。",
+      "risk_tags": [
+        "lane_change_without_signal",
+        "close_proximity_during_overtake",
+        "large_vehicle_interaction"
+      ]
+    }
+  ]
+}

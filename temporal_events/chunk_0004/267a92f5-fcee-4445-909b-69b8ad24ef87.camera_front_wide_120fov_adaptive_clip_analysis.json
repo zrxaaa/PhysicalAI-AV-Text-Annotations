@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 00:31:48",
+    "processing_time_seconds": 22.96
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车沿双黄线乡村道路行驶，右侧为木栅栏和树木，左侧有车辆从对向车道驶来并完成超车，自车保持匀速直行。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "前方一辆深色SUV在右前方车道行驶，自车与其保持安全距离跟随，道路两侧绿树成荫，天空晴朗，无明显交通标志或障碍物。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "道路左侧出现住宅区入口与停靠车辆，右侧仍为林地与围栏，自车继续直行，未进行变道或加速，前方SUV维持稳定速度。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:18",
+      "scene_description": "对向车道一辆银色SUV迎面驶来并完成超车，自车未减速，前方SUV仍在前方行驶，路边出现禁止左转标志，但无其他交通冲突。"
+    },
+    {
+      "time_segment": "00:00:18-00:00:20",
+      "scene_description": "一辆黑色轿车从左侧车道快速超越自车，自车保持原车道和速度，道路两侧植被茂密，天气良好，无行人或其他动态障碍物出现。"
+    }
+  ]
+}

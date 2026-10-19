@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 19.98,
+    "analysis_time": "2026-01-22 07:01:51"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】晴天，强逆光导致画面左上角出现明显眩光，路面干燥，树影清晰投射于道路。【自车】位于中间车道，沿直道匀速行驶，未进行转向或变道。【左侧】人行道上有行人站立，部分进入路口等待区；右侧人行道有两名行人正横穿马路，其中一人手提包，另一人穿深色外套，面部朝向均朝向道路中心线方向（Crossing意图明确）。【交通设施】前方十字路口信号灯为红灯，车辆在停止线后有序等待。【关键风险】右侧行人横穿行为与自车当前行驶方向存在潜在冲突，若自车未减速，可能引发碰撞。",
+      "risk_tags": [
+        "pedestrian_crossing",
+        "red_light_waiting",
+        "obstruction_by_sunlight"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】阳光角度降低，眩光减弱，视野改善。【自车】保持中间车道，继续匀速前行，接近前方路口。【左侧】停靠多辆私家车，包括银色轿车、蓝色轿车等，部分车辆处于“路边停车”状态，无明显移动趋势。【右侧】一家名为“Palo Alto Bicycles”的店铺前停放一辆红色特斯拉Model X，车身侧面朝向道路，无移动迹象。【交通设施】自车驶近路口，前方信号灯仍为红灯，但右侧人行横道信号灯已转为绿色，行人可通行。【关键风险】右侧红色特斯拉静止停放，其车身占据部分车道宽度，若自车未保持足够横向距离，存在剐蹭风险；同时，前方路口有车辆准备启动，需注意突发加速。",
+      "risk_tags": [
+        "parked_vehicle_obstruction",
+        "intersection_conflict",
+        "vehicle_acceleration_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】阳光直射，光线强烈，部分区域产生高亮反射。【自车】进入拥堵缓行状态，开始跟随前方黑色丰田普锐斯（Toyota Prius）缓慢前进，刹车灯频繁亮起。【前方】普锐斯为当前车道内主要跟车对象，车距约5米，无变道意图。【左侧】对向车道有白色宝马轿车从左侧超车并切入本车道，动作迅速且未打转向灯，属于“Aggressive Cut-in”。【右侧】红色特斯拉Model X仍停靠路边，车身未移动；其后方有一辆银色保时捷SUV，同样处于静止状态。【关键风险】左侧车道发生非礼让式强行加塞（Aggressive Cut-in），对自车形成横向威胁，可能导致紧急制动或避让操作；同时，前方普锐斯频繁启停，自车需保持安全跟车距离以防追尾。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "following_distance_reduction",
+        "brake_light_frequent_activation"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】光照稳定，无天气异常。【自车】持续在中间车道低速缓行，与前方普锐斯保持稳定车距（约3-5米），未进行任何变道或加速操作。【左侧】对向车道车辆陆续通过路口，无显著干扰。【右侧】红色特斯拉Model X及后方银色保时捷SUV始终静止停放，无任何动态变化。【交通设施】前方路口信号灯仍为红灯，自车在停止线后等待。【非标准目标】远处人行道上有行人行走，但距离较远（>15米），无直接交互风险。【关键风险】整体场景趋于平稳，但因前方普锐斯频繁启停，存在“跟车延迟反应”风险；此外，右侧大型停放车辆（红色特斯拉）虽静态，但其车身宽度较大，在狭窄路段易造成视觉盲区，若自车突然变道将构成障碍物风险。",
+      "risk_tags": [
+        "follow_distance_stability_risk",
+        "parked_vehicle_blind_spot",
+        "traffic_light_wait"
+      ]
+    }
+  ]
+}

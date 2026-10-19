@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:42:12",
+    "processing_time_seconds": 18.72
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在多车道道路上匀速行驶，前方有一辆白色厢式货车和一辆深色轿车，右侧车道有一辆白色跑车正加速并入中间车道，交通信号灯为绿灯，道路两侧有树木和路灯。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:07",
+      "scene_description": "车辆接近十字路口，交通信号灯由绿转黄，前方车辆开始减速，自车跟随减速，路口处可见绿色路牌指示“Freedom Ave”方向，右侧人行道上有行人正在等待过街。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "信号灯变红后，所有车辆在停止线前停下，自车位于第一排，左侧车道有一辆白色皮卡从对向驶来，右侧车道有自行车道标识，路边无行人活动，环境安静。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "信号灯转绿，自车启动前行，前方车辆依次起步，道路两侧树木茂密，形成林荫道，右侧有非机动车道与人行道分隔，无显著障碍物或突发行为。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车继续沿直线道路行驶，前方车辆保持匀速，道路右侧出现停车场入口及少量停放车辆，左侧树丛中偶有行人身影但未进入车道，天气晴朗，路面干燥无积水。"
+    }
+  ]
+}

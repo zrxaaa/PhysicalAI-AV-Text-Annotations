@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:07:09",
+    "processing_time_seconds": 18.01
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在多车道高速公路上匀速行驶，左侧车道有一辆深色轿车从后方接近并完成变道至中间车道，右侧为混凝土护栏和稀疏树木，天气阴沉，能见度良好。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "前方车辆保持稳定行驶，自车未进行变道或加速操作，道路右侧出现路肩和临时施工围栏，远处可见绿色交通指示牌，但无明显冲突或交互行为发生。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "自车继续直行，前方出现高架桥式交通指示牌，显示“NE 85th St”和“Kirkland”出口信息，右侧车道有车辆开始减速准备下匝道，自车维持当前车道行驶。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "车辆接近出口匝道，右侧车道有车辆驶离主路，自车仍保持在中间车道，未改变行驶路径，道路两侧出现低矮建筑与绿化带，整体交通流平稳无突发事件。"
+    }
+  ]
+}

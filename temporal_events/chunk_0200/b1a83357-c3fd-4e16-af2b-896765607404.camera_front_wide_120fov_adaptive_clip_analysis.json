@@ -1,0 +1,50 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.52,
+    "analysis_time": "2026-01-24 14:53:42"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，天空灰蒙，能见度中等偏低，无明显降水但路面湿滑。【自车】位于中间车道，匀速沿直道行驶，未进行转向或变道。【左侧】一辆白色福特Mustang从路边驶出并切入自车前方邻车道，完成动作后保持匀速。【右侧】一排住宅区前停有车辆，无行人活动。【交通设施】道路两侧可见电线杆与架空线，无显著标志牌或信号灯。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:08",
+      "scene_description": "【环境】天气持续阴沉，部分区域有薄雾笼罩，视线略有衰减。【自车】接近十字路口，减速至停车线前，准备停车。【前方】一辆灰色大众Passat在右侧车道停于停止线后，车头朝向自车方向。【左侧】一辆银色斯巴鲁Forester从对向车道驶来，正通过交叉口。【交通设施】路口地面标有“STOP”字样，右侧立有红色八角形停车标志牌（STOP Sign），自车遵守交通规则停车等待。",
+      "risk_tags": [
+        "stop_sign_compliance",
+        "intersection_crossing"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】薄雾持续，能见度维持中等水平。【自车】完成停车后，在路口左转车道等待，随后启动并执行左转动作。【右前方】一辆深灰色雪佛兰Traverse SUV从横向道路驶入交叉口，正在完成右转，其车身横跨自车当前车道，存在轻微空间冲突。【左侧】对向车道有数辆轿车排队等候，无异常行为。【交通设施】路口设有清晰的白色斑马线与转弯引导线，路侧有绿色街道指示牌（“S. Santa Clara Ave”），但未被自车直接观察到。",
+      "risk_tags": [
+        "cross_traffic_conflict",
+        "left_turn_yielding"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "【环境】雾气稍浓，部分区域出现水汽凝结于挡风玻璃上，影响局部视野。【自车】完成左转后进入新路段，沿弯曲道路继续前行，保持匀速。【右侧】路边停放多辆SUV及皮卡，其中一辆银色SUV在自车右后方约15米处缓慢倒车，未完全退出停车位。【左侧】一栋两层公寓楼前有行人站立，身穿橙色外套，面向道路，双手插兜，未移动，无横穿意图。【交通设施】道路为双向两车道，中央有双黄实线，右侧设有人行道与绿化带。",
+      "risk_tags": [
+        "parked_vehicle_reversal",
+        "pedestrian_standby"
+      ]
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "【环境】阴云密布，空气湿度高，挡风玻璃外侧有水珠附着，导致画面边缘模糊。【自车】在中间车道匀速行驶，随道路曲率自然前进，未进行转向操作。【前方】一辆黑色皮卡车在自车前方约30米处同向行驶，速度稳定。【两侧】道路两侧均停满车辆，右侧人行道上有少量落叶堆积，无动物或障碍物。【非标准物体】无特种车辆、无野生动物、无路面遗撒物。【关键风险】因挡风玻璃水雾与低能见度叠加，存在潜在视觉遮蔽风险，但当前无突发威胁。",
+      "risk_tags": [
+        "reduced_visibility",
+        "no_immediate_threat"
+      ]
+    }
+  ]
+}

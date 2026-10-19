@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 09:35:16",
+    "processing_time_seconds": 16.41
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车沿双向两车道道路平稳行驶，左侧为在建建筑工地，停放多辆工程卡车；右侧为绿化带与住宅区，路边设有‘RIGHT TURN ONLY’标志。天气阴沉，路面干燥无积水。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "前方出现橙色施工锥桶引导的临时车道，右侧人行道旁有施工人员站立，部分工人穿着反光背心；自车保持当前车道，未变道或减速，与施工区域保持安全距离。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "道路右侧设置一排橙色锥桶，引导车辆绕行；一名穿反光背心的工人在右侧路肩行走，靠近自车行驶方向；左侧车道可见一辆白色轿车和一辆皮卡停靠，未影响自车通行。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:18",
+      "scene_description": "前方出现‘LANE CLOSED’警示牌，配合锥桶封闭右侧车道；自车继续直行，未改变路线，左侧车道有施工设备拖车缓慢移动，未与自车发生交互。"
+    },
+    {
+      "time_segment": "00:00:18-00:00:20",
+      "scene_description": "自车接近施工终点区域，锥桶排列逐渐稀疏，远处可见施工机械及工作人员；道路恢复常规通行状态，自车维持原速通过，无紧急避让或停车行为。"
+    }
+  ]
+}

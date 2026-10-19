@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.5,
+    "analysis_time": "2026-01-23 14:52:55"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】夜间，暴雨天气，路面严重积水，灯光在水面上形成强烈反光。【自车】位于中间车道，沿道路曲线匀速行驶，未进行转向或变道。【右侧】路边有成排树木，树叶因雨水和风力轻微摇曳；路灯发出黄色强光，造成镜头眩光。【交通设施】前方约50米处可见一组红灯信号灯组，悬挂在道路正上方，当前显示为红灯。【关键风险】无明显违规行为或障碍物，但强眩光与积水反射可能影响感知系统对远处车辆的识别。",
+      "risk_tags": [
+        "heavy_rain",
+        "water_reflection",
+        "low_visibility"
+      ]
+    },
+    {
+      "time_segment": "00:00:06-00:00:12",
+      "scene_description": "【环境】持续暴雨，能见度受路灯眩光与雨幕双重影响，部分区域出现“光晕”现象。【自车】在中间车道保持静止制动状态，等待前方红灯。【前方】对向车道有车辆驶近，车灯在湿滑路面上形成拖影，表明其速度较慢。【右侧】路肩立有多个交通指示牌，内容包括“Stuttgart, Böblingen, Nürtingen”及“Techn. Dienste”，指示牌下方地面覆盖落叶，无行人活动。【左侧】交叉路口方向可见另一组红灯，且有车辆在左转车道等待。【关键风险】自车处于停车等待状态，但前方对向车道有车辆逼近，若其误判红灯或闯入，将构成碰撞风险；同时，右侧路灯强光导致视线遮蔽，存在潜在“鬼探头”盲区。",
+      "risk_tags": [
+        "red_light_waiting",
+        "oncoming_vehicle_proximity",
+        "light_haze_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雨势略有减弱，但仍持续，路面水雾较前段稍薄，但反光依然显著。【自车】保持静止，停于交叉口停止线后，车头朝向正前方。【周围交通参与者】左侧交叉路口有白色小型SUV从左向右缓慢通过，未进入自车所在直行道；对向车道有两辆远光灯车辆驶近，但未进入本车道。【非标准物体】右侧路肩落叶堆积，无动物或施工设备出现。【交通设施】前方三组红灯仍亮起，右侧指示牌清晰可见，包含“B443”、“Techn. Dienste”等信息。【关键风险】虽无直接威胁，但自车长时间静止在交叉口，面临被后方车辆追尾或前方车辆误闯红灯的风险；此外，右侧路灯眩光持续干扰视觉，增加感知误差概率。",
+      "risk_tags": [
+        "prolonged_stop_at_intersection",
+        "rear_collision_risk",
+        "light_interference"
+      ]
+    }
+  ]
+}

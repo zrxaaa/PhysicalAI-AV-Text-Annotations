@@ -1,0 +1,35 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 9.02,
+    "analysis_time": "2026-01-24 08:28:28"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】夜间无路灯，仅靠车灯照明，能见度受限。路面干燥，无明显积水或结冰。【自车】在中间车道匀速沿直道行驶，未进行转向或变道。【交通设施】道路两侧设有白色柱状路桩，左侧为金属护栏，右侧为草地与低矮土坡。【关键风险】无显著障碍物或违规行为，但因光线昏暗，存在潜在视觉盲区风险。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:06-00:00:12",
+      "scene_description": "【环境】持续夜间驾驶，车灯照亮前方约30米范围。【自车】保持中间车道匀速行驶，随道路轻微左转进入弯道。【交通设施】左侧出现石质护墙，右侧路肩有连续白色反光柱。前方约50米处出现一个三角形警告标志（注意前方弯道），立于右侧路肩。【关键风险】无车辆或行人闯入，但弯道区域视野受限，需警惕突然出现的动物或路障。",
+      "risk_tags": [
+        "limited_visibility",
+        "bend_warning"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】进入林区路段，两侧树木密集，进一步压缩可视范围。【自车】继续在中间车道沿弯道行驶，车头偏航角持续向右调整以贴合曲线。【交通设施】道路右侧仍设白色反光柱，左侧由护栏过渡为树林边缘。【非标物体】无动物、行人或施工车辆出现。【关键风险】林区夜间行车易发生“鬼探头”——树影遮挡下可能突然有野生动物或行人从侧方冲出；同时，部分路段车灯无法覆盖树冠阴影区，存在局部盲区。",
+      "risk_tags": [
+        "ghost_probe_risk",
+        "tree_shadow_blind_spot",
+        "continuous_bend_driving"
+      ]
+    }
+  ]
+}

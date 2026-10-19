@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:19:06",
+    "processing_time_seconds": 15.08
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "夜间行车，车辆正沿弯道行驶，道路右侧设有路灯和交通标志牌，左侧为护栏。自车在弯道中保持稳定转向，未见其他车辆或行人干扰路径。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "车辆驶出弯道进入直道，前方道路开阔，两侧有混凝土护栏，远处可见城市灯光与工业设施轮廓。自车加速并保持车道内行驶，无其他车辆或行人进入当前车道。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车继续在多车道高速公路上匀速行驶，左侧车道有车辆快速超越，右侧护栏外可见树木与低矮建筑。无行人出现，车辆间保持安全距离，未发生变道或紧急行为。"
+    },
+    {
+      "time_segment": "00:00:18-00:00:20",
+      "scene_description": "前方出现大型路牌与远处桥梁结构，自车维持当前车道行驶，未见明显障碍物或突发交通参与者。天气阴沉，路面干燥，能见度良好，无减速或转向动作。"
+    }
+  ]
+}

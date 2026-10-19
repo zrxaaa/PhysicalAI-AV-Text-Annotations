@@ -1,0 +1,37 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 9.64,
+    "analysis_time": "2026-01-24 05:40:04"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "【环境】阴天，持续降雨，路面湿滑并有明显积水反光，能见度中等偏低。【自车】位于中间车道，保持匀速沿道行驶，未进行变道或紧急制动。【周围车辆】前方一辆白色SUV在正前方车道行驶，尾灯常亮；左侧邻车道有一辆深色轿车从左后方超车并驶离视野；右侧为混凝土护栏与绿化带，无其他车辆靠近。【交通设施】道路两侧设有路灯及高架指示牌支架，但尚未进入信息密集区。【关键风险】无显著违规行为或障碍物，但雨天湿滑路面增加制动距离风险。",
+      "risk_tags": [
+        "wet_road",
+        "reduced_visibility"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "【环境】天气仍阴沉，雨势未减，路面水雾随车速产生轻微溅射。【自车】维持当前车道匀速前进，随道路微弯自然转向，未主动变道。【周围车辆】左侧对向车道有多辆车快速通过，其中一辆粉色轿车在左前侧短暂出现后消失；前方白色SUV保持稳定车距。【交通设施】道路右侧出现大型蓝色路牌结构，悬挂于金属桁架之上，显示“ITA-PASILA”、“LÄNSI-PASILA”等方向信息，提示即将分岔。【关键风险】无直接碰撞威胁，但前方路牌区域存在视觉干扰，可能影响驾驶员注意力分配。",
+      "risk_tags": [
+        "visual_interference_from_signs",
+        "moderate_traffic_flow"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】天空灰暗，无明显降水加剧迹象，但路面仍湿滑。【自车】继续在中间车道沿弯曲道路匀速行驶，车头偏航角随道路曲率平缓调整，未越线。【周围车辆】前方白色SUV保持稳定行驶，未加速或减速；左侧对向车道车辆稀疏，无异常切入行为。【交通设施】已接近路牌交叉口，右侧可见现代建筑群及施工塔吊轮廓，暗示临近城市功能区（如会展中心、体育馆）。【关键风险】无突发障碍物或违规行为，但右侧施工塔吊处于视线盲区边缘，若自车后续变道需注意空间占用风险。",
+      "risk_tags": [
+        "construction_zone_proximity",
+        "low_risk_environment"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 00:31:07",
+    "processing_time_seconds": 23.66
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在多车道道路上匀速行驶，前方车辆排队等待红灯，右侧为施工区域，设有橙白相间交通锥和围栏。一辆黑色轿车从左侧车道加速超车并切入中间车道，与自车路径短暂交叉。",
+      "environment_conditions": "阴天，路面干燥，能见度良好，道路两侧有树木和土坡"
+    },
+    {
+      "time_segment": "00:00:04-00:00:07",
+      "scene_description": "自车在十字路口停车等待，前方信号灯由绿转黄后变为红灯，左侧白色SUV和右侧灰色轿车同时左转，完成转向动作后驶离路口。自车保持静止状态，未发生移动。",
+      "road_conditions": "路口设有斑马线和交通信号灯，右侧施工区有挖掘机和钢架结构，无行人出现"
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "信号灯变绿后，自车启动前行，进入直行道。前方有一辆银色轿车保持匀速行驶，右侧施工区域持续存在，设有“STEEL SHEETS AHEAD”警示牌及多个交通锥。自车未变道，保持当前车道。",
+      "environment_conditions": "天空灰蒙，光线均匀，道路标线清晰，右侧施工区有临时混凝土板和管道铺设痕迹"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "自车继续沿直行道前进，经过一段红色临时铺装路面，该路段可能用于承载重型设备或施工材料。右侧施工围栏内可见黄色挖掘机和工人活动迹象，但无直接交互。自车未减速，保持稳定速度。",
+      "road_conditions": "路面有修补痕迹，部分区域为新铺沥青，车道分隔线仍清晰可见，无其他车辆近距离干扰"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车接近下一个路口，前方车辆开始减速，准备右转或直行。右侧路边出现一个“NO PARKING”标志牌，施工区域逐渐缩小，道路恢复常规宽度。自车维持原车道，未进行任何转向或加速操作。",
+      "environment_conditions": "天气仍阴沉，路旁植被茂密，远处可见电线杆和少量住宅建筑，整体环境安静，无突发交通事件"
+    }
+  ]
+}

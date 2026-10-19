@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.25,
+    "analysis_time": "2026-01-23 02:39:57"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】黄昏时分，太阳位于道路正前方，形成强烈逆光，导致路面及车辆轮廓模糊。天空云层较薄，无明显降水或雾气。【自车】位于中间车道，沿弯曲道路匀速前行，未进行转向或变道。【左侧】一辆白色轿车从对向车道驶来，与自车相向而行，保持安全距离；【右侧】路边停放多辆私家车（包括SUV和皮卡），未见行人或动物。【交通设施】路口设有停车标志（STOP Sign）及人行横道标线，但无交通信号灯。【关键风险】逆光导致视觉感知受限，可能影响对前方障碍物或突然出现的行人/车辆的识别。",
+      "risk_tags": [
+        "strong_ambient_light",
+        "reduced_visibility",
+        "potential_obstacle_occlusion"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】逆光持续，太阳高度降低，光线穿透力减弱，部分区域进入阴影。【自车】保持在中间车道，沿坡道匀速上行，车头偏航角随道路曲率微调，未越线。【左侧】多辆静止停放的汽车（含银色轿车、黑色SUV）沿路肩排列，无移动迹象；【右侧】一栋带有尖顶结构的房屋旁有高大棕榈树，树影投射于路面，局部遮挡视线。【交通设施】前方路口设有一个红色停车标志牌，地面标有“STOP”字样，但无其他动态交通控制设备。【非标物体】无特种车辆、动物或路面遗撒物。【关键风险】因道路坡度与逆光叠加，存在视野盲区，尤其在转弯处易忽略对向来车或突然出现的行人；右侧高大树木可能遮挡后方车辆或行人动态。",
+      "risk_tags": [
+        "gradient_road_with_illumination_challenges",
+        "tree_shadow_obstruction",
+        "blind_spot_at_turning_point"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】太阳已接近地平线，光线进一步减弱，整体场景进入暮色阶段。【自车】在十字路口前减速并完成左转动作，车头偏航角从正向前转至约45度左向。【左侧】一辆深色皮卡车停在路口左转待行区，未移动；【右侧】一辆白色轿车在右转车道等待，车身部分遮挡视线。【交通设施】路口设有两个红色停车标志（STOP Sign），分别位于东西向与南北向交叉口，同时可见绿色街道指示牌（标注“Sunnyslope”）。【非标物体】无动物、施工车辆或路面障碍物。【关键风险】自车在左转过程中需注意右侧来车（白色轿车）是否抢行；由于光线昏暗，对向车辆灯光可能造成眩目，增加判断误差风险；路口处电线杆与树枝交错，存在轻微遮挡。",
+      "risk_tags": [
+        "left_turn_maneuver_risk",
+        "dim_light_condition",
+        "cross_traffic_visual_obstruction"
+      ]
+    }
+  ]
+}

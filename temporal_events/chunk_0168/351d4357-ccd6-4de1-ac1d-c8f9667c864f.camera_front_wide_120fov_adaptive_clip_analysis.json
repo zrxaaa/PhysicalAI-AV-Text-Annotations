@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.01,
+    "analysis_time": "2026-01-24 04:02:01"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间雨天，路面湿滑积水严重，车窗玻璃上有明显水珠导致视野模糊。【自车】在中间车道匀速沿道行驶，未见明显加速或减速。【右侧】路边停放多辆汽车，人行道区域有行人轮廓（面部模糊，无法识别朝向），但无明显横穿动作。【交通设施】道路两侧设有白色护栏与路灯，右侧可见禁停标志（P）及停车指示牌。【关键风险】前方对向车道有车辆驶来，因雨水反光和水雾遮挡，视线受限，存在潜在碰撞风险。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility",
+        "obstructed_view"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】雨势略有减弱，但仍持续，路面水雾较重，部分区域出现“水幕”效应。【自车】保持中间车道匀速前行，车头偏航角稳定，未进行变道或转向。【左侧】对向车道有车辆快速驶过，车灯在湿滑路面上形成强烈反光。【右侧】出现蓝色临时移动厕所，后方为施工围挡区域，无明显作业车辆活动。【非标物体】右侧人行道边缘有疑似被风吹倒的树枝，静止于路边，未侵入行车道。【关键风险】右侧施工围挡区域存在视觉盲区，若行人或非机动车从围挡后突然出现，将构成“鬼探头”风险。",
+      "risk_tags": [
+        "water_mist_obstruction",
+        "ghost_probe_risk",
+        "debris_on_sidepath"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】能见度进一步改善，路灯照明增强，但雨滴仍附着于挡风玻璃，形成圆形光晕。【自车】在中间车道维持匀速行驶，未发生横向位移。【右侧】出现一栋多层建筑，底层有商铺灯光亮起，门前停放数辆私家车。【左侧】对向车道车流密集，部分车辆开启远光灯，造成眩光干扰。【交通设施】前方出现绿色导向标志牌，指示直行与右转车道，地面标线清晰可辨。【关键风险】右侧建筑物前有行人从阴影中走出，因光线昏暗且距离较近，其面部朝向与行走轨迹无法确认，存在突发横穿可能。",
+      "risk_tags": [
+        "low_light_pedestrian_emergence",
+        "high_beam_glare",
+        "unpredictable_crossing"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】雨势基本停止，路面水迹渐干，但仍存少量积水反射灯光。【自车】在中间车道继续匀速行驶，车速稳定。【右侧】一辆白色SUV从路边驶出并切入自车所在车道，未打转向灯，属于典型“加塞”行为。【左侧】对向车道车辆正常通行，无异常。【交通设施】前方路口设有红绿灯，当前显示为绿灯，道路标线完整。【关键风险】右侧白色SUV强行切入，与自车横向间距小于2米，存在碰撞或被迫急刹风险，构成‘Aggressive Cut-in’高危场景。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "lane_blocking",
+        "collision_proximity"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.37,
+    "analysis_time": "2026-01-22 18:26:40"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间无路灯，仅靠车灯照明，能见度受限，天空阴沉无明显降水但光线昏暗。【自车】在中间车道匀速沿道行驶，未进行转向或变道。【交通设施】道路两侧为草地与树木，右侧可见路牌（内容模糊），左侧有小型交通标志杆。【关键风险】无显著障碍物或违规行为，但因夜间光照不足，存在潜在视觉盲区风险。",
+      "risk_tags": [
+        "low_visibility",
+        "no_immediate_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】持续夜间驾驶，车灯照亮路面及两侧植被，无明显天气变化。【自车】保持在中间车道匀速前进，随道路轻微右弯调整方向，未越线。【交通设施】右侧出现黄色“向左急弯”警示牌，前方远处可见绿色信号灯亮起。【非标物体】无动物、施工车辆或遗撒物出现。【关键风险】前方急弯路段需提前减速，当前车速偏高存在潜在失控风险。",
+      "risk_tags": [
+        "curve_warning",
+        "speed_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】夜间环境稳定，车灯照射范围覆盖路面及路肩。【自车】继续在中间车道匀速行驶，通过弯道后恢复直线路径。【交通设施】路面上方出现“SIGNAL AHEAD”字样喷涂于路面，提示前方有信号灯；右侧设有黄色菱形警告标志。【周围参与者】无其他车辆或行人进入视野，对向车道无来车。【关键风险】路面文字标识可能被误读，若驾驶员未注意可能导致错过信号灯，存在潜在延误或闯红灯风险。",
+      "risk_tags": [
+        "road_sign_confusion",
+        "signal_light_anticipation_required"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】夜间持续驾驶，无特殊天气现象，能见度基本稳定。【自车】维持中间车道匀速行驶，前方绿色信号灯持续亮起，表明可通行。【交通设施】道路两侧植被茂密，无新增标志或施工区域。【非标物体】无动物、施工设备或路面障碍物。【关键风险】虽无直接威胁，但夜间长距离行驶易导致疲劳，建议驾驶员保持警觉；同时，前方绿灯距离较远，若车速过快可能无法及时反应突发状况。",
+      "risk_tags": [
+        "driver_fatigue_risk",
+        "long_distance_driving"
+      ]
+    }
+  ]
+}

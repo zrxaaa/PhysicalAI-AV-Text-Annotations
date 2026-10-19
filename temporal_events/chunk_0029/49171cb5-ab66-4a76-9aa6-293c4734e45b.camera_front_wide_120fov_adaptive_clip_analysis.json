@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 10:23:03",
+    "processing_time_seconds": 13.37
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:02",
+      "scene_description": "自车在双黄线双向车道上匀速行驶，前方一辆银色SUV从对向车道驶来并完成超车，进入右侧车道后驶离视野。道路两侧为茂密树林，天气晴朗，路面干燥。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "车辆进入连续左弯路段，道路右侧设有金属护栏和黄色弯道警示标志，左侧出现混凝土防撞墙。一辆深色皮卡从对向车道驶过，随后一辆红色轿车在远处对向车道出现并驶离。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "自车持续沿左弯道行驶，道路左侧出现一栋建筑及停车区域，停放多辆汽车；右侧山体植被稀疏，可见岩石裸露。前方无显著障碍物或冲突车辆，交通流畅。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "车辆继续沿弯曲山路前进，左侧岩壁陡峭，右侧护栏延伸至视野尽头。未见其他车辆或行人干扰路径，道路标线清晰，天气稳定，能见度良好。"
+    }
+  ]
+}

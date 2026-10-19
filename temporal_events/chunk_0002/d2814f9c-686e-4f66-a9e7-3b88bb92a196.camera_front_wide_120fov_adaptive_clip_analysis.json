@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:18:20",
+    "processing_time_seconds": 12.13
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "夜间行车，自车沿直线道路平稳行驶，前方右侧车道有一辆深色轿车从后方加速并超越自车，路灯提供局部照明，路面干燥无明显障碍物。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "自车继续直行，前方出现一辆蓝色轿车在右侧路边停靠，一名行人从该车旁走出并横穿马路，蓝色轿车随后启动驶离，自车未减速保持原速通过。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "自车进入弯道区域，左侧出现一辆黑色SUV迎面驶来，两车在弯道中保持安全距离错开，道路两侧有路灯和低矮围栏，无其他行人或障碍物。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "自车继续沿弯道行驶，前方道路逐渐变直，右侧路边停放多辆汽车，远处可见交通标志牌，自车保持稳定速度，未见行人或其他动态障碍物。"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 18.74,
+    "analysis_time": "2026-01-23 01:08:04"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】暴雨天气，天空阴沉，雨滴密集附着于挡风玻璃，路面严重积水并反射车灯与街景。【自车】位于中间车道，匀速沿直线道路前行，未进行转向或变道。【周围交通】左侧一辆银色面包车从对向车道驶过；右侧路边可见BMO银行建筑及橙色施工警示牌。【交通设施】前方路口信号灯为绿灯，但因雨雾影响，视觉辨识度降低。【关键风险】无明显违规行为或障碍物，但强降雨导致能见度下降，存在潜在刹车距离延长风险。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility",
+        "long_braking_distance"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】雨势持续，路面水膜厚度增加，部分区域出现水雾反光。【自车】保持在中间车道匀速行驶，随道路曲线轻微调整方向，未越线。【周围交通】左侧出现Jack in the Box餐厅招牌及多层米黄色商业建筑；右侧远处有Walgreens等商铺。【非标物体】左侧路口旁停放一台黄色高空作业车（吊臂收起），静止状态，未占用行车道。【交通设施】前方十字路口信号灯由绿转黄，自车接近停车线。【关键风险】无直接碰撞威胁，但雨天湿滑路面增加制动不确定性，需注意前车急刹可能引发连锁反应。",
+      "risk_tags": [
+        "wet_road_surface",
+        "signal_transition",
+        "braking_uncertainty"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】暴雨加剧，雨幕浓重，能见度进一步降低，部分路灯灯光被雨水散射形成光晕。【自车】在十字路口前减速并最终完全停车，等待红灯。【周围交通】右侧交叉路口有多辆汽车在红灯前排队，包括银色轿车、SUV和红色轿车；左侧对向车道车辆亦同步停止。【非标物体】左侧商业楼前的黄色高空作业车仍处于静止状态，其吊臂未展开，未侵入车道。【交通设施】前方三组交通信号灯均显示为红灯，其中一组为左转专用灯；路面上清晰可见斑马线与车道分隔线，但受积水影响部分边缘模糊。【关键风险】自车停车位置临近斑马线，右侧交叉口有车辆试图右转，存在“抢行”或“误判绿灯”的潜在冲突；同时，雨天视线遮挡下，行人或非机动车可能从遮蔽处突然横穿（鬼探头风险），尤其右侧人行道后方树木遮挡区域需高度警惕。",
+      "risk_tags": [
+        "red_light_stop",
+        "right_turn_conflict",
+        "ghost_probe_risk",
+        "low_visibility_crossing"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.56,
+    "analysis_time": "2026-01-23 09:40:28"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】夜间，无明显降水但路面湿滑反光严重，能见度低。【自车】在中间车道匀速沿直道行驶，车头灯光照亮前方约30米范围。【交通设施】道路两侧设有路灯，左侧远处可见一排亮灯建筑（疑似机场或工业区）。【关键风险】无显著障碍物或行人，场景相对安全，但湿滑路面增加制动距离风险。",
+      "risk_tags": [
+        "wet_road",
+        "low_visibility"
+      ]
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "【环境】夜间，路面持续湿滑，路灯照明造成局部眩光。【自车】保持当前车道匀速前进，车头灯照射区域随车辆移动而扩展。【右侧】出现一辆白色面包车，尾灯亮起，停靠于路肩，未移动；其后方有蓝色施工锥桶和临时围挡，提示可能存在施工区域。【非标物体】路肩处散落多个蓝色施工设备/垫布，静止未动，无作业行为。【关键风险】右侧路肩存在静止施工设备，虽未侵入行车道，但若自车偏离车道可能引发碰撞；同时，强路灯眩光影响视线，增加误判风险。",
+      "risk_tags": [
+        "construction_zone",
+        "light_glare",
+        "obstacle_on_shoulder"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】夜间，湿滑路面反射灯光，视野受路灯强光干扰。【自车】减速并准备右转（通过方向盘轻微转向及车头偏航角变化判断），进入转弯路段。【行人】一名身穿深色上衣、蓝色长裤的行人从右侧路肩步行至道路中央，面向自车方向行走，步态稳定，未避让车辆，且未走人行横道。【交互意图】行人正横穿机动车道，与自车运动轨迹交叉，存在直接碰撞风险。【关键风险】行人“鬼探头”式横穿（因自车原为直行，突然转向+行人位置突变），属于高危违规行为；同时，自车需紧急制动或避让，易引发侧滑或追尾事故。",
+      "risk_tags": [
+        "jaywalking",
+        "ghost_probe",
+        "emergency_braking_required",
+        "pedestrian_crossing_in_front"
+      ]
+    }
+  ]
+}

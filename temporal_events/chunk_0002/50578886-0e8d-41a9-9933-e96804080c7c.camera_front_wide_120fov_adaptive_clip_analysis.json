@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:31:34",
+    "processing_time_seconds": 17.84
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车沿双黄线道路平稳行驶，右侧出现限速15英里/小时的黄色菱形标志牌，路旁有落叶覆盖的坡地和光秃树木，天气阴沉，路面湿滑但无明显积水。"
+    },
+    {
+      "time_segment": "00:00:06-00:00:10",
+      "scene_description": "前方路面上出现‘BUMP’字样标记，两名行人从右侧人行道走出并横穿马路，其中一人穿着深色连帽衫，另一人戴帽子，两人在车道中央完成穿越后离开，自车减速避让未停车。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:15",
+      "scene_description": "通过交叉路口后，道路两侧出现木制围栏与常绿树篱，部分围栏挂有圣诞花环装饰，左侧出现灰色房屋，右侧路边停有一辆深色SUV，自车保持匀速直行，无其他动态障碍物。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "道路继续延伸，右侧出现低矮灌木丛与金属网围栏，远处可见山丘轮廓，天空仍灰暗，路面干燥但有落叶堆积，自车未进行转向或变速，保持稳定巡航状态。"
+    }
+  ]
+}

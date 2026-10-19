@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.71,
+    "analysis_time": "2026-01-22 01:14:24"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "【环境】阴天，云层厚重，无明显降水，能见度良好。【自车】位于中间车道，匀速沿直线道路前行，未进行转向或变道。【周围车辆】右侧邻车道有一辆深色Mini Cooper同向行驶；左侧对向车道有数辆轿车和SUV有序通过；路两侧为住宅区，绿化良好，无施工或障碍物。【交通设施】道路两侧设有路灯与电线杆，前方约150米处可见交通信号灯悬挂在横跨道路上方，当前显示为绿灯。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】天气仍为阴天，光线均匀，无强光或遮挡。【自车】保持在中间车道，匀速接近前方交叉路口，未减速。【周围车辆】前方出现多辆待转或直行车辆：左前方一辆白色福特Edge SUV正在左转车道等待；正前方一辆黑色马自达CX-9 SUV在直行车道内；右侧一辆深色Mini Cooper紧随其后。【交通设施】前方交叉口信号灯组已切换为红灯（倒计时显示），横杆上悬挂多组交通灯，当前方向为直行红灯。【非标准物体】右侧路边停有一辆绿色“GREEN LANDSCAPE SOLUTIONS”货车，车身静止，未作业，无警示灯或人员活动。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】阴天，无降水，视野清晰。【自车】在交叉路口停车，刹车灯亮起，处于静止状态，等待红灯。【周围车辆】左前方白色福特Edge SUV完成左转，驶离路口；正前方黑色马自达CX-9 SUV同样停车，尾灯亮；右侧Mini Cooper亦停车等待。【交通设施】前方信号灯为红灯，横向车道信号灯亦为红灯，路口无行人通行。【关键风险】左侧对向车道有一辆银色SUV从远处加速驶来，试图在红灯前抢行通过路口（Aggressive Cut-in Attempt），但因自车及前方车辆均已停车，未造成实际冲突。【其他物体】路口右转车道旁有少量堆积的树枝/垃圾，位于人行道边缘，无移动趋势，不构成即时风险。",
+      "risk_tags": [
+        "aggressive_cut_in_attempt",
+        "red_light_waiting",
+        "no_crossing_pedestrian"
+      ]
+    }
+  ]
+}

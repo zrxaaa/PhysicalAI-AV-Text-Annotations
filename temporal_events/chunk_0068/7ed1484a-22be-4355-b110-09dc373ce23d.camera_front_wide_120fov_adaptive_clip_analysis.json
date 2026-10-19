@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.75,
+    "analysis_time": "2026-01-22 10:34:56"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】黄昏时分，天空呈蓝紫色渐变，路灯已亮起，无异常天气（无雨、无雾、无结冰）。【自车】位于道路中间车道，沿弯曲道路向前匀速行驶，未进行转向或变道。【前方】道路左侧设置多排橙色交通锥桶，形成临时隔离带；右侧人行道有行人行走，部分行人正走向斑马线。【交通设施】前方路口设有红色八角形“STOP”标志牌，下方附“ALL WAY”标识，右侧立有“STATE LAW TO PEDESTRIAN”警示牌。【关键风险】左侧对向车道有车辆驶入，与自车同向但路径交叉，存在潜在切入风险；右侧人行道行人密集，部分行人未在斑马线内等待，有横穿趋势。",
+      "risk_tags": [
+        "pedestrian_crossing_risk",
+        "cross_traffic_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】照明稳定，建筑玻璃幕墙反射灯光，无遮挡。【自车】保持中间车道匀速前行，车头偏航角基本稳定，未发生横向移动。【前方及两侧】多个行人组从右侧人行道进入斑马线，其中一组三人并排行走，面部朝向前方，步速均匀，无明显停顿或观望行为；另有一名穿深色外套的行人独自从左后方斜穿至斑马线。【交通设施】路口处可见“CANYONER ST”路牌，与“STOP ALL WAY”标志共杆安装；锥桶区域延伸至前方入口，引导车流绕行。【关键风险】右侧斑马线处行人横穿速度较快，且部分行人未观察来车方向，存在“鬼探头”隐患；左侧锥桶围挡区域有车辆缓慢驶入，可能突然变道，增加交互不确定性。",
+      "risk_tags": [
+        "pedestrian_unawareness",
+        "potential_cut_in",
+        "obstacle_occupancy"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】天色进一步变暗，建筑内部灯光更显明亮，整体能见度良好。【自车】继续在中间车道匀速前进，接近路口停止线，未减速或停车。【周围参与者】右侧斑马线行人已基本通过，最后一名穿格子衫的行人正在过街，动作平稳；左侧车道有黑色SUV由远及近驶入路口，车灯开启，未见明显刹车迹象。【交通设施】路口右侧“STOP ALL WAY”标志清晰可见，下方“STATE LAW TO PEDESTRIAN”标牌提示驾驶员礼让行人。【非标准物体】无施工车辆、动物或路面遗撒物。【关键风险】左侧SUV在未观察自车动向的情况下加速进入路口，存在强行加塞或闯红灯风险（若此时信号灯为红灯）；由于自车未停车，若SUV突然急刹，将引发追尾或碰撞事故。",
+      "risk_tags": [
+        "aggressive_vehicle_entry",
+        "uncontrolled_intersection",
+        "no_stop_at_stop_sign"
+      ]
+    }
+  ]
+}

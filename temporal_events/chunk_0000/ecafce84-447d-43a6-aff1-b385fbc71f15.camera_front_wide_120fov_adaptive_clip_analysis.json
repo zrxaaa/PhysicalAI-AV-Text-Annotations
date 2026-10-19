@@ -1,0 +1,24 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 22:32:04",
+    "processing_time_seconds": 16.1
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "自车在十字路口停车等待，前方为一辆深色轿车，右侧车道有一辆灰色轿车正在右转。交通信号灯由红变绿，前方车辆准备通行，路口设有黄黑相间人行横道和交通信号灯设施。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:13",
+      "scene_description": "信号灯转绿后，前方深色轿车驶过路口，自车随之启动前行。右侧灰色轿车完成右转并驶离画面，路口左侧出现另一组交通信号灯，显示为红灯，街道名为Yosemite Dr。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "自车沿Yosemite Dr直行，道路两侧有树木、住宅及停放车辆，路面标有导向箭头和虚线分隔车道。远处可见对向车道有白色轿车驶来，自车保持匀速行驶，无其他显著动态交互。"
+    }
+  ]
+}

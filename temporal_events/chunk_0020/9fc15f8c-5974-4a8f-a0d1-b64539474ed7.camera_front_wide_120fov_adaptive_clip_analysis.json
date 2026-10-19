@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 06:25:08",
+    "processing_time_seconds": 13.21
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "自车在十字路口前方等待绿灯，左侧白色轿车和右侧白色SUV先后从对向车道驶过，随后一辆深色轿车从对向车道驶来并完成左转。交通信号灯为绿色，道路两侧有棕榈树和住宅区，天气晴朗，路面干燥。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:11",
+      "scene_description": "自车在十字路口左转，前方交通信号灯由绿变红，车辆停止等待。右侧路口有红色信号灯亮起，对向车辆也同步停车。道路标线清晰，路边设有限速30的标志牌。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:16",
+      "scene_description": "自车在路口等待后启动，沿街道直行，道路两侧停放多辆汽车，包括黑色SUV和红色轿车。路边有垃圾桶和限速30标志，树木茂密，阳光充足，无行人或其他动态障碍物出现。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车继续沿街道行驶，前方有一辆白色轿车停靠在路边，未影响自车通行。道路右侧有绿化带和低矮围墙，左侧有停放的皮卡车和小型货车，整体路况顺畅，无突发交通事件。"
+    }
+  ]
+}

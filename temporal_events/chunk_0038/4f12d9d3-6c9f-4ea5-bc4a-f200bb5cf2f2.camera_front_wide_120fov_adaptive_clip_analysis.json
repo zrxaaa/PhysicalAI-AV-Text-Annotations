@@ -1,0 +1,45 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 18.45,
+    "analysis_time": "2026-01-21 21:29:22"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，云层较厚，光照均匀，无降水或强逆光。【自车】位于中间车道，匀速沿直道行驶，未进行转向或变道。【左侧】一辆白色皮卡（车身印有“Dove”标识）从左前方邻车道切入至自车左前侧，完成变道动作，速度与自车相近。【右侧】路口处设有“RIGHT LANE MUST TURN RIGHT”交通标志牌，后方可见Shell加油站及Coca-Cola广告牌。【交通设施】前方交叉口信号灯为绿灯，通行顺畅，无拥堵迹象。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】晴朗，视野开阔，天空有少量云。【自车】保持在中间车道，匀速前行，通过人行横道区域。【前方】一辆白色工程皮卡（车顶装有梯架）在自车正前方行驶，车速略慢于自车。【道路变化】右侧出现施工区域，设置橙白相间锥桶和“RIGHT LANE CLOSED AHEAD”警示牌，引导车辆向左变道。【非标物体】右侧路边有一台大型塔吊静止作业，吊臂高耸，未移动，但其底部区域存在潜在空间侵占风险。【关键风险】右侧车道因施工封闭，车辆需提前变道；若后方车辆未及时观察，易发生强行加塞或误入施工区事件。",
+      "risk_tags": [
+        "lane_closure",
+        "construction_zone",
+        "potential_cut_in"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "【环境】阳光充足，部分区域受桥梁结构遮挡形成阴影。【自车】沿中间车道继续前行，经过一座大型钢制拱形桥下，桥体结构横跨道路，高度约6米，桥下无明显障碍物。【前方】白色工程皮卡持续在自车前方行驶，未变道。【左侧】对向车道有银色SUV驶过，未对自车构成威胁。【施工区域】桥下两侧设有红色警戒线与施工围栏，内有Kroger临时集装箱式建筑及升降平台作业车，平台上有工人正在高空作业。【关键风险】桥下净空虽满足常规车辆通过，但若遇超高车辆（如卡车、巴士），存在碰撞风险；同时，高空作业平台可能因风力晃动或操作失误造成坠物风险。",
+      "risk_tags": [
+        "bridge_clearance_risk",
+        "high_altitude_work",
+        "falling_object_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】晴天，光线良好，能见度高。【自车】在中间车道匀速行驶，接近下一个交叉路口。【前方】白色工程皮卡在右前方车道行驶，未进入施工区域，保持原车道。【左侧】一辆银色SUV在左前方邻车道减速，疑似准备左转，未影响自车路径。【右侧】远处可见“Public Storage”商业建筑及停车场，无行人或动物活动。【交通设施】前方路口信号灯为红灯，自车在停车线前平稳减速，准备停车。【关键风险】前方红灯即将亮起，若自车未及时制动，可能闯红灯；同时，左侧SUV若突然左转，存在与自车发生侧面碰撞的风险。",
+      "risk_tags": [
+        "red_light_approach",
+        "left_turn_conflict",
+        "braking_required"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 09:35:34",
+    "processing_time_seconds": 17.96
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在夜间城市街道上匀速直行，右侧有骑自行车者沿非机动车道同向行驶，左侧人行道上有行人快速通过，路面湿滑反射路灯光，无明显交通信号灯或障碍物干扰。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:11",
+      "scene_description": "自车继续前行，经过带有‘BUS ONLY’标线的公交专用道，右侧人行道上行人增多，部分行人横穿马路，左侧出现带装饰灯串的商业建筑，但未影响自车路径，无车辆变道或紧急制动行为。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:15",
+      "scene_description": "自车接近一个设有斑马线和行人过街标志的路口，多名行人从右侧人行道走向道路中央，其中一人携带行李箱，自车减速并保持安全距离，未发生交互冲突，前方远处可见红绿灯处于黄灯状态。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "自车驶过斑马线后继续直行，两侧人行道行人逐渐减少，左侧出现多层现代建筑，右侧为低矮商铺，路灯照明稳定，路面仍湿润，无其他车辆或行人突然闯入车道，自车维持匀速平稳行驶。"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.27,
+    "analysis_time": "2026-01-21 19:22:03"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴雨天气，路面湿滑积水严重，雨滴附着于挡风玻璃，影响视线。【自车】位于中间车道，沿直线道路匀速前行，未进行转向或变道。【前方】一辆白色SUV在前车流中行驶，保持稳定车距。【右侧】一栋现代公寓楼（标有“VILLAS ON DAK”），人行道旁有消防栓、路灯及光秃树木；左侧为多栋低层住宅建筑，部分带门廊。【交通设施】路口处可见“STOP”标志牌，但无红绿灯信号显示。【关键风险】因雨水反光与视野模糊，存在视觉干扰风险；无明显违规行为或障碍物。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】持续阴雨，能见度略有改善，但路面仍积水反光。【自车】保持中间车道匀速前进，随道路曲线自然行驶，未发生横向移动。【前方】白色SUV继续前行，在接近十字路口时减速。【左侧】出现棕榈树与多栋联排住宅，部分房屋带有白色围栏。【右侧】一栋米黄色建筑（标有“ST. JAMES HEALTH CENTER”），门前停放数辆私家车，路边有垃圾桶和电动滑板车。【交通设施】前方路口设有交通信号灯，当前为绿灯，指示直行车辆通行。【关键风险】无显著风险，但右侧人行道上停放的滑板车可能被行人突然启动引发碰撞，属于潜在非标准物体风险。",
+      "risk_tags": [
+        "potential_obstacle_on_sidewalk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雨势未减，天空灰暗，光线昏沉。【自车】在中间车道停车等待，前方白色SUV亦停于停止线后，绿灯亮起后准备起步。【左侧】对向车道有黑色轿车与灰色SUV依次通过交叉口，其中灰色SUV在左转车道内完成转向动作。【右侧】“ST. JAMES HEALTH CENTER”建筑前，有行人从入口走出，走向街角；同时，一辆深色轿车从右侧支路驶入主路，切入自车所在车道前方，未打转向灯，形成“加塞”行为。【交通设施】路口信号灯为绿色直行，但右侧支路无独立信号控制，存在冲突风险。【关键风险】右侧支路车辆强行加塞（Aggressive Cut-in），且未开启转向灯，对自车形成紧迫横向威胁；行人靠近路口边缘，存在横穿马路可能性，构成“鬼探头”隐患。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "lack_of_turn_signal",
+        "pedestrian_crossing_risk",
+        "intersection_conflict"
+      ]
+    }
+  ]
+}

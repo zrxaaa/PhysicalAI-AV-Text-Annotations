@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 07:37:00",
+    "processing_time_seconds": 12.97
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "自车在晴朗天气下沿多车道高速公路匀速行驶，左侧车道有密集排队车辆，右侧车道有一辆深色轿车保持同向行驶，阳光强烈导致镜头眩光，路面干燥无湿滑迹象。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "前方出现高架桥，桥上悬挂绿色路牌指示前往San Francisco、Gilroy及Mtn View方向，自车未变道，继续直行通过桥下区域，左侧车流缓慢移动，右侧无明显干扰车辆。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "车辆驶过桥洞后，阳光短暂被遮挡，随后恢复明亮，道路两侧植被和电线杆持续可见，自车保持当前车道稳定行驶，未见行人或其他突发交通参与者。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "接近视频末尾，自车仍维持原车道行驶，前方车辆间距稳定，无加速或减速行为，右侧路边出现限速65英里标志，整体交通流畅，无冲突或交互事件发生。"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.18,
+    "analysis_time": "2026-01-23 01:16:55"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间无云层遮挡，天空较暗，道路两侧植被茂密，无路灯照明。【自车】在中间车道匀速沿直道行驶，车头朝向与车道线一致，未发生转向。【交通设施】前方约40米处出现一个黄色菱形警示牌（注意前方交叉路口），右侧路肩有轻微坡度草地。【关键风险】道路照明严重不足，仅靠车灯照亮前方约20米范围，存在视线盲区；警示牌未被充分识别，可能引发误判路口位置。",
+      "risk_tags": [
+        "low_visibility",
+        "poor_signage_recognition",
+        "blind_spot_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】左侧出现一盏高杆路灯，提供局部照明，但整体仍为夜间低照度环境。【自车】保持中间车道匀速前进，接近交叉路口。【交通设施】右侧路边出现红色“STOP ALL WAY”停车标志牌，位于交叉口右转入口处；左侧远处可见另一组停车标志。【相对运动】自车未减速或转向，继续直行通过路口区域。【关键风险】自车未在停车标志前减速或停车，存在违反“全向停车”规则的风险；路灯眩光可能影响对侧来车的视觉判断。",
+      "risk_tags": [
+        "failure_to_stop",
+        "light_glare_risk",
+        "intersection_violation"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】进入交叉路口区域，路面为水泥铺装，两侧无明显照明。【自车】在通过交叉口时，开始向右轻微转向以准备右转，车头偏航角从正向前调整至约15度右偏。【交通设施】路口中央及两侧设有多个停车标志牌，其中右侧“STOP ALL WAY”标志清晰可见；路口左后方有两根立柱式交通标志牌，内容模糊。【非标物体】路口中央地面上有一块白色方形物体（疑似废弃纸箱或塑料板），位于自车右前方约5米处，未移动。【关键风险】自车在未完全确认路口安全的情况下进行右转，且路中遗撒物可能影响转向路径；夜间无其他车辆或行人活动，但存在潜在碰撞风险。",
+      "risk_tags": [
+        "unsafe_turning",
+        "obstacle_in_path",
+        "unconfirmed_intersection_clearance"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】离开交叉路口，道路再次进入林荫路段，无路灯，仅靠车灯照明。【自车】完成右转动作，当前处于右侧车道，沿弯曲道路继续前行，车头随弯道自然调整方向。【周围环境】道路两侧树木密集，部分枝叶延伸至路肩上方，形成局部遮蔽；远处可见零星灯光，推测为居民区。【交通设施】无显著标志牌，仅在转弯后方隐约可见一根电线杆。【关键风险】夜间视野受限，弯道曲率增大，需警惕突然出现的障碍物或动物；无任何交通信号或指示牌，增加决策不确定性。",
+      "risk_tags": [
+        "curved_road_risk",
+        "vegetation_overhang",
+        "low_infrastructure_support"
+      ]
+    }
+  ]
+}

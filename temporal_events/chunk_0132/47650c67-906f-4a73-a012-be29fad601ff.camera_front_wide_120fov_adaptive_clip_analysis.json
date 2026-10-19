@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.13,
+    "analysis_time": "2026-01-23 14:06:37"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴雨天气，天空布满厚重灰云，路面湿滑积水反光，能见度中等偏低。【自车】位于中间车道，保持匀速沿道行驶。【左侧】对向车道有多辆大型货车（红、黄、白）快速驶过，其中一辆黄色货车在左前侧邻车道高速超车。【右侧】路肩设有红白相间锥桶与临时护栏，构成施工区域边界。【交通设施】前方约80米处可见限速标志牌，无明显信号灯。【关键风险】左侧对向车道多车密集通行，存在因车速差异引发的视觉干扰；右侧施工区未见作业车辆或人员，但护栏结构可能遮挡突发障碍物。",
+      "risk_tags": [
+        "low_visibility",
+        "high_traffic_density",
+        "construction_zone_boundary"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】持续阴雨，雨滴在挡风玻璃上形成水膜，部分区域影响视线清晰度。【自车】维持中间车道匀速行驶，未进行变道或制动。【前方】一辆深色SUV在正前方车道行驶，尾灯亮起，保持稳定距离。【左侧】对向车道有白色厢式货车和小型轿车交替通过，无异常行为。【右侧】施工区域锥桶间距增大，路肩植被茂密，未见施工机械或人员。【非标物体】无动物、遗撒物或特种车辆出现。【关键风险】雨天路面湿滑，车辆制动距离延长；前方SUV若突然刹车，自车需预留足够反应时间。",
+      "risk_tags": [
+        "wet_road",
+        "braking_distance_increase",
+        "no_immediate_threat"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "【环境】雨势略有减弱，但云层仍低垂，光线昏暗。【自车】在中间车道加速超车，从后方接近前方深色SUV，并完成变道至右前方邻车道。【左侧】一辆蓝色半挂货车在左前侧邻车道高速驶过，车身较长，遮挡部分视野。【右侧】施工区域逐渐消失，道路恢复为标准高速公路结构，无锥桶或护栏。【交通设施】前方出现一个圆形禁行标志（禁止进入），提示前方可能有匝道或施工入口。【关键风险】自车变道过程中，左侧货车速度较快，存在横向并行风险；前方禁行标志未明确指示，需警惕突发绕行或出口分流。",
+      "risk_tags": [
+        "lane_change_with_high_speed_vehicle",
+        "ambiguous_signage",
+        "potential_exit_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】天气无明显变化，仍为阴雨，路面持续湿滑。【自车】完成变道后，回归中间车道，保持匀速直线行驶。【前方】无直接交通参与者，仅远处可见几辆小车在远端车道行驶。【左侧】对向车道有数辆轿车和一辆红色卡车依次通过，均未靠近自车车道。【右侧】道路两侧为秋季林地，树叶呈黄绿色，无施工或障碍物。【非标物体】无动物、遗撒物或特种车辆。【关键风险】整体场景平稳，无显著威胁；但因长期阴雨，路面摩擦系数降低，建议保持安全车距。",
+      "risk_tags": [
+        "stable_driving_condition",
+        "low_risk_environment",
+        "friction_reduction_warning"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.48,
+    "analysis_time": "2026-01-22 03:34:36"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】晴天，蓝天白云，光照充足，无降水或遮挡。【自车】位于中间车道，匀速沿直道前行。【左侧】一辆深色SUV从左侧路口驶出，完成左转动作后驶离画面；其后方一辆银色轿车紧随其后，同样完成左转。【右侧】一辆黑色皮卡沿对向车道行驶，与自车同向但未进入本车道。【交通设施】道路两侧设有橙白相间施工锥桶，沿中央隔离带分布，提示前方有施工区域。【关键风险】左侧路口车辆左转时未充分观察直行自车，存在潜在碰撞风险，但因距离较远且动作已完成，未构成即时威胁。",
+      "risk_tags": [
+        "left_turn_crossing_path",
+        "construction_cone_warning"
+      ]
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "【环境】光照稳定，无异常天气。【自车】保持在中间车道匀速前进，道路略有弯曲。【左侧】出现“Popeyes”快餐店及“Smith's”商业标识牌，路边停有多辆汽车。【右侧】棕榈树成排排列，沿路延伸；远处可见低矮建筑群。【交通设施】道路两侧持续设置施工锥桶，部分路段锥桶间距变密，提示施工区域扩大。【关键风险】右侧车道出现多辆排队等候的车辆，其中一辆银色轿车在自车右后方缓慢移动，存在切出（Cut-out）至自车所在车道的风险，但当前未发生明显变道行为。",
+      "risk_tags": [
+        "queue_traffic",
+        "potential_cut_out"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】天空云层增多，但仍为晴朗天气，无强逆光或阴影遮挡。【自车】在中间车道维持匀速行驶，前方道路出现轻微拥堵，车流速度下降。【前方】多辆轿车排队缓行，包括一辆红色轿车和数辆银灰色轿车，均处于非紧急制动状态。【左侧】出现“MAXXOWN LUXURY”广告牌及“FLAMINGO”标志，显示商业区入口。【右侧】施工锥桶密集分布，形成临时车道分隔；路边停放多辆工程车辆，但无作业动态。【关键风险】前方车流密集，自车需保持安全跟车距离；右侧施工区域存在路面不平整隐患，可能引发颠簸或避让操作，但无突发障碍物或违规行为。",
+      "risk_tags": [
+        "traffic_jam",
+        "road_surface_unevenness"
+      ]
+    }
+  ]
+}

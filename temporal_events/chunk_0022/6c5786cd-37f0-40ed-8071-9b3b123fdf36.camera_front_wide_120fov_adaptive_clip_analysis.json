@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 06:55:04",
+    "processing_time_seconds": 13.31
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在夜间多车道公路上匀速行驶，前方交通信号灯为绿灯，左侧车道有车辆并行，右侧路旁可见路灯和树木，路面标线清晰。",
+      "scene_description_additional": "随着接近十字路口，前方信号灯开始转黄，自车未减速，保持原有速度继续直行。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "自车抵达十字路口，信号灯变为红灯，所有方向车辆均停车等待，右侧路边停有一辆红色皮卡车，左侧对向车道有数辆车正在左转或直行。",
+      "scene_description_additional": "路口设有行人过街斑马线，但无行人出现，交通灯杆上显示街道名称为“S. Wadsworth St”。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:15",
+      "scene_description": "左侧对向车道一辆深色轿车完成左转，随后另一辆深色轿车从左方驶入交叉口并直行通过，自车仍保持静止等待红灯。",
+      "scene_description_additional": "右侧红色皮卡在红灯期间未移动，路口横向车道无其他显著动态，整体交通流平稳有序。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:20",
+      "scene_description": "自车持续等待红灯，前方及对向车道车辆均未移动，远处可见几辆汽车正驶近路口，但尚未进入自车所在车道的冲突范围。",
+      "scene_description_additional": "环境光线稳定，路灯照明充足，路面干燥无积水，无突发障碍物或行人介入，场景处于静态等待状态。"
+    }
+  ]
+}

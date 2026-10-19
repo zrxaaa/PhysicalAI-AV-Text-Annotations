@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 22:42:50",
+    "processing_time_seconds": 12.22
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在直行车道上匀速行驶，前方十字路口交通信号灯为红灯，右侧人行横道上有数名行人正在等待过街，左侧车道有一辆白色皮卡正向左转准备进入交叉口。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "行人开始穿越人行横道，部分穿着高能见度背心的工人从右侧进入画面并步行过街，白色皮卡在左转车道上缓慢移动，与行人形成空间交集，自车保持停车状态等待通行。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "行人陆续完成过街，其中一名头戴安全帽、背着工具包的工人独自穿过剩余车道，自车仍保持静止，前方红灯持续亮起，对向车道有车辆排队等候。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "行人全部离开交叉口，自车前方及对向车道车辆均未移动，交通信号灯仍为红灯，环境晴朗，路面干燥，无其他动态障碍物出现，自车维持原位等待绿灯。"
+    }
+  ]
+}

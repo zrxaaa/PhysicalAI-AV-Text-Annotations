@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 06:56:05",
+    "processing_time_seconds": 12.74
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "雨天傍晚，自车在城市主干道上匀速行驶，前方为一辆银色轿车，左侧车道有黄色出租车和黑色SUV驶过，右侧停有一辆白色厢式货车，路面湿滑反射灯光，交通信号灯为红灯状态。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "一辆大型白色巴士从右侧车道加速超车，车身横跨至自车所在车道前方，自车保持原速跟随前车，巴士尾灯亮起，路边出现“BUS LANE”指示牌，行人正在人行道上行走。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "巴士完成超车后驶入右侧公交专用道，自车继续跟随前车，右侧出现一辆 NYPD 警车停靠在路边，警灯未闪烁，道路标线清晰，无明显冲突车辆或行人进入自车路径。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "自车与前方银色轿车保持安全距离缓行，巴士已驶离画面，警车仍停于右侧，路面水迹反光强烈，远处建筑灯光映照湿面，无新交通参与者突然出现或行为突变。"
+    }
+  ]
+}

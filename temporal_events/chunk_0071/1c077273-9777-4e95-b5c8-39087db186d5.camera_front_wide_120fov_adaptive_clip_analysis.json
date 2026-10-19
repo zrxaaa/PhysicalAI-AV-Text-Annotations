@@ -1,0 +1,38 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.8,
+    "analysis_time": "2026-01-22 11:36:26"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】浓雾天气，能见度极低，雨滴附着于挡风玻璃导致视野模糊，路面湿滑反光。【自车】位于中间车道，匀速沿道路前行，未进行转向或变道。【前方】一辆深色SUV在前车距约30米处行驶，尾灯清晰可见。【左侧】对向车道有车辆驶过，因雾气遮挡，轮廓模糊，无法辨识车型。【交通设施】道路两侧可见电线杆、路牌（含“CENTER LANE ONLY”标志），但受雾影响细节不清。【关键风险】因能见度不足，存在“鬼探头”风险；前方车辆刹车灯未亮，可能突然减速，自车需保持安全距离。",
+      "risk_tags": [
+        "low_visibility",
+        "ghost_probe_risk",
+        "rear_end_collision_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】雾气持续弥漫，部分区域出现轻微雨刷器刮水痕迹，视线略有改善但仍受限。【自车】保持中间车道匀速行驶，无明显加减速。【右侧】路边出现橙白相间施工锥桶，提示前方有施工区域，但无施工车辆或人员可见。【前方】深色SUV维持原速，尾灯稳定亮起。【左侧】一辆银色轿车从对向车道超车后驶离，未进入自车所在车道。【交通设施】右侧路肩出现“CENTER LANE ONLY”标志牌，提示该路段为单向中心车道。【关键风险】施工锥桶区域未见作业人员或设备，存在潜在盲区；若前方车辆急刹，自车因视线受限难以及时反应。",
+      "risk_tags": [
+        "construction_zone_undetected",
+        "limited_visual_reaction_time"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】雾气渐浓，能见度进一步下降，部分树木与建筑轮廓仅隐约可见。【自车】仍在中间车道匀速行驶，随道路曲线自然前进，未转向。【前方】深色SUV持续行驶，尾灯稳定，未见制动迹象。【左侧】一辆白色SUV从对向车道驶来，快速通过后消失于雾中。【右侧】出现“END CENTER LANE ONLY”标志牌，提示中心车道即将结束，道路恢复双向通行。【非标物体】无特种车辆、动物或遗撒物出现。【交通设施】道路右侧人行道与草坪清晰可见，但因雾气遮挡，远处路口信号灯不可见。【关键风险】前方车辆未显示任何异常行为，但因雾天环境，自车需警惕突发状况；临近车道结束点，若前方车辆突然变道，将增加碰撞风险。",
+      "risk_tags": [
+        "end_of_center_lane_transition_risk",
+        "persistent_low_visibility"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 22.6,
+    "analysis_time": "2026-01-21 19:27:14"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴朗日间，光线充足，无降水或雾气。【自车】在中间车道匀速沿道行驶，未进行转向或变道。【左侧】一辆银色SUV从左侧超车后驶离视野；随后一辆深灰色轿车停靠在左侧路边。【右侧】路肩绿化带内有灌木丛和落叶，无行人或动物活动。【交通设施】道路右侧设有绿色自行车道标识牌，指示方向为“University Ave”、“Downtown”、“Stanford Lane”，并标注距离1.1英里。【关键风险】无显著风险，车辆均按规行驶，无违规行为或遮挡物。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】光照角度降低，树影拉长，仍属正常日间环境。【自车】保持中间车道匀速前进，接近十字路口。【前方】一辆白色丰田普锐斯（Toyota Prius）在前车流中缓慢行驶，尾灯亮起，表明其正在减速准备停车。【右侧】出现黄色‘PEDESTRIANS AHEAD’警示牌，提示前方有行人过街区域。【交通设施】前方路口设红色八角形‘STOP’标志，下方附有‘ALL WAY’字样，表明为全向停车路口。【关键风险】无紧急风险，但前方车辆减速与停车标志形成潜在冲突点，需注意前车可能突然停车导致自车需制动。",
+      "risk_tags": [
+        "potential_braking_conflict",
+        "pedestrian_warning"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "【环境】阳光斜射，部分区域产生眩光，但未影响视线。【自车】在停止线前减速，最终完全停车，等待路口通行。【左侧】一辆深灰色轿车从对向车道驶入本侧路口，完成左转动作。【右侧】一辆白色厢式货车（面包车）从交叉路口横向驶入，完成右转，车身较长，占用部分交叉口空间。【交通设施】路口地面喷涂‘STOP’字样，配合斑马线与黄色条纹减速带，强化停车指令。【关键风险】右侧厢式货车右转时存在盲区，且其车身长度可能导致自车无法立即通过，存在轻微碰撞或延误风险。同时，左侧对向车辆左转时未充分观察直行自车，存在潜在冲突。",
+      "risk_tags": [
+        "right_turn_blind_spot",
+        "left_turn_conflict",
+        "intersection_delay_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】光线稳定，无天气异常。【自车】在完成停车后，于路口等待约2秒，确认安全后启动前行，进入新路段。【前方】白色厢式货车已驶离交叉口，继续沿主路直行。【左侧】多辆私家车停放在路边，部分车辆后备箱开启，疑似装卸物品，但无人员活动。【右侧】出现限速20英里/小时的黄色警示牌，提示低速驾驶要求。【交通设施】道路右侧设有自行车道标线，与机动车道分隔清晰。【关键风险】无直接碰撞风险，但因路口复杂、多车交互频繁，存在因误判车距或速度而引发轻微追尾或剐蹭的可能性。此外，路边车辆后备箱开启状态可能构成临时障碍物，需注意避让。",
+      "risk_tags": [
+        "low_speed_zone",
+        "parked_vehicle_obstacle",
+        "intersection_complexity"
+      ]
+    }
+  ]
+}

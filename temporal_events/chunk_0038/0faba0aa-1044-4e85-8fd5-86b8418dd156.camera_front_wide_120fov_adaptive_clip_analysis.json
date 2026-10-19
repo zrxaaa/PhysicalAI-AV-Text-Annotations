@@ -1,0 +1,41 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.07,
+    "analysis_time": "2026-01-21 21:30:59"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】阴天，云层厚重，光线均匀但偏暗，无明显降水或能见度下降。路面干燥，部分区域有修补痕迹。【自车】位于中间车道，匀速沿直道前行，未进行变道或转向。【左侧】对向车道有白色SUV和皮卡驶过，均保持正常行驶；右侧路肩有施工锥桶与一辆白色皮卡拖挂移动式电子告示牌，车辆静止，未作业。【交通设施】前方可见“ONE WAY”单行标志及“KEEP RIGHT”指示牌，提示右侧为优先通行方向。【关键风险】右侧施工车辆虽静止，但其拖挂设备占据部分路肩，存在潜在刮蹭风险；无其他高危行为。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "【环境】天气持续阴沉，无降水，视野良好。【自车】保持在中间车道，匀速沿道路前行，道路呈轻微左弯趋势，自车随曲率自然行驶，未变道。【右侧】一栋标有“Kern-Moore Family”字样的建筑旁设有铁丝网围栏，围栏内有广告牌（内容为“Homeowners Shop Online AGN”），无人员活动。【左侧】可见“Great Clips KIDS CLINIC”招牌，路边绿化带中树木排列整齐。【交通设施】道路中央及右侧设置多组橙色施工锥桶，形成临时引导路径，锥桶间距约5-8米，引导车辆绕行施工区。【关键风险】锥桶排列密集，若自车偏离车道线可能触发碰撞；无行人、动物或其他非标准目标出现。",
+      "risk_tags": [
+        "cone_obstacle",
+        "lane_deviation_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "【环境】天空仍阴云密布，无明显光照变化。【自车】维持中间车道匀速行驶，道路进入直道段，路面有明显修补裂缝，但无积水或结冰。【前方】可见多个交通信号灯杆，当前绿灯亮起，允许直行与右转。【左侧】对向车道有数辆轿车驶来，包括一辆深色SUV，均按信号灯有序通行。【右侧】空旷路肩，远处有少量停放车辆，无施工活动。【交通设施】前方路口设有“FREEWAY ENTRANCE 101 SOUTH”指示牌，以及限速“10 MPH”标志。【关键风险】无直接碰撞威胁；但前方交叉口存在多方向车流交汇，需注意右侧转弯车辆可能切入本车道。",
+      "risk_tags": [
+        "intersection_crossing_risk",
+        "multi_lane_convergence"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】阴天，能见度稳定，无特殊天气影响。【自车】在中间车道接近交叉路口，因前方绿灯放行，保持匀速通过。【右侧】一辆深灰色SUV在交叉口右转，完成转向后驶入E. Dunne Ave，其动作流畅，未影响自车路径。【交通设施】路口上方悬挂“E. Dunne Ave”路牌，同时设有“FREEWAY ENTRANCE 101 SOUTH”绿色指示牌，明确引导方向。【非标物体】无施工车辆、动物或遗撒物出现。【关键风险】无显著风险；但自车即将进入新路段，需注意右侧转弯车辆可能因盲区引发冲突，尤其在转弯初期。",
+      "risk_tags": [
+        "right_turn_conflict_potential"
+      ]
+    }
+  ]
+}

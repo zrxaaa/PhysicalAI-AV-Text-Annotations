@@ -1,0 +1,43 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 19.42,
+    "analysis_time": "2026-01-22 22:53:03"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间，浓雾笼罩，能见度低，路灯与车灯产生明显光晕。【自车】位于中间车道，匀速沿直道前行，未进行转向或变道。【前方】一辆黄色出租车在前车距约30米处行驶，尾灯亮起。【右侧】路肩停有一辆银色SUV，交通信号灯为红灯，车辆静止等待。【交通设施】路口设有红绿灯及“42nd Street”路牌，当前绿灯通行中。【关键风险】因雾气导致视野受限，前方车辆刹车灯可能延迟被识别，存在追尾风险；右侧SUV若突然启动可能切入车道。",
+      "risk_tags": [
+        "low_visibility",
+        "rear_collision_risk",
+        "sudden_vehicle_movement"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】雾气持续，但部分区域灯光增强，能见度略有改善。【自车】保持中间车道匀速行驶，随道路曲线轻微调整方向，未越线。【左侧】出现“Cali Blaze Smoke Shop”等商铺，无行人或异常车辆。【右侧】依次经过“Hair & Nails Today”、“Technic Auto Repair”等店铺，路边停放多辆汽车，其中一辆白色皮卡停于人行横道前。【交通设施】前方高架路指示牌显示“Freeway 15 South Left Lane / North Right Lane”，绿灯持续有效。【关键风险】右侧皮卡停靠位置靠近人行横道，若有人穿越可能被遮挡；无明显违规行为，整体风险较低。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】雾气仍浓，但街灯照明稳定，部分区域出现强逆光（如星巴克招牌）。【自车】维持中间车道匀速前进，通过交叉路口时减速至约30km/h以应对前方绿灯变化。【右侧】显著出现“Starbucks Coffee”门店，其“Drive Thru”标志清晰可见，门前有少量排队车辆。【左侧】一座带钟楼的建筑（疑似银行或社区中心）沿街而立，无行人活动。【交通设施】路口信号灯由绿转黄，随后变为红灯，自车在停车线前平稳刹停。【非标物体】无特种车辆、动物或路面遗撒物。【关键风险】信号灯切换期间需注意后车距离，避免追尾；星巴克店前车辆可能突然起步，存在切出风险。",
+      "risk_tags": [
+        "signal_light_transition_risk",
+        "brake_following_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】雾气稍散，但天空仍灰暗，路灯亮度均匀。【自车】在绿灯恢复后重新启动，保持中间车道匀速行驶。【左侧】“Checks to Payday Loans”店铺旁有行人站立，面朝店内，未横穿马路。【右侧】沿街可见围栏、树木及停放车辆，包括一辆红色轿车停于路边。【交通设施】前方无大型路口，仅见小型支路与人行横道。【关键风险】左侧行人虽未移动，但处于视线盲区边缘；右侧红色轿车若突然开门或启动将构成“开门杀”风险；整体场景安全，无紧急交互。",
+      "risk_tags": [
+        "pedestrian_blind_spot",
+        "door_opening_risk"
+      ]
+    }
+  ]
+}

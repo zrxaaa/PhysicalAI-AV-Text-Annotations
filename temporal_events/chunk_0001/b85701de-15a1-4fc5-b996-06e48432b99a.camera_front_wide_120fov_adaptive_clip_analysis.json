@@ -1,0 +1,37 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 22:56:23",
+    "processing_time_seconds": 20.27
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在直行车道上匀速行驶，前方为十字路口，右侧有一辆白色SUV正在向右变道。交通信号灯为绿灯，允许直行和右转，左侧可见一辆红色消防车停在路口左转车道旁。",
+      "scene_description_additional": "道路两侧有树木和低矮灌木，天气晴朗，阳光从右侧照射，路面干燥无积水，无行人出现。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "自车通过十字路口后继续直行，前方车辆保持匀速，右侧白色SUV已驶离本车道。路口左侧的消防车开始缓慢启动，准备左转，路边有小型广告牌和停车区域。",
+      "scene_description_additional": "道路两侧绿化良好，右侧有商铺建筑但未进入视野核心区域，无显著行人或障碍物干扰自车路径。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车沿双向两车道道路继续前行，前方银色轿车保持匀速行驶，左侧出现一个小型岔路口并设有让行标志。右侧路边停放多辆私家车，未见行人活动。",
+      "scene_description_additional": "道路两侧树木高大茂密，部分路段有电线杆和限速35英里/小时标志，光照条件稳定，无遮挡物影响视线。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车接近下一个交叉口，前方车辆减速准备右转，自车维持当前车道并跟随其后。左侧出现住宅区入口，有临时广告牌立于路边，无其他动态交通参与者。",
+      "scene_description_additional": "环境安静，无突发交通事件，所有车辆均按规则行驶，自车未进行转向或加速操作，保持安全跟车距离。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车继续沿直线道路行驶，前方车辆逐渐远离，道路两侧植被密集，右侧山坡上有少量房屋露出。无红绿灯、无行人、无其他车辆突然切入路径。",
+      "scene_description_additional": "整体场景平稳，光线略有变化但不影响驾驶，自车保持稳定巡航状态，未发生任何避让或变道行为。"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.84,
+    "analysis_time": "2026-01-23 00:14:47"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间降雪，雪花在车窗上形成动态模糊，路面湿滑积水反光严重，能见度受雾气影响显著降低。【自车】位于中间车道，匀速沿道路中线向前行驶，未进行转向或变道。【左侧】一座哥特式教堂建筑群沿街排列，其前方有白色皮卡从左向右横穿自车所在车道（Cut-in），但已驶离视野。【右侧】停放多辆私家车，路灯照明昏暗，部分窗户透出暖光。【交通设施】前方约80米处可见红绿灯信号，当前为绿灯通行状态。",
+      "risk_tags": [
+        "reduced_visibility",
+        "snowfall",
+        "crossing_vehicle"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】持续降雪，雪花密度增加，雨刮器未启动导致挡风玻璃局部水渍模糊。【自车】保持中间车道匀速前行，车头偏航角稳定，无转向意图。【前方】一辆标有“94 TO MCKINLEY-ANDERSON”的公交车从左侧对向车道驶入交叉口，车身遮挡右侧人行道及自行车道区域。【非标物体】公交车后方隐约可见一名骑自行车者，因被遮挡无法判断其面部朝向与动作意图。【交通设施】右侧路口设有一个红色八角形“STOP ALL WAY”标志牌，当前自车未停车，继续直行通过路口。",
+      "risk_tags": [
+        "occlusion_risk",
+        "ghost_probe_potential",
+        "bus_crossing"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】雪势略有减弱，但仍持续飘落，路面反射灯光造成眩光干扰。【自车】进入城市街区，沿弯曲道路保持匀速行驶，车道线清晰可辨。【左侧】一栋多层砖砌公寓楼旁，一名行人背对镜头站立于人行道边缘，双手插兜，头部微低，未观察来车方向，存在潜在横穿风险。【右侧】路边停放多辆SUV与轿车，其中一辆银色SUV在自车接近时突然启动并加速驶离停车位，切入自车前方车道（Aggressive Cut-in）。【关键风险】该车辆切入行为未打转向灯，且距离自车不足15米，触发紧急避让准备。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "pedestrian_crossing_potential",
+        "poor_lighting"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】雪转为细雨，路面水膜更厚，部分区域出现轻微积水。【自车】维持中间车道匀速行驶，车速略低于前段，因前方车流密集。【左侧】一排联排住宅楼，部分窗户亮灯，门前悬挂圣诞彩灯；一辆黑色SUV从左侧邻车道缓慢超车，完成切出动作后回归原车道。【右侧】沿街商铺门口停放自行车，一名骑手正推车过斑马线，身体前倾，视线聚焦于手机屏幕，未注意来车。【交通设施】前方路口设有绿色箭头指示灯，允许直行。【关键风险】骑车人低头看手机+横穿斑马线，构成典型“分心横穿”高危行为，自车需保持警惕以避免碰撞。",
+      "risk_tags": [
+        "distracted_pedestrian",
+        "low_visibility_rain",
+        "crossing_bike"
+      ]
+    }
+  ]
+}

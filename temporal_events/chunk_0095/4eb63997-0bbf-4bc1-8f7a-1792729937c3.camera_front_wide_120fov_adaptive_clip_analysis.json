@@ -1,0 +1,43 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.02,
+    "analysis_time": "2026-01-22 22:32:31"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间城市街道，路灯照明充足，无异常天气。【自车】位于中间车道，匀速沿直道行驶，前方交通信号灯为绿灯。【周围车辆】左侧邻车道有银色轿车与黑色SUV同向行驶；右侧人行道旁停有多辆私家车。【交通设施】道路两侧设有商铺招牌（如“LILLY'S”、“FRANCIS BOCSH”），路口上方悬挂“Hoefgen”与“Dome Lot 1C”路牌，交通信号灯正常工作。【关键风险】无明显违规或危险行为，场景平稳。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:09",
+      "scene_description": "【环境】继续夜间行驶，前方出现铁路道口，两侧设警示标志与红白相间栏杆。【自车】保持当前车道，减速接近道口，准备停车等待。【周围车辆】左前方一辆红色皮卡从对向车道驶过；右后方有数辆汽车在道口前排队等候。【交通设施】铁路道口栏杆处于升起状态，闪烁红灯，但未完全落下，提示列车即将通过。【关键风险】自车需在道口前安全停车，若误判栏杆状态可能引发事故；同时，右侧路边有行人站立，未进入人行横道，存在潜在横穿风险。",
+      "risk_tags": [
+        "railroad_crossing_risk",
+        "pedestrian_crossing_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "【环境】道口栏杆开始缓缓下降，红灯持续闪烁，表明列车正在接近。【自车】在道口前完全停车，保持静止状态，等待栏杆升起。【周围车辆】前方一辆白色轿车同样停车等待；左侧建筑外墙斑驳，部分窗户透出彩色灯光。【交通设施】铁路道口标志清晰可见，“RAILROAD CROSSING”字样及“5 TRACKS”标识明确。【关键风险】自车必须严格遵守停车规则，不可提前起步；若其他车辆闯杆或行人突然穿越，将构成严重安全隐患。",
+      "risk_tags": [
+        "strict_stop_required",
+        "crossing_barrier_operation"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】列车已通过，栏杆抬起，红灯熄灭，交通信号灯恢复绿灯。【自车】在确认安全后，缓慢起步并继续沿中间车道行驶。【周围车辆】前方白色轿车同步启动；右侧路边停放多辆汽车，其中一辆银色轿车车门打开，疑似有人上下车。【非标准物体】右侧人行道上有一名骑电动滑板车的行人，从车流中快速穿过，未走人行横道。【关键风险】行人横穿且未使用人行道，存在“鬼探头”风险；自车起步时需注意右侧突发移动目标，避免碰撞。",
+      "risk_tags": [
+        "jaywalking",
+        "ghost_probe_risk",
+        "unpredictable_pedestrian_movement"
+      ]
+    }
+  ]
+}

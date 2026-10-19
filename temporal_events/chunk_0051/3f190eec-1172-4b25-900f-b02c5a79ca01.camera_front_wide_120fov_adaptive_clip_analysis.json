@@ -1,0 +1,45 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.1,
+    "analysis_time": "2026-01-22 02:58:40"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，阳光从左上方照射，存在轻微眩光。路面干燥，能见度良好。【自车】在中间车道匀速沿直道行驶，未进行转向或变道。【左侧】停放多辆私家车（含银色MPV、黑色SUV），部分车辆后方有树荫遮挡。【右侧】停放一辆白色工程皮卡，车门打开，车身旁设橙色锥桶，疑似施工准备状态。【交通设施】前方路口地面标有“STOP”字样，右侧人行道立有红色八角形停车标志牌（STOP ALL WAY）。【关键风险】无明显违规行为或障碍物，但右侧施工车辆处于静止作业状态，存在潜在的开门杀或人员突然移动风险。",
+      "risk_tags": [
+        "construction_vehicle_static",
+        "door_opening_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】天空云层增多，光照强度略有下降，但仍为白天。【自车】在中间车道减速并完成左转动作，进入新道路方向。【前方】路口处有一辆灰色轿车正在右转，与自车形成交叉路径。【右侧】路边停有白色轿车和黑色SUV，人行道上有广告牌及消防栓。【交通设施】路口设有“STOP ALL WAY”标志，自车在该路口执行停车观察后通行。【关键风险】自车左转时需注意对向来车（灰色轿车）的转弯轨迹，存在轻微交汇冲突风险；同时，右侧人行道上广告牌可能遮挡部分视野，增加盲区风险。",
+      "risk_tags": [
+        "intersection_conflict",
+        "partial_obstruction_by_signage"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】天气晴朗，云量适中，光线稳定。【自车】在中间车道保持匀速行驶，随道路曲线自然前行。【左侧】对向车道有车辆驶过，包括一辆白色面包车和一辆深色SUV，均正常行驶。【右侧】连续停放多辆私家车（含蓝色SUV、银色SUV、白色面包车），部分车辆紧贴路缘石。【交通设施】道路两侧设有路灯和人行横道线，前方可见“STOP”路面标记。【非标物体】右侧人行道边缘有少量落叶堆积，无明显障碍物。【关键风险】右侧停车密集区域存在“开门杀”风险，尤其当行人或骑车者从车门侧穿行时；此外，部分车辆尾部突出，可能影响自车横向安全裕度。",
+      "risk_tags": [
+        "door_opening_risk",
+        "narrow_lane_clearance"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】晴天，局部云影投射于路面，无异常天气。【自车】在中间车道匀速行驶，接近前方路口。【左侧】对向车道有银色SUV和黑色轿车驶过，无异常行为。【右侧】一栋商业建筑（标有“THE JULIAN”）前设有一个停车区，路边停有黑色轿车和白色货车。【交通设施】前方路口设有“STOP”路面标记及红灯信号杆，右侧人行道有黄色消防栓。【关键风险】自车即将进入交叉路口，需注意右侧商铺前可能突然出现的行人或非机动车；同时，右侧建筑入口处有人员活动迹象，存在潜在的“鬼探头”风险，需提前减速预判。",
+      "risk_tags": [
+        "intersection_approach_risk",
+        "pedestrian_emergence_potential"
+      ]
+    }
+  ]
+}

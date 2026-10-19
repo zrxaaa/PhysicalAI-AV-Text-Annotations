@@ -1,0 +1,46 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.77,
+    "analysis_time": "2026-01-23 15:25:01"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "【环境】阴天，光线昏暗，无明显降水或结冰。【自车】位于中间车道，正匀速驶向并进入混凝土结构的地下通道。【前方】多辆汽车在通道入口处排队，包括一辆黑色SUV和一辆深色轿车，均保持低速行驶。【交通设施】通道两侧为石砌墙体，顶部有植被覆盖；右侧墙边设有红色禁停标志牌及CNG加气站提示标识。【关键风险】通道入口处存在轻微拥堵，车辆间距较小，若前车急刹易引发追尾，但当前无紧急避让行为。",
+      "risk_tags": [
+        "minor_congestion",
+        "tunnel_entry_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:03-00:00:07",
+      "scene_description": "【环境】通道内光线较暗，出隧道后恢复自然光，天空仍阴沉。【自车】驶出隧道后，在中间车道保持匀速行驶。【左侧】对向车道有一辆黑色SUV快速超车，完成变道动作。【右侧】出现大型黄色交通指示牌，标示“Radmitte Residenz”、“Heidingsfeld”等方向信息，下方有箭头与禁行符号。【交通设施】隧道出口处设有多组路牌，包含停车区、公交专用道指引。【关键风险】右侧指示牌因距离近且角度倾斜，可能遮挡部分视野，需注意其后方潜在横穿行人或非机动车。",
+      "risk_tags": [
+        "sign_obstruction_risk",
+        "cross_traffic_warning"
+      ]
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "【环境】道路两侧绿化带茂密，树木枝叶稀疏，显示早春特征。【自车】保持在中间车道匀速行驶，跟随前方蓝色轿车。【左侧】对向车道有橙色小型车驶过，未见异常行为。【右侧】路边停放多辆私家车，部分车辆开启转向灯准备驶入支路。【交通设施】前方出现三角形警告标志（注意行人/减速），立于弯道外侧。【关键风险】右侧停车区域存在“开门杀”风险，尤其当车辆启动时可能突然打开车门；同时弯道处视线受树木遮挡，需警惕突发横穿者。",
+      "risk_tags": [
+        "door_opening_risk",
+        "blind_corner_hazard"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】天空灰白，无降水，能见度良好。【自车】继续沿中间车道行驶，前方蓝色轿车维持稳定车距。【左侧】一栋白色多层住宅楼沿路延伸，楼前有数辆汽车停靠。【右侧】山坡下分布若干欧式建筑，部分为历史风格，路边有自行车停放。【交通设施】道路右侧设有多组停车标志（P）及限速标志（50km/h）。【关键风险】右侧山坡区域植被茂密，存在视觉盲区，若遇行人或动物从林间小径冲出，将构成“鬼探头”威胁；此外，前方车辆频繁刹车，暗示可能存在临时障碍物或路口管制，需保持警惕。",
+      "risk_tags": [
+        "blind_area_hazard",
+        "traffic_jam_precondition",
+        "pedestrian_crossing_risk"
+      ]
+    }
+  ]
+}

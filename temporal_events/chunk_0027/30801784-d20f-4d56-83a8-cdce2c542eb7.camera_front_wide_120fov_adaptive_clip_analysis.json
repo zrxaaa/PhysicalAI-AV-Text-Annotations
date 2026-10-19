@@ -1,0 +1,37 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 09:12:26",
+    "processing_time_seconds": 13.71
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "夜间城市街道，自车在直行车道行驶，右侧一辆白色SUV从后方加速并变道至自车左侧车道，前方有多辆汽车在红灯前排队，交通信号灯为红色。",
+      "environment_conditions": "夜间，路灯照明，轻微雾气影响能见度，路面干燥。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "自车在十字路口停车等待，左侧白色SUV完成变道后停于自车左前方，远处有行人正在穿越人行横道，交通信号灯仍为红灯，右侧路边有邮筒和路牌标识。",
+      "environment_conditions": "夜间环境，路灯与车灯反射造成部分眩光，能见度中等。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "交通信号灯转绿，自车启动前行，同时左侧白色SUV也同步起步，车辆沿直线路段向前行驶，右侧人行道上有行人行走，前方路口绿灯持续亮起。",
+      "environment_conditions": "夜间，街灯均匀分布，路面无积水，视野清晰。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "自车向右转弯进入新路段，右侧建筑物逐渐靠近，人行道上一名行人正背对镜头行走，前方道路空旷，无其他车辆或障碍物干扰。",
+      "environment_conditions": "夜间，路灯照明充足，转弯处有明显弧度，路面平整。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车继续沿直道行驶，右侧出现带有拱形门廊的建筑，远处可见蓝色霓虹招牌，道路上无显著交通参与者，自车保持匀速稳定前进。",
+      "environment_conditions": "夜间，城市街道灯光柔和，空气略显潮湿，路面无明显湿滑痕迹。"
+    }
+  ]
+}

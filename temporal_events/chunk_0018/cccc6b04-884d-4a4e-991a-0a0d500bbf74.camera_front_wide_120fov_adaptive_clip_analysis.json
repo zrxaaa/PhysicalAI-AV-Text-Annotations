@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 05:45:18",
+    "processing_time_seconds": 10.1
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "自车在双车道公路上匀速行驶，前方有一辆深色轿车保持同向行驶，道路两侧为光秃树木与草地，天空多云但能见度良好，无明显交通标志或障碍物影响路径。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "车辆接近一个环形交叉路口，前方黑色轿车开始向右转弯进入环岛，自车保持直行轨迹，右侧出现红色倒三角让行标志，远处可见大型玻璃幕墙建筑及路灯设施。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:16",
+      "scene_description": "前方车辆完成右转并驶入右侧车道，自车继续沿主路直行，路面标有白色虚线分隔车道，左侧为开阔草坪，无行人或其他车辆干扰路径。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车经过一个设有自行车道标识和限速35英里/小时标志的路段，前方车辆仍在前方行驶，未发生变道或减速行为，道路右侧出现护栏与稀疏灌木，天气仍多云但光线增强。"
+    }
+  ]
+}

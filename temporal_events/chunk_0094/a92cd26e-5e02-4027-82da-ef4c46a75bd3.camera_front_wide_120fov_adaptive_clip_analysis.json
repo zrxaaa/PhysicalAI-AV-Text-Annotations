@@ -1,0 +1,41 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.16,
+    "analysis_time": "2026-01-22 21:59:19"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "【环境】阴天，无降水，能见度良好，光线均匀。【自车】位于中间车道，处于交通拥堵状态，执行持续减速制动，车速低于15 mph。【左侧】一辆灰色MPV（本田奥德赛）紧贴自车左前侧，保持并行缓慢移动；其后方为一辆白色Bodewell服务货车，车身印有“Expert Appliance Care”字样，正沿左转车道排队。【右侧】人行道旁停放多辆Citi Bike共享单车，靠近“FISH MARKET”店铺，墙面上有涂鸦与橙色广告牌。【交通设施】前方可见高架铁路桥（结构为绿色钢桁架），桥下设有红绿灯信号系统，当前为红灯。【关键风险】左侧灰色MPV与自车间距小于1米，存在轻微剐蹭风险；右侧人行道上有行人徘徊，未完全在斑马线内，可能突然横穿。",
+      "risk_tags": [
+        "close_proximity_vehicle",
+        "pedestrian_crossing_risk",
+        "traffic_jam"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】天气稳定，无异常光照或路面状况。【自车】在中间车道继续减速，等待红灯转绿。【前方】一辆深灰色SUV（日产Rogue）位于自车正前方，刹车灯亮起，保持静止。【左侧】白色Bodewell货车开始向左变道，意图绕过拥堵车辆，其动作未完全完成，仍部分占据自车左侧车道空间。【右侧】人行道上有多名行人站立或行走，其中一人撑伞，另一人推婴儿车，面部朝向街道，肢体动作显示其正在观察交通流。【交通设施】高架桥下方的交通信号灯由红灯转为绿灯，同时出现“TWO WAY TRAFFIC AHEAD”黄色警示牌和“ONE WAY”指示牌。【关键风险】Bodewell货车变道行为未打转向灯，且切入路径与自车横向距离不足2米，构成潜在切出风险（Cut-out）。",
+      "risk_tags": [
+        "un signaled_lane_change",
+        "cut_out_risk",
+        "pedestrian_with_baby_stroller"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】晴朗阴天，光线充足，视野开阔。【自车】在绿灯亮起后启动，沿中间车道加速前行，进入十字路口区域。【前方】深灰色SUV（日产Rogue）同步起步，与自车同向行驶。【交叉路口】多个方向车辆与行人同时通行：左转车辆（银色SUV）从左侧车道切入直行车道；右转车辆（黑色轿车）从右侧驶入；多名行人正在通过斑马线，其中一名穿黑衣男子手持手机，边走边看屏幕，未注意来车；另有一名穿红色外套的女性从右侧人行道快速横穿至对面。【交通设施】高架桥结构完整，桥下设有多个交通标志牌（含“ONE WAY”、“TWO WAY TRAFFIC AHEAD”）、红绿灯及人行横道标线。【关键风险】左转银色SUV未礼让直行自车，存在强行切入风险；行人横穿时未观察车辆，尤其持手机者视线分散，构成“鬼探头”隐患；右侧人行道有摊贩设彩虹伞摊位，遮挡部分视线，增加盲区碰撞概率。",
+      "risk_tags": [
+        "aggressive_left_turn",
+        "jaywalking_pedestrian",
+        "obstructed_view_from_stall",
+        "ghost_probe_risk"
+      ]
+    }
+  ]
+}

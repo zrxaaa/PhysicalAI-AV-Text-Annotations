@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 05:54:06",
+    "processing_time_seconds": 13.12
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车沿多车道道路直行，左侧车道有银色轿车和白色SUV先后驶过，右侧为自行车道与草地，路边树木无叶，天气晴朗，路面干燥无湿滑迹象。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:09",
+      "scene_description": "前方出现十字路口，交通信号灯为绿灯，自车保持直行，左侧人行道上有两名行人正在行走，其中一人靠近斑马线准备横穿马路，对向车道有车辆驶近。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:12",
+      "scene_description": "自车接近交叉口，左侧一辆白色皮卡从对向车道左转进入路口，右侧一辆黑色工程车（车顶载梯）正右转，信号灯仍为绿灯，自车减速准备停车。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "自车在路口完成左转，进入新路段，阳光从左前方照射，形成明显眩光，路旁出现“Sixty Acres Business Center”标识牌，道路两侧为现代办公楼与绿化带。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车继续沿新道路直行，阳光持续造成镜头眩光，道路两侧建筑逐渐清晰，右侧草坪边缘有行人快速走过，未与自车路径产生交集，整体环境安静有序。"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.79,
+    "analysis_time": "2026-01-24 07:52:01"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间，天空阴云密布，路灯照明充足但存在光晕与轻微雾气，能见度良好。【自车】位于中间车道，正向一个带有停车道闸的Burger King入口区域减速，执行停车前的制动动作。【右侧】设有停车收费亭和红白相间的道闸栏杆，道闸处于升起状态；旁边有“STOP”、“人行横道”及“右转”交通标志牌。【左侧】可见低矮围墙、绿化带及部分建筑。【关键风险】自车前方道闸区域无行人或障碍物，但右侧路边停放一辆银色轿车，其位置靠近转弯处，存在潜在切入或突然启动风险。",
+      "risk_tags": [
+        "braking_for_entry",
+        "parked_vehicle_near_turn"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】夜间，路灯持续照明，无明显天气变化。【自车】在通过停车道闸后，开始向右转向，沿环形路或弯道行驶，车头偏航角逐渐增大。【前方】Burger King门店清晰可见，招牌灯光明亮，显示“DRIVE-THRU”和“PLAY KING”。【右侧】出现混凝土护栏与人行道，远处有车辆驶过。【左侧】围墙外有涂鸦墙面，无显著动态目标。【关键风险】自车转向过程中，右侧车道有银色轿车静止停放，未见明显移动意图，但因距离较近且处于弯道内侧，存在视觉遮挡或突然启动风险。",
+      "risk_tags": [
+        "right_turn_with_close_parked_car",
+        "visual_obstruction_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】夜间，路灯呈黄绿色调，部分区域光照不均，存在阴影区。【自车】完成右转，进入一条双向直行车道，保持匀速直线行驶。【道路两侧】左侧为石砌围墙与低层住宅，右侧为多层公寓楼、垃圾桶及绿化带；远处可见一座高耸输电塔。【交通设施】沿途设有斑马线、限速标志、停车标志（P）及方向指示牌。【周围车辆】左前方有一辆银色轿车停靠于路边，未移动；远处对向车道有白色轿车驶来，保持安全距离。【关键风险】自车行驶路径中无直接威胁，但右侧垃圾桶区域有不明物体（疑似垃圾袋）堆叠，虽未移动，但可能影响紧急避让空间；此外，远处输电塔结构高大，在强风或雷雨天气下存在潜在坠物风险，当前无此现象，仅作长尾提示。",
+      "risk_tags": [
+        "low_visibility_shadows",
+        "static_debris_on_side",
+        "infrastructure_risk_long_tail"
+      ]
+    }
+  ]
+}

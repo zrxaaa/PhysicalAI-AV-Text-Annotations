@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 07:07:47",
+    "processing_time_seconds": 14.11
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在高速主路中间车道匀速行驶，左侧车道有一辆银色轿车与自车并行，随后逐渐减速并向左变道。右侧为开阔荒地，远处可见高压电塔和低矮建筑群，天气晴朗，路面干燥无湿滑迹象。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "车辆接近高架出口指示牌，前方出现绿色“EXIT 33”和“EXIT 34”标志，提示Lone Tree Way与Sand Creek Rd方向。右侧路边出现限速55 mph的交通标志，同时一辆白色货车从左侧超车后驶离视野。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车继续直行，经过一个黄色菱形交通信号灯（红黄绿三色），随后进入标有“EXIT 34”的匝道入口前路段。右侧出现红色砖铺导流区，一辆深色SUV从左侧车道快速超越自车并驶入导流区。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车保持当前车道，前方道路拓宽，左侧出现高架桥结构，右侧为裸露土坡与稀疏植被。远处可见城市轮廓及一座高耸输电塔，多辆卡车与轿车在前方稳定行驶，未见明显加速或变道行为。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车持续沿主路直行，车道线清晰，前方无紧急事件或障碍物。右侧路肩区域有少量碎石与干草，未见行人或其他非机动车。整体交通流畅，自车无转向或变速动作。"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 03:57:17",
+    "processing_time_seconds": 11.54
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在晴朗天气下沿城市多车道道路行驶，前方有一辆白色皮卡保持匀速，左侧对向车道有车辆驶过，路边可见棕榈树和现代建筑，交通信号灯为绿灯且无行人干扰。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:09",
+      "scene_description": "车辆接近并驶入高架桥下方区域，桥体结构开始遮挡阳光，桥墩及桥底出现蓝白圆环涂鸦，右侧人行道上有行人行走，自车未变道，保持当前车道跟随前车。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "车辆持续在桥下行驶，桥底和桥墩的涂鸦图案清晰可见，右侧人行道上一名穿粉色衣物的行人正在行走，与自车路径无交叉，前方皮卡保持稳定车距，无加速或减速行为。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "自车继续在桥下匀速行驶，前方皮卡尾部装载物品，未见明显动作变化，右侧人行道上行人逐渐远离，道路两侧无新增车辆或障碍物，环境光线因桥体遮挡而略暗但能见度良好。"
+    }
+  ]
+}

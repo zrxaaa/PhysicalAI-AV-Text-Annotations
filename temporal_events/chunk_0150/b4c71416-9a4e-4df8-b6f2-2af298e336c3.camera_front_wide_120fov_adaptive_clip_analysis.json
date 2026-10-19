@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.9,
+    "analysis_time": "2026-01-23 22:01:07"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，云层较厚，无明显降水，能见度良好。【自车】位于中间车道，正通过十字路口，前方交通信号灯为红灯，执行停车制动。【右前方】一辆灰色丰田Ae86（实为Yaris Cross）从右侧横向切入，车头朝向自车所在车道，意图左转，但未完成转向即停在斑马线前；其车身部分遮挡自车视线。【左侧】一辆深蓝色雷诺Megane E-Tech停在左转车道，刹车灯亮起。【交通设施】路口设有红绿灯、人行横道及路侧隔离桩。【关键风险】右侧车辆存在“闯红灯或抢行”嫌疑，因未完成转向即停车，可能引发交叉碰撞；同时其位置处于自车盲区边缘，存在‘鬼探头’潜在风险。",
+      "risk_tags": [
+        "red_light_violation",
+        "aggressive_cut_in",
+        "blind_spot_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】天空多云，光线均匀，无异常天气。【自车】在中间车道起步，跟随前方灰色丰田Yaris Cross缓慢前行。【左侧】一辆白色宝马X5与自车并行，保持约2米间距，未变道；后方有黑色奔驰SUV和红色小型车依次跟车。【右侧】沿街停放多辆汽车，包括一辆黑色Mini Cooper和一辆银色菲亚特500。【交通设施】道路两侧为行道树，右侧有带围栏的住宅区，远处可见广告牌和施工围挡。【非标物体】左侧路边有一名行人背对镜头行走，手持手机，未观察路况，正走向人行道入口。【关键风险】行人注意力分散，存在横穿马路可能性；左侧宝马X5虽未变道，但车距过近，若突然减速易引发追尾。",
+      "risk_tags": [
+        "distracted_pedestrian",
+        "close_following",
+        "potential_crossing"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】阴天，云层稀薄，光照稳定。【自车】保持中间车道匀速行驶，沿直线道路前进。【前方】灰色丰田Yaris Cross持续在前车流中行驶，未发生变道或急刹。【左侧】出现施工区域，有临时集装箱式建筑、黄色垃圾箱及一台小型电动代步车驶出施工区，沿路边缓慢移动。【右侧】树木茂密，部分路段有禁止停车标志（P符号+斜杠），但仍有车辆违规停放。【特殊区域】左侧远处可见塔吊，表明附近有在建工程，但无作业车辆活动。【关键风险】左侧施工区有小型电动车突然驶出，存在“鬼探头”风险；右侧违停车辆占用部分行车空间，影响紧急避让能力；整体场景无突发危险，但长期存在低概率碰撞隐患。",
+      "risk_tags": [
+        "construction_zone_emergency_exit",
+        "illegal_parking",
+        "low_probability_collision"
+      ]
+    }
+  ]
+}

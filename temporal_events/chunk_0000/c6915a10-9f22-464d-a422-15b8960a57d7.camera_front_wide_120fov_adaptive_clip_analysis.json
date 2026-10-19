@@ -1,0 +1,27 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 22:22:01",
+    "processing_time_seconds": 17.24
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在雨天湿滑的城市街道上匀速行驶，前方道路两侧有建筑和行道树，右侧人行道上有行人正在行走，一辆黑色轿车从右侧车道驶过并变道至前方。",
+      "scene_description_2": "路面标线清晰，包括自行车道和直行箭头，交通信号灯尚未显示变化，环境光线昏暗因阴雨天气，能见度略低但不影响基本驾驶。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "自车继续沿道路直行，左侧路边停放多辆汽车，右侧出现一辆红色厢式货车停靠并打开后备箱，一名穿红色上衣的人正从后方搬运物品，同时前方车辆减速准备停车。",
+      "scene_description_2": "道路两侧建筑物密集，部分商铺招牌可见，交通标志如“ONLY”左转标识清晰，雨滴附着于挡风玻璃影响视线，但未阻碍正常行驶。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:19",
+      "scene_description": "自车在红灯前减速并停下，前方为一辆黑色SUV，其刹车灯亮起，两车保持安全距离，周围无其他显著动态参与者，交通信号灯持续为红灯状态。",
+      "scene_description_2": "雨势未减，路面反光明显，两侧人行道空旷，无行人穿越，车道线与交通标线完好，整体场景稳定，自车处于静止等待状态，未发生任何变道或超车行为。"
+    }
+  ]
+}

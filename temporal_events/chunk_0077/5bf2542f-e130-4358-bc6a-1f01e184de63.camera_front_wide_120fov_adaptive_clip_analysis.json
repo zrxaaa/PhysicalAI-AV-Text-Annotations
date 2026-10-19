@@ -1,0 +1,36 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.41,
+    "analysis_time": "2026-01-22 14:40:06"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间城市街道，路面湿滑积水，灯光反射造成眩光。【自车】位于中间车道，随道路曲率沿道行驶，未变道，保持匀速。【左侧】人行道上有两名行人并肩行走，面向前方，步速平稳，无横穿意图。【右侧】停放多辆私家车，其中一辆蓝色SUV紧贴路缘，未移动。【交通设施】右侧建筑悬挂“24 SCHOOL STREET”标识，街角有电子广告牌显示内容；远处可见红绿灯处于绿灯状态。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】持续夜间湿滑路面，路灯照明充足但存在局部强光眩晕。【自车】仍在中间车道，缓慢减速以应对前方车辆制动。【前方】一辆黑色现代SUV（车牌被模糊处理）刹车灯亮起，表明其正在减速。【左侧】出现“Old Corner Christmas”商店招牌，店内灯光温暖，橱窗陈列圣诞装饰；两名行人从店门口走出，向左前方横穿人行道，动作迅速且方向明确，已进入自车前方车道的潜在碰撞路径。【关键风险】行人横穿行为未在斑马线上，属于典型“Jaywalking”，对自车构成突发性横向穿越风险。",
+      "risk_tags": [
+        "jaywalking",
+        "crossing_obstacle",
+        "pedestrian_crossing_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】雨后微雾，能见度略有下降，路灯与车灯混合造成光晕。【自车】维持当前车道，因前方车辆减速而同步缓行，未进行转向或变道。【前方】黑色现代SUV完全停止，刹车灯持续亮起；其右后方有一辆银灰色雪佛兰SUV，正试图从右侧车道绕行，车身部分切入自车所在车道，形成“切出”（Cut-out）趋势。【左侧】行人已通过人行横道，离开自车视野范围。【交通设施】右侧路口设有“限速20”的交通标志牌，背景中可见一座带钟楼的历史建筑，灯光照亮其顶部结构。【关键风险】右侧雪佛兰SUV存在强行变道意图，可能引发剐蹭或紧急避让，属于“违规变道”风险；同时，前方静止车辆导致自车被迫停车，形成交通拥堵链。",
+      "risk_tags": [
+        "illegal_lane_change",
+        "cut_out_risk",
+        "traffic_jam_trigger"
+      ]
+    }
+  ]
+}

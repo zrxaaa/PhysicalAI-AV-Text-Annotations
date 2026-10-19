@@ -1,0 +1,41 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 21.85,
+    "analysis_time": "2026-01-21 18:39:59"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，蓝天白云，光照充足，无异常天气。【自车】在中间车道匀速沿道行驶，未见明显加速或减速。【右侧】一辆黑色英菲尼迪QX80 SUV停靠在路边，车尾朝向道路，未移动。【左侧】对向车道有车辆驶过，包括一辆白色皮卡和一辆深色轿车，均正常通行。【交通设施】道路两侧为住宅区，绿化良好，人行道与车道由路缘石分隔。【关键风险】右侧路边停放的SUV虽静止，但其位置靠近车道线，存在“开门杀”潜在风险；同时，前方道路右侧出现橙色施工锥桶，提示可能存在临时施工区域，需警惕突发变道或行人横穿。",
+      "risk_tags": [
+        "parked_vehicle_obstacle",
+        "construction_zone_warning",
+        "door_opening_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】光照稳定，无遮挡或天气突变。【自车】保持中间车道匀速行驶，通过轻微转向适应道路曲率。【前方】一辆深灰色轿车在前车流中稳定行驶，未见急刹或变道行为。【右侧】黑色SUV仍停于路边，未移动；后方出现一辆银色皮卡从右侧车道超越并驶离。【交通设施】道路两侧可见限速35 mph标志牌，位于左侧路灯杆上，清晰可辨。【关键风险】右侧施工锥桶区域未见施工人员或作业设备，但锥桶排列暗示潜在危险，若行人或非机动车突然从该侧进入车道，将构成碰撞风险；此外，前方车辆间距较小，若其突然刹车，自车需保持足够制动距离。",
+      "risk_tags": [
+        "cone_barrier_area",
+        "rear_vehicle_speed_gap",
+        "braking_distance_requirement"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】阳光直射，部分区域出现树影斑驳，无降水或雾气。【自车】继续在中间车道匀速前行，随道路曲线自然调整方向，未进行变道或紧急操作。【左侧】对向车道车辆稀疏，偶有车辆驶过。【右侧】一辆蓝色皮卡停在住宅前院，车身部分伸出车道边缘；另有一辆黑色SUV在前方右转进入支路，完成动作后离开主路。【非标物体】右侧蓝色皮卡停放位置不规范，车头略微侵入行车道，可能影响后方车辆超车。【交通设施】前方路口设有停车标志（Stop Sign），位于右侧交叉口，自车即将接近。【关键风险】蓝色皮卡违规停放，增加后车变道或避让难度；临近路口时，需注意右侧可能突然出现的横向穿越车辆或行人；当前路段无明显障碍物，但因树木遮挡部分视野，存在“鬼探头”隐患。",
+      "risk_tags": [
+        "improper_parking",
+        "intersection_approach_risk",
+        "occlusion_by_trees",
+        "ghost_probe_potential"
+      ]
+    }
+  ]
+}

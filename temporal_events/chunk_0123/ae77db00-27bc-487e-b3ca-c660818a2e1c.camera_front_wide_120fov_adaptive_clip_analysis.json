@@ -1,0 +1,41 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.34,
+    "analysis_time": "2026-01-23 10:08:13"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴雨天气，路面湿滑积水严重，能见度较低，雨滴附着挡风玻璃影响视线。【自车】位于中间车道，匀速沿道行驶，未进行变道或转向。【左侧邻车道】一辆黑色“MUDCLEANER SERVICE-MOBIL”厢式货车从左后方超车，完成变道并保持在左前方车道，尾灯亮起，无明显制动行为。【右侧邻车道】一辆红色“ANKERTECHNIK”厢式货车在右前方车道行驶，尾灯常亮，车身稳定，未有切出或切入意图。【交通设施】道路右侧为高密度隔音墙，墙面有涂鸦；左侧为金属护栏与山体斜坡，部分路段有石砌护坡。【关键风险】左侧超车车辆在湿滑路面下加速变道，存在侧滑或失控风险；右侧红色货车虽稳定，但其车身高度可能遮挡后方小型车辆视线。",
+      "risk_tags": [
+        "wet_road",
+        "high_speed_overtake",
+        "reduced_visibility",
+        "blind_spot_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】持续阴雨，云层低垂，光线昏暗，雨势略有减弱但路面仍积水反光。【自车】保持中间车道匀速前行，随道路曲线自然行驶，未进行横向移动。【前方】黑色“MUDCLEANER”货车在左前方车道维持匀速，未变道；红色“ANKERTECHNIK”货车在右前方车道逐渐被自车超越，其车身侧面标识清晰可见，无异常动作。【右侧设施】隔音墙段落出现涂鸦，部分区域有自行车道护栏，但无行人或骑行者出现。【非标物体】无动物、施工设备或遗撒物。【关键风险】自车在湿滑弯道上高速行驶，前车（黑色货车）因车身较矮，在雨天易产生水雾遮挡视线，存在后车追尾或误判距离的风险。",
+      "risk_tags": [
+        "curved_road_hazard",
+        "rear_view_obstruction",
+        "speed_control_needed"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雨势进一步减小，天空略显灰白，能见度小幅提升，但仍存在薄雾感。【自车】继续在中间车道匀速沿道行驶，道路向左微弯，自车随曲率调整方向，未越线。【前方】黑色“MUDCLEANER”货车在左前方车道保持匀速，尾灯稳定，无刹车或变道迹象。【左侧设施】山体护坡由金属护栏过渡为石砌挡土墙，植被以秋季黄叶为主，部分树木已落叶。【右侧设施】隔音墙持续延伸，局部有蓝色停车标志牌（P），但无实际停车行为。【交通参与者】无行人、动物或其他非标准车辆出现。【关键风险】当前路段为连续弯道+湿滑路面组合，若自车速度过高，易发生侧滑；同时，左侧山体护坡边缘无警示标识，存在潜在落石或边坡塌方风险（虽未发生，但属长尾隐患）。",
+      "risk_tags": [
+        "continuous_curve_risk",
+        "low_visibility_continuation",
+        "slope_stability_concern"
+      ]
+    }
+  ]
+}

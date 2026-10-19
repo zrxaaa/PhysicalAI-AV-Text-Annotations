@@ -1,0 +1,38 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.43,
+    "analysis_time": "2026-01-23 17:23:36"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】夜间无路灯，仅靠车灯照明，能见度受限。路面为乡间柏油路，两侧植被茂密，左侧有低矮灌木丛，右侧为高大树木。【自车】在中间车道匀速沿道行驶，车头朝向道路中心线，未进行转向或变道。【交通设施】左侧远处可见一小型混凝土结构物（疑似废弃棚屋），但无动态交互。【关键风险】无明显障碍物或行人，但因光线昏暗，存在潜在视觉盲区；若前方突然出现动物或行人，易发生“鬼探头”事故。",
+      "risk_tags": [
+        "low_visibility",
+        "ghost_probe_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "【环境】继续夜间行驶，道路两侧植被密度增加，右侧出现金属围栏，疑似农场边界。【自车】保持中间车道匀速直线行驶，车头方向随道路微弯调整，未越线。【交通设施】右侧围栏后方可见数个白色栅栏门，部分门处于开启状态。【非标物体】无动物、无行人、无施工车辆。【关键风险】右侧围栏区域可能存在牲畜活动风险，但当前未观测到实体；若牲畜突然冲出，将构成突发碰撞威胁。",
+      "risk_tags": [
+        "fence_boundary_risk",
+        "low_visibility"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】道路进入一段较窄的林荫道，两侧树冠几乎交汇，形成天然隧道状。【自车】维持中间车道匀速行驶，横向位置稳定，未进行转向。【交通设施】前方约20米处出现一座小型石砌建筑（疑似农舍或车库），右侧围栏延伸至该建筑旁，围栏末端设有一扇金属门。【非标物体】无动物、无行人、无施工设备。【关键风险】林荫道内光线极差，视野被压缩，若前方突然出现静止障碍物（如倒伏树枝、掉落石块）或动物从树丛中窜出，自车反应时间将严重不足，存在高概率碰撞风险。",
+      "risk_tags": [
+        "tunnel_lighting_effect",
+        "obstacle_avoidance_challenge",
+        "animal_crossing_risk"
+      ]
+    }
+  ]
+}

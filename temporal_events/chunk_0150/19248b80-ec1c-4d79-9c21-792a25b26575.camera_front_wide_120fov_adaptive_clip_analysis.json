@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.34,
+    "analysis_time": "2026-01-23 21:59:02"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，路面湿滑积水，雨滴附着于挡风玻璃，能见度中等偏低。【自车】位于中间车道，执行减速制动，准备进入环岛区域。【周围交通参与者】左侧一辆黑色SUV在邻近车道匀速行驶；右侧一辆红色厢式货车从交叉口驶入，完成右转动作；前方一辆红色小型SUV（Opel Mokka）在环岛内侧车道缓慢行驶，刹车灯亮起。【交通设施】环岛中央有花坛与树木，四周设有多组交通标志牌（含让行、导向箭头、禁止驶入），右侧可见“Cavour”路牌及医院方向指示。【关键风险】环岛入口处无信号灯控制，多车交汇，存在潜在冲突点；红色SUV未保持安全跟车距离，可能引发追尾或变道冲突。",
+      "risk_tags": [
+        "uncontrolled_intersection",
+        "close_following",
+        "wet_road"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】持续阴雨天气，挡风玻璃雨刷器间歇工作，视野受轻微影响。【自车】保持中间车道，随道路曲率平缓前行，速度稳定。【周围交通参与者】左侧一辆红色SUV（Opel Mokka）完成环岛绕行后向左并线，切入自车所在车道，完成变道动作；其后方一辆银色轿车紧随其后，保持安全距离。右侧人行道上一名行人手持白色塑料袋，正沿斑马线横穿马路，面向自车方向行走，步速中等。【交通设施】前方出现一座带圆形镂空设计的绿色人行天桥，横跨道路，桥体两侧为红砖建筑；桥下设有“4.5m/5.0m”限高标志、“P”停车标志及“I.G.d'A ISTITUTO SCOLASTICO D'ANNUNZIO”学校标识牌。【关键风险】行人横穿时未观察来车，且处于自车前方盲区边缘；红色SUV变道未打转向灯，存在切出风险；天桥下方空间狭窄，若遇紧急制动易发生碰撞。",
+      "risk_tags": [
+        "jaywalking",
+        "improper_lane_change",
+        "narrow_clearance_zone"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雨势减弱，天空仍灰暗，路面水迹明显但未形成大面积积水。【自车】通过人行天桥下方，进入直行主干道，保持匀速行驶。【周围交通参与者】左侧对向车道车辆有序停放，部分车辆静止；右侧为红砖外墙现代建筑，外立面有玻璃幕墙和金属支撑结构，墙上有涂鸦；远处可见数辆汽车沿道路向前行驶，包括一辆红色SUV（同前车）在前方约30米处匀速行驶。【交通设施】天桥结构清晰可见，桥身中央有意大利国徽标志；桥下设有“Pedonal”（步行）警示牌及人行横道标线；右侧建筑旁立有“Target”、“AEROTO”等商业广告牌。【关键风险】右侧建筑墙体高大，遮挡视线，存在潜在“鬼探头”风险；自车前方车辆间距适中，无急刹迹象，整体交通流平稳，暂无直接碰撞威胁。",
+      "risk_tags": [
+        "occlusion_risk",
+        "longitudinal_traffic_stability"
+      ]
+    }
+  ]
+}

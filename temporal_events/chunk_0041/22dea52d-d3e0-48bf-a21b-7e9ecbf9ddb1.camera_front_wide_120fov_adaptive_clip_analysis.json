@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.32,
+    "analysis_time": "2026-01-21 23:02:27"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】暴雨天气，能见度极低，雨滴密集附着于挡风玻璃，路面严重积水并反射车灯红光。【自车】位于中间车道，执行匀速沿道行驶，未进行变道或转向。【前方】一辆红色SUV（车牌被模糊处理）在正前方车道行驶，尾灯持续亮起，表明其处于制动或缓行状态。【右侧】桥侧护栏外可见数个白色帐篷，疑似临时市集或活动区，无明显人员活动迹象。【交通设施】道路两侧为红砖砌筑的桥梁护栏，左侧远处可见铁路桥结构，路灯照明昏暗但稳定。",
+      "risk_tags": [
+        "heavy_rain",
+        "low_visibility",
+        "reduced_braking_distance"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】雨势未减，挡风玻璃水痕形成动态光晕，影响视线清晰度。【自车】保持中间车道匀速前行，未发生横向移动。【左侧邻道】一辆深色轿车从左后方超车，完成变道后驶离；随后一辆白色Jeep自由侠从对向车道驶来，完成超车动作后回归原道。【前方】红色SUV仍维持当前速度，刹车灯偶有闪烁，显示轻微减速。【右侧】帐篷区域因雨水雾化，细节模糊，但可辨识为固定搭建物，无车辆或行人干扰。【关键风险】左侧车道频繁有车辆超车，存在切出（Cut-out）至自车所在车道的风险，尤其在能见度低的情况下易引发碰撞。",
+      "risk_tags": [
+        "cut_out_risk",
+        "frequent_lane_changes",
+        "reduced_visual_clarity"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雨势略有减弱，但仍持续，路面反光与水雾交织。【自车】继续在中间车道匀速行驶，车头方向与道路曲率一致，未转向。【左侧邻道】一辆银灰色福特Edge SUV由左后方切入自车所在车道，完成变道后加速驶离；紧随其后，一辆白色Nissan Pathfinder亦从左侧超车并回归原道。【前方】红色SUV持续缓慢前行，刹车灯间歇性亮起，表明前方可能有拥堵或信号灯。【右侧】帐篷群后方出现电线杆及树木轮廓，部分区域有施工围挡痕迹，但无作业车辆或人员活动。【关键风险】多辆大型SUV在左侧频繁变道超车，且部分车辆未开启转向灯，构成“非礼让式加塞”行为，增加自车避让压力；同时，前方车辆制动频繁，提示潜在交通流不稳定，存在追尾或紧急制动风险。",
+      "risk_tags": [
+        "aggressive_lane_change",
+        "un signaled_cut_in",
+        "brake_fluctuation_risk"
+      ]
+    }
+  ]
+}

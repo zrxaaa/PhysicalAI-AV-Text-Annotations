@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.53,
+    "analysis_time": "2026-01-23 22:58:20"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】夜间，路面湿滑，有明显积水反光，路灯照明充足但存在眩光。【自车】在中间车道匀速沿道行驶，未进行变道或转向。【左侧】多辆轿车静止停靠于路边，部分车辆尾灯亮起；右侧亦有密集停放车辆，其中一辆深色SUV在自车右前方约5米处缓慢倒车入库，未开启转向灯。【交通设施】道路两侧设有蓝色“P”停车标志及人行横道标识，路侧可见“SPORT CLINIC CENTER”招牌。【关键风险】右侧深色SUV倒车行为未打转向灯，且车身侵占部分行车道，存在“开门杀”与“倒车盲区碰撞”风险。",
+      "risk_tags": [
+        "unsignaled_reversing",
+        "door_opening_risk",
+        "blind_spot_collision"
+      ]
+    },
+    {
+      "time_segment": "00:00:06-00:00:11",
+      "scene_description": "【环境】继续夜间行驶，能见度稳定，无明显天气突变。【自车】保持中间车道匀速前行，通过一个T字路口时轻微减速。【左侧】出现一排电动自行车与摩托车整齐停放于人行道旁，紧邻商铺橱窗；右侧为一栋粉色外墙建筑，底层设商铺，门面灯光亮起。【交通设施】路口设有蓝色行人/自行车专用标志，地面标线清晰。【非标物体】左前方人行道上停放的电动车中，有一辆白色共享电单车正在被一名行人推离停车位，该行人面部朝向自车方向，双手扶车把，动作缓慢。【关键风险】行人推车靠近行车道，若突然松手或失控，可能引发碰撞；同时，路口处有车辆从左侧支路驶出，未提前示意，存在交叉冲突风险。",
+      "risk_tags": [
+        "pedestrian_vehicle_interaction",
+        "cross_traffic_unsignalized",
+        "shared_bike_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:11-00:00:15",
+      "scene_description": "【环境】街道进入狭窄段落，两侧建筑密集，部分墙面有脚手架结构，局部区域被橙色施工围栏遮挡。【自车】维持中间车道匀速前进，随道路微弯调整方向盘角度，未越线。【右侧】施工围栏内可见绿色脚手架，围栏外停放多辆私家车，包括一辆红色小型车（车牌模糊）和一辆银灰色SUV。【左侧】建筑立面呈古典风格，部分窗户透出暖黄灯光，底层商铺已关闭，卷帘门拉下。【关键风险】右侧施工围栏与停放车辆形成狭窄通道，自车需谨慎避让；围栏后方有工人身影晃动，但未明确作业状态，存在潜在“施工人员突然冲出”的遮挡风险。",
+      "risk_tags": [
+        "narrow_road_with_obstructions",
+        "construction_zone_occlusion",
+        "worker_presence_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】夜间持续湿滑，路灯光线在潮湿路面形成强烈反射，部分区域产生水雾干扰视线。【自车】在中间车道匀速行驶，临近视频结尾处因前方车辆减速而轻微制动。【两侧】街道两侧仍密集停放车辆，右侧可见一辆红色厢式货车（疑似工程车）静止停靠，车顶装有长条形设备，车身侧面贴有“TIV”字样标识。【交通设施】道路尽头可见远处红绿灯信号，当前显示为绿灯。【非标物体】右侧施工围栏内有临时照明灯，照亮部分脚手架区域，但未见明显施工活动。【关键风险】红色厢式货车虽静止，但其车身高度及设备突出，可能影响横向通行空间；前方车辆减速导致自车需保持安全距离，存在“跟车过近”风险。",
+      "risk_tags": [
+        "high_vehicle_clearance_obstacle",
+        "following_distance_risk",
+        "static_vehicle_blocking_lane"
+      ]
+    }
+  ]
+}

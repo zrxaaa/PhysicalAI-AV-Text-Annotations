@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 05:59:50",
+    "processing_time_seconds": 11.22
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车在黄昏时分的十字路口等待，前方交通信号灯为绿灯，左侧有车辆从对向车道驶来，右侧人行横道清晰可见，路面湿滑但无明显积水。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "自车启动并沿直线路段行驶，道路两侧有电线杆和低矮建筑，前方红绿灯显示为红灯，自车减速停车，右侧路边有停放车辆和商铺招牌。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车在红灯前等待，前方交叉路口有多辆汽车正在通行，包括一辆白色皮卡和一辆蓝色轿车，右侧有商店霓虹灯亮起，天空呈现暮色渐暗状态。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "交通信号灯转为绿灯，自车准备起步，同时多辆汽车从左右方向快速通过交叉路口，包括一辆白色SUV和一辆银色轿车，自车保持静止观察路况。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车在绿灯后缓慢前行，前方车辆陆续通过路口，右侧人行道旁有树木和灌木丛，远处路灯照亮街道，整体环境安静且能见度良好。"
+    }
+  ]
+}

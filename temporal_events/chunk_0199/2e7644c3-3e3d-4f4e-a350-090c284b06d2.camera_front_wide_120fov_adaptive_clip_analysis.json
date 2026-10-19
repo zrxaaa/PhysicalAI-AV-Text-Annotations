@@ -1,0 +1,30 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.69,
+    "analysis_time": "2026-01-24 14:36:05"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:11",
+      "scene_description": "【环境】阴天，天空灰暗，无明显降水，路面干燥但略显湿滑，能见度良好。【自车】位于中间车道，初始在十字路口前停车等待红灯，随后绿灯亮起，开始匀速前行。【周围交通参与者】：右侧横向车道有多辆轿车（含银色SUV、白色MPV）在绿灯时快速通过交叉口；左侧对向车道有数辆轿车和一辆白色厢式货车（带绿色轮毂）由远及近驶来，部分车辆在自车前方横穿；远处可见多辆U-Haul租赁卡车停放在路侧停车场。【交通设施】：路口设有四组交通信号灯，当前为直行绿灯+左转黄灯；路牌显示“NE 20TH AVE NE”与“NE 85TH ST”，路口标线清晰，人行横道完整。【关键风险】：右侧一辆深灰色SUV在绿灯亮起后突然加速切入自车右前方车道，存在“切出”（Cut-out）行为，虽未完全侵入本车道，但因速度较快且无转向灯提示，构成潜在碰撞风险。",
+      "risk_tags": [
+        "cut_out",
+        "sudden_acceleration",
+        "insufficient_turn_signal"
+      ]
+    },
+    {
+      "time_segment": "00:00:11-00:00:19",
+      "scene_description": "【环境】持续阴天，光线均匀，无强逆光或遮挡。【自车】完成十字路口左转（或直行变道），进入主干道，沿双黄线道路继续向前行驶，保持匀速。【周围交通参与者】：左侧对向车道有白色特斯拉Model Y、黑色皮卡等车辆正常通行；右侧路边停放多辆U-Haul租赁卡车，车身印有广告，部分车辆静止；路旁有绿色垃圾箱、路灯杆及低矮灌木丛。【交通设施】：路口已通过，无信号灯控制；道路两侧有商业建筑（如Taco Time餐厅、U-Haul中心），但无施工区域或锥桶围挡。【关键风险】：自车转弯后，右侧路边出现一个大型绿色垃圾箱，位置紧邻路肩，若自车偏离车道或紧急制动，可能因空间狭窄导致剐蹭；此外，路边树木枝叶低垂，存在轻微视觉遮挡，但无行人或动物活动迹象，整体风险较低。",
+      "risk_tags": [
+        "narrow_clearance_object",
+        "visual_obstruction_by_foliage"
+      ]
+    }
+  ]
+}

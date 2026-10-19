@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 09:08:39",
+    "processing_time_seconds": 16.71
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在积雪覆盖的住宅区街道上匀速行驶，左侧一辆深色SUV从对向车道驶过，右侧路边停有一辆银色SUV和一辆灰色旅行车，路面部分结冰，两侧人行道有未融化的积雪。"
+    },
+    {
+      "time_segment": "00:00:06-00:00:12",
+      "scene_description": "自车继续直行，前方道路两侧出现多栋独栋住宅，路边停放车辆增多，右侧一辆灰色旅行车停靠在路肩，自车保持安全距离平稳通过，无行人或突发障碍物出现。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:16",
+      "scene_description": "前方出现一辆白色厢式货车，其后部车厢门敞开，正缓慢沿道路右侧行驶，自车与其保持约15米间距，未进行超车或变道，周围无其他动态交通参与者干扰。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车接近并超越右侧厢式货车，同时左侧一辆浅蓝色轿车从对向车道驶来，两车在狭窄路段交错而过，自车完成超车后恢复原车道，环境光线昏暗，天空阴沉。"
+    }
+  ]
+}

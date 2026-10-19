@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 06:18:55",
+    "processing_time_seconds": 11.25
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "夜间行驶于住宅区街道，自车保持匀速直行，右侧一辆白色SUV从路边驶出并加速变道至中间车道，与自车路径短暂交叉，路灯提供局部照明，路面干燥无障碍物。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "自车继续沿直线道路行驶，前方出现多辆停靠在两侧的车辆，右侧车道有黑色轿车驶过，未与自车发生交互，道路两侧房屋灯光昏暗，无行人或动态障碍物，环境安静且视野清晰。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:15",
+      "scene_description": "自车接近一个路口，道路两侧停放车辆增多，左侧出现一辆深色轿车从停车位驶出并缓慢汇入车流，未对自车造成影响，路灯间距均匀，能见度良好，无突发交通行为。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车在路口前减速，准备左转或直行，右侧一辆白色SUV从右方快速驶过并切入前方车道，自车保持低速平稳通过交叉口，无其他车辆或行人干扰，环境安静且交通流畅。"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.1,
+    "analysis_time": "2026-01-22 14:27:26"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间暴雨天气，路面严重积水，灯光在水面上形成强烈反射与光晕，能见度较低。雨刷器持续工作但无法完全清除挡风玻璃上的水膜。【自车】位于中间车道，匀速沿直道前行，未进行变道或转向。【前方】一辆银灰色SUV在前车流中行驶，尾灯清晰可见，与自车保持安全距离。【右侧】人行道上有行人撑伞行走，因雨雾遮挡，面部朝向和肢体动作模糊，无明显横穿意图。【交通设施】道路两侧路灯密集，部分区域有绿色交通信号灯亮起，指示通行。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility",
+        "water_reflection_hazard"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】雨势略有减弱，但仍持续，路面反光依旧强烈。【自车】保持中间车道匀速前进，随道路曲率自然转弯，未发生横向偏移。【左侧】对向车道车辆密集，车流平稳通过交叉口。【右侧】出现一排商铺及银行（CHASE），门前有数名行人站立，其中一人正低头看手机，未朝向马路；另一人推婴儿车缓慢移动，未进入车道。【交通设施】前方路口绿灯持续，交通信号灯杆上附有“30”限速标志，清晰可见。【非标物体】右侧路边停放多辆私家车，车身被雨水覆盖，无作业状态，未构成障碍。",
+      "risk_tags": [
+        "crossing_traffic_light",
+        "pedestrian_distraction",
+        "no_immediate_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "【环境】进入城市核心区，高楼林立，部分建筑顶部有霓虹装饰灯光，雨雾使远处建筑轮廓模糊。【自车】继续在中间车道匀速行驶，轻微向右微调方向以适应道路弧度。【左侧】出现施工围挡与临时护栏，内有橙色锥桶与警示牌，提示“Construction Zone”。【右侧】一栋古典风格建筑外立面悬挂大型黄色横幅，内容为“new home. new vision. new era.”，其后方有塔吊静止矗立，未作业。【交通设施】前方路段设有减速带与导流线，引导车流分道。【关键风险】左侧施工区有工人短暂出现，但未进入行车道，无直接碰撞风险；右侧塔吊高度超过车道，但处于静止状态，不构成动态威胁。",
+      "risk_tags": [
+        "construction_zone",
+        "tall_structure_clearance",
+        "no_active_obstacle"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】雨势加剧，能见度进一步下降，部分路灯因雨水折射产生星芒状光斑。【自车】维持当前车道，速度略有降低以应对湿滑路面。【前方】一辆红色轿车在自车左前方车道加速超车，完成切出动作后驶离视野。【右侧】施工区域扩大，新增混凝土隔离墩与临时围栏，围挡内有挖掘机静止停放，机械臂收拢，无作业迹象。【行人】人行道上行人减少，仅零星几人快速通过，均未靠近车道边缘。【交通设施】道路右侧出现“NO STANDING ANYTIME”禁停标志，配合锥桶与警戒线，强化管制。【关键风险】前方路面因积水导致刹车距离延长，自车需保持更长跟车距离；右侧施工区存在潜在“开门杀”风险（如施工人员突然打开设备门），但目前无实际动作。",
+      "risk_tags": [
+        "wet_road_braking_distance_increase",
+        "construction_site_door_opening_risk",
+        "low_pedestrian_activity"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 04:18:36",
+    "processing_time_seconds": 13.14
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "自车沿城市街道直行，道路两侧停有车辆，右侧白色SUV和银色轿车先后从右车道驶离。左侧人行道上有行人行走，前方可见高层建筑与树木，天气晴朗，路面干燥无积水。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:11",
+      "scene_description": "车辆接近十字路口，路面上标有“STOP”字样，右侧停有一辆白色货车，前方斑马线处一名行人开始横穿马路。自车在接近停止线时减速，准备停车让行。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "行人完成穿越，自车在斑马线前完全停下，同时一辆白色厢式货车从右侧路口驶入并横向通过交叉口。左侧对向车道有黑色轿车驶近，但未与自车路径冲突。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:20",
+      "scene_description": "信号灯转为绿灯，自车启动前行，左侧一辆白色SUV从对向车道驶过，右侧路边停放多辆汽车。道路标线清晰，无施工或障碍物，环境安静，交通流畅。"
+    }
+  ]
+}

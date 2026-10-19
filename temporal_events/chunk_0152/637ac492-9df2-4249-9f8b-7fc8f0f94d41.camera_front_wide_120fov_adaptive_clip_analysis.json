@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 19.09,
+    "analysis_time": "2026-01-23 22:40:34"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间浓雾天气，能见度极低，路灯灯光被雾气散射形成黄色光晕，路面湿滑反光。【自车】位于最左侧车道，正沿弯道向右转向行驶，车头偏航角逐渐增大。【交通设施】左侧出现“SOTTOPASSO”（隧道/下穿通道）指示牌及导向箭头标志，右侧为金属护栏与绿化带。【关键风险】前方道路因雾气遮挡，无法看清是否有障碍物或对向车辆，存在潜在碰撞风险；自车在弯道处需谨慎控制转向角度以防偏离车道。",
+      "risk_tags": [
+        "low_visibility",
+        "poor_weather",
+        "lane_deviation_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】持续浓雾，部分路灯因雾气呈现“光团”效果，能见度仍低于50米。【自车】完成左转后进入直道，切换至中间车道，保持匀速直线行驶。【交通设施】右侧出现三角形让行标志与直行指示标志，路肩护栏连续延伸；左侧远处可见模糊的蓝色路牌和对向车灯轮廓。【周围参与者】无明显其他车辆或行人出现在50米内视野范围内，仅远处有微弱车灯闪烁但无法确认运动状态。【关键风险】由于雾气导致视觉盲区扩大，前方可能突然出现静止障碍物或横穿车辆，自车需依赖雷达/ADAS系统辅助决策。",
+      "risk_tags": [
+        "longitudinal_blind_spot",
+        "no_visible_traffic",
+        "reliance_on_sensor_fusion"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雾气略有稀薄，但仍笼罩整个视野，路灯亮度稳定但光线扩散严重。【自车】保持在中间车道匀速前进，未进行变道或急刹动作。【交通设施】道路两侧护栏持续存在，右侧护栏外为植被区域；前方出现限速标志（圆形禁速标志）及方向指示牌。【周围参与者】无任何车辆、行人或动物出现在自车50米半径内。【关键风险】虽无直接交互对象，但长期处于低能见度环境，驾驶员注意力易疲劳，且若发生突发状况（如前车急停、路面塌陷），自车反应时间将严重受限。此外，前方限速标志提示需减速，但当前车速未调整，存在超速风险。",
+      "risk_tags": [
+        "driver_attention_degradation",
+        "speed_mismatch_with_signage",
+        "persistent_low_visibility"
+      ]
+    }
+  ]
+}

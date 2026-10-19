@@ -1,0 +1,34 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.68,
+    "analysis_time": "2026-01-24 13:18:58"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】自车位于城市高架桥下，光线由暗转亮，无异常天气。【自车】在中间车道内静止等待，前方为拥堵车流。【周围交通参与者】左侧邻车道有银色轿车与红色小型SUV依次向左变道；右侧车道有多辆私家车及一辆银色皮卡，均处于缓行状态。【交通设施】前方路口设有交通信号灯，当前为绿灯，但车流密集导致通行缓慢。【关键风险】右侧银色皮卡在未打转向灯情况下，向左轻微切线靠近自车车道，存在潜在加塞风险（Aggressive Cut-in）。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "traffic_congestion"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】驶出高架桥，进入开阔城市道路，晴朗天空，能见度良好。【自车】从静止状态起步，沿中间车道匀速前行。【周围交通参与者】前方银灰色SUV保持同向行驶；左侧对向车道有红色小型SUV、银色轿车等车辆正常通过交叉口；右侧车道有白色面包车与黑色皮卡并行，后方黑色皮卡在右转车道减速。【交通设施】路口设有红绿灯与“Freeway Entrance”指示牌，自车在绿灯放行下直行通过交叉口。【非标物体】路口左侧人行道上有两名行人站立，面向街道，未横穿马路，无明显危险行为。【关键风险】无显著风险，但右侧黑色皮卡在右转时未完全靠边，可能影响自车右侧通行空间。",
+      "comment": "此段无严重安全威胁，未标注risk_tags"
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】道路两侧出现绿化坡地与商业建筑，天气晴好，无遮挡物。【自车】保持在中间车道匀速行驶，沿直线道路前进。【周围交通参与者】前方银灰色SUV持续行驶，未变道；右侧车道有一辆深色卡车在慢速行驶，其后方有橙色施工警示牌，提示“Road Work Ahead”。【交通设施】道路右侧设有“California 405 North Freeway Entrance”标志牌，提示即将进入高速公路匝道。【关键风险】右侧施工区域存在临时路障与警示牌，虽无作业车辆，但提示前方可能有施工活动或车道缩减，需注意后方车辆可能突然变道。此外，道路左侧坡地有少量垃圾堆积，无直接路面障碍，但属潜在环境隐患。",
+      "risk_tags": [
+        "construction_zone_warning",
+        "lane_reduction_potential"
+      ]
+    }
+  ]
+}

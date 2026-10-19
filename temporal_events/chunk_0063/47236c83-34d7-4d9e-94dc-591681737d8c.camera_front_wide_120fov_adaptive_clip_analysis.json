@@ -1,0 +1,48 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 18.25,
+    "analysis_time": "2026-01-22 08:07:17"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，云层较厚，无明显降水，路面干燥。【自车】位于中间车道，匀速沿道行驶，未见明显加速或制动。【左侧】一辆白色工程卡车（带升降臂）停靠在路边，作业人员在吊篮中，车身占据部分左侧行车道；后方有黑色SUV驶过。【右侧】多辆私家车（含银色轿车、黑色轿车）沿路边有序停放。【非标物体】左侧工程车吊臂处于升起状态，但未伸向道路中央，无直接碰撞风险。【关键风险】左侧工程车作业区域存在潜在视线遮挡，若自车变道需谨慎评估空间。",
+      "risk_tags": [
+        "construction_vehicle",
+        "partial_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:09",
+      "scene_description": "【环境】天空仍阴沉，能见度良好，无强光或雨雾干扰。【自车】保持中间车道匀速前行，接近十字路口。【前方】一辆白色FedEx货车在远处十字路口等待，未移动。【右侧】一棵枝叶茂密的垂柳树遮挡部分视野，树下有行人站立。【交通设施】前方路面出现“STOP”字样标记，右侧路口设有红色停车标志牌（STOP sign），并配有“ALL WAY”标识。【关键风险】右侧人行道有行人聚集，可能突然横穿马路；垂柳遮挡视线，增加“鬼探头”风险。",
+      "risk_tags": [
+        "pedestrian_group",
+        "occlusion_by_vegetation",
+        "stop_sign_intersection"
+      ]
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "【环境】光线稳定，无天气突变。【自车】在十字路口前减速停车，遵守“STOP”标线及停车标志。【左侧】一辆白色丰田普锐斯从对向车道横向穿越路口，完成左转动作。【右侧】一辆深灰色特斯拉Model 3从右向左直行通过路口，车速平稳。【周围车辆】多辆私家车在路口两侧等待或通行，包括一辆银色本田飞度和一辆黑色本田CR-V。【非标物体】路口东北角有一名身穿橙色背心的施工人员站在人行道上，手持工具，未进入车道。【关键风险】交叉路口存在多方向车辆同时通行，需警惕未完全停止的车辆或闯红灯行为；施工人员虽在人行道，但靠近车道边缘，存在被误入车辆撞击的风险。",
+      "risk_tags": [
+        "multi_directional_traffic",
+        "crossing_vehicle",
+        "construction_worker_proximity"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】阴天，光照均匀，无特殊天气影响。【自车】在路口完成停车后，向右转向进入新街道，完成变道动作。【右侧】一辆灰色皮卡（Toyota Tundra）停在路边，车顶装有长条形货架，车身占用部分右侧行车道。【后方】一辆白色工程车（带电缆卷盘）停在路右侧，车尾朝向自车，旁边放置两个橙色锥桶，提示施工区域。【左侧】沿街商铺前有行人走动，部分店铺门口有遮阳棚。【交通设施】新街道为单向通行，路面标线清晰，右侧设“BUS STOP”字样。【关键风险】自车右转时需注意右侧皮卡与工程车之间的狭窄间隙；施工锥桶可能因风力或车辆震动移位，造成临时障碍物风险。",
+      "risk_tags": [
+        "right_turn_maneuver",
+        "narrow_clearance",
+        "temporary_obstacle"
+      ]
+    }
+  ]
+}

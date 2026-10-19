@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 10:24:01",
+    "processing_time_seconds": 15.49
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在高速主路中间车道行驶，前方有白色货车、银色SUV和白色皮卡，右侧银色轿车从右车道加速并入中间车道，上方出现绿色高速公路指示牌，显示出口信息。天气晴朗，路面干燥，无明显障碍物。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:10",
+      "scene_description": "自车保持匀速直行，右侧白色皮卡持续在右车道行驶，左侧黑色SUV从左车道超越后回到原车道，前方车辆间距稳定，道路两侧为混凝土护栏，右侧可见高架桥结构，无行人或突发交通事件。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "自车继续沿主路前进，右侧高架桥逐渐形成弯曲结构，左侧护栏上出现涂鸦图案，前方车辆保持原有队形，未发生变道或急刹行为，道路右侧出现施工围挡但无人员活动，光照条件稳定。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "自车驶近一个大型弯道高架桥下方，两侧混凝土墙上有连续涂鸦装饰，右侧白色皮卡在右车道缓慢行驶，前方车辆保持安全距离，无紧急制动或变道行为，整体交通流平稳，环境无显著变化。"
+    }
+  ]
+}

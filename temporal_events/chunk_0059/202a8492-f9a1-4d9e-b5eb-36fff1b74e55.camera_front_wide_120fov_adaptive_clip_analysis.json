@@ -1,0 +1,36 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.64,
+    "analysis_time": "2026-01-22 06:08:53"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "【环境】多云天气，光线均匀，无明显降水或雾气，能见度良好。【自车】位于中间车道，保持匀速沿直道行驶，未进行变道或转向。【前方】一辆深色轿车在前车流中稳定行驶，与自车保持安全距离。【右侧】路边绿化带茂密，人行道与非机动车道并行，设有自行车道标识；路肩可见橙色施工锥桶及临时围挡，但无作业车辆或人员活动。【交通设施】路面标线清晰，包括左转箭头、虚实分道线及“Bike Lane”标识。【关键风险】无显著风险，未发现违规行为或障碍物。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "【环境】光照稳定，无天气突变。【自车】继续在中间车道匀速行驶，随道路微弯自然前行，未发生横向偏移。【前方】深色轿车持续在前车流中行驶，未出现急刹或变道。【右侧】出现多个橙色施工警示牌，包括“CAUTION STEEL PLATES AHEAD”和“MOTORCYCLES USE EXTREME CAUTION”，提示前方为施工过渡区。【非标准物体】路边有少量倒伏树枝及修剪后的植物残枝，位于路肩边缘，未侵入行车道。【交通设施】右侧设有限速40的标志牌，提示限速调整。【关键风险】施工区域存在潜在路面不平风险（钢板路段），需注意避让；摩托车警示牌提示该路段可能有高速通过的两轮车，需提高警觉。",
+      "risk_tags": [
+        "construction_zone",
+        "road_surface_risk",
+        "motorcycle_caution"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】晴朗，视野开阔，无遮挡。【自车】维持中间车道匀速行驶，接近一个交叉路口。【左侧】对向车道有一辆银灰色小型货车驶过，未进入本车道。【右侧】路口处设有红色铺装的人行横道及橙色锥桶围挡，显示为施工或临时管制区域。【交通设施】路口前方出现“WILLOW CREEK AVENUE”路牌，表明即将到达交叉口。【关键风险】自车即将进入交叉路口，需注意右侧可能突然出现的行人或车辆；施工锥桶虽未阻挡车道，但其密集布置可能造成视觉干扰，增加判断失误风险；无动物或特种车辆出现，整体风险可控。",
+      "risk_tags": [
+        "intersection_approach",
+        "visual_distraction_from_cones",
+        "crossing_point_proximity"
+      ]
+    }
+  ]
+}

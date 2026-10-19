@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.97,
+    "analysis_time": "2026-01-21 19:53:40"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，云层厚重，无明显降水，路面干燥但光线昏暗。【自车】位于中间车道，正接近十字路口，执行减速并准备停车。【前方】一辆红色轿车在左前方邻车道，与自车同向；一辆蓝色小型车在正前方车道，同样减速。【右侧】路边有橙色施工锥桶和“DETOUR”指示牌，提示绕行。【交通设施】前方交通信号灯为红灯，倒计时显示，路牌标示“NE 70TH ST”。【关键风险】左侧一辆白色跑车从辅道快速切入主路，未打转向灯，处于自车左前侧约8米处，存在加塞风险。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "signal_light_wait",
+        "construction_zone"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】天空仍阴沉，无降雨，能见度良好。【自车】在绿灯亮起后启动，沿中间车道匀速前行。【前方】红色轿车完成左转，蓝色小车继续直行；对向车道车辆有序通过。【右侧】出现自行车道标识及“ONLY”字样路面标记，提示该车道仅限特定车辆通行。【非标物体】右侧人行道旁有橙色“DETOUR”标志牌，旁边有行人站立，但未进入车道。【关键风险】右侧车道有一辆黑色皮卡突然加速超车，从自车右后方切入至右前方，距离自车不足3米，存在切出碰撞风险。",
+      "risk_tags": [
+        "cut_out_risk",
+        "speeding_vehicle",
+        "lane_change_violation"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】道路两侧绿化带茂密，树木高大，部分遮挡视线。【自车】保持当前车道行驶，车速因前方车流密集而缓慢下降，进入缓行状态。【周围】左侧车道多辆SUV、轿车排队等候，部分车辆开启转向灯准备变道；右侧车道车流稀疏，偶有车辆驶入。【交通设施】路面上出现“ONLY”字样及左转箭头标线，提示该车道仅允许左转或直行。【关键风险】前方一辆银色SUV在未打转向灯情况下，从右侧车道强行切入自车所在车道，位于自车右前方约5米处，构成典型“加塞”行为，可能引发追尾或紧急避让。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "no_turn_signal",
+        "traffic_congestion"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】天气无变化，光线稳定。【自车】在拥堵路段维持低速前进，车距极近。【前方】车队持续排队，最前方为蓝色小车，其后有多辆私家车紧随。【右侧】可见“WHOLE FOODS”商店招牌，路边停放多辆汽车，部分车辆从支路驶出。【非标物体】右侧人行道边缘有少量垃圾袋遗撒，未影响行车路径。【关键风险】右侧支路出口处，一辆深色SUV突然加速冲出，试图抢行进入主路，位于自车右前方约4米处，存在“鬼探头”风险，且未观察主路车流，极易引发事故。",
+      "risk_tags": [
+        "ghost_probe",
+        "unpredictable_vehicle",
+        "right_turn_violation"
+      ]
+    }
+  ]
+}

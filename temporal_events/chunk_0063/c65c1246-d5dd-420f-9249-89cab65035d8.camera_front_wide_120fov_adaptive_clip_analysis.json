@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.75,
+    "analysis_time": "2026-01-22 08:12:12"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间暴雨天气，雨滴附着于挡风玻璃形成大面积水膜与光晕，导致能见度极低。【自车】位于中间车道，正以匀速沿道路前行，未见明显加速或减速。【前方】一辆深色轿车在约30米外行驶，尾灯清晰可见，保持稳定跟车距离。【交通设施】道路两侧路灯稀疏，左侧有模糊路牌轮廓，右侧为树林边缘，无明显标线或护栏。【关键风险】因雨水严重干扰视线，且前方车辆尾灯被水雾模糊，存在“视觉延迟”风险；若前车急刹，自车可能无法及时反应。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility",
+        "delayed_visual_feedback"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】雨势略有缓和，但挡风玻璃仍存大量水渍与光斑，尤其左上角出现强光反射（疑似对向车灯）。【自车】维持中间车道匀速行驶，随道路微弯自然调整方向，未进行变道或转向。【前方】前车持续在前方行驶，车距稳定在25–30米，无刹车或变道迹象。【交通设施】右侧路边出现一个白色方形路牌（内容不可辨），后方有黄色菱形警示牌（提示弯道或交叉口）。【非标物体】无动物、施工车或遗撒物出现。【关键风险】左侧强光反射造成视觉干扰，易误判前方障碍物；右侧弯道警示牌提示潜在路径变化，需提前预判转向角度。",
+      "risk_tags": [
+        "light_reflection_interference",
+        "bend_warning",
+        "visual_distraction"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】进入一段较暗路段，仅靠车灯照明，路面湿滑反光明显，雨量未减。【自车】仍在中间车道匀速前进，车头轻微随弯道偏航，但未越线。【前方】前车继续行驶，尾灯稳定，未见异常行为。【交通设施】道路右侧出现连续黄色弯道警示标志，提示前方为连续弯道。【关键风险】由于光线昏暗+路面积水+雨滴遮挡，前方视野受限，若遇突发障碍（如倒伏树枝、行人）将难以及时识别；同时，连续弯道区域增加转向控制难度，存在侧滑或偏离车道风险。",
+      "risk_tags": [
+        "low_light_driving",
+        "wet_road_slip_risk",
+        "continuous_bend_challenge"
+      ]
+    }
+  ]
+}

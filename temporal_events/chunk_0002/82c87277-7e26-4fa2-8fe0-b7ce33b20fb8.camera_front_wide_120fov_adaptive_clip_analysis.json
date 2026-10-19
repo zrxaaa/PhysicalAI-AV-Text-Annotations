@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:16:33",
+    "processing_time_seconds": 21.06
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "左侧建筑旁有路灯照明，远处可见多层住宅楼，道路标线清晰，无行人出现，所有车辆均处于静止状态，未发生明显交互行为。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "路口上方悬挂‘Monteque’路牌，右侧交通灯仍为红灯，自车在直行车道平稳加速，红色轿车完成转向后驶入前方车道，未发生碰撞或冲突。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "道路右侧设有自行车道标识，左侧为多层住宅区，车辆保持匀速行驶，未出现紧急制动或变道行为，整体交通流顺畅。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "道路右侧出现黄色菱形警示标志，提示前方弯道，自车保持当前车道，未进行超车或变道，与前方红色轿车保持安全距离。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "道路两侧建筑风格统一，天空灰暗，光线昏暗，路面无积水，交通参与者行为正常，整体场景稳定有序，无异常事件发生。"
+    }
+  ]
+}

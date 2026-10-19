@@ -1,0 +1,43 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 10.45,
+    "analysis_time": "2026-01-24 09:33:16"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间无照明，仅靠车灯照明；道路两侧为密集树林，无路灯或任何交通设施；路面覆盖积雪，部分区域有压实痕迹，能见度极低。【自车】在中间车道匀速沿道行驶，未进行转向或变道。【周围】无其他车辆、行人或动物出现；左侧与右侧林木轮廓因车灯照射呈现绿色光晕，但无动态物体。【关键风险】夜间雪地+无路标+无照明，存在视觉盲区风险；前方道路弯曲且被树木遮蔽，无法预判弯道内是否有障碍物或突发状况。",
+      "risk_tags": [
+        "night_driving",
+        "low_visibility",
+        "unmarked_road",
+        "obstacle_uncertainty"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】持续夜间雪地驾驶，车灯照亮前方约20米范围；道路两侧树木逐渐形成“拱形隧道”结构，枝条低垂，部分遮挡上方视野。【自车】保持中间车道匀速直线行驶，随道路自然弯曲调整方向，未发生转向动作。【周围】无任何交通参与者（车辆/行人/动物）；左侧偶见倒伏树枝或枯枝横亘于雪堆边缘，但未侵入行车道。【交通设施】无任何标志牌、护栏或路桩；仅在远处隐约可见一根孤立的电线杆，未提供导航参考。【关键风险】树木枝条可能突然掉落或刮擦车身；雪地反光与黑暗背景对比强烈，易造成视觉疲劳或误判路面高度；前方弯道无预判标识，存在失控风险。",
+      "risk_tags": [
+        "tree_branch_obstruction",
+        "visual_fatigue_risk",
+        "no_navigational_aids",
+        "curved_road_uncertainty"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】继续夜间雪地行驶，车灯照射范围稳定；道路进入轻微右转弯道，两侧林木仍呈拱形，但右侧树丛更密集，局部遮挡视线。【自车】维持当前车道，随弯道自然向右微调车头方向，未越线；速度保持匀速，无制动或加速行为。【周围】无任何移动目标；右侧雪堆边缘出现一小段金属护栏残骸，疑似废弃，未对行驶构成直接威胁。【交通设施】无任何交通标志、信号灯或施工围挡；前方约30米处出现一道横向沟渠，被雪覆盖，需谨慎通过。【关键风险】沟渠被雪掩盖，可能导致轮胎打滑或悬空；右侧密集树丛增加“鬼探头”概率（虽无生物出现，但林中可能存在野生动物活动迹象）；夜间长时间单一场景易导致注意力下降，诱发操作失误。",
+      "risk_tags": [
+        "hidden_obstacle",
+        "gully_in_snow",
+        "attention_degradation",
+        "wildlife_potential_risk"
+      ]
+    }
+  ]
+}

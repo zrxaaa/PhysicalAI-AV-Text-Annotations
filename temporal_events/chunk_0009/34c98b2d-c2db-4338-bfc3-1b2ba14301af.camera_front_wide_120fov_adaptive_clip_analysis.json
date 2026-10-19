@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 02:29:17",
+    "processing_time_seconds": 11.89
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "前方交通信号灯为绿灯，车辆保持匀速前进，右侧路边出现橙色施工锥桶，但无施工人员或障碍物阻碍通行。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "信号灯仍为绿灯，自车跟随前车缓慢前行，右侧路口有行人未出现，但可见人行横道线和交通标志牌，环境持续阴雨，视野模糊。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "转弯过程中，自车与右侧房屋前停放的白色皮卡发生空间交互，该皮卡位于自车右后方，未影响转向路径，周围无行人活动。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "道路右侧出现黄色弯道警示牌，自车未减速，继续沿直线行驶。远处可见几栋联排住宅，无行人或突发交通事件，场景趋于稳定。"
+    }
+  ]
+}

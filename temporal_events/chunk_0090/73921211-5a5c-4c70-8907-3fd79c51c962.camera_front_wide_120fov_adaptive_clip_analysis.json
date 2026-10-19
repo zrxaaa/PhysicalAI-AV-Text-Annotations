@@ -1,0 +1,38 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.48,
+    "analysis_time": "2026-01-22 20:25:36"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，云层厚重，无明显降水但路面湿滑，能见度中等。【自车】位于中间车道，处于缓行状态，随前方车流减速。【左侧】一辆白色轿车在左前侧邻车道缓慢向右变道，未打转向灯；其后方一辆银色SUV正加速试图超车。【右侧】路肩停放多辆私家车，人行道旁有光秃树木，无行人活动。【交通设施】前方路口信号灯为红灯，车辆均在停止线前等待。【关键风险】左侧白色轿车存在“压实线强行切入”（Aggressive Cut-in）意图，与自车距离小于5米，构成潜在碰撞威胁。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "braking_required",
+        "signal_light_wait"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】天空仍阴沉，无降雨，路面反光明显，部分区域积水。【自车】保持在中间车道，匀速跟随前方黑色雪佛兰皮卡行驶。【左侧】银色SUV完成变道，驶入左转专用车道并开始左转；其后方一辆白色轿车加速从左后方超越自车，完成切出动作。【右侧】一辆白色日产轿车在右后侧车道缓慢向前移动，未发生变道或加塞行为。【交通设施】前方信号灯由红灯转为绿灯，车流开始启动。【关键风险】左后方白色轿车加速超车时未保持安全横向间距，存在“切出干扰”风险，但未造成实际碰撞。",
+      "risk_tags": [
+        "cut_out_interference",
+        "green_light_transition"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】天气无显著变化，光线均匀，路面湿滑但无积水成片。【自车】继续在中间车道沿直道行驶，速度稳定。【前方】黑色雪佛兰皮卡保持匀速，尾灯常亮。【左侧】一辆白色现代SUV从左前侧车道切入自车所在车道，完成变道后维持当前车速；其后方一辆白色丰田轿车亦完成左转并汇入直行车道。【右侧】白色日产轿车持续在右后侧车道行驶，未靠近自车。【非标物体】道路两侧无动物、施工设备或遗撒物，仅见路边商铺招牌（如“SUITE FOOD LOUNGE”）及裸露树枝。【关键风险】左侧两车连续变道，虽未违规，但在低速车流中增加横向交互复杂度，存在轻微“加塞博弈”风险，但未触发紧急避让。",
+      "risk_tags": [
+        "multi_lane_change",
+        "low_speed_interaction_risk"
+      ]
+    }
+  ]
+}

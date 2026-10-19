@@ -1,0 +1,41 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.24,
+    "analysis_time": "2026-01-21 22:49:13"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】重度大雾天气，能见度低于100米，天空灰白模糊，路面无明显反光。【自车】位于中间车道，从十字路口左转后沿直道匀速前行，车头偏航角随道路曲率微调。【左侧】路边可见一排落叶乔木与黑色铁艺围栏，围栏后为住宅区；远处隐约可见一栋两层建筑。【右侧】空旷停车场边缘有蓝色儿童游乐设施，因雾气遮挡细节不清。【交通设施】路口设有路灯及路缘石，未见明显标线或信号灯。【关键风险】无显著障碍物或违规行为，但浓雾导致横向视野受限，存在潜在“鬼探头”风险（如突然出现行人或车辆）。",
+      "risk_tags": [
+        "heavy_fog",
+        "reduced_visibility",
+        "ghost_probe_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】大雾持续，能见度略有改善至约150米，但仍模糊。【自车】保持中间车道匀速直线行驶，轻微跟随道路弧度。【右侧】沿路可见一排低矮灌木与人行道，其后为平静水面（疑似湖泊），湖边有几棵枝叶稀疏的树。【左侧】草坪区域延伸至远处，偶有路灯和小型标识牌。【交通设施】前方出现黄色菱形“BUMP”警示牌与行人过街标志，立于右侧路灯杆上；地面未见减速带标记，但路面上有数道环形轮胎印迹，暗示此前可能有车辆急转或漂移。【关键风险】无直接交互威胁，但环形胎痕提示该路段可能存在非标准驾驶行为，需警惕突发转向或失控车辆。",
+      "risk_tags": [
+        "tire_mark_warning",
+        "bump_sign_required",
+        "low_visibility_driving"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雾气仍浓，但局部区域因地形或植被遮挡产生微小视觉差异。【自车】在中间车道继续匀速前进，接近前方交叉路口。【前方】路口处有白色“BUMP”路面标线与箭头指示，同时可见对向车道有车辆静止等待（约30米外）。【右侧】靠近路口处有一栋双层住宅，外墙为米色，门前停有白色SUV；住宅旁设棕色木栅栏，栅栏后有棕榈树。【左侧】另一条支路入口处有停车线与绿化带，远处可见一辆深色轿车驶入。【交通设施】路口设有“BUMP”与“PEDESTRIAN CROSSING”双标牌，下方为斑马线；自车正对路口中央，即将进入交叉区域。【关键风险】无明显违规行为，但前方路口存在多车交汇可能性，且雾天中行人横穿概率升高。右侧住宅区门口停放车辆可能引发开门杀风险，需注意侧方动态。",
+      "risk_tags": [
+        "intersection_approach",
+        "pedestrian_crossing_zone",
+        "parked_vehicle_door_risk",
+        "foggy_intersection"
+      ]
+    }
+  ]
+}

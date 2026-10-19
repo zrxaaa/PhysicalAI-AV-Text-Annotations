@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 10.48,
+    "analysis_time": "2026-01-24 06:37:41"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，天空灰暗，无明显降水但路面湿滑，能见度良好。【自车】在中间车道匀速沿直道行驶。【左侧】一辆白色丰田雅力士从对向车道驶来，完成超车后驶离视野；【前方】一辆红色SUV（疑似丰田C-HR）从右侧路口驶入主路，切入自车前方车道，未打转向灯，存在违规变道风险。【关键风险】红色SUV突然切入，与自车横向距离小于3米，触发紧急避让预警，属于‘Aggressive Cut-in’行为。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "crossing_vehicle",
+        "low_visibility_weather"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】持续阴天，光线均匀，无强逆光或遮挡。【自车】保持中间车道匀速前行。【右侧】人行道上出现三名行人（含一名推婴儿车的女性），正沿路边行走，其中一人面向自车方向，低头看手机，未观察交通；【前方】一辆白色福特货车从对向车道驶来，完成会车后继续前行；【左侧】一排住宅前停放多辆私家车，无动态障碍物。【关键风险】行人组中有人未注意来车，存在横穿马路潜在意图，构成‘鬼探头’隐患；同时，自车与行人纵向距离约15米，若行人突然加速横穿将无法及时制动。",
+      "risk_tags": [
+        "pedestrian_crossing_risk",
+        "distracted_pedestrian",
+        "no_obstacle_clearance"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】道路两侧植被稀疏，部分树木无叶，属冬季或早春季节；路面干燥，无积水。【自车】在中间车道减速至接近停止状态，准备通过前方交叉路口。【左侧】一辆银色轿车从邻近车道缓慢驶出，未完全并入主路，形成临时切出障碍；【右侧】一名穿深色外套的男性行人从人行道走出，朝自车方向步行，面部朝向前方，步态平稳，无异常动作；【交通设施】前方为T字路口，设有路牌和路灯，无信号灯控制。【关键风险】银色轿车切出行为导致自车需减速避让，存在‘Cut-out’干扰；行人虽未横穿，但位于自车右前方5米内，若突然转向可能引发碰撞，属于‘Open Door’类风险延伸场景。",
+      "risk_tags": [
+        "cut_out_obstacle",
+        "proximity_pedestrian",
+        "intersection_without_signal"
+      ]
+    }
+  ]
+}

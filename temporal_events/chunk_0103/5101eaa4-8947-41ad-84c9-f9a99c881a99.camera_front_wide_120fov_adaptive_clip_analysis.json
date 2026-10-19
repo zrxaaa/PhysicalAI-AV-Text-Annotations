@@ -1,0 +1,41 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.92,
+    "analysis_time": "2026-01-23 01:48:01"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】暴雨天气，天空阴沉，雨势较大，路面积水严重，雨水在挡风玻璃上形成水膜并持续滑落，影响视线。【自车】位于中间车道，匀速沿道路中心线向前行驶，未进行变道或转向。【周围交通参与者】左侧对向车道有多辆汽车在行驶，包括银色SUV、黑色轿车等，均保持正常行驶；右侧路边停放多辆私家车，部分车辆随自车移动而快速后退。【交通设施】道路两侧为住宅区，可见砖砌联排房屋与独立别墅，路边有路灯和行道树，树木因风雨摇曳明显。【关键风险】无明显违规行为或突发障碍物，但强降雨导致能见度下降，路面湿滑，存在打滑风险。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility",
+        "wet_road"
+      ]
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "【环境】雨势略有减弱，但仍为阴天，路面反光明显，部分区域积水较深。【自车】保持中间车道匀速行驶，随道路曲线自然前行，未发生横向偏移。【周围交通参与者】左侧对向车道车辆增多，包括一辆亮绿色轿车从左前方超车后驶离；右侧路边停放车辆密集，其中一辆银色面包车在自车经过时突然启动并缓慢驶离车位，存在切入车道趋势。【交通设施】道路两侧出现商业建筑，左侧可见蓝色与黄色外墙店铺，右侧有大型停车场及广告牌（含“Latinos New Used Tires”字样）。【关键风险】右侧银色面包车启动时未观察后方，可能引发“开门杀”或切入自车车道的风险，需警惕其动态意图。",
+      "risk_tags": [
+        "potential_cut_in",
+        "unpredictable_vehicle_movement",
+        "parked_car_departure_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】天气仍阴沉，雨量减少，但路面湿滑且反射灯光强烈，夜间行车特征明显。【自车】维持中间车道匀速行驶，接近前方红灯路口。【周围交通参与者】前方有多辆汽车在红灯前减速停车，包括一辆红色轿车与一辆黑色SUV；左侧可见Burger King餐厅及其标志性圆形招牌，右侧为停车场及多层住宅楼。【交通设施】前方设有交通信号灯，当前显示为红灯；道路两侧设有人行横道标线，右侧人行道旁有行人站立等待过街。【关键风险】前方车辆刹车频繁，存在追尾风险；右侧人行道上有行人活动，若其突然横穿马路，将构成“鬼探头”威胁；同时，路面反光强烈，可能干扰自车传感器识别能力。",
+      "risk_tags": [
+        "red_light_stop",
+        "brake_following_risk",
+        "pedestrian_crossing_potential",
+        "reflection_interference"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:17:50",
+    "processing_time_seconds": 19.57
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车在直行车道匀速行驶，右侧车道有一辆灰色轿车并行，随后该车向左变道至中间车道，未与自车发生冲突。道路两侧为多层住宅楼，天气晴朗，路面干燥无湿滑。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:09",
+      "scene_description": "前方出现施工区域，橙色锥桶沿道路两侧布置，左侧停放多辆工程车辆如水泥搅拌车和卡车，自车保持当前车道缓慢通过，未见施工人员或行人活动。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "道路右侧出现“ROAD CLOSED”警示牌，锥桶引导车流绕行，自车继续沿中间车道前进，左侧有银色SUV从对向车道驶来并超越自车，未发生碰撞或路径冲突。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:18",
+      "scene_description": "前方灰色轿车减速并停于施工区域末端，自车跟随其后缓行，右侧人行道上有行人行走但距离较远，未进入车道影响交通。道路两侧树木投下阴影，光照充足。"
+    },
+    {
+      "time_segment": "00:00:18-00:00:20",
+      "scene_description": "自车在施工路段末尾接近停止状态，前方车辆仍保持低速行驶，右侧路边停放多辆私家车，无新交通参与者突然出现，整体交通流平稳有序。"
+    }
+  ]
+}

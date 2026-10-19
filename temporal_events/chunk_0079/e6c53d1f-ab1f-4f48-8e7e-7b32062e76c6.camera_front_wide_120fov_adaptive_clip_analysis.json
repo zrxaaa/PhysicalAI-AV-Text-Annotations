@@ -1,0 +1,44 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.72,
+    "analysis_time": "2026-01-22 15:25:11"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】阴天，路面湿滑，有明显水迹反光，能见度中等偏低。【自车】位于中间车道，沿直线道路匀速行驶，未进行转向或变道。【右侧】一排多层公寓楼沿路排列，部分树木无叶；左侧可见76加油站及价格牌。【交通设施】前方路口设有路灯、电线杆和远端弯道警示标志。【关键风险】无显著风险，但路面湿滑增加制动距离，需保持警惕。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】持续阴雨天气，天空灰暗，无明显降水强度变化。【自车】在中间车道减速准备进入交叉路口，车头朝向直行方向。【左侧】一辆银色皮卡从左转车道驶出，正横穿自车前方路口；同时，右侧有一辆黑色SUV正在右转绕行。【交通设施】路口设有多组交通标志：绿色指示牌指向“Expo Center”、“M.L.K. Jr Blvd.”、“Delta Park”，并附有I-5和99E的高速路指引；红色STOP标志清晰可见。【关键风险】银色皮卡在未完全确认安全的情况下横穿路口，存在与自车发生冲突的潜在风险（Cut-in意图），需注意其横向移动轨迹。",
+      "risk_tags": [
+        "potential_cut_in",
+        "intersection_conflict",
+        "wet_road"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】雨势未加剧，但视野因车窗水雾略有模糊，需依赖雨刷器。【自车】完成减速，在停止线前停车等待，车头对准直行车道。【周围车辆】左侧银色皮卡完成横穿动作，已驶离交叉口；右侧黑色SUV完成右转，驶入环形匝道。【交通设施】路口右侧立有“TO SOUTH 99E”和“ALL WAY STOP”标志，提示所有方向车辆必须停车。【非标物体】路边灰色建筑旁有“Papa John's Pizza”招牌，无作业车辆或动物出现。【关键风险】自车在停车状态下，需警惕后方或侧方可能突然加速切入的车辆，尤其在“ALL WAY STOP”规则下，其他车辆可能违规抢行。",
+      "risk_tags": [
+        "stop_line_violation_risk",
+        "rear_crossing_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】阴云密布，光线昏暗，路面仍湿润，部分区域有积水反射灯光。【自车】启动前行，通过交叉路口后进入主干道，继续沿双黄线中间车道行驶。【前方结构】前方为一座混凝土桥梁，桥体两侧设有金属护栏，桥下为另一条道路或通道。【周边环境】桥梁两侧有裸露树干的落叶树，右侧为草坡，左侧为工业风格低矮建筑。【交通设施】桥头处设有黄色弯道警示牌，提醒驾驶员注意曲率。【关键风险】桥梁下方视野受限，若前方有车辆或行人突然出现，将形成“鬼探头”风险；此外，桥面可能因排水不畅导致局部湿滑，需谨慎控制车速。",
+      "risk_tags": [
+        "bridge_obstruction_risk",
+        "ghost_probe_potential",
+        "wet_bridge_surface"
+      ]
+    }
+  ]
+}

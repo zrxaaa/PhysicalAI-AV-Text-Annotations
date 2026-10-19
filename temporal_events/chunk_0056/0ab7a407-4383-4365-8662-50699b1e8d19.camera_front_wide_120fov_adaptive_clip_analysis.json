@@ -1,0 +1,43 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.15,
+    "analysis_time": "2026-01-22 05:08:04"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，强逆光导致挡风玻璃出现明显眩光，路面干燥。【自车】位于中间车道，匀速沿直道行驶，未进行转向或变道。【左侧】设有有轨电车专用轨道及站台结构（EVANS站），站台玻璃幕墙反射阳光；一辆黄色校车在轨道侧车道同向行驶，速度与自车相近。【右侧】沿街为商业建筑，可见“SHAMROCK MOVING & STORAGE INC.”招牌，路边停放多辆私家车。【交通设施】前方路口信号灯为绿灯，自车顺利通过交叉口。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】光照稳定，无遮挡，能见度良好。【自车】保持中间车道匀速前行，道路略有弯曲但未越线。【左侧】继续沿电车轨道行驶，轨道护栏与站台结构持续存在；远处可见广告牌及行人道。【右侧】建筑类型转为多层住宅/商住混合楼，底层为商铺（如“PASTRIES ESPRESSO SANDWICHES”），门前停有蓝色皮卡。【交通设施】接近3rd St路口，交通灯仍为绿灯，路面上有清晰的人行横道标线。【关键风险】无显著风险，但右侧商铺前人行道区域有潜在行人出没可能，需注意‘鬼探头’风险。",
+      "risk_tags": [
+        "potential_ghost_probe"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】晴朗，阳光投射在路面形成明显阴影。【自车】在十字路口右转进入一条支路，完成横向转向动作（车头偏航角约45°）。【相对位置】转向后，自车进入一个停车场入口区域，两侧停满车辆：左侧为银色轿车、红色皮卡、SUV等；右侧为白色厢式货车、银色轿车及小型货车。【非标准物体】左侧停车区有一辆黑色SUV正从车位缓慢倒车驶出，车身部分侵入行车道，存在切入风险。【交通设施】路口地面标有“STOP”字样，右侧设有一个红底白字的“STOP”标志牌。【关键风险】黑色SUV倒车切入自车路径，属于典型‘开门杀’前置风险（虽未开门，但倒车轨迹侵占车道），需紧急制动避让。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "reverse_vehicle_crossing",
+        "door_opening_risk_precedent"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】晴天，视野开阔，无天气异常。【自车】在停车场入口处减速至停止，完成停车动作。【周围】左侧停放多辆私家车（含红色皮卡、银色SUV）；右侧为“SHAMROCK”仓库建筑，其卷帘门关闭，门前停有白色厢式货车和银色轿车。【交通设施】地面“STOP”标识清晰可见，后方有金属围栏及远处施工塔吊轮廓。【关键风险】自车停车时，右侧白色厢式货车突然启动并向前移动，车头轻微左偏，疑似准备驶离停车位，存在切出车道风险。同时，左侧黑色SUV已完全驶离车位，但其后视镜区域可能遮挡自车盲区，构成‘视觉遮挡+动态车辆’复合风险。",
+      "risk_tags": [
+        "vehicle_cut_out",
+        "blind_spot_risk",
+        "parking_lot_conflict"
+      ]
+    }
+  ]
+}

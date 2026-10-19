@@ -1,0 +1,45 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.16,
+    "analysis_time": "2026-01-22 05:33:58"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "【环境】夜间，浓雾笼罩，能见度极低，路灯灯光被雾气散射形成强眩光。【自车】在中间车道匀速沿道行驶，车头朝向道路中心线。【交通设施】前方路面可见“STOP”字样标线，但因雾气模糊不清。【关键风险】雾中视线受限，无法识别前方障碍物或行人，存在突发碰撞风险；路灯眩光导致视觉干扰，影响对横向物体的判断。",
+      "risk_tags": [
+        "low_visibility",
+        "light_glare",
+        "obstacle_uncertainty"
+      ]
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "【环境】雾渐散，能见度改善，进入住宅区街道，两侧有路灯照明。【自车】保持中间车道匀速直线行驶。【左侧】一辆深色SUV停靠在路边，车尾灯亮起，未移动。【右侧】一辆白色轿车从后方快速超车并切入自车右前方车道，完成变道动作。【交通设施】路旁树木枝叶稀疏，部分树干被路灯照亮，地面覆盖落叶，无明显标线。【关键风险】右侧车辆突然变道，存在切出（Cut-out）风险，虽未发生碰撞，但需警惕其后续行为。",
+      "risk_tags": [
+        "cut_out",
+        "sudden_lane_change",
+        "partial_visibility_improvement"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "【环境】夜间住宅区，路灯间距均匀，光线稳定，无明显天气异常。【自车】在中间车道匀速行驶，随道路微弯自然转向。【左侧】多辆私家车静止停放在车道旁，部分车库门开启，室内灯光透出。【右侧】一辆白色SUV由远及近驶入画面，从自车右后方超越并驶离，未进入本车道。【非标物体】路边多个蓝色垃圾桶排列于人行道边缘，无遮挡物。【关键风险】无直接碰撞威胁，但右侧车辆超车时距离较近，存在轻微侧向扰动风险。",
+      "comment": "此段为平稳行驶阶段，无高危交互行为，未触发安全风险标签。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】夜间，局部区域出现薄雾回流，能见度略有下降。【自车】维持中间车道匀速前行。【左侧】一辆黑色皮卡从对向车道驶过，车身高度较高，未遮挡视线。【右侧】一辆红色SUV停在路边，车门打开，疑似有人下车，但未见行人活动。【交通设施】道路两侧房屋密集，部分窗户亮灯，路灯间隔约30米。【关键风险】右侧红色SUV车门开启状态不明，存在“开门杀”（Open Door）潜在风险；同时，薄雾回流可能再次降低能见度，增加盲区事故概率。",
+      "risk_tags": [
+        "open_door_risk",
+        "fog_return",
+        "low_visibility_reemergence"
+      ]
+    }
+  ]
+}

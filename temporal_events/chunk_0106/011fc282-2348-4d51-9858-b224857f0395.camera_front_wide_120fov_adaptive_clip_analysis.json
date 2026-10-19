@@ -1,0 +1,36 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.54,
+    "analysis_time": "2026-01-23 02:59:51"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴朗无云，能见度极佳，光照充足。【自车】在中间车道匀速沿道行驶，道路呈轻微右弯。【周围交通参与者】左侧对向车道有数辆轿车和一辆红色SUV驶过，均未进入本车道；右侧路肩有金属围栏及施工设施，未见行人或非机动车。【交通设施】道路两侧设有路灯，右侧围栏后可见临时建筑结构。【关键风险】无显著风险，车辆均按规行驶，无异常行为或遮挡。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】持续晴天，阳光直射，无天气异常。【自车】保持中间车道匀速行驶，随道路右转弧度自然转向。【周围交通参与者】右侧路肩出现橙色“前方施工”警示牌与锥桶，提示车道调整；左侧对向车道车辆正常通行。【交通设施】右侧新增绿色自行车道区域，地面标有自行车符号与箭头，与主路分隔清晰；路边设黄色消防栓。【关键风险】无直接碰撞或违规行为，但施工区域设置锥桶与警示牌，提示潜在变道需求，需注意右侧车道可能被压缩。",
+      "risk_tags": [
+        "construction_zone",
+        "lane_narrowing_warning"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】天空湛蓝，光照稳定，无遮挡。【自车】继续在中间车道匀速行驶，道路曲率增大，接近一个左转弯道。【周围交通参与者】右侧施工区明显，多辆工程车（含白色皮卡、绿色移动式电子告示牌车）停靠于路边，部分人员在施工区域内活动；左侧对向车道有白色皮卡快速驶过。【交通设施】前方出现蓝色指示牌，标明“Directions to Oakland / South Gate / General Aviation”，并配有车道引导箭头；路面施划绿色自行车道，并用橙色锥桶隔离。【关键风险】右侧施工区域存在动态作业人员与设备，虽未侵入行车道，但其位置紧邻车道，存在突发移动或设备伸出的风险；同时，前方左转弯道处有“LANE CLOSED”警示牌，提示车道缩减，需提前减速并准备变道，存在潜在的加塞或变道冲突风险。",
+      "risk_tags": [
+        "construction_activity",
+        "lane_closure_warning",
+        "potential_cut_in_risk",
+        "change_lane_preparation_required"
+      ]
+    }
+  ]
+}

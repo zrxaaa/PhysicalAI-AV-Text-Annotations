@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 00:58:08",
+    "processing_time_seconds": 12.29
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在晴朗天气下沿双向车道行驶，左侧车道有橙白相间施工锥桶引导车流，一辆灰色轿车从右侧超车并驶离。道路右侧设有行人过街警示标志，远处可见交通信号灯和少量积雪。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "车辆继续前行，经过人行横道与施工区域，路旁出现‘END FINES DOUBLE PARK ZONE’提示牌。前方红绿灯为绿灯，对向车道有工程车辆停靠，自车保持直行未变道，视野开阔无明显障碍物。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "接近十字路口，交通信号灯转为黄灯，自车减速准备停车。前方一辆红色厢式货车正在右转进入支路，其车身部分侵入自车所在车道，形成潜在冲突。道路两侧树木稀疏，地面干燥，能见度良好。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "信号灯变为红灯，自车在停止线前停下，右侧红色厢式货车完成右转后停在路口外侧。自车前方及左侧车道无其他车辆靠近，施工锥桶仍沿车道分布，环境安静，无行人活动。"
+    }
+  ]
+}

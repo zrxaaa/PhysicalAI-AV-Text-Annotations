@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 08:52:42",
+    "processing_time_seconds": 15.39
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车沿陡峭街道平稳前行，右侧停放多辆汽车，包括一辆深色SUV和白色皮卡；左侧为住宅建筑与行道树，天气晴朗，路面干燥无积水。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "车辆接近十字路口，前方出现黄色斑马线及‘STOP’路面标记，右侧人行道有行人步行，一辆黑色轿车从对向车道驶来并停在路口，自车减速准备停车。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "自车在路口停车等待，左侧交叉路口有橙色SUV驶入，同时一名行人从右侧路边走向街角；路口设有红色停车标志，道路标线清晰，无明显施工或障碍物。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "自车启动继续沿街行驶，两侧街道停满车辆，包括蓝色皮卡和多辆紧凑型轿车；路旁树木茂密，阳光透过树叶投下斑驳阴影，未见行人或突发交通事件。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "车辆驶过一段较平缓路段，前方可见自行车道标识，右侧有一辆银色轿车缓慢驶离停车位；整体交通流畅，无红绿灯或强制停车点，自车保持匀速前进。"
+    }
+  ]
+}

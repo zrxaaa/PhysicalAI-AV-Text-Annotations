@@ -1,0 +1,51 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.57,
+    "analysis_time": "2026-01-22 03:32:30"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】暴雨天气，能见度极低，雨滴密集覆盖挡风玻璃，路面积水严重并形成水雾。【自车】位于中间车道，匀速沿道路曲线前行，未进行变道或转向。【前方车辆】一辆深色轿车在左前方车道行驶，车尾溅起大量水花，表明其速度较快且可能打滑。【交通设施】右侧路肩设有金属护栏，远处可见黄色弯道警示牌（S形弯道标志），提示前方为连续弯道。【关键风险】前车因湿滑路面存在失控风险，自车需保持安全距离；雨雾导致视线受阻，易引发追尾或避让不及事故。",
+      "risk_tags": [
+        "heavy_rain",
+        "low_visibility",
+        "wet_road",
+        "potential_loss_of_control"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】雨势持续，云层低垂，山体被雾气笼罩，整体视野模糊。【自车】仍处于中间车道，保持匀速沿弯道行驶，未发生横向移动。【左侧车辆】一辆深灰色SUV从左侧超车道快速驶过，车轮溅起水雾，短暂遮挡视线。【前方车辆】原前方轿车仍在前方行驶，但因距离拉远，细节模糊。【交通设施】右侧护栏旁出现橙色施工锥桶，暗示前方有施工区域或临时管制。【关键风险】左侧超车车辆速度较快，溅水影响自车视线；施工锥桶区域可能存在突发障碍物或车道收缩，需提高警惕。",
+      "risk_tags": [
+        "fast_overtake",
+        "water_splash_obstruction",
+        "construction_zone_warning"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】雨雾加剧，能见度进一步下降，部分路段出现“白茫茫”视觉效果。【自车】维持中间车道匀速行驶，随道路曲率自然转弯，无主动转向动作。【前方车辆】多辆轿车在前方不同车道行驶，其中一辆红色轿车在右前方车道减速，疑似准备变道。【左侧车辆】一辆黑色轿车从左侧车道切入自车所在车道，未打转向灯，属于违规变道行为。【交通设施】前方出现“行人横穿”警示牌，提示该路段可能有行人活动。【关键风险】左侧车辆违规加塞，增加碰撞概率；前方减速车辆若突然变道，将与自车形成危险夹角；行人警示牌提示潜在人车冲突风险，需加强观察。",
+      "risk_tags": [
+        "illegal_lane_change",
+        "aggressive_cut_in",
+        "pedestrian_crossing_warning",
+        "reduced_visibility"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】暴雨持续，雨刷器高频运作，挡风玻璃上仍有水珠残留，能见度极差。【自车】继续在中间车道匀速行驶，未进行任何变道或紧急制动。【前方车辆】多车在前方缓慢行驶，部分车辆开启雾灯，但仍难以辨识具体车型。【右侧设施】路边护栏后方树木茂密，部分枝叶伸入车道边缘，存在刮擦风险。【关键风险】前方车流密集且速度缓慢，自车需保持足够跟车距离以防追尾；右侧树枝侵入空间，可能在高速行驶中造成剐蹭；整体场景为高风险低能见度驾驶环境，建议减速或择地停车等待天气好转。",
+      "risk_tags": [
+        "traffic_congestion",
+        "obstacle_on_right_side",
+        "high_risk_low_visibility_drive"
+      ]
+    }
+  ]
+}

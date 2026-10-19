@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 03:09:31",
+    "processing_time_seconds": 13.83
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在湿滑的住宅区街道上匀速前行，左侧一辆银色皮卡从对向车道驶过，右侧停放着红色SUV和Jeep，雨雾导致视野模糊，挡风玻璃上有水珠。",
+      "scene_description_additional": "前方路口有车辆停靠，但无明显交通信号灯或标志，树木枝干裸露，天气阴沉，路面积水反光影响能见度。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "自车继续直行，右侧出现一辆红色跑车（带白色条纹）从路边驶出并汇入车道，与自车同向行驶；左侧有一辆银色轿车停靠，未移动。",
+      "scene_description_additional": "道路两侧房屋排列整齐，部分车辆停在车道旁，无行人出现，雨势未减，挡风玻璃雨刮器未启动，视野持续受阻。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:14",
+      "scene_description": "自车经过一个小型十字路口，前方无红绿灯，左侧一辆深色SUV驶入主路，右侧一辆银色SUV从停车位缓慢驶出，两车均与自车路径交叉但未发生冲突。",
+      "scene_description_additional": "路面有明显水坑，部分区域有轻微颠簸，树木枝干在风中摇曳，环境湿度高，能见度低于正常水平，自车保持稳定速度。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "自车接近下一个路口，前方右侧一辆灰色皮卡正在倒车进入车道，左侧一辆红色轿车停在路边，自车减速避让，未进行变道或超车。",
+      "scene_description_additional": "远处可见消防栓和美国国旗装饰，表明为居民区，天气仍阴雨，路面湿滑，自车保持安全距离，未与其他车辆发生交互。"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 03:07:06",
+    "processing_time_seconds": 14.66
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车从十字路口起步，前方道路空旷，右侧路边停有一辆蓝色小型车，随后该车启动并驶离。左侧人行道旁有树木和住宅，天气多云但光线充足，路面干燥无积水。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "车辆沿街道平稳行驶，右侧出现一辆白色皮卡停靠在路边，左侧有粉色开花树和低矮灌木。前方可见黄色‘BUMP AHEAD’警示牌，提示减速。自车保持匀速通过，未见行人或其他动态障碍物。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "道路两侧停放多辆汽车，包括一辆深色SUV和一辆黑色轿车。前方出现两个连续的减速带，旁边设有‘BUMP 15 MPH’限速标志。自车减速通过减速带区域，未与其他车辆发生交互。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "通过减速带后，右侧出现一辆黑色肌肉车（Dodge Challenger）停在路边，其后方为一辆灰色SUV。自车继续直行，未进行变道或超车，周围无行人活动，环境安静。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "车辆接近下一个路口，前方道路两侧仍停有多辆车，左侧可见高大常绿树和消防栓。自车维持当前车道，未遇红灯或停车信号，整体交通流顺畅，无突发行为或冲突。"
+    }
+  ]
+}

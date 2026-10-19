@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 04:20:56",
+    "processing_time_seconds": 12.41
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在晴朗天气下沿街道匀速行驶，前方十字路口设有红色八角形‘STOP’标志及‘ALL WAY’标牌，一名行人从右侧人行横道穿越马路，与自车路径交叉，自车在接近路口时减速准备停车。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "行人完成穿越后，自车继续向前行驶，左侧出现涂鸦墙建筑和停放车辆，右侧人行道有两名行人并排行走，自车保持直行，未进行变道或紧急制动，道路两侧可见商铺招牌和路边垃圾桶。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "自车驶过第一个路口后，道路两侧停满车辆，右侧出现一辆白色SUV和一辆白色特斯拉Model Y，均停靠在路边，自车平稳通过，未发生避让或加速行为，阳光强烈导致部分区域产生眩光。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "前方出现一个装饰性路灯柱和远处的交通信号灯，自车继续直行，左侧出现施工围挡和一辆白色皮卡，右侧有行人进入商店入口，自车无转向或刹车动作，保持当前车道行驶。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车接近下一个十字路口，右侧停有一辆印有“LEAK DETECTION & REPAIR”字样的服务货车，前方道路中央有交通标志杆，自车维持当前速度，未受其他车辆或行人影响，环境安静且通行顺畅。"
+    }
+  ]
+}

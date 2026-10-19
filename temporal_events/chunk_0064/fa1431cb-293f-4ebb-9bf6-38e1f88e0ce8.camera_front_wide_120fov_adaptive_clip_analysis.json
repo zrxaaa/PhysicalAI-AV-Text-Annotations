@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.07,
+    "analysis_time": "2026-01-22 08:41:41"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间，路灯照明充足，无异常天气。【自车】在中间车道匀速沿道行驶，前方有车辆。【右前方】一辆白色皮卡（车身带红黑条纹装饰，底部装有蓝色LED灯带）从右侧支路驶出，正执行左转进入主路，其车头朝向与自车行驶方向形成交叉。【交通设施】道路右侧设有红色STOP标志牌，位于弯道外侧；左侧可见临时施工围挡及一个蓝色移动厕所。【关键风险】该皮卡在未完全确认主路安全的情况下强行切入，存在“违规变道”和“加塞”嫌疑，对自车构成潜在碰撞威胁。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "improper_turn",
+        "lane_blocking"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】夜间，道路下方为高架桥结构，桥下光线较暗但无遮挡。【自车】保持原车道匀速前进，通过路口区域。【右侧】白色皮卡完成左转动作，已驶入主路并逐渐远离，其尾灯持续亮起。【后方】一辆银色轿车从后方快速超车，经过自车时横向距离约8米，未见转向灯，存在“鬼探头式切出”风险。【交通设施】路口处设有多组STOP标志牌，高架桥墩上挂有“WELCOME TO NORTH NEW JERSEY”横幅，桥下有多个限速/指示牌。【关键风险】银色轿车在无预兆情况下高速切出，因自车处于直行状态且视线受高架桥阴影影响，难以及时反应，存在“突发横穿”风险。",
+      "risk_tags": [
+        "high_speed_cut_out",
+        "low_visibility_zone",
+        "sudden_lane_change"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】自车驶入高架桥下方通道，光照由均匀路灯转为局部阴影区，能见度略有下降。【自车】保持中间车道匀速前行，车头略微向上仰角以适应桥下空间。【前方】白色皮卡在前车位置稳定行驶，未再进行变道或加速。【左侧】高架桥立柱与护栏形成视觉遮挡，部分路段无路灯，仅靠车灯照明。【交通设施】桥下设有“SPEED LIMIT 35”和“NO STANDING ANYTIME”等标志牌，右侧有混凝土隔离墩。【关键风险】桥下阴影区导致路面反光与眩光交替，增加感知难度；同时，左侧立柱遮挡可能隐藏行人或非机动车，存在“鬼探头”隐患，但当前时段无实际障碍物出现。",
+      "risk_tags": [
+        "low_light_driving",
+        "occlusion_zone",
+        "reduced_visibility"
+      ]
+    }
+  ]
+}

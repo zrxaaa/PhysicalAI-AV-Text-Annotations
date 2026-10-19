@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.32,
+    "analysis_time": "2026-01-24 15:05:39"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，蓝天白云，光照充足，无异常天气。【自车】在中间车道匀速沿道行驶，车头朝向道路中心线，未进行转向或变道。【左侧】对向车道一辆深色SUV从左前方驶来，与自车同向但位于对向车道，保持安全距离通过；随后一辆U-HAUL白色厢式货车从右后方超车，车身宽大，完成超车后回归右侧车道。【交通设施】道路右侧设有“ADOPT-A-ROAD LITTER CONTROL”公益标识牌，路边有木质围栏和绿化带。【关键风险】无明显风险，U-HAUL货车超车动作规范，未侵入自车所在车道。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】阳光直射，部分区域出现树影遮挡，无降水或能见度下降。【自车】保持中间车道匀速行驶，随道路轻微左弯延伸。【前方】远处可见一辆深色轿车迎面驶来，已进入对向车道并完成避让；右侧路边出现“NO SHOULDER PARKING”禁停标志牌。【交通设施】道路右侧出现黄色“YIELD”预告标志，提示前方为交叉路口。【非标物体】无动物、施工车辆或路面遗撒物。【关键风险】无显著风险，道路曲率平缓，无突发障碍或违规行为。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "【环境】光照稳定，树木茂密，部分路段有护栏。【自车】沿弯曲道路继续前行，未变道，车头偏航角随路形自然调整。【右侧】出现“TRAIL KING AHEAD”骑马警示标志，提示前方可能有骑行者或野生动物活动区域。【左侧】对向车道有车辆驶过，但未靠近自车车道。【交通设施】道路右侧设置金属护栏，防止车辆冲出；前方约30米处有“BROKEN PAVEMENT”警告牌，提示路面不平整。【关键风险】存在潜在路面风险（Broken Pavement），需减速通过；同时“Trail King”标志提示可能存在不可预测的生物横穿，需提高警觉。",
+      "risk_tags": [
+        "road_condition_warning",
+        "animal_crossing_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】阳光仍强，部分区域因树荫产生明暗交替。【自车】维持中间车道匀速行驶，临近一个T字路口。【右侧】出现“PARKING ENFORCEMENT AREA BEGIN”标志牌，提示该区域将实施停车执法。【前方】一辆银灰色MPV从右侧支路驶出，横向切入主路，但未影响自车正常行驶；随后一辆摩托车从左后方接近，保持安全距离并沿自车左侧车道向前行驶。【交通设施】道路右侧有住宅区入口，木栅栏围合，部分房屋前有草坪和车道。【关键风险】摩托车与MPV均在合法车道内行驶，无违规行为；但摩托车从左侧后方接近，存在轻微切出风险，需注意其速度变化。无遮挡、无动物、无施工车辆。",
+      "risk_tags": [
+        "motorcycle_approach",
+        "lane_change_caution"
+      ]
+    }
+  ]
+}

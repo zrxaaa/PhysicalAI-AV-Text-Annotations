@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 01:07:49",
+    "processing_time_seconds": 15.42
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "夜间城市街道，自车在十字路口等待绿灯，右侧人行道有行人站立，前方交通信号灯为绿色，左侧车道有车辆排队。自车保持静止，准备通行。",
+      "additional_notes": "行人未移动，无显著动态交互，环境光线来自路灯和车灯，路面干燥"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "绿灯亮起，自车启动向前行驶，右转进入下一条街道，右侧出现停放的黑色SUV和银色轿车，左侧有树木遮挡部分视野。自车平稳加速，未发生变道或紧急避让。",
+      "additional_notes": "道路两侧停满车辆，无施工区域，交通流顺畅，无行人横穿或突发障碍物"
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "自车沿直线街道继续前行，右侧出现蓝色施工围挡与橙色警示柱，左侧为多层住宅楼，部分窗户亮灯。前方无明显障碍，车辆匀速行驶，未与其他车辆发生并行或超车行为。",
+      "additional_notes": "街道两侧停车率高，部分路段有自行车道标识，无行人活动，天气晴朗，能见度良好"
+    },
+    {
+      "time_segment": "00:00:14-00:00:20",
+      "scene_description": "自车接近一个缓坡路段，右侧出现临时混凝土隔离墩与施工设备，左侧有黑色轿车驶入路边停车位。自车保持当前车道，未减速或转向，前方远处可见红绿灯及少量对向车流。",
+      "additional_notes": "整体场景稳定，无突发交通参与者，光照均匀，路面平整，未观察到危险或冲突行为"
+    }
+  ]
+}

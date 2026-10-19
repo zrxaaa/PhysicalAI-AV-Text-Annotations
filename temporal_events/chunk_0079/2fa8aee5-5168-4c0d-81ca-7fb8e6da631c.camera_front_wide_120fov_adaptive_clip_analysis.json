@@ -1,0 +1,41 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.31,
+    "analysis_time": "2026-01-22 15:12:44"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】夜间，路灯照明充足，无明显降水或雾气，能见度良好。【自车】位于中间车道，正前方为十字路口，处于停车等待状态（红灯）。【交通设施】前方多组交通信号灯显示为红灯，右侧路牌显示“E. KANSAS ST”与“Valley View Rd”。【右侧】加油站区域可见，未见行人或异常车辆。【关键风险】无显著风险，但需注意左侧对向车道可能有闯红灯车辆（当前绿灯未亮，暂无实际威胁）。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:06-00:00:10",
+      "scene_description": "【环境】夜间道路照明稳定，无天气异常。【自车】在中间车道，信号灯转绿后开始匀速前行。【右侧】一辆橙色轿车从右方驶入交叉口，完成左转动作，其车身部分进入自车所在车道的横向扩展范围，但未发生碰撞或强行切入。【交通设施】路口信号灯已转绿，右侧交通灯仍为红灯，提示直行车辆可通行。【关键风险】橙色轿车在转弯过程中短暂占据自车侧方空间，存在轻微横向交互风险，但未构成违规或危险行为。",
+      "risk_tags": [
+        "minor_lateral_interaction"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "【环境】夜间，路灯持续照明，无遮挡物影响视线。【自车】完成左转后，沿主干道继续向前行驶，进入直行路段。【左侧】出现一个“Y”形分叉路口标志及“YIELD TO ONCOMING TRAFFIC”警示牌，提示前方有支路汇入。【右侧】可见快餐店（疑似Taco Bell）建筑，门前有少量停放车辆，无行人活动。【关键风险】自车在转弯后未减速，且前方支路无明显减速迹象，存在潜在“鬼探头”风险（如支路突然有车辆或行人冲出），但当前视野内无实体障碍物或突发目标。",
+      "risk_tags": [
+        "potential_ghost_probe",
+        "intersection_transition_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】夜间，道路两侧商铺灯光持续亮起，路面干燥，无积水或结冰。【自车】保持在中间车道，以约45mph匀速沿直线道路行驶。【右侧】路边设有“SPEED LIMIT 35”的限速标志，自车速度略高于限速，但未超速严重。【左侧】远处可见多个商业建筑及停车场，无行人或动物活动。【交通设施】沿途无新增信号灯或施工围挡，道路标线清晰。【关键风险】无直接安全威胁，但自车速度接近限速上限，在夜间长直道上存在轻微疲劳驾驶诱发风险，建议驾驶员保持注意力。",
+      "risk_tags": [
+        "speed_close_to_limit",
+        "driver_fatigue_risk"
+      ]
+    }
+  ]
+}

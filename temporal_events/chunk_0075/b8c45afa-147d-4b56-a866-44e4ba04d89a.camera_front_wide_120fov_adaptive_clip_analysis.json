@@ -1,0 +1,44 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.8,
+    "analysis_time": "2026-01-22 13:31:57"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，强逆光导致画面局部过曝，太阳位于右上方。【自车】位于中间车道，处于十字路口停车等待，前方交通信号灯为红灯。【左侧】一辆深色SUV从左向右横穿路口，已完成通行；【右侧】多辆静止或缓慢移动的车辆停靠在路边及人行道旁。【交通设施】路口设有斑马线、交通信号灯（当前红灯）、路牌“Fourth St”和“St John St”。【关键风险】无明显违规行为，但右侧人行道边缘有行人站立，未明确其是否准备横穿，存在潜在“鬼探头”风险。",
+      "risk_tags": [
+        "potential_ghost_probe",
+        "red_light_wait"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:09",
+      "scene_description": "【环境】阳光依旧强烈，路面反射明显，能见度良好。【自车】在绿灯亮起后启动，沿中间车道匀速前行。【左侧】一辆白色轿车从左前侧邻车道超车并入自车所在车道，完成切入动作；【右侧】一辆银色轿车在路口右转后驶离，未对自车造成影响。【交通设施】通过路口后，交通信号灯已转为绿灯，路牌显示“Fourth St”与“St John St”交叉口。【关键风险】左侧白色轿车加速切入时未保持安全横向距离，存在轻微切出风险，但未引发碰撞。",
+      "risk_tags": [
+        "cut_in_with_insufficient_clearance"
+      ]
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "【环境】道路两侧树木与建筑投下清晰阴影，光照仍偏强但无遮挡。【自车】保持中间车道匀速行驶，沿道路曲线平稳前进。【左侧】一栋现代风格白色建筑，外墙有广告牌“Auto Accident Attorneys”，部分店面卷帘门关闭；【右侧】停放多辆私家车，包括一辆白色SUV和一辆黑色皮卡，路边有绿化带与高灌木丛。【交通设施】路面上标有“20”限速标识，右侧设有限速标志牌“SPEED LIMIT 20”。【非标物体】右侧人行道上有一辆电动滑板车静止停放，未占用行车道。【关键风险】无显著风险，但右侧灌木丛后方可能存在视线盲区，需警惕突然出现的行人或动物。",
+      "risk_tags": [
+        "blind_spot_potential",
+        "parked_vehicle_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】阳光直射，部分区域因树影产生明暗交替。【自车】继续沿中间车道匀速行驶，接近下一个十字路口。【前方】可见远处红绿灯为红灯，路口处有车辆排队等候；【左侧】一座多层停车场建筑，街角有“Third St”路牌；【右侧】路边停放多辆汽车，包括一辆银色轿车与一辆白色面包车，人行道上有行人行走，面部朝向前方，步态正常，未见横穿意图。【交通设施】前方路口设有“SPEED LIMIT 20”标志与“NO TURN ON RED”禁左标志。【关键风险】前方路口车辆密集，若自车未及时减速可能面临紧急制动需求；右侧人行道行人虽未横穿，但靠近车道边缘，存在突发移动风险。",
+      "risk_tags": [
+        "approaching_congested_intersection",
+        "pedestrian_proximity_risk"
+      ]
+    }
+  ]
+}

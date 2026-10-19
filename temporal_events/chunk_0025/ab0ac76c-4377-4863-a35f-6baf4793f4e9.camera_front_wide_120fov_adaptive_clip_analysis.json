@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 08:20:23",
+    "processing_time_seconds": 14.64
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在湿滑的双向车道上匀速行驶，前方路口交通信号灯为红灯，右侧路边停有一辆白色SUV，左侧有住宅区和电线杆，天气阴雨导致挡风玻璃有水珠。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "一辆深色SUV从左侧交叉路口横向驶入，穿越人行横道后向右转弯离开，自车在红灯前停车等待，路口右侧可见红色STOP标志牌和黄色卡车停靠。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车保持静止等待红灯，右侧黄色搬家卡车（Jordan River Moving & Storage）停在路边，车身横跨部分车道，后方有黑色轿车准备进入该路段。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "红灯转绿，自车启动前行，右侧黄色搬家卡车开始缓慢向前移动，黑色轿车紧随其后驶离原位，道路两侧可见住宅与树木，路面湿滑且能见度较低。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车继续沿直线道路行驶，经过限速25英里/小时的标志牌，前方无显著障碍物，道路两侧绿化带和房屋逐渐延展，雨雾天气持续影响视野清晰度。"
+    }
+  ]
+}

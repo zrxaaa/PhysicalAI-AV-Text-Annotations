@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 18.8,
+    "analysis_time": "2026-01-22 21:53:19"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "【环境】夜间，城市街道，路灯照明，天空阴沉，能见度中等偏低。【自车】位于中间车道，正向十字路口减速停车，准备遵守“STOP”路面标线及两侧红灯标志。【左侧】停放多辆私家车（黑色轿车为主），部分车辆尾灯亮起；【右侧】沿街为涂鸦墙与工业厂房，墙边停有自行车。【交通设施】前方路面有清晰“STOP”字样及斑马线，两侧设红色停车标志牌。【关键风险】自车在接近路口时未完全停止，存在轻微闯红灯风险；右侧人行道边缘有不明物体阴影，可能为行人或障碍物，视线受涂鸦墙遮挡，存在鬼探头隐患。",
+      "risk_tags": [
+        "partial_stop_risk",
+        "ghost_probe_potential",
+        "low_visibility"
+      ]
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "【环境】夜间持续，路灯提供稳定照明，无明显天气异常。【自车】完成停车后，在十字路口等待，随后缓慢起步通过交叉口。【左侧】出现一辆白色Ryder货车（车身印有“Ever better”广告）静止于路边，车头朝向与自车行驶方向垂直；其后方另有一辆白色厢式货车停靠。【右侧】黄色跑车（疑似保时捷 Cayman）停在路肩，车门关闭，无人员活动；远处可见砖砌建筑，墙上挂有“Ideal”公司招牌。【交通设施】路口设有双向停车标志、路牌指示“E 14 ST”与“E 15 ST”，信号灯未显示，但自车遵循停车规则。【关键风险】自车起步时，左侧Ryder货车突然启动并横向切入自车前方车道，形成切出（Cut-out）行为，迫使自车紧急制动避让，构成高风险交互。",
+      "risk_tags": [
+        "cut_out_event",
+        "emergency_braking",
+        "unpredictable_vehicle_movement"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "【环境】夜间，道路两侧建筑物密集，电线纵横交错，部分区域灯光较暗。【自车】在中间车道匀速前行，驶离十字路口进入直行巷道。【左侧】连续停放多辆Ryder品牌货运卡车（含半挂和厢式），部分车辆正在装卸货物，有工人在车旁活动，但未进入行车道。【右侧】砖砌厂房前停有数辆私家车，包括蓝色SUV与深色轿车，均处于静止状态。【非标物体】左侧Ryder卡车旁有临时金属围栏，围栏内有绿色垃圾箱，无明显作业设备。【交通设施】道路两侧设有多个“STOP”标志，部分路段有“ONE WAY”单行指示牌。【关键风险】自车在狭窄巷道中行驶，两侧车辆密集，存在开门杀（Open Door）风险；左侧Ryder卡车司机若突然打开车门，将直接威胁自车安全。",
+      "risk_tags": [
+        "open_door_risk",
+        "narrow_road_congestion",
+        "parked_vehicle_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】夜间，城市背景中可见高层建筑轮廓，部分窗户亮灯，整体光线均匀。【自车】保持中间车道匀速行驶，沿弯曲道路前进。【前方】多辆Ryder货车与私家车交替停靠于道路两侧，部分车辆尾灯闪烁，表明可能处于待命或装卸状态。【右侧】一栋现代风格橙色玻璃幕墙建筑，底层有商铺，门前无行人。【左侧】一排老旧工业建筑，墙面有涂鸦，部分窗户破损。【交通设施】道路标线清晰，包含导向箭头与车道分隔线；远处可见交通信号灯柱，但未亮起。【关键风险】自车在弯道行驶过程中，左侧一辆黑色皮卡突然从停车位驶出，未打转向灯，横穿自车前方车道，构成“违规切入”（Aggressive Cut-in），自车需紧急减速规避，存在碰撞风险。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "improper_lane_change",
+        "blind_spot_crossing"
+      ]
+    }
+  ]
+}

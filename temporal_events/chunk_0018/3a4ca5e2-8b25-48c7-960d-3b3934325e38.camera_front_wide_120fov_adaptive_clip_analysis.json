@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 05:46:46",
+    "processing_time_seconds": 11.67
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "自车在十字路口停车等待绿灯，左侧车道有白色轿车驶入，右侧人行横道上有行人正在穿越。前方交通信号灯为绿灯，允许直行车辆通行，一辆白色轿车和一辆深色SUV依次从右侧车道变道至中间车道并驶过路口。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "自车在绿灯转红后开始左转，前方路口信号灯显示红灯，右侧施工区域设有橙色路障和围栏，一辆白色皮卡停在路边。一名穿反光背心的工人站在施工围栏旁，未进入车道。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "自车完成左转后沿施工路段直行，道路两侧布满橙色锥形桶和临时围栏，左侧可见高架桥结构，右侧为在建高层建筑。远处有施工车辆和临时设施，路面标线清晰，无其他车辆或行人干扰自车路径。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车继续沿施工路段行驶，前方出现“NO PARKING”标志牌和更多施工警示标识。道路两侧仍保持施工隔离措施，无行人或非施工车辆进入车道，天气阴沉，路面湿滑但无明显积水。"
+    }
+  ]
+}

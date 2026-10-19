@@ -1,0 +1,34 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.0,
+    "analysis_time": "2026-01-24 01:29:43"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "【环境】晴朗天气，光照充足，无异常天气或路面状况。【自车】位于中间车道，匀速沿直道行驶，未进行转向或变道。【周围交通参与者】左侧路肩有数辆静止停放的轿车；远处对向车道有少量车辆在匀速行驶，无明显交互意图。【交通设施】右侧路口设有红绿灯（当前为红灯），并配有“直行+右转”指示牌及限速50标志；左侧可见人行横道与公交站台区域，但无行人活动。【关键风险】无显著风险，前方道路通畅，无违规行为或遮挡物。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】阳光强烈，存在轻微镜头眩光，但不影响整体视野。【自车】保持中间车道匀速前行，未发生横向移动。【周围交通参与者】左侧出现一辆蓝色旅行车（型号疑似Skoda Octavia）从路边驶出，正准备左转进入主路，其车头已部分进入自车所在车道前方区域，存在切入风险。【交通设施】前方路口信号灯由红灯转为绿灯，提示可通行；右侧限速50标志清晰可见。【关键风险】蓝色旅行车即将实施左转切入，若未充分观察或减速，可能引发交叉碰撞（Cut-in Risk）。自车需保持警惕，准备应对突发变道。",
+      "risk_tags": [
+        "cut_in_risk",
+        "left_turn_crossing"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】无异常天气，能见度良好。【自车】继续在中间车道匀速前进，接近十字路口。【周围交通参与者】蓝色旅行车完成左转动作，已驶入对向车道，未对自车造成阻碍；同时，右侧出现一辆黑色Mini Cooper，从后方超车并切入自车右侧车道，完成变道后继续向前行驶。【交通设施】自车通过路口时，所有信号灯均为绿色，人行横道无行人通行。【关键风险】黑色Mini Cooper在自车右侧完成切出动作，虽未直接碰撞，但在高速行驶中近距离并行存在轻微剐蹭风险（Lane Change Interaction）。此外，蓝色车左转过程中曾短暂遮挡自车左侧视野，构成短时视觉遮挡（Occlusion Brief）。总体风险可控，无严重事故前兆。",
+      "risk_tags": [
+        "lane_change_interaction",
+        "brief_occlusion"
+      ]
+    }
+  ]
+}

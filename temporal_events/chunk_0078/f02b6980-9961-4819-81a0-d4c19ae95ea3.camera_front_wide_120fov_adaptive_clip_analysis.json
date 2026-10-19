@@ -1,0 +1,37 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.24,
+    "analysis_time": "2026-01-22 14:41:55"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴朗无云，阳光从左前方照射，形成轻微眩光。【自车】位于中间车道，绿灯亮起后起步加速前行。【左侧】一辆银色轿车在左转车道完成左转，驶离路口。【右侧】一名骑自行车者沿非机动车道同向行驶，车筐为绿色，未见明显转向或变道意图。【交通设施】路口设有多个交通信号灯（当前全为绿灯）、禁止左转标志、橙色施工锥桶及临时围挡，围挡上覆盖有涂鸦布。【关键风险】右侧施工区域存在多处锥桶与临时护栏，骑行者紧贴施工区边缘，若其突然转向或车辆变道可能引发碰撞；同时，锥桶排列不规则，存在视觉盲区。",
+      "risk_tags": [
+        "construction_zone_obstacle",
+        "cyclist_close_to_barrier",
+        "visual_blind_spot_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】阳光角度降低，道路两侧树木投下长影，光照由顺光转为侧光。【自车】保持中间车道匀速沿直道行驶。【左侧】对向车道有一辆黑色SUV快速驶过，未见异常行为。【右侧】高架桥下方绿化带中植被茂密，无行人或动物出现。【交通设施】道路左侧出现“ONLY”标线，提示该车道为专用车道；桥梁护栏逐渐取代施工围挡，进入开放路段。【关键风险】无显著风险，但桥梁护栏高度较低，若遇紧急制动，存在轻型车辆冲出护栏的潜在风险。",
+      "risk_tags": [
+        "low_barricade_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】夕阳西下，天空呈暖黄色渐变，光线柔和但存在强逆光区域。【自车】维持中间车道匀速行驶，车速稳定。【左侧】一座红砖建筑（Fred Hutch Cancer Center）清晰可见，外墙有标识文字，建筑旁设有路灯和人行道。【右侧】高架桥结构持续延伸，桥下无施工活动，绿化带完整。【交通设施】前方无信号灯，仅设有多组路灯和路牌指示牌，路面标线清晰连续。【关键风险】无直接威胁，但因夕阳逆光，自车前挡风玻璃反射光增强，可能影响驾驶员对远处障碍物的识别能力，属于长期驾驶疲劳诱发因素。",
+      "risk_tags": [
+        "sun_glare_risk",
+        "longitudinal_driving_monotony"
+      ]
+    }
+  ]
+}

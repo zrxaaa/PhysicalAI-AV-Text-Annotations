@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 01:57:29",
+    "processing_time_seconds": 16.11
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在多车道道路上行驶，前方红灯亮起，左侧白色SUV和右侧黑色SUV均减速准备停车，道路标线清晰，天气阴沉，路面湿滑无明显反光。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "信号灯转为绿灯后，自车及前方车辆开始缓慢前行，右侧黑色SUV向右变道并完成超车动作，左侧车道有红色轿车与绿色小型SUV依次通过路口，人行横道标志清晰可见。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车继续沿直行道前进，右侧车道出现排队等候的车辆，包括一辆深色皮卡和一辆银色轿车，自车保持当前车道，未进行变道或加速操作，路边树木无叶，显示冬季景象。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "前方出现左转箭头车道标识，自车维持直行，右侧黑色SUV在接近路口时减速并转向左侧车道，对向车道有车辆驶来但未进入冲突路径，交通状况平稳有序。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车通过交叉路口后，前方道路开阔，两侧树木稀疏，远处可见建筑轮廓，无行人或其他突发交通参与者，自车保持匀速直线行驶，交通信号灯已恢复为绿灯状态。"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 04:42:30",
+    "processing_time_seconds": 12.26
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在直行车道匀速行驶，前方有一辆黑色轿车保持同向行驶，左侧对向车道有白色轿车和深色SUV依次驶过，交通信号灯为绿灯，道路两侧有树木与建筑，天气晴朗，路面干燥无湿滑迹象。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "车辆继续沿直线道路前行，道路两侧绿化带逐渐变为高大棕榈树，右侧出现人行横道与限速40英里标志，前方黑色轿车维持稳定车距，未见明显变道或加速行为，自车保持当前车道无转向动作。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:15",
+      "scene_description": "接近十字路口，前方交通信号灯由绿转红，自车减速准备停车，右侧车道一辆银色SUV从右方切入并直行通过交叉口，同时左侧对向车道有车辆在红灯前停稳，路口设有行人过街信号灯与交通岛。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车在红灯前完全停止，前方无行人穿越，右侧银色SUV已驶离交叉口，远处可见多组交通信号灯呈绿色，表明横向车流可通行，自车保持静止状态等待绿灯恢复通行。"
+    }
+  ]
+}

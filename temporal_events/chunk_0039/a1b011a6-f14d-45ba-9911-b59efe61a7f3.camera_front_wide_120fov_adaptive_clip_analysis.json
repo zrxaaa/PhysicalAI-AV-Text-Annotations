@@ -1,0 +1,46 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.47,
+    "analysis_time": "2026-01-21 21:56:12"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，多云，光照充足，无降水或能见度异常。【自车】在中间车道匀速沿直道行驶，未进行转向或变道。【右侧】路边停放多辆白色工程车（含带升降梯的货车），其中一辆车门开启，有人员在车旁活动，但未进入车道。【交通设施】道路两侧为住宅区与草坪，无明显路标或信号灯。【关键风险】右侧工程车停靠区域存在“开门杀”潜在风险，但当前无人从车门方向横穿；无其他车辆或行人侵入车道。",
+      "risk_tags": [
+        "parked_vehicle_risk",
+        "no_immediate_threat"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】天气稳定，天空云层分布均匀，光线良好。【自车】保持中间车道匀速前进，随道路轻微左转。【左侧】出现一栋两层灰色住宅，门前草坪上有停放的银色SUV；右侧远处可见红砖房屋。【交通设施】道路右侧设有人行道与邮箱，无交通标志牌。【非标物体】无动物、施工设备或遗撒物。【关键风险】无显著风险，仅需注意左侧住宅前可能有行人或车辆突然驶出。",
+      "risk_tags": [
+        "low_risk_environment",
+        "potential_crossing_point"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:16",
+      "scene_description": "【环境】道路进入弯道段，左侧为开阔草坪，右侧为林地边缘，部分枯枝堆积于路边。【自车】在中间车道沿弯道匀速行驶，车头偏航角随曲率自然调整，未越线。【右侧】路边出现蓝色垃圾桶，后方有倒伏树枝堆，未影响通行。【交通设施】右侧出现限速30 mph标志牌，位于弯道外侧，提示驾驶员减速。【关键风险】弯道内侧视野受树木遮挡，存在“鬼探头”可能性；倒伏树枝虽未移动，但若遇强风或车辆震动可能松动，构成潜在障碍物风险。",
+      "risk_tags": [
+        "curve_driving_risk",
+        "occlusion_by_foliage",
+        "fallen_debris_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "【环境】晴朗，阳光照射下树影清晰投射于路面，无异常天气。【自车】继续在中间车道匀速沿弯道行驶，未做任何横向动作。【周边】道路两侧植被以落叶乔木为主，枝干裸露，无行人或动物活动。【交通设施】限速30标志牌已通过，前方无新设施。【关键风险】无直接威胁，但因道路弯曲且两侧视野受限，建议保持低速谨慎驾驶；无特种车辆、无违规行为、无路面障碍物。",
+      "risk_tags": [
+        "no_active_risk",
+        "caution_for_curves"
+      ]
+    }
+  ]
+}

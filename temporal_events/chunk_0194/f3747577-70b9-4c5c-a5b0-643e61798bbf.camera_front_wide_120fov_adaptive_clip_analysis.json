@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 10.96,
+    "analysis_time": "2026-01-24 12:58:29"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，阳光强烈导致画面左上角出现眩光。【自车】位于中间车道，匀速向前行驶，正接近一个高架桥下通道入口。【左侧】一辆黑色轿车在邻近车道向左变道，意图超车；其后方有一辆白色SUV紧随。【右侧】一辆红色SUV停靠在施工围挡旁，未移动。【交通设施】前方有绿色路牌指示“Center Ave NEXT RIGHT”，右侧为临时施工区域，设有橙色锥桶与混凝土隔离墩。【关键风险】左侧黑色轿车变道动作突然，且未打转向灯，存在切入自车车道的风险（Aggressive Cut-in）。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "strong_sunglare",
+        "construction_zone"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】进入高架桥下方隧道区域，光照骤减，顶部混凝土结构与支撑柱形成压迫感。【自车】保持中间车道，匀速沿直线道路前行，无明显加速或减速。【左侧】一辆黑色轿车在邻近车道稳定行驶，与自车保持平行。【右侧】红色SUV仍停靠在路边，未移动，但因光线昏暗，其车身轮廓模糊。【交通设施】隧道内设有多根圆柱形支撑柱，两侧为混凝土护栏，路面标线清晰可见。【关键风险】隧道内光线变化剧烈，可能导致视觉适应延迟；右侧红色SUV静止状态不明，若为故障车或施工人员停留，可能构成障碍物风险（General Obstacle）。同时，隧道出口处光线突亮，存在“明暗切换”造成的瞬时视觉盲区。",
+      "risk_tags": [
+        "light_transition_blind_spot",
+        "stationary_vehicle_obstacle",
+        "tunnel_environment"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】驶出隧道，恢复至室外强日照环境，阳光从左上方照射，产生明显阴影。【自车】保持中间车道，匀速行驶，前方车流密集但有序。【左侧】一辆红色轿车从左前侧邻车道快速超越自车，完成切出动作。【右侧】红色SUV已启动并开始向右前方变道，逐渐脱离原位置。【交通设施】前方路口设有交通信号灯与多个导向标志牌，包括“YIELD”和“NO TURN ON RED”警示牌。远处可见麦当劳建筑及商业区。【关键风险】右侧红色SUV变道动作未见明显转向灯提示，存在潜在切入自车车道的博弈行为；同时，左侧红色轿车高速超车，增加了横向间距不足的风险（Cut-in Risk）。此外，前方路口车辆密集，存在因刹车导致的追尾连锁反应可能性。",
+      "risk_tags": [
+        "unannounced_lane_change",
+        "high_speed_cut_in",
+        "intersection_congestion_risk"
+      ]
+    }
+  ]
+}

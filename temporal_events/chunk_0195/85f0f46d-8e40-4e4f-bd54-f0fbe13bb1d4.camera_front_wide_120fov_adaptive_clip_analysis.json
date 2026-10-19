@@ -1,0 +1,48 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.1,
+    "analysis_time": "2026-01-24 13:16:41"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】晴天，光照充足，无异常天气。【自车】位于中间车道，正通过十字路口，执行停车等待行人过街的减速动作。【左侧】人行横道上有约6名行人正在横穿马路，其中一名穿深色外套的行人正面向自车方向行走，双手插兜，步速平稳；另一名穿浅色上衣的行人正低头看手机，未观察交通状况。【右侧】一辆白色轿车在右转车道等待，后方有2名行人站立于路边，面朝自车方向。【交通设施】路口设有清晰斑马线、交通信号灯（当前为绿灯），路旁有“FedEx Office”和“Whole Foods Market”标识。【关键风险】行人中存在“鬼探头”潜在风险：低头看手机者未注意来车，若突然加速横穿，将与自车形成碰撞盲区。",
+      "risk_tags": [
+        "jaywalking",
+        "ghost_probe_risk",
+        "pedestrian_distraction"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】晴朗，阳光直射，部分区域出现阴影。【自车】完成路口等待后，进入直行街道，保持匀速沿道行驶。【左侧】一辆黑色SUV从左前方驶入画面并超越自车，车速较快；其后方有一辆白色厢式货车（车身印有“G.W. Mechanical Corp.”字样）停靠在路边。【右侧】一辆绿色面包车停在“CHELSEA”店门口，两名行人从车前走过，其中一人回头望向自车方向。【交通设施】道路两侧建筑密集，部分店铺招牌可见（如“Apple Cleaners”），右侧人行道设置橙色施工围挡及锥桶。【关键风险】左侧超车车辆速度较快，存在切出车道时与自车发生剐蹭的风险；右侧施工围挡区域有行人靠近，可能因视线遮挡导致突发横穿。",
+      "risk_tags": [
+        "fast_cutting_in",
+        "construction_zone_obstruction",
+        "pedestrian_near_construction"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "【环境】阳光强烈，部分建筑投下长影，路面干燥。【自车】保持中间车道匀速前行，道路两侧为商业街区。【左侧】一名骑电动自行车的男子从左侧人行道进入机动车道，身穿深色夹克，头戴头盔，正朝自车方向骑行，车速中等，未打转向灯。【右侧】施工围挡持续延伸，围挡内有脚手架结构，一名工人站在围挡外侧，手持工具，未移动。【非标物体】左侧商铺墙面上贴满广告贴纸，部分区域有涂鸦，无明显障碍物。【关键风险】骑车者突然切入机动车道，且未使用转向灯，属于“违规横穿”，对自车构成直接碰撞威胁；施工区域人员靠近车道，存在被飞溅物击中的风险。",
+      "risk_tags": [
+        "unauthorized_lane_crossing",
+        "cyclist_cut_in_without_signal",
+        "construction_worker_proximity"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】光线稳定，无遮挡或强光干扰。【自车】继续沿中间车道匀速行驶，道路两侧建筑风格统一，多为砖石结构。【左侧】一辆白色厢式货车（车身印有“A2K ELECTRIC”标志）停在路边，车门打开，两名工作人员正在装卸货物，未进入行车道。【右侧】一辆黄色出租车从右侧车道驶过，车速较快，未影响自车行驶。【交通设施】道路右侧设有多处橙色锥桶与临时围栏，用于隔离施工区域；远处可见“HYATT PLACE PLACE”酒店入口。【关键风险】左侧货车装卸作业期间，货物或工具可能掉落至车道；右侧出租车快速变道，虽未切入自车车道，但存在轻微扰动风险。整体场景风险较低，无紧急避让需求。",
+      "risk_tags": [
+        "loading_operation_hazard",
+        "high_speed_vehicle_passing"
+      ]
+    }
+  ]
+}

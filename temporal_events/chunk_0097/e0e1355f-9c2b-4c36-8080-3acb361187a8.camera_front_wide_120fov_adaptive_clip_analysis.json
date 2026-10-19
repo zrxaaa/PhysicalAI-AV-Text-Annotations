@@ -1,0 +1,42 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.93,
+    "analysis_time": "2026-01-22 23:21:38"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】夜间无路灯照明，仅靠车灯照明道路。【自车】在中间车道匀速沿道行驶，车头朝向正前方。【交通设施】左侧出现一根路灯杆，灯光呈黄色，照亮部分路面；右侧路边有房屋轮廓，但未见明显标识。【关键风险】前方道路存在轻微弯道，视野受限，无其他车辆或行人可见，暂无直接风险。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:04-00:00:07",
+      "scene_description": "【环境】夜间，道路两侧植被茂密，能见度低。【自车】在中间车道减速并完成左转动作，车头偏航角从正向前转向左方约30度。【交通设施】前方路口设有红色八角形“STOP”标志牌，下方附有“ALL WAY”字样，同时路旁立有街道名称标牌（DUSTIN LN & LEAK DR）。【关键风险】自车在接近路口时未完全停车，仅减速，存在闯红灯或未遵守“全路段停车”规则的风险；路口无其他车辆或行人，但缺乏清晰的交通信号灯状态确认。",
+      "risk_tags": [
+        "partial_stop",
+        "intersection_violation_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "【环境】夜间，道路两侧树木密集，形成林荫道，车灯照射范围有限。【自车】完成左转后进入新路段，保持在中间车道匀速沿道行驶，车头随道路曲线自然调整方向。【周围环境】道路两侧草地及灌木丛中无明显动物或行人活动；远处偶有微弱灯光，疑似住宅区照明。【关键风险】道路两侧植被遮挡视线，存在潜在“鬼探头”风险；路面有轻微裂缝，但无明显障碍物或施工区域。",
+      "risk_tags": [
+        "occlusion_risk",
+        "road_surface_defect"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】夜间，道路两侧为住宅区，部分房屋亮灯，路灯稀疏。【自车】在中间车道持续匀速行驶，车头方向与道路走向一致，无转向意图。【周围环境】左侧出现一栋大型住宅建筑，外墙灯光亮起，右侧为草坪和树木；远处可见另一盏路灯，提供局部照明。【关键风险】无突发障碍物、无违规车辆或行人；但因夜间光线不足，对突然横穿的行人或动物反应时间缩短，需保持警惕。",
+      "risk_tags": [
+        "low_visibility_risk",
+        "pedestrian_animal_entrance_potential"
+      ]
+    }
+  ]
+}

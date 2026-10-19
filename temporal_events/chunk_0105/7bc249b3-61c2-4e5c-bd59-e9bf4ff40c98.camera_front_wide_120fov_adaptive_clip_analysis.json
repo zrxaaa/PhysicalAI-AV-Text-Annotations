@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.63,
+    "analysis_time": "2026-01-23 02:36:41"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天暴雨天气，天空布满厚重灰云，路面湿滑且有明显积水反光。【自车】位于中间车道，匀速沿直道行驶，未进行变道或转向。【周围车辆】左侧邻车道有一辆白色SUV（丰田RAV4）在自车左前方并行，车速与自车相近；右侧无显著车辆。【交通设施】前方可见绿色高速公路指示牌，标示“Alam Rock Ave”和“Santa Clara Street”，提示即将进入交叉路口。【关键风险】无明显违规行为或障碍物，但雨天湿滑路面增加制动距离，需保持安全车距。",
+      "risk_tags": [
+        "heavy_rain",
+        "wet_road",
+        "reduced_visibility"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】持续阴雨天气，能见度中等偏低，路面水迹明显，部分区域形成浅水坑。【自车】保持中间车道匀速前行，通过多层立交桥下方结构，桥体混凝土支撑柱密集，形成视觉遮挡。【周围车辆】前方一辆白色SUV（同前车）维持稳定车距，未变道；左侧对向车道有车辆快速驶过，但未进入本车影响范围。【交通设施】自车正穿过立交桥下通道，两侧为混凝土护坡与护栏，右侧路肩有少量施工遗撒垃圾。【关键风险】桥梁结构造成局部视野受限，存在“鬼探头”潜在风险；路面水坑可能引发溅水干扰视线。",
+      "risk_tags": [
+        "occlusion_risk",
+        "water_puddle",
+        "bridge_structure_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】雨势减弱，天空仍阴沉，路面积水减少但仍有大面积水洼反射光线。【自车】继续在中间车道匀速行驶，未进行转向或变道。【周围车辆】前方白色SUV保持稳定行驶，未出现急刹或变道；左侧对向车道有数辆车快速通过，均在安全距离外。【交通设施】道路两侧出现施工围挡与橙色锥桶，右侧为临时土方堆场，无作业车辆活动；远处可见交通信号灯杆及红绿灯装置，当前显示为绿灯。【关键风险】右侧施工区域存在未清理的碎石与杂物，若自车偏离车道可能触发轮胎打滑；前方水洼区域易导致车轮溅水，影响后车视线。",
+      "risk_tags": [
+        "construction_debris",
+        "water_reflection_hazard",
+        "low_visibility_after_rain"
+      ]
+    }
+  ]
+}

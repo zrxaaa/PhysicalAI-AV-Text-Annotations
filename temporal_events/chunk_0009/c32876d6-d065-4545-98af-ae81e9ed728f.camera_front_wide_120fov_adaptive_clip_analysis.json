@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 02:20:25",
+    "processing_time_seconds": 16.14
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在中间车道匀速行驶，右侧白色SUV从右车道加速并入中间车道，左侧铁路轨道旁有车辆快速驶过，天气晴朗，路面干燥无积水。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "前方黑色SUV与银色轿车在自车前缓行，右侧银色轿车向左轻微变道，试图超越前方车辆，自车保持当前车道和速度，未进行任何转向或加速动作。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "右侧灰色小型车从后方加速并入自车所在车道，与自车形成并行状态，左侧铁路沿线有车辆持续通行，道路两侧树木茂密，无行人或其他突发障碍物。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "所有前方车辆开始减速，刹车灯亮起，自车跟随减速，保持安全跟车距离，右侧银色轿车完成超车并回到原车道，左侧铁路区域仍有车辆通过但不影响主路交通。"
+    },
+    {
+      "time_segment": "00:00:19-00:00:20",
+      "scene_description": "交通流进入稳定缓行状态，自车与前方黑色SUV保持低速跟车，右侧车道无明显车辆干扰，整体场景平稳，无紧急事件或显著行为变化。"
+    }
+  ]
+}

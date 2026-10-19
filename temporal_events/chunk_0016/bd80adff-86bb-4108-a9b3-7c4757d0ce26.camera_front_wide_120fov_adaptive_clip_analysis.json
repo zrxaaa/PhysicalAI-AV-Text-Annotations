@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 04:56:10",
+    "processing_time_seconds": 12.01
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "自车沿双向两车道道路平稳行驶，阳光从左上方照射，路面干燥。右侧人行横道警示牌和前方交叉路口标志清晰可见，无行人或车辆在近处活动，自车未进行转向或变速操作。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:11",
+      "scene_description": "车辆接近十字路口，前方出现白色斑马线，两侧有低矮灌木和高大落叶树。无行人或障碍物出现在自车路径上，自车保持直行并维持当前速度，未见其他车辆进入交叉区域。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:15",
+      "scene_description": "自车继续沿直线道路前进，右侧为连续绿篱与住宅围墙，左侧树木稀疏。路面上有明显修补痕迹和车道分隔线，未见任何动态交通参与者靠近自车路径，环境安静且无信号灯变化。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "临近下一个路口，前方道路略显弯曲，两侧植被逐渐密集。自车仍保持匀速直行，未遇行人、非机动车或临时障碍物，天气晴朗，光线充足但无遮挡，视野良好。"
+    }
+  ]
+}

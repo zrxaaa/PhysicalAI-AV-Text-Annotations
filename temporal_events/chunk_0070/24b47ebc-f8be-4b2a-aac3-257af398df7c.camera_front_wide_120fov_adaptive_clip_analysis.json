@@ -1,0 +1,51 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 21.68,
+    "analysis_time": "2026-01-22 11:05:27"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】暴雨天气，挡风玻璃布满水珠，雨刷器未启动，能见度严重受限。路面湿滑积水，反射天空灰白光。【自车】位于中间车道，执行减速制动，准备在交叉路口停车。【前方】两处红色STOP标志牌（均标有“ALL WAY”），位于十字路口两侧。【右侧】一个黄色菱形警示牌显示“左转弯道”，提示前方为急弯。【关键风险】左侧对向车道一辆深色轿车在湿滑路面行驶时出现轻微打滑，车身横向偏移，可能侵入自车所在车道；同时，右侧人行道边缘有行人模糊身影，因雨雾遮挡无法判断其动作意图，存在“鬼探头”潜在风险。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility",
+        "slippery_road",
+        "ghost_probe_risk",
+        "crossing_vehicle"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】雨势略有减弱，但路面仍积水反光，部分区域形成水雾。【自车】完成停车，随后缓慢起步，沿中间车道继续前行。【左侧】灰色多层住宅楼前，一名穿红色外套的行人正从人行道走向街角，面部朝向自车方向，右手持伞，左手提包，步伐平稳，无横穿意图。【右侧】路口右转车道停有一辆黑色皮卡和一辆黑色轿车，均静止未动。【交通设施】路口设有“LEFT LANE TRAINS LEFT TURN ONLY”指示牌，明确限制左转车辆行为。【关键风险】无明显违规或高危交互，但右侧皮卡车门处于半开状态，存在“开门杀”隐患，需保持警惕。",
+      "risk_tags": [
+        "moderate_rain",
+        "door_opening_risk",
+        "pedestrian_crossing_no"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】阴天，云层低垂，光线均匀但昏暗，无明显降水。【自车】在中间车道匀速沿直线道路行驶，车速约25km/h。【左侧】对向车道有多辆汽车依次驶过，包括一辆银色SUV与一辆黑色轿车，均保持正常行驶轨迹。【右侧】路边停放多辆私家车，其中一辆深灰色轿车正在缓慢倒车进入停车位，车尾朝向自车方向，倒车影像未开启，存在盲区碰撞风险。【交通设施】沿途可见多个“NO TURN ON RED”禁左标志及“34th Ave”路牌。【关键风险】右侧倒车车辆未使用后视镜或雷达辅助，且自车与其距离小于10米，若其突然加速或转向，将引发紧急避让事件。",
+      "risk_tags": [
+        "reverse_driving_risk",
+        "blind_spot_collision",
+        "low_light_condition"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】持续阴天，路面干燥但仍有薄水膜，无明显雨滴。【自车】保持中间车道匀速前进，车速约30km/h。【前方】远处可见一辆红色有轨电车正沿轨道驶来，车身高度与自车相当，但未进入交叉口。【左侧】一排联排住宅楼，部分门口有绿植或花箱，无行人活动。【右侧】一栋白色建筑前，一辆银色轿车正在驶离停车位，车头已转向右方，即将汇入主路。【非标准物体】该银色轿车在变道过程中未打转向灯，且速度较快，与自车横向间距不足5米，构成“突兀切入”风险。【关键风险】银色轿车强行加塞，未礼让自车，可能导致自车紧急制动或被迫变道，增加碰撞概率。",
+      "risk_tags": [
+        "un signaled_turn",
+        "aggressive_cut_in",
+        "high_speed_intersection_approach"
+      ]
+    }
+  ]
+}

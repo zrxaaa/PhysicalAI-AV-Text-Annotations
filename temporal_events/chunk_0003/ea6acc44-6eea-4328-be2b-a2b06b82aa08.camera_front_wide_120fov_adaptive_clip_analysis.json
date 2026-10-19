@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 00:01:30",
+    "processing_time_seconds": 10.53
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在宽阔的机场跑道上直线行驶，前方视野开阔，右侧远处可见一辆白色拖车静止停放，天气晴朗，路面干燥无遮挡。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "自车继续沿跑道直行，途中经过一个标有白色环形线的区域，未见其他车辆或行人，两侧为荒地，环境空旷，无明显障碍物或交通设施。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "自车开始向左转向，驶离主跑道进入一条弯曲的次级道路，周围仍是干燥荒地，无其他交通参与者，车道线清晰可见，天气条件稳定。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "自车持续沿弯道行驶，道路逐渐变窄，两侧沙土与稀疏植被环绕，未发现任何行人或其他车辆，整体场景保持空旷与单调，无显著交互行为。"
+    }
+  ]
+}

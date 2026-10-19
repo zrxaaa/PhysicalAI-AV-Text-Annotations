@@ -1,0 +1,38 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.99,
+    "analysis_time": "2026-01-23 05:07:27"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】浓雾天气，能见度极低（约50-80米），路面湿滑积水反光严重。【自车】在中间车道匀速行驶，未进行变道或转向，车头保持正向沿道路曲率前行。【左侧】一辆深色SUV从左前方邻车道快速超车并切入自车所在车道，未开启转向灯，存在违规切线风险。【交通设施】前方高架电子路牌显示限速100km/h及红灯禁行标志，但因雾气遮挡，视觉识别模糊。【关键风险】左侧车辆强行加塞，导致自车需紧急避让，存在碰撞风险。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "low_visibility",
+        "emergency_evade"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】持续浓雾，雨刮器未启动（无明显雨刷动作），挡风玻璃有水珠但未形成大面积水幕。【自车】保持中间车道匀速行驶，无转向或制动行为。【右侧】路肩护栏外树木密集，无行人或动物出现。【左侧】对向车道有多辆大型货车与轿车交错通行，均保持稳定车距。【交通设施】通过高架桥下方，上方蓝色指示牌显示“Würzburg Mannheim Heilbronn”及“Leunberg - Ost 400m”，为高速公路分岔口预告。【关键风险】前方车辆尾灯因雾气扩散而模糊，无法准确判断其刹车状态，存在追尾隐患。",
+      "risk_tags": [
+        "poor_visual_clarity",
+        "rear-end_collision_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雾气略有缓解，但仍维持低能见度（约80-120米），路面湿滑，部分区域有薄冰反光迹象。【自车】在中间车道继续匀速行驶，未进行横向移动。【左侧】一辆银灰色轿车从左前侧邻车道缓慢超越后，保持在自车左前方约30米处，未再靠近。【右侧】路边广告牌与小型交通标志牌依次掠过，无异常物体。【交通设施】经过分岔口预告牌后，前方无强制限速或信号控制，仅保留常规车道引导标识。【关键风险】右侧路肩草地边缘有疑似被风吹倒的枯枝堆积，虽未侵入车道，但可能在高速行驶中引发轮胎异响或轻微震动，属于潜在障碍物风险。",
+      "risk_tags": [
+        "potential_obstacle",
+        "low_visibility_continuation"
+      ]
+    }
+  ]
+}

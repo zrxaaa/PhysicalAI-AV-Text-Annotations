@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.06,
+    "analysis_time": "2026-01-23 12:10:56"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】阴天，云层厚重，光线昏暗，接近黄昏。路面干燥，无明显积水或结冰。【自车】位于中间车道，初始处于停车状态（刹车灯亮），随后缓慢起步加速。【前方】一辆银灰色奔驰旅行车在正前方车道，尾灯亮起，保持匀速行驶。【右侧】一辆银色旅行车从右后方快速超车并切入自车所在车道，完成变道动作。【交通设施】道路两侧为高大行道树，左侧为笔直排列的杨树，右侧为茂密灌木与草坪；远处可见交通信号灯显示绿灯。【关键风险】右侧车辆强行变道未打转向灯，存在“加塞”嫌疑，虽未碰撞但构成横向交互威胁。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "lane_change_without_signal",
+        "low_light_driving"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】天空仍阴沉，但地平线处透出微弱夕阳光，能见度良好。【自车】保持在中间车道，匀速沿直线道路前行。【左侧】对向车道有多辆汽车驶过，包括黑色SUV和白色轿车，均正常行驶。【右侧】一辆白色福特旅行车在相邻车道行驶，与自车保持稳定距离。【交通设施】前方路口设有多个交通信号灯，当前均为绿灯；路旁有蓝色左转指示牌及人行横道标线。【非标准物体】右侧路边草地上有一只灰白相间的小型动物（疑似猫）静止站立，面向道路方向，无移动趋势。【关键风险】无显著违规行为或遮挡风险，动物静止不构成即时威胁，但需注意其可能突然闯入车道。",
+      "risk_tags": [
+        "animal_presence",
+        "no_immediate_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:11-00:00:19",
+      "scene_description": "【环境】天空持续阴云，光线逐渐减弱，进入傍晚时段。【自车】维持中间车道匀速行驶，无明显加速或减速。【左侧】出现一栋现代风格黑白建筑，外墙有“VAREC”标识；其后方有数面旗帜随风飘动。【右侧】经过一个加油站入口（红色顶棚），随后出现“BENZ Werk und Getränkemarkt”招牌，旁边有施工围挡及黄色塔吊；多辆汽车在右侧支路进出。【交通设施】道路右侧设有人行道、自行车道及红白相间路桩；前方无红绿灯，但有弯道提示标志。【关键风险】右侧施工区域存在潜在障碍物（如临时围栏、设备），且有车辆频繁出入，存在“开门杀”或行人突然横穿的风险；同时，自车在接近弯道时未提前减速，增加侧滑或视野受限风险。",
+      "risk_tags": [
+        "construction_zone_risk",
+        "unpredictable_pedestrian_crossing",
+        "lack_of_speed_reduction_before_bend"
+      ]
+    }
+  ]
+}

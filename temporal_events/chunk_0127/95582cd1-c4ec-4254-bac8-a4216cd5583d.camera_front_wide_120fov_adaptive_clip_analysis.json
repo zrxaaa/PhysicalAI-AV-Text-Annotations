@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.61,
+    "analysis_time": "2026-01-23 12:02:54"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "【环境】夜间，无路灯照明，仅靠车灯照亮前方道路。路面湿滑，有明显积水反光，部分路段可见水雾或水迹。【自车】在中间车道匀速沿道行驶，车头方向随道路曲率自然调整，未发生变道或转向。【交通设施】道路两侧设有白色反光路桩，间距均匀，沿弯道分布。【关键风险】无显著障碍物或违规行为；但因夜间能见度极低、路面湿滑，存在潜在打滑或视线盲区风险。",
+      "risk_tags": [
+        "low_visibility",
+        "wet_road",
+        "no_immediate_threat"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "【环境】持续夜间驾驶，车灯照射范围外仍为完全黑暗，无天气突变。【自车】保持中间车道匀速前进，车身姿态稳定，未出现紧急制动或转向。【交通设施】右侧路肩出现一个三角形警告标志（注意牲畜/动物），立于白色路桩旁。【非标物体】在警示牌附近草丛中，隐约可见一只大型动物（疑似鹿）静止站立，头部朝向道路，未移动。【关键风险】动物处于路边阴影区域，可能突然冲入车道，构成“鬼探头”风险；当前距离约30米，若不减速将进入危险区间。",
+      "risk_tags": [
+        "animal_presence",
+        "ghost_probe_risk",
+        "low_light_obstacle"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】继续夜间行驶，路面湿润，车灯映照出轻微水雾。【自车】维持中间车道匀速行驶，车头略微向右微调以适应弯道。【交通设施】前方出现一个黄色菱形警告标志（注意前方弯道），位于右侧路肩，与白色路桩并列。【非标物体】动物已消失于视野，未再出现。【关键风险】无直接威胁；但弯道处警示标志提示需提前减速，当前车速偏高，存在过弯侧滑或视线不足风险。",
+      "risk_tags": [
+        "curve_warning",
+        "speed_risk",
+        "no_active_threat"
+      ]
+    }
+  ]
+}

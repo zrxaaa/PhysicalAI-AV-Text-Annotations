@@ -1,0 +1,47 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.65,
+    "analysis_time": "2026-01-21 23:55:10"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，光照充足，无异常天气。【自车】在中间车道匀速沿道行驶，车头朝向道路前方，未进行转向或变道。【左侧】一辆白色轿车停靠在路边，后方有蓝色垃圾桶；右侧停放多辆私家车，包括一辆白色工程卡车（车身印有“SUSK”字样），车尾锥桶清晰可见，处于静止状态。【交通设施】路面标有“STOP”字样，前方约30米处设有一个红色停车标志牌（STOP sign），并配有“ONE WAY”指示牌。【关键风险】右侧一辆黑色SUV从停车位驶出，向左切入自车所在车道，动作突然且未打转向灯，存在加塞风险（Aggressive Cut-in）。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "parked_vehicle_obstacle"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】晴朗，阳光投射在建筑立面形成明显阴影，无遮挡。【自车】继续在中间车道匀速前行，通过十字路口时减速至停止线前，准备右转。【左侧】一辆白色厢式货车（车身印有“ERI ENVIRONMENTAL REMEDIES, INC.”及电话号码）停在路口左转车道，未移动；其后方有一辆黑色轿车正沿对向车道驶来。【右侧】一名行人站在人行道上，手持手机，面向自车方向，未横穿马路。【交通设施】路口设有红底白字“STOP”标志和“ONE WAY”箭头标志，自车在停止线前完全停下。【关键风险】右侧人行道上有行人站立，但未进入车道，无直接碰撞风险；左侧厢式货车虽静止，但占据左转车道，可能影响后续左转车辆通行。",
+      "risk_tags": [
+        "stop_sign_compliance",
+        "pedestrian_standby"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】晴天，光线良好，视野开阔。【自车】完成路口右转，重新进入直行主路，保持中间车道匀速行驶。【左侧】一栋米色建筑旁停有一辆银色SUV，车尾挂备胎；其后方有数辆私家车排队等候。【右侧】灰色建筑外墙装有金属消防梯，下方人行道上立有黄色“PEDESTRIAN AHEAD”警示牌，提示前方有行人过街区域。【非标准物体】右侧人行道上无动物或施工设备，但路边有多个电线杆及密集架空电缆，构成视觉干扰。【关键风险】前方道路为连续下坡，视线受两侧建筑遮挡，存在潜在“鬼探头”风险；右侧人行道警示牌提示行人活动，需警惕突发横穿行为。",
+      "risk_tags": [
+        "downhill_gradient",
+        "pedestrian_crossing_potential",
+        "visual_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】晴天，阳光斜射，部分路段出现阴影区。【自车】在中间车道持续匀速行驶，沿弯曲道路前进，未发生转向或变道。【左侧】一辆白色老式轿车（疑似劳斯莱斯）从后方驶入画面，缓慢超越自车，随后并入左侧车道；其后方紧随一辆黑色轿车。【右侧】多辆银色、白色轿车沿路边有序停放，其中一辆银色轿车在自车右前方约10米处缓慢向前移动，疑似准备驶离车位。【交通设施】前方道路标有“SCHOOL SPEED LIMIT 15”限速标志，提示附近有学校区域。【关键风险】右侧银色轿车启动时未观察后方，存在切出车道时与自车发生剐蹭的风险（Cut-out Risk）；同时，前方弯道处因建筑遮挡，无法预判是否有行人或车辆突然出现，属于长尾遮挡风险场景。",
+      "risk_tags": [
+        "cut_out_risk",
+        "school_zone_warning",
+        "occlusion_at_bend"
+      ]
+    }
+  ]
+}

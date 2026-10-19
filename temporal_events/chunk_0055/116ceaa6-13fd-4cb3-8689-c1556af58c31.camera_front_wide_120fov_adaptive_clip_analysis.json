@@ -1,0 +1,46 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.69,
+    "analysis_time": "2026-01-22 04:43:41"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】阴天，路面湿滑，有轻微水雾反光，能见度良好。【自车】在中间车道匀速沿直道行驶，未进行转向或变道。【右侧】路边停放多辆私家车（包括银色轿车、黑色SUV），部分车辆停于路肩非正规停车区。【左侧】可见低矮砖墙、白色栅栏及住宅区，无行人或动物活动。【交通设施】道路标线清晰，含“SCHOOL”字样减速带标识；前方约50米处出现黄色菱形“YIELD”让行标志。【关键风险】无明显风险，但右侧停车车辆存在“开门杀”潜在威胁，尤其当自车接近时需警惕车门突然开启。",
+      "risk_tags": [
+        "parked_vehicle_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:06-00:00:10",
+      "scene_description": "【环境】天气仍阴沉，无降水，光线均匀。【自车】接近十字路口，保持匀速，准备在路口停车。【前方】一辆白色皮卡（载有长条金属构件）从对向车道驶来，正横穿路口，车身偏左，未完全停止。【右侧】路口设红色“STOP ALL WAY”标志牌，立柱旁有电线杆和灌木丛。【左侧】一辆深色SUV从横向支路驶入主路，正在完成左转动作。【交通设施】路口设有斑马线、人行横道提示牌及多个黄色导向箭头标志。【关键风险】对向皮卡未礼让，且车身突出，存在与自车发生侧面碰撞风险；同时，左转SUV未充分观察直行自车，构成“交叉冲突”，属于高危博弈行为。",
+      "risk_tags": [
+        "crossing_conflict",
+        "improper_yield",
+        "aggressive_crossing"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "【环境】林区道路，两侧树木茂密，部分枝叶垂至路肩，无明显天气异常。【自车】在通过十字路口后，向右轻微转向以进入右侧支路，车头偏航角变化约8度。【右侧】路口后方可见一个公交候车亭及小型建筑，亭内无人。【左侧】远处有绿色路牌显示“WELCOME TO BELLEVUE”，表明已进入城镇边界。【交通设施】路口后方设置“NO LEFT TURN”禁左标志及“SPEED LIMIT 30”限速牌。【关键风险】自车右转时，右侧路肩植被遮挡视线，存在“鬼探头”隐患；同时，前方道路因转弯半径小，需注意避让可能从侧方冲出的非机动车或行人。",
+      "risk_tags": [
+        "turning_obstruction",
+        "ghost_probe_risk",
+        "limited_visibility"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】持续阴天，路面干燥，无积水或结冰。【自车】在中间车道恢复匀速直线行驶，车速约35 mph。【前方】数辆汽车在前方同向行驶，保持安全距离，无急刹或变道行为。【右侧】路边竖立“OVER 32,000 LBS EXCEPT LOCAL DELIVERIES”重型车辆限重标志牌，下方附有“BELLEVUE CITY LIMIT”市政边界标牌。【左侧】林间空地与低矮围栏交替出现，无行人或动物。【交通设施】道路两侧布设连续虚线分隔车道，右侧设“NO U-TURN”禁止掉头标志。【关键风险】无显著风险，但重型车辆限重标志提示该路段可能通行大型货运车辆，需注意其启动/制动惯性较大，应保持更远跟车距离。",
+      "risk_tags": [
+        "heavy_vehicle_warning",
+        "no_immediate_risk"
+      ]
+    }
+  ]
+}

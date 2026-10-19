@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 20.16,
+    "analysis_time": "2026-01-21 19:05:43"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】晴朗天气，能见度良好，无降水或雾。【自车】位于中间车道，匀速沿直道行驶。【左侧】多辆SUV与轿车沿路边停靠，部分车辆缓慢驶离；右侧路肩有土坡和植被，设有多组交通标志（含“NO PASSING ZONE”及限速35 MPH）。【交通设施】前方约50米处出现橙色“ROAD WORK AHEAD”警示牌，右侧停放一辆白色平板卡车，车尾朝向自车方向，未作业。【关键风险】左侧停车车辆频繁启停，存在“开门杀”或突然启动切入车道的风险；右侧施工车辆虽静止，但占用部分路肩，限制横向避让空间。",
+      "risk_tags": [
+        "door_opening_risk",
+        "narrow_clearance",
+        "construction_zone"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】持续晴天，光照稳定。【自车】保持中间车道匀速前进，道路开始轻微左转。【右侧】出现施工区域：橙色锥桶沿右边缘排列，后方停放一辆装载小型挖掘机的平板拖车，拖车旁有移动式电子告示牌显示“SLOW”字样。【行人】一名身穿荧光黄背心的施工人员在左侧路肩行走，面向自车方向，步态平稳，未横穿道路。【交通设施】前方设置限速25 MPH标志牌，与原35 MPH形成速度过渡区。【关键风险】施工区域锥桶间距不均，存在引导失效风险；电子告示牌闪烁频率低，对驾驶员提示效果有限；施工人员靠近行车道，若突然转向或设备移动可能引发碰撞。",
+      "risk_tags": [
+        "inadequate_cone_spacing",
+        "low_electronic_sign_effectiveness",
+        "pedestrian_proximity_to_traffic"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "【环境】天空略显灰白，可能受远处海雾影响，能见度略有下降。【自车】沿弯曲道路继续前行，车头偏航角随弯道调整，始终在中间车道内“沿道行驶”，未变道。【右侧】施工区域延续，锥桶与临时护栏维持引导路径；远处可见另一台橙色移动信号灯装置，显示“STOP”字样。【左侧】路肩上仍有两名施工人员站立，其中一人面向远方，另一人背对自车，手持工具，未移动。【非标物体】无动物或路面遗撒物。【关键风险】弯道处视线被山体遮挡，前方“WATCH FOR STOPPED TRAFFIC”警示牌位置较远，驾驶员反应时间缩短；施工人员在弯道外侧活动，若车辆减速或急刹，易因视野盲区导致追尾或刮蹭。",
+      "risk_tags": [
+        "blind_spot_in_curves",
+        "delayed_warning_sign",
+        "worker_location_in_hazard_zone"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】天气仍晴，但海面雾气增强，远处海岸线模糊。【自车】继续沿弯道行驶，保持当前车道，车速稳定。【前方】红色SUV在前车流中匀速行驶，未刹车或变道。【右侧】再次出现黄色“25 MPH”限速标志，紧邻弯道内侧；路边植被茂密，部分灌木延伸至路肩。【交通设施】一个橙色菱形警示牌显示“WATCH FOR STOPPED TRAFFIC”，位于弯道外侧，提醒驾驶员注意前方可能的停车车辆。【关键风险】弯道内侧无明显障碍，但外侧植被遮挡视线，存在“鬼探头”潜在风险；限速标志与实际路况（弯道+施工）匹配，但缺乏动态速度反馈，驾驶员易误判；前车未显示任何制动或转向意图，整体交通流平稳，无即时冲突。",
+      "risk_tags": [
+        "vegetation_obstruction",
+        "lack_of_dynamic_speed_feedback",
+        "potential_ghost_probe"
+      ]
+    }
+  ]
+}

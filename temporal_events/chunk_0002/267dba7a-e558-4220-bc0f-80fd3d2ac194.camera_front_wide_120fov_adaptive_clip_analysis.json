@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:24:21",
+    "processing_time_seconds": 17.63
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "绿灯亮起后，自车开始向左转向，同时左侧对向车道有车辆直行通过，未发生冲突，道路标线清晰，无行人出现。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "自车加速行驶，保持在中间车道，前方远处红灯路口已临近，对向车道车辆正常通行，未见异常行为或突发状况。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "路口两侧设有交通灯杆和电线杆，环境光线较暗但路灯充足，自车与前车保持安全距离，未见其他动态交通参与者介入。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "远处天空微亮，暗示黎明将至，自车保持静止状态，等待信号灯变绿，周围无紧急事件或危险因素。"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.5,
+    "analysis_time": "2026-01-22 01:34:48"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴雨天气，能见度低，挡风玻璃有明显水雾和雨滴，路面湿滑反光。【自车】位于中间车道，沿双黄线道路匀速前行，接近十字路口。【右侧交通设施】路肩处设有一个红色八角形“STOP”标志牌，下方附有“ALL WAY”标识；右侧路边有“DEAD END”黄色菱形警示牌。【交互行为】自车在接近路口时未减速，但前方无来车，路口视野被树木和灌木部分遮挡。【关键风险】因雨雾导致视线模糊，且路口无清晰横向车辆，存在“鬼探头”潜在风险；若对向突然出现车辆或行人，将因能见度不足无法及时反应。",
+      "risk_tags": [
+        "low_visibility",
+        "ghost_probe_risk",
+        "intersection_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】持续阴雨，雨势未减，挡风玻璃水珠密集，影响左侧视野。【自车】在中间车道完成左转动作，转向角度约45度，车头偏航角变化明显。【周围参与者】左后方一辆白色SUV从交叉路口驶入主路，与自车形成交叉路径；该车在进入主路前未减速，且未打转向灯。【交通设施】左前方路口设有“STOP”标志牌，但自车已开始转向，未完全遵守停车规则。【关键风险】左后方车辆强行切入自车行驶轨迹（Aggressive Cut-in），因雨天路面湿滑，制动距离延长，易引发碰撞事故。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "improper_turning",
+        "wet_road_braking_distance_increase"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】雨势略有减弱，但仍持续，路面积水明显，部分路段有水雾溅起。【自车】完成左转后，回归中间车道，保持匀速行驶。【周围参与者】右侧路边停放多辆私家车（白色SUV、银色MPV），其中一辆银色MPV正缓慢启动并试图驶入主路，其车头朝向与自车行驶方向呈约30度夹角，存在切出车道意图。【交通设施】道路右侧设有“STREET BUMP AHEAD 15 MPH”黄色警示牌，提示前方有减速带。【关键风险】银色MPV从路边切入主路，未观察自车动态，属于“切出”行为，可能迫使自车紧急避让；同时，路面湿滑+减速带叠加，增加制动失控风险。",
+      "risk_tags": [
+        "cut_out_behavior",
+        "wet_road_acceleration_deceleration_risk",
+        "speed_limit_violation_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】雨势基本停止，但路面仍湿，部分区域积水反射天空光线。【自车】在中间车道保持匀速直线行驶，未进行转向或变道。【周围参与者】左侧车道有一辆深色SUV停靠在路边，车门开启，疑似乘客上下车；右侧车道无车辆通行，仅远处可见一户住宅门前有绿色垃圾桶。【交通设施】道路两侧为典型郊区住宅区，有电线杆、路灯、绿化带及人行横道标线。【关键风险】左侧SUV开门行为构成“开门杀”风险，虽当前无行人靠近，但若后续有非机动车或行人经过，极易发生碰撞；此外，自车未减速通过，存在潜在违规风险。",
+      "risk_tags": [
+        "door_opening_hazard",
+        "lack_of_speed_reduction",
+        "residential_area_crossing_risk"
+      ]
+    }
+  ]
+}

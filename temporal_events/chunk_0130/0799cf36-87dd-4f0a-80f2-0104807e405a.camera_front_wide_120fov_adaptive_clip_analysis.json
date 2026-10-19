@@ -1,0 +1,48 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 21.0,
+    "analysis_time": "2026-01-23 13:26:56"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】夜间高速公路，无明显降雨或大雾，但整体能见度低，仅靠车灯照明。天空中可见一轮明亮的月亮，提供微弱自然光。【自车】位于中间车道，保持匀速沿道行驶，未进行变道或转向。【前方】一辆银灰色轿车在右前方车道行驶，尾灯亮起；右侧车道有一辆白色“NORDFROST”货运卡车，车尾红色警示灯持续闪烁，与自车同向行驶。【交通设施】道路两侧设有反光锥桶（施工区提示），左侧路肩有临时隔离设施，右侧为绿化带。【关键风险】左侧对向车道有车辆快速驶过，因光线昏暗，存在视觉盲区；右侧货运卡车车身庞大，其后视镜视野受限，可能遮挡侧方小型车辆或突发状况。",
+      "risk_tags": [
+        "low_visibility",
+        "large_vehicle_obstruction",
+        "cross_traffic_blind_spot"
+      ]
+    },
+    {
+      "time_segment": "00:00:06-00:00:10",
+      "scene_description": "【环境】夜间继续沿高速公路行驶，路灯稀疏，主要依赖车灯照明。【自车】维持中间车道匀速行驶，未变道。【前方】银灰色轿车开始加速并逐渐向右变道，意图超车。【右侧】白色货运卡车仍保持原车道，车速稳定。【交通设施】出现蓝色高速公路指示牌（A45，Pforzheim-Süd 1000m），提示前方出口及距离。【关键风险】银灰色轿车在未打转向灯情况下向右切入自车所在车道，形成“加塞”行为，且其车速较快，与自车横向间距迅速缩小，存在碰撞风险。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "lane_change_without_signal",
+        "high_speed_crossing_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "【环境】夜间，道路两侧植被浓密，无路灯补光，视野受限制。【自车】在中间车道保持匀速行驶，未进行任何转向或制动。【前方】银灰色轿车完成变道，已驶至自车左前方邻车道，车距稳定。【右侧】白色货运卡车继续在右侧行驶，车尾灯清晰可见。【非标物体】无动物、施工设备或遗撒物。【交通设施】道路右侧出现黄色三角形警告标志（注意前方弯道），提示驾驶员减速。【关键风险】自车与前方银灰色轿车纵向距离约30米，处于安全跟车范围；但右侧货运卡车因体型大，在弯道处可能产生视觉盲区，若突然变道将威胁自车安全。",
+      "risk_tags": [
+        "blind_spot_on_curve",
+        "large_vehicle_lateral_clearance_needed"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】夜间，路面干燥，无降水或结冰迹象，光照条件稳定。【自车】在中间车道匀速行驶，未变道。【前方】一辆白色轿车从左后方快速接近并超越自车，其尾灯呈橙色光晕，表明刹车灯开启，速度较快。【右侧】白色货运卡车仍在右侧行驶，与自车保持平行。【交通设施】前方远处出现蓝色高速路指示牌，显示“B27”方向，提示前方分岔口。【关键风险】白色轿车在超车过程中未保持足够横向安全距离，其车身一度贴近自车左侧，存在“切出”风险；同时，该车刹车灯亮起，暗示其可能在减速，若自车未及时调整车速，可能发生追尾或剐蹭事故。",
+      "risk_tags": [
+        "unsafe_overtaking",
+        "brake_light_indicates_sudden_deceleration",
+        "lateral_clearance_violation"
+      ]
+    }
+  ]
+}

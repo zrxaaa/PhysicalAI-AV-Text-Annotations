@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.62,
+    "analysis_time": "2026-01-23 23:16:55"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间暴雨天气，路面严重积水，灯光在水面上形成强烈反射，雨滴附着于挡风玻璃导致视野模糊。【自车】位于中间车道，匀速沿道路曲线前行，未进行变道或转向。【右侧】一辆白色SUV停靠在路边，车身部分被雨水遮蔽；后方有数辆轿车依次排队等待通行。【交通设施】前方路口信号灯为绿灯，但因雨雾影响，远处灯光呈弥散状。【关键风险】左侧对向车道有一辆深色轿车快速驶过，车轮溅起大量水花，短暂遮蔽自车视线，存在“水雾盲区”风险。",
+      "risk_tags": [
+        "heavy_rain",
+        "water_splash_obstruction",
+        "reduced_visibility"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】持续暴雨，雨刷器高频工作，但仍无法完全清除挡风玻璃上的水膜，能见度维持在约30米。【自车】保持中间车道匀速行驶，随道路曲率自然前进，无转向动作。【右侧】多辆私家车沿路边停放，其中一辆银色轿车在自车右后方缓慢倒车，未开启转向灯，存在切出风险。【左侧】一栋建筑外墙亮有蓝色霓虹灯标识（“ELSA MAREA ALCALA”），下方可见“VIP”、“Burger King”等店铺招牌，灯光在湿滑路面上形成彩色反光。【关键风险】右后方车辆倒车行为未预警，若继续倒车可能切入自车所在车道，构成“非礼切出”风险。",
+      "risk_tags": [
+        "unannounced_reversing",
+        "lane_crossing_risk",
+        "light_reflection_distraction"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "【环境】暴雨加剧，雨势如注，挡风玻璃上水珠密集，形成动态水幕，部分区域出现“水雾晕染”现象，严重影响视觉感知。【自车】仍在中间车道匀速行驶，车头方向与道路走向一致，无横向偏移。【前方】交通信号灯由绿转红，自车减速准备停车。【右侧】一辆白色面包车从右侧超车后迅速切入自车前方车道，未打转向灯，属于“强行加塞”。【左侧】人行道上有行人撑伞行走，面部朝向前方，步态平稳，无横穿意图。【关键风险】右侧面包车违规加塞，且在红灯前未减速，迫使自车紧急制动，存在“碰撞风险”和“刹车响应延迟”隐患。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "red_light_violation",
+        "emergency_braking_required"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】暴雨持续，能见度进一步下降至20米以内，路灯与车灯在雨幕中形成光晕，视觉干扰严重。【自车】已完全停止于斑马线前，等待红灯。【右侧】一辆白色出租车从右侧车道驶入自车正前方，车头朝向自车，疑似试图绕行或抢行。【左侧】路边停放多辆汽车，部分车门微开，存在“开门杀”潜在风险。【交通设施】前方为十字路口，设有交通岛及隔离护栏，右侧人行横道清晰可见。【关键风险】右侧出租车突然切入，且未按信号灯指示停车，构成“闯红灯+加塞”双重违规；同时，左侧车辆可能存在突然开门，形成“双侧夹击”危险态势。",
+      "risk_tags": [
+        "red_light_violation",
+        "double_side_obstacle_risk",
+        "door_opening_hazard"
+      ]
+    }
+  ]
+}

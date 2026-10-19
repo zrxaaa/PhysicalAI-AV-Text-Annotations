@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 09:09:14",
+    "processing_time_seconds": 16.52
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "夜间行车，自车沿林间弯道行驶，前方道路左侧设有黄色菱形警示牌，右侧为茂密树木。车辆保持匀速前进，未见其他交通参与者或显著障碍物。"
+    },
+    {
+      "time_segment": "00:00:06-00:00:11",
+      "scene_description": "自车继续沿弯曲道路行驶，左侧出现护栏并延伸至前方弯道，右侧路边有树干和路肩。无行人或车辆出现在自车路径上，路面有明显轮胎痕迹但未影响行驶。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:15",
+      "scene_description": "车辆进入更陡峭的弯道，左侧护栏持续延伸，右侧植被密集且略有坡度。自车平稳转向，未见任何动态障碍物或交通参与者，环境昏暗但车灯照明充足。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "自车继续沿弯道前行，道路两侧树木遮蔽视线，车灯照亮前方约30米范围。未发现其他车辆或行人，路面有旧轮胎印迹，整体环境安静且无交通冲突风险。"
+    }
+  ]
+}

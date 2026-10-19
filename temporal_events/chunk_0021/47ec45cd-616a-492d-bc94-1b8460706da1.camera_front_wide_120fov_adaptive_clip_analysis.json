@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 06:50:20",
+    "processing_time_seconds": 12.75
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "自车沿林荫住宅区道路平稳行驶，左侧路边停放一辆白色皮卡和一辆白色SUV，右侧草坪上有邮箱和灌木丛，无行人或动态障碍物，天气阴沉但路面干燥。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "车辆接近一个环形交叉路口，前方出现多栋独立住宅，右侧车道有红色皮卡驶离，自车保持直行减速，未见其他车辆或行人横穿道路。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:16",
+      "scene_description": "自车进入环岛区域，前方为一栋两层独栋住宅，门前停有一辆黑色SUV，旁边设有篮球架，自车绕行时未与其他车辆发生交互，周围无行人活动。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "车辆继续沿环岛路径行驶，经过住宅前的空地，两侧可见垃圾桶与白色围栏，无其他交通参与者出现，自车完成环岛后准备驶离该区域。"
+    }
+  ]
+}

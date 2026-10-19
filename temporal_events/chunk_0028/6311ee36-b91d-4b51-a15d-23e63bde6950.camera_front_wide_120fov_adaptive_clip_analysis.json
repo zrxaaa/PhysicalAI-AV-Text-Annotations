@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 09:53:48",
+    "processing_time_seconds": 15.4
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在多车道高速公路上匀速行驶，前方有车辆尾灯亮起，右侧出现绿色高速公路指示牌指向San Francisco方向，天气阴沉，路面干燥但光线昏暗。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "自车向右变道进入匝道，左侧车道有灰色SUV快速驶过，右侧路边出现‘CAR’字样地面标识，远处可见商业建筑和路灯，环境略显模糊因转弯产生动态模糊。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车沿弯道继续行驶，路面上出现‘POOL’和‘LANE’地面文字标识，右侧有白色轿车同向行驶并逐渐远离，道路两侧植被茂密，天空持续阴云密布。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车接近一个交叉路口，前方交通信号灯为绿灯，右侧有高架桥横跨道路，桥下有其他车辆通行，自车保持当前车道平稳通过路口区域。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车驶入高架桥下方通道，上方绿色路牌显示‘Great America Pkwy’及出口信息，前方车辆尾灯可见，整体环境仍保持阴天，无明显行人或其他突发交通参与者。"
+    }
+  ]
+}

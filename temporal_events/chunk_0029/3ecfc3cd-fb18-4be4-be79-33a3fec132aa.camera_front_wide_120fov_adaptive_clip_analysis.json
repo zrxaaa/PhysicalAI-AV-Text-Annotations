@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 10:54:31",
+    "processing_time_seconds": 15.77
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车在十字路口停车，前方有黄色斑马线和STOP路标，右侧停放多辆汽车，一辆黑色轿车从左侧路口驶入并横穿当前车道，与自车路径发生交叉冲突。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "自车保持静止等待，对向车道有车辆依次通过路口，包括一辆深色SUV从左前方驶过，其行驶轨迹与自车路径无直接冲突，但占据部分横向空间；右侧人行道上有行人站立，未进入车道。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车启动沿街道直行，前方出现施工警示牌（LOCAL TRAFFIC ONLY），两侧停满车辆，道路狭窄且无明显转向动作，自车保持在车道中央随弯道自然延伸行驶，未进行变道或转向。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车继续沿直线街道行驶，两侧房屋密集，路边停放车辆排列整齐，无显著动态交通参与者靠近自车路径，仅远处有车辆缓慢移动，未形成交互冲突。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车接近街道末端，右侧人行道上一名行人推婴儿车行走，与自车保持安全距离，无横向移动或进入车道行为；自车维持原速平稳通过，未发生任何转向或紧急避让动作。"
+    }
+  ]
+}

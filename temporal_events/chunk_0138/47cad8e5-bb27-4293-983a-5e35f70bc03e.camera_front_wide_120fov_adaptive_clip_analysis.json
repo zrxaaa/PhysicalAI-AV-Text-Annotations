@@ -1,0 +1,36 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.49,
+    "analysis_time": "2026-01-23 17:00:20"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间城市道路，路灯照明充足，无明显异常天气。【自车】在中间车道匀速沿道行驶，通过混凝土高架桥下方路段。【左侧】一辆白色小型轿车静止停靠于路边，未见明显交互意图。【右侧】一辆黑色SUV从右侧车道向左变道，切入自车前方车道，动作迅速且未打转向灯，存在潜在碰撞风险。【关键风险】右侧车辆“违规强行变道”（Aggressive Cut-in），迫使自车紧急减速规避。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "lane_change_violation",
+        "emergency_braking"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】高架桥结构结束，进入开阔街道，两侧有树木、路灯及建筑。【自车】继续在中间车道匀速行驶，车头保持正向。【左侧】一辆银色小型轿车从对向车道驶过，无异常行为。【右侧】多辆摩托车与自行车停放在路边停车架，部分车辆轻微晃动，疑似有人正在取用或停放。【交通设施】右侧设有“P”字停车标志牌，旁边为公交站台式建筑，无行人活动。【关键风险】无显著风险，但右侧非机动车停放区域存在“开门杀”或“突然启动”的潜在隐患。",
+      "comment": "此段无明确安全威胁，未标注risk_tags"
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】夜间城市街景，光照稳定，路面干燥。【自车】在交叉路口前减速至停止，等待人行横道通行。【前方】一名男性行人（身穿浅色上衣、深色长裤）从右侧人行道走出，沿斑马线由右向左横穿马路，步态自然，低头看手机，面部朝向斜前方，未观察来车。【相对位置】行人位于自车正前方约8米处，处于斑马线中段。【交通设施】右侧设有人行横道标志牌及自行车停放桩，桩体上有“Bike Sharing”标识。【关键风险】行人“鬼探头”式横穿（Jaywalking），且低头看手机，未注意来车，存在极高碰撞风险；自车需保持制动状态直至行人完全通过。",
+      "risk_tags": [
+        "jaywalking",
+        "distraction_crossing",
+        "pedestrian_collision_risk"
+      ]
+    }
+  ]
+}

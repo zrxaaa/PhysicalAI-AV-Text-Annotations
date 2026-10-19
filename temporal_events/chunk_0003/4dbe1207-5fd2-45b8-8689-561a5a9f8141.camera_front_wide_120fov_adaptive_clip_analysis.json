@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:52:13",
+    "processing_time_seconds": 19.64
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在多车道道路上匀速行驶，前方为白色敞篷跑车和灰色SUV，左侧黑色SUV正在向左变道，右侧灰色SUV保持同速。交通信号灯为绿灯，道路两侧有树木和电线杆，天气阴云但无雨，路面干燥。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:09",
+      "scene_description": "车辆接近十字路口，前方交通信号灯由绿转黄，所有车辆开始减速。左侧蓝色轿车向左转向，白色跑车直行通过路口，右侧灰色SUV亦减速准备停车。路口右侧出现行人站立于人行道，背景可见建筑与路牌标识‘Middlefield Rd’。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:13",
+      "scene_description": "信号灯变为红灯，自车及前方车辆均在停止线前停下。右侧人行道上一名骑自行车者从路边经过，同时左侧蓝色轿车完成左转。路口右侧建筑旁有‘GRACE DENTAL’标识，路边设有‘SPEED LIMIT 25’和‘THRU TRAFFIC MERGE LEFT’标志。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "信号灯恢复绿灯，自车跟随前方蓝色轿车启动前行，道路右侧出现自行车道标识。左侧车道有车辆并入，自车保持当前车道行驶，周围环境为住宅区，路边停有数辆汽车，树木茂密，天空仍多云。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车继续沿直线道路行驶，前方蓝色轿车保持匀速，右侧出现一个单行道标志和禁止停车标志。道路两侧为低密度住宅，绿化良好，无行人或突发交通事件，整体交通流畅，自车未进行变道或加速操作。"
+    }
+  ]
+}

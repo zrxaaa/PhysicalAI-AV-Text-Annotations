@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 07:58:16",
+    "processing_time_seconds": 16.11
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在晴朗天气下沿双黄线道路平稳行驶，前方有一辆深色SUV保持同向行驶，道路两侧为光秃树木与木制围栏，无行人或其他显著动态参与者。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "左侧对向车道出现一辆白色轿车驶近，与自车交错而过；右侧路边出现木栅栏围合的区域，未见行人或动物活动，自车未改变速度或方向。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "太阳位于左上方，产生明显眩光，但道路视野仍清晰；前方SUV持续在车道内行驶，未变道或减速，自车保持跟车距离，未进行超车或转向操作。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "道路进入轻微弯道，右侧木栅栏延伸至远方，无其他车辆或行人进入视野；自车继续匀速前进，未受环境干扰，前方SUV保持稳定行驶状态。"
+    },
+    {
+      "time_segment": "00:00:19-00:00:20",
+      "scene_description": "视频末尾，自车仍在直行道路上行驶，前方SUV逐渐远离，无新交通参与者出现，环境未发生显著变化，动作连续且无中断。"
+    }
+  ]
+}

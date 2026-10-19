@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.3,
+    "analysis_time": "2026-01-22 13:14:07"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间，浓雾笼罩高速公路，能见度显著降低，路灯与车灯在雾中形成光晕。【自车】位于中间车道，匀速沿道行驶，未进行变道或转向。【左侧邻车道】一辆白色轿车（疑似本田雅阁）在自车左前方，保持并行，尾灯亮起，无明显加速或减速迹象。【交通设施】道路两侧路灯间隔分布，右侧有护栏及树木轮廓，但因雾气模糊不清。【关键风险】雾天导致视觉感知受限，前车刹车灯易被误判为远光灯，存在追尾风险；左侧车辆未显示转向信号，可能突然变道。",
+      "risk_tags": [
+        "low_visibility",
+        "rear-end_collision_risk",
+        "unpredictable_lane_change"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】雾层略有稀薄，但仍影响视线，路面反光增强。【自车】维持中间车道匀速行驶，车头方向随道路微弯调整，未发生横向偏移。【左侧】一辆红色皮卡从左后方超车进入自车左侧车道，完成变道后保持在左前方位置，尾灯持续亮起。【右侧】一辆黑色轿车从右后方切入，短暂出现在右前方，随后驶离视野。【交通设施】前方出现绿色高速公路指示牌（部分可见），显示“San Antonio Rd North”和“South”，提示即将分岔。【关键风险】左侧皮卡变道未打转向灯，右侧黑色轿车快速切入，均构成“非标准变道”行为，增加碰撞概率；指示牌因雾气模糊，驾驶员需依赖导航辅助决策。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "improper_lane_change",
+        "sign_obscuration"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】雾气持续，但局部区域能见度稍有恢复，路灯与车灯反射更明显。【自车】仍位于中间车道，匀速行驶，车头轻微向右微调以适应道路曲率。【前方】多辆轿车在前方不同车道行驶，包括一辆白色轿车（左前方）、一辆深色SUV（正前方偏左）。【右侧】一辆黑色轿车在右前方车道加速超越，完成变道后离开视野。【交通设施】前方高架路牌清晰显示“San Antonio Rd North”与“South”，下方有箭头指示，表明即将分岔。【关键风险】前方车辆间距较近，若突发制动，自车需紧急响应；右侧黑色轿车高速切入时未保持安全距离，存在“切出”干扰风险；整体场景中无行人、动物或施工车辆，但雾天+密集车流组合构成高压力驾驶环境。",
+      "risk_tags": [
+        "high_traffic_density",
+        "reduced_reaction_time",
+        "lane_conflict_potential"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 05:02:46",
+    "processing_time_seconds": 14.63
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "自车沿居民区街道匀速前行，道路两侧停有车辆，右侧出现一个翻倒的黑色垃圾桶，左侧可见链式围栏和房屋。前方远处有红色轿车在行驶，未见明显交通信号或行人。",
+      "scene_description_2": "天空多云，路面干燥，无明显障碍物或施工区域，自车保持直行，未进行变道或减速操作。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "自车继续向前，右侧路边停放多辆皮卡与SUV，其中一辆银色皮卡部分悬出车道。左侧出现橙色施工锥桶，提示局部施工，但无工人或设备活动。右侧一户院内有骷髅装饰物。",
+      "scene_description_2": "道路两侧绿化良好，树木枝叶繁茂，部分房屋后院堆放杂物。自车未改变速度或方向，与周边静止车辆无交互冲突。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:16",
+      "scene_description": "接近路口时，右侧出现一个倾斜的红色STOP标志牌，旁边停有一辆深色SUV和银色轿车。自车减速并准备停车，前方道路交叉口清晰可见，无其他车辆或行人横穿。",
+      "scene_description_2": "左侧为铁丝网围栏内的草坪和住宅，右侧为带棚车库及杂物堆。天气阴沉，光线均匀，未见明显阴影或湿滑路面。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车在十字路口前完全停止，前方红绿灯未显示，但STOP标志明确指示停车。右侧路口有红色皮卡停靠，左侧远处有白色房车驶过。无行人或动态障碍物出现。",
+      "scene_description_2": "周围环境安静，无交通参与者移动，自车保持静止状态等待通行指令。电线杆和树影投射在路面上，整体场景平稳有序。"
+    }
+  ]
+}

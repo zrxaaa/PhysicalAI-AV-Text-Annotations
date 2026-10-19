@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 04:11:18",
+    "processing_time_seconds": 17.13
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在十字路口前方匀速行驶，左侧人行道上一名推婴儿车的行人正在横穿马路，右侧人行道上一名戴帽子的行人正沿路行走，路面标有‘STOP’字样，天气晴朗，无遮挡物影响视线。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "自车通过十字路口后继续直行，道路两侧停放多辆私家车，右侧有一辆银色SUV停靠，左侧可见一辆米色面包车驶离停车位，树木茂密，阳光充足，路面干燥无积水。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "自车保持匀速前进，右侧车道出现一辆蓝色皮卡和一辆白色轿车并排停放，左侧对向车道有车辆驶来，包括一辆白色皮卡，路边住宅前有花丛和低矮围栏，无行人或突发障碍物。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "自车继续沿街行驶，前方出现一棵高大的棕榈树，道路两侧房屋风格统一，部分住宅前有修剪整齐的灌木，右侧停放着一辆黑色SUV，左侧有小型货车驶过，未见行人交互。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车接近下一个路口，前方道路开阔，两侧车辆静止停放，无行人活动，远处可见山丘轮廓，天空晴朗，光照均匀，路面标线清晰，无紧急事件或行为冲突发生。"
+    }
+  ]
+}

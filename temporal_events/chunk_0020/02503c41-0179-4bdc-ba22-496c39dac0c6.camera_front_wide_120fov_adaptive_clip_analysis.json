@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 06:18:44",
+    "processing_time_seconds": 10.55
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在黄昏时分沿双向四车道道路行驶，左侧车道有一辆黑色SUV从后方加速并入当前车道，与自车并行约2秒后驶离。道路两侧有树木和路灯，天空微亮但能见度良好。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:11",
+      "scene_description": "前方十字路口交通灯由红转绿，自车加速通过交叉口，左侧黑色SUV完成超车后回到原车道。右侧出现自行车道标识，对向车道有车辆左转，无行人或突发障碍物。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:15",
+      "scene_description": "自车继续直行，经过第二个路口，信号灯为绿灯，对向车流正常通行。右侧商铺建筑逐渐清晰，路边无行人活动，车道线完整，未见施工或临时标志。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "自车保持匀速行驶，路面标有“35”限速字样，前方车辆间距稳定。左侧车道一辆银色轿车短暂靠近后保持并行，未发生变道或超车行为，环境安静无突发状况。"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 06:51:47",
+    "processing_time_seconds": 11.37
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在阴天湿滑的乡村公路上匀速行驶，左侧对向车道有一辆深色SUV驶过，右侧路边可见一栋两层住宅和树木，无行人或其他显著动态参与者。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:11",
+      "scene_description": "道路两侧出现高大玉米田与电线杆，自车持续直行，未见明显变道或加速行为；前方远处有车辆迎面驶来但距离较远，未构成路径冲突。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:15",
+      "scene_description": "对向车道一辆银灰色轿车从左侧超车后驶离，自车保持当前车道；道路右侧出现护栏，左侧玉米田延伸至视野尽头，天气仍阴沉，能见度略低。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "自车接近一个绿色路牌（显示“Entering Bore of Woodbridge”），右侧出现“NO STANDING ANYTIME”标志，前方有白色皮卡迎面驶来但未进入自车路径范围。"
+    },
+    {
+      "time_segment": "00:00:19-00:00:20",
+      "scene_description": "自车继续沿直线道路行驶，前方无显著障碍物或交通参与者，道路两侧为农田与稀疏树木，整体环境安静，无紧急或交互行为发生。"
+    }
+  ]
+}

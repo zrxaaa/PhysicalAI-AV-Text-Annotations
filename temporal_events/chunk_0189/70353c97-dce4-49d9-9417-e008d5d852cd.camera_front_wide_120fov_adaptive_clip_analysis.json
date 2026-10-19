@@ -1,0 +1,37 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.14,
+    "analysis_time": "2026-01-24 11:07:33"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】晴朗天气，阳光充足，树影投射于路面，无异常天气。【自车】在中间车道匀速沿道行驶，未进行转向或变道。【左侧】停放多辆私家车（红色小型车、银色轿车、深色SUV），部分车辆位于人行道边缘；右侧亦有停靠车辆（黑色SUV、灰色轿车）。【交通设施】道路两侧为住宅区，绿化良好，人行道与车道分界清晰，无施工围挡或临时标志。【关键风险】无明显违规行为或障碍物，但左侧停车车辆存在“开门杀”潜在风险，尤其在转弯或变道时需注意。",
+      "risk_tags": [
+        "no_aggressive_behavior",
+        "parked_vehicle_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:06-00:00:12",
+      "scene_description": "【环境】光照稳定，无遮挡或天气突变。【自车】在中间车道向左轻微转向，准备进入T字路口左转车道。【前方】一辆银色轿车正在左转，完成动作后驶离路口；右侧路边停有一辆白色皮卡（车身印有“WATER”字样），处于静止状态，未作业，无特殊部件伸出。【交通设施】路口设有斑马线及自行车道标识（“BIKE”字样），地面标线清晰。【关键风险】自车在转弯过程中，左侧对向车道有车辆驶近，但保持安全距离，未发生切入或博弈行为；右侧皮卡虽停靠，但未影响自车转向路径，无遮挡风险。",
+      "risk_tags": [
+        "turning_maneuver",
+        "clear_intersection"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】晴天，视野开阔，树木枝叶繁茂，部分区域形成浓密树荫。【自车】完成左转后，重新进入直行主路，保持中间车道匀速行驶。【周围】左侧出现一栋现代风格低层住宅，门前停有黑色SUV；右侧为传统风格联排别墅，带庭院和绿植。【交通设施】路面标有“BLVD”字样，指示道路名称；两侧人行道连续，无施工围栏或临时障碍。【关键风险】无突发障碍物、无动物出没、无行人横穿迹象；所有车辆均按道行驶，未见违规行为。整体场景平稳，风险极低。",
+      "risk_tags": [
+        "low_risk_environment",
+        "normal_driving_conditions"
+      ]
+    }
+  ]
+}

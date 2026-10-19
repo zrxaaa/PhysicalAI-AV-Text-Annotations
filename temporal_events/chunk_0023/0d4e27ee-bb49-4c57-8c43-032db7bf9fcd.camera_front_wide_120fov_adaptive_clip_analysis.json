@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 07:34:38",
+    "processing_time_seconds": 12.68
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "自车停在十字路口等待绿灯，左侧银色SUV和前方黑色SUV依次从左车道驶过，右侧白色SUV在右转车道准备转向。交通信号灯为绿色，路面标线清晰，天气阴沉但无雨，能见度良好。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "自车启动并左转进入街道，前方一辆黄色校车与自车同向行驶，校车后方有红色有轨电车停靠在路边站台。道路两侧为多层商业建筑，人行道上有行人行走，无明显冲突车辆。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:16",
+      "scene_description": "自车沿单行道直行，前方有一辆绿色垃圾车保持匀速行驶，左侧有轨电车在专用轨道上运行，未与自车发生路径交叉。路旁设有“单行道”和“人行横道”标志，环境安静，无突发障碍物。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车继续跟随绿色垃圾车前行，右侧出现公交站台及等候乘客，远处可见红砖建筑。道路两侧无其他车辆突然切入，自车保持稳定速度，未进行变道或急刹动作。"
+    }
+  ]
+}

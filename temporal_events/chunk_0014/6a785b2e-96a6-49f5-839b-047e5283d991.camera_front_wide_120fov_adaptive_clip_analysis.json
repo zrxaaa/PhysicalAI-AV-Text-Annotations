@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 04:17:30",
+    "processing_time_seconds": 11.75
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "自车在W 15 St路口直行，前方黑色面包车保持匀速行驶，右侧白色卡车从右车道并入中间车道，左侧有红色货车驶离。交通信号灯为绿灯，路面无明显障碍物。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "车辆接近W 16 St交叉口，信号灯转黄，前方黑色面包车减速，右侧大型垃圾清运车停靠路边，行人从人行横道穿越马路，自车跟随前车减速准备停车。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:16",
+      "scene_description": "信号灯变红，自车与前方黑色面包车均完全停止，多名行人从右侧人行道过街，其中两名穿反光背心的工人正在横穿马路，左侧T-Mobile门店前有自行车经过。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "信号灯恢复绿灯，自车启动前行，右侧Old Navy店前人行道上有行人行走，左侧车道有白色厢式货车驶离，前方黑色面包车同步启动，道路畅通无阻。"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.64,
+    "analysis_time": "2026-01-23 05:17:16"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "【环境】浓雾笼罩，能见度极低（约50-80米），天空灰白无明显光影。路面干燥但因雾气反射光线，部分区域有轻微眩光。【自车】位于中间车道，沿道路左弯弧线匀速行驶，未变道，车头偏航角随弯道自然调整。【右侧】护栏外可见稀疏落叶树，部分被雾遮蔽；左侧为草坡与路肩，设有黑白相间反光桩。【交通设施】道路两侧设置标准反光路桩，间距约30米，沿弯道呈线性排列。【关键风险】前方视野受限，无法识别潜在障碍物或行人；右侧施工围栏区域隐约可见，但无明确作业车辆或人员活动迹象，暂无直接威胁。",
+      "risk_tags": [
+        "low_visibility",
+        "limited_visual_range",
+        "no_immediate_threat"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】雾层略有散开，能见度小幅提升至约100米，但仍属低能见度状态。【自车】保持中间车道匀速直线行驶，完成从左弯道过渡至直道的平滑转向。【右侧】出现一段金属网状围栏，后方为林地，树木枝干裸露，部分树叶呈枯黄。围栏内侧有土堆和临时施工痕迹，但无施工机械或人员活动。【左侧】草坡延伸至远处，未见异常物体。【交通设施】道路标线清晰可见，白色虚线分隔车道，路桩间距稳定。【关键风险】右侧围栏后方存在“鬼探头”潜在风险区域——因视线受围栏与树木双重遮挡，无法确认是否有行人或动物突然冲出；同时，前方道路在雾中仍模糊不清，存在突发障碍物可能性。",
+      "risk_tags": [
+        "partial_visibility_improvement",
+        "obstruction_by_fencing",
+        "ghost_probe_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雾气持续弥漫，能见度维持在80-100米区间，无明显降雨或结冰。【自车】在中间车道保持匀速直线行驶，无转向或加减速动作。【周围】道路两侧植被以常绿针叶林为主，右侧围栏持续存在，围栏外无动态目标。左侧草坡上偶有低矮灌木摇曳，疑似风动，非人为活动。【交通设施】道路标线完整，前方无交叉路口或信号灯；路桩均匀分布，未见破损或倾斜。【关键风险】整体场景平稳，无车辆、行人或动物进入感知范围；但因长期处于低能见度环境，系统需持续依赖高精度定位与ADAS预警，避免因视觉退化导致误判。无直接碰撞或违规行为，属于低风险巡航阶段。",
+      "risk_tags": [
+        "stable_driving_condition",
+        "no_active_agents",
+        "long-term_low_visibility_monitoring_required"
+      ]
+    }
+  ]
+}

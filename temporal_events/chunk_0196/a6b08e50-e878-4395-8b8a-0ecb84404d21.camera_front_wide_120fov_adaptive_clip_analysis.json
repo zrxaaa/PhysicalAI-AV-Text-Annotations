@@ -1,0 +1,41 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.97,
+    "analysis_time": "2026-01-24 13:45:59"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "【环境】晴朗白天，阳光充足，无异常天气。【自车】在中间车道匀速沿道行驶，车头朝向道路前方。【左侧】一辆黑色轿车从左前侧邻车道驶过，完成超车动作后回归原车道；【右侧】一辆白色特斯拉Model 3从右方交叉路口驶入主路，执行“ALL WAY STOP”停车后起步，完成横向切入动作。【交通设施】前方路面有“STOP”字样标线，右侧设有红色八角形“STOP ALL WAY”标志牌。【关键风险】白色特斯拉在交叉路口未完全确认安全即启动，存在与自车发生碰撞的潜在风险（Cut-in with incomplete yield）。",
+      "risk_tags": [
+        "cut_in_with_incomplete_yield",
+        "intersection_crossing_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "【环境】晴天，光照稳定，树木投下清晰阴影。【自车】保持中间车道匀速前行，随道路曲率自然行驶，无转向或变道行为。【周边】道路两侧为高大桉树及灌木丛，右侧有混凝土挡墙和低矮围栏；左侧护栏外可见草地与林地。【交通设施】前方出现黄色菱形“BICYCLE CROSSING”警示牌，提示前方有自行车通行区域；随后出现限速25英里/小时的标志牌。【关键风险】无明显风险，但警示牌区域需注意非机动车突然横穿的可能性。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "【环境】阳光直射，部分路段因树荫形成明暗交替。【自车】维持中间车道匀速行驶，车头方向随道路微弯调整，未越线。【右侧】路边出现住宅区，有砖砌围墙、修剪整齐的灌木及独立车库；【左侧】植被茂密，偶见散落枯枝。【交通设施】路面标有自行车道标识（白色自行车符号），并配有连续黄色虚线分隔车道；限速25标志持续可见。【关键风险】无直接威胁，但住宅区入口处可能有行人或儿童突然冲出，需保持警惕。",
+      "risk_tags": [
+        "pedestrian_emergence_risk",
+        "residential_area_crossing"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】晴朗，视野开阔，无遮挡。【自车】继续在中间车道匀速前进，车辆姿态稳定，无制动或转向。【右侧】出现一栋单层住宅，门前有铺装车道、邮箱及石柱门牌；【左侧】植被覆盖坡地，部分区域草木略显干燥。【交通设施】道路标线清晰，自行车道标识重复出现，无突发障碍物。【关键风险】无显著风险，仅需注意右侧住宅区可能出现的“开门杀”（Open Door）行为，尤其当有车辆停靠时。",
+      "risk_tags": [
+        "open_door_risk"
+      ]
+    }
+  ]
+}

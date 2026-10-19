@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 10:59:02",
+    "processing_time_seconds": 20.45
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车位于十字路口等待，右侧一辆深色SUV从右向左横穿路口，同时两名行人从右侧人行道进入斑马线，准备横穿马路。左侧路边停有一辆蓝色敞篷轿车。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:08",
+      "scene_description": "自车在路口左转车道内开始左转，前方道路为直行方向，交通信号灯显示绿灯，对向车道有车辆驶来，左侧可见‘1st AVE S ONLY’指示牌。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车完成左转后沿直行道路继续行驶，前方交通信号灯由绿灯转为黄灯，对向车道有车辆正在通过交叉口，右侧路口有车辆等待红灯。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车在路口停车等待，前方交通信号灯为红灯，对向车道有车辆正在驶离路口，右侧路口有车辆排队等候，左侧有白色SUV准备左转。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车保持静止状态，前方红灯持续亮起，对向车道车辆已完全通过交叉口，右侧路口车辆仍处于等待状态，无新交通参与者进入当前视野范围。"
+    }
+  ]
+}

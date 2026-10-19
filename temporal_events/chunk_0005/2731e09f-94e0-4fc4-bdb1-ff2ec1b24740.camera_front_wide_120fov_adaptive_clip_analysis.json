@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 00:42:43",
+    "processing_time_seconds": 10.98
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在多车道高架桥上匀速行驶，左侧车道有黑色SUV、白色轿车和银色MPV依次超车，右侧车道有一辆黑色SUV保持同速行驶，天气晴朗，路面干燥无积水。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "车辆驶过桥梁段，左侧对向车道车流密集，包括红色轿车、白色特斯拉及灰色SUV等，部分车辆从左侧车道超越自车，右侧黑色SUV持续并行，未发生变道或减速行为。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "自车进入弯道区域，道路两侧出现绿化带与住宅区围墙，前方出现限速40的交通标志牌，左侧对向车道车辆逐渐减少，右侧黑色SUV仍保持稳定跟车距离。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:20",
+      "scene_description": "自车继续沿直道行驶，道路两侧植被茂密，远处可见低层建筑群，无行人或其他突发交通参与者出现，所有车辆均维持当前车道与速度，未发生明显交互或行为变化。"
+    }
+  ]
+}

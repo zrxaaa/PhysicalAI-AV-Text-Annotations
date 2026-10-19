@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 04:23:25",
+    "processing_time_seconds": 14.76
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车沿街道平稳行驶，左侧停放多辆汽车，右侧人行道有蓝色垃圾桶和施工围栏。前方道路无明显障碍，天气晴朗，路面干燥。",
+      "scene_description_2": "一辆深色SUV从左侧车道驶入自车前方，短暂并行后驶离视野，未对自车路径造成影响。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "车辆接近十字路口，右侧出现绿色施工围挡及橙色警示柱，左侧停有多辆轿车。路面标有“STOP”字样，前方为斑马线区域，交通信号灯未见变化。",
+      "scene_description_2": "一名行人从右侧人行道进入斑马线，正横穿马路，与自车当前行驶方向垂直，但距离较远，未构成直接冲突。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "行人开始穿越斑马线，位于自车正前方约8米处，步行速度适中。自车在斑马线前减速停车，保持安全距离，右侧停有一辆白色货车。",
+      "scene_description_2": "行人完成穿越，自车在斑马线后等待约3秒，期间无其他车辆或行人进入交叉口，环境安静有序。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "行人离开后，自车启动继续前行，前方道路畅通。左侧出现一辆黑色SUV从支路驶出，准备右转进入主路，与自车存在潜在交汇点。",
+      "scene_description_2": "自车在确保安全的前提下缓慢通过交叉口，右侧施工围栏延伸至远处，未见施工人员活动，整体交通流平稳。"
+    }
+  ]
+}

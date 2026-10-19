@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.0,
+    "analysis_time": "2026-01-21 22:44:15"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】浓雾天气，能见度低于150米，路面湿滑，挡风玻璃有水珠但未开启雨刷。【自车】位于中间车道，匀速沿直道行驶，车头偏航角稳定。【左侧】对向车道一辆白色SUV从左前方超车并切入自车所在车道，未打转向灯，距离自车约8米时完成变道。【右侧】路肩有木制围栏和枯草堆，无明显障碍物。【关键风险】车辆非法变道（Aggressive Cut-in），存在侧面碰撞风险，因雾天视线差加剧危险。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "low_visibility",
+        "side_collision_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:06-00:00:12",
+      "scene_description": "【环境】雾气略有消散，但仍维持阴沉灰暗天气，部分区域出现薄雾层。【自车】保持中间车道匀速行驶，随道路轻微右弯。【左侧】一辆白色皮卡拖挂平板拖车，缓慢行驶于左侧行车道，车身长度超过12米，未遮挡视线但占用较大横向空间。【右侧】可见电线杆与低矮灌木丛，远处有模糊的住宅轮廓。【交通设施】道路两侧设有双黄线及白色实线分隔车道，无明显标牌或信号灯。【关键风险】拖车长车身可能引发后方车辆误判，存在“鬼探头”潜在风险（如后车加速超车时突然切出）。",
+      "risk_tags": [
+        "long_vehicle_obstruction",
+        "misjudgment_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雾气进一步减弱，天空云层较厚，光线均匀但昏暗。【自车】在中间车道沿弯道继续前行，车头偏航角随道路曲率调整，无急加速或制动。【前方】多辆轿车在交叉路口处减速，其中一辆深色轿车在路口左转，另一辆银色轿车在直行方向等待。【右侧】路边设有黄色T型交叉路口警示牌，提示前方为丁字路口。【非标准物体】路口右侧草地上有一只棕色野兔静止站立，面向道路，头部微动，疑似观察来车。【关键风险】野兔可能突然冲入车道（Animal Crossing），且路口车辆行为复杂，存在多车交互冲突风险；同时，自车需注意前方车辆左转时可能遮挡视线，增加“鬼探头”概率。",
+      "risk_tags": [
+        "animal_crossing",
+        "intersection_conflict",
+        "ghost_probe_risk"
+      ]
+    }
+  ]
+}

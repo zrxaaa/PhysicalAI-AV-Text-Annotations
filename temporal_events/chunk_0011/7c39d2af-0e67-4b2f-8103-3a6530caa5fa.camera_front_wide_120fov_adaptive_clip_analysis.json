@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 03:16:07",
+    "processing_time_seconds": 10.89
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在多车道道路上匀速行驶，前方黑色SUV保持同向行驶，左侧对向车道有白色SUV驶入交叉口左转车道，交通信号灯为绿灯，路面湿滑但无明显积水。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "自车接近十字路口，信号灯由绿转黄并最终变为红灯，前方车辆开始减速停车，一辆白色巴士从对向车道直行通过人行横道，右侧车道有车辆准备右转。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "自车在红灯前完全停下，左侧车道有车辆左转进入支路，右侧Wells Fargo建筑旁有行人未出现，道路标线清晰显示“PED XING”区域，天气阴沉，能见度正常。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "绿灯亮起后自车启动前行，前方车道有车辆依次通过交叉口，右侧路边设有“SPEED LIMIT 35”标志和人行横道警示牌，道路两侧有住宅区及绿化带，无行人或突发障碍物。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车继续沿直线车道行驶，前方车辆保持安全距离，道路右侧出现多个“PED XING”地面标识与人行横道，路边有树木、路灯和低层住宅，无显著动态交互发生。"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 05:02:21",
+    "processing_time_seconds": 11.72
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "夜间雨天，自车在湿滑路面上匀速行驶，前方右侧车道有一辆红色尾灯车辆保持同向行驶，左侧对向车道有白色轿车驶过，路面反射灯光形成彩色光晕，交通信号灯为绿灯，允许直行通过。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:11",
+      "scene_description": "自车接近十字路口，信号灯由绿转黄，前方车辆开始减速，右侧一辆白色SUV从侧方切入并超越自车，同时有行人从左侧人行横道穿越，与自车路径无直接冲突但处于交叉区域。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:15",
+      "scene_description": "自车在路口左转车道等待，前方红灯亮起，左侧停有一辆白色SUV，右侧有黑色轿车和白色SUV依次排队，路边建筑灯光映照在湿漉漉的路面上，形成模糊光影。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车完成左转动作，进入新街道，道路两侧停放多辆汽车，前方有车辆缓慢行驶，雨滴在挡风玻璃上形成流动水痕，影响视线清晰度，但未见行人或其他突发障碍物。"
+    }
+  ]
+}

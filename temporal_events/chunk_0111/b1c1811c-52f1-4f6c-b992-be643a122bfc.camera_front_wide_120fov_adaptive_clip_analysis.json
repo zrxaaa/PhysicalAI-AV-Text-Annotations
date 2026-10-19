@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.01,
+    "analysis_time": "2026-01-23 04:50:45"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】夜间，路面湿滑积水，路灯照明下可见明显水雾反光，能见度中等偏低。【自车】在中间车道匀速沿道行驶，车头朝向正前方道路。【右前方】一辆黄色推土机（品牌：Bomag）静止停靠于路肩，车灯开启，作业臂未伸出，处于施工静止状态，占用部分右侧车道边缘。【左侧】一辆银灰色轿车停靠在路边围栏后，尾灯亮起，车身未移动。【关键风险】推土机虽静止，但其车身宽度接近车道边界，存在横向侵占风险；左侧轿车若突然启动可能切入自车路径，需警惕开门杀或急加速变道。",
+      "risk_tags": [
+        "construction_vehicle_static",
+        "parked_car_occupancy_risk",
+        "low_visibility"
+      ]
+    },
+    {
+      "time_segment": "00:00:06-00:00:11",
+      "scene_description": "【环境】继续夜间行驶，路面仍湿滑，局部有积水反射灯光。【自车】在中间车道执行左转动作，车头偏航角逐渐增大，转向灯未开启。【右侧】一台黄色挖掘机（型号不明）位于施工区域，机械臂已收起，停放在红白相间路障后方，无作业迹象。【前方】出现一个三角形让行标志牌，提示前方交叉路口。【交通设施】路口两侧设有红白条纹警示柱，左侧为禁止停车标志，右侧为让行标志。【关键风险】自车在无转向灯情况下进行左转，与对向来车及路口潜在行人/车辆存在交互冲突风险；施工区域路障遮挡部分视野，存在‘鬼探头’隐患。",
+      "risk_tags": [
+        "un signaled_turn",
+        "intersection_conflict",
+        "occlusion_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:11-00:00:19",
+      "scene_description": "【环境】夜间，雨势减弱，路面水迹渐干但仍存反光。【自车】完成左转，进入新支路，当前位于最左侧车道，沿弯曲道路平稳行驶。【左侧】一排低矮木栅栏后方为住宅区，可见一栋白色外墙房屋，屋顶呈斜坡状，窗户关闭。【右侧】施工区域已基本退出视野，仅余少量碎石堆和路障残骸。【非标物体】无动物、无行人、无遗撒物。【关键风险】自车转弯后进入居民区道路，需注意突发横穿行人或儿童；因道路狭窄且弯道较多，需保持低速谨慎驾驶，避免因视线受限引发事故。",
+      "risk_tags": [
+        "residential_area_driving",
+        "curved_road_hazard",
+        "reduced_visibility_after_turn"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 00:26:51",
+    "processing_time_seconds": 17.6
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车沿双黄线道路平稳行驶，右侧人行道有行人行走，前方路口设有红色停车标志牌，左侧路边停有一辆黑色轿车。天气阴沉，路面干燥，无明显交通拥堵或障碍物。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "车辆接近十字路口，右侧护栏旁悬挂彩色“Art Night”宣传横幅，自车在停止线前减速，准备停车。远处可见另一侧路口有行人正在过街，但未进入自车路径范围。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "自车通过路口后继续直行，右侧出现带红色遮阳棚的商铺，左侧有白色小屋和停放车辆。一辆深色SUV从对向车道驶来并完成超车，与自车无冲突。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "自车继续沿街道行驶，前方出现一个“STOP”标志及“ONLY”路面标线，提示为单向通行路口。对向车道有银色轿车驶近，但保持安全距离且未进入自车所在车道。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "车辆接近下一个交叉口，右侧出现绿色建筑和红色雕塑装饰，前方路面上有“ONLY”字样清晰可见。自车维持当前速度，未见行人或其他动态障碍物干扰路径。"
+    }
+  ]
+}

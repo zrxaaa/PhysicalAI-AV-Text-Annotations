@@ -1,0 +1,37 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 04:04:17",
+    "processing_time_seconds": 17.45
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "夜间街道，自车前方路面投影显示“STOP”字样，右侧一辆黑色SUV从右车道快速驶过，左侧一辆红色皮卡与白色轿车并行驶离，自车保持缓慢前进，未停车。",
+      "environment_conditions": "夜间，路灯照明，路面干燥，能见度良好。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "自车通过交叉路口后继续沿上坡路行驶，右侧路边停放多辆汽车，包括一辆橙色吉普车和白色小型车，左侧出现橙色交通锥引导路径，自车平稳绕过锥桶区域。",
+      "environment_conditions": "夜间，街灯提供局部照明，道路两侧有植被和建筑，无明显天气影响。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "自车继续沿狭窄坡道前行，左侧出现多辆停靠车辆，包括一辆白色SUV和一辆黑色轿车，右侧为灌木丛和土坡，远处可见山坡住宅灯光。一名行人出现在右侧人行道，正走向一辆停靠的银色轿车。",
+      "environment_conditions": "夜间，光线较暗，部分区域依赖车灯照明，道路两侧有密集植被和住宅区。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "自车接近一个T字路口，前方右侧停有一辆银色轿车，行人正从该车旁走过并横穿马路，自车减速避让，同时右侧出现“STOP”标志牌和箭头指示牌，提示右转优先。",
+      "environment_conditions": "夜间，路口设有交通标志，路灯照明有限，行人活动增加需谨慎驾驶。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车在路口处完成转向准备，前方道路延伸至山坡住宅区，左侧为多层住宅楼，右侧为红砖建筑，路口无其他车辆或行人干扰，自车保持低速平稳通过。",
+      "environment_conditions": "夜间，环境安静，无雨雪等恶劣天气，道路标线清晰，交通参与者已离开关键冲突区域。"
+    }
+  ]
+}

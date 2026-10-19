@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 02:42:00",
+    "processing_time_seconds": 14.27
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "道路左侧为绿化坡地与树木，右侧为商业设施外围，未见施工或交通管制标志，车辆保持直行，无变道或减速行为。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "自车减速并保持车道，未进行变道，工人持续作业至皮卡车旁，未对行车路径造成干扰，天气仍阴沉，能见度良好。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "自车驶过施工区域后，前方视野开阔，无其他车辆或行人突然出现，道路标线清晰，右侧围栏内为仓储设施，未见交叉冲突风险。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:18",
+      "scene_description": "前方远处有车辆迎面驶来，但距离较远且未进入本车道，自车维持当前速度与车道，未采取避让或加速动作，整体交通流平稳。"
+    },
+    {
+      "time_segment": "00:00:18-00:00:20",
+      "scene_description": "道路两侧植被茂盛，天空持续阴云，路面无积水，整体场景稳定，自车完成该段行程，未遇任何需紧急响应的交通参与者。"
+    }
+  ]
+}

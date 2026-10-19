@@ -1,0 +1,42 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 19.46,
+    "analysis_time": "2026-01-21 22:34:58"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "【环境】晴天，蓝天白云，能见度良好，无异常天气。【自车】在最右侧车道沿直道匀速行驶，前方为小型路口及交通信号灯。【左侧】一堵高墙延伸至视野尽头，墙外有树木和低矮建筑。【交通设施】路口设有黄色“直行”指示牌、红绿灯（当前为黄灯）、‘STOP HERE ON RED’标志牌及‘TWO VEHICLES PER GREEN’限流提示。【交互】自车未变道，平稳通过路口区域。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "【环境】晴朗，阳光充足，部分区域出现强光反射。【自车】从右侧车道切入中间车道，完成变道动作，随后保持匀速沿道行驶。【周围车辆】左前方一辆银色轿车与自车并行，后方一辆黑色SUV在相邻车道加速超越；右侧为高架隔音墙，无行人或非机动车。【交通设施】道路两侧设置橙色施工锥桶，远处可见大型广告牌及高架桥结构。【关键风险】无明显违规行为或遮挡物，但左侧银色轿车在变道后短暂贴近自车左侧，存在轻微切出风险，未触发紧急响应。",
+      "risk_tags": [
+        "close_proximity",
+        "minor_cut_out"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "【环境】天空云层增多，局部阴影投射于路面，光照变化平缓。【自车】保持在中间车道匀速行驶，车速稳定。【周围车辆】前方有一辆白色皮卡及一辆深色SUV，均在各自车道内正常行驶；左侧车道有一辆银色轿车持续超车，已完成变道并驶离自车左前侧。【交通设施】路旁出现绿色高速出口指示牌，标示‘EXIT TO EXPRESS LANES NORTH 1/2 MILE ONLY’，同时右侧墙边有‘NO TRUCKS LEFT LANE’警示牌。【非标准物体】右侧高架墙底部有少量垃圾堆积，未对行车造成直接影响。【关键风险】无突发障碍或违规行为，但前方皮卡在接近出口时减速，可能引发后车跟车距离缩短，存在轻微追尾风险。",
+      "risk_tags": [
+        "potential_following_distance_reduction"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】晴空，云朵分布均匀，无降水或雾气。【自车】维持中间车道匀速行驶，临近出口匝道。【周围车辆】前方一辆黄色工程车（疑似洒水车）在右侧行车道缓慢行驶，车身侧面有作业标识，未喷水也未伸出机械臂，处于静止待命状态；其后方为一辆白色皮卡。左侧车道一辆银色轿车加速超越并驶离。【交通设施】上方悬挂大型绿色出口指示牌，标明‘NW 151st St Express Bus & Tri-Rail Turnpike & 826 West 1/4 MILE’，下方有‘SPEED LIMIT 60 MINIMUM 40’限速标志。【关键风险】工程车虽静止，但位于出口分流区，若突然启动或转向将构成严重威胁；此外，自车正接近出口，需注意前方车辆可能突然变道，存在潜在切出与切入交织风险。",
+      "risk_tags": [
+        "stationary_vehicle_in_exit_zone",
+        "highway_exit_risk",
+        "potential_lane_change_conflict"
+      ]
+    }
+  ]
+}

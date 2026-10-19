@@ -1,0 +1,35 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.98,
+    "analysis_time": "2026-01-23 18:08:55"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】夜间城市街道，路面干燥但有轻微湿滑反光，路灯照明充足，无异常天气。【自车】在中间车道匀速沿道行驶，未见明显转向或变道意图。【左侧】停放多辆私家车，沿街商铺（如“CINEMA”、“FOYER”）已关闭，部分店铺亮灯。【右侧】建筑立面为典型巴黎风格，底层有“PHARMACIE”、“Café Français”等商业标识，人行道上有行人活动。【交通设施】道路两侧设有禁停标志、人行横道标线及自行车道标识，前方可见红绿灯信号系统。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】夜间，光照稳定，无降水或雾气影响。【自车】继续在中间车道匀速行驶，接近前方路口。【前方】一辆银灰色SUV（车牌模糊）在自车正前方，刹车灯亮起，表明其正在减速准备停车。【行人交互】两名行人（一男一女，女性穿短裙）从右侧人行横道横穿马路，男性手持手机，面部朝向斜前方，动作自然，无急促横穿迹象。【左侧】路边停放一辆踏板摩托车，旁边有自行车架及数辆自行车静止停放。【关键风险】行人横穿与前车制动形成潜在冲突，若前车突然停止，自车需保持安全距离；但行人行为正常，未见违规穿越。",
+      "risk_tags": [
+        "pedestrian_crossing",
+        "braking_vehicle_following"
+      ]
+    },
+    {
+      "time_segment": "00:00:11-00:00:19",
+      "scene_description": "【环境】夜间，路灯与商铺霓虹灯混合照明，能见度良好。【自车】在中间车道完全停车，等待前方红灯。【前方】银灰色SUV保持静止状态，尾灯持续亮起。【右侧】一辆黑色小型车（疑似Smart）从右侧车道切入，试图在自车右后方并线，其转向灯未开启，存在“强行加塞”嫌疑（Aggressive Cut-in）。【左侧】“franprix”便利店门前停放一辆送餐摩托车，车身覆盖外卖箱，未移动。【交通设施】前方红灯持续亮起，人行横道区域无行人通行，路侧有“CAFE FRANCAIS”和“Bathy”等店铺招牌，部分橱窗透出室内灯光。【关键风险】右侧车辆非法并线，可能引发碰撞或迫使自车紧急避让；同时，前方车辆长时间静止可能造成后方拥堵，需警惕突发启动或闯红灯行为。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "red_light_waiting",
+        "lane_blocking_risk"
+      ]
+    }
+  ]
+}

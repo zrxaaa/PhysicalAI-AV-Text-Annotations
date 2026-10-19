@@ -1,0 +1,48 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 18.25,
+    "analysis_time": "2026-01-22 13:51:26"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "【环境】晴天多云，阳光从右上方照射，存在轻微眩光。路面干燥，无积水或结冰。【自车】在中间车道匀速沿道行驶，车头朝向道路中心线。【前方】一辆白色SUV从左侧交叉路口驶入，完成左转动作，未与自车发生冲突。【交通设施】前方为铁路道口，设有“RAILROAD CROSSING”标志、警示灯和栏杆；地面标有“KEEP CLEAR”字样。【关键风险】道口栏杆已放下，但未见列车接近，需警惕误判；右侧人行道有橙色施工锥桶，提示潜在施工区域。",
+      "risk_tags": [
+        "railroad_crossing",
+        "construction_cone",
+        "visual_glare"
+      ]
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "【环境】天空云层较厚，光照均匀，无强逆光。【自车】保持在中间车道匀速直线行驶，未进行转向或变道。【左侧】对向车道车辆稀少，偶有银色轿车驶过。【右侧】路边停放多辆私家车（含银色SUV、灰色轿车），部分车辆停于非机动车道边缘，形成窄道。【交通设施】路侧可见“DO NOT STOP ON TRACKS”警示牌，提醒勿在铁轨前停车；远处有行人过街标志（黄色菱形）及人行横道标线。【关键风险】右侧停放车辆侵占部分车道，导致自车需贴近路肩行驶，存在剐蹭风险；无行人或动物出现，未见违规行为。",
+      "risk_tags": [
+        "parked_vehicle_obstruction",
+        "narrow_lane"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "【环境】天气稳定，能见度良好，树木枝干裸露，显示为冬季或早春。【自车】维持中间车道匀速前行，随道路微弯自然调整方向。【左侧】连续出现多栋联排住宅，门前有垃圾桶、自行车等杂物，部分区域堆放垃圾袋。【右侧】出现蓝色厢式货车（车身印有“Lemonade”字样），正沿路边缓慢行驶，随后在前方路口左转驶离。【非标物体】右侧人行道旁有数个绿色垃圾桶，部分被风吹倒，散落于路边。【关键风险】蓝色货车转弯时未打转向灯，且车身较长，存在盲区；垃圾桶倾倒可能影响行人通行，但未直接威胁自车路径。",
+      "risk_tags": [
+        "unsignaled_turn",
+        "debris_on_sidewalk",
+        "vehicle_blind_spot"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】光线略暗，云层增厚，局部阴影增强。【自车】继续在中间车道匀速行驶，未进行横向移动。【前方】道路两侧停放车辆增多，部分车辆紧贴路缘石，车道宽度压缩至约3.5米。【右侧】一辆黑色皮卡停靠在围栏后方，车尾朝向道路，无明显作业迹象。【交通设施】前方出现施工锥桶阵列（橙色），排列于道路中央偏右位置，引导车辆绕行。【关键风险】锥桶区域为临时施工区，自车需减速通过；无行人或动物突然闯入，未发现违规驾驶行为，整体场景安全可控。",
+      "risk_tags": [
+        "construction_zone",
+        "reduced_lane_width",
+        "no_immediate_risk"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.17,
+    "analysis_time": "2026-01-22 22:17:00"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】黄昏时分，天空呈灰蓝与粉紫渐变，光线昏暗但无降雨或雾气，能见度良好。【自车】位于中间车道，匀速沿直线道路前行，未进行变道或转向。【周围车辆】左侧邻车道有多辆轿车及SUV（含白色、黑色、银色）以相近速度行驶；右侧路肩有零星杂物堆和电线杆，无行人或动物。【交通设施】远处可见路灯及第一组高架指示牌轮廓，尚未进入匝道区域。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】天色持续变暗，路灯已部分亮起，提供辅助照明。【自车】保持在中间车道匀速行驶，随道路微弯向前。【周围车辆】左侧车道多车保持稳定队列，其中一辆蓝色轿车从左后方超车并切入自车前方车道；右侧路肩出现临时搭建的简易棚屋及停放的房车/皮卡，无人员活动。【交通设施】前方高架龙门架结构清晰，悬挂绿色“Zanker Road EXIT 8”出口指示牌及黄色“EXPRESS LANE ENTRANCE 3/4 MILE”预告牌，提示即将进入出口匝道。【关键风险】蓝色轿车在未打转向灯情况下快速切入自车前方车道，存在切出（Cut-out）风险，虽未碰撞但需警惕其后续行为。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "lane_change_without_signal"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】天色进一步昏暗，路灯全面亮起，道路两侧植被与建筑轮廓模糊但仍可辨识。【自车】继续在中间车道匀速前进，接近出口匝道入口。【周围车辆】左侧车道车辆密度略增，包括白色SUV、黑色轿车等，均保持安全距离；右侧路肩可见多辆停靠的房车及小型货车，无移动迹象。【交通设施】通过“Zanker Road”出口标志后，右侧出现黄色菱形“TWO TRAFFIC MERGE LEFT”警告牌，提示前方两股车流汇入一条车道。【关键风险】右侧路肩停靠车辆可能因驾驶员开门或乘客下车引发“开门杀”风险；同时，前方合并车道处若后车急刹，易引发追尾连锁反应，属于长尾场景中的潜在事故前兆。",
+      "risk_tags": [
+        "door_opening_risk",
+        "merge_zone_collision_potential"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.28,
+    "analysis_time": "2026-01-24 10:30:55"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】持续暴雨天气，挡风玻璃布满水珠，能见度显著降低。路面湿滑，积水反光严重，部分路段有水雾弥漫。【自车】位于中间车道，匀速沿道路前行，未进行变道或转向。【周围交通参与者】左侧对向车道有多辆轿车和皮卡有序行驶；右侧非机动车道旁停有数辆汽车，一辆黑色SUV在右前方车道同向行驶，尾灯亮起。【交通设施】道路标线（双黄实线、自行车道标识）因雨水模糊但仍可辨识；远处可见交通信号灯及电线杆。【关键风险】无明显违规行为或突发障碍物，但强降雨导致视线受限，存在潜在追尾或误判前车制动的风险。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility",
+        "low_traction"
+      ]
+    },
+    {
+      "time_segment": "00:00:07-00:00:11",
+      "scene_description": "【环境】雨势略有减弱，但天空仍灰暗，能见度中等偏低。【自车】保持中间车道，接近十字路口时减速，准备左转。【周围交通参与者】前方黑色卡车在右转车道等待绿灯；左侧交叉路口有白色货车与小型SUV正在左转或直行；右侧人行横道区域有行人站立等待。【交通设施】前方为T字路口，设有“ONLY”左转车道标线，交通信号灯显示为绿灯。【关键风险】自车即将进入左转专用车道，需注意左侧来车可能的强行切入；同时，右侧人行横道上有行人静止，若其突然横穿将构成“鬼探头”风险。",
+      "risk_tags": [
+        "left_turn_hazard",
+        "pedestrian_crossing_risk",
+        "intersection_conflict"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雨势持续，路面湿滑，部分区域有积水溅起。【自车】在中间车道停车等待，前方为红色刹车灯亮起的黑色SUV，处于拥堵状态。【周围交通参与者】右侧路边停放多辆货车（含Fischer Plumbing、FedEx等品牌），其中一辆白色货车正缓慢驶离车位；左侧对向车道车辆排队等候；一名行人从左侧建筑门口走出，横穿马路至对面，面部朝向自车方向，步态平稳。【交通设施】道路两侧为商业街，店铺招牌清晰可见（如“POST OPTIONS”、“MASTERS AUTO”），路侧设有“NO TURN ON RED”标志牌。【关键风险】自车后方有车辆试图从右侧超车，但因路肩停靠车辆密集，形成狭窄通道；行人横穿路径与自车当前停止位置重叠，存在碰撞风险；此外，右侧货车启动时可能突然切入车道，引发“开门杀”或剐蹭事故。",
+      "risk_tags": [
+        "traffic_jam",
+        "pedestrian_crossing",
+        "lane_narrowing",
+        "door_opening_risk"
+      ]
+    }
+  ]
+}

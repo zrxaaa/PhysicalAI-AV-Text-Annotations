@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 03:14:52",
+    "processing_time_seconds": 12.19
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "十字路口绿灯亮起，多名行人与骑行者（含共享单车和电动滑板车）从人行横道穿越马路，自车在车道内静止等待，左侧有黑色SUV和蓝色轿车停于停止线前。右侧建筑外立面覆盖脚手架，无施工人员活动。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "行人完成穿越，信号灯转为红灯，自车前方车辆保持停车状态，右侧人行道上有行人继续行走。道路标线清晰，可见“ONLY”字样指示专用车道，阳光直射导致部分区域眩光。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "自车开始缓慢前行，左侧车道有银色SUV驶入并超越自车，右侧路边停放多辆汽车，脚手架沿街延伸。远处可见“QUEENS MIDTOWN TUNNEL”路牌，提示前方交通方向。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:18",
+      "scene_description": "前方路口出现一辆警车停靠在右侧路边，警灯闪烁，一名穿反光背心的警察正在指挥交通。自车减速避让，同时观察前方交叉口的行人动态，路面有左转箭头标线。"
+    },
+    {
+      "time_segment": "00:00:18-00:00:19",
+      "scene_description": "自车在警车旁短暂停留后继续向前行驶，前方交通信号灯仍为红灯，行人未穿越，道路两侧建筑物高耸，天气晴朗，光照强烈造成镜头局部过曝。"
+    }
+  ]
+}

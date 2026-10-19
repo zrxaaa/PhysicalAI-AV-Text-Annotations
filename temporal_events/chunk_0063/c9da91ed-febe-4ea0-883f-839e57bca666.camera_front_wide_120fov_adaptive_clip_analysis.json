@@ -1,0 +1,43 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.77,
+    "analysis_time": "2026-01-22 08:11:58"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，云层较厚，无明显降水或强光。路面干燥，能见度良好。【自车】位于中间车道，匀速沿直道行驶，未进行变道或转向。【周围车辆】左侧邻车道有一辆蓝色轿车（本田思域）从后方超车并完成切入，动作流畅；前方约30米处有一辆灰色SUV保持匀速行驶。【交通设施】右侧路边设有黄色“TRAFFIC MERGE LEFT”警示牌及下方“BEGINS RIGHT TURN LANE YIELD TO BIKES”提示牌，路侧绿化带完整，无施工或障碍物。【关键风险】无显著风险，蓝色轿车超车时与自车横向距离小于2米，但未触发紧急避让，属常规驾驶行为。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:09",
+      "scene_description": "【环境】天空云层稀疏，光线均匀，无遮挡。【自车】仍保持在中间车道，匀速前行，道路开始出现轻微右弯。【周围车辆】前方灰色SUV维持原位；左侧对向车道有数辆车正常通行，包括一辆白色轿车和一辆深色SUV。【交通设施】右侧出现绿色“FREWAY ENTRANCE 280 NORTH”指示牌，同时可见“San Jose”方向指引牌，表明即将进入高速公路匝道区域。【关键风险】无直接碰撞或违规行为，但右侧匝道入口处有“ROAD WORK AHEAD”警示牌，提示前方可能有施工活动，需注意潜在突发状况。",
+      "risk_tags": [
+        "road_work_warning"
+      ]
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "【环境】天气稳定，光照适中，视野开阔。【自车】进入右转匝道，随道路曲率向右偏航，车头偏航角约15°，未压线，属于正常沿弯道行驶。【周围车辆】前方灰色SUV在同一路段减速，准备汇入匝道；右侧路边有少量干草与灌木丛，无行人或动物。【交通设施】右侧立有“NO PEDESTRIANS BICYCLES MOTORCYCLES”禁行标志，且靠近匝道口处设有一个橙色“ROAD WORK AHEAD”菱形警示牌，背景为施工围栏与土堆。【关键风险】匝道转弯半径较小，前车减速可能导致自车需降低速度以保持安全跟车距离；施工区域虽未作业，但存在潜在突发障碍物或临时交通管制风险。",
+      "risk_tags": [
+        "narrow_turn_radius",
+        "speed_adjustment_required",
+        "construction_zone_warning"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】天空多云，局部有阳光穿透，无降水或雾气。【自车】继续沿右弯匝道行驶，车头偏航角趋于平缓，已接近主路汇合点。【周围车辆】前方灰色SUV完成汇入主路动作，自车与其纵向距离保持约15米；左侧主路上有多辆汽车快速通过，包括一辆白色轿车和一辆皮卡，均在各自车道内行驶。【交通设施】道路两侧植被茂密，右侧为高大乔木与低矮灌木混合区，左侧为干草地与护栏。【关键风险】无明显违规或危险行为，但右侧施工区域仍有未清理的土堆与临时围栏，若遇紧急制动可能引发轮胎打滑或视线受阻；此外，主路车流密集，汇入时机需谨慎判断，存在潜在加塞或变道冲突风险。",
+      "risk_tags": [
+        "potential_cut_in_risk",
+        "road_surface_unstable",
+        "visual_obstruction_from_construction"
+      ]
+    }
+  ]
+}

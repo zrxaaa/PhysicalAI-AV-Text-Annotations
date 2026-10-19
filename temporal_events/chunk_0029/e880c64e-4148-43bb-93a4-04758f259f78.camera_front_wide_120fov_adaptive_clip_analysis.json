@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 10:27:29",
+    "processing_time_seconds": 19.77
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车沿双向两车道街道平稳行驶，道路两侧停满车辆，右侧可见一辆灰色跑车和白色轿车依次停放，左侧为多层住宅楼，前方路口信号灯显示红灯，交通流静止待行。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:09",
+      "scene_description": "一名背着背包的行人从左侧人行横道进入画面，开始横穿马路，自车在斑马线前停车等待，同时一辆FedEx货车从对向车道驶近路口准备左转。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:13",
+      "scene_description": "行人持续穿越人行横道，直至完全通过；FedEx货车完成左转并驶离路口，期间自车保持静止，未发生任何变道或加速行为，交通信号灯仍为红灯。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "信号灯转绿，自车前方及对向车道车辆启动通行，一辆红色小型SUV从左侧交叉路口左转进入当前车道，与自车路径存在短暂交汇风险，但无碰撞发生。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车继续沿直行方向前进，前方多辆汽车有序通过交叉口，右侧人行道上无行人活动，整体交通流恢复平稳，天气晴朗，路面干燥无障碍物。"
+    }
+  ]
+}

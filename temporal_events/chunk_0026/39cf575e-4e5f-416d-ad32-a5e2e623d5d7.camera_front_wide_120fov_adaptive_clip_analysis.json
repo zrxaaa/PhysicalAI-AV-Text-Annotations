@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 08:42:36",
+    "processing_time_seconds": 23.93
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车在十字路口前方行驶，左侧一辆深色SUV加速变道至中间车道，右侧停有一辆警车和一辆U-Haul货车，交通信号灯为黄灯转红，路面有斑马线和施工警示锥桶。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:07",
+      "scene_description": "自车在红灯前减速停车，前方白色轿车保持静止，右侧警车闪烁警灯但未移动，一名警察从警车旁走向人行道，街道两侧可见多层住宅与商铺，阳光从右上方照射形成眩光。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:11",
+      "scene_description": "绿灯亮起后自车启动前行，前方白色轿车同步起步，右侧警车仍停靠路边，无明显动作；道路左侧出现橙色施工围栏，远处可见“City Market”招牌，车辆沿双黄线车道平稳行驶。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:16",
+      "scene_description": "自车继续直行接近下一个十字路口，前方白色轿车在路口处减速，右侧店铺前有行人站立，左侧对向车道有车辆驶入交叉口，交通信号灯为红灯，自车在停止线前等待。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车在红灯下保持静止，前方白色轿车同样停在停止线后，右侧人行横道附近有行人活动，背景中可见“City Market”商店及多个交通标志，阳光强烈导致部分画面过曝。"
+    }
+  ]
+}

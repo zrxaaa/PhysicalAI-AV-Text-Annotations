@@ -1,0 +1,24 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 22:35:01",
+    "processing_time_seconds": 21.04
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车在夜间城市十字路口处，前方交通信号灯为绿灯，右侧一辆黑色SUV正从右转车道驶入直行车道，左侧有银色轿车驶离路口。道路两侧可见施工围栏和路灯照明，路面为沥青材质，无明显湿滑迹象。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:10",
+      "scene_description": "自车左转进入一条狭窄的石板路，两侧停满车辆，左侧为透明玻璃围挡的户外餐饮区，右侧为砖砌住宅楼。前方远处可见红色尾灯，表明有车辆排队或缓行，路边行人零星出现但未横穿道路。自车保持低速平稳行驶，无急加速或急刹车行为。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "自车继续沿石板路向前行驶，道路两侧车辆密集停放，部分车辆尾灯亮起，显示后方有车辆缓慢移动。前方远处可见红灯闪烁，暗示前方可能有停车标志或交通管制。自车维持匀速前进，未进行变道或超车，与周围车辆保持安全横向距离。"
+    }
+  ]
+}

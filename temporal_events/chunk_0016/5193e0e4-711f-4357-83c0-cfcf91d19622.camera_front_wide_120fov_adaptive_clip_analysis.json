@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 05:01:22",
+    "processing_time_seconds": 12.05
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "路面有清晰双黄线，天气晴朗，光线充足，树木枝叶部分遮挡天空，未见明显障碍物或交通信号设施。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "自车保持匀速直线行驶，未进行转向或制动，环境安静，无交叉路口或交通标志干扰当前行驶轨迹。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "左侧可见另一条支路入口及消防栓，远处有电线杆和住宅轮廓，但无其他车辆或行人出现在交叉口区域。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "自车保持静止状态观察路口，未发生任何变道或加速行为，周围环境稳定，无突发交通参与者或信号变化。"
+    }
+  ]
+}

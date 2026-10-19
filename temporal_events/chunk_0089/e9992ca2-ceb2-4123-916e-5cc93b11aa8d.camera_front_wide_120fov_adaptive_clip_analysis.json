@@ -1,0 +1,34 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.28,
+    "analysis_time": "2026-01-22 20:04:26"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间，天空阴沉，能见度中等偏低，路灯与车灯产生明显光晕。路面干燥但有反光，疑似轻微湿滑。【自车】位于中间车道，匀速沿直线道路前行，未进行转向或变道。【左侧】可见加油站及商业建筑群，灯光明亮；右侧为开阔草地与稀疏树木。【交通设施】前方约200米处可见红绿灯信号系统，当前显示为红灯（远端）。无显著障碍物或违规行为。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】夜间照明条件稳定，无明显天气突变。【自车】保持在中间车道，匀速接近前方交叉路口，车速未明显变化。【左侧】一辆深色轿车从支路驶出，向左转弯进入主路，完成动作后驶离视野。【右侧】路边设有黄色菱形警示牌与限速标志（44 mph），提示前方为交叉口。【交通设施】前方红灯持续亮起，信号灯杆上标有“L-20”路名标识，同时可见“SPEED LIMIT 44”和“NO TURN ON RED”标志。【关键风险】无直接碰撞威胁，但左侧支路车辆突然切入存在潜在冲突，需警惕‘鬼探头’风险。",
+      "risk_tags": [
+        "potential_ghost_probe",
+        "crossing_vehicle"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】夜间，天空仍阴沉，路灯与车灯造成部分眩光，能见度维持中等。【自车】已完全停止于交叉路口停车线内，等待红灯。【前方】对向车道有多辆汽车静止等待，其中一辆白色轿车位于正前方约30米处，尾灯亮起，未移动。【右侧】人行横道区域空旷，无行人或动物活动迹象。【交通设施】红灯持续亮起，信号灯组下方有“DO NOT ENTER”标志，右侧立柱上有“SPEED LIMIT 44”与“INTERSECTION”提示牌。【关键风险】自车处于静止状态，前方车辆亦静止，无动态交互风险。但因前方车辆距离近且尾灯强光可能影响视线，存在轻微视觉遮挡风险，暂不构成紧急情况。",
+      "risk_tags": [
+        "stationary_vehicles",
+        "visual_obstruction"
+      ]
+    }
+  ]
+}

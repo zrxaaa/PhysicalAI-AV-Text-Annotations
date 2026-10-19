@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 01:35:42",
+    "processing_time_seconds": 12.81
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在黄昏时分沿街道匀速行驶，左侧有白色货车和红色SUV快速驶过，右侧停放多辆汽车，道路两侧有电线杆和路灯照明，路面干燥无积水。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "车辆接近十字路口，前方路面标有“STOP”字样，右侧出现红色停车标志，多辆汽车在交叉口减速或停车，两名行人从左侧人行道进入斑马线准备横穿马路。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车在停止线前完全停下，等待行人通过，右侧一辆黑色轿车从右转车道驶入直行车道，与自车路径无冲突；远处可见对向来车灯光，街道两侧建筑窗户亮灯。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "行人完成穿越后，自车缓慢启动继续前行，左侧一辆白色SUV从路边驶出并入直行车道，与自车保持安全距离，道路两侧车辆静止或低速行驶，无明显拥堵。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车继续沿街道行驶，右侧停放车辆增多，部分车辆开始启动驶离，前方道路视野开阔，无显著障碍物或突发交通事件，环境光线稳定，天气晴朗。"
+    }
+  ]
+}

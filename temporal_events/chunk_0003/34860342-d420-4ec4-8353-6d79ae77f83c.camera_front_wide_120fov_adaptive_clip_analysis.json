@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 00:03:35",
+    "processing_time_seconds": 25.89
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在浓雾中沿双黄线乡村道路行驶，左侧路边停有一辆深色皮卡，前方远处可见一辆对向来车，能见度较低但车道线清晰可见。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "车辆继续直行，道路右侧出现光秃树木与电线杆，左侧出现低矮灌木丛，前方对向来车逐渐远离，未见明显变道或交互行为。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "道路右侧出现限速45标志牌，随后一辆对向黑色轿车驶过，同时右侧路边出现黄色校车停靠，自车保持原速通过，无减速或避让动作。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "自车经过校车后，左侧出现一排白色厢式货车和小型建筑，右侧出现住宅区边缘，有停放的私家车，整体环境仍被浓雾笼罩，能见度维持在约50米内。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "车辆继续沿直线道路前行，两侧树木与房屋轮廓模糊，未见新交通参与者或显著行为变化，自车保持稳定匀速行驶，无转向或制动动作。"
+    }
+  ]
+}

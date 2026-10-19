@@ -1,0 +1,46 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.95,
+    "analysis_time": "2026-01-22 23:40:27"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间行车，路灯照明充足但存在明显光晕与眩光，能见度良好。【自车】在中间车道匀速沿道行驶，未进行转向或变道。【右侧】路边停有一辆白色面包车，车身部分突出路肩；后方出现一辆银色轿车从右侧超车并切入自车前方车道。【关键风险】银色轿车无转向灯提示，强行切线（Aggressive Cut-in），位于自车右前侧约8米处，存在碰撞风险。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "no_turn_signal",
+        "close_proximity"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】道路两侧建筑密集，路灯间距均匀，无明显天气异常。【自车】保持中间车道匀速行驶，随道路微弯自然前行。【左侧】多栋住宅楼及商铺，部分窗户亮灯；路边停放多辆私家车，包括一辆红色皮卡和一辆白色SUV。【右侧】一栋现代风格公寓楼，外墙有“1540”编号标识，门前停有数辆汽车。【交通设施】路面标有自行车道标识，前方可见黄色“注意弯道”警示牌。【非标物体】无特种车辆、动物或遗撒物。",
+      "comment": "此段为平稳行驶阶段，无显著风险事件，故不标注risk_tags。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】接近十字路口，前方红灯信号清晰可见，路灯与车灯混合造成局部眩光。【自车】维持当前车道，减速准备停车。【前方】多辆汽车在红灯前排队，最前方为一辆黑色轿车，刹车灯持续亮起。【右侧】一栋商业建筑（门牌号“1510”，标有“UniCare”字样）旁停有白色货车与银色SUV。【关键风险】右侧人行道区域有行人模糊轮廓，因遮挡与光线干扰无法判断其面部朝向与动作意图，存在“鬼探头”潜在风险。同时，前方车辆制动距离较近，若自车反应延迟可能引发追尾。",
+      "risk_tags": [
+        "red_light_approach",
+        "braking_distance_close",
+        "ghost_probe_risk",
+        "pedestrian_occlusion"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】夜间城市街道，光照稳定，无降水或雾气影响。【自车】在停止线前完全停车，车头对准直行方向。【前方】黑色轿车保持静止，刹车灯熄灭但未移动；其后方有多辆车排队。【右侧】“UniCare”建筑入口处可见一人影站立，面向街道，未见明显肢体动作或移动趋势。【交通设施】前方为标准十字路口，设有红绿灯、人行横道线及左转箭头指示。【非标物体】无施工车辆、动物或障碍物。【关键风险】右侧人行道上行人静止站立，虽未移动，但在自车停车期间仍构成潜在视线遮挡源，若突然横穿将形成突发危险。",
+      "risk_tags": [
+        "pedestrian_standing_near_road",
+        "stationary_vehicle_blocking_view",
+        "intersection_hazard"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 03:23:49",
+    "processing_time_seconds": 11.33
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在多车道公路上匀速行驶，前方交通信号灯为绿灯，道路两侧有光秃树木和少量积雪，右侧路肩可见人行道。车辆沿直线路段前进，未见明显变道或超车行为。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "接近十字路口时，信号灯仍为绿色，自车保持当前车道继续前行，前方有数辆汽车在同向车道行驶，右侧路边有路灯亮起，环境光线逐渐变暗，显示为黄昏或黎明时段。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "自车继续向前行驶，前方路口信号灯转为红灯，自车减速并准备停车，对向车道有车辆正在左转或直行通过交叉口，右侧人行横道清晰可见，无行人出现。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "自车在红灯前完全停下，前方横向路口有车辆从左侧驶入并完成左转，同时右侧车道有车辆直行通过，自车与这些车辆无直接路径冲突，保持静止等待。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "信号灯仍为红色，自车保持停车状态，右侧路口有行人信号灯亮起，但无行人进入人行横道，远处可见其他车辆在等待或缓慢移动，整体交通流平稳有序。"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.56,
+    "analysis_time": "2026-01-23 10:43:01"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】夜间暴雨天气，路面严重积水并反射路灯与车灯，形成强烈眩光；能见度因雨雾降低，远处灯光呈模糊光晕。【自车】位于中间车道，执行匀速行驶，未明显加速或减速。【右前方】一辆黄白相间的厢式货车（车身印有“Jauer Jauer”字样）在右侧邻车道缓慢行驶，尾灯亮起，与自车保持平行。【左侧】对向车道有多辆轿车驶过，车灯在雨幕中拉出光轨。【交通设施】前方路口信号灯为红灯，但右侧绿灯已亮，提示可右转。【关键风险】右侧厢式货车在绿灯亮起后突然向右变道切入自车所在车道，未打转向灯，存在“强行加塞”行为，迫使自车紧急制动避让。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "heavy_rain",
+        "emergency_braking",
+        "poor_visibility"
+      ]
+    },
+    {
+      "time_segment": "00:00:06-00:00:12",
+      "scene_description": "【环境】雨势略有减弱，但仍持续，路面水膜反光明显，部分区域出现水雾遮挡视线。【自车】保持中间车道，沿道路曲线平稳前行，无明显转向或变速动作。【前方】多辆厢式货车与卡车依次排队，车距较近，尾灯密集闪烁。【右侧】一座古典风格建筑（带柱廊）沿街矗立，其旁人行道上有行人快速通过，其中一人撑伞，面部朝向道路，肢体动作显示正在横穿马路。【交通设施】前方路口设有交通指示牌，标示“Centrum”、“Alltona Messe/CCH”、“City Nord”等方向，同时可见禁止左转标志。【关键风险】右侧人行道行人未走斑马线，且在车辆密集区域横向穿越，存在“鬼探头”风险；同时前方车辆刹车频繁，导致自车需保持低速跟车，增加追尾概率。",
+      "risk_tags": [
+        "jaywalking",
+        "ghost_probe_risk",
+        "low_speed_following",
+        "pedestrian_crossing_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雨势进一步减小，但空气仍潮湿，路灯与车灯反射在湿滑路面上形成动态光斑。【自车】维持中间车道，匀速沿弯曲道路前行，车头偏航角随道路曲率自然调整，未进行主动转向。【前方】多辆货车与厢式车保持队列，车距稳定，无急刹或变道行为。【左侧】一栋现代玻璃幕墙建筑（外墙有“Brauhaus Hotel”霓虹标识）沿街延伸，其下方商铺灯光透出，人行道上偶有行人经过。【右侧】古典建筑旁的绿化带边缘有橙色施工围栏，内有施工设备静止停放，未作业。【非标物体】无动物、无特种车辆作业、无路面遗撒物。【交通设施】上方悬挂大型导向牌，清晰指示“Centrum”、“Alltona Messe/CCH”、“City Nord”方向，自车正接近该交叉口。【关键风险】无显著安全威胁，但因路面湿滑、能见度受限，仍存在潜在失控风险；此外，前方车辆若突然刹车，自车需依赖长距离制动响应，存在反应延迟隐患。",
+      "risk_tags": [
+        "wet_road",
+        "reduced_visibility",
+        "long_braking_distance"
+      ]
+    }
+  ]
+}

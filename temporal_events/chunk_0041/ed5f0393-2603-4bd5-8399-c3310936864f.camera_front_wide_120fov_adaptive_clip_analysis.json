@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.18,
+    "analysis_time": "2026-01-21 22:52:51"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】强逆光天气，阳光从车顶上方直射，造成大面积眩光与镜头光晕，能见度受中度影响。【自车】位于中间车道，匀速沿双黄线弯曲道路前行，未进行变道或转向。【前方】一辆深色SUV在前方同向行驶，保持稳定车距，无加速或减速迹象。【交通设施】道路两侧为林地，右侧有土坡与护栏，左侧为茂密树木，无明显标线或路牌干扰。【关键风险】逆光导致对侧来车及行人识别困难，存在潜在遮挡风险；前车未显示转向信号，但无异常行为。",
+      "risk_tags": [
+        "strong_backlight",
+        "reduced_visibility",
+        "no_immediate_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】逆光减弱，阳光角度下移，视野清晰度提升。【自车】仍保持中间车道匀速行驶，随道路曲线自然转弯。【前方】深色SUV继续前行，于弯道处轻微减速并靠右避让。【新增对象】一名骑行者出现在左侧路肩，身着深色骑行服，正沿路边向前骑行，与自车方向一致。【交通设施】道路右侧出现木质护栏与低矮围栏，左侧林区边缘可见少量落叶堆积。【关键风险】骑行者位于路肩非机动车道，但未佩戴头盔且无反光标识，在光线变化区域易被忽视；自车需注意其可能突然进入主车道。",
+      "risk_tags": [
+        "cyclist_on_road_edge",
+        "low_visibility_transition",
+        "potential_lane_crossing"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "【环境】阳光穿透树冠，形成斑驳光影，路面部分区域有阴影覆盖。【自车】维持中间车道匀速行驶，通过连续弯道时车身略有横向偏移以贴合曲率。【前方】深色SUV完成弯道后恢复直线行驶，车尾灯短暂亮起，疑似刹车。【右侧】一名身穿荧光绿上衣的行人出现在路肩，背对自车，手持工具（疑似修剪树枝），站立不动。【交通设施】右侧山坡植被茂密，局部有碎石滚落痕迹，无明显警示标志。【关键风险】行人处于危险位置（路肩紧邻车道），若自车未减速或未观察，可能发生碰撞；前车刹车行为未伴随转向灯，存在突发制动风险。",
+      "risk_tags": [
+        "pedestrian_in_hazard_zone",
+        "unannounced_braking",
+        "obstacle_on_right_side"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】光照稳定，晴朗无云，视野开阔。【自车】在中间车道持续匀速行驶，通过最后一个缓弯后进入直道。【前方】深色SUV已驶离视线范围，后续未见其他车辆。【右侧】荧光绿行人仍在原位，未移动，疑似施工人员；其身后可见小型木屋结构，推测为私人住宅或维护站。【交通设施】道路右侧设有白色实线分界，无锥桶、警示牌等施工围挡；左侧林区无明显障碍物。【关键风险】虽无直接威胁，但施工人员在无安全警示情况下停留于行车道旁，存在“开门杀”或突然横穿的潜在风险；自车应保持警惕，避免因注意力分散而忽略周边静态隐患。",
+      "risk_tags": [
+        "construction_worker_in_traffic_zone",
+        "lack_of_safety_barrier",
+        "attention_diversion_risk"
+      ]
+    }
+  ]
+}

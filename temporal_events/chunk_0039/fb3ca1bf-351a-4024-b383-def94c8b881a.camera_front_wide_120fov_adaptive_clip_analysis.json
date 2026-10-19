@@ -1,0 +1,37 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.32,
+    "analysis_time": "2026-01-21 22:05:11"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "【环境】夜间城市街道，无明显降水或雾气，路灯照明充足，能见度良好。【自车】位于中间车道，匀速沿直道行驶，未进行转向或变道。【周围车辆】左侧对向车道有多辆轿车与SUV交替驶过（如红色SUV、银色轿车），右侧路边停放多辆汽车，部分车辆在自车前方或侧方缓慢移动。【交通设施】道路两侧为住宅与商业混合建筑，可见棕榈树与街灯；前方约50米处有红绿灯路口，当前信号灯为绿灯。【关键风险】无显著违规行为或障碍物，但右侧路边停放车辆密集，存在潜在“开门杀”风险（Open Door），尤其在自车接近时需注意后视镜盲区。",
+      "risk_tags": [
+        "no_aggressive_behavior",
+        "parked_vehicle_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "【环境】继续夜间行驶，路灯分布均匀，无天气异常。【自车】保持中间车道匀速前行，通过交叉路口时减速至停车线前，绿灯亮起后平稳起步。【周围车辆】左前方一辆白色轿车在路口左转车道等待，右前方一辆黑色轿车从右侧超车并切入自车所在车道，完成切出动作。【交通设施】路口设有交通信号灯及人行横道标线，路牌显示“Algeria Ave”，右侧可见“Park Pastry”店铺招牌。【关键风险】右侧黑色轿车在无明确转向信号情况下快速切入自车车道，构成“非礼切出”（Cut-out without signal），虽未发生碰撞，但存在潜在剐蹭或紧急避让风险。",
+      "risk_tags": [
+        "cut_out_without_signal",
+        "intersection_crossing_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】夜间城市主干道，两侧商铺与住宅交错，部分店铺亮灯，街道人流稀少。【自车】维持中间车道匀速行驶，随道路微弯自然调整方向，未进行主动转向。【周围车辆】左侧对向车道持续有车辆驶过（包括白色轿车、深色SUV），右侧路边停放车辆较多，部分车辆在自车后方缓慢跟随。【交通设施】道路标线清晰，限速30英里/小时标志可见，前方无红绿灯，仅远处有车灯闪烁。【关键风险】右侧路边停放车辆中，部分车门处于半开状态，存在“开门杀”隐患；同时，自车后方有一辆深色轿车加速逼近，可能意图超车，需警惕其突然变道行为。",
+      "risk_tags": [
+        "parked_vehicle_door_risk",
+        "rear_vehicle_acceleration_risk"
+      ]
+    }
+  ]
+}

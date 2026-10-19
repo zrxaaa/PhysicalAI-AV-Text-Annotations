@@ -1,0 +1,31 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 10.62,
+    "analysis_time": "2026-01-23 05:27:37"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:15",
+      "scene_description": "【环境】阴天，天空灰暗，无明显降水但路面湿滑，能见度中等。【自车】位于中间车道，沿双黄线弯曲道路匀速行驶，未变道，车头偏航角随弯道自然调整，无加速或制动迹象。【周围交通参与者】左侧路肩有稀疏落叶树与常绿针叶林，无行人、动物或常规车辆；右侧为土坡与低矮灌木，无动态目标。【交通设施】道路两侧设有红白相间反光柱，间距约20米，部分柱体因运动模糊呈现彩色拖影（非故障，属镜头动态效应）。【关键风险】无显著障碍物或违规行为，但道路曲率较大且路面湿滑，存在潜在侧滑风险；远处可见赛道入口标识，暗示前方可能进入复杂交叉区域。",
+      "risk_tags": [
+        "wet_road",
+        "high_curvature",
+        "no_immediate_threat"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】天气持续阴沉，能见度略有提升，远处山丘轮廓清晰。【自车】保持中间车道匀速直行，通过弯道后进入直线段，前方视野开阔。【周围交通参与者】右侧出现多车道高速公路匝道口，对向车道有数辆轿车在高速公路上匀速行驶，未见异常行为。【交通设施】右侧设有多块指示牌，内容包括“Main Track”、“Pit Lane”、“Feldberg Test Track”，表明即将进入专业测试或赛车场地入口。【关键风险】无直接碰撞威胁，但前方路口存在多车道汇入结构，需警惕突然切入车辆；左侧山坡边缘有少量裸露岩石，若发生紧急避让可能引发轮胎打滑或失控。",
+      "risk_tags": [
+        "complex_intersection",
+        "road_sign_transition",
+        "rock_obstacle_risk"
+      ]
+    }
+  ]
+}

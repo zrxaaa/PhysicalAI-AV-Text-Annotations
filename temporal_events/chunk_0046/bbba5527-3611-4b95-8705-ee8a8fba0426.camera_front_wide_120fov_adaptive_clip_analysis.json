@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.56,
+    "analysis_time": "2026-01-22 00:59:07"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】持续暴雨天气，挡风玻璃布满水珠与雨痕，能见度严重降低。路面湿滑，积水反光明显。【自车】位于中间车道，匀速沿道路曲线前行，未进行变道或转向。【前方】一辆红色尾灯车辆（疑似皮卡）在前车距约30米处行驶，刹车灯未亮，保持稳定速度。【交通设施】道路两侧为裸露树木与低矮灌木，左侧有金属护栏，右侧为混凝土路肩及桥梁栏杆。【关键风险】因雨水遮挡视线，前方车辆动态难以精确判断；左侧路边出现模糊人影轮廓（疑似行人），但无法确认其动作与意图，存在潜在“鬼探头”风险。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility",
+        "ghost_probe_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:06-00:00:12",
+      "scene_description": "【环境】雨势未减，视野仍受水雾干扰。【自车】维持中间车道，跟随前方白色皮卡匀速行驶。【左前方邻车道】一辆深色轿车从左侧超车，车速较快，完成超车后驶回原车道。【右前方】一辆银灰色SUV从对向车道驶来，车灯开启，无异常行为。【非标物体】左侧护栏外可见一个橙色锥桶，提示可能存在临时施工区域，但未见施工人员或设备。【关键风险】左侧超车车辆速度较快，虽未违规，但在低能见度下增加了横向交互风险；前方皮卡刹车灯偶有闪烁，暗示可能减速，自车需保持安全距离以防急刹。",
+      "risk_tags": [
+        "high_speed_crossing",
+        "brake_light_uncertainty",
+        "construction_zone_implicit"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雨势略有缓和，但仍持续，挡风玻璃水渍影响清晰度。【自车】继续在中间车道行驶，保持与前方皮卡的跟车距离。【左侧邻车道】一辆深色SUV完成超车后，逐渐远离；随后一辆白色厢式货车（车身印有“MATCH TOOLS SERVICE TRUCK”字样）从左侧快速驶入本车道，完成并线动作，车速略高于自车。【右侧】一辆大型白色卡车（疑似运输车）在右侧车道缓慢行驶，未见明显加速或减速。【交通设施】道路右侧出现“自行车道”地面标识，表明该路段允许非机动车通行。【关键风险】左侧厢式货车突然切入，虽属合法变道，但在低能见度环境下易引发碰撞；右侧大型卡车因体积庞大，存在视觉盲区，若其突然转向将对自车构成威胁。",
+      "risk_tags": [
+        "sudden_lane_change",
+        "large_vehicle_blind_spot",
+        "mixed_traffic_conflict"
+      ]
+    }
+  ]
+}

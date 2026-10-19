@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:18:08",
+    "processing_time_seconds": 17.61
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "夜间行驶于居民区街道，右侧一辆白色SUV从路边启动并加速变道至自车前方车道，自车保持匀速直行，路灯提供局部照明，路面干燥无明显障碍物。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "车辆继续沿直线道路前行，前方出现停靠在路边的银色面包车与黑色SUV，两侧房屋可见装饰灯串，树木枝叶随风轻微晃动，未见行人或其他动态障碍物。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "左侧出现一辆白色轿车从对向车道驶过，右侧路边停放多辆汽车，自车持续平稳前进，未进行转向或变速操作，环境安静，无交叉路口或信号灯干扰。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "道路两侧出现更多住宅与绿化带，路灯间距均匀，自车经过一个街角后，前方出现红色尾灯车辆，表明有车辆在前方减速或停车，自车维持当前速度跟随。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "右侧出现一辆红色轿车从后方快速超越自车，同时左侧有银色SUV缓慢驶离路边，自车保持稳定行驶轨迹，未发生避让或变道行为，整体交通流顺畅。"
+    }
+  ]
+}

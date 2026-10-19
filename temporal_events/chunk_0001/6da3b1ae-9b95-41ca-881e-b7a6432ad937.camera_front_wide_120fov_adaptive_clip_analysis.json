@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 22:47:33",
+    "processing_time_seconds": 17.84
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车沿街道匀速行驶，左侧停放多辆SUV与轿车，右侧一辆红色皮卡拖挂房车驶离车位并加速变道至中间车道，自车保持原车道平稳前进。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "前方道路出现‘STOP’路面标记，自车减速准备停车，对向车道有银色轿车驶近，右侧白色SUV停靠路边，街道两侧建筑为典型旧金山联排住宅，天气晴朗无遮挡。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "自车在十字路口停车等待，一名穿黄衣行人从左侧人行横道穿越马路，同时右侧一名穿黑衣男子步行过街，后方有黑色轿车和电动滑板车驶入交叉口。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "行人完成穿越，自车仍保持静止状态，右侧路口可见红色STOP标志牌，远处有车辆驶入主路，左侧商铺前有数名行人站立交谈，无明显交通冲突。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车维持停车位置，观察前方路况，右侧有银色SUV驶离路口，左侧行人继续在人行道活动，远处车辆缓慢通行，整体交通流平稳，无突发事件。"
+    }
+  ]
+}

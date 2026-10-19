@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.62,
+    "analysis_time": "2026-01-21 21:21:10"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】夜间高速公路，天空阴云密布，无明显降水但能见度较低，路灯与车灯形成光晕。【自车】位于中间车道，匀速沿道行驶，未进行变道或转向。【周围车辆】前方有多辆轿车保持安全距离行驶，右侧车道有一辆深色SUV从后方快速接近并切入至自车右前方邻车道，其刹车灯亮起，表明有减速意图。【交通设施】道路两侧为混凝土护栏，左侧远处可见广告牌轮廓，无明显路标或信号灯。【关键风险】右侧SUV突然切入邻道，存在潜在碰撞风险，虽未发生冲突，但属于“非预期变道”行为。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "low_visibility",
+        "lane_change_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:06-00:00:11",
+      "scene_description": "【环境】继续夜间行车，路面干燥，灯光反射轻微。【自车】保持中间车道匀速行驶，车头略微向左微调以维持车道线居中。【周围车辆】左侧车道一辆白色轿跑（疑似高性能车型）加速超越自车，完成超车后稳定行驶于左前方邻道；右侧车道一辆银色SUV在自车右后方跟随，尾灯持续亮起。【交通设施】前方出现绿色高速公路指示牌，显示“Marsh Rd”和“Dumbarton Br”，箭头指向右前方，提示即将出口。【关键风险】白色轿跑在超车过程中短暂进入自车左侧盲区，虽未造成危险，但存在“盲区切入”风险；同时，出口指示牌提示前方可能有复杂分流，需提前准备变道。",
+      "risk_tags": [
+        "blind_spot_crossing",
+        "exit_sign_warning",
+        "high_speed_overtake"
+      ]
+    },
+    {
+      "time_segment": "00:00:11-00:00:19",
+      "scene_description": "【环境】夜间，部分路段路灯间距较大，光线分布不均，局部区域存在阴影区。【自车】保持中间车道匀速行驶，未进行任何横向动作。【周围车辆】前方多车保持稳定队列，右侧车道一辆深色SUV在自车右后方缓慢行驶，未尝试超车；左侧车道车辆逐渐远离，无显著交互。【交通设施】道路右侧为高架桥结构，护栏外侧有绿化带及零星树木；远处可见大型广告牌轮廓，但无动态信息。【关键风险】无明显突发风险，但因夜间光照不足，存在“视觉延迟”隐患——若前方车辆急刹，自车反应时间可能被压缩。此外，右侧高架桥阴影区可能遮蔽路面障碍物，增加“鬼探头”或突发障碍物风险。",
+      "risk_tags": [
+        "night_driving_delayed_reaction",
+        "shadow_zone_obstacle_risk"
+      ]
+    }
+  ]
+}

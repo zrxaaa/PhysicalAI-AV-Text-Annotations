@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 02:52:39",
+    "processing_time_seconds": 12.89
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在十字路口左转，前方右侧有粉色房屋和停放车辆，左侧为灰色联排住宅。一辆白色皮卡从左侧驶入画面并停靠路边，自车完成转向后继续直行。",
+      "environment_conditions": "晴朗天气，阳光充足，路面干燥，无明显阴影遮挡行车视线"
+    },
+    {
+      "time_segment": "00:00:04-00:00:10",
+      "scene_description": "自车沿双向两车道街道直行，道路两侧停满车辆，包括SUV、轿车与皮卡。右侧人行道上有行人步行，其中一人在黑色SUV旁打开车门准备上车，未对自车路径造成影响。",
+      "environment_conditions": "天空晴朗，电线杆与密集电线横跨道路，部分区域树影投射在路面上，不影响驾驶视野"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "自车经过一个无信号灯的十字路口，前方右侧出现一栋浅蓝色建筑，左侧有银色SUV驶离停车位。自车保持匀速行驶，未遇显著障碍或变道行为。",
+      "environment_conditions": "光照稳定，路面平整，无积水或施工区域，交通流连续且车速均匀"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "自车继续沿街行驶，右侧出现多辆并排停放的皮卡与SUV，左侧有红色轿车驶过。前方远处可见彩色联排房屋，但无行人或突发交通事件干扰自车路线。",
+      "environment_conditions": "午后阳光斜射，部分路段产生长阴影，但未影响车道识别或车辆避让决策"
+    }
+  ]
+}

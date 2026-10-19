@@ -1,0 +1,43 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 19.1,
+    "analysis_time": "2026-01-23 18:58:04"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间，多云天气，部分区域有薄雾或水汽，路面微湿反光。【自车】在中间车道匀速沿直道行驶，未进行转向或变道。【前方】一辆深色SUV在前车流中保持匀速，尾灯亮起。【右侧】一栋黑白相间高层建筑，底部为白色围挡墙，墙体下方有绿色照明带。【左侧】树木呈秋季黄叶，路灯间距均匀，光线柔和。【交通设施】道路两侧设有路缘石与人行道，无明显障碍物。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】继续夜间行车，云层移动，局部区域出现轻微光晕。【自车】在中间车道减速，准备通过前方交叉路口。【前方】红绿灯显示为绿灯，车辆可通行。【左侧】对向车道有一辆银灰色轿车从左后方超车并切入自车所在车道，未打转向灯，存在潜在切线风险。【右侧】出现“ALL SUITES HOTEL”标识牌及商业建筑入口，路边停有数辆汽车。【交通设施】前方为十字路口，设有斑马线、交通信号灯和路牌，当前信号灯为绿灯。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "un signaled_lane_change"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】夜空云层较厚，月亮被部分遮挡，整体光照偏暗但稳定。【自车】在中间车道完成左转动作，横向位移约2.5米，车头偏航角变化约15度。【左侧】路口处有行人正在过街，其中一人穿深色外套，面向自车方向行走，步态平稳，无急促横穿迹象。【右侧】一辆黑色轿车在右转车道等待，随后启动驶入自车同向车道，未观察自车，存在切入风险。【交通设施】路口设有电子指示牌（显示“Trafic Ferme / décongestionné par déviations”），提示绕行信息；斑马线清晰可见，交通灯为绿灯状态。",
+      "risk_tags": [
+        "left_turn_maneuver",
+        "cut_in_from_right",
+        "pedestrian_crossing"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】进入城市主干道，两侧为现代住宅与商业混合建筑，路灯密集，部分店铺亮灯。【自车】完成左转后进入新车道，保持匀速沿弯曲道路前行。【左侧】一栋多层公寓楼，底层为商铺，有行人进出；右侧路边停放多辆私家车，部分车辆尾灯亮起。【前方】多辆汽车在前方行驶，车距适中，无急刹或异常行为。【非标准物体】右侧人行道上有一名骑自行车者，身穿荧光背心，正沿路边骑行，未进入机动车道。【交通设施】道路标线清晰，设有“SORTIE DE CAMIONS”警示牌，提示重型车辆出口。【关键风险】无明显违规或高危行为，但右侧停车车辆可能引发“开门杀”风险，需注意后视镜盲区。",
+      "risk_tags": [
+        "parked_vehicle_open_door_risk",
+        "cyclist_on_sidewalk"
+      ]
+    }
+  ]
+}

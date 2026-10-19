@@ -1,0 +1,37 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.16,
+    "analysis_time": "2026-01-24 11:00:12"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】浓雾天气，能见度显著降低，路面湿滑，两侧植被因雨雾呈现动态模糊。【自车】在中间车道匀速沿直道行驶，未进行转向或变道。【前方车辆】一辆浅色SUV位于前方约40米处，保持同向匀速行驶，未变道。【交通设施】道路右侧可见黄色弯道警示牌（左转箭头），提示前方为左弯。【关键风险】由于雾气遮挡，前方车辆与路标视觉识别存在延迟，若突然减速或转向，自车可能无法及时反应。",
+      "risk_tags": [
+        "low_visibility",
+        "slow_response_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】雾气持续，但部分区域出现轻微散开，能见度略有改善。【自车】在中间车道随道路曲率自然转弯，车头偏航角从直行状态逐渐向左调整，未越线。【周围车辆】左侧对向车道有两辆车快速驶过（一辆深色轿车、一辆银色SUV），均完成超车并回归原车道；前方浅色SUV继续沿弯道行驶，位置稳定。【交通设施】右侧连续设置多个黄色左转警示牌，配合混凝土护栏形成弯道引导系统。【关键风险】左侧对向车辆高速通过，存在轻微切出风险（Cut-out），但未进入自车车道；无动物或施工障碍物，整体风险可控。",
+      "risk_tags": [
+        "high_speed_cross_traffic",
+        "bend_guidance_reliant"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雾气进一步扩散，部分树梢被雾笼罩，光线昏暗，属阴天低能见度场景。【自车】在中间车道保持匀速沿弯道行驶，横向轨迹平顺，未发生紧急制动或转向。【前方车辆】浅色SUV始终位于前方约30-40米处，车距稳定，无加速或减速迹象。【交通设施】道路右侧混凝土护栏持续延伸，弯道外侧设有反光路桩，增强夜间/雾天可视性。【关键风险】无突发障碍物、无违规行为、无动物闯入；唯一潜在风险为持续低能见度导致的反应延迟，但当前路段无急弯或交叉路口，风险等级低。",
+      "risk_tags": [
+        "persistent_low_visibility",
+        "stable_following_distance"
+      ]
+    }
+  ]
+}

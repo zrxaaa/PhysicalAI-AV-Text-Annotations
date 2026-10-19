@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.18,
+    "analysis_time": "2026-01-22 05:27:57"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，云层厚重，无明显降水，路面干燥但略显湿滑。【自车】位于中间车道，正通过一个左转弯道，执行减速并完成转向动作。【左侧】一辆银色轿车从对向车道驶过，未见异常行为。【右侧】一辆白色斯巴鲁掀背车停靠在路边，车身部分侵入行车道。【交通设施】路口处设有红绿灯杆和路牌（Vanessa St），但信号灯未显示状态。【关键风险】自车转弯时，右侧停靠车辆存在“开门杀”潜在风险；同时，前方交叉路口有数辆静止车辆，需警惕突然启动或横穿的行人/车辆。",
+      "risk_tags": [
+        "turning_with_obstacle",
+        "parked_car_open_door_risk",
+        "intersection_crossing_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】阴天，能见度良好，道路两侧绿化茂盛，树木枝叶繁密。【自车】完成转弯后进入直道，保持匀速沿中间车道行驶。【左侧】一辆大型房车（白色，带双层车顶）停靠在路边，车身长度占用车道约60%，未见移动。【右侧】多辆私家车（含红色SUV、黑色轿车）沿路边停放，部分车辆尾灯亮起，表明处于静止状态。【交通设施】道路标线清晰，中央双黄线完整，右侧人行道与路缘石齐平。【关键风险】自车行驶过程中，左侧房车虽静止，但其体积庞大，若后方有车辆超车，可能因视野盲区引发碰撞；右侧停放车辆中，部分车门开启或人员活动迹象不明显，存在“鬼探头”风险。",
+      "risk_tags": [
+        "large_vehicle_blind_spot",
+        "parked_car_occupying_lane",
+        "ghost_probe_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】天空仍为阴云，无降水，光照均匀。【自车】保持中间车道匀速直线行驶，车速稳定。【左侧】连续多栋住宅楼前停放着多辆私家车（含银色轿车、白色SUV、深色皮卡），部分车辆停放在车道边缘，未完全退至人行道。【右侧】出现一栋独立式住宅，门前草坪修剪整齐，车库门关闭，无人员活动迹象。【非标准物体】右侧人行道旁有一堆落叶堆积，宽度约1米，高度约30cm，未影响通行。【交通设施】道路右侧设有消防栓（黄色），位置固定且无遮挡。【关键风险】自车接近一个T字路口，前方无信号灯，仅靠路牌指示方向；左侧停车车辆密集，若有人突然从车后走出或横穿马路，将构成高风险“鬼探头”场景；此外，部分车辆停靠位置紧邻车道线，存在轻微压线违规嫌疑，可能引发其他车辆变道冲突。",
+      "risk_tags": [
+        "intersection_without_signal",
+        "ghost_probe_risk",
+        "parking_violation_near_lane_edge"
+      ]
+    }
+  ]
+}

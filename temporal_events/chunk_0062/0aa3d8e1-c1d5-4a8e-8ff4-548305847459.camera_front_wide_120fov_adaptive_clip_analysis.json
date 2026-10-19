@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 18.72,
+    "analysis_time": "2026-01-22 07:49:15"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，能见度良好，无异常天气。【自车】在中间车道匀速沿道行驶，车头朝向道路延伸方向，未进行转向或变道。【右侧】一辆黄色校车停靠于路边，车身占据部分车道，后方紧随一辆绿色面包车（福特Econoline）正缓慢驶离停车区，其尾部有轻微横向偏移，但未切入自车所在车道。【交通设施】道路两侧设有电车轨道，上方架设架空电线；右侧商铺“AMERICAN GYMNASTICS CLUB”招牌清晰可见。【关键风险】绿色面包车从静止状态启动时存在轻微加速趋势，若其突然加速可能对自车形成切出风险，但当前速度平稳，暂无紧急避让需求。",
+      "risk_tags": [
+        "potential_cut_out",
+        "parked_vehicle_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】阳光直射，部分区域出现强光反射，路面干燥。【自车】保持中间车道匀速前行，接近前方交叉路口。【前方】道路中央设置“STOP”字样标线，路口处设有红色八角形停车标志牌（STOP Sign），并配有“ALL WAY”标识。【右侧】一辆红色公交车（编号33）停靠于公交站台，车身横跨人行道边缘，遮挡部分视线。【左侧】对向车道有数辆轿车正常通行，其中一辆红色小轿车在左转车道等待信号。【非标物体】无动物、施工车辆或遗撒物。【关键风险】自车即将进入交叉口，需注意右侧公交车可能突然启动或乘客上下车导致开门风险（Open Door），同时前方停车标志要求自车必须完全停止，若未及时制动将构成违规行为。",
+      "risk_tags": [
+        "intersection_stop_required",
+        "bus_open_door_risk",
+        "crossing_traffic"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】光照稳定，无遮挡或眩光干扰。【自车】通过交叉路口后恢复匀速行驶，保持在中间车道。【右侧】路边停放多辆私家车，包括银色SUV、白色轿车等，部分车辆后备箱开启（如银色SUV），存在潜在“开门杀”风险。【左侧】对向车道车辆有序通行，无异常加塞或急刹行为。【交通设施】路旁设有“LEFT LANE TRAINS LEFT TURN ONLY AT ALL TIMES”指示牌，提示该车道仅用于左转及电车专用。【关键风险】右侧停放车辆中，有车辆后备箱开启，若有人突然打开车门，将对自车造成碰撞威胁；此外，部分车辆停放在弯道外侧，可能影响后方来车的视野，存在“鬼探头”隐患。整体场景虽无剧烈动态，但静态障碍物密集，需持续保持警惕。",
+      "risk_tags": [
+        "open_door_risk",
+        "ghost_probe_potential",
+        "parked_vehicle_obstruction"
+      ]
+    }
+  ]
+}

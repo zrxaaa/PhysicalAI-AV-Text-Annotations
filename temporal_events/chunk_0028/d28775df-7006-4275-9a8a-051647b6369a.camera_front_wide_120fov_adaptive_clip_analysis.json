@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 09:27:39",
+    "processing_time_seconds": 16.19
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "自车在夜间城市道路上匀速直行，道路两侧路灯明亮，右侧为白色护栏和人行道，左侧有停放车辆。前方车道标线清晰，无明显障碍物或行人干扰。"
+    },
+    {
+      "time_segment": "00:00:06-00:00:10",
+      "scene_description": "接近十字路口时，前方交通信号灯由绿转黄，一辆黑色SUV从左侧车道加速超车并驶离，同时一辆黄色公交车停靠在路边站台，行人未在自车路径上出现。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "通过十字路口后，自车继续沿直线行驶，右侧出现大型白色建筑与公交站台，左侧人行道上有零星行人行走，但均未进入车道或与自车路径交叉。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "道路右侧出现绿色自行车道，自车保持当前车道行驶，远处可见红绿灯及少量对向车辆。无行人横穿或突发交通行为，整体路况平稳有序。"
+    }
+  ]
+}

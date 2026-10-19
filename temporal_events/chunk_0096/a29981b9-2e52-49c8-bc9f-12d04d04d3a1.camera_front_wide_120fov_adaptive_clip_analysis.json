@@ -1,0 +1,37 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.63,
+    "analysis_time": "2026-01-22 23:01:48"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴朗无云，光照充足，无异常天气。【自车】在中间车道匀速沿直道行驶。【左侧】对向车道有一辆深灰色SUV从左前方驶来，与自车同向但位于邻近车道，保持匀速；【右侧】路边有白色围栏、灌木及行道树，未见行人或动物。【交通设施】前方约30米处出现红色八角形“STOP”标志牌，下方附有“ALL WAY”字样，路面标有“STOP”字样，提示为全路段停车路口。【交互行为】自车接近路口时未减速，保持原有速度通过，未执行停车动作。",
+      "risk_tags": [
+        "failure_to_stop_at_all_way_stop",
+        "unintended_speed_at_intersection"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】晴天，视野开阔，无遮挡。【自车】在中间车道完成通过交叉路口动作，继续沿道路前行。【右侧】路口转角处有一栋浅黄色双层住宅，带门廊和红白相间窗框，门前有修剪整齐的绿篱；其后方可见另一栋带车库的住宅。【左侧】对向车道一辆蓝色小型轿车从左前方横向驶过，完成横穿动作，未与自车发生冲突。【交通设施】路口设有斑马线（人行横道），路侧立有“SPEED LIMIT 25”限速标志牌。【关键风险】自车在通过交叉口时未停车，而对向车辆已先行通过，存在潜在的“未让行”风险，尤其当有行人突然从住宅区门口出现时可能引发碰撞。",
+      "risk_tags": [
+        "lack_of_yield_at_intersection",
+        "pedestrian_emergence_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】阳光明媚，天空湛蓝，无云无雾。【自车】在中间车道保持匀速直线行驶，随道路微弯自然转向。【右侧】连续出现多栋联排住宅与公寓楼，部分带有阳台、棕榈树及车库，路边停放多辆私家车（如银色SUV、白色轿车）。【左侧】树木茂密，部分住宅被高大乔木遮挡，未见明显行人或动物活动。【交通设施】道路中央有双黄实线，右侧车道标有自行车道标识（Bike Lane）；远处可见“SPEED LIMIT 25”标志牌再次出现。【非标准物体】无施工车辆、无动物、无遗撒物。【关键风险】右侧住宅区入口处有车辆缓慢驶出，存在“开门杀”风险（Open Door），但因距离较远且无明确开门动作，暂不构成即时威胁。整体场景安全，无紧急避让需求。",
+      "risk_tags": [
+        "potential_open_door_risk",
+        "low_traffic_density"
+      ]
+    }
+  ]
+}

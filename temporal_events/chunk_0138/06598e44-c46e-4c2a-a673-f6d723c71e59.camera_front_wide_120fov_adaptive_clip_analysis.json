@@ -1,0 +1,45 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.97,
+    "analysis_time": "2026-01-23 16:46:40"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，路面湿滑，有明显积水反光，雨量不大但持续。【自车】位于中间车道，正沿道路左转弯道缓慢减速，车头偏航角向左调整以适应弯道曲率。【左侧】一名行人站立于人行道边缘，面向自车方向，双手插兜，未移动，无横穿意图。【右侧】一辆白色厢式货车停靠在路边，未移动。【交通设施】左侧为绿化带与低矮灌木护栏，右侧为圆形环岛边界石墩，前方可见路牌立柱。【关键风险】无显著风险，但路面湿滑需注意制动距离延长。",
+      "risk_tags": [
+        "wet_road",
+        "reduced_visibility_reflection"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】持续阴雨天气，能见度中等，无强逆光或雾障。【自车】保持匀速沿弯道行驶，未进行变道，车头始终对准弯道中心线。【前方】一辆深灰色SUV从右侧环岛驶出，完成右转后驶离视野；紧随其后，一辆红色小型SUV从右侧切入本车道并超越自车，完成切出动作。【右侧】一座现代玻璃幕墙建筑（标有“BIBLIOTHEQUE RICHARD MIQUE DE MONTPELLIER”）沿路延伸，部分遮挡视线。【交通设施】环岛内草坪区域设有花坛与石质拱门结构，周边设金属桩隔离带。【关键风险】红色SUV在弯道超车时未保持安全横向间距，存在轻微切出碰撞风险，但未发生交互冲突。",
+      "risk_tags": [
+        "cut_out_vehicle",
+        "partial_obstruction_by_building"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】天空灰暗，无降水迹象，路面仍湿润，部分区域有水洼反射。【自车】继续沿直道行驶，速度稳定，未转向。【前方】红色SUV在前方约20米处，保持匀速行驶，未变道。【左侧】出现多栋低层商业建筑，包括一家“KOUTER”店铺和加油站，门前停放多辆私家车。【右侧】一排商铺前设有斑马线，一名行人正在过街，背对自车，步速平稳，无加速或突然转向行为。【交通设施】前方路口设有指示牌，指向“MILLÉNAIRE”、“CHÂTEAU de Flaugergues”等方向，同时可见“STOP”标志及人行横道标线。【关键风险】无直接碰撞威胁，但行人过街时未观察来车，存在潜在“鬼探头”风险，尤其当自车接近时可能因视线遮挡无法及时反应。",
+      "risk_tags": [
+        "jaywalking_potential",
+        "pedestrian_crossing_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】阴云密布，光线均匀，无明显降雨。【自车】在交叉路口处减速，准备左转或直行通过。【前方】红色SUV已驶离路口，进入主干道。【左侧】一辆白色救护车停靠在“Café du Centre”门前，车门关闭，警灯未亮，处于静止状态。【右侧】一栋两层白色建筑旁停有一辆白色租赁车（标有“RENT’CAR”），车身静止。【交通设施】路口设有多个方向指示牌，包含“Château de Flaugergues”、“Complexe Sportif L. Cazal”等，地面标线清晰，人行横道完整。【关键风险】无车辆或行人违规行为，但路口结构复杂，存在多方向汇入车流，自车需谨慎判断通行优先级，避免与左转车辆发生冲突。",
+      "risk_tags": [
+        "complex_intersection",
+        "multiple_traffic_sources"
+      ]
+    }
+  ]
+}

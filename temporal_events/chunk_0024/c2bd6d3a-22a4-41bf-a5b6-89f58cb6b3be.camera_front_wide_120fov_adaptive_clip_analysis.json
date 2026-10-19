@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 08:02:15",
+    "processing_time_seconds": 19.74
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "车辆在Clayton与Parnassus交叉口处，前方有黑色皮卡从左侧车道驶入中间车道，自车保持直行通过路口，右侧人行道上有行人站立，天气晴朗，路面干燥无积水。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "自车沿街道继续前行，左侧出现一辆白色SUV从路边驶出并切入车道，右侧人行道上一名行人正在行走，道路两侧停放多辆汽车，部分车辆缓慢行驶或停靠，未见明显交通信号灯变化。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车经过一段双向车道，左侧有蓝色SUV和灰色轿车先后超车，右侧有白色SUV和银色轿车停靠，道路中央有箭头标线指示方向，远处可见黄色警示牌提示前方减速，天气晴好，光线充足。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "前方出现一辆邮政货车和一辆白色工程车，工程车停在右侧路边并放置橙色锥桶，自车减速绕行，左侧有黑色轿车驶入车道，右侧人行道上有行人短暂出现，整体路况较为拥堵但有序。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车继续沿街行驶，道路两侧车辆密集，右侧有红色轿车和深色SUV依次停靠，前方无明显障碍物，天空晴朗，云层稀疏，路面平整，无施工或突发状况影响通行。"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 05:23:57",
+    "processing_time_seconds": 10.88
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "自车在浓雾中沿林荫道匀速行驶，道路两侧可见光秃树木和零星房屋轮廓，能见度极低，未见其他车辆或行人。路面为双车道，无明显标线干扰，自车保持直行未变道。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:11",
+      "scene_description": "自车接近一个路口，左侧出现横向道路交叉口，但因雾气遮挡无法看清是否有交通信号或车辆，右侧路边有模糊的绿色草坪与灌木丛，自车继续直行未减速。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:15",
+      "scene_description": "自车驶过路口后继续沿直线道路前进，道路两侧树木密集，部分区域出现低矮灌木带，雾气持续弥漫，前方无任何动态交通参与者，自车维持稳定速度。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车在浓雾中继续前行，道路略有弯曲，右侧出现土坡与稀疏植被，左侧远处隐约可见一排房屋轮廓，未发现行人或车辆，整体环境安静且能见度始终受限。"
+    }
+  ]
+}

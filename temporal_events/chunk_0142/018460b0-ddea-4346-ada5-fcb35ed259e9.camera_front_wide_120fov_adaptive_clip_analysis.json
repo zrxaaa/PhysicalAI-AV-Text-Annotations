@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.48,
+    "analysis_time": "2026-01-23 18:37:28"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】浓雾天气，能见度极低（约30-50米），天空灰暗，无明显阳光。路面干燥但因雾气反射光线，部分区域略显反光。【自车】位于中间车道，沿弯曲道路匀速前行，未进行转向或变道。【交通设施】前方路口设有红绿灯信号装置、限速标志（16km/h）、人行横道标线及“ZONe 30”地面标识。【关键风险】由于浓雾遮蔽视线，前方路口结构模糊，无法预判是否有车辆或行人突然出现；红绿灯在雾中虽可见，但其状态需依赖视觉确认，存在误判风险。",
+      "risk_tags": [
+        "low_visibility",
+        "obstructed_view",
+        "traffic_light_reliance_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】雾气持续弥漫，能见度维持在50米内，无明显改善。【自车】继续在中间车道沿弯道减速至停车状态，车头对准前方红灯路口。【交通设施】右侧路肩设有一组交通信号灯（当前显示红灯），下方附有“16 km/h”限速标志和“12 km/h”提示牌（可能为学校或居民区警示）。左侧远处隐约可见一栋房屋轮廓，被雾笼罩。【周围参与者】无其他车辆或行人出现在视野范围内，所有潜在目标均被雾遮挡。【关键风险】自车在红灯前停车，但因能见度差，无法确认交叉路口是否安全——可能存在“鬼探头”风险：如从右侧树丛后突然冲出的行人或非机动车；同时，若前方红灯故障或误判，可能导致闯红灯事故。",
+      "risk_tags": [
+        "ghost_probe_risk",
+        "red_light_confusion",
+        "no_cross_traffic_verification"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雾层稳定，无明显风力或降水变化，光照仍为阴天灰暗。【自车】保持静止状态，车头正对红灯方向，未发生任何横向或纵向移动。【交通设施】红灯持续亮起，限速标志清晰可见，路边电线杆与路灯柱在雾中呈模糊剪影。【周围参与者】无任何动态物体进入视野，包括车辆、行人或动物。【关键风险】长时间静止于路口，在浓雾环境下缺乏有效感知更新，若红灯系统失效或信号灯被遮挡，自车可能错误启动；此外，若路口存在未被识别的施工区域或临时障碍物（如倒伏树枝），将构成潜在碰撞风险。当前场景为“高静默风险”，即表面平静但隐藏多重不确定性。",
+      "risk_tags": [
+        "signal_system_vulnerability",
+        "prolonged_stall_risk",
+        "unseen_obstacle_potential"
+      ]
+    }
+  ]
+}

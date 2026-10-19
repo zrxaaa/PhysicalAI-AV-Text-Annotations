@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:59:30",
+    "processing_time_seconds": 13.29
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在多车道公路上匀速行驶，前方有一辆红色轿车和一辆绿色公交车，右侧出现白色工程卡车从右车道并入中间车道，与自车保持平行行驶。天气晴朗，路面干燥，无明显障碍物。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:08",
+      "scene_description": "公交车完成变道后驶离画面，左侧银色SUV加速超车并切入自车所在车道，两车短暂并行后SUV完成超车。道路右侧出现交叉路口标志，但无行人或临时交通管制。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车继续直行，前方车辆保持稳定队列，右侧出现‘RIGHT LANE ONLY’交通标志牌，提示公交专用道。道路左侧可见水域及对岸建筑，右侧为绿化带与石墙，无突发交通行为。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车在直道上维持当前速度，左侧车道有黑色SUV和银色SUV交替超车，均未与自车发生路径冲突。右侧石墙延伸至视野尽头，路边出现黄色‘SLIDE AREA’警示牌，提示地质风险区域。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车接近一个小型商业区入口，左侧银色SUV减速并靠边停车，自车保持原速通过。道路两侧植被茂密，无行人或其他动态障碍物，整体交通流畅且安全。"
+    }
+  ]
+}

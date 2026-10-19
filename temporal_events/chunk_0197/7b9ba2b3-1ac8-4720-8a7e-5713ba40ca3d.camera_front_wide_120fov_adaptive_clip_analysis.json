@@ -1,0 +1,46 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.49,
+    "analysis_time": "2026-01-24 13:49:49"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴雨天，路面湿滑积水，能见度较低，雨滴附着于挡风玻璃影响视线。【自车】位于中间车道，处于停车等待状态，刹车灯亮起。【左前方】一辆黑色福特SUV（车牌模糊）在相邻车道缓慢向右变道，意图切入自车所在车道。【右侧】路边石墙旁立有“RIGHT LANE MUST TURN RIGHT”交通标志牌，提示右转专用车道。【关键风险】左侧车辆无转向灯示意即强行变道，存在“压实线变道”行为，对自车形成潜在碰撞威胁。",
+      "risk_tags": [
+        "aggressive_lane_change",
+        "low_visibility",
+        "braking_required"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:09",
+      "scene_description": "【环境】持续阴雨，路面反光明显，部分区域积水较深。【自车】在绿灯亮起后启动，沿中间车道匀速前行。【左侧】一辆红色跑车（疑似Pontiac Fiero）从左前方超车并完成变道至自车左侧车道；其后方一辆红色SUV（BMW X1）紧随其后，保持稳定行驶。【右侧】路肩绿化带与石墙清晰可见，远处出现加油站及商业建筑。【交通设施】路口信号灯由红转绿，自车获得通行权。【关键风险】红色跑车超车时车速较快，且未保持安全横向距离，存在“切出”干扰自车轨迹的风险。",
+      "risk_tags": [
+        "high_speed_overtake",
+        "lateral_clearance_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "【环境】雨势未减，天空灰暗，能见度维持中等偏低水平。【自车】进入直行主干道，保持匀速行驶，车头方向与道路曲率一致，未进行转向操作。【左侧】多辆汽车（含蓝色Mini Cooper、白色货车、黑色SUV）在对向车道有序通行，部分车辆在交叉口左转或直行。【右侧】大型施工起重机横跨道路上方，塔臂延伸至画面中央，下方为在建工地，围挡和临时标识清晰可见。【非标物体】工地内无特种车辆作业，但塔吊结构占据上空空间，可能影响高空视野。【关键风险】施工塔吊高度接近道路限高，若遇大型车辆通过需注意碰撞风险；同时，塔吊下方区域存在施工材料堆放，可能引发突发障碍物。",
+      "risk_tags": [
+        "overhead_obstruction",
+        "construction_zone_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】持续阴雨，路面湿滑，部分路段有水雾反射灯光。【自车】保持当前车道匀速直线行驶，未进行任何转向或变道动作。【左侧】对向车道车流密集，包括白色厢式货车、黑色轿车、银色SUV等，均按车道有序行驶。【右侧】沿路可见“EAGLE MOTORS COLLISION REPAIR”维修店招牌，门前停放数辆待修车辆；后方有石墙与灌木丛隔离人行道。【交通设施】道路标线清晰，包含左转箭头、虚实分道线及黄色减速标线。【关键风险】无直接碰撞或违规行为，但因天气恶劣、路面湿滑，制动距离延长，存在“湿滑路面打滑”潜在风险；此外，右侧维修店门口有车辆进出，存在“开门杀”可能性，需保持警惕。",
+      "risk_tags": [
+        "wet_road_slip_risk",
+        "door_opening_hazard"
+      ]
+    }
+  ]
+}

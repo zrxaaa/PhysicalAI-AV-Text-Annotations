@@ -1,0 +1,41 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 9.78,
+    "analysis_time": "2026-01-24 12:54:23"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "【环境】浓雾天气，能见度极低（<50米），雨滴附着于挡风玻璃，导致视野严重模糊。路面湿滑，有明显积水反光。【自车】在中间车道匀速沿道行驶，未进行变道或转向。【周围交通参与者】左侧对向车道可见数辆汽车尾灯，但因雾气无法辨识车型；右侧路肩有树木与护栏，无明显车辆。【交通设施】左侧出现“VARIABLE SPEED ZONE AHEAD”警示牌，提示前方为可变限速区。【关键风险】由于能见度极差，前方潜在障碍物（如静止车辆、行人）无法提前识别，存在“鬼探头”和紧急制动风险。",
+      "risk_tags": [
+        "heavy_fog",
+        "low_visibility",
+        "ghost_probe_risk",
+        "emergency_braking_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "【环境】雾气持续弥漫，部分区域出现轻微散射光，但仍维持低能见度。【自车】保持中间车道匀速行驶，车头偏航角随道路微弯调整，未发生横向位移。【周围交通参与者】右侧车道出现一辆蓝色SUV，从后方接近并试图超车，但因视线受限未完成变道；左侧对向车道有一辆白色FedEx货车驶过，车身短暂清晰可见。【交通设施】经过一座高架桥下方，桥体结构遮挡部分视野，桥下灯光反射加剧视觉干扰。【关键风险】右侧蓝色SUV在低能见度下强行靠近，存在切出（Cut-out）风险；同时，桥下阴影区易形成视觉盲区，增加碰撞概率。",
+      "risk_tags": [
+        "cut_out_risk",
+        "bridge_shadow_blind_spot",
+        "poor_visibility_obstacle"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雾气略有缓解，但整体仍属重度雾霾，路面湿滑且有水雾溅起。【自车】在中间车道继续匀速行驶，通过高架桥后进入主干道，前方出现大型绿色路牌指示“Montlake Blvd / Univ of Wash 1/4 MILE”。【周围交通参与者】前方一辆白色SUV在右车道缓慢行驶，刹车灯频繁亮起，疑似减速避让；左侧对向车道有数辆轿车及一辆白色面包车，均保持安全距离。【交通设施】路牌下方设有“TOLL BRIDGE”与“PAY BY MAIL”标识，表明前方为收费路段。【关键风险】前方白色SUV频繁刹车，可能因前方突发状况（如行人横穿或事故）而减速，自车需保持足够跟车距离；此外，路牌下方区域因雾气与车灯反射，易造成视觉混淆，增加误判风险。",
+      "risk_tags": [
+        "frequent_braking_vehicle",
+        "toll_bridge_area_confusion",
+        "reduced_visibility_sign_interference"
+      ]
+    }
+  ]
+}

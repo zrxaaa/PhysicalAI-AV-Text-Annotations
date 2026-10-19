@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 04:44:17",
+    "processing_time_seconds": 12.03
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在多车道城市道路上匀速行驶，右侧有一辆白色皮卡装载梯子，与自车并行；左侧为福特汽车经销商，路边停有多辆汽车。交通信号灯为绿灯，前方无明显障碍物。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "车辆接近十字路口，前方红灯亮起，自车减速停车；右侧白色皮卡提前左转进入交叉口，未影响自车路径，路口右侧可见Taco Bell门店及美国国旗。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车在红灯前静止等待，左侧车道有红色SUV和蓝色轿车依次通过路口；信号灯由红转绿后，自车保持原位，前方车辆开始通行，右侧人行横道区域暂无行人。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车启动前行，进入直行车道，道路两侧有绿化带和棕榈树，右侧Taco Bell店前有停放车辆；前方交通流平稳，无突发障碍或冲突。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车继续沿Boynton Ave直行，前方路口绿灯持续，道路标线清晰，左侧有“ONE WAY”指示牌；远处可见山丘轮廓，天气晴朗，路面干燥无积水。"
+    }
+  ]
+}

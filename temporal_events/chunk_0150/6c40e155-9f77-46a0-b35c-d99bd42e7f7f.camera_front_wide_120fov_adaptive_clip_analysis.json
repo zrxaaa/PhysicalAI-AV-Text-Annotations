@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.89,
+    "analysis_time": "2026-01-23 22:06:38"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间行车，无路灯，仅靠车灯照明，能见度低。路面干燥但两侧植被浓密，视野受限。【自车】在中间车道匀速沿直道行驶，未进行转向或变道。【前方】一辆白色厢式货车（疑似面包车）在前车距约40米处，尾灯亮起，保持匀速行驶。【交通设施】道路右侧出现蓝色方向指示牌（指向“SECCONDE”和“ST. MILAND”），以及限速50km/h标志牌，提示前方为弯道。【关键风险】前方车辆刹车灯偶有闪烁，但未见明显减速；右侧路侧交通标志密集，存在视觉干扰，可能影响对突发障碍物的识别。",
+      "risk_tags": [
+        "low_visibility",
+        "rear_vehicle_braking_indication",
+        "sign_interference"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】继续夜间行驶，左侧出现护栏，右侧为土坡与稀疏树木，能见度仍低。【自车】在中间车道随道路曲率向右转弯，方向盘轻微向右调整，车身轨迹贴合弯道线。【前方】白色厢式货车同步右转，保持稳定车距，尾灯持续亮起。【交通设施】右侧连续设置白色箭头导向标（左转/右转组合），并配有防撞护栏；道路边缘有反光柱，增强轮廓辨识。【非标物体】无动物、施工车或遗撒物。【关键风险】弯道内视线受树木遮挡，且对向车道无灯光，存在潜在盲区；若前方车辆突然减速或失控，自车因弯道曲率可能反应时间缩短。",
+      "risk_tags": [
+        "curved_road_blind_spot",
+        "limited_opposite_lane_visibility",
+        "rear_vehicle_stability_monitoring"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】夜间，远处山坡上可见零星灯光，可能是居民区或山间设施，但整体仍属黑暗区域。【自车】保持在中间车道，沿右弯道继续行驶，横向动作平稳，未超车或变道。【前方】白色厢式货车持续在前方行驶，车距维持在30-40米，无急刹或异常行为。【交通设施】右侧出现多个蓝底白箭头导向牌及一个圆形“禁止停车”标志，提示前方为复杂交叉或分岔路口。【关键风险】远处山坡灯光模糊，无法确认是否有行人或车辆活动；弯道末端接近一个路口，若前方车辆突然变道或停车，自车需提前预判；当前无直接碰撞威胁，但属于高风险长尾场景——夜间+弯道+远端未知光源组合，存在“鬼探头”或突发障碍物潜伏可能性。",
+      "risk_tags": [
+        "long_tail_night_bend_risk",
+        "unknown_object_in_distant_field",
+        "potential_ghost_probe_at_intersection"
+      ]
+    }
+  ]
+}

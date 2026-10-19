@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 00:54:29",
+    "processing_time_seconds": 18.01
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "自车在直行车道上跟随前方一辆皮卡车行驶，前方交通信号灯为绿灯，路口左侧有车辆从支路驶入主路并完成左转，右侧车道无明显冲突车辆。天气晴朗，路面干燥，视野开阔。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "前方皮卡车在接近十字路口时减速，准备左转，自车保持安全距离跟随；同时，对向车道有数辆轿车依次通过路口，未与自车路径发生冲突，交通流平稳有序。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "皮卡车完成左转后驶离主路，自车继续直行进入下一个路口，此时信号灯仍为绿灯，右侧人行横道标志清晰可见，路边无行人活动，环境安静。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车驶入下一段道路，两侧出现停放车辆和商业建筑，限速15英里/小时标志清晰可见；前方皮卡车继续前行，无其他动态障碍物，道路通畅，光线充足。"
+    }
+  ]
+}

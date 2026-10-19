@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.48,
+    "analysis_time": "2026-01-21 22:55:29"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】暴雨天气，雨滴密集附着于挡风玻璃，导致视野模糊，能见度显著降低。路面湿滑，积水反光严重。【自车】位于中间车道，匀速沿道路曲线前行，未进行转向或变道。【前方】一辆白色皮卡车在自车正前方行驶，尾灯亮起，保持稳定车距。【左侧】对向车道有一辆深色SUV快速驶过，因雨雾遮挡，车身轮廓短暂模糊。【交通设施】道路两侧为绿化带与住宅区，无明显标线或信号灯可见。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility",
+        "wet_road_surface"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】雨势略有缓和，但雾气仍浓，挡风玻璃水珠持续影响视线。【自车】维持中间车道匀速行驶，随道路曲率自然转弯，未主动转向。【前方】白色皮卡持续在前，刹车灯偶有闪烁，表明轻微减速。【右侧】路边出现一排高大灌木丛，部分区域遮挡视线；远处可见另一辆白色车辆停靠在路肩。【左侧】对向车道有车辆驶入画面，包括一辆浅色小型轿车，均在各自车道内正常通行。【关键风险】由于自车与前车距离较近，且前方道路存在弯道，若前车急刹，自车可能因视线受阻无法及时反应。",
+      "risk_tags": [
+        "narrow_following_distance",
+        "curved_road_hazard",
+        "limited_visual_coverage"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雨雾持续，能见度维持在约30米左右。【自车】仍在中间车道，沿弯曲道路匀速前进，未进行任何横向动作。【前方】白色皮卡继续行驶，尾灯稳定亮起，无明显加速或减速迹象。【左侧】一辆粉白相间的紧凑型SUV从对向车道超车后迅速驶离，未进入自车所在车道。【右侧】路边出现一处石砌护坡与修剪整齐的绿篱，其后方隐约可见一栋住宅建筑。【非标物体】无动物、施工车辆或遗撒物出现。【关键风险】自车与前车之间存在潜在“追尾”风险，尤其在当前低能见度条件下，若前车突然制动而自车未能及时响应，将构成高危场景。",
+      "risk_tags": [
+        "rear_collision_risk",
+        "low_visibility_driving",
+        "no_obstacle_clearance"
+      ]
+    }
+  ]
+}

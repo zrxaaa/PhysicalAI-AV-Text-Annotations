@@ -1,0 +1,33 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 18.32,
+    "analysis_time": "2026-01-22 20:24:00"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "【环境】夜间，天空多云，月光微弱，路面无明显降水或结冰，能见度良好。路灯与车灯提供主要照明，部分区域存在眩光。【自车】位于高速公路中间车道，匀速沿直道行驶，未进行变道或转向。【周围交通参与者】左侧对向车道有数辆轿车和一辆大型货车（白色厢式）在匀速行驶；右侧路肩可见加油站、便利店及少量行人活动，但均未进入行车道。【交通设施】道路两侧设有混凝土护栏，右侧出现“禁止停车”标志牌及限速50mph标识。前方高架横跨道路，悬挂绿色出口指示牌：‘Rockaways 69 St Grand Ave EXIT 19’ 和 ‘Junction Blvd EXIT ONLY’。【关键风险】无显著违规行为或障碍物，但右侧建筑顶部霓虹灯闪烁可能造成视觉干扰，存在轻微分心风险。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "【环境】继续夜间行驶，云层略厚，局部遮挡月光，整体光照稳定。【自车】保持中间车道匀速行驶，随道路曲线轻微调整方向，未发生转向或变道。【周围交通参与者】左侧对向车道持续有车辆通过，包括一辆红色卡车从左后方超车并驶离视野；右侧路肩绿化带后方可见一排住宅楼灯光，无行人或非机动车活动。【交通设施】经过第二个高架指示牌组，显示‘Queens Blvd Woodhaven Blvd 1/4 MILE’与‘Junction Blvd EXIT ONLY’，同时右侧出现黄色‘SPEED LIMIT 35’警示牌。【关键风险】无直接碰撞或违规行为，但右侧路边加油站入口处停放的车辆可能因突然开门或行人横穿构成潜在风险，需注意‘开门杀’可能性。",
+      "risk_tags": [
+        "potential_open_door_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】夜空云层较厚，偶有微风导致树叶晃动，无降水迹象。【自车】维持当前车道匀速前进，车头略微向右微调以适应弯道，未越线。【周围交通参与者】前方远处有多辆汽车尾灯亮起，表明车流密度略有上升；左侧对向车道有一辆深色SUV加速超越，完成切出动作。【交通设施】前方再次出现高架指示牌，提示‘EXIT 19 Queens Blvd Woodhaven Blvd’及‘Junction Blvd’，下方为‘EXIT ONLY’黄色标牌。右侧护栏外可见树木与低矮灌木丛，无明显施工或障碍物。【关键风险】无突发危险，但前方车流密集且尾灯间距缩短，提示可能即将进入拥堵区，建议保持安全车距。此外，右侧树影遮挡部分视线，存在轻微‘鬼探头’隐患，但未发现行人或动物。",
+      "risk_tags": [
+        "increased_traffic_density",
+        "reduced_visibility_from_shadows"
+      ]
+    }
+  ]
+}

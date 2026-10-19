@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 10:29:00",
+    "processing_time_seconds": 17.05
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在夜间城市街道上行驶，前方红灯路口有两辆轿车停在斑马线前，右侧人行横道处一名行人开始穿越马路，交通信号灯为绿灯，允许直行车辆通行。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "行人完成横穿后继续沿右侧人行道前行，自车跟随其后缓慢行驶，左侧车道有对向车辆驶过，右侧路边停放多辆汽车，交通信号灯保持绿色，无明显冲突行为。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "行人持续沿右侧人行道行走，自车保持低速跟车，右侧路边出现星巴克门店及装饰性灯光拱门，对向车道有公交车和私家车交替通过，无紧急变道或突然停车行为。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:20",
+      "scene_description": "行人即将到达下一个路口，自车继续平稳跟随，前方再次出现斑马线，右侧有车辆从停车位驶出并汇入车流，自车未进行变道或加速，保持与行人相对安全距离。"
+    }
+  ]
+}

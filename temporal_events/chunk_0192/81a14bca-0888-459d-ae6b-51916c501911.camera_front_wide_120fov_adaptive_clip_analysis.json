@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.68,
+    "analysis_time": "2026-01-24 12:14:38"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】暴雨天气，雨滴密集覆盖挡风玻璃，能见度显著降低。路面湿滑积水，反射灯光形成水雾干扰。【自车】位于中间车道，随道路曲线缓慢减速，保持与前车距离。【左侧】一辆SoundTransit 545路公交车（车号9655）沿左侧行驶，车身广告显示“CIRQUE DU SOLEIL OPENS JAN 18”。【右侧】一辆深色皮卡停靠路边，车门开启状态不明。【交通设施】道路两侧商铺林立，部分墙面有涂鸦；上方可见电车架空线网。【关键风险】公交车因车身庞大，遮挡右侧人行道视野，存在潜在“鬼探头”风险；自车需警惕右侧突然出现的行人或非机动车。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility",
+        "occlusion_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】雨势略有缓和，但路面仍湿滑，部分区域积水反光。【自车】在中间车道匀速前行，未明显加速或制动。【左侧】一辆红色轿车（日产Altima）从后方超车并切入自车前方车道，完成变道动作。【右侧】一辆银灰色凯迪拉克轿车停于路边，车门关闭。【交通设施】前方路口设有红绿灯及斑马线，右侧人行道上有行人站立等待过街。【关键风险】左侧车辆变道未打转向灯，属于“无信号强行切出”，对自车构成横向碰撞威胁；同时，前方红灯即将亮起，需提前准备制动。",
+      "risk_tags": [
+        "aggressive_cut_out",
+        "un signaled_lane_change",
+        "traffic_light_transition"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】持续阴雨，能见度维持中低水平。【自车】在交叉路口前停车等待红灯，车头朝向正前方，未发生转向。【前方】交通信号灯为红灯，多辆汽车在停止线后排队。【右侧】一名穿黑色外套、携带黑色包的行人从人行道走向斑马线，面部朝向自车方向，步态平稳，无急促动作。【左侧】另一名穿蓝色外套、提红色包的行人从左前方进入斑马线，面向自车方向行走。【交通设施】路口设有绿色自行车专用道标线，右转箭头清晰；右侧路牌显示“ONLY EXCEPT BUSES AND BICYCLES”，提示右转限制。【关键风险】两名行人同时横穿马路，且位于自车正前方盲区边缘，若自车未完全停稳可能引发碰撞；此外，右侧消防栓附近地面湿滑，存在行人滑倒风险。",
+      "risk_tags": [
+        "pedestrian_crossing_conflict",
+        "red_light_waiting",
+        "slippery_surface_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雨势稳定，路面持续湿润，无明显积水堆积。【自车】保持静止状态，等待红灯结束。【前方】多名行人正在通过斑马线，其中一名穿浅蓝色外套、提红色包的女性快速穿过车道，头部微抬，目光直视前方，动作果断；另一名穿黑色外套的行人紧随其后，步伐稳健。【左侧】一辆红色轿车（现代Genesis）从左前方驶入交叉口，完成左转动作，未与自车发生冲突。【右侧】一辆白色SUV从右后方驶入路口，行驶轨迹正常。【交通设施】路口处设有“Jackson St”与“E. Pike St”双语路牌，以及限速35mph标志；自行车道标线清晰可见。【关键风险】行人横穿速度较快，且部分行人未使用斑马线（如最右侧穿黑衣者），构成“Jaywalking”行为，增加与自车交互不确定性；同时，右侧SUV在转弯时可能因视线受阻而忽略左侧来车，存在潜在碰撞风险。",
+      "risk_tags": [
+        "jaywalking",
+        "crossing_speed_high",
+        "blind_spot_turning_vehicle"
+      ]
+    }
+  ]
+}

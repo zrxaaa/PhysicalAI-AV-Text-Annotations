@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 09:17:15",
+    "processing_time_seconds": 13.99
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "自车在多车道高速公路上匀速行驶，前方有多辆轿车和SUV，右侧车道有车辆加速并入中间车道，左侧为混凝土隔离带。天色渐暗，路灯已亮起，路面干燥无积水。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "车辆接近电子可变信息板，显示“HOV3 FREE W/FT FLEX”及距离2.50英里，自车未变道，保持当前车道行驶。右侧车道有银色轿车和深色SUV快速通过，部分车辆尾灯亮起。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:16",
+      "scene_description": "自车继续沿主路行驶，前方车流略有拥堵但未停车，右侧车道有白色皮卡和深色SUV交替超车。道路标线清晰，左侧隔离墙持续存在，无行人或突发障碍物。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车驶过“EXPRESS LANE”地面标识，进入更靠右的车道，右侧车道车流密集，包括小型货车、SUV和轿车，部分车辆减速或变换车道。天空呈暮色，能见度良好，无天气影响。"
+    }
+  ]
+}

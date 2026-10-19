@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.33,
+    "analysis_time": "2026-01-22 10:21:38"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】暴雨天气，能见度极低，雨滴密集覆盖前挡风玻璃，雨刷器高频工作但无法完全清除水膜。路面严重积水，反射车灯形成强烈眩光。【自车】位于中间车道，匀速沿直线道路前行，未进行转向或变道。【周围车辆】左侧车道有一辆蓝色皮卡短暂并行后驶离；前方约30米处一辆深色轿车保持匀速行驶，尾灯清晰可见。【交通设施】道路两侧有路灯、树木及围栏，右侧路肩设有“MAY USE FULL LANE”标志牌，但因雨水模糊难以辨识细节。",
+      "risk_tags": [
+        "heavy_rain",
+        "low_visibility",
+        "glare_on_road"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】持续暴雨，雾气加重，远处建筑轮廓模糊不清。【自车】在中间车道继续沿弯曲道路前行，随道路右转趋势轻微调整方向盘，未越线。【周围车辆】左前方对向车道出现一辆黑色SUV，正从左侧超车；前方深色轿车保持稳定跟车距离。【交通设施】道路右侧出现桥梁护栏，左侧为高架桥下通道入口，上方有照明灯柱。【关键风险】前方车辆刹车灯突然亮起，疑似前方路口有障碍物或临时停车，但因视线受阻无法确认，存在急刹导致追尾风险。",
+      "risk_tags": [
+        "reduced_visibility",
+        "potential_braking_event",
+        "bridge_structure_interaction"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】雨势略有缓和，但仍持续降雨，挡风玻璃水渍分布不均，部分区域仍影响视野。【自车】在中间车道执行右转弯动作，车头偏航角增大，沿弯道轨迹平稳过渡。【周围车辆】左侧车道一辆白色轿车加速超越自车；前方深色轿车减速并靠右，准备进入右侧支路。【非标准物体】右侧路边绿化带内有数个黄色塑料瓶被雨水冲刷至路缘，可能造成轮胎打滑。【交通设施】道路右侧出现人行横道标线与黄色菱形警示牌，提示前方为交叉路口。【关键风险】自车转弯时，右侧盲区存在潜在行人或非机动车穿越风险，因雨幕遮挡无法确认其位置与动向。",
+      "risk_tags": [
+        "turning_with_blind_spot",
+        "debris_on_road",
+        "crossing_traffic_uncertainty"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】雨势减弱，天空灰暗，能见度小幅提升。【自车】完成右转，进入新路段，当前位于最右侧车道，沿直道匀速行驶。【周围车辆】前方深色轿车已驶入右侧停车场入口，车流稀疏；左侧车道有数辆汽车排队等待进入商业区停车场。【交通设施】右侧为大型超市（招牌可见“HOTEL & MARKET”字样），门前设有人行横道与停车引导标识；左侧为绿化隔离带与围栏。【关键风险】自车即将进入商业区出入口，需注意突然出现的行人或车辆从停车场出口横向穿行，存在“鬼探头”风险；同时，路面湿滑可能导致制动距离延长。",
+      "risk_tags": [
+        "entrance_crossing_risk",
+        "wet_braking_distance",
+        "pedestrian_ghost_probe_potential"
+      ]
+    }
+  ]
+}

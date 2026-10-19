@@ -1,0 +1,45 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 19.35,
+    "analysis_time": "2026-01-22 14:38:40"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】多云天气，天空云层较厚但仍有部分蓝天，光线分布不均，无明显降水或能见度下降。【自车】位于中间车道，正前方为红灯路口，执行减速停车动作。【右侧】一辆白色垃圾清运车（Recology品牌）停靠在右侧行车道，车身侧面贴有“CAUTION VEHICLE STOPS FOR RECYCLING FREQUENCY”警示标识，其机械臂处于收起状态，未作业；该车占据部分车道，导致自车与右侧车辆并行受限。【左侧】Carl’s Jr.餐厅招牌清晰可见，路边有绿化带及人行道。【关键风险】自车前方为红灯，需停车等待；右侧垃圾车虽静止，但车身宽大，压缩了自车横向空间，存在轻微剐蹭风险；无行人或动物出现。",
+      "risk_tags": [
+        "red_light_stop",
+        "narrow_lateral_clearance",
+        "large_vehicle_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】天空云层仍厚重，但局部透出阳光，光照强度略有提升。【自车】在绿灯亮起后启动，沿中间车道匀速前行。【前方】多辆轿车同时通过交叉口，包括一辆黑色SUV从左转车道切入直行车道，未打转向灯，存在潜在切线冲突。【右侧】7-Eleven便利店招牌可见，路口设有交通信号灯组和人行横道标线。【交通设施】路口信号灯由红转绿，自车获得通行权。【关键风险】左侧黑色SUV违规变道，可能引发碰撞或迫使自车紧急制动，属于“未打转向灯强行切入”行为，存在高风险。",
+      "risk_tags": [
+        "unauthorized_lane_change",
+        "aggressive_cut_in",
+        "intersection_conflict"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "【环境】阴天，云层移动较快，部分区域出现阳光间隙。【自车】保持在中间车道，沿直线道路匀速行驶，车速约35 mph。【左侧】对向车道有数辆汽车正常行驶，无异常行为。【右侧】路边有绿化带、限速30 mph标志牌、白色隔离桩组成的非机动车道边界。【非标物体】右侧人行道边缘有一名行人站立，面向道路方向，双手自然下垂，未携带物品，无横穿意图。【关键风险】无显著风险；道路平直，视野开阔，无遮挡物或突发障碍。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】天空云层继续移动，光照稳定，无降雨迹象。【自车】维持当前车道，匀速向前行驶，接近前方路口。【右侧】出现“Fred Meyer”超市建筑，门前停车场停有多辆私家车，部分车辆正在驶入或驶出。【左侧】路边有低矮住宅区，树木茂密，电线杆密集。【交通设施】前方设有“SPEED LIMIT 30”标志牌，以及一个黄色菱形“SCHOOL ZONE”警告标志，提示前方为学校区域。【关键风险】无直接碰撞风险；但右侧超市出口处车辆频繁进出，存在“开门杀”或突然变道风险，需注意右侧盲区。此外，前方路口即将进入红灯倒计时阶段，需提前准备制动。",
+      "risk_tags": [
+        "school_zone_warning",
+        "parking_lot_traffic",
+        "anticipatory_braking_required"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.86,
+    "analysis_time": "2026-01-22 15:42:32"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】夜间暴雨，路面湿滑积水严重，雨滴附着于挡风玻璃形成水雾，严重影响视线。【自车】位于中间车道，沿直线道路匀速前行，未进行转向或变道。【左侧】一排联排住宅楼，部分门口有台阶和盆栽；右侧停放多辆私家车，部分车辆被雨水打湿反光。【交通设施】前方可见红灯信号，路灯因雨雾呈弥散状光晕，能见度约30米以内。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility",
+        "wet_road"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】雨势稍缓，但雾气仍浓，路灯与车灯在空气中形成明显光柱。【自车】在中间车道减速至停止，等待前方十字路口红灯。【左前方】一栋高层建筑（带脚手架）立于街角，其底层商铺亮灯，招牌显示“Hästens”。【右前方】另一栋建筑外立面覆盖绿色防尘网，旁设临时施工围挡。【交通设施】前方为标准十字路口，人行横道清晰，两侧红灯亮起，左转箭头灯亦为红色。",
+      "risk_tags": [
+        "traffic_light_stop",
+        "construction_zone",
+        "low_visibility"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】能见度略有改善，但仍有薄雾。【自车】保持静止状态，等待绿灯。【左侧邻道】一辆黑色SUV从左向右横穿路口，完成通行后驶离。【右侧邻道】一辆银灰色轿车由右向左快速通过，车身因速度产生运动模糊。【行人】右侧人行道边缘有两名行人站立，面部朝向自车方向，其中一人手持手机，另一人推婴儿车，均未进入人行横道。【关键风险】右侧银灰色轿车在红灯时高速横穿，存在闯红灯嫌疑（Aggressive Crossing），且因速度过快，可能对自车造成视觉盲区冲击。",
+      "risk_tags": [
+        "aggressive_crossing",
+        "red_light_violation",
+        "pedestrian_in_front_of_vehicle",
+        "motion_blur_obstacle"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雨雾持续，路灯照明稳定。【自车】仍处于停车等待状态，未移动。【左侧】一辆白色面包车从左前方驶入路口，随后左转驶离。【右侧】一辆深色SUV由右向左行驶，经过路口后消失于视野。【交通设施】路口信号灯维持红灯，人行横道无行人穿越。【非标物体】右侧施工区域围挡内有临时棚屋，棚顶有雨水滴落，未见施工人员活动。【关键风险】自车前方及侧方存在多辆车辆在红灯下违规横穿，构成“多车闯红灯协同风险”，虽未直接碰撞，但增加了路口冲突概率，属于高危长尾场景。",
+      "risk_tags": [
+        "multiple_red_light_violations",
+        "high_conflict_intersection",
+        "construction_area_occlusion"
+      ]
+    }
+  ]
+}

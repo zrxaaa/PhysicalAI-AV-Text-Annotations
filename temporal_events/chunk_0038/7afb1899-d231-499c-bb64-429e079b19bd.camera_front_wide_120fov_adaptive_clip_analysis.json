@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.86,
+    "analysis_time": "2026-01-21 21:26:42"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "【环境】晴朗天气，光照充足，无异常天气现象。路面干燥，视野开阔。【自车】在中间车道匀速沿道行驶，未进行转向或变道。【右侧行人】一名身穿浅色长袖上衣、头戴白色帽子的行人，在右侧行人道上由远及近行走，面向前方（Face Orientation：正对道路），步态平稳，无横穿意图。【相对运动矢量】行人与自车同向，横向距离约3-5米，随自车前进逐渐被超越。【交通设施】道路两侧分布有住宅区围栏、邮箱（如14003号）、路牌（“NOT A THROUGH STREET”）；右侧路边可见黄色消防栓。【关键风险】行人位于自车右侧近距人行道，虽无横穿行为，但存在“鬼探头”潜在风险——若其突然转向或进入车道，将构成碰撞威胁。",
+      "risk_tags": [
+        "pedestrian_nearby",
+        "ghost_probe_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "【环境】持续晴天，阳光直射导致部分区域出现阴影。【自车】保持中间车道匀速行驶，道路呈轻微左弯，自车随曲率自然沿道前行，未主动转向。【左侧】出现一排高大绿篱与木栅栏，遮挡部分视线；【右侧】为缓坡住宅区，植被稀疏，可见房屋与停靠车辆。【非标物体】右侧路边出现一个黄色消防栓（位置：右前侧约10米），静止无动作。【交通设施】前方路口设有“NOT A THROUGH STREET”警示牌，提示前方为死胡同或支路。【关键风险】自车即将进入交叉口，右侧坡地住宅区存在潜在开门杀风险（Open Door），但当前无车辆或行人开门迹象；同时，左侧绿篱遮挡可能形成视觉盲区，需警惕突发行人或车辆从左侧切出。",
+      "risk_tags": [
+        "crossroad_approach",
+        "occlusion_risk",
+        "open_door_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】光照稳定，无遮挡变化。【自车】在交叉口处减速并完成右转，转向角度约45度，进入新支路。【周围环境】转弯后道路变窄，两侧为低矮灌木与土坡，坡顶可见多栋住宅及停放车辆（含皮卡、SUV）。【交通设施】路口设有“ONE WAY”单行标志与“NOT A THROUGH STREET”标识，提示该路段不可直行。【非标物体】远处坡顶有一辆绿色施工车（疑似小型挖掘机或装载机）静止停放，车身部分被树木遮挡，未见作业动作。【关键风险】自车右转过程中，需注意右侧坡顶车辆及潜在行人；施工车虽静止，但其位置处于转弯盲区边缘，若突然启动或有人从其后方走出，将构成突发危险。此外，支路路面较窄且有明显裂缝，需谨慎控制车速。",
+      "risk_tags": [
+        "turning_maneuver_risk",
+        "blind_spot_obstacle",
+        "narrow_road_condition"
+      ]
+    }
+  ]
+}

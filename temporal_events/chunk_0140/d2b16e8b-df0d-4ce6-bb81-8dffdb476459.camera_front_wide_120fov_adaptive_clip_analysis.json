@@ -1,0 +1,45 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.87,
+    "analysis_time": "2026-01-23 17:46:56"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间城市道路，无明显降水或雾气，路面干燥但有路灯照明，能见度良好。【自车】位于中间车道，处于静止状态，等待前方交通信号灯。【交通设施】前方为十字路口，设有红绿灯、人行横道及导向标志牌；左侧交通灯为红色，右侧交通灯亦为红色，路侧有指示“Funiculaire”方向的蓝色圆形箭头标志。【周围参与者】左侧路边停有一辆白色轿车（静止），远处对向车道有零星车辆灯光，未见行人。【关键风险】无明显风险，但红灯持续时间较长，存在潜在驾驶员不耐烦闯红灯的博弈行为风险。",
+      "risk_tags": [
+        "red_light_waiting",
+        "potential_road_user_impatience"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:08",
+      "scene_description": "【环境】同上，夜间城市照明稳定。【自车】仍位于中间车道，保持静止。【交通设施】右侧交通信号灯由红灯转为绿灯，同时左侧左转箭头灯也同步变绿。【周围参与者】左侧车道一辆白色轿车开始启动，缓慢向前移动；右侧车道无车辆进入视野。【关键风险】无直接碰撞风险，但左侧车辆起步时未充分观察后方，存在轻微切入自车车道的风险。",
+      "risk_tags": [
+        "vehicle_starting_unaware",
+        "minor_cut_in_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】夜间，道路两侧路灯均匀分布，无天气异常。【自车】在绿灯亮起后启动，向右转向并驶入桥面主干道，完成从直行到右转的横向动作。【周围参与者】右侧车道有数辆汽车快速驶过，其中一辆深色SUV在自车右后方超车；左侧对向车道有车辆正常通行。【交通设施】通过人行横道后，道路标线清晰显示为右转专用车道，右侧设有自行车道标识。【关键风险】自车右转过程中，右侧超车车辆速度较快，与自车横向距离较近，存在轻微剐蹭或紧急避让风险。",
+      "risk_tags": [
+        "right_turn_with_fast_oncoming_vehicle",
+        "close_lateral_clearance"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】夜间城市桥梁路段，两侧建筑密集，部分窗户透出灯光，路面干燥，无遮挡物。【自车】已完成右转，进入桥面主干道，沿车道线匀速直线行驶。【周围参与者】前方及对向车道均有车辆正常行驶，车流密度中等；右侧非机动车道有行人步行，未进入机动车道。【交通设施】桥面设有混凝土护栏，车道分隔线清晰，右侧设有自行车道专用标线和“自行车优先”标志。【关键风险】无显著风险，但桥面宽度有限，车流集中区域需注意保持安全车距，避免因突发刹车引发追尾。",
+      "risk_tags": [
+        "bridge_traffic_density",
+        "safe_following_distance_required"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:49:56",
+    "processing_time_seconds": 26.46
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "视频开始时，自车在雨天湿滑路面上行驶，前方交通信号灯为绿色，右侧有车辆灯光因雨水和镜头污渍产生光晕与拖影，左侧车道有对向车流驶来。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "信号灯转为黄灯，前方车辆减速，自车保持匀速跟进；道路两侧树木稀疏，无行人出现，路面标线清晰可见，但雨滴导致挡风玻璃上形成动态模糊光斑。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车继续沿直道前进，前方车辆逐渐减速并保持安全距离，左侧出现石质护坡与少量住宅建筑，右侧护栏延伸至视野尽头，无其他车辆或行人干扰。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "前方车辆突然加速变道至左车道，自车未跟随，保持原车道行驶；雨滴在挡风玻璃上持续移动，造成光线折射与动态光斑，影响视线清晰度。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车平稳通过弯道区域，前方车辆已驶离视野，道路恢复直线，右侧出现黄色警示标志，环境仍为阴雨天气，路面反光明显，无紧急事件发生。"
+    }
+  ]
+}

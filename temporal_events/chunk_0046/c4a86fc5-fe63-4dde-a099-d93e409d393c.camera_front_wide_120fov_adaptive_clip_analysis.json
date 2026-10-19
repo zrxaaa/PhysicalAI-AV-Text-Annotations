@@ -1,0 +1,42 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.4,
+    "analysis_time": "2026-01-22 01:01:33"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:02",
+      "scene_description": "【环境】阴天多云，局部有阳光透出，能见度良好。【自车】位于交叉路口左转待行区，正执行停车等待动作。【周围交通参与者】左侧车道有一辆绿色老式轿车正在左转；远处高架桥下可见数辆对向来车。【交通设施】前方为十字路口，红灯亮起，人行横道信号灯显示“禁止通行”（红色手掌）。右侧路肩有施工区域标识牌及两台绿色高空作业平台静止停放。【关键风险】无明显违规行为，但右侧施工设备处于自车右后方盲区，存在潜在空间侵占风险。",
+      "risk_tags": [
+        "blind_spot_risk",
+        "construction_equipment"
+      ]
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "【环境】天空云层较厚，部分区域透光，光照均匀。【自车】完成左转，进入主干道直行车道，保持匀速沿道路中心线行驶。【周围交通参与者】右侧路肩有低矮灌木丛与枯树，未见行人或动物；左侧为土坡护栏，无其他车辆切入。【交通设施】路面标线清晰，设有导向箭头和分道线；前方约150米处可见交通信号灯组，当前为绿灯。【关键风险】无显著风险，道路平直，视野开阔，未发现遮挡物或异常物体。",
+      "comment": "此段为平稳过渡阶段，无紧急交互或危险行为，符合常规驾驶场景。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "【环境】光线由阴天转为部分晴朗，右侧建筑群投下阴影。【自车】在中间车道维持匀速行驶，接近高架桥出口匝道。【周围交通参与者】左侧邻近车道有一辆银色轿车与一辆黑色SUV并行，均保持稳定速度；右侧为混凝土护栏，护栏外有现代公寓楼群。【交通设施】前方出现多个交通标志：绿色“Pacific Park WEST EXIT”指示牌、黄色弯道警示牌、以及上方悬臂式电子情报板。【关键风险】无违规行为，但右侧建筑物遮挡部分视线，存在轻微“鬼探头”潜在风险，尤其当有行人从楼宇拐角突然出现时。",
+      "risk_tags": [
+        "partial_occlusion",
+        "building_shadow_blindspot"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】天空云量减少，阳光增强，路面干燥。【自车】保持在中间车道，加速驶向Taylor Street出口（Exit 7），即将通过高架桥下方。【周围交通参与者】左侧车道有黑色SUV与银色轿车持续并行；右侧护栏外可见广告牌“LUXURY APARTMENTS NEWLY RENOVATED”，其后为多层住宅楼。【交通设施】前方高架桥上悬挂大型绿色出口指示牌“EXIT 7 Taylor Street”，下方为可变信息显示屏。【关键风险】无直接碰撞或违规行为，但自车即将进入出口匝道，需注意右侧车道可能有车辆提前变道，存在切出风险（Cut-out）。",
+      "risk_tags": [
+        "exit_lane_cutout_risk",
+        "highway_sign_transition"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.52,
+    "analysis_time": "2026-01-24 10:36:45"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，云层较厚，无明显降水，路面干燥，能见度良好。【自车】位于中间车道，匀速沿道行驶，未进行变道或转向。【左侧】一辆白色SUV在左前侧邻车道同向行驶，保持稳定车距；一辆深灰色轿车从左侧交叉路口驶入，完成左转后驶离画面。【右侧】一辆深灰色SUV在右前方邻车道行驶，与自车并行约3秒后减速并靠右停于路边施工区域旁，未完全驶离车道。【交通设施】前方路口信号灯为绿灯，路牌显示“Bellflower Blvd”，右侧有橙色锥桶围挡的施工区域，人行横道清晰可见。【关键风险】右侧车辆突然减速并靠边，存在“开门杀”潜在风险（虽未开门，但位置紧贴人行道），且其行为可能影响后方车辆判断。",
+      "risk_tags": [
+        "potential_open_door_risk",
+        "sudden_deceleration_in_lane"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】天空仍阴沉，无降水，光照均匀。【自车】保持中间车道匀速行驶，随道路曲线轻微调整方向。【左侧】对向车道多辆轿车和货车有序通行，无异常行为。【右侧】一辆深灰色SUV持续停靠在路边，车身部分压线，未移动；路边停放数辆共享滑板车，无人使用。【交通设施】经过“Jack in the Box”餐厅入口，右侧设有“BIKE ROUTE”绿色标志牌及“SPEED LIMIT 40”限速牌；前方路口信号灯为绿灯，指示直行。【关键风险】右侧车辆长时间停靠且压线，可能造成后车误判其为静止障碍物，引发追尾或变道冲突。",
+      "risk_tags": [
+        "long_term_parked_vehicle_obstruction",
+        "lane_encroachment_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "【环境】天气无变化，能见度稳定。【自车】继续在中间车道匀速前行，接近十字路口。【前方】一辆白色SUV在正前方车道行驶，保持安全距离；左侧对向车道有车辆左转进入“Pac Coast Hwy”。【右侧】出现“FedEx Office”招牌，旁边有红绿灯控制的交叉口，当前为绿灯直行。【非标物体】路口左侧“Dunkin’ Donuts”店外立有巨型甜甜圈模型，无动态行为。【交通设施】路口上方悬挂“Pac Coast Hwy”路牌，右侧设“DO NOT BLOCK INTERSECTION”警示牌。【关键风险】前方车辆在绿灯下未加速通过，疑似犹豫或准备停车，若其突然制动，将增加自车紧急制动概率。",
+      "risk_tags": [
+        "front_vehicle_uncertain_behavior",
+        "intersection_braking_delay_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】阴天，光线均匀，无特殊天气现象。【自车】保持中间车道匀速沿直线道路行驶，无转向或变道动作。【两侧】道路两侧商铺林立，包括“Dickies”、“BJ's Clothes”、“Smoke Shop”等，部分店铺门前有行人站立或走动，但均在人行道内，未进入车道。【交通设施】道路标线清晰，无施工区域；右侧出现“END ROAD WORK”橙色告示牌，提示前方施工结束。【关键风险】无显著风险事件。所有行人、车辆均在合法区域内活动，未发现违规行为或遮挡隐患。",
+      "risk_tags": []
+    }
+  ]
+}

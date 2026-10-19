@@ -1,0 +1,47 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.83,
+    "analysis_time": "2026-01-24 06:32:40"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，无明显降水，能见度良好，路面干燥。【自车】位于中间车道，匀速沿直线道路前行。【右侧】路边停放多辆私家车（含灰色大众高尔夫、黑色丰田普锐斯），其中普锐斯后备箱开启，疑似装卸物品。【左侧】对向车道有数辆蓝色铰接式公交车停靠在公交站台，站台内有乘客活动。【交通设施】道路两侧设有人行道与绿化带，右侧可见蓝色停车标志牌（P 30 min）。【关键风险】右侧普锐斯后备箱开启，存在“开门杀”潜在风险；左侧公交站台乘客密集，可能突然横穿马路。",
+      "risk_tags": [
+        "door_opening_risk",
+        "pedestrian_crossing_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】天气持续阴沉，无降水，光照均匀。【自车】保持中间车道，匀速行驶，接近前方十字路口。【前方】一辆红色小型轿车（菲亚特）在自车正前方，保持安全距离跟随行驶。【左侧】公交站台区域仍有乘客活动，部分人走向斑马线。【右侧】出现高大红色雕塑柱体，遮挡部分视野；同时可见“P 30 min”停车标志及自行车停放区。【交通设施】前方路口设有行人过街斑马线与交通信号灯（当前为红灯）。【关键风险】前方红灯路口，自车需准备制动；左侧公交站台乘客若未观察交通状况即横穿，将构成“鬼探头”风险。",
+      "risk_tags": [
+        "traffic_light_hazard",
+        "pedestrian_crossing_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】无异常天气，能见度稳定。【自车】继续在中间车道匀速前进，接近斑马线。【前方】红色菲亚特轿车在斑马线前减速，刹车灯亮起，表明其准备停车让行。【左侧】远处交叉路口有行人正在过街，其中一人手持手机，面部朝向手机，未注视来车方向。【右侧】路边停放多辆共享单车，靠近人行道边缘。【交通设施】路口设有“注意行人”警示牌与右转箭头指示牌。【关键风险】前方车辆减速但未完全停止，自车需保持跟车距离以防追尾；左侧行人低头看手机，存在横穿时不观察路况的“Jaywalking”行为，构成高风险交互。",
+      "risk_tags": [
+        "jaywalking",
+        "rear_end_collision_risk",
+        "distracted_pedestrian"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】阴天，无降水，光线均匀。【自车】在斑马线前减速并最终停车，等待前方红色菲亚特完成礼让后通行。【前方】红色菲亚特在斑马线处完全停下，随后缓慢启动，向右转弯驶离路口。【左侧】一名黑衣女性从人行道走出，面向自车方向行走，步态平稳，未观察交通。【右侧】路口右转车道旁立有橙色施工警示牌（文字：“Losbilstörk till ändring av väg i rendelning”），提示前方道路施工。【交通设施】路口设有左转待行区、右转箭头标志、行人过街标志。【关键风险】自车停车等待期间，左侧行人未观察来车，有横穿车道趋势；右侧施工区域虽无作业车辆，但警示牌提示道路变更，可能存在突发变道或障碍物，需提高警惕。",
+      "risk_tags": [
+        "pedestrian_crossing_risk",
+        "construction_zone_warning",
+        "waiting_vehicle_interaction"
+      ]
+    }
+  ]
+}

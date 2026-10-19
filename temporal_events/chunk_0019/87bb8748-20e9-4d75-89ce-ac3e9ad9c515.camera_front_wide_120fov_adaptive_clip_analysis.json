@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 05:51:22",
+    "processing_time_seconds": 11.07
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "夜间行车，自车在双车道道路上跟随前方黑色SUV行驶，左侧有白色货车从对向车道驶过，道路两侧可见路灯和棕榈树，路面干燥无积水。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "前方路口交通信号灯为红灯，自车与前方黑色SUV同步减速停车，左侧公交站台旁有行人站立，右侧路边停有小型货车，未见明显交叉冲突车辆。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "自车保持静止等待，后方一辆黄色公交车从左侧车道驶入画面并停在人行横道前，与自车形成横向并排但无直接路径冲突，前方SUV仍处于停止状态。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "信号灯维持红色，自车及前方车辆持续等待，右侧商铺前无行人活动，远处可见少量车辆在路口其他方向移动，整体交通流稳定，无突发行为。"
+    }
+  ]
+}

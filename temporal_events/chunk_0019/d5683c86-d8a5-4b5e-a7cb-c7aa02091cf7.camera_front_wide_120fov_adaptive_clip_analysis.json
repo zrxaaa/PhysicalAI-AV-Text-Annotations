@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 05:50:32",
+    "processing_time_seconds": 11.98
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车位于十字路口等待绿灯，前方多辆汽车从对向车道驶来，包括一辆银色SUV和一辆深色皮卡，均在绿灯亮起后通过路口。右侧人行道有行人正在过街，交通信号灯为绿色，天气晴朗，路面干燥无湿滑现象。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:11",
+      "scene_description": "自车前方车辆陆续通过交叉口，包括一辆灰色MPV和一辆深色SUV，均完成左转或直行动作。信号灯保持绿色，自车未移动，保持停车状态，右侧加油站区域可见少量车辆停靠，无明显行人活动。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:15",
+      "scene_description": "自车开始向前行驶，进入直行车道，左侧出现Mobil加油站及公交站台，右侧车道有白色SUV缓慢驶离。交通信号灯仍为绿灯，自车平稳加速，周围车辆保持正常行驶秩序，无紧急避让行为。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "自车继续沿道路直行，前方有多辆轿车和SUV在同向车道行驶，部分车辆在右侧路边停靠。道路两侧有住宅和商铺，限速标志显示为30英里/小时，阳光照射下路面清晰，无遮挡物影响视线。"
+    }
+  ]
+}

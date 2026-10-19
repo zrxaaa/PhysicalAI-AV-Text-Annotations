@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.07,
+    "analysis_time": "2026-01-23 18:15:39"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】夜间，浓雾笼罩道路，能见度极低，路灯灯光被雾气散射形成强眩光。【自车】在中间车道匀速沿道行驶，车头偏航角随路面微弯调整，未发生转向或变道。【右侧】一栋多层建筑紧邻路肩，墙面斑驳，窗户关闭；路边设有蓝白相间警示柱。【左侧】低矮石墙后为植被与另一栋建筑轮廓，细节模糊。【交通设施】前方约25米处出现人行横道标线，但因雾气遮挡无法清晰辨识其边缘。【关键风险】雾中视线严重受限，存在“鬼探头”潜在风险；无明显其他车辆或行人活动，暂无直接交互威胁。",
+      "risk_tags": [
+        "heavy_fog",
+        "low_visibility",
+        "ghost_probe_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:07-00:00:11",
+      "scene_description": "【环境】雾气略有消散，但仍弥漫，路灯亮度增强导致局部眩光。【自车】继续在中间车道匀速前行，通过人行横道区域时轻微减速。【右侧】一栋浅色外墙建筑旁立有红色八角形“STOP”标志牌，位于路口右转入口处。【左侧】出现多个指示牌组合（含方向箭头），下方为蓝白条纹警示柱。【交通设施】前方路口为T字形交叉口，右侧停车标志清晰可见，但无车辆或行人出现。【关键风险】路口处存在停车标志，自车需保持警惕；因雾气仍存，对侧来车可能突然出现，存在“闯入交叉口”风险。",
+      "risk_tags": [
+        "intersection_crossing_risk",
+        "stop_sign_compliance_required",
+        "foggy_intersection"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雾气持续，能见度维持在约30米内，路灯照明稳定。【自车】在中间车道完成左转动作，转向角度约45度，进入新支路。【左侧】出现一组多方向指示牌（含“CHATEAU DE MONTLUC”、“CROIX D’EGLISE”等），下方为金属栅栏围合的院落入口。【右侧】出现限速30km/h标志牌，以及一排低矮石墙和灌木丛。【非标准物体】无动物、施工车辆或遗撒物出现。【关键风险】自车在转弯过程中，因视野受限，需注意右侧建筑物拐角处可能存在的突然出现的行人或非机动车；同时，限速标志提示需控制车速，避免因湿滑路面打滑。",
+      "risk_tags": [
+        "left_turn_with_low_visibility",
+        "speed_limit_compliance_required",
+        "corner_obstruction_risk"
+      ]
+    }
+  ]
+}

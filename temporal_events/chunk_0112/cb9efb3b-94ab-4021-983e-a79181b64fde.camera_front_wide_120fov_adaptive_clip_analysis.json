@@ -1,0 +1,36 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.05,
+    "analysis_time": "2026-01-23 05:32:47"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】夜间，无路灯照明区域，仅靠车灯照明道路。路面湿滑反光，能见度低。【自车】在中间车道匀速沿道行驶，车头朝向正前方，未见明显转向或变道动作。【交通设施】道路两侧为树木与护栏，左侧有路牌及路灯（短暂可见），右侧为连续护栏。【异常天气】无明显降雨或雾气，但路面反光表明存在水膜，属于湿滑路面条件。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】进入全黑暗路段，仅靠车灯照明，两侧树木密集形成“林荫隧道”效应，能见度持续下降。【自车】保持中间车道匀速直线行驶，未进行横向调整。【交通设施】道路两侧设有白色反光路桩，间距均匀，用于界定车道边界。【非标物体】无行人、动物或施工车辆出现。【关键风险】因道路两侧无照明，且树木遮挡视线，存在潜在“鬼探头”风险区域；同时路面湿滑，若突发障碍物需紧急制动可能打滑。",
+      "risk_tags": [
+        "low_visibility",
+        "wet_road",
+        "ghost_probe_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】继续在黑暗林荫道中行驶，前方远处偶有微弱灯光（疑似对向来车）。【自车】维持当前车道匀速前进，车头方向稳定。【交通设施】右侧路桩与护栏持续可见，左侧树木轮廓模糊。【异常天气】无降水或大雾，但整体环境昏暗，视觉疲劳风险上升。【关键风险】无直接威胁目标，但长时间低能见度驾驶易导致注意力下降，存在潜在事故前兆（如突然出现横穿动物或行人）；此外，车灯照射范围有限，无法覆盖道路两侧全部区域，存在盲区。",
+      "risk_tags": [
+        "driver_fatigue_risk",
+        "limited_lighting_coverage",
+        "unpredictable_obstacle_potential"
+      ]
+    }
+  ]
+}

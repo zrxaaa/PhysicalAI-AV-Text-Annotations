@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 01:58:59",
+    "processing_time_seconds": 13.08
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:02",
+      "scene_description": "自车在十字路口左转，前方有停靠车辆和行人，右侧路边有停放的深色SUV，路面标有‘STOP’字样，天气晴朗，能见度良好。"
+    },
+    {
+      "time_segment": "00:00:02-00:00:08",
+      "scene_description": "自车沿直线道路平稳行驶，左侧人行道出现推蓝色垃圾桶的行人，右侧人行道有背着背包的行人行走，前方可见一辆白色轿车在对向车道行驶。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "自车接近第二个十字路口，路面上有‘STOP’标记，右侧设有红色八角形停车标志牌，前方白色轿车在路口减速，自车保持匀速通过交叉口。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "自车继续直行，经过路口后道路两侧为住宅区，左侧有高围栏和树木，右侧有铁丝网围栏和绿化灌木，无显著行人或车辆交互，交通状况平稳。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车在平坦道路上持续行驶，右侧出现一栋带车库的两层住宅，左侧为木质围栏，远处可见电线杆和稀疏树木，无紧急或冲突事件发生。"
+    }
+  ]
+}

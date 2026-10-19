@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 01:27:52",
+    "processing_time_seconds": 15.91
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "夜间城市十字路口，自车前方绿灯亮起，右侧停有一辆美国邮政货车，左侧及对向车道有数辆汽车静止等待。路灯照明充足，路面干燥无积水。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "自车在绿灯下启动前行，左侧一辆黑色轿车从交叉口左转进入主路，与自车路径发生短暂交汇；右侧交通信号灯为红灯，无行人或障碍物干扰。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车完成左转后沿街道直行，道路两侧停满车辆，左侧为绿化带和低层住宅，右侧为多层公寓楼。路灯均匀分布，视野清晰，无突发障碍物。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车继续沿直线行驶，前方远处可见红色尾灯，表明有车辆在前方减速或停车。道路右侧出现临时垃圾箱，但未影响行车路径。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车接近前方路口，道路两侧树木遮挡部分视线，但无行人或突然横穿车辆。环境安静，无明显交通冲突，自车保持匀速平稳行驶。"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 08:27:30",
+    "processing_time_seconds": 14.31
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "自车在夜间十字路口停车等待，前方交通信号灯为红灯，对向车道有数辆汽车驶近并减速，右侧建筑旁有路灯照明，路面干燥无积水。"
+    },
+    {
+      "time_segment": "00:00:06-00:00:09",
+      "scene_description": "信号灯转绿，自车开始向前行驶，右侧一辆皮卡车从侧方切入并行进，与自车保持平行，未发生路径冲突，周围车辆同步启动。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "自车完成左转动作，进入主干道，左侧出现双黄线及人行横道标志，前方交通灯仍为绿灯，对向车道有车辆驶来但保持安全距离。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:18",
+      "scene_description": "自车沿直道加速行驶，两侧商铺灯光清晰可见，前方无显著障碍物或行人，道路标线完整，天气晴朗，能见度良好。"
+    },
+    {
+      "time_segment": "00:00:18-00:00:20",
+      "scene_description": "自车继续直行，远处可见下一个红绿灯路口，左侧有车辆超车后并入相邻车道，自车维持当前车道稳定行驶，无紧急避让行为。"
+    }
+  ]
+}

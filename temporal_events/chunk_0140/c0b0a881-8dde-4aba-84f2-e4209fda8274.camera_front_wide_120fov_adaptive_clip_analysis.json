@@ -1,0 +1,30 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.37,
+    "analysis_time": "2026-01-23 17:46:02"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:12",
+      "scene_description": "【环境】晴天，光照充足，无异常天气。路面干燥，能见度良好。【自车】在中间车道匀速沿直道行驶，未进行转向或变道。【左侧】人行道上有行人行走，其中一位穿蓝色外套、背双肩包的行人正朝自车方向步行（Face Orientation：面向前方），步速平稳；另有两人并排行走，未进入车道。【右侧】路边停放多辆汽车，包括黑色Mini Cooper、银色标致、深灰色SUV等，均静止。【交通设施】道路两侧设有禁停标志（P禁止标志）、黄色路桩、人行横道线清晰可见。【关键风险】无明显违规行为或障碍物，但右侧停放车辆与自车间距小于3米，存在开门杀风险（Open Door）；左侧人行道行人密集，若突然横穿将构成潜在碰撞威胁。",
+      "risk_tags": [
+        "open_door_risk",
+        "pedestrian_crossing_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】晴天，阳光从右上方照射，部分区域产生阴影。【自车】在接近十字路口时减速，准备左转。【前方】一辆黑色奔驰商务车从左向右横穿路口，完成通行后驶离。【右侧】一辆银色大众高尔夫从右前方切入自车所在车道，完成超车动作后驶离。【左侧】“Le Grenier à Pain”面包店门口有两名行人站立交谈，其中一人面朝自车方向，另一人背对；一名骑电动滑板车的人从左向右快速通过人行横道。【交通设施】路口设有斑马线、左转箭头指示牌、禁止驶入标志（红色圆圈内斜杠）。【关键风险】银色高尔夫在自车左前方完成切出动作，虽未违规，但因距离近（<5米）且速度较快，存在轻微切入风险；同时，右侧人行横道处有多名行人正在等待过街，其中一人低头看手机，可能忽略交通信号，增加横穿风险；路口自行车停放区有大量共享单车，部分车体倾斜，存在倒伏遮挡视线的可能性。",
+      "risk_tags": [
+        "cut_in_nearby",
+        "pedestrian_distraction",
+        "obstacle_in_crosswalk_area"
+      ]
+    }
+  ]
+}

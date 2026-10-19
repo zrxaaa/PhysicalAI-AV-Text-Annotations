@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 05:10:19",
+    "processing_time_seconds": 13.63
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车沿街道匀速行驶，前方为十字路口，右侧路边停有白色货车和多辆私家车，左侧为商铺与停车车辆。阳光从前方偏左位置照射，造成部分眩光。",
+      "scene_description_additional": "道路中央有电车轨道，右侧人行道旁设有7-Eleven便利店标志牌，无行人或显著动态障碍物出现。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:09",
+      "scene_description": "自车接近十字路口，路面标有“STOP”字样，右侧设有一个红色八角形停车标志（STOP sign）及“ALL WAY”标识。前方一辆银色轿车在路口减速并停车等待。",
+      "scene_description_additional": "左侧人行横道上有两名行人正在穿越马路，其中一人携带购物袋；自车在停车线前平稳停下，未发生任何变道或加速行为。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "自车在路口停车后启动前行，进入直行车道，右侧路边停放多辆汽车，包括银色SUV、红色轿车等。左侧对向车道有车辆驶过，但未形成冲突。",
+      "scene_description_additional": "道路两侧建筑密集，部分为住宅楼，部分为商业店铺，电车轨道贯穿全程，无其他交通参与者突然闯入或异常行为。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "自车继续沿街行驶，前方远处可见一辆电车正迎面驶来，右侧人行道上有一名行人正在行走，未横穿马路。道路两侧车辆静止停放，无明显动态变化。",
+      "scene_description_additional": "阳光持续照射，天空略带薄雾，能见度良好，路面干燥，无积水或障碍物影响行车路径。自车保持稳定速度，未进行转向或紧急制动。"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 00:42:19",
+    "processing_time_seconds": 11.72
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "自车停在十字路口第一排，前方为一辆灰色SUV和左侧红色SUV，交通信号灯为红灯，右侧有行人正在等待过街，背景中可见Chase银行建筑及人行横道标志。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "信号灯转绿，自车与前方车辆开始向前行驶，右侧有两名骑自行车者从人行横道进入车道，同时一辆绿色公交车从对向车道驶来，自车保持在中间车道跟随前车前进。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:15",
+      "scene_description": "自车继续沿直行方向行驶，经过带有斑马线的交叉口，右侧出现限速25英里标志牌，左侧红色SUV保持在相邻车道并同步前行，无明显变道或超车行为。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "自车在直行道路上持续跟车，前方灰色SUV保持匀速，道路两侧可见商铺、树木及电线杆，未见行人或其他显著动态障碍物，交通状况平稳有序。"
+    }
+  ]
+}

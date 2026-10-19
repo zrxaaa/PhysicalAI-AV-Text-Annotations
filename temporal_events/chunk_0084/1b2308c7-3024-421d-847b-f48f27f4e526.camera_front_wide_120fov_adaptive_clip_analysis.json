@@ -1,0 +1,43 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.63,
+    "analysis_time": "2026-01-22 17:41:26"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】夜间，天空阴云密布，能见度较低，路面湿滑反光明显。【自车】位于中间车道，匀速沿直道向前行驶，未进行转向或变道。【交通设施】前方道路标线清晰，可见“SIGNAL”字样提示前方为信号灯路口。【关键风险】无显著风险，但因夜间及湿滑路面，需保持警惕。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:08",
+      "scene_description": "【环境】夜间雾气加重，路灯灯光出现晕圈现象，能见度进一步下降。【自车】在中间车道继续匀速前行，车头略微向右微调以保持车道居中。【周围车辆】左侧对向车道有一辆白色轿车驶过，未见异常行为；右侧路边停有一辆白色SUV，静止状态。【交通设施】前方路口信号灯由黄灯转为红灯，多个方向的红灯亮起，提示即将停车。",
+      "risk_tags": [
+        "reduced_visibility",
+        "traffic_light_change"
+      ]
+    },
+    {
+      "time_segment": "00:00:09-00:00:16",
+      "scene_description": "【环境】浓雾持续，路灯与车灯形成强光眩晕，部分区域视线模糊。【自车】在交叉路口前减速并最终完全停止，处于最内侧直行车道，等待红灯。【周围车辆】右侧车道一辆白色SUV从右向左横穿路口，完成通行后离开视野；其后方有另一辆深色车辆在红灯前亦停车。【交通设施】多组红灯同时亮起，包括直行和左转方向，路口设有“STOP HERE ON RED”标志牌。【关键风险】右侧白色SUV在红灯时仍快速横穿，存在闯红灯嫌疑（若实际未闯则属违规行为），且因雾气遮挡，自车无法预判其是否为紧急避让或故意违规，构成潜在碰撞风险。",
+      "risk_tags": [
+        "red_light_violation_potential",
+        "occlusion_risk",
+        "poor_visibility_hazard"
+      ]
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "【环境】雾气略有缓解，但路灯仍造成强烈眩光。【自车】保持静止状态，等待信号灯变化。【交通设施】前方信号灯由红灯切换为绿灯，左侧及直行方向灯变为绿色，允许通行。【周围车辆】右侧白色SUV已驶离路口，无其他车辆进入自车前方车道。【关键风险】信号灯转换瞬间，自车需注意是否有其他方向车辆突然启动（如左转车），当前路段无明显障碍物或非标准目标，风险较低。",
+      "risk_tags": [
+        "signal_light_transition",
+        "low_risk_maneuver"
+      ]
+    }
+  ]
+}

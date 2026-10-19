@@ -1,0 +1,37 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 10.75,
+    "analysis_time": "2026-01-24 12:47:47"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，光照充足，无异常天气。【自车】位于最左侧车道，正通过一个十字路口，前方红灯亮起，执行停车制动。【周围交通参与者】左前方有一辆黑色SUV正在右转，已进入交叉口；右侧车道有两辆黑色轿车在等待信号灯。【交通设施】路口设有多个交通信号灯（当前为红灯），路旁有“NO FERRIES”指示牌及混凝土隔离墩。【关键风险】无明显违规或遮挡行为，但自车需在红灯前完全停止，避免闯红灯风险。",
+      "risk_tags": [
+        "red_light_stop",
+        "intersection_hazard"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】晴朗，天空有少量云朵，阳光直射导致部分路段反光。【自车】完成停车后，在绿灯亮起时启动并沿中间车道向右转弯驶入高架匝道。【周围交通参与者】右侧车道有一辆白色特斯拉轿车，与自车同向行驶，保持约20米距离；其后方还有一辆白色轿车。【交通设施】高架入口处设有大型绿色高速出口指示牌（EXIT 2B NORTH for Vancouver BC, EXIT 2A SOUTH for Portland），下方有“25 MPH”限速标志和“EAST 90”方向标识。【关键风险】自车在转弯过程中需注意右侧车道车辆的并线意图，同时前方匝道存在弯道，需控制转向角度避免越线。",
+      "risk_tags": [
+        "lane_change_caution",
+        "curve_speed_control"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】晴天，能见度良好，阳光从右上方照射，形成轻微眩光。【自车】在高架匝道上沿曲线道路匀速行驶，车身姿态稳定，未进行变道操作。【周围交通参与者】右侧车道始终有一辆白色特斯拉轿车，保持匀速且与自车间距稳定（约15-25米），无切入或切出动作。远处可见城市天际线（西雅图市中心）及一座大型体育场（T-Mobile Park）。【交通设施】道路两侧设有混凝土护栏和铁丝网围栏，护栏上有涂鸦；右侧路肩放置橙白相间施工锥桶，提示前方可能有施工区域。【关键风险】无突发障碍物或违规行为；但右侧护栏外有树木和建筑物遮挡视线，存在潜在“鬼探头”风险，尤其在弯道末端。此外，路面存在少量碎屑，但未构成直接威胁。",
+      "risk_tags": [
+        "ghost_probe_risk",
+        "road_debris_low_impact"
+      ]
+    }
+  ]
+}

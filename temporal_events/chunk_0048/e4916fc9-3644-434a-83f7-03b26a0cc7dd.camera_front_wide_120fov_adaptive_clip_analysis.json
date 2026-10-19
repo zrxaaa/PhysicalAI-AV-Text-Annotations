@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.86,
+    "analysis_time": "2026-01-22 01:55:59"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，天空灰白，无明显降水或雾气，能见度良好。路面干燥，无积水反光。【自车】位于中间车道，沿道路曲率平稳减速，准备在前方十字路口停车。【左侧】多辆私家车（含白色特斯拉、银色小型车）停靠于路边，部分车辆在邻近车道缓慢行驶。【右侧】一辆黑色SUV从右侧路边驶出并切入自车所在车道，完成变道动作。【交通设施】前方可见人行横道标线及左转箭头标识，路口信号灯为红灯状态。",
+      "risk_tags": [
+        "lane_change",
+        "braking_for_intersection"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】持续阴天，光照均匀，无遮挡物影响视线。【自车】在十字路口前完全停止，保持静止状态等待绿灯。【前方】一辆黄色校车停在对向车道，车头朝向自车方向，车身横跨两条车道，处于静止状态，未见人员上下车。【左侧】一名行人（身穿粉色上衣）从人行道进入斑马线，正向自车前方横向穿越马路，步速中等。【右侧】一辆灰色轿车从右转车道驶入路口，正在完成右转动作，未与自车发生冲突。【交通设施】路口信号灯显示为红灯，路牌显示“Cabrillo St”，提示前方为交叉路口。",
+      "risk_tags": [
+        "pedestrian_crossing",
+        "oncoming_vehicle_static",
+        "traffic_light_wait"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】天气无变化，光线稳定，无特殊气象干扰。【自车】仍保持静止状态，未移动，仪表盘反射清晰可见。【前方】校车维持原位，未启动；行人已穿越至对向人行道，离开自车视野范围。【右侧】一辆黑色轿车从右转车道驶出后，继续沿右侧道路直行，远离路口。【左侧】一辆深色SUV从左侧邻近车道缓慢驶过，未进入自车车道。【关键风险】路口右侧存在大型建筑遮挡区域，且有电线杆和交通信号灯柱体遮挡部分视野，存在潜在“鬼探头”风险（如后续有行人或车辆从盲区突然出现）。此外，校车虽静止，但其车身宽度较大，可能影响自车在绿灯亮起后的起步路径。",
+      "risk_tags": [
+        "occlusion_risk",
+        "ghost_probe_potential",
+        "wide_vehicle_obstruction"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 07:02:20",
+    "processing_time_seconds": 14.15
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "自车沿平坦柏油路匀速直行，道路两侧停有多辆私家车，右侧有一棵枝叶繁茂的大树，左侧可见几栋低层住宅。阳光从左上方照射，路面干燥无积水，未见行人或其他动态障碍物。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "前方出现限速25英里标志，自车继续直行，右侧路边停放一辆白色皮卡和一辆白色厢式货车，左侧对向车道有车辆驶来但未发生交互。树木多为落叶乔木，部分枝干光秃，天气晴朗但云层较厚。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:16",
+      "scene_description": "自车接近一个T字路口，左侧路边放置多个垃圾桶，远处可见电线杆和交叉路口指示牌。对向车道有车辆驶近，但均在各自车道内行驶，未出现变道或冲突行为，环境安静无行人活动。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车继续沿直线道路前进，前方路口处有绿色路牌显示街道名称，右侧出现小型绿化带与围栏，远处可见另一条横向道路交汇。所有车辆保持正常行驶状态，无紧急制动或变道行为。"
+    }
+  ]
+}

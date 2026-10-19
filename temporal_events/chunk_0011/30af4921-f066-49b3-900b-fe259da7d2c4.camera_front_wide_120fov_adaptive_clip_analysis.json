@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 03:07:59",
+    "processing_time_seconds": 12.91
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在十字路口停车等待，前方一辆灰色SUV从左侧车道向右变道，穿过人行横道后驶离路口；右侧路边设有橙色施工锥桶，背景高架桥下有广告牌和施工材料堆叠。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "灰色SUV驶离后，自车前方出现一辆白色皮卡从右侧车道直行通过路口，同时一辆白色轿车与红色轿车在右侧汇入环形交叉区域，交通信号灯为红灯状态，无行人活动。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "自车开始缓慢向前移动，进入高架桥下方路段，右侧红色轿车完成左转并驶离，白色轿车紧随其后；桥下可见混凝土桥墩和远处体育场建筑轮廓，路面标线清晰。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "自车继续沿高架桥下道路直行，两侧出现成排的秋季树木，部分树叶呈紫红色；左侧远处可见大型体育场结构，道路空旷，无其他车辆或行人干扰。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车保持匀速行驶，道路两侧绿化带逐渐开阔，右侧出现裸露土地和零星灌木；阳光从右侧照射，形成明显阴影，整体环境安静，无显著动态交互发生。"
+    }
+  ]
+}

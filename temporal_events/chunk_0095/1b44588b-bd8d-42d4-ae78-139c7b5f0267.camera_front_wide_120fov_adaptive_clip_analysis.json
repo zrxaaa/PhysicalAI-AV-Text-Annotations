@@ -1,0 +1,41 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.36,
+    "analysis_time": "2026-01-22 22:32:44"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】夜间重度大雾，能见度极低（约30米），路灯与车灯在雾中形成强烈光晕。【自车】位于中间车道，匀速沿道路直行，未进行转向或变道。【右侧】可见加油站及“Big Bun Drive-In”霓虹招牌，因雾气模糊不清。【交通设施】前方路口信号灯为红灯，但因雾遮挡，无法清晰辨识其具体状态。【关键风险】路面湿滑，前车刹车灯在雾中反射造成视觉干扰，存在误判制动距离的风险。",
+      "risk_tags": [
+        "heavy_fog",
+        "low_visibility",
+        "brake_light_reflection"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】大雾持续，局部区域出现微弱逆光眩光。【自车】在中间车道减速至停车线前，准备等待红灯。【左侧人行横道】一名行人（男性，深色外套，戴帽）从左向右横穿马路，步态稳定，面部朝向前方，无明显停顿或观望动作。【右侧】一辆银色SUV（雪佛兰Suburban）停在右转车道，尾灯亮起，未移动。【交通设施】前方红灯保持亮起，右侧路口绿灯已切换，提示可右转。【关键风险】行人横穿时未观察自车方向，且因雾气遮挡，自车驾驶员对行人位置判断延迟，存在碰撞风险；同时右侧SUV可能在绿灯后突然启动，构成切出风险。",
+      "risk_tags": [
+        "pedestrian_crossing",
+        "delayed_perception",
+        "cut_out_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:11-00:00:19",
+      "scene_description": "【环境】雾层略有稀薄，但仍影响视线，路灯与车灯仍呈弥散状。【自车】保持静止，等待红灯结束。【左侧】行人已完全通过人行横道，正走向左侧路边建筑。【右侧】银色SUV仍停在原位，未启动；远处可见一辆大型白色货车（印有“CAPITOL”字样）正在路口右转，其转向灯未亮，但车身已开始偏转。【交通设施】前方红灯持续，右侧绿灯亮起，指示允许直行和右转。【关键风险】大型货车在未打转向灯情况下开始右转，属于“违规变道”行为，可能切入自车所在车道；同时，因雾气导致货车轮廓模糊，自车驾驶员难以预判其轨迹，存在“鬼探头”与“强行切入”的复合风险。",
+      "risk_tags": [
+        "unmarked_turn",
+        "ghost_probe",
+        "large_vehicle_cut_in",
+        "fog_obstruction"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 19.1,
+    "analysis_time": "2026-01-23 05:38:07"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，少量云层，光照充足，无异常天气。【自车】在中间车道匀速沿道行驶，未进行转向或变道。【前方】一辆红色踏板摩托车（骑手戴头盔，穿黑色背心）位于自车正前方，与自车保持约5米距离，同向行驶。【右侧】路边停放多辆汽车，包括一辆灰色保时捷敞篷跑车和一辆深色大众高尔夫，均静止。【交通设施】前方路口交通信号灯为红灯，车辆在停止线前等待。【关键风险】摩托车在红灯前未完全停车，处于“半停”状态，存在闯红灯或突然启动的风险；同时其位置紧贴自车车道，若突然加速可能引发追尾或紧急避让。",
+      "risk_tags": [
+        "potential_red_light_violation",
+        "close_proximity_risk",
+        "front_vehicle_unstable_stopping"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】晴朗，阳光直射，部分区域出现树影遮挡。【自车】在中间车道匀速沿道行驶，通过路口。【前方】红灯转绿，摩托车启动并加速驶离，自车跟随其后。【左侧】对向车道有银色轿车驶过，未进入自车所在车道。【右侧】路口处可见行人正在过街，其中一人推婴儿车，面部朝向前方，动作平稳；另有一名骑电动滑板车的行人从右侧人行横道切入，与自车同向但速度较慢。【交通设施】路口信号灯为绿灯，指示通行；路旁设有“禁止左转”标志牌及自行车道标线。【关键风险】右侧行人推婴儿车横穿马路，虽在斑马线上，但因自车速度较快，需注意避让；电动滑板车骑行者未在非机动车道内，存在侵入机动车道风险。",
+      "risk_tags": [
+        "pedestrian_crossing_with_baby_stroller",
+        "non_motorized_vehicle_in_traffic_lane",
+        "speed_control_required"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】晴天，道路两侧树木茂密，部分区域有阴影。【自车】在中间车道匀速沿道行驶，未进行转向或变道。【左侧】对向车道有黑色奥迪旅行车驶过，车身宽大，无异常行为。【右侧】路边停放多辆汽车，包括一辆米黄色面包车和一辆银色小型车，均静止。【交通设施】前方为十字路口，设有“自动泊车区”标识牌（Autowartung Parken hier lassen），提示该区域允许临时停车。【非标物体】路边咖啡馆外有数名顾客坐在户外桌椅上，部分人面向街道，无明显移动意图。【关键风险】右侧面包车停靠位置靠近人行道，存在“开门杀”风险；同时，路边座椅区域有行人活动，若自车减速或停车，需警惕突然开启的车门。",
+      "risk_tags": [
+        "door_opening_hazard",
+        "pedestrian_activity_near_parking",
+        "parking_space_obstruction_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】晴天，阳光充足，视野开阔。【自车】在中间车道匀速沿道行驶，道路两侧树木成排，绿化良好。【左侧】对向车道有黑色轿车和银色SUV依次驶过，均正常行驶。【右侧】路边停放多辆汽车，包括一辆黑色Mini Cooper和一辆银色Smart，均静止。【交通设施】路边设有“P”字停车标志牌，指示允许停车区域。【非标物体】右侧人行道上停放多辆自行车，部分自行车倚靠在建筑物墙边，无明显移动趋势。【关键风险】自行车停放位置靠近人行道边缘，若自车在转弯或减速时未注意，可能发生剐蹭；此外，部分自行车未锁固定，存在被偷窃或意外倾倒的风险，可能影响行人通行。",
+      "risk_tags": [
+        "bicycle_parking_obstruction",
+        "potential_theft_or_accidental_tipping",
+        "low_risk_environment"
+      ]
+    }
+  ]
+}

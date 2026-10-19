@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.51,
+    "analysis_time": "2026-01-22 04:19:01"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，天空灰暗，无明显降水，路面干燥但略显湿滑反光。【自车】在中间车道匀速沿直道行驶，未见明显加速或减速。【右侧】人行道上停放两辆共享电动滑板车，一名戴帽行人站立于车旁，面向自车方向，双手插兜，无移动意图。【左侧】路边停放多辆皮卡与SUV，部分车辆停在带顶棚的租赁仓前。【交通设施】道路两侧分布多个橙色锥桶，部分倒伏于人行道边缘，未形成有效围挡。【关键风险】锥桶倒伏可能造成路肩障碍，需注意避让；行人静止但位于非安全区域（靠近车道），存在潜在横穿风险。",
+      "risk_tags": [
+        "obstacle_cone",
+        "pedestrian_in_hazard_zone"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】持续阴天，能见度良好，无强逆光或雾障。【自车】保持中间车道匀速前进，通过双黄线分隔路段。【前方】出现铁路道口标志（X形交叉标记）及“RAILROAD CROSSING”警示牌，道口栏杆尚未落下。【左侧】对向车道驶来一辆深灰色轿车，正常通行；随后一辆红色皮卡从左转车道切入直行车道，完成变道后继续前行。【右侧】可见高耸烟囱及工业建筑群，其中一栋外墙覆盖白色防护网。【交通设施】道口附近设有“SPEED LIMIT 35”限速牌，地面标有“R R”铁路交叉标识。【关键风险】红色皮卡违规从左转车道强行切入直行车道，存在加塞行为（Aggressive Cut-in），虽未影响自车当前轨迹，但构成潜在冲突源。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "railroad_crossing",
+        "speed_limit_sign"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】天气无变化，光线均匀，视野开阔。【自车】在中间车道匀速接近铁路道口，前方信号灯为绿灯，道口栏杆仍处于升起状态。【左侧】一辆红黑涂装皮卡正从左转车道驶出，完成转弯动作后驶离画面。【右侧】铁路道口旁设有一块“ONE WAY”单行指示牌，后方停有一辆白色奥迪轿车，车身静止，未进入道口区域。【交通设施】铁路道口上方设有电气化铁路接触网结构，道口两侧立柱安装有闪烁警示灯和鸣笛提示装置。【非标准物体】道口右侧施工区域内可见一台橙色挖掘机静止停放，未作业，周围有临时围挡和“CONSTRUCTION AHEAD”警示牌。【关键风险】铁路道口虽当前无障碍，但前方信号灯即将变红，若自车未及时减速，可能面临闯红灯或误入道口的风险；同时，右侧施工区存在重型机械静止占用边道，若自车偏离车道可能引发碰撞。",
+      "risk_tags": [
+        "railroad_crossing_risk",
+        "construction_vehicle_static",
+        "signal_light_transition"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.8,
+    "analysis_time": "2026-01-23 22:59:23"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，云层厚重，光线昏暗，无明显降水但路面湿滑。【自车】在中间车道匀速沿直道前行，未进行转向或变道。【左侧】一座白色老式建筑（标有“LUCOY”字样）沿路延伸，前方设有金属护栏与红白相间施工围挡。【右侧】USOA大楼（深灰色金属立面）旁有施工区域，可见橙色锥桶、临时围栏及一名穿橙色高能见度背心的工人站立于坡道上。【交通设施】道路标线清晰，包含人行横道与导向箭头；远处可见限速30标志牌。【关键风险】右侧施工区域存在未完全隔离的作业区，工人靠近车道边缘，存在被车辆误撞风险；同时，施工围挡部分倾斜，可能影响通行宽度。",
+      "risk_tags": [
+        "construction_zone_risk",
+        "worker_near_road_edge",
+        "obstacle_partial_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】天空仍阴沉，无降雨，能见度良好。【自车】保持中间车道匀速行驶，轻微向右微调方向以避让右侧施工障碍物。【右侧】USOA大楼旁停放一辆黑色轿车，其后方排列多个大型垃圾箱（绿色、黄色、棕色），其中黄色箱体上有“173”编号。【前方】出现一辆白色货车，车门打开，两名工人正在装卸物料，位于路边临时作业区。【非标物体】货车后方地面散落木板、塑料布等施工材料，未设警示标识。【关键风险】货车停靠位置侵占部分行车道，且工人活动区域紧邻车道，存在“开门杀”或突发移动风险；散落材料未清理，构成路面障碍物隐患。",
+      "risk_tags": [
+        "vehicle_parking_in_lane",
+        "unsecured_construction_debris",
+        "worker_activity_near_traffic"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】阴天持续，无降水，光照均匀。【自车】继续在中间车道匀速前进，未发生转向或紧急制动。【右侧】白色货车已驶离，但新出现一辆白色厢式货车（车身印有“HERJ”及“CONSERVACIÓN Y MANTENIMIENTO ELÉCTRICO”字样），车门敞开，两名工人在车尾搬运设备。【左侧】红色非机动车道与主路分隔，远处可见高压电塔群和工业设施轮廓。【交通设施】道路右侧新增红白条纹警示带与白色塑料路障，用于引导车流绕行施工区。【关键风险】白色厢式货车停靠位置仍处于车道内，虽未完全阻断车道，但占用有效通行空间；工人在车旁活动，若突然转身或移动，易引发碰撞事故。",
+      "risk_tags": [
+        "partial_lane_blockage",
+        "worker_in_close_proximity_to_vehicle",
+        "incomplete_traffic_isolation"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:20",
+      "scene_description": "【环境】天气无变化，能见度稳定。【自车】保持中间车道匀速行驶，通过前方路口时略有减速。【右侧】白色厢式货车已驶离，后续出现多辆私家车（包括银色SUV、灰色轿车）依次停靠于路边，部分车辆开启双闪灯。【左侧】工业围墙后可见高压输电塔与厂区结构，远处山体轮廓隐约可见，山顶有薄雾覆盖。【交通设施】道路中央设置可移动式黄色警示柱，前方为红绿灯控制路口，当前信号灯为绿灯。【关键风险】右侧多车密集停靠，形成“临时停车带”，导致车道有效宽度缩减；部分车辆未按规定停入指定区域，存在违规停车与潜在剐蹭风险；前方路口无行人过街设施，若遇突发横穿行为将难以应对。",
+      "risk_tags": [
+        "dense_parked_vehicles",
+        "reduced_lane_width",
+        "lack_of_pedestrian_infrastructure"
+      ]
+    }
+  ]
+}

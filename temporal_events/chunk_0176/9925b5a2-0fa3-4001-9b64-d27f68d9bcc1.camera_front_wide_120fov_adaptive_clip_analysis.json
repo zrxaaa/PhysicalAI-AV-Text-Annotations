@@ -1,0 +1,37 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 9.37,
+    "analysis_time": "2026-01-24 06:40:16"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】夜间无路灯，仅靠车灯照明，能见度受限。路面干燥，无明显积水或结冰。【自车】在中间车道匀速沿直道行驶，未进行转向或变道。【交通设施】道路两侧设有白色护栏与反光路桩，左侧为连续护栏，右侧为间隔路桩。【关键风险】无显著障碍物或违规行为，但因夜间光照不足，存在潜在视线盲区风险。",
+      "risk_tags": [
+        "low_visibility",
+        "no_immediate_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:06-00:00:12",
+      "scene_description": "【环境】持续夜间驾驶，车灯照射范围稳定，无天气突变。【自车】保持在中间车道匀速行驶，随前方道路轻微左弯而自然调整方向，未发生主动转向。【交通设施】左侧护栏持续延伸，右侧出现蓝色指示牌（内容模糊），提示前方为弯道或出口。【非标物体】无动物、施工车辆或遗撒物出现。【关键风险】右侧路肩草地边缘有微弱反光，疑似湿土或低矮植被，但未构成直接威胁。",
+      "risk_tags": [
+        "no_immediate_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】夜间驾驶，道路进入右转弯道，车灯照射范围随弯道向右扩展。【自车】在中间车道执行右转动作，车头偏航角逐渐增大，轨迹贴合道路曲率。【交通设施】右侧出现白色行人过街标志牌及弯道警示牌，提示前方为急弯。【周围参与者】无其他车辆或行人出现在视野内。【关键风险】弯道处路肩较窄，且右侧无护栏，若自车偏离车道线可能冲出路面；同时，车灯照射范围外区域黑暗，存在“鬼探头”潜在风险，但当前无实体遮挡物。",
+      "risk_tags": [
+        "curve_driving_risk",
+        "limited_visual_coverage",
+        "no_obstacle_encounter"
+      ]
+    }
+  ]
+}

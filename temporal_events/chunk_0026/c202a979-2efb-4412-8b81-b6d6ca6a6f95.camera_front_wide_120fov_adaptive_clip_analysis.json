@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 08:31:41",
+    "processing_time_seconds": 17.76
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车在晴朗天气下沿多车道道路直行，前方有一辆深色轿车和一辆白色SUV，右侧路边出现Quality Inn酒店招牌，路面标有“CLEAR KEEP”字样提示保持车道畅通。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "车辆继续直行，经过Motel 6酒店建筑，左侧出现住宅区与树木，右侧车道有绿色自行车道标识，前方白色SUV保持匀速行驶，未发生变道或超车行为。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "接近十字路口，路面再次出现“CLEAR KEEP”标记，右侧出现Enterprise租车公司停车场及多辆停放车辆，前方白色SUV减速准备右转，自车维持当前车道并跟随其后。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "自车继续沿直行车道前进，右侧出现加油站（Pride Gas）及多辆停靠的货车，前方白色SUV完成右转后驶离视野，自车无加速或变道动作，保持稳定跟车状态。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "道路两侧出现棕榈树与低矮商业建筑，右侧车道有绿色自行车专用道标识，前方无显著障碍物或交通参与者，自车持续匀速直行，未见行人或其他车辆突然介入。"
+    }
+  ]
+}

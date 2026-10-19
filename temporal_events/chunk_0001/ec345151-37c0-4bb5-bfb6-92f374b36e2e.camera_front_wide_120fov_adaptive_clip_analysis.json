@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:05:33",
+    "processing_time_seconds": 11.41
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在多车道山路上匀速行驶，左侧对向车道有红色轿车、灰色皮卡和黑色SUV依次驶过，右侧为岩石护坡，天气阴沉，路面干燥无积水。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "车辆继续沿弯道前行，对向车道出现白色轿车、银色皮卡及深色SUV，部分车辆完成超车动作，自车保持当前车道未变道，道路两侧植被茂密，无明显交通标志或信号。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "前方对向车道可见白色SUV、黑色越野车及白色厢式货车相继通过，自车维持稳定速度，未进行转向或加速操作，道路右侧岩壁与左侧绿化带形成明显地形对比。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "对向车道最后几辆车（蓝色小型车、深色SUV）陆续驶离视野，自车继续沿缓弯路段前进，道路逐渐趋于直行，远处可见少量树木与低矮山丘，整体环境安静无行人或其他突发交通参与者。"
+    }
+  ]
+}

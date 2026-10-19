@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.52,
+    "analysis_time": "2026-01-23 11:17:45"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】夜间浓雾天气，能见度极低，路灯灯光被雾气散射形成强光晕，路面湿滑反光。【自车】在中间车道匀速沿直道行驶，未进行转向或变道。【左侧】路边停放多辆汽车（含白色、银色、红色小型车），部分车辆车身有广告涂装；其中一辆银色轿车从停车区缓慢驶入行车道，向右前方切入，但未打转向灯。【交通设施】道路两侧可见路牌、公交站台及交通信号灯杆，但因雾气遮挡，远处标识模糊不清。【关键风险】左侧银色轿车无预警切入，存在“违规加塞”风险，可能迫使自车紧急避让。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "low_visibility",
+        "unpredictable_vehicle_motion"
+      ]
+    },
+    {
+      "time_segment": "00:00:06-00:00:11",
+      "scene_description": "【环境】持续浓雾，路灯亮度增强但穿透力弱，视野仍受限。【自车】接近十字路口，减速并准备左转，车头偏航角向左调整约15度。【右侧】路口处设有红绿灯及禁停标志牌，右侧建筑外墙有黄色“禁止右转”圆形标牌。【左侧】对向车道无明显车辆通行，但远处有模糊车灯轮廓。【交通设施】前方为T字路口，交通信号灯显示为红灯，自车在停止线前安全停车。【关键风险】因雾气导致信号灯辨识困难，需依赖预设路径决策；路口左侧存在潜在“鬼探头”区域（树木与围墙遮挡），行人或非机动车可能突然出现。",
+      "risk_tags": [
+        "signal_obscuration",
+        "intersection_hazard",
+        "occlusion_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:11-00:00:19",
+      "scene_description": "【环境】雾气略有消散，但仍影响视线，路灯照明范围扩大。【自车】完成左转后进入新路段，保持中间车道匀速行驶。【右侧】路边有低矮围栏、灌木丛及若干商业招牌（如“HELENE FISCHER”广告牌），部分建筑物窗户透出暖光。【左侧】偶有静止车辆停靠，无动态目标靠近。【交通设施】道路两侧设置多个指示牌和凸面镜，用于辅助转弯视线。【关键风险】虽无直接冲突，但因长期低能见度，驾驶员注意力易疲劳；右侧商铺门口有不明物体（疑似垃圾箱）临时放置，存在轻微障碍物风险，需规避距离约8米。",
+      "risk_tags": [
+        "driver_fatigue_risk",
+        "obstacle_on_sidewalk",
+        "reduced_visual_acuity"
+      ]
+    }
+  ]
+}

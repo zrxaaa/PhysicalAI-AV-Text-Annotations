@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 02:42:11",
+    "processing_time_seconds": 11.04
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车在湿滑的双车道公路上直行，前方路口有车辆从左侧驶入并右转，右侧路边积雪覆盖，天空阴沉，能见度较低。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "自车完成路口转弯后进入弯道，道路两侧积雪明显，右侧树木密集，前方出现一辆迎面驶来的白色轿车，两车在弯道中保持安全距离错开行驶。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "自车继续沿弯曲道路直行，道路两侧为雪地与光秃树林，无其他车辆或行人干扰，路面湿滑但无明显障碍物，自车保持稳定匀速前进。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "前方道路趋于笔直，两侧雪地与稀疏树木延伸至视野尽头，未见其他交通参与者，自车持续平稳行驶，未进行转向或变速操作。"
+    },
+    {
+      "time_segment": "00:00:19-00:00:20",
+      "scene_description": "自车接近一个小型交叉路口，路旁设有黄色警示标志，但无车辆或行人出现，环境安静，天气仍阴冷，路面湿滑状况持续。"
+    }
+  ]
+}

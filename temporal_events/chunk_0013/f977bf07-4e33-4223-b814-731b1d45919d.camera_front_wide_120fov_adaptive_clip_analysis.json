@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 03:43:41",
+    "processing_time_seconds": 13.45
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在多车道城市道路上匀速行驶，左侧车道有白色SUV和蓝色皮卡快速驶过，前方红色轿车保持同速行驶，道路两侧有树木和商铺，天空多云但光线充足。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "车辆接近十字路口，交通信号灯为绿灯，前方红色轿车平稳通过交叉口，右侧人行道上有行人正在行走，一辆白色皮卡从对向车道左转进入支路，未与自车发生冲突。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "通过交叉口后，自车继续沿直道行驶，前方红色轿车保持中等速度，左侧车道有一辆灰色越野车超车并驶入对向车道，右侧出现限速20英里标志牌，路边有低矮围栏和住宅区入口。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "道路进入居民区，两侧出现学校围栏和儿童游乐设施标识，自车跟随红色轿车缓慢前行，前方无显著障碍物，右侧有木质围栏和私人住宅，无行人或突发交通行为。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车继续沿直线道路行驶，前方红色轿车在弯道前减速，道路两侧树木稀疏，视野开阔，无其他车辆或行人干扰，环境安静，天气稳定，路面干燥。"
+    }
+  ]
+}

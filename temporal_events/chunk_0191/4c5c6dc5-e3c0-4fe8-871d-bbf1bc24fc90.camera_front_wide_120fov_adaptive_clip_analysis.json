@@ -1,0 +1,44 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.45,
+    "analysis_time": "2026-01-24 11:53:19"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间城市高速路段，路灯照明充足，天空无云但略带薄雾，能见度良好。【自车】位于最右侧车道（靠近路肩），保持匀速沿道行驶。【左侧邻车道】多辆白色SUV与轿车快速驶过，其中一辆白色SUV在00:00:02从左前侧切入自车所在车道，未打转向灯，属于违规变道行为。【交通设施】前方高架桥下设有绿色高速公路指示牌，标示“Rochester 63 St”、“Queens Blvd”、“Woodhaven Blvd”，方向清晰。【关键风险】左侧车辆突然切线，存在“Aggressive Cut-in”风险，迫使自车紧急调整轨迹以避让。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "lane_change_violation"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】自车驶离高架匝道，进入城市主干道，道路两侧出现商业建筑与加油站，灯光密集。【自车】保持中间车道行驶，速度略有下降，因前方车流密集。【右侧】出现7-Eleven便利店及BP加油站，有数辆汽车停靠或缓慢驶入。【左侧】对向车道车流稳定，无明显异常。【交通设施】路边广告牌显示“TUC DOORS”、“CREDIT UNION”等商业标识，无施工或障碍物。【关键风险】无显著风险，但右侧加油站入口处有行人活动，存在“开门杀”潜在风险，需注意后视镜盲区。",
+      "risk_tags": [
+        "potential_open_door_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】城市街道夜景，高层住宅楼林立，部分窗户亮灯；路灯间距均匀，无遮挡。【自车】继续在中间车道匀速前行，前方为排队缓行的车流。【右前方】一辆白色本田CR-V在自车右前方车道行驶，尾灯常亮，表明处于低速跟车状态。【右侧人行道】可见数名行人站立于Dunkin' Donuts店门口，面向街道，部分人低头看手机，无横穿马路意图。【交通设施】道路右侧连续分布多个商铺，包括“Dunkin’ Donuts”、“TUC DOORS”、“Credit Union”，无施工围挡或锥桶。【关键风险】无直接碰撞风险，但右侧店铺门前行人聚集，若发生突发状况（如车辆失控）可能引发次生事故。",
+      "risk_tags": [
+        "pedestrian_concentration",
+        "low_speed_traffic"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】道路仍为城市主干道，两侧建筑密度高，夜间光照稳定。【自车】维持当前车道，随车流缓慢加速，前方车辆开始逐步解堵。【左侧】对向车道有一辆蓝色货车正在超车，车身较长，占用部分对向车道。【右侧】一辆白色厢式货车停靠在“TUC DOORS”店前，车门关闭，无人员活动。【交通设施】远处可见绿色高速公路指示牌再次出现，提示“EXIT 19”，表明即将进入下一个出口区域。【关键风险】左侧货车超车动作幅度大，存在“切出”风险；右侧停车货车虽静止，但其位置紧贴车道边缘，若自车变道需谨慎评估横向空间。",
+      "risk_tags": [
+        "large_vehicle_overtake",
+        "narrow_lane_clearance"
+      ]
+    }
+  ]
+}

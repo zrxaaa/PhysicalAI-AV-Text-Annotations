@@ -1,0 +1,37 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 03:16:19",
+    "processing_time_seconds": 12.41
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:02",
+      "scene_description": "夜间行车，车辆在十字路口停车等待红灯，前方交通信号灯为红色，右侧有带左转箭头的指示牌，左侧路边停有数辆房车。",
+      "additional_notes": "自车保持静止，未发生转向或移动，环境光线来自路灯，路面干燥无明显障碍物。"
+    },
+    {
+      "time_segment": "00:00:02-00:00:08",
+      "scene_description": "绿灯亮起，自车启动向前行驶，进入直行车道，左侧路边可见多辆停放的房车和小型货车，右侧为绿化带与低矮建筑。",
+      "additional_notes": "车辆平稳加速，未见其他车辆突然变道或行人横穿，道路标线清晰，限速35标识出现在路面上。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "自车持续沿主干道直行，道路两侧出现更多停放车辆，包括轿车、皮卡及房车，部分车辆从右侧车道驶入或驶离，但未影响自车路径。",
+      "additional_notes": "路灯照明均匀，能见度良好，无明显天气影响，车道分隔线清晰，未见行人或其他动态障碍物。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "接近下一个交叉口，路面出现“PED”字样标记的行人过街区域，自车减速准备通过，右侧路边有车辆缓慢驶出停车位，左侧有公交车停靠。",
+      "additional_notes": "无行人出现在视野内，自车保持安全距离，未进行变道或紧急制动，整体交通流平稳有序。"
+    },
+    {
+      "time_segment": "00:00:19-00:00:20",
+      "scene_description": "自车继续沿直线车道行驶，即将通过人行横道区域，前方无显著障碍物或突发行为，道路两侧车辆均处于静止或缓慢移动状态。",
+      "additional_notes": "视频结束前，自车仍保持匀速前进，未发生任何转向或刹车动作，场景稳定，符合夜间常规驾驶条件。"
+    }
+  ]
+}

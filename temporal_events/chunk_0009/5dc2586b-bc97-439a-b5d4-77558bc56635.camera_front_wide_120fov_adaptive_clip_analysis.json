@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 02:38:04",
+    "processing_time_seconds": 11.28
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "夜间行车，自车沿双向两车道道路直行，左侧路边停放多辆汽车，右侧一辆蓝色轿车从后方快速超越并驶离，未与自车发生路径冲突。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "车辆接近一个左转弯道，右侧路边停满车辆，包括红色皮卡和黑色SUV，自车保持原速平稳通过弯道，无明显减速或变道行为。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:13",
+      "scene_description": "自车驶过高架桥下方，路面出现‘XING’人行横道标识，前方有黄色菱形行人警示牌，但无行人出现，自车未减速，保持直线行驶。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "通过人行横道区域后，前方道路出现白色虚线分隔的车道及三角形减速标线，自车继续直行，右侧路边有白色轿车驶入停车区，未影响自车路径。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车进入下一段住宅区街道，两侧树木和建筑密集，前方有一辆白色轿车在右侧行驶并逐渐远离，自车维持当前车道匀速前进，无紧急避让或转向动作。"
+    }
+  ]
+}

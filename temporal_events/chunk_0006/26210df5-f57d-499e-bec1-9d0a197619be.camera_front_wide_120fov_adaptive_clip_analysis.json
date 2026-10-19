@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 01:09:51",
+    "processing_time_seconds": 14.95
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车在十字路口等待，前方有黄色出租车和白色SUV，右侧人行道有行人正在过街，左侧建筑有脚手架。信号灯为绿灯，车辆准备通行。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:07",
+      "scene_description": "信号灯转为黄灯，自车及前方车辆减速停车，右侧一辆白色Verizon工程车停靠路边，一名穿西装男子从车旁走过，同时左侧有公交车驶入画面。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "自车在红灯前保持静止，右侧施工围栏后有工人推车行走，前方黄色公交车停在斑马线前，左侧有另一辆蓝色公交车驶过，行人开始穿越马路。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "信号灯变绿，自车向前行驶，左侧蓝色公交车完成超车并驶离，右侧停靠的白色货车打开后门，一名工作人员正搬运货物，行人继续在人行横道活动。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车继续沿街道直行，前方出现一辆红色皮卡和一辆FedEx货运卡车，卡车后门敞开，内部堆满包裹，自车与卡车并行一段距离后安全超越。"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 22:35:53",
+    "processing_time_seconds": 20.56
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车沿街道向前行驶，右侧路边停有多辆汽车，一名行人从右侧人行道走向街角。前方路口出现红色停车标志，一辆银色SUV和一辆绿色皮卡在路口右转，自车减速准备停车。",
+      "scene_description_2": "道路两侧为住宅建筑，电线杆和架空线密集，天气晴朗，阳光投射出清晰阴影，路面干燥无湿滑迹象。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "自车在路口停车等待，前方路口无其他车辆通行，左侧对向车道有白色轿车驶过。路牌显示“Moraga Ave”，自车保持静止状态，观察交通状况。",
+      "scene_description_2": "右侧人行道上可见少量绿植和蓝色垃圾桶，远处可见山丘轮廓，整体环境安静，无突发行人或车辆闯入行为。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:15",
+      "scene_description": "自车启动继续前行，右侧路边停放多辆私家车，包括黑色SUV和白色面包车。前方路口再次出现红色停车标志，自车在停止线前减速并暂停。",
+      "scene_description_2": "道路两侧房屋风格统一，部分带有阳台和车库门，树木分布均匀，光照条件稳定，未见明显遮挡或眩光影响视线。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "自车在第二个路口停车，前方无来车，右侧白色面包车已驶离。自车观察后方及左右路况，确认安全后缓慢起步通过路口。",
+      "scene_description_2": "路口处设有消防栓和橙色锥桶，但无施工活动。天空湛蓝，能见度高，自车保持低速谨慎通行，未发生任何碰撞或紧急避让行为。"
+    }
+  ]
+}

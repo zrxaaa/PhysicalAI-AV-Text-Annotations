@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 02:24:08",
+    "processing_time_seconds": 12.85
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车停在十字路口等待红灯，左侧人行横道有行人正在穿越，右侧路边有行人排队等候过街，前方交通信号灯为红色，远处可见高楼灯光。一辆黑色SUV从右车道驶入中间车道，与自车路径无冲突。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "信号灯转绿，自车开始向前行驶，同时左侧人行横道的行人加速通过，右侧人行道行人缓慢移动。一辆骑电动滑板车的人从左前方横穿马路，与自车路径交叉但保持安全距离。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车继续沿直道行驶，进入主干道，左侧出现一辆黄色出租车快速超车并驶离，右侧人行道有数名行人行走，部分靠近路边施工围栏。一辆白色货车从对向车道驶来，与自车保持平行行驶。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车保持匀速前进，道路两侧商店橱窗装饰明亮，右侧Macy's入口处人流密集，行人沿人行道有序移动。左侧车道有车辆并线，但未影响自车行驶路径，路面湿滑反射灯光。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车接近下一个路口，前方无明显障碍物，道路两侧店铺招牌清晰可见，包括Famous Footwear和Sephora。行人持续在人行道活动，无紧急行为或突发交互，自车平稳驶离当前路段。"
+    }
+  ]
+}

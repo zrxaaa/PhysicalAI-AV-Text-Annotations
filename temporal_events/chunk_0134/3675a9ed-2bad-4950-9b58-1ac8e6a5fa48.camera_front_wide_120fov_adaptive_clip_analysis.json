@@ -1,0 +1,50 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 27.4,
+    "analysis_time": "2026-01-23 15:00:16"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，天空布满厚重云层，光线昏暗；路面湿滑，有明显积水反光，雨滴附着于挡风玻璃导致视野轻微模糊。【自车】位于中间车道，匀速沿弯曲道路前行，未进行变道或转向。【周围车辆】左侧对向车道有一辆白色厢式货车快速驶过（相对位置：左前侧，距离<10米），随后一辆红色轿车从左侧超车并驶离；右侧路肩有橙色广告牌及稀疏枯树。【交通设施】道路右侧设有黄色“CARS”广告牌，无明显信号灯或标线异常。【关键风险】无显著风险，但因路面湿滑与视线模糊，存在潜在打滑或误判前方障碍物的风险。",
+      "risk_tags": [
+        "wet_road",
+        "reduced_visibility",
+        "no_aggressive_behavior"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】持续阴天，能见度中等偏低，部分区域出现局部强云阴影。【自车】保持在中间车道，随道路曲率平稳转弯，未急加速或制动。【周围车辆】前方一辆深色轿车在弯道内侧行驶，尾灯亮起；右侧路边可见多辆停放车辆及一栋黄色外墙建筑（疑似“Netto”超市），其招牌清晰可见。【交通设施】道路两侧设置路灯，右侧出现一个小型环岛入口标志（蓝色圆形箭头），提示即将进入环岛结构。【关键风险】无直接碰撞风险，但环岛入口处存在潜在的切入车辆（如右转车）可能突然出现，需注意盲区。",
+      "risk_tags": [
+        "curved_road_navigation",
+        "parked_vehicle_obstruction",
+        "potential_cut_in_from_right"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】光线进一步减弱，接近黄昏，云层低垂压迫感强；挡风玻璃水珠增多，影响视线。【自车】进入环岛区域，执行右转动作，车头偏航角由直行转为向右约45度，完成绕环岛中心行驶。【周围车辆】一辆绿色三轮货运车从右侧环岛出口驶出，正对自车方向，速度较慢；同时，左侧环岛内有黑色SUV正在绕行，未与自车发生冲突。【交通设施】环岛中央设绿化带，四周有多个交通标志：左侧为蓝色右转指示牌，右侧为红色倒三角让行标志。【关键风险】三轮车虽速度慢，但车身较窄且位置偏右，若自车转向角度过大可能产生刮蹭；此外，环岛内车辆因视线遮挡（树木+路灯杆）存在“鬼探头”隐患。",
+      "risk_tags": [
+        "roundabout_navigation",
+        "narrow_vehicle_crossing_risk",
+        "occlusion_by_lights_and_trees"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】持续阴沉天气，无明显降水，但空气湿度高，路面仍显湿润。【自车】完成环岛右转后，驶入直行支路，恢复匀速行驶。【周围车辆】前方远处有一辆黄色工程车停靠在路口左侧，车头朝向自车方向，但未移动；右侧人行道上一名行人背对镜头行走，身穿浅色外套，双手插兜，步态平稳，无横穿意图。【交通设施】路口设有红绿灯（当前显示红灯），左侧有加油站标识（黄色“Shell”标志），右侧为住宅区入口。【关键风险】红灯状态下自车应停车等待，但视频中自车未减速，存在闯红灯行为（Aggressive Driving）；同时，工程车虽静止，但其位置靠近交叉口，可能遮挡行人或非机动车通行路径，构成潜在“鬼探头”风险。",
+      "risk_tags": [
+        "red_light_violation",
+        "aggressive_driving",
+        "occlusion_by_static_vehicle",
+        "pedestrian_crossing_potential"
+      ]
+    }
+  ]
+}

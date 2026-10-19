@@ -1,0 +1,34 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.84,
+    "analysis_time": "2026-01-22 13:05:45"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，无明显降水，能见度良好，路面干燥。【自车】位于中间车道，匀速沿直道行驶。【右侧】一辆白色皮卡（Nissan Frontier）从右侧超车并切入自车前方车道，完成变道动作，未开启转向灯。【相对运动】该皮卡在00:00:02-00:00:04期间横向移动至自车右前方，速度略高于自车，随后稳定于前车位置。【关键风险】右侧车辆违规变道（未打灯），存在切出干扰风险，但未造成碰撞，属轻微交通博弈行为。",
+      "risk_tags": [
+        "illegal_lane_change",
+        "cut_in_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】阴天，光线均匀，无遮挡物。【自车】保持中间车道匀速行驶。【左侧】对向车道有车辆驶过，包括一辆银色SUV和一辆黑色皮卡，均正常行驶。【右侧】路边出现黄色‘PEDESTRIAN AHEAD’警示牌及‘SCHOOL SPEED LIMIT 20’限速标志，提示前方为学校区域。【交通设施】道路两侧为住宅区，绿化带完整，路灯杆分布均匀。【非标物体】无动物、施工车或遗撒物。【关键风险】无显著风险，但需注意限速标志与行人警示牌，预判可能的突然横穿行为。",
+      "comment": "此段为平稳行驶阶段，无紧急交互或危险事件，故不添加risk_tags。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】天空灰云密布，无降雨，光照较弱。【自车】维持中间车道匀速行驶。【左侧】对向车道有数辆汽车驶入画面，包括一辆深灰色SUV和一辆黑色皮卡，均按规行驶。【右侧】远处可见围栏后方为学校操场，有“SCHOOL”标识牌；近处路边停有红色SUV和灰色SUV。【交通设施】连续出现两个‘SCHOOL SPEED LIMIT 20’标志，强化限速提醒。【关键风险】无直接碰撞威胁，但因学校区域临近，存在潜在行人突然闯入道路的风险（如学生放学）。当前路段无行人出现，但应保持警惕，尤其注意路口及人行横道区域。",
+      "risk_tags": [
+        "school_zone_risk",
+        "pedestrian_potential"
+      ]
+    }
+  ]
+}

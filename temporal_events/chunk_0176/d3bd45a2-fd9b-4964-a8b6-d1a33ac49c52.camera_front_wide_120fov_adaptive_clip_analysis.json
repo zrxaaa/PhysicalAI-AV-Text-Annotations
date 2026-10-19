@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.56,
+    "analysis_time": "2026-01-24 06:31:14"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】阴天，局部强逆光导致挡风玻璃出现眩光。【自车】在中间车道匀速沿道行驶，未进行转向或变道。【右侧】路边停放多辆汽车（含SUV、轿车），部分车辆开启车门；一名行人从右侧人行道走向路中，但未进入人行横道。【交通设施】道路右侧设有自行车道标线，左侧为绿化带与人行道，无明显障碍物。【关键风险】右侧停车区域存在“开门杀”风险，尤其当后方有非机动车或行人经过时；行人未走斑马线，存在违规横穿可能。",
+      "risk_tags": [
+        "door_opening_risk",
+        "jaywalking",
+        "glare_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:06-00:00:12",
+      "scene_description": "【环境】光照条件改善，天空云层较薄，能见度良好。【自车】保持中间车道匀速前行，通过前方人行横道区域。【左侧】一名身穿红色外套的行人从左前方人行道走向斑马线，正横穿马路，面部朝向自车方向，步态平稳，无犹豫。【右侧】一名骑自行车者沿自行车道向前骑行，与自车同向，距离约15米。【交通设施】前方设有人行横道及蓝色行人过街标志牌，限速30km/h标识清晰可见。【关键风险】行人正在横穿斑马线，虽有信号灯提示，但其未观察自车动向，存在潜在碰撞风险；自行车者未靠右行驶，部分时段位于车道中央，增加交互复杂性。",
+      "risk_tags": [
+        "pedestrian_crossing",
+        "bicycle_lateral_positioning",
+        "lack_of_attention"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】晴朗，阳光照射下树影清晰，无遮挡。【自车】继续在中间车道匀速行驶，未减速。【右侧】公交站台区域出现多名行人，部分在候车，部分在行走；一辆红色踏板摩托车停在站台旁，驾驶员未佩戴头盔，身体前倾，疑似准备启动。【左侧】绿化带边缘有少量落叶堆积，无明显障碍物。【交通设施】道路右侧设有公交站牌及自行车道标识，前方路口有石砌围墙和交通指示杆。【关键风险】踏板摩托车驾驶员处于静止状态但姿态异常，可能突然启动，对自车形成切出风险；公交站台人群密集，存在“鬼探头”隐患；自车未提前减速，可能因突发启动而需紧急制动。",
+      "risk_tags": [
+        "motorcycle_sudden_start",
+        "ghost_probe_at_bus_stop",
+        "lack_of_preemptive_braking"
+      ]
+    }
+  ]
+}

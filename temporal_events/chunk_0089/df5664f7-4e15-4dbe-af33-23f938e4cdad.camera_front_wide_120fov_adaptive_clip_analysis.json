@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.97,
+    "analysis_time": "2026-01-22 19:57:20"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】晴朗多云，光线充足，无异常天气。【自车】位于中间车道，处于路口停车状态，等待行人过街。【行人】4名行人（2男2女，均携带背包）从左至右横穿人行横道，其中最左侧男性穿着蓝色外套，其余三人着深色衣物；所有行人均面向前方，步速均匀，无明显停顿或看手机行为。【交通设施】路口两侧设有红色“STOP ALL WAY”标志牌，左侧为“ONE WAY”单行指示牌，右侧为“Grinding St”与“Borden St”交叉路牌。【关键风险】一辆白色SUV从右侧快速驶入交叉口，未在停止线前完全停车，存在闯红灯或抢行风险；同时，其行驶路径与行人横穿路线重叠，构成潜在碰撞威胁。",
+      "risk_tags": [
+        "pedestrian_crossing_conflict",
+        "uncontrolled_vehicle_entry",
+        "stop_sign_violation"
+      ]
+    },
+    {
+      "time_segment": "00:00:06-00:00:10",
+      "scene_description": "【环境】天空云层较厚，但无降水迹象，光照稳定。【自车】完成停车等待后，启动并沿中间车道向前匀速行驶。【车辆交互】右侧一辆黑色皮卡（Ram品牌）从交叉口右转进入本向车道，完成切入动作；其车身宽度较大，切入时占据部分自车车道空间，但未发生碰撞。【道路结构】通过交叉口后，道路变为双向单车道，两侧建筑为典型纽约式砖砌公寓楼，带外置消防梯和空调外机。【非标物体】左侧人行道旁有金属脚手架，覆盖一栋建筑外墙，但未影响行车视线。【关键风险】黑色皮卡右转切入时未充分观察左侧来车，存在切出不安全风险；若自车速度稍快，可能因横向间距不足引发刮蹭。",
+      "risk_tags": [
+        "unsafe_cut_in",
+        "narrow_lane_clearance_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】城市街道，晴天，能见度良好，无遮挡物。【自车】保持中间车道匀速沿直道前行，道路两侧停满车辆，部分车位被占用。【周围车辆】左侧停放多辆私家车（含白色轿车、银色SUV），右侧有红色SUV缓慢驶离路边停车位，随后加速并入主道；远处可见一辆白色巴士在前方同向行驶，尾灯亮起，表明其正在减速或等待信号。【行人】左侧人行道偶有行人行走，最近一位穿深色短裤的男性正朝远离路口方向移动，无横穿意图。【交通设施】沿途可见多个“ONE WAY”及“STOP”标志，部分路段设有人行横道，但无实时信号灯控制。【关键风险】右侧红色SUV突然加速并入车道，其变道动作未打转向灯，且与自车横向距离小于2米，构成“鬼探头”式加塞风险；此外，前方巴士刹车频繁，提示该路段可能存在拥堵或临时障碍，需保持警惕。",
+      "risk_tags": [
+        "unannounced_lane_change",
+        "braking_pattern_indicates_congestion",
+        "potential_obstacle_in_front"
+      ]
+    }
+  ]
+}

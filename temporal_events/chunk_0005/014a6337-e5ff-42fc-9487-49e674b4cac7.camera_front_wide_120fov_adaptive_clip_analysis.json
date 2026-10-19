@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 01:01:51",
+    "processing_time_seconds": 13.25
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车沿街道平稳行驶，左侧停放多辆轿车与SUV，右侧为住宅楼与施工围栏。一辆白色SUV从右车道驶入中间车道并向前行驶，未与自车发生冲突。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "道路右侧出现大型施工区域，设有橙色路障和链式围栏，内有起重机与建材。前方一辆深色SUV在双黄线车道内行驶，自车保持跟车距离，未超车或变道。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "前方SUV减速并持续在车道内行驶，自车跟随其后。右侧施工区可见红色升降机臂伸出，但无工人活动。道路两侧树木无叶，天气晴朗，路面干燥。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "前方SUV在接近路口时刹车，尾灯亮起，自车同步减速并保持安全距离。路口信号灯未见明显变化，但车辆行为表明可能即将红灯。施工围栏上有涂鸦，无行人或其他动态障碍物出现。"
+    }
+  ]
+}

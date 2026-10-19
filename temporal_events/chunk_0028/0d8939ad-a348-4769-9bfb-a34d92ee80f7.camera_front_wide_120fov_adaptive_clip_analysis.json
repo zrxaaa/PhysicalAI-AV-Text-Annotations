@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 09:41:58",
+    "processing_time_seconds": 17.93
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "自车在右侧车道匀速行驶，左侧为混凝土隔离带，对向车道有多辆汽车通行，包括白色皮卡和红色SUV，天空阴沉但路面干燥，无明显障碍物或行人。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "车辆接近一个路口，右侧出现黄色菱形交通标志提示前方道路变窄，左侧对向车道车流密集，有白色皮卡、黑色SUV及一辆蓝色货车依次通过，自车保持直行未变道。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:16",
+      "scene_description": "前方出现两个黄色警告标志（弯道与人行横道），自车继续沿直道行驶，左侧车道有深色SUV和银色轿车加速超车，右侧高墙旁有少量植被，无行人或突发状况。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车驶近一个绿色高速公路指示牌下方，对向车道车流量略有减少，右侧高墙延伸至视野尽头，无新交通参与者出现，自车维持当前车道稳定行驶，未进行转向或变速操作。"
+    }
+  ]
+}

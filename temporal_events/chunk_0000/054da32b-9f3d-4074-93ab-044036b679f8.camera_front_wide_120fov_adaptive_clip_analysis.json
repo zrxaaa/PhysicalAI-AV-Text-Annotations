@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 22:23:38",
+    "processing_time_seconds": 16.05
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车在十字路口直行，前方一辆白色轿车从左侧车道加速超车并切入中间车道，右侧路边停有多辆汽车，天空阴沉但无雨，路面干燥。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:07",
+      "scene_description": "自车完成左转进入主干道，道路两侧出现多排停放车辆，部分对向车道有车辆驶来，路边树木枝叶稀疏，天色渐暗，路灯已亮起。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "自车沿双向两车道道路平稳直行，右侧连续停放多辆私家车，左侧偶有对向车辆驶过，道路标线清晰，无行人或突发障碍物。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "自车继续直行，道路两侧房屋与树木交替出现，对向车道车辆频繁经过，部分车辆在路边临时停靠，未见行人或交叉路口交通信号变化。"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.84,
+    "analysis_time": "2026-01-21 22:06:16"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间，无明显异常天气，路面干燥，路灯照明充足但存在眩光。【自车】在中间车道匀速沿直道行驶，车头朝向正前方。【左侧】一辆深色SUV从对向车道驶过，完成超车动作后回归原车道；【右侧】一辆白色SUV停靠在路边，车身部分进入行车道边缘，未移动。【交通设施】道路两侧设有垃圾桶和绿化带，路灯间距约30米，无信号灯或人行横道标识。【关键风险】右侧白色SUV停靠位置靠近行车道，存在“开门杀”潜在风险，但当前无行人活动，暂未触发高危交互。",
+      "risk_tags": [
+        "parked_vehicle_close_to_lane",
+        "potential_open_door_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】夜间，光照稳定，无降水或雾气。【自车】保持中间车道匀速行驶，随道路轻微左转弯曲。【右侧】一辆白色SUV从路边驶出并加速超越自车，完成切出动作；【左侧】远处有车辆灯光闪烁，但距离较远（>50米），无直接交互。【交通设施】道路右侧出现低矮围墙与灌木丛，左侧为住宅区前院，有少量照明。【关键风险】右侧白色SUV加速超车时未保持安全横向距离，存在轻微切入风险，但未影响自车路径，未构成紧急避让。",
+      "risk_tags": [
+        "cut_in_with_insufficient_clearance"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】夜间，道路进入一个T字路口区域，左侧有黄色菱形警示牌，路灯亮度略有下降。【自车】在中间车道减速准备右转，车头偏航角逐渐向右调整。【前方】一辆银色轿车在路口处临时停车，位于自车正前方约25米处，未启动；【右侧】路边停放多辆私家车，其中一辆黑色皮卡车身突出至路肩，形成局部障碍物。【非标物体】右侧皮卡旁有模糊人影晃动，疑似行人，但因光线不足无法确认面部朝向及肢体动作。【关键风险】自车即将进入转弯区域，前方静止车辆可能阻碍视线，且右侧皮卡侵占路权，存在“鬼探头”与碰撞风险；行人轮廓虽不清晰，但其位置处于自车转向轨迹的盲区，需高度警惕。",
+      "risk_tags": [
+        "ghost_probe_risk",
+        "obstruction_by_parked_vehicle",
+        "unclear_pedestrian_presence"
+      ]
+    }
+  ]
+}

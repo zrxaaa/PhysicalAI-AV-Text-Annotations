@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:55:35",
+    "processing_time_seconds": 16.11
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车沿双黄线道路直行，前方路口有红色STOP标志和人行横道，右侧银色SUV停靠路边，左侧白色面包车从对向车道驶过，天气晴朗，路面干燥无湿滑。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "自车接近十字路口，前方交通信号灯为红灯，车辆在停止线前停下，左侧建筑旁有“Elysian Brewery”标识，右侧“Public Storage”招牌清晰可见，行人未出现，车辆静止等待。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "绿灯亮起后自车启动前行，左侧停放多辆汽车，右侧树下有贴满海报的电线杆，一辆黑色SUV从右侧驶入画面并停于路边，自车保持中速平稳通过交叉口。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车继续沿街道行驶，前方出现红灯，右侧人行道上有行人行走，左侧有白色轿车驶离停车位，远处可见“Little Big Burger”店铺招牌，自车减速准备停车。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "红灯持续，自车在斑马线前完全停止，一名行人从左侧横穿马路，同时对向车道有黑色轿车驶过路口，右侧自行车道空置，环境安静，无其他车辆或行人干扰。"
+    }
+  ]
+}

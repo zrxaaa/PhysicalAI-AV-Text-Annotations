@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 03:10:53",
+    "processing_time_seconds": 13.21
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车沿居民区街道平稳行驶，右侧停放多辆汽车，包括一辆深色皮卡和白色轿车；左侧出现一辆灰色SUV从对向车道驶来，与自车在狭窄路段交错而过。道路两侧绿树成荫，天气晴朗，路面干燥无积水。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "前方出现一个标有“HUMP”的减速带，自车减速通过；右侧路边停有一辆红色电动SUV，左侧对向车道有蓝色小型车驶近并完成超车动作。道路两旁可见住宅、灌木及垃圾桶，无行人或突发障碍物。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "自车继续前行，经过一个黄色“SPEED HUMP”警示牌和限速25英里/小时标志，前方道路出现双向箭头标线引导车辆减速；左侧对向车道有银色越野车驶过，右侧停放多辆SUV与轿车，未见行人活动。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:20",
+      "scene_description": "自车接近下一个路口，前方出现人行横道标记，两侧停放车辆密集，包括一辆白色SUV和一辆黑色轿车；右侧路边有石墙围挡，无行人或动态障碍物，自车保持匀速通过该区域。"
+    }
+  ]
+}

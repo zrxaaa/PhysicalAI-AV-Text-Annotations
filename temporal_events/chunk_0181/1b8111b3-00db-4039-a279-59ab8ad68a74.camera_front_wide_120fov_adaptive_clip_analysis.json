@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 9.89,
+    "analysis_time": "2026-01-24 08:25:11"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】夜间无路灯，仅靠车灯照明，能见度受限。路面干燥但两侧有霜/雪覆盖，路肩植被结霜明显。【自车】位于中间车道，正通过一个三岔路口，执行向右转向动作（车头偏航角从正向前方逐渐向右调整）。【交通设施】路口设有多个交通标志牌（含让行标志、方向指示牌），左侧为护栏，右侧为灌木丛。【关键风险】路口无行人或车辆，但右侧灌木丛后存在视觉盲区，可能隐藏非机动车或动物；自车转向时需警惕未被车灯照亮的边缘区域。",
+      "risk_tags": [
+        "blind_spot_risk",
+        "night_driving",
+        "turning_at_intersection"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:12",
+      "scene_description": "【环境】继续夜间行驶，道路两侧为低矮灌木与护栏，无照明设施。【自车】完成右转后进入直道，保持匀速沿道路中心线行驶。【交通设施】右侧路边设有限速标志（圆形红圈内数字“30”）及让行三角牌，前方有连续白色虚线分隔车道。【周围参与者】无其他车辆或行人出现在50米范围内。【关键风险】道路右侧灌木丛密集，存在“鬼探头”潜在风险；左侧护栏外为开阔田野，视野空旷但缺乏参照物，易导致方向误判。",
+      "risk_tags": [
+        "ghost_probe_risk",
+        "low_visibility",
+        "lack_of_reference_points"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】持续夜间驾驶，车灯照射范围有限，远处可见零星城市灯光。【自车】在中间车道保持匀速直线行驶，道路轻微向左弯曲。【交通设施】道路两侧设置白色反光柱，间距均匀，用于界定车道边界。【周围参与者】无任何动态目标（车辆、行人、动物）出现在感知范围内。【关键风险】车灯照射距离约30-40米，超出此范围无法预判突发障碍物；路面无明显湿滑或结冰迹象，但霜冻覆盖可能导致轮胎附着力下降，需谨慎控制车速。",
+      "risk_tags": [
+        "limited_headlight_range",
+        "frost_on_road_surface",
+        "no_dynamic_agents"
+      ]
+    }
+  ]
+}

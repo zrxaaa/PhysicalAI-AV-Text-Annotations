@@ -1,0 +1,37 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.84,
+    "analysis_time": "2026-01-24 13:58:33"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "【环境】晴天，光照充足，无异常天气。【自车】位于中间车道，正通过十字路口，绿灯亮起后匀速前行。【左侧】一辆白色奔驰面包车从左转车道驶出，完成左转；其后方一辆深灰色SUV在直行车道内加速通过路口。【右侧】一辆白色小型巴士（车身印有“LADOT”标识）在右转车道等待，随后向右转弯离开路口。【交通设施】路口设有交通信号灯、人行横道及“3rd St”路牌；左侧可见“Feline Good Social Club”商铺，右侧为红砖建筑（疑似教堂或公共机构）。【关键风险】无明显违规行为或遮挡风险，但左侧SUV在绿灯时加速通过，存在轻微闯灯风险（未完全确认是否抢黄灯），需保持警惕。",
+      "risk_tags": [
+        "minor_light_violation",
+        "no_occlusion"
+      ]
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "【环境】阳光强烈，出现镜头眩光，部分区域产生光晕。【自车】继续沿中间车道行驶，进入直行街道，速度稳定。【左侧】可见“City Center Motel”招牌建筑，路边停放多辆轿车；右侧为低层商业与住宅混合建筑。【前方】远处可见一栋高层建筑（约20层），作为道路透视参照物。【交通设施】路口处有“Atlantic Ave”路牌，限速标志显示“SPEED LIMIT 30”。【非标物体】无特种车辆、动物或路面障碍物。【关键风险】强逆光导致部分视野受限，但未影响主要车道通行；无行人或非机动车突然出现迹象，整体风险较低。",
+      "risk_tags": [
+        "strong_sunlight",
+        "low_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】晴朗，光线稳定，无遮挡或异常天气。【自车】保持中间车道匀速行驶，随道路曲率自然前进，未进行变道或转向。【两侧】左侧为现代公寓式建筑，右侧为砖砌历史风格建筑群，部分带门廊和柱式结构；路边停放多辆私家车，包括蓝色皮卡、银色SUV等。【前方】远处仍可见高层建筑，作为视觉锚点。【交通设施】道路标线清晰，设有单行道指示牌（ONE WAY）及限速30标志。【关键风险】无车辆违规切入、无行人横穿、无施工或动物干扰；右侧停车车辆未形成明显遮挡，自车视野良好。整体为平稳城市街道驾驶场景。",
+      "risk_tags": [
+        "stable_driving",
+        "no_obstacles"
+      ]
+    }
+  ]
+}

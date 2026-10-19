@@ -1,0 +1,34 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.4,
+    "analysis_time": "2026-01-24 12:56:14"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，阳光强烈导致镜头眩光，部分路面反光。【自车】在中间车道匀速行驶，前方有排队车辆，处于缓行状态。【周围交通参与者】左侧邻车道有一辆深红色SUV，正从左向右缓慢变道；右侧为绿化带与高层住宅楼。【交通设施】路面上方出现“RIGHT LANE MUST TURN RIGHT”指示牌，提示右转专用车道。【关键风险】前方车辆密集，存在因前车急刹引发的连锁制动风险，但无明显违规行为。",
+      "risk_tags": [
+        "traffic_congestion",
+        "glare_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】光照条件稳定，天空云层较厚，无强逆光。【自车】在中间车道执行右转动作，车头偏航角逐渐增大，完成转向后进入右转专用道。【周围交通参与者】左前方一辆灰色轿车在直行车道内减速，疑似准备右转；对向车道有多辆汽车正常通行。【交通设施】通过路口时，上方悬挂“NE 207 ST”路牌，同时可见红绿灯信号（当前为绿灯）。【关键风险】自车右转过程中，左侧车道有车辆试图加速超车，存在切入风险，但未实际发生碰撞或违规。",
+      "risk_tags": [
+        "right_turn_conflict",
+        "lane_change_attempt"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】道路两侧绿化良好，棕榈树与灌木丛并存，天气晴朗，能见度高。【自车】完成右转后，进入一条双向两车道的林荫道，保持匀速沿直线车道前行。【周围交通参与者】道路两侧停放多辆私家车，部分车辆从路边驶出；前方约30米处有一白色轿车正在直行，未见异常行为。【交通设施】道路标线清晰，设有“ONLY”导向标志及人行横道提示牌；右侧有人行道与绿化隔离带，无行人活动迹象。【关键风险】无显著风险，未发现违规、遮挡或障碍物，场景平稳可控。",
+      "risk_tags": []
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 11:00:03",
+    "processing_time_seconds": 19.87
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "自车沿直道行驶，前方有多辆汽车在同向车道内行驶；右侧白色轿车在接近十字路口时加速并线至中间车道，未见转向灯，但车轮明显压过车道线；左侧对向车道有车辆驶来，交通信号灯为绿灯，道路两侧有绿化带和现代办公楼。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:11",
+      "scene_description": "自车在十字路口前减速，前方黑色SUV左转进入交叉路口，同时右侧多辆车辆在红灯前停止；交通信号灯由绿变黄再转红，自车保持原车道等待；一名骑自行车者从右侧人行横道通过，与自车路径无冲突。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:15",
+      "scene_description": "交通灯转绿后，自车继续沿直道行驶，前方黑色SUV完成左转后驶离路口；道路两侧树木高大，阳光照射形成明显阴影；左侧路边有行人行走，未进入车道，无交通交互风险。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "自车保持当前车道沿直线道路平稳行驶，前方车辆间距稳定，无变道或紧急制动行为；道路两侧有低矮建筑和商业设施，路面标线清晰，无显著弯道或转向动作，整体交通流顺畅。"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 07:43:29",
+    "processing_time_seconds": 13.46
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在高速主路中间车道匀速行驶，前方有一辆深色SUV在同车道前方行驶，左侧为分隔带和另一条行车道，右侧为高混凝土隔音墙，路边有棕榈树和松树，天气晴朗，路面干燥无湿滑迹象。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "车辆继续沿直线车道前进，左侧护栏外出现干草和低矮灌木，右侧隔音墙逐渐被绿植覆盖，前方路口交通信号灯由绿转黄，多辆汽车开始减速，自车保持当前速度未明显制动，准备停车。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "信号灯变红，自车在第一排停车等待，左侧对向车道有银色轿车驶过，右侧车道有车辆缓慢并入本车道，前方远处可见绿色高速公路指示牌，显示出口方向信息，环境光照充足，无遮挡物影响视线。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:20",
+      "scene_description": "自车在红灯前稳定停车，前方及两侧车道均有其他车辆静止等待，右侧绿化带后方出现住宅区轮廓，上方高架指示牌清晰显示Blossom Hill Rd、Cottle Road等出口距离，自车未移动，保持安全跟车距离。"
+    }
+  ]
+}

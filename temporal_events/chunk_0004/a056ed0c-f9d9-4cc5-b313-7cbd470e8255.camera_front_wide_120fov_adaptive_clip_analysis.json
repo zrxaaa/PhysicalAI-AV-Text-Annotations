@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 00:20:57",
+    "processing_time_seconds": 22.17
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在晴朗天气下接近一个四向交叉路口，前方及左侧设有红色STOP标志，右侧路边有消防栓和电线杆。自车减速并准备停车，路面标有左转与直行箭头。",
+      "scene_description_2": "道路两侧为住宅区，树木多为落叶树，部分枝干光秃，阳光充足，无遮挡物影响视线。自车未与其他车辆发生直接交互，但即将进入停车等待状态。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:10",
+      "scene_description": "自车完成停车后，在确认路口安全的情况下启动前行，通过十字路口后进入双向车道。右侧出现一个八角形让行标志，远处可见另一组交通标志牌。",
+      "scene_description_2": "道路两侧绿化良好，人行道清晰，无行人或非机动车出现在自车路径上。自车保持稳定速度行驶，未进行变道或超车操作。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "自车沿直线道路继续行驶，右侧出现限速25英里/小时标志牌和‘WEIGHT LIMIT 5 TONS’标识牌。对向车道有一辆深色SUV迎面驶来，已提前避让。",
+      "scene_description_2": "道路两旁分布着低矮灌木和裸露树枝的树木，部分房屋可见于视野边缘。自车未改变车道，保持在中间车道平稳前进，无紧急避让行为。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "自车在接近下一个路口前，对向车道一辆银灰色SUV从左侧超越自车，随后在前方路口右转离开。自车继续直行，未受干扰。",
+      "scene_description_2": "道路右侧出现邮箱和小型路牌，前方有黄色弯道警示标志。天气持续晴好，路面干燥，无积水或障碍物，自车维持当前行驶轨迹直至视频结束。"
+    }
+  ]
+}

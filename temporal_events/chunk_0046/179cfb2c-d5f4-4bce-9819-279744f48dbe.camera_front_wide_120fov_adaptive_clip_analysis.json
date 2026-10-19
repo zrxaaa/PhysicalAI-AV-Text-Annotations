@@ -1,0 +1,46 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.5,
+    "analysis_time": "2026-01-22 00:48:44"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，光照充足，无异常天气。【自车】位于中间车道，匀速沿直道前行。【左侧】一辆白色SUV从左转车道切入当前车道，未打转向灯，处于自车左前侧约8米处，运动状态为加速切入。【右侧】人行道上有行人行走，其中一人面向镜头方向，右手持手机，左手提包，正横穿斑马线。【交通设施】前方路口信号灯为绿灯，路牌显示“7th Ave N”与“Wall St”，交通流有序。【关键风险】左侧车辆存在违规加塞行为（Aggressive Cut-in），对自车横向安全构成威胁。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "crossing_pedestrian",
+        "signal_light_compliance"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】阳光直射，部分区域出现强光眩光。【自车】保持中间车道匀速行驶。【右侧】路边停放多辆私家车，包括一辆深绿色菲亚特和一辆白色送货面包车（车身印有“DOWNTOWN SPIRITS”字样），均处于静止状态。【左侧】人行道上有多名行人，其中一位穿浅色长裙的女性正朝向自车方向行走，步态平稳，无横穿意图。【交通设施】经过十字路口后，道路两侧绿化带茂密，右侧设有“END ROAD WORK”施工警示牌，但无实际施工活动。【关键风险】右侧停车车辆形成局部遮挡，可能影响对后方或侧方动态目标的感知，但当前无直接碰撞风险。",
+      "risk_tags": [
+        "parked_vehicle_obstruction",
+        "construction_sign_no_activity"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】城市核心区，高楼林立，部分建筑玻璃幕墙反射强光。【自车】在中间车道维持匀速前进。【前方】可见“LOYAL INN”酒店招牌及I-5高速公路指示牌，表明即将进入高速入口区域。【左侧】一辆银色SUV在左转车道等待，随后启动并驶入对向车道，完成变道动作。【右侧】一名身穿蓝色T恤、手持相机的男性行人站在公交站台旁，面朝自车方向，正在调整设备，未移动。【非标物体】路边有橙色施工警示牌，但无实际施工机械或人员活动。【关键风险】左侧车辆突然变道至对向车道，虽未直接影响自车，但增加了交叉冲突可能性，属于潜在博弈行为。",
+      "risk_tags": [
+        "lane_change_to_opposite_direction",
+        "pedestrian_with_camera_distraction"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】阳光仍强烈，部分树影投射于路面，形成明暗交替区域。【自车】保持中间车道匀速行驶，随道路曲线轻微调整方向。【前方】远处可见多栋高层建筑，包括一栋圆柱形塔楼。【左侧】树木繁茂，遮挡部分视野，但无行人或障碍物突现。【右侧】人行道上有两名行人并肩行走，均穿着深色衣物，步伐一致，无横穿迹象。【交通设施】前方设有黄色菱形“行人横穿”警告标志，提示前方为步行密集区。【关键风险】无明显高危行为，但强光与树影叠加可能导致视觉干扰，增加对突发行人或车辆的反应延迟风险。",
+      "risk_tags": [
+        "visual_interference_from_sunlight",
+        "pedestrian_crossing_warning_zone"
+      ]
+    }
+  ]
+}

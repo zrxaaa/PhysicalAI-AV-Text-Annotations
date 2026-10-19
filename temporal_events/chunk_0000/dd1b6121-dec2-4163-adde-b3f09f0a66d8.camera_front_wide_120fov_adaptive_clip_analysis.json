@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 22:42:38",
+    "processing_time_seconds": 17.72
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车沿陡峭上坡街道行驶，左侧停放多辆SUV，右侧为蓝色建筑与树木；前方出现白色货车停于坡顶，路面有‘STOP’字样，天气晴朗但云层较厚，光线充足。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:08",
+      "scene_description": "车辆接近十字路口，右侧出现红色八角形‘STOP’标志牌，前方道路横跨人行道，远处可见维多利亚式建筑；自车在坡顶减速，准备停车。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车在路口停车等待，左侧一辆黑色SUV从对向车道左转驶入交叉口，同时一辆银色小型车从右侧横向穿过人行横道；天空云层移动，阳光部分被遮挡。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车在停止线后保持静止，前方多辆汽车依次通过交叉口，包括一辆灰色轿车和一辆黑色轿车；右侧路边有黄色‘SPEED HUMPS AHEAD’警示牌，背景山丘住宅密集。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车启动继续前行，左侧一辆白色SUV从对向车道驶过并完成变道，右侧路边有消防栓和绿化带；道路恢复平稳，无显著障碍物或行人干扰。"
+    }
+  ]
+}

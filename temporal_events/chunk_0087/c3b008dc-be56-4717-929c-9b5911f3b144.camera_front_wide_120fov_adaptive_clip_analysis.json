@@ -1,0 +1,42 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.64,
+    "analysis_time": "2026-01-22 19:13:02"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间暴雨天气，路面严重积水，灯光反射形成强烈眩光，能见度显著降低。【自车】位于中间车道，沿道路线性减速，准备进入前方交叉路口。【左侧】可见一栋多层建筑及加油站（Mobil），其照明灯在雨雾中形成光晕。【右侧】砖砌住宅与围栏，树木因风雨摇曳。【交通设施】前方路口信号灯为红灯，但尚未触发自车停车动作。无明显行人或非标准车辆。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility",
+        "low_speed_maneuver"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】雨势未减，路面水膜持续反光，部分区域出现水坑。【自车】保持在中间车道，继续减速至停止线前，等待红灯。【左侧邻道】一辆银色轿车从左前方驶入交叉口，完成左转，车速较快，未见转向灯提示。【右侧】另一辆白色轿车从右后方切入直行车道，试图加速通过路口，存在压实线风险。【交通设施】前方多个交通信号灯显示为红灯，右侧加油站（Exxon）和手机维修店清晰可见，招牌灯光在湿滑路面上形成拖影。【关键风险】右侧白色轿车“Aggressive Cut-in”行为，可能引发碰撞；左侧银色轿车左转时未打灯，增加交互不确定性。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "un signaled_turn",
+        "wet_road_surface",
+        "high_reflection_lighting"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雨势略有缓和，但仍持续，路面水迹明显，部分区域积水较深。【自车】在停止线前静止等待，车头朝向正前方，未发生横向移动。【前方】交通信号灯仍为红灯，但右侧信号灯已转绿，允许直行车辆通行。【左侧】蓝色集装箱式仓库旁有“BUTTLERS”广告牌，无人员活动。【右侧】Exxon加油站内有数辆车正在加油，无异常行为。【非标物体】无动物、施工车辆或遗撒物。【关键风险】自车处于“鬼探头”高危区：右侧信号灯变绿后，若突然有行人或非机动车从加油站后方或遮挡物后冲出，将构成突发危险。当前虽无直接威胁，但环境遮挡（路灯杆、电线杆、大型车辆）导致视野受限，需高度警惕。",
+      "risk_tags": [
+        "potential_ghost_probe",
+        "limited_visual_field",
+        "traffic_light_phase_transition",
+        "stationary_vehicle_risk"
+      ]
+    }
+  ]
+}

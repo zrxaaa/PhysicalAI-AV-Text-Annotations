@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 20.68,
+    "analysis_time": "2026-01-22 18:53:55"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间，浓雾笼罩街道，能见度低，路灯灯光呈弥散光晕。【自车】在中间车道匀速沿道行驶，未变道。【左侧】一辆白色厢式货车（U-HAUL）停靠路边，车身侧面有“$19.95”广告字样；其后方为“BIG APPLE WELDING SUPPLY INC.”招牌建筑。【右侧】一辆大型冷藏货车（Melanie Santa Bremo品牌）停于路肩，车尾朝向自车，车身贴满彩色广告图案。【交通设施】道路两侧为工业厂房，卷帘门关闭，部分墙面有涂鸦。【关键风险】前方车辆刹车灯亮起，但因雾气遮挡，无法判断其制动原因；右侧冷藏车与左侧厢式货车形成狭窄通道，存在剐蹭风险。",
+      "risk_tags": [
+        "low_visibility",
+        "narrow_passage_risk",
+        "braking_uncertainty"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】雾气略有消散，但整体仍影响视线。【自车】保持中间车道匀速前行，轻微向右微调方向以避让右侧停放车辆。【左侧】一辆银色SUV（尾灯亮起）停于路边，车头朝向与自车同向；其后方可见“BIG APPLE”招牌建筑的卷帘门已关闭。【右侧】一辆白色轿车（尾灯亮）从右侧并入自车所在车道，未打转向灯，完成切入动作。【非标物体】右侧人行道上有一堆黑色垃圾袋，位于路灯杆旁，无行人活动。【关键风险】右侧车辆强行切线，未打灯，属于“Aggressive Cut-in”，迫使自车紧急减速规避，存在追尾或刮擦风险。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "emergency_braking",
+        "unmarked_obstacle"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】雾气持续，路灯照明增强，部分区域出现强光眩光。【自车】在中间车道继续匀速行驶，随道路曲线自然转弯。【左侧】一排红砖厂房，部分卷帘门开启，墙面上有涂鸦（如“KIDS”字样），一辆白色厢式货车（车身布满涂鸦）停于路边，车尾朝向自车。【右侧】一栋灰色工业楼，卷帘门紧闭，墙上有“FIVE BROOKLYN BREWING CO.”标识；其前方停放多辆私家车，包括一辆红色轿车。【交通设施】道路两侧设有多个街灯，间距约30米，但部分灯光被雾气削弱。【关键风险】左侧涂鸦货车车身占据部分车道空间，若自车稍偏则可能剐蹭；右侧红色轿车车门打开，疑似有人上下车，存在“开门杀”风险。",
+      "risk_tags": [
+        "narrow_road_space",
+        "door_opening_risk",
+        "visual_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】雾气进一步减弱，能见度提升至约50米。【自车】在中间车道加速通过交叉路口，车头朝向正前方。【左侧】一辆大型白色冷藏货车（Driscoll Foods品牌）正在左转驶离，车尾朝向自车，车身宽大，占用大部分路面。【右侧】一个十字路口，设有停车标志（STOP）和人行横道线，一辆深色SUV停在路口等待。【非标物体】路口处有数个木制托盘堆放在人行道边缘，无人员活动。【关键风险】自车需在狭窄空间内绕行左转货车，同时注意右侧停车车辆可能突然启动；路口无信号灯，仅靠停车标志控制，存在潜在冲突点。",
+      "risk_tags": [
+        "tight_turn_clearance",
+        "intersection_conflict",
+        "uncontrolled_crossing"
+      ]
+    }
+  ]
+}

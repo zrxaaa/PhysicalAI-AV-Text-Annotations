@@ -1,0 +1,37 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 01:26:15",
+    "processing_time_seconds": 15.29
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在黄昏时分沿双向四车道主干道行驶，右侧路边停有多辆汽车，前方有一辆银色轿车保持匀速行驶，左侧有车辆从后方驶入并短暂并行。路灯已亮，天空呈灰蓝色，能见度良好。",
+      "scene_description_additional": "道路右侧出现‘SMOKE SHOP’霓虹灯招牌，无行人或显著障碍物，交通流平稳，未见信号灯变化。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "自车继续直行，前方银色轿车在接近十字路口时减速，右侧一辆白色SUV加速超车并切入自车所在车道，随后在前方路口左转。道路两侧可见棕榈树和商业建筑，无行人活动。",
+      "scene_description_additional": "左侧出现‘WESTERN APPLIANCE’大型招牌，路面标线清晰，自车未进行转向或制动，保持当前车道行驶。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "自车在接近路口时轻微减速，前方银色轿车在右转车道停车等待，右侧一辆灰色SUV从停车位驶出并汇入车流，与自车保持安全距离。无行人穿越，交通信号灯尚未显示红灯。",
+      "scene_description_additional": "道路右侧商铺玻璃反射夕阳余晖，树木阴影投射在路面上，环境安静，无紧急事件或异常行为。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "自车继续向前行驶，前方银色轿车完成右转离开主路，右侧灰色SUV加速驶离，自车进入空旷路段，道路两侧绿化带和高大树木增多，无其他车辆近距离交互。",
+      "scene_description_additional": "远处可见红色交通信号灯亮起，但自车尚未到达交叉口，未发生停车或变道行为，整体交通流畅。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车在最后一段平稳行驶，前方无车辆阻挡，道路笔直延伸，两侧为低密度住宅区边缘与商业设施过渡带，无行人、无突发交通状况，光照逐渐变暗。",
+      "scene_description_additional": "自车保持匀速直线行驶，未进行任何转向或加速操作，视频结束前场景稳定，未出现新动态主体或环境突变。"
+    }
+  ]
+}

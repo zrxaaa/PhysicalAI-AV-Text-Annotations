@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 07:23:04",
+    "processing_time_seconds": 12.18
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在十字路口停车等待，前方红色车辆停在直行车道，右侧白色SUV和黑色轿车在右转车道准备转向。交通信号灯为红灯，天空多云但光线充足，路面干燥无湿滑迹象。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:09",
+      "scene_description": "信号灯转绿，前方红色车辆启动并左转驶离路口，右侧白色SUV完成右转进入对向车道，自车保持原位等待下一周期。路口无行人出现，道路标线清晰可见。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "自车开始向前行驶，跟随前方红色车辆进入直行道。左侧出现加油站和现代建筑，右侧有绿化带和电线杆。交通灯已转为绿灯，无其他车辆或行人与自车路径冲突。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "自车持续沿直行道行驶，前方红色车辆保持匀速，未发生变道或急刹。道路两侧有树木、灌木及商业建筑，天气仍多云，无明显能见度或路面影响因素。"
+    }
+  ]
+}

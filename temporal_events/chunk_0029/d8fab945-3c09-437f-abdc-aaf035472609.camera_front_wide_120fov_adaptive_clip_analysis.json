@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 10:23:24",
+    "processing_time_seconds": 20.74
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在十字路口左转，前方一辆黑色轿车从左侧驶入交叉口并右转，未与自车发生冲突；路旁停有皮卡和SUV，街道两侧为住宅，天气晴朗，路面干燥无遮挡。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:10",
+      "scene_description": "自车沿直线道路平稳行驶，右侧路边停放多辆轿车及一辆红色敞篷跑车，左侧出现一排联排住宅；无行人或突发障碍物，车道线清晰，光照充足。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "自车继续直行，道路两侧建筑由传统住宅过渡为现代公寓楼，右侧出现一辆白色皮卡缓慢驶离停车位；无显著交通参与者交互，自车保持匀速，未见信号灯或停车标志。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "自车接近一个小型商业区入口，右侧出现“PARKING”标识牌，路边停放多辆SUV与皮卡；左侧人行道有自行车停放，但无行人活动，自车未减速或变道。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车进入街道末端，前方可见远处车辆及红绿灯结构，两侧建筑以现代商业/办公为主，无行人或动态障碍物；自车维持当前车道与速度，准备进入下一个路口区域。"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.5,
+    "analysis_time": "2026-01-23 16:15:19"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间，强降雨天气，路面严重积水并反射路灯灯光，能见度低。雨滴附着于挡风玻璃，造成画面模糊。【自车】位于中间车道，正执行减速动作，准备在路口停车。【左侧】一辆白色面包车停靠在路边，未移动；【右前方】一辆银色SUV在人行横道前静止，未进入交叉口。【交通设施】前方可见红色八角形“STOP”标志牌，位于道路左侧，距离自车约15米。【关键风险】自车需在湿滑路面上紧急制动，存在打滑或制动失效风险；右侧SUV若突然启动可能引发碰撞。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility",
+        "emergency_braking_required",
+        "wet_road_surface"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】雨势略有减弱，但路面仍积水反光，部分区域出现水雾。【自车】完成停车后，缓慢起步，沿直道向前行驶，保持在中间车道。【左侧】多辆轿车沿路边停放，部分车辆尾灯亮起；【右侧】一排自行车停放在人行道旁，无行人活动。【交通设施】通过十字路口后，道路两侧出现连续的白色斑马线与路缘石，右侧有蓝色残疾人停车标志牌。【关键风险】自车起步时因路面湿滑易发生侧滑；右侧自行车停放区无护栏，若行人突然从后方冲出将构成“鬼探头”风险。",
+      "risk_tags": [
+        "wet_road_slip_risk",
+        "ghost_probe_potential",
+        "slow_acceleration_required"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】持续阴雨，街道两侧建筑物灯光昏暗，能见度维持在30-50米。【自车】在中间车道匀速直线行驶，车速约20km/h，随道路曲率自然转向。【左侧】一栋高层住宅楼，窗户多数关闭，偶有灯光亮起；【右侧】另一栋建筑，底层商铺卷帘门关闭，门前停放多辆私家车。【非标物体】道路中央偏右位置，有一根蓝色反光柱（疑似临时交通引导杆），随自车接近逐渐清晰。【关键风险】道路两侧车辆密集停放，存在“开门杀”风险；蓝色反光柱为临时设施，可能影响夜间视线，需警惕其后方是否有突然出现的行人或非机动车。",
+      "risk_tags": [
+        "parked_vehicle_open_door_risk",
+        "temporary_infrastructure_obstruction",
+        "low_visibility_driving"
+      ]
+    }
+  ]
+}

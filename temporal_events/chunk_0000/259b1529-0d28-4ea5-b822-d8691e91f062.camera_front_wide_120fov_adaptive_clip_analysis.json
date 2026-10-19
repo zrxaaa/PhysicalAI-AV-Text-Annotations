@@ -1,0 +1,24 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 22:27:53",
+    "processing_time_seconds": 19.07
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "道路两侧建筑物轮廓在雨夜中模糊可见，自车保持直行，未进行转向或变速操作，前方车辆尾灯因雨水折射呈现拉长光斑，交通流稳定无突发行为。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "雨滴在挡风玻璃上形成流动水膜，干扰视线但未影响驾驶决策，路边停放车辆与行人未进入视野范围，交通信号灯状态未变化，整体场景平稳过渡。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "道路标线在湿滑路面上仍清晰可辨，自车与前车保持安全距离，未发生变道或紧急制动，环境条件稳定，视频结束时自车仍在正常行驶中。"
+    }
+  ]
+}

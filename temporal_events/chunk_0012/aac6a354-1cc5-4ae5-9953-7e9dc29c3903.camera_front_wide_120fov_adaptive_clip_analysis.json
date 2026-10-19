@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 03:38:46",
+    "processing_time_seconds": 11.34
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "夜间行车，自车沿多车道道路直行，前方路口信号灯为红灯，左侧有白色轿车正在左转，右侧路边有路灯和护栏，能见度受雾气影响略有降低。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:11",
+      "scene_description": "自车在十字路口停车等待，交通信号灯由红变绿，左侧对向车道有两辆白色轿车依次通过交叉口，右侧人行横道信号灯显示红色行人禁止通行标志。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:14",
+      "scene_description": "信号灯转绿后自车启动前行，右侧一辆白色皮卡车从横向车道快速驶过并完成左转，自车保持直行，与该皮卡在交叉口发生短暂空间交集。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "自车驶出交叉口后继续沿主路直行，前方可见数辆迎面来车及同向行驶车辆，道路两侧有路灯照明，右侧出现黄色菱形警示牌，路面湿滑且有薄雾笼罩。"
+    }
+  ]
+}

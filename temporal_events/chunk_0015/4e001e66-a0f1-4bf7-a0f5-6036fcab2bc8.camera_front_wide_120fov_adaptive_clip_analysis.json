@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 04:38:53",
+    "processing_time_seconds": 11.92
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在Norwalk街十字路口直行，前方交通信号灯为绿灯，右侧一辆黑色SUV正在右转车道准备转向，道路两侧有电线杆和低矮建筑，天气多云但能见度良好。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "通过十字路口后，自车继续沿主路直行，左侧出现消防站建筑及停靠的红色消防车，右侧路边停放多辆私家车，路面标有“CLEAR”字样提示保持车道畅通。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车在双黄线车道内行驶，左侧出现高墙与绿化带，右侧是住宅楼和棕榈树，前方有银色SUV和灰色轿车同向行驶，自车保持安全距离跟随，未进行变道或超车动作。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "道路右侧出现一排公寓楼和停车区域，左侧高墙持续延伸，自车继续直行，前方银色SUV在右侧车道缓慢行驶，未发生并线或加速行为，环境安静无行人或其他动态障碍物。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车接近路段末端，前方车辆逐渐远离，道路两侧设施稀疏，左侧高墙与右侧低矮围栏交替出现，天气阴沉但无降雨迹象，路面干燥，无显著交通交互事件。"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:57:25",
+    "processing_time_seconds": 13.2
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "道路右侧出现施工锥桶和临时围栏，但未见施工人员，自车保持当前车道行驶，未进行变道或减速。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "路面标线清晰，显示右转箭头，自车在停止线前平稳停下，周围无其他车辆突然切入或异常行为。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "自车在绿灯后向右转弯，转向过程中右侧交通灯仍为绿，对向车道无车辆通行，路口无冲突风险。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:20",
+      "scene_description": "自车保持稳定速度继续直行，环境安静，无其他车辆并行或超车，整体交通流顺畅，无需要特别避让的行为。"
+    }
+  ]
+}

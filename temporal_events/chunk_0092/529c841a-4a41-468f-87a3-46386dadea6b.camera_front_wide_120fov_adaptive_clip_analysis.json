@@ -1,0 +1,37 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.89,
+    "analysis_time": "2026-01-22 21:05:49"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "【环境】夜间，浓雾笼罩道路，能见度显著降低，路灯与车灯产生明显光晕。【自车】位于中间车道，匀速沿直道行驶，未进行转向或变道。【周围交通参与者】左侧对向车道有车辆驶过，但因雾气影响，轮廓模糊；右侧人行道旁有绿化带及低矮建筑，无行人活动。【交通设施】道路两侧设有路灯、电线杆及路牌，路面标线清晰可见，未见异常障碍物。【关键风险】浓雾导致视觉感知受限，前方红绿灯信号可能延迟被识别，存在误判通行状态的风险。",
+      "risk_tags": [
+        "reduced_visibility",
+        "signal_delay_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】雾气持续，但局部区域灯光增强，能见度略有改善。【自车】保持在中间车道，匀速接近十字路口，未减速。【前方交通设施】前方路口交通信号灯为红灯，横向车流停止。【右侧】路边出现“MESA TIRE”广告牌及小型商铺，无行人或非机动车活动。【关键风险】自车未提前减速，仍以原速接近红灯路口，存在闯红灯或因视线受阻无法及时反应的风险。",
+      "risk_tags": [
+        "red_light_approach_risk",
+        "inadequate_deceleration"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雾气依旧，但路口照明增强，信号灯清晰可见。【自车】在十字路口前停车，等待绿灯。【交通设施】路口信号灯由红灯转为绿灯，横向方向信号灯同步变为红灯。【周边】左侧有白色货车停靠于商铺前，右侧人行横道空旷，无行人。【关键风险】自车在绿灯亮起后启动，需注意横向来车是否已完全停止（当前横向为红灯），但因雾气遮挡，无法确认横向车道是否有车辆加速冲出，存在“鬼探头”或横向闯红灯风险。",
+      "risk_tags": [
+        "ghost_probe_risk",
+        "cross_traffic_uncertainty"
+      ]
+    }
+  ]
+}

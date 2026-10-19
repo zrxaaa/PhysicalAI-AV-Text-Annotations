@@ -1,0 +1,37 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 01:40:05",
+    "processing_time_seconds": 15.1
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在十字路口等待，前方交通信号灯为绿灯，左侧车道有一辆深色轿车正在左转；右侧人行横道旁有行人站立，未穿越马路。道路标线清晰，天气阴沉但无雨，路面干燥。",
+      "scene_description_additional": "自车保持静止状态，准备在绿灯亮起后直行通过路口，周围无显著动态障碍物或冲突车辆。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "自车启动并沿直行车道行驶，经过路口后进入主干道，右侧出现停放的银色SUV和灰色轿车，左侧路边有两辆电动滑板车停靠。前方交通信号灯为绿灯，无行人横穿。",
+      "scene_description_additional": "道路两侧有商业建筑和裸露树枝，天空云层较厚，光线均匀，未见明显阴影或眩光干扰视线。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车继续直行，接近铁路道口，前方设有红白相间的栏杆和闪烁警示灯，当前信号灯为绿灯且栏杆已升起。左侧有黑色皮卡和银色SUV并排停靠，右侧有白色轿车驶入对向车道。",
+      "scene_description_additional": "铁路道口标志清晰可见，包括“RAILROAD CROSSING”字样和黄色行人警示牌，自车与前方车辆保持安全距离，无紧急避让行为。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车顺利通过铁路道口，继续沿直线道路行驶，两侧为工业厂房和低矮商铺，部分区域有涂鸦墙和施工围挡。前方无车辆阻挡，交通流畅，无行人或突发障碍。",
+      "scene_description_additional": "道路中央有虚线分隔车道，两侧设有红色路缘石，天气仍阴沉但能见度良好，自车维持稳定速度匀速前进。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车在接近下一个路口前减速，前方远处有车辆停靠于路边，右侧有蓝色垃圾桶和橙色锥桶提示施工区域。自车未停车，保持直行通过该路段。",
+      "scene_description_additional": "道路两侧建筑物多为单层仓库式结构，树木枝干稀疏，无遮挡视线的高大植被，整体环境开阔，交通参与者活动较少。"
+    }
+  ]
+}

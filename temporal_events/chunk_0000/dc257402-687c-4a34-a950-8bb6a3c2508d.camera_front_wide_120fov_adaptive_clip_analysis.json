@@ -1,0 +1,24 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 22:14:41",
+    "processing_time_seconds": 16.38
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "车辆沿街道直行，接近十字路口，右侧人行道上有行人正在过马路，一辆深色SUV从左侧车道驶入交叉口并右转，自车在停止线前减速准备停车。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "行人完成横穿后，自车通过十字路口，进入24th St与Church St交叉口，道路两侧为多层住宅及商铺，路面设有电车轨道，无显著交通信号灯变化，自车保持匀速直行。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "车辆沿24th St继续直行，道路两侧停放多辆汽车，前方可见多个斑马线和电车轨道，无行人或突发障碍物，天气阴沉但路面干燥，自车未进行转向或变速操作。"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 04:05:38",
+    "processing_time_seconds": 15.4
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在双黄线城市主干道上匀速行驶，前方路口红灯亮起，右侧白色轿车与灰色皮卡并行于右车道，左侧路边停有多辆私家车。交通信号灯为红灯，车辆均处于等待状态。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "信号灯转绿，自车向前启动，前方一辆黑色轿车从对向车道驶来，右侧灰色皮卡开始左转进入支路。人行道上有行人正在等待过街，未横穿马路。道路两侧有高层建筑和行道树，天气多云但能见度良好。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:12",
+      "scene_description": "自车在十字路口左转，进入Market St，左侧出现停车的银色SUV与白色轿车，右侧人行道有行人站立。交通信号灯显示左转绿灯，自车完成转向后沿单向道继续前行，路面标有“25”限速标识。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "自车沿Market St直行，道路两侧停满车辆，包括一辆印有“SHERIFF”字样的警用SUV。左侧人行道有行人行走，右侧有施工围栏但无作业人员。树木落叶散落路面，天气晴朗，光线充足。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车继续直行，前方出现一辆公交车与一辆蓝色服务货车，右侧路边有行人步行。道路两侧车辆密集，部分车辆缓慢移动或临时停靠。自车保持稳定速度，未进行变道或急刹，环境安静有序。"
+    }
+  ]
+}

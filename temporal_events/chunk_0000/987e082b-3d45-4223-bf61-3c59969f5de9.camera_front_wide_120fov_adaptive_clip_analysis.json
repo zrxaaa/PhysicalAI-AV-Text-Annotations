@@ -1,0 +1,27 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 22:31:28",
+    "processing_time_seconds": 31.52
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车沿双黄线分隔的乡村道路直行，右侧出现岩石山体与稀疏灌木，前方弯道处有黄色弯道警示牌。一辆深色SUV从对向车道驶来并完成超车，自车保持当前车道匀速行驶。",
+      "scene_description_2": "道路两侧为低矮丘陵，植被以干草和零星树木为主，天空阴沉但无降水迹象，路面干燥。未见行人或其他显著动态障碍物。"
+    },
+    {
+      "time_segment": "00:00:06-00:00:12",
+      "scene_description": "车辆继续沿弯曲山路前行，右侧山坡上可见几栋房屋及停放车辆，路边设有红色反光路桩。对向车道陆续有轿车、皮卡和SUV驶过，自车未变道或减速，保持稳定巡航。",
+      "scene_description_2": "道路左侧出现小型溪流或沟渠，部分路段有石砌护坡。天气仍阴沉，能见度良好，无明显交通信号控制，仅靠路标引导行车方向。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "自车在连续弯道中保持直线行驶，前方多辆汽车依次迎面驶来，包括白色SUV、银色轿车等，均在各自车道内正常通行。右侧山坡上可见电线杆和少量住宅建筑。",
+      "scene_description_2": "整体环境为山区公路，无交叉路口或红绿灯，交通流量适中但未拥堵。自车未进行转向、加速或制动，与其他车辆保持安全横向距离，无紧急避让行为。"
+    }
+  ]
+}

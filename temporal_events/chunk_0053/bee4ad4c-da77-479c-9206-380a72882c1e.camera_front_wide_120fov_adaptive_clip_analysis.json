@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.17,
+    "analysis_time": "2026-01-22 03:48:24"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，云层厚重，无明显降水但路面湿滑反光。【自车】位于中间车道，匀速沿直道行驶。【左侧】一辆深色皮卡从左前方邻车道超车后切入自车左前方，未打转向灯；同时一辆银色轿车在左后方邻车道保持匀速。【右侧】红色丰田普锐斯在右前方邻车道，与自车并行，未变道。【交通设施】左侧路肩出现“Cow Palace Third St SECOND EXIT”绿色指示牌，提示前方出口。【关键风险】左侧皮卡突然切入，存在加塞风险（Aggressive Cut-in），虽未碰撞但迫使自车紧急微调方向以避让。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "lane_change_risk",
+        "wet_road_surface"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】持续阴天，能见度良好，无强逆光或遮挡。【自车】保持中间车道匀速行驶。【左侧】白色斯巴鲁轿车从左前方邻车道加速超越，完成变道至自车左后方；随后一辆白色特斯拉Model Y从右后方快速接近并切入自车右前方车道，未打转向灯。【右侧】红色普锐斯维持原位，未参与变道。【交通设施】右侧出现“Paul Ave”出口指示牌，前方有黄色弯道警示标志。【关键风险】右侧特斯拉突然切入，属于高风险“鬼探头式”变道（Ghost Probe），因速度较快且无转向信号，自车需紧急减速规避潜在碰撞。",
+      "risk_tags": [
+        "ghost_probe",
+        "unannounced_lane_change",
+        "high_speed_crossing"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】天空仍灰暗，无降雨，路面干燥但略显潮湿。【自车】在中间车道继续匀速行驶，随道路轻微右转。【前方】多辆轿车及一辆大型白色罐车（疑似市政清洁/排水车）在右前方车道缓慢行驶，车身宽大，占据约三分之二车道宽度，未作业、无警示灯。【左侧】银色丰田普锐斯在左前方邻车道，保持稳定车距，未变道。【右侧】白色特斯拉已驶离自车视野，红色普锐斯仍在右前方，与自车同速。【交通设施】前方出现“EXIT 430”和“Wickham Dr”出口标识，右侧为绿化坡地与混凝土护栏。【关键风险】大型罐车占用右侧车道，虽非施工状态，但其体积庞大，限制了自车右侧变道空间，构成潜在通行障碍（General Obstacle）。无行人或动物出现，整体风险较低。",
+      "risk_tags": [
+        "large_vehicle_obstruction",
+        "limited_lateral_clearance"
+      ]
+    }
+  ]
+}

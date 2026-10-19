@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 00:36:15",
+    "processing_time_seconds": 12.8
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "自车在多车道城市道路上匀速行驶，右侧车道有一辆银色SUV加速并入中间车道，前方一辆深色轿车保持同速前行，左侧对向车道有车辆驶过。天空多云，路面干燥，无明显障碍物或行人。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "自车继续直行，前方出现FedEx货车停靠路边，一名人员从驾驶室侧门下车，随后货车启动驶离。道路两侧建筑和棕榈树清晰可见，交通信号灯尚未变化，自车未减速或变道。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:16",
+      "scene_description": "接近十字路口，前方车辆开始减速，交通信号灯由绿转黄，自车跟随减速。左侧车道有黑色轿车向左变道，右侧车道有银色轿车准备右转，路口处有红绿灯控制通行顺序。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车在十字路口停车等待，前方为直行车道，信号灯显示绿灯，但因路口较宽需短暂等待。右侧有车辆从交叉口驶入，左侧有白色皮卡通过，路面铺设防滑网格，天气阴沉但无雨。"
+    }
+  ]
+}

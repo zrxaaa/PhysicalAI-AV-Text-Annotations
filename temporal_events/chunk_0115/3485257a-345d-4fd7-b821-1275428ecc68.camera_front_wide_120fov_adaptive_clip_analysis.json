@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.91,
+    "analysis_time": "2026-01-23 06:37:42"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，天空灰白，无明显降水或强光，能见度良好。【自车】位于中间车道，正执行左转动作，车头偏航角向左调整，准备驶离路口。【左侧】一辆黑色轿车在左前方邻近车道行驶，与自车同向，保持约5米横向距离。【右侧】公交站台区域有数名行人站立，其中一人推婴儿车，面向站台方向；另有一名穿深色外套的行人正从右后方走向人行横道。【交通设施】路口设有三角形让行标志和红绿灯（当前为红灯），右侧为STREIT超市入口，玻璃幕墙反射光线。【关键风险】自车左转时，右侧人行横道上有行人正在移动，存在潜在横穿冲突；若行人突然加速穿越，将构成“鬼探头”风险。",
+      "risk_tags": [
+        "ghost_probe_risk",
+        "left_turn_conflict",
+        "pedestrian_crossing_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】阴天，光照均匀，无遮挡物影响视线。【自车】完成左转，进入直行主干道，保持中间车道匀速行驶。【左侧】沿街商铺林立，包括YAZOELI SUPERMARKET、Eier & Bohnen Apotheke等，门前停放多辆私家车，部分车辆开启转向灯准备驶出。【右侧】公交站台持续有乘客上下车，一名穿浅色上衣、深色短裤的行人从右侧人行道跑向道路中央，试图横穿马路，其面部朝向前方，双臂摆动，步幅较大，未观察左右来车。【交通设施】道路两侧设有人行横道及红白相间隔离桩，前方可见蓝色行人过街指示牌。【关键风险】该行人横穿行为未走斑马线，且未注意来车，属于典型“Jaywalking”，对自车构成直接碰撞威胁；自车需紧急制动或避让以避免事故。",
+      "risk_tags": [
+        "jaywalking",
+        "imminent_collision_risk",
+        "pedestrian_unawareness"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】天气稳定，无异常光照或路面状况。【自车】在中间车道维持匀速直线行驶，车头朝向道路延伸方向。【前方】远处可见一辆公交车迎面驶来，车身颜色为蓝白相间，正沿对向车道靠近。【右侧】路边停放多辆私家车，部分车辆停放在非机动车道边缘，未完全靠边。【左侧】商铺区人流稀少，仅零星行人行走，无突发障碍物。【交通设施】道路标线清晰，设有连续人行横道，前方无信号灯控制，但有减速提示标志。【关键风险】右侧停车车辆可能因驾驶员开门导致“开门杀”风险；前方公交车虽为对向车道，但若其突然变道或刹车，可能引发自车紧急反应。整体风险较低，暂无高危交互事件。",
+      "risk_tags": [
+        "parked_car_open_door_risk",
+        "oncoming_vehicle_braking_potential"
+      ]
+    }
+  ]
+}

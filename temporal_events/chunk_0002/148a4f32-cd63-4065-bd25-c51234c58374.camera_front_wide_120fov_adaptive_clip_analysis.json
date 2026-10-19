@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:26:21",
+    "processing_time_seconds": 16.94
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "自车在晴朗天气下沿双向两车道公路匀速行驶，道路两侧为灌木和高大树木，前方出现绿色高速公路指示牌，提示Mills Rd出口。右侧路边有黄色‘LANE ENDS MERGE LEFT’警告标志，但无车辆或行人干扰自车路径。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:13",
+      "scene_description": "自车接近一个交叉路口，左侧出现大型圆形玻璃幕墙建筑，右侧可见通信塔和白色储罐。交通信号灯为红灯，自车减速准备停车，对向车道有车辆驶入，包括一辆白色面包车和一辆黑色轿车。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "自车在红灯前停下，左侧车道有一辆绿色平板卡车装载货物缓慢驶过，与自车形成并行关系但未发生交互。远处可见人行横道警示标志，但无行人出现。自车保持静止状态等待绿灯。"
+    },
+    {
+      "time_segment": "00:00:18-00:00:20",
+      "scene_description": "信号灯转绿，自车启动前行，左侧车道的绿色平板卡车开始加速并逐渐超越自车。道路右侧出现新的绿色路牌，指示通往I-280方向，自车继续沿直线路段行驶，周围无其他显著动态交通参与者。"
+    }
+  ]
+}

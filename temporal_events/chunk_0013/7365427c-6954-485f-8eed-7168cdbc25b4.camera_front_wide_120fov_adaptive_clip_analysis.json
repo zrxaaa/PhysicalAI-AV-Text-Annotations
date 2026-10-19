@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 03:49:48",
+    "processing_time_seconds": 17.12
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在城市街道中间车道行驶，前方为一辆红色SUV，右侧停有一辆白色轿车。左侧自行车道上一名骑车人正向前骑行，道路两侧为多层砖砌建筑与行道树，天气阴沉，路面干燥。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:08",
+      "scene_description": "车辆接近十字路口，路面上出现“ONLY”字样标线，右侧人行道有行人推着购物车等待过街。前方红色SUV减速并准备左转，自车保持跟随，交通信号灯尚未变红。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:12",
+      "scene_description": "红绿灯转为绿色，自车与前方红色SUV同时启动前行，左侧人行横道上有行人正在穿越马路，包括推婴儿车者和步行者。右侧建筑旁有施工脚手架，但无施工人员活动。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:16",
+      "scene_description": "通过交叉路口后，自车继续沿直行方向前进，道路两侧停放多辆汽车，包括白色货车和SUV。左侧为自行车道，有行人沿人行道行走，右侧商铺外墙有涂鸦装饰，无显著交通冲突。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车持续匀速行驶，右侧路边停放一排车辆，包括一辆白色厢式货车和多辆私家车。左侧人行道有行人经过，远处可见街道延伸至下一个路口，无紧急或突发交通事件发生。"
+    }
+  ]
+}

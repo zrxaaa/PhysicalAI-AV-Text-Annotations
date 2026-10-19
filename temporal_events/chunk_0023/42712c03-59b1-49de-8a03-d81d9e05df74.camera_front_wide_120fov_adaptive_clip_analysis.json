@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 07:38:43",
+    "processing_time_seconds": 14.42
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "自车在住宅区街道上匀速行驶，前方一辆蓝色垃圾车正沿道路中央缓慢驶来，右侧路边有黑色围栏和垃圾桶，一名环卫工人站在垃圾车旁准备作业。天气阴沉，路面干燥，无明显湿滑或障碍物。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:11",
+      "scene_description": "垃圾车完成路边作业后向左转向，驶入交叉路口，环卫工人从车侧下车并退回驾驶室，自车保持静止等待，此时前方可见红色STOP标志及Frisco St与Cochran St交叉路牌。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:15",
+      "scene_description": "自车在交叉路口停车等待，垃圾车已完全通过路口，右侧路口处有一栋带铁门的建筑和停放车辆，远处可见高压电塔。自车未启动，保持安全距离观察路口动态。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "自车在停止线后继续等待，确认路口无其他车辆或行人通行后，开始缓慢向前移动，准备右转进入Cochran St。周围环境安静，无突发交通参与者出现。"
+    }
+  ]
+}

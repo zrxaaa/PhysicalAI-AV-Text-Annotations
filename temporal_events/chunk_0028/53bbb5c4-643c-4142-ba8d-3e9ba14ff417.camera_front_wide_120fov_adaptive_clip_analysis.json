@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 09:56:31",
+    "processing_time_seconds": 18.68
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在十字路口前停车等待红灯，前方有多辆汽车排队，右侧车道有车辆缓慢移动。交通信号灯为红色，道路标线清晰，天气晴朗，阳光从右上方照射，路面干燥无湿滑现象。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:08",
+      "scene_description": "信号灯转绿，自车所在车道及左转车道车辆开始启动前行，左侧一辆黑色SUV完成左转并驶入主路，与自车路径交叉但已安全通过。右侧人行道旁有行人站立，未进入车道。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车沿直行车道继续行驶，前方黑色SUV减速并靠右停于路边，疑似准备停车或让行。道路右侧设有“限速35”标志牌和共享单车停放点，无其他显著动态障碍物。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车超越前方蓝色SUV后保持匀速行驶，右侧黑色SUV仍停靠路边未动，左侧车道有白色轿车加速超车并汇入自车所在车道。道路两侧商铺林立，无行人横穿或突发障碍。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车继续沿直行方向平稳前进，前方无明显障碍，右侧商铺区域可见少量停放车辆，左侧对向车道有货车驶过。整体路况通畅，无信号灯变化或紧急行为发生。"
+    }
+  ]
+}

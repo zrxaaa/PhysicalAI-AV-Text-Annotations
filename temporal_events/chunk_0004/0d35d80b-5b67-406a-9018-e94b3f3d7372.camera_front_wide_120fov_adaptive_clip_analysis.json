@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 00:23:12",
+    "processing_time_seconds": 30.98
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:02",
+      "scene_description": "自车在双黄线道路中间车道匀速行驶，左侧一辆黄色校车从对向车道驶来并完成超车，右侧路边停放多辆私家车，树木成排，天气晴朗，光照充足。"
+    },
+    {
+      "time_segment": "00:00:02-00:00:08",
+      "scene_description": "自车继续直行，前方道路两侧停满车辆，右侧出现一辆黑色面包车停靠，一名行人从车旁走向人行道，远处可见另一辆校车迎面驶来，路面无明显障碍物或交通信号变化。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车接近右侧停放的黑色面包车及后方拖挂房车，一名穿深色衣服的人从面包车后门下车并走向路边，同时左侧对向车道有车辆驶过，右侧路肩出现橙色锥桶和红色跑车。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车保持当前车道行驶，右侧依次经过银色轿车、白色货车及灰色SUV，左侧对向车道车辆稀疏，道路两旁树木落叶堆积，无行人或突发交通行为，环境平稳。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车即将通过一个路口，前方道路变宽，两侧停车减少，右侧出现低矮围墙与少量建筑，无行人或动态障碍物，自车维持匀速直行，未见信号灯或转向指示。"
+    }
+  ]
+}

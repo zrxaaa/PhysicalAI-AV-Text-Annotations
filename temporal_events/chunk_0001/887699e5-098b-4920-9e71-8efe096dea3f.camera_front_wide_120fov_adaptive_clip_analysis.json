@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:00:17",
+    "processing_time_seconds": 16.18
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车沿街道平稳行驶，左侧出现一辆白色皮卡从路边驶出并变道至自车前方车道，右侧人行道上有数只鸟群聚集，未对行车造成影响。天气阴沉，路面干燥，无明显交通标志或信号灯变化。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "自车继续直行，右侧路边停放多辆轿车，包括一辆红色轿车和一辆银色轿车，均静止未移动。远处可见行人站在路口右侧，但未进入车道，无交叉冲突。道路两侧树木光秃，部分区域有低矮灌木丛。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:14",
+      "scene_description": "自车经过一个消防栓后，右侧出现一辆银色小型货车缓慢驶离停车位，与自车保持安全距离，未发生并线或碰撞。左侧停有一辆盖着车罩的车辆，周围无其他动态物体。天空云层较厚，光线均匀。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "自车接近街道末端，前方出现一辆红色SUV从左侧驶入主路，短暂减速避让后完成汇入。右侧人行道上一名行人站立，未横穿马路，与自车路径无交集。整体环境安静，无突发交通事件。"
+    }
+  ]
+}

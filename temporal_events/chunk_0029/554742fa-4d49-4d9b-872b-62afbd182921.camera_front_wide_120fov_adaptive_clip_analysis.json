@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 10:08:54",
+    "processing_time_seconds": 20.6
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "自车沿林间双车道公路平稳行驶，道路两侧为高大乔木与木质围栏，阳光透过树冠形成斑驳光影，路面干燥无积水。右侧出现一段连续的木栅栏，未见行人或显著障碍物。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:11",
+      "scene_description": "前方迎面驶来一辆大型工程卡车（带升降臂），在对向车道缓慢行驶，自车保持原速并安全避让，未发生变道或减速行为，两车在弯道处完成交错通过。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:15",
+      "scene_description": "工程车驶离后，道路恢复空旷，自车继续直行，右侧路边出现碎石堆与橙色施工锥桶，暗示附近有施工活动，但无人员或设备出现在视野内，道路标线清晰无损。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "车辆进入一段较直且视野开阔的路段，两侧植被密度略有降低，电线杆沿路排列，自车维持匀速直线行驶，未遇其他车辆或行人，环境安静且无交通冲突风险。"
+    }
+  ]
+}

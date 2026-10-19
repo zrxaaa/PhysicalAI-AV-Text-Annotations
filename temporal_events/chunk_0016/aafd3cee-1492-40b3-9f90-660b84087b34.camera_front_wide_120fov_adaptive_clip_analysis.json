@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 04:52:45",
+    "processing_time_seconds": 13.04
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "道路两侧可见商铺和路灯，远处有红绿灯和交通标志，但因雨水和光线散射难以清晰辨识。自车未进行转向或变速操作，保持直行状态。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "自车在斑马线前完全停下，等待行人通过。此时雨滴在挡风玻璃上形成流动的光晕，进一步影响视线，但行人已安全离开车道，无其他冲突车辆。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "雨势未减，路面反光强烈，自车仪表盘灯光在湿玻璃上形成彩色折射。周围车辆均静止，无明显变道或加速行为，环境相对稳定。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "雨滴持续在挡风玻璃上移动，部分区域因水流汇聚形成条状水痕，影响视觉清晰度。自车未启动，整个场景处于等待状态，无突发动态事件。"
+    }
+  ]
+}

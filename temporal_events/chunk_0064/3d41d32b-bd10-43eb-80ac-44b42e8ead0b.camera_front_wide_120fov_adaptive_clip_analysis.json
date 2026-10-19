@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.87,
+    "analysis_time": "2026-01-22 08:22:03"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】浓雾天气，能见度极低，路面湿滑，雨滴附着于挡风玻璃造成视觉模糊。【自车】位于中间车道，沿道路曲线匀速前行，未进行转向或变道。【前方】一辆深色轿车在约80米外行驶，尾灯可见但轮廓模糊。【交通设施】道路两侧为落叶覆盖的林地，无明显标线或路牌干扰视线。",
+      "risk_tags": [
+        "low_visibility",
+        "reduced_reaction_time"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】雾气略有消散，但仍维持阴沉灰暗天气，路面持续湿润，部分区域有积水反光。【自车】保持中间车道匀速行驶，随道路右弯平缓调整方向。【前方】一辆银灰色SUV出现在前方约40米处，尾灯亮起，表明其正在减速或等待通行。【右侧】出现“NO SHOULDER DRIVING”警示牌及金属护栏，提示右侧为非行车区域。【交通设施】右侧路边设有黄色菱形警告标志，提示前方弯道或交叉口。",
+      "risk_tags": [
+        "reduced_visibility_continued",
+        "braking_vehicle_ahead"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】雾气进一步减弱，但整体仍属阴雨天，光线昏暗。【自车】在中间车道保持匀速跟随前方银灰色SUV，未发生加速或制动。【前方车辆】该SUV位于自车正前方，距离稳定在20–30米，刹车灯偶有闪烁，表明其处于缓行状态。【左侧】对向车道无车辆通行，视野开阔。【右侧】护栏后方可见少量住宅建筑与灌木丛，未发现行人或动物。【关键风险】无明显违规行为或突发障碍物；但因路面湿滑、能见度低，存在潜在追尾风险（尤其当前车急刹时）。此外，前方SUV未开启转向灯即减速，可能预示临时停车或避让，需提高警惕。",
+      "risk_tags": [
+        "wet_road",
+        "low_visibility_continued",
+        "rear_end_collision_risk",
+        "unpredictable_vehicle_behavior"
+      ]
+    }
+  ]
+}

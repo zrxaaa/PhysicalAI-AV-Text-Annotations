@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 05:23:23",
+    "processing_time_seconds": 16.11
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在多车道公路上匀速行驶，左侧车道有一辆黑色SUV正在缓慢变道至中间车道，前方有施工区域警示牌和橙色锥桶，天空晴朗，云层稀疏。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "车辆继续前行，右侧车道一辆深色轿车开始向右靠拢，准备驶离主路或进入匝道，道路两侧出现施工设备和吊臂车，交通标志提示前方为施工区，自车保持当前车道行驶。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "前方路口红灯亮起，自车及周围车辆陆续减速停车，左侧车道有多辆白色和银色轿车排队等候，右侧车道的深色轿车已驶离主路，路边设有土堆和施工围栏。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "信号灯仍为红色，自车静止等待，左侧车道车辆开始依次左转或直行，右侧车道可见黄色“RAMP METER AHEAD”警示牌，远处有山丘轮廓，天气无明显变化。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车仍处于停止状态，前方交通信号未变，右侧车道有车辆缓慢驶入主路，与自车路径无冲突，道路右侧堆积大量碎石，施工区域延伸至远方，整体环境安静有序。"
+    }
+  ]
+}

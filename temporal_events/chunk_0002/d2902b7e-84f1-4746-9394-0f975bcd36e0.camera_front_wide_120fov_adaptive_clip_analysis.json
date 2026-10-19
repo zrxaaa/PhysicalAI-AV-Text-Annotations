@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:31:03",
+    "processing_time_seconds": 14.2
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "自车沿居民区街道平稳行驶，左侧停有一辆银色轿车，右侧一辆黑色SUV缓慢驶离路边，道路两侧有住宅和茂密树木，天气晴朗无云。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "前方出现一辆红色皮卡，载有施工设备，正从右侧车道缓慢驶入前方路口，自车保持匀速接近十字路口，路旁可见棕榈树与低矮灌木丛，阳光充足。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "车辆接近十字路口，路面标有“STOP”字样，右侧树后立有红色停车标志牌，自车在路口前减速并停下，对向车道有车辆驶来但未进入交叉区域。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "自车在路口等待后启动，向右转弯进入新街道，右侧路边设有“SPEED LIMIT 25”的限速标志，前方道路两侧停放多辆私家车，环境安静无行人。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车继续沿弯道前行，右侧停有一辆蓝色越野车和一辆银色轿车，左侧有黑色SUV迎面驶来，两车在狭窄路段谨慎避让，周围绿树成荫，光照稳定。"
+    }
+  ]
+}

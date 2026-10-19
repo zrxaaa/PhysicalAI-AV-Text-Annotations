@@ -1,0 +1,36 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 10.8,
+    "analysis_time": "2026-01-24 14:26:27"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "【环境】晴天，云层较厚，光照均匀，无降水或结冰迹象。【自车】在高速公路主路中间车道匀速行驶，前方为一辆白色半挂卡车，保持安全跟车距离。【右侧】路边可见Mustang Inn酒店招牌、停车场及多辆停放车辆；后方出现“JR PAINT N BODY”汽车修理店，门前有数辆待修车辆。【交通设施】前方高架桥下设有多组绿色高速出口指示牌（含EXIT 425至12th St Beckley Ave、EXIT 426至Ewing Ave Marsalis Ave），并附限速45 MPH标志。【相对运动】自车与前车保持稳定纵向距离，横向无变道动作；对向车道车辆正常通行，未见异常切入行为。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "【环境】道路进入匝道区域，左侧为混凝土隔音墙，右侧为低矮围栏与绿化带，天气仍晴朗。【自车】沿匝道缓坡右转，进入地面道路，速度略有下降以适应弯道。【前方车辆】白色半挂卡车同步右转，车身逐渐移至右侧车道，完成从高速匝道驶出的动作。【交通设施】匝道入口处设有黄色警示牌“BRIDGE MAY ICE IN COLD WEATHER”，提示低温结冰风险；随后出现红色STOP标志牌，位于匝道出口交叉口。【关键风险】自车在转弯过程中需注意右侧停车区域可能存在的行人或突然启动车辆，但当前视野内无明显障碍物；因前方卡车占据右侧车道，自车需保持谨慎跟车，避免因弯道视线受限发生碰撞。",
+      "risk_tags": [
+        "narrow_turn",
+        "reduced_visibility_curve",
+        "lane_blocking"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】晴朗，阳光直射，部分区域存在阴影。【自车】在匝道末端接近交叉路口，减速并准备停车。【交通设施】路口设有多个红色STOP标志牌，其中包含“ALL WAY”标识，表明为全向停车路口；同时可见“ONE WAY”单行指示牌指向右侧。【周围参与者】右侧停有一辆白色半挂卡车，车头朝向与自车一致，处于静止状态；远处路口有绿树遮挡，未见行人或非机动车活动。【相对位置】自车位于最右侧车道，正对交叉口中心线，前方无其他车辆横穿；左侧为高架桥结构，桥体墙面有浮雕装饰。【关键风险】自车即将在全向停车路口停止，需确认所有方向来车情况；由于高架桥遮挡部分视野，存在潜在“鬼探头”风险，但当前区域内无动态物体靠近，风险等级较低。",
+      "risk_tags": [
+        "intersection_stop",
+        "partial_occlusion",
+        "low_risk_crossing"
+      ]
+    }
+  ]
+}

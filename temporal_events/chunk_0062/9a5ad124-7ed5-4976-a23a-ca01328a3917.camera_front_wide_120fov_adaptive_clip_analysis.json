@@ -1,0 +1,46 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.94,
+    "analysis_time": "2026-01-22 07:35:21"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】晴朗白天，光照充足，无异常天气。【自车】在中间车道匀速沿直道行驶。【左侧】一栋浅色单层建筑（疑似学校）沿街排列，外有铁丝网围栏；路边设“Slow Down”警示牌。【右侧】一辆白色RV停靠在路肩，车尾朝向镜头，前方放置橙色锥桶。【交通设施】道路为双向两车道，中央双黄线清晰，路面无积水或障碍物。【关键风险】RV停放位置靠近弯道起点，可能遮挡后方来车视线，存在潜在“鬼探头”风险。",
+      "risk_tags": [
+        "occlusion_risk",
+        "parked_vehicle_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:10",
+      "scene_description": "【环境】阳光斜射，树影投射于路面。【自车】保持中间车道匀速前行，随道路轻微左弯。【左侧】铁丝网围栏持续延伸，后方可见电线杆与茂密树木。【右侧】多辆白色车辆（含面包车、皮卡）依次停放在路肩，间距紧凑。【交通设施】前方路口出现绿色路牌“Carrie Lee St”，提示即将进入交叉口。【关键风险】右侧停车车辆密集，部分车尾未完全贴合路缘，存在开门杀或突然启动风险；自车需注意右侧盲区。",
+      "risk_tags": [
+        "parked_vehicle_open_door_risk",
+        "blind_spot_crossing"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:16",
+      "scene_description": "【环境】光线仍明亮，天空无云。【自车】继续沿弯曲道路匀速行驶，车头偏航角随路形微调。【左侧】围栏内植被稀疏，远处可见低矮住宅。【右侧】木制围栏后为居民院落，可见车库门及小型灌木。【交通设施】前方路口出现红色八角形“STOP”标志牌，地面亦喷涂“STOP”字样，提示全路段停车。【关键风险】自车接近停车标志，需准备减速；右侧人行道边缘有黄色消防栓，若行人从其后方横穿将构成危险。",
+      "risk_tags": [
+        "stop_sign_compliance_required",
+        "pedestrian_crossing_risk_near_fire_hydrant"
+      ]
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "【环境】晴天，视野开阔，无遮挡。【自车】在停止线前完成制动，静止等待。【前方】交叉路口对向车道有黑色轿车驶近，右侧车道停有一辆亮蓝色轿车。【左侧】可见棕榈树与低矮住宅，人行道旁有绿化带。【交通设施】路口设有标准十字交叉标线、红绿灯控制装置（当前绿灯），并配有“STOP”地面标识。【关键风险】自车处于停车状态，但右侧蓝色轿车车身部分突出至交叉口中心区域，存在轻微压线风险；同时，对向黑色轿车速度较快，需警惕其可能抢行通过。",
+      "risk_tags": [
+        "partial_lane_blocking",
+        "oncoming_vehicle_speed_risk",
+        "intersection_conflict_potential"
+      ]
+    }
+  ]
+}

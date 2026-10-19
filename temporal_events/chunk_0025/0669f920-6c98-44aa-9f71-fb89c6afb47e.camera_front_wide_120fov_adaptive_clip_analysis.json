@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 08:08:29",
+    "processing_time_seconds": 12.82
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车沿居民区街道行驶，右侧停有深色SUV和白色皮卡，前方一辆银色轿车在左侧行驶并逐渐靠右。道路两侧为住宅，阳光明媚，路面干燥清晰。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "车辆接近十字路口，路面上标有“STOP”字样，右侧设有红色停车标志牌。前方一辆白色轿车从左侧路口驶入，同时一名行人出现在右侧人行道并开始横穿马路。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车在路口停车等待，行人完成穿越后，左侧一辆银色轿车驶过路口，随后自车向左转向进入新街道。路口处可见“Wawona”与“Crestlake”路牌标识。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车沿新街道直行，左侧出现蓝色房屋及行人，右侧为绿化带与树木。远处山坡上可见密集住宅，天气晴朗，无遮挡物影响视线。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车继续沿街行驶，路边停放多辆汽车，包括一辆灰色皮卡和一辆深色SUV。一名行人从左侧人行道走出，走向街角，未与自车路径发生冲突。"
+    }
+  ]
+}

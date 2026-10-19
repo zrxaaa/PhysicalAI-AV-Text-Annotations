@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 06:02:57",
+    "processing_time_seconds": 12.36
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在晴朗天气下沿居民区街道行驶，前方有一辆黄色校车正沿道路中央缓慢前行，左侧停放多辆私家车，右侧车道亦有车辆停靠，电线杆与树木沿街分布，无明显交通信号控制。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "校车驶离画面后，自车继续直行，右侧出现一辆白色SUV和一辆拖挂房车的皮卡，两车均停于路边；前方路口处可见红色STOP标志及交叉路牌，路面标有‘STOP’字样，远处有车辆正在接近路口。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "自车在路口停车等待，前方十字路口有数辆车正在通行：一辆银色轿车、一辆白色掀背车、一辆红色轿车依次从左向右横穿路口，路口右侧设有红底白字STOP标志牌，无行人出现。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:18",
+      "scene_description": "路口车辆陆续通过，自车仍保持静止状态，此时一辆深色SUV从对向车道驶入路口并完成左转，同时一辆白色工程皮卡从左侧横向驶过，天空中可见一架飞机飞过。"
+    },
+    {
+      "time_segment": "00:00:18-00:00:19",
+      "scene_description": "自车前方路口已清空，无其他车辆或行人干扰，道路两侧为低密度住宅区，视野开阔，天气晴好，路面干燥，自车准备在确认安全后继续前行。"
+    }
+  ]
+}

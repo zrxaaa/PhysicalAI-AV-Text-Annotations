@@ -1,0 +1,47 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.16,
+    "analysis_time": "2026-01-22 10:51:39"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】浓雾天气，能见度极低，天空灰暗，路面湿滑反光。【自车】位于中间车道，处于十字路口前，执行停车等待动作。【交通设施】前方及左侧多个交通信号灯显示为绿灯，但因雾气影响，远处灯光模糊不清。【关键风险】右侧路口有车辆驶入（红灯方向），但因雾遮挡无法确认其是否闯红灯；自车需在低能见度下依赖信号灯而非视觉判断，存在误判风险。",
+      "risk_tags": [
+        "low_visibility",
+        "signal_reliance_risk",
+        "potential_red_light_violation"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:09",
+      "scene_description": "【环境】雾气持续，光线由昏暗转为微弱晨曦。【自车】完成左转动作，从中间车道切入左侧车道，横向偏航角变化明显。【周围车辆】左前方对向车道有一辆深色轿车驶近，车灯开启，正沿直道匀速行驶，未进入自车转向路径。【交通设施】左转信号灯由绿变红，自车在红灯亮起前完成转向。【关键风险】自车在红灯切换瞬间完成转向，若对方车辆未及时减速或误判信号，可能发生交叉碰撞。",
+      "risk_tags": [
+        "timing_risk_at_signal_change",
+        "crossing_traffic_interaction"
+      ]
+    },
+    {
+      "time_segment": "00:00:09-00:00:16",
+      "scene_description": "【环境】雾气略有消散，道路两侧积雪覆盖路肩，部分路段有融雪水迹。【自车】已转入直行主干道，保持中间车道匀速行驶。【道路特征】路面双黄线清晰，但部分区域有水渍反光；右侧路边可见“MARLBORO SHOPPING CENTER”广告牌，下方有数家商铺，部分店铺亮灯。【非标准物体】右侧雪地上无动物或行人活动，但远处有停放车辆，未形成动态威胁。【关键风险】路面湿滑+积雪边缘，存在轮胎打滑风险；前方无紧急障碍物，整体风险较低。",
+      "risk_tags": [
+        "wet_road_slip_risk",
+        "low_dynamic_obstacle_density"
+      ]
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "【环境】雾气进一步减轻，天色渐亮，能见度提升至约200米。【自车】保持中间车道匀速直线行驶，无转向或变速动作。【道路结构】两侧为光秃树木与电线杆，无施工区域或临时障碍物。【交通设施】前方无信号灯，仅见路侧限速标志（45mph）和“NO TURN ON RED”字样。【关键风险】无直接碰撞或违规行为；但因清晨时段、低能见度残留、路面湿滑，仍存在潜在事故风险，尤其在突发横穿或急刹情况下。",
+      "risk_tags": [
+        "dawn_driving_risk",
+        "residual_low_visibility",
+        "wet_surface_hazard"
+      ]
+    }
+  ]
+}

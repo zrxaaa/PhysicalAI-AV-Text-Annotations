@@ -1,0 +1,36 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 10.64,
+    "analysis_time": "2026-01-22 03:36:45"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间，城市道路照明充足，无明显降水或雾气，能见度良好。【自车】位于中间车道，匀速沿直道行驶，未进行转向或变道。【左侧】对向车道有车辆驶过，包括一辆白色轿车和一辆深色SUV，均在各自车道内正常行驶。【右侧】路边有成排树木与围栏，无行人或障碍物。【交通设施】左侧路口设有红绿灯，当前为绿灯通行状态；远处可见商业建筑群及亮化招牌。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】夜间道路光照稳定，部分区域出现路灯眩光（镜头光晕），但未影响整体视野。【自车】保持中间车道匀速行驶，随道路轻微右弯，车头偏航角自然调整以贴合曲率。【左侧】一辆白色轿车从左后方超车并切入自车所在车道，完成切出动作，未打转向灯，存在潜在碰撞风险。【右侧】路肩树木与围栏持续延伸，无异常物体。【交通设施】前方出现黄色菱形警示牌，提示前方为交叉路口或弯道，无其他动态设施交互。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "lane_change_without_signal"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】夜间，前方出现浓重车灯光雾，疑似因前车尾灯或路灯反射造成视觉干扰，能见度略有下降。【自车】维持中间车道匀速行驶，未减速或转向。【前方】多辆汽车在前方同向行驶，其中一辆白色轿车在前车流中保持稳定距离。【交通设施】上方出现大型绿色高速公路指示牌，标明“101 SOUTH San Jose”与“101 NORTH San Francisco”，自车正接近分岔口。【关键风险】前方车辆密集，且存在强逆光干扰视线，若遇紧急制动可能引发追尾；同时，指示牌下方区域路面标线模糊，需警惕车道偏离风险。",
+      "risk_tags": [
+        "strong_headlight_glare",
+        "high_traffic_density",
+        "reduced_visibility",
+        "lane_departure_risk"
+      ]
+    }
+  ]
+}

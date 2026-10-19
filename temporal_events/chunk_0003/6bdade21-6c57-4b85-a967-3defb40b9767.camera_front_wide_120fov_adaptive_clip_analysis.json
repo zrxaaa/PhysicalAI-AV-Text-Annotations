@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:55:07",
+    "processing_time_seconds": 27.92
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "随着绿灯持续，前方灰色轿车开始加速前行，自车保持匀速跟随，未进行变道或超车，道路两侧可见树木与低层建筑，天气晴朗无遮挡。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:11",
+      "scene_description": "路口处可见多组交通信号灯及街道标识牌（如Monroe街名），自车平稳通过交叉口，未遇停车或紧急避让行为，道路标线清晰，无施工或障碍物干扰。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:15",
+      "scene_description": "前方可见“PED XING”路面标记及人行横道警示标志，远处有行人站立于人行道边缘，但未穿越马路。阳光照射下路面干燥，视野良好，无明显阴影遮挡视线。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "道路限速标志显示为25英里/小时，自车保持匀速行驶，未见其他车辆突然切入或行人横穿，整体场景符合城市郊区日常通勤路况。"
+    }
+  ]
+}

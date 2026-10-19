@@ -1,0 +1,48 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.32,
+    "analysis_time": "2026-01-24 14:51:06"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】黄昏时分，天空灰暗，路灯已亮，路面微湿反光，能见度中等。【自车】位于中间车道，匀速沿直道前行。【右前方】一辆白色‘EAGLE TOURS’旅游大巴在右侧车道行驶，尾灯亮起，车身逐渐向右偏移并开始减速。【左侧】对向车道有车辆驶过，包括一辆黑色SUV和一辆银色轿车，均正常通行。【交通设施】左侧路口有绿灯信号，路旁有施工围挡（木板+铁网），未见明显障碍物或行人。【关键风险】旅游大巴在非公交专用道区域减速，可能引发后方车辆变道或紧急制动，存在切出风险。",
+      "risk_tags": [
+        "vehicle_cut_out_risk",
+        "reduced_visibility",
+        "traffic_light_interaction"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】城市街景，两侧建筑多为现代与历史混合风格，路灯照明充足，无明显天气异常。【自车】保持中间车道匀速行驶，车头朝向道路延伸方向，无转向动作。【右侧】旅游大巴完成变道，驶离自车右侧车道，其后方出现一辆银色SUV，正从右侧超车并切入自车所在车道。【左侧】对向车道车辆有序通过，无异常行为。【交通设施】前方十字路口信号灯为绿灯，人行横道标线清晰可见。【关键风险】银色SUV在右侧超车过程中未打转向灯，且切入速度较快，存在“加塞”嫌疑，可能引发自车紧急避让。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "lack_of_turn_signal",
+        "lane_change_conflict"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "【环境】街道两侧建筑密集，部分商铺橱窗亮灯，夜间行车氛围浓厚。【自车】继续在中间车道匀速前进，车速稳定。【前方】一辆银色SUV在自车前方约20米处，正缓慢加速通过交叉路口。【左侧】一辆深色SUV从左前侧邻车道快速超越自车，完成变道后驶离视野。【右侧】路边停放多辆私家车，未见行人活动。【交通设施】前方为十字路口，交通信号灯显示绿色，指示通行。【关键风险】左侧超车车辆速度较快，虽已完成变道，但因距离较近，存在轻微碰撞风险；同时，前方SUV在绿灯下缓慢行驶，可能影响后方车流节奏。",
+      "risk_tags": [
+        "high_speed_crossing_vehicle",
+        "slow_moving_front_vehicle"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】城市街道进入更开阔路段，两侧建筑高度降低，视野更宽。【自车】保持中间车道匀速行驶，无转向或变速动作。【前方】一辆白色小型巴士从对向车道驶来，车身较长，占据部分车道空间。【右侧】一辆银色SUV在自车右后方跟随，车距维持在安全范围内。【左侧】对向车道有多辆汽车驶过，包括一辆红色轿车和一辆黑色SUV，均正常行驶。【交通设施】前方无红绿灯，仅见路牌标识“Clement St”，道路标线清晰。【关键风险】对向白色小巴车身较长，在转弯或避让时可能遮挡视线，增加“鬼探头”风险；此外，右侧银色SUV若突然加速或变道，可能引发追尾或剐蹭。",
+      "risk_tags": [
+        "long_vehicle_obstruction",
+        "rear_following_vehicle_risk",
+        "potential_ghost_probe"
+      ]
+    }
+  ]
+}

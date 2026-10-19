@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 11.87,
+    "analysis_time": "2026-01-23 01:30:27"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】夜间，浓雾笼罩道路，能见度显著降低，路灯与车灯产生明显光晕。【自车】在中间车道匀速沿直道行驶，车头朝向正前方。【左侧】停放多辆私家车（包括一辆深色SUV和一辆银灰色SUV），车辆静止，未见移动迹象。【右侧】一栋长条形灰色建筑，外墙有多个门洞及壁灯，无人员或车辆活动。【交通设施】前方约30米处可见一个红色信号灯悬挂在树冠下方，持续亮红，提示停车。【关键风险】因雾气导致视野受限，前方路口存在潜在盲区；若信号灯故障或被遮挡，可能引发误判。",
+      "risk_tags": [
+        "low_visibility",
+        "signal_obstruction_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "【环境】雾气略有消散，但整体仍较浓，路灯照明增强。【自车】继续在中间车道减速，准备在路口停车。【前方路口】路面标有“STOP”字样，右侧设有一个标准红色八角形停车标志牌（STOP Sign），位于人行横道前。【左侧】一棵大树枝叶繁茂，部分遮挡视线，树下停有一辆银灰色SUV。【右侧】出现一个蓝色邮筒，紧邻停车标志牌。【交通参与者】远处对向车道有数辆汽车驶近，均保持低速；无行人或动物出现。【关键风险】自车需在停车线前完全停止，但因雾气和树木遮挡，无法清晰观察对向来车是否已完全停下，存在“闯红灯”或“未礼让”的潜在违规风险。",
+      "risk_tags": [
+        "partial_obstruction",
+        "intersection_lack_of_clearance",
+        "potential_traffic_violation"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】雾气进一步减轻，能见度改善，路灯与车灯反射更清晰。【自车】在路口停车，车头正对前方红灯，车身稳定，未发生位移。【右侧】一辆蓝色SUV从横向道路驶入本路口，车速较快，疑似未遵守停车标志，其车头已越过停车线，但仍在红灯状态下。【左侧】路边有“Mckinley Gardens”标识牌，背景为住宅楼群，无行人活动。【交通设施】路口设有双黄实线、停车线、“STOP”地面标记及红灯信号。【非标物体】无动物、施工车辆或遗撒物。【关键风险】蓝色SUV在红灯时强行进入路口，构成严重交通违规行为（Aggressive Cut-in + Red Light Violation），对自车及交叉方向车辆构成碰撞威胁，属于高危场景。",
+      "risk_tags": [
+        "red_light_violation",
+        "aggressive_cut_in",
+        "high_collision_risk"
+      ]
+    }
+  ]
+}

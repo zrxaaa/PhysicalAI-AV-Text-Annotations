@@ -1,0 +1,42 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 19.91,
+    "analysis_time": "2026-01-21 18:13:03"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，天空多云，光照充足，无异常天气。【自车】在中间车道匀速沿道行驶，未进行转向或变道。【左侧】沿路有涂鸦围墙，墙外为绿化带与行道树；右侧为铁栅栏围挡区域，内有停车场及公交站台。【交通设施】道路中央设置橙白相间锥桶与“KEEP RIGHT”指示牌，引导车辆向右绕行施工区。【非标物体】右侧公交站台处有一名行人静坐，面向街道，无明显移动意图。【关键风险】前方施工区域存在临时路障，但无突发障碍物或违规行为，整体风险较低。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】光照稳定，无遮挡或天气突变。【自车】保持中间车道匀速前行，随道路曲率自然行驶。【左侧】出现“DYNAMITE AUTO SALES”汽车销售店，门前停放多辆待售车辆，设有“NO CREDIT”旗帜广告。【右侧】施工区域扩大，可见黄色CAT挖掘机、推土机及多名头戴安全帽的施工人员，部分人员在路边指挥交通。【交通设施】新增“KEEP LEFT”指示牌，与左侧“KEEP RIGHT”形成双向引导。【非标物体】一名施工人员站立于右侧车道边缘，手持红色旗帜，正引导后方车辆绕行。【关键风险】施工区域作业设备占用部分车道，存在局部空间压缩，需注意避让；无行人闯入或车辆违规行为。",
+      "risk_tags": [
+        "construction_zone",
+        "partial_lane_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】晴朗，视野开阔，无遮挡。【自车】维持当前车道匀速前进，未发生横向偏移。【左侧】汽车销售店持续可见，其后方出现“SUNSET STATION”加油站标志。【右侧】施工区域继续延伸，一台小型压路机正在压实新铺路面，旁边有工人持扫帚清扫碎石。【交通设施】多个“KEEP RIGHT/LEFT”标志交替出现，配合锥桶引导车流。【非标物体】一辆白色FedEx货运卡车从左侧超车，车身宽大，短暂占据自车左侧邻车道，完成超车后回归原车道。【关键风险】大型货车超车时存在视觉盲区，虽未发生碰撞，但需警惕其突然并线；施工区地面松散，可能引发轮胎打滑或异响。",
+      "risk_tags": [
+        "large_vehicle_passing",
+        "road_surface_unstable"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】光线略显刺眼，部分区域因高杆灯和建筑物产生阴影。【自车】在中间车道匀速行驶，接近视频终点。【左侧】汽车销售店招牌逐渐淡出，取而代之的是“Sweet James”广告牌及“NO CREDIT”旗帜。【右侧】施工区域收尾，仅剩少量锥桶与一名施工人员在路边整理工具。【交通设施】道路恢复常规标线，前方出现“SCHOOL”字样路面标记，提示减速。【非标物体】无动物、无突发障碍物。【关键风险】路面“SCHOOL”标识提示潜在学生横穿风险，但当前时段无行人出现；整体场景趋于平稳，无显著交互威胁。",
+      "risk_tags": [
+        "school_zone_warning",
+        "low_risk_transition"
+      ]
+    }
+  ]
+}

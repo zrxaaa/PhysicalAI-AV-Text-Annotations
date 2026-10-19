@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 02:12:52",
+    "processing_time_seconds": 11.01
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在多车道道路上匀速行驶，前方有一辆白色厢式货车，左侧车道有灰色轿车和蓝色小型车交替变道，右侧为停车场边界与棕榈树。天空多云，光线充足，路面干燥无积水。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:11",
+      "scene_description": "车辆接近十字路口，交通信号灯显示绿灯，左侧车道有银色SUV和蓝色掀背车加速并入直行车道，右侧黑色轿车向右变道。前方高架桥下有多个车道，路牌指示EAST 826方向，限高14英尺4英寸。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:16",
+      "scene_description": "自车驶入高架桥下方通道，两侧车道出现排队等候的车辆，包括黑色SUV、红色轿车及白色皮卡。桥下光线变暗，但能见度良好，车道线清晰，无行人或其他障碍物。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "通过桥洞后，车辆驶出阴影区域，前方再次出现开阔道路，交通信号灯恢复绿灯。右侧可见加油站和停放车辆，左侧有施工围栏但无人员活动。自车保持当前车道继续前行。"
+    }
+  ]
+}

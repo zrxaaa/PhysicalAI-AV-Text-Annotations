@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.2,
+    "analysis_time": "2026-01-23 19:11:11"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】暴雨天气，路面严重积水并反光，雨滴持续冲击挡风玻璃，影响视线清晰度。【自车】位于中间车道，沿桥面道路线性减速行驶，未进行转向。【右侧】桥侧人行道上有行人撑伞行走，其中两人持红色雨伞，正从右前方走向后方；左侧对向车道有黑色轿车驶过。【交通设施】桥梁两侧为金属桁架结构，桥面湿滑，无明显标线遮挡。【关键风险】无显著违规或障碍物，但因雨水导致能见度下降，存在潜在视觉干扰风险。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】雨势稍缓，天空仍阴沉，路面湿滑但积水减少，部分区域出现水雾反射。【自车】在中间车道保持匀速前行，接近十字路口，未变道或转向。【前方】红绿灯显示为红灯，右侧路口设有禁止左转标志及倒U型箭头标识。【左侧】多栋欧式建筑沿街排列，底层有商铺（如“LE CHIQUITO”），部分行人撑伞在人行道上等待。【右侧】一棵高大绿树遮挡部分视野，树后可见一辆灰色SUV停靠于路边。【关键风险】前方红灯停车是正常行为，但右侧树冠遮挡可能隐藏行人或非机动车突然横穿，存在“鬼探头”隐患。",
+      "risk_tags": [
+        "occlusion_risk",
+        "ghost_probe_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】持续阴雨，路面仍有薄层积水，光线较暗。【自车】在停止线前完全停车，等待红灯。【右侧】一名穿浅色长外套的行人从右后方走向斑马线，同时另一名撑红色雨伞的行人从右侧人行道进入画面，准备横穿马路。【左侧】一辆银灰色轿车从左前方路口驶入，直行通过交叉口，未受红灯影响。【交通设施】红灯持续亮起，右侧设有限速和禁止左转标志牌，地面标线清晰。【关键风险】右侧行人正在横穿，且与自车处于同一横向平面，若其加速穿越或无视信号灯，将构成“闯红灯+横穿”双重违规风险；同时，左侧车辆在红灯时直行，虽合法但需警惕其是否误判信号或突然变道，存在加塞或碰撞风险。",
+      "risk_tags": [
+        "jaywalking_risk",
+        "red_light_violation_potential",
+        "crossing_pedestrian",
+        "aggressive_vehicle_movement"
+      ]
+    }
+  ]
+}

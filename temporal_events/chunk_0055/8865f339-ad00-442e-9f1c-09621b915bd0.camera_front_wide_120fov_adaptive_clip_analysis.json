@@ -1,0 +1,42 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.16,
+    "analysis_time": "2026-01-22 04:49:42"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，能见度良好，无异常天气。【自车】位于中间车道，匀速沿直道前行，未进行转向或变道。【前方车辆】一辆灰色SUV在正前方车道行驶，保持稳定车距；左侧路边停有一辆深灰色轿车，未移动。【右侧】停放多辆汽车（含白色SUV与灰色SUV），未见行人或非机动车。【交通设施】路口信号灯为绿灯，路牌显示“Coleman Market”方向，路面标线清晰，无遮挡物。【关键风险】无明显违规行为或障碍物，场景安全。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:09",
+      "scene_description": "【环境】晴朗，天空有少量云，光照均匀。【自车】在中间车道执行左转动作，车头偏航角从正向前逐渐向左调整，完成转弯后进入新道路。【周围车辆】左前方对向车道有白色轿车驶过，未影响自车路径；右前方路口有红灯，但自车已通过。【交通设施】路口设有“END ONE WAY”和“NO BLOCKING INTERSECTION”标志，同时可见黄色菱形警示牌提示前方弯道。【关键风险】无显著风险，但自车转向时需注意右侧人行道边缘的停车车辆可能因视野盲区引发剐蹭。",
+      "risk_tags": [
+        "turning_maneuver_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "【环境】晴天，左侧为高架桥混凝土护栏，右侧为多层住宅楼，树木无叶，属冬季或早春。【自车】转入单向窄道，保持匀速沿道行驶，未变道。【道路两侧】左侧护栏旁有红色路缘石，右侧人行道旁停放多辆私家车（含银色SUV、灰色轿车等），部分车辆尾部朝向道路。【交通设施】路侧设有限速40 mph标志牌，无行人或动物出现。【关键风险】道路宽度较窄，右侧停车车辆距离车道仅约1.5米，若遇紧急避让，存在刮擦风险；无其他动态威胁。",
+      "risk_tags": [
+        "narrow_road_risk",
+        "parked_vehicle_proximity"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】阴天，云层较厚，光线柔和。【自车】继续沿单向街道匀速前进，接近终点处。【周围车辆】道路两侧密集停放车辆，包括黑色轿车、蓝色掀背车、银色SUV等，均静止未动。【前方路口】出现“STOP”地面标线，远处有两栋白色联排别墅式建筑，路口设有红色停车标志。【交通设施】右侧人行道上有儿童滑板车停放，未被使用。【关键风险】自车即将到达停车标志前，需减速至停止；右侧人行道上滑板车虽静止，但属于潜在障碍物，若行人突然推车横穿，将构成“鬼探头”风险。",
+      "risk_tags": [
+        "stop_sign_compliance_required",
+        "pedestrian_crossing_risk",
+        "obstacle_in_sidewalk"
+      ]
+    }
+  ]
+}

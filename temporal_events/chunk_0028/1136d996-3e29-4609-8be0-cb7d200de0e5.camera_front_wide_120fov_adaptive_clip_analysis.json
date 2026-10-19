@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 09:38:29",
+    "processing_time_seconds": 16.39
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在住宅区街道上匀速行驶，右侧一辆白色面包车并行后驶离视野，前方有一辆银色SUV保持同向行驶，道路两侧停有车辆，天空多云但光线充足。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "车辆经过一个标有‘SPEED BUMP’的减速带区域，路面上方出现黄色菱形警示牌提示限速15英里/小时，左侧出现一辆白色SUV从路边驶出，与自车无冲突。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车继续沿直线车道前进，前方银色SUV在接近十字路口时减速，右侧路边停放多辆汽车，包括一辆黑色皮卡和一辆灰色轿车，未见行人或突发障碍物。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "前方银色SUV在十字路口停车，自车随之减速并停在停止线前，右侧人行道旁设有红色八角形停车标志，路口左转方向有对向来车正在通过。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车在停车标志前完全停下，前方银色SUV保持静止状态，路口无行人穿越，天气阴云未变，路面干燥，周围环境安静，无其他动态交通参与者介入。"
+    }
+  ]
+}

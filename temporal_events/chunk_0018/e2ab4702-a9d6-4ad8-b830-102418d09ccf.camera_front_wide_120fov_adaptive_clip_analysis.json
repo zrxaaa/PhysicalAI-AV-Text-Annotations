@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 05:40:59",
+    "processing_time_seconds": 12.55
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车沿双向两车道住宅区道路平稳行驶，左侧为联排住宅，右侧有行道树和低矮灌木，前方可见一辆白色轿车在同向车道行驶，天空多云但光线充足，路面干燥无积水。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "车辆接近十字路口，路面上出现‘ONLY’右转指示标线，对向车道有数辆汽车驶来，包括一辆银色轿车与一辆白色皮卡，自车保持直行，未进行变道或转向操作。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:13",
+      "scene_description": "自车在十字路口左转车道停车等待，交通信号灯显示绿灯，对向车辆完成左转后，自车开始右转进入新路段，右侧路边设有‘RIGHT LANE MUST TURN RIGHT’标志牌。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车沿新道路直行，道路两侧为商业建筑与停车场，左侧停放多辆汽车，右侧人行道旁有行人警示标志，前方有一辆黑色SUV在同车道行驶，保持安全距离。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "车辆继续直行，前方出现黄色菱形人行横道警示牌，右侧人行道上有行人站立，但未穿越马路，自车维持当前车道与速度，未采取避让动作，天气晴朗，视野良好。"
+    }
+  ]
+}

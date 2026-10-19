@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.26,
+    "analysis_time": "2026-01-22 11:42:09"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】晴天，强逆光导致画面右上角出现眩光，路面干燥，无积水或结冰。【自车】位于十字路口停车线后，处于中间车道，静止等待红灯。【交通设施】前方交叉口信号灯为红灯，路牌显示“Santa Clara St”与“1st St”。【周围参与者】右侧人行横道处有三名施工人员（穿橙色反光背心、戴安全帽）正在从右向左步行过街；左侧路边有数名施工人员站立，被橙色锥桶围挡区域隔离。【关键风险】行人横穿路口时未完全进入人行横道即开始移动，存在“鬼探头”潜在风险；右侧大型白色卡车部分遮挡视野，可能影响对横向来车的判断。",
+      "risk_tags": [
+        "pedestrian_crossing_risk",
+        "occlusion_by_large_vehicle",
+        "red_light_waiting"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:09",
+      "scene_description": "【环境】阳光直射，树影投射在路面，能见度良好。【自车】在绿灯亮起后启动，沿中间车道缓慢起步前行。【周围参与者】右侧施工人员已全部通过人行横道，其中两人继续沿路边行走；左侧施工区域仍有多名工人活动，部分手持工具，锥桶围挡清晰标示“LANE CLOSED”警示牌。【交通设施】信号灯由红转绿，自车获得通行权；道路中央及两侧布设大量橙色锥桶引导车流。【关键风险】左侧施工区工人靠近车道边缘，若突然移动或弯腰作业，可能侵入行车空间；锥桶排列不连续处存在视觉盲区，需警惕非预期路径车辆或行人。",
+      "risk_tags": [
+        "construction_zone_proximity",
+        "visual_blind_spot",
+        "slow_acceleration"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "【环境】道路两侧树木茂密，阳光透过树叶形成斑驳光影，无异常天气。【自车】保持匀速沿直道行驶，进入单向施工路段，车道由双车道压缩为单车道。【周围参与者】左侧施工区多名工人身着反光背心，部分在路肩作业，部分在路边行走；右侧停放多辆工程车（含白色皮卡和带吊臂的工程车），一名工人站在皮卡旁挥手示意自车减速。【交通设施】道路右侧设有“SPEED LIMIT 25”的限速标志；施工区域用锥桶与临时护栏分隔，部分路段地面有新铺沥青痕迹。【关键风险】右侧工人挥手动作具有引导意图，但其位置紧邻车道，若突然转身或移动，可能造成碰撞；施工车辆停靠占用部分路肩，限制了避让空间。",
+      "risk_tags": [
+        "worker_in_lane_proximity",
+        "speed_limit_compliance_required",
+        "narrow_road_with_construction"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】阳光充足，树荫覆盖路面，无降水或雾气。【自车】加速驶离施工区域，进入正常居民区街道，道路两侧停满私家车，车流量减少。【周围参与者】左侧人行道有两名行人并排行走，面向自车方向，步速平稳；右侧路边一辆黑色轿车正缓慢驶出停车位，即将汇入车流。【交通设施】道路标线清晰，可见自行车道标识；远处有绿色路牌指示“Santa Clara St”，无施工锥桶。【关键风险】右侧车辆从停车位驶出时未充分观察后方来车，存在切入主车道的潜在冲突；行人虽在人行道，但若突然转向或跨越护栏，可能进入机动车道。",
+      "risk_tags": [
+        "parked_car_merge_risk",
+        "pedestrian_crossing_potential",
+        "low_traffic_conflict"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.39,
+    "analysis_time": "2026-01-22 13:38:24"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴朗天气，能见度高，无降水或遮挡。【自车】位于中间车道，处于停车等待状态（绿灯亮起前）。【前方】一辆红色Brinks运钞车停在自车正前方，占据直行车道，车身高度较高，尾部贴有“NOTICE”警示标识；其右侧为一辆白色皮卡，左侧为一辆银色SUV。【交通设施】路口设有四组交通信号灯，当前直行绿灯亮起，左转箭头灯为红灯。【关键风险】自车与Brinks运钞车纵向间距极近（<3米），若运钞车突然启动，存在追尾风险；同时，右侧银色SUV在绿灯亮后向右变道，可能切入自车所在车道，构成潜在切出风险。",
+      "risk_tags": [
+        "close_proximity_vehicle",
+        "cut_out_risk",
+        "brinks_vehicle"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:09",
+      "scene_description": "【环境】晴天，光照充足，无遮挡。【自车】在绿灯放行后起步，沿中间车道向前行驶。【前方】Brinks运钞车完成左转动作，驶离交叉口；右侧银色SUV完成右转并驶入对向车道，已远离自车路径。【交通设施】路口处可见“Montague”路牌及“NO U-TURN”标志，信号灯持续绿灯通行。【非标物体】路口右侧建筑外立有“The Moulding Company”广告牌，无作业行为，不影响通行。【关键风险】无显著风险。自车与周围车辆均按交通规则有序移动，未出现违规行为或遮挡。",
+      "comment": "此段无关键风险，故不包含risk_tags字段"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "【环境】晴朗，道路两侧绿化良好，阳光从右侧照射形成轻微阴影。【自车】保持匀速沿中间车道直线行驶，车头偏航角稳定。【左侧】路边停放多辆私家车（含灰色特斯拉Model X、银色大众Tiguan等），部分车辆在缓慢驶离停车位。【右侧】沿路有商业建筑群，包括“Mendocino Farms”和“Mission Park”标识，无施工或障碍物。【交通设施】道路右侧设有限速40英里/小时标志，前方约50米处有弯道警示牌（黄色菱形）。【关键风险】左侧停放车辆中，一辆灰色特斯拉Model X在自车接近时突然启动并向右变道，切入自车前方邻车道，属于“切出”行为，但因距离较远（>15米）且速度平缓，未构成紧急避让需求。",
+      "risk_tags": [
+        "cut_out_behavior",
+        "parked_vehicle_interaction"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】晴天，光线均匀，无异常气象。【自车】继续沿中间车道匀速行驶，通过弯道区域，车头随路面曲率自然调整方向。【前方】远处可见另一交叉路口，设有红绿灯及“NO U-TURN”标志。【周边】道路两侧树木排列整齐，无动物、施工设备或遗撒物。【交通设施】右侧人行横道前设有“SPEED LIMIT 40”标志，前方无锥桶或围挡。【关键风险】无明显风险。所有交通参与者均在合法车道内行驶，无违规行为或突发障碍物，场景平稳可控。",
+      "comment": "此段无关键风险，故不包含risk_tags字段"
+    }
+  ]
+}

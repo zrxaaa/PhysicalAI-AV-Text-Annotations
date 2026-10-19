@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 10.35,
+    "analysis_time": "2026-01-23 21:26:05"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:15",
+      "scene_description": "【环境】隧道内，人工照明均匀但光线昏暗，墙壁布满涂鸦，部分区域有积尘与垃圾堆积。无异常天气，能见度受隧道结构限制。【自车】在中间车道匀速沿道行驶，未进行变道或转向，车头保持正向。【前方】一辆白色厢式货车始终位于自车正前方，保持稳定车距，尾灯常亮，无加速或减速迹象。【左侧】隧道壁为混凝土结构，有规律排列的立柱和涂鸦，部分区域可见散落垃圾。【右侧】隧道壁同样为混凝土结构，灯光反射形成光晕，路面干净无障碍物。【交通设施】隧道顶部安装线性照明灯，两侧设有紧急出口标识；隧道入口处有坡道过渡结构。【关键风险】隧道内无突发障碍物，但左侧墙根处有不明废弃物堆积，存在潜在刮蹭风险；前方货车若突然刹车将导致自车追尾，需保持安全距离。",
+      "risk_tags": [
+        "no_immediate_risk",
+        "debris_hazard",
+        "following_distance_required"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】自车驶出隧道，进入城市街道，自然光照增强，视野开阔。【自车】在中间车道继续匀速沿道行驶，未变道。【前方】白色厢式货车仍在前方，逐渐接近隧道出口。【右侧】隧道出口外侧停放多辆汽车，人行道上有行人站立及骑自行车者经过。【左侧】隧道出口旁有数辆摩托车/踏板车停靠，一名行人正在推婴儿车横穿非机动车道。【交通设施】隧道出口上方为高架桥结构，桥墩支撑，桥下为城市道路交叉口。【关键风险】左侧行人推婴儿车横穿，可能突然进入机动车道（Jaywalking），存在“鬼探头”风险；右侧路边车辆密集，若货车突然转向或行人闯入，易引发碰撞；自车需警惕前方货车在出口处减速或变道。",
+      "risk_tags": [
+        "jaywalking_risk",
+        "ghost_probe",
+        "pedestrian_crossing",
+        "high_traffic_density"
+      ]
+    }
+  ]
+}

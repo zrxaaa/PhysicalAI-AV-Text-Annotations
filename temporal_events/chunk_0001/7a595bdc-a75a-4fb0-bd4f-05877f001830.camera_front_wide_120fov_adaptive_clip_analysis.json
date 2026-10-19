@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 22:55:34",
+    "processing_time_seconds": 16.37
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:02",
+      "scene_description": "车辆在十字路口等待绿灯，交通信号灯显示绿色，右侧路牌标示Santiago Av与Eastman St交叉口，左侧有树木和围栏，无行人或显著障碍物。"
+    },
+    {
+      "time_segment": "00:00:02-00:00:07",
+      "scene_description": "绿灯亮起后自车启动前行，左侧车道有黑色SUV及灰色轿车先后驶过，道路两侧为高大乔木与围网，无行人出现，路面标线清晰，天气晴朗。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "自车保持直行，前方有白色货车与银色轿车同向行驶，右侧路边出现蓝色帐篷状物体，疑似临时露营点，未见人员活动，道路两侧绿化良好。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "自车继续沿双黄线道路行驶，左侧对向车道有红色与白色轿车交错驶过，右侧草坪区域可见少量杂物，无行人或突发障碍，光照充足，视野开阔。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "接近下一个路口，前方出现白色轿车与深色SUV并排行驶，自车维持当前车道，道路右侧设有指示牌，周围树木茂密，无紧急事件或行为冲突发生。"
+    }
+  ]
+}

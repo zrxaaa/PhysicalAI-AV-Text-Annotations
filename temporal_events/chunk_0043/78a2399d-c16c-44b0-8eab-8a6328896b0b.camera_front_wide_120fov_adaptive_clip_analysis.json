@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.04,
+    "analysis_time": "2026-01-21 23:50:13"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，光照充足，无异常天气。【自车】位于中间车道，沿上坡道路匀速前行，未进行转向或变道。【左侧】一辆白色SUV从对向车道驶来，完成超车后驶离视野；【右侧】多辆SUV与轿车沿路边停放，其中一辆深灰色SUV在自车前方约8米处缓慢向前移动，疑似准备驶离停车位。【交通设施】路面标有“STOP”字样，前方路口设有红色停车标志牌，右侧山坡旁立有“STOP ALL WAY”标识。【关键风险】右侧深灰色SUV启动时存在切入自车车道的潜在意图，但未完全切入，暂无紧急避让需求。",
+      "risk_tags": [
+        "potential_cut_in",
+        "parked_vehicle_interaction"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】阳光斜射，部分区域出现阴影，无降水或能见度问题。【自车】保持中间车道匀速前进，随道路曲率自然行驶，未转向。【前方】一辆涂装彩色、车身老旧的校车（非标准车辆）停靠在右侧路边，车尾朝向自车方向，车身长度占用车道约60%。【左侧】一辆银色SUV和一辆白色货车依次停于路边，未移动。【右侧】一名行人出现在山坡草地上，背对自车，沿小径行走，距离自车约15米，无横穿马路意图。【非标物体】校车为静止状态，无作业动作，车身侧面贴有模糊广告文字，未见警示灯闪烁。【关键风险】校车占据部分车道，若其突然启动或开门，可能引发遮挡风险；行人虽在草坡，但靠近道路边缘，存在误入车道的可能性。",
+      "risk_tags": [
+        "partial_lane_obstruction",
+        "pedestrian_near_road_edge",
+        "non_standard_vehicle_static"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】光线稳定，树木投下清晰阴影，无天气突变。【自车】继续沿中间车道行驶，通过一个轻微弯道，车头偏航角变化小于5度，属正常沿道行驶。【左侧】一辆灰色Mini Cooper从对向车道驶过，完成交汇后驶离；随后一辆白色皮卡（车门印有“Lifecare”字样）从左侧车道驶入，未开启转向灯，快速切入自车左前方车道，形成切出行为。【右侧】多辆私家车及一辆白色PuroClean服务货车停于路边，货车车身印有“24/7 EMERGENCY SERVICE”字样，处于静止状态。【交通设施】前方再次出现“STOP”路面标记，路口设有人行横道线，远处可见另一组红绿灯结构。【关键风险】白色皮卡强行切入左前方车道，未打灯且速度较快，构成“违规加塞”行为，迫使自车减速以避免碰撞，存在潜在剐蹭或追尾风险。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "un signaled_lane_change",
+        "emergency_service_vehicle_parked"
+      ]
+    }
+  ]
+}

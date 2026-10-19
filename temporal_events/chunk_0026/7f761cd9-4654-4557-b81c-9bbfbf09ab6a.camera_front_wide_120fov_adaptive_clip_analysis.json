@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 08:38:08",
+    "processing_time_seconds": 13.12
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "自车在十字路口等待绿灯，左侧白色SUV和右侧黑色轿车先后从对向车道驶过，前方交通信号灯为绿灯，道路两侧有施工围栏和停放车辆。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:11",
+      "scene_description": "绿灯转红，自车停车等待，一辆蓝色特斯拉从左侧车道驶入并完成左转，同时右侧白色货车开始缓慢右转，路口无行人活动。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:15",
+      "scene_description": "自车启动左转，进入施工区域旁的单行道，道路两侧布满橙色路桩和施工围栏，左侧高架桥横跨道路，远处可见起重机和在建建筑。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "自车沿施工通道继续前行，前方出现多辆停靠的工程卡车，道路右侧有临时集装箱和施工人员活动，自车保持低速平稳行驶，未遇其他动态障碍物。"
+    }
+  ]
+}

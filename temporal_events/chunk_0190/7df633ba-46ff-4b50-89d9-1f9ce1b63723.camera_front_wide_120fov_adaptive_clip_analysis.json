@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 9.95,
+    "analysis_time": "2026-01-24 11:23:42"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间，浓雾笼罩道路，能见度极低，路灯与车灯在雾中形成严重光晕。【自车】位于中间车道，匀速沿直线道路前行，未进行转向或变道。【右侧】路边有发光路牌（紫色背光），但因雾气模糊不清；左侧可见一栋多层建筑轮廓及少量路灯。【交通设施】前方远处可见红绿灯结构，但细节不可辨识。【关键风险】由于浓雾导致视野受限，前方车辆尾灯虽可见，但无法判断其速度、制动状态或是否为静止障碍物，存在潜在碰撞风险。",
+      "risk_tags": [
+        "low_visibility",
+        "obstacle_uncertainty",
+        "reduced_reaction_time"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】雾气略有消散，但仍维持低能见度，路灯照明增强。【自车】保持中间车道，匀速行驶，随道路轻微左弯。【前方】多辆汽车尾灯密集，显示前方交通拥堵或红灯等待。【左侧】一辆白色SUV从对向车道驶入本车道并切入自车左前方，未打转向灯，属于违规变道行为。【右侧】人行道旁树木林立，无行人活动迹象。【关键风险】左侧突发“鬼探头”式强行加塞（Aggressive Cut-in），该白色SUV在未预警情况下切入，迫使自车紧急减速以避让，存在追尾或剐蹭风险。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "lane_blocking",
+        "emergency_braking"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雾气持续，能见度仍受限制，路面湿滑反光明显。【自车】在中间车道缓慢减速，最终停于红灯前，与前方车辆保持安全距离。【前方】一辆银灰色轿车（疑似本田思域）紧贴自车前方，刹车灯亮起，表明其已停车。【左侧】另一辆白色SUV（疑似雷克萨斯RX）在自车左前方车道内稳定停驻，未移动。【右侧】人行道边缘有落叶堆积，无行人或动物出现。【交通设施】前方路口信号灯为红色，清晰可见；道路标线部分被雾气模糊，但主要车道分隔线仍可辨识。【关键风险】前方车辆均处于静止状态，无动态威胁，但因雾气和视线遮挡，若前方车辆突然启动或发生故障，自车可能无法及时反应，存在“事故前兆”风险。",
+      "risk_tags": [
+        "traffic_light_stop",
+        "low_visibility_following",
+        "delayed_response_risk"
+      ]
+    }
+  ]
+}

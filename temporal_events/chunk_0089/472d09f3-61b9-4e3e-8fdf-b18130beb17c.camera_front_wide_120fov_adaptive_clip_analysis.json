@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.11,
+    "analysis_time": "2026-01-22 19:54:12"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间，天空阴沉，无明显降水或大雾，但整体能见度较低，路灯照明呈黄绿色光晕。【自车】在中间车道匀速沿直道行驶，未进行转向或变道。【右侧】一辆深色吉普车拖挂绿色垃圾箱，从右侧车道缓慢驶出并停靠于路边，车身部分侵入主路空间。【交通设施】道路两侧为住宅区，左侧有白色围栏，右侧为多层联排别墅，门前有照明灯。【关键风险】吉普车拖挂物占用路肩，存在剐蹭或紧急避让需求；其后方未见警示标识，可能引发后车误判。",
+      "risk_tags": [
+        "obstacle_in_lane",
+        "poor_visibility",
+        "unmarked_hazard"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】继续夜间行驶，路灯间距均匀，光照稳定。【自车】保持中间车道匀速前行，通过一个T字路口后进入下一段直道。【前方】出现黄色‘BUMP 15’限速警示牌，路面标有‘BUMP’字样提示减速。【右侧】一辆黑色皮卡拖挂绿色货斗，停靠在右侧车道边缘，车尾朝向自车方向，未见灯光闪烁或警示装置。【交通设施】路口设有交叉人行道与减速标线，右侧房屋前有蓝色/红色灯光闪烁（疑似装饰灯或安防系统），非交通信号灯。【关键风险】皮卡拖挂物占据部分车道，且车辆静止状态未开启警示灯，存在被后车追尾或误判为事故现场的风险；路面‘BUMP’标记提示需减速，但自车未明显降速，存在潜在碰撞风险。",
+      "risk_tags": [
+        "stationary_vehicle_without_flashers",
+        "insufficient_speed_reduction",
+        "road_marking_ignoration"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】夜间，天空仍阴沉，无明显天气变化。【自车】在中间车道匀速行驶，接近下一个路口。【左侧】一辆黑色皮卡拖挂绿色货斗正从左侧车道缓慢驶离，车头朝向自车前方，完成变道动作。【右侧】另一辆黑色皮卡拖挂大型平板拖车，停靠在右侧车道，车身横跨车道线，未见警示灯。【交通设施】前方路口设有‘BUMP’减速标线和箭头指示，右侧有黄色菱形警示牌。【关键风险】右侧拖车占用部分车道，且未设置任何警示设备，对自车构成横向侵占风险；左侧皮卡变道时未打转向灯，存在切入自车车道的潜在冲突；整体场景中多个施工/运输车辆静止停放，缺乏安全标识，易引发误判或紧急制动。",
+      "risk_tags": [
+        "unsignaled_lane_change",
+        "lack_of_warning_devices",
+        "multi-obstacle_conflict_zone"
+      ]
+    }
+  ]
+}

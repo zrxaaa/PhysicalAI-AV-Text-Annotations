@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 06:34:43",
+    "processing_time_seconds": 13.04
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "自车停在十字路口前，前方交通信号灯为红灯，右侧停有一辆公交车（编号8322），左侧人行道有行人等待过街，远处可见多辆轿车和货车在路口等候。天气晴朗，路面干燥，无明显施工或障碍物影响通行。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:11",
+      "scene_description": "信号灯转绿，行人开始穿越人行横道，自车保持静止直至行人完全通过；右侧公交车仍停靠路边，未移动；左侧一辆银色轿车准备左转，与自车路径存在交叉风险。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:14",
+      "scene_description": "自车启动向前行驶，进入直行车道，右侧公交车开始缓慢驶离，同时一名行人从右侧人行道走向街角；道路两侧设有橙色施工锥桶，提示车道缩减，但无施工人员在场。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "自车沿中央车道平稳前行，左侧出现一辆白色厢式货车正在卸货，车尾板放下，旁边有橙色锥桶引导车流绕行；右侧停放多辆私家车，未对自车路径造成干扰。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车继续直行，前方出现另一辆大型配送卡车（印有“CHEF'S CHOICE”字样）停靠在右侧路边，其后方有小型货车正在驶离；道路两侧建筑逐渐变高，视野开阔，无紧急避让行为。"
+    }
+  ]
+}

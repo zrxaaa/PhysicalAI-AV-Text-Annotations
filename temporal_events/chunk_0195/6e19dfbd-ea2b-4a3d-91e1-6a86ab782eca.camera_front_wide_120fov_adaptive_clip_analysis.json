@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 10.78,
+    "analysis_time": "2026-01-24 13:04:53"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，云层厚重，路面湿滑，有轻微水雾反射。【自车】位于最右侧车道，执行向左的平缓转向动作，车头偏航角从正向前逐渐转向左前方约15度。【左侧】对向车道有数辆轿车和一辆白色SUV匀速行驶，未见异常行为。【右侧】路边有杂草、灌木丛及红色储物单元建筑群，无行人或动物活动。【交通设施】初始阶段可见绿色“FREEWAY ENTRANCE NORTH 101”路牌，提示即将进入高速公路匝道。【关键风险】无明显违规或障碍物，但因路面湿滑且视野受云层影响，存在潜在打滑风险。",
+      "risk_tags": [
+        "wet_road",
+        "reduced_visibility"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】持续阴雨天气，挡风玻璃上有水滴模糊，能见度下降至约80米。【自车】保持在右转弯道内侧车道，沿曲线道路匀速前进，未变道。【右侧】出现“CARPOOL LANE”地面标线，提示为拼车专用车道；同时可见一排红白相间的储物仓建筑，其后方有少量停放车辆。【左侧】远处有树木与低矮建筑物，无显著动态目标。【交通设施】接近路口，出现“STOP HERE ON RED”标志牌，前方为十字路口信号灯（当前为绿灯）。【关键风险】自车在湿滑弯道上行驶，视线受雨滴干扰，若遇突发横穿车辆或行人，制动距离将延长；此外，右侧Carpool Lane标线可能诱导非合规车辆误入，存在潜在违规风险。",
+      "risk_tags": [
+        "rain_obscured_vision",
+        "curved_wet_road",
+        "lane_confusion_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】阴雨持续，部分区域有薄雾，能见度维持在70-80米。【自车】驶入高架桥下方通道，纵向速度略有提升，保持在中间车道。【前方】一辆黑色皮卡车（带粉色轮毂）在左前方车道并行，随后加速超越自车。【上方】高架桥结构清晰，桥下悬挂“Great America Pkwy / Bowers Avenue ½ MILE”绿色指示牌，以及“15FT 3IN”限高标志。【右侧】桥墩旁有施工围栏与土堆，远处可见起重机轮廓，暗示附近有施工活动。【交通设施】通过桥洞时，自车未停车，直接通行；桥洞内光线较暗，与外部阴天形成强烈明暗对比。【关键风险】高架桥下存在光照突变，易导致视觉适应延迟；右侧施工区域虽无作业车辆，但存在未封闭的土堆与围栏，若遇突发落石或设备倾倒，可能构成障碍；黑色皮卡加速超车行为需警惕其突然变道风险。",
+      "risk_tags": [
+        "light_transition_risk",
+        "construction_zone_proximity",
+        "overtaking_vehicle_risk"
+      ]
+    }
+  ]
+}

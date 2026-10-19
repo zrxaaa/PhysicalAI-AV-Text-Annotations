@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.97,
+    "analysis_time": "2026-01-21 18:04:00"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "【环境】阴天，云层较厚，无明显降水，路面干燥但有施工区域反光。【自车】位于中间车道，执行匀速行驶，前方车辆密集，车流缓慢移动。【右侧】存在施工区域，由橙色锥桶与金属围栏隔离，路肩堆放土方与混凝土构件。【交通设施】道路右侧设“ABRUPT LANE EDGE”警示牌，提示车道突然收窄。【周围车辆】左前方一辆黑色SUV在邻近车道超车；右前方银灰色轿车在施工区边缘减速，随后向右变道绕行。【关键风险】施工区域未设置连续引导标线，车辆变道时存在路径不确定性；左侧对向车道有车辆加速并试图超越，存在潜在切线冲突。",
+      "risk_tags": [
+        "lane_change_uncertainty",
+        "construction_zone_obstacle",
+        "crossing_traffic"
+      ]
+    },
+    {
+      "time_segment": "00:00:07-00:00:11",
+      "scene_description": "【环境】天空仍阴沉，能见度良好。【自车】在中间车道接近十字路口，前方红灯亮起，开始减速停车。【交通设施】路口上方悬挂多组交通信号灯，显示为红灯；路牌标识“NE 124th St”。【周围车辆】右侧银灰色轿车完成右转，驶离主路；左前方一辆深灰色SUV在左转车道等待。【非标物体】路口右侧人行道旁立有“BIKE LANE CLOSED”标志牌，后方可见施工围挡内有小型挖掘机静止停放，未作业。【关键风险】自车需在红灯前完全停止，但前方车辆因右转而提前切入直行车道，存在轻微违规转向风险（Red Light Violation Risk），且施工区域未设清晰导流，易引发交叉冲突。",
+      "risk_tags": [
+        "red_light_violation_risk",
+        "intersection_conflict",
+        "bicycle_lane_closure_impact"
+      ]
+    },
+    {
+      "time_segment": "00:00:11-00:00:19",
+      "scene_description": "【环境】阴天，光线均匀，无强逆光或遮挡。【自车】通过路口后恢复匀速行驶，保持在中间车道。【道路特征】路面重新铺装，标有白色导向箭头与黄色虚线分隔车道；右侧施工区持续存在，设有“DETOUR”指示牌及锥桶引导。【周围车辆】前方一辆白色皮卡在右侧车道行驶，保持稳定距离；左侧对向车道有数辆轿车正常通行。【交通设施】右侧施工围栏上挂有“J.C. JOHANSEN CONSTRUCTION COMPANY”公司标识牌，围栏内可见堆叠的预制混凝土板与土方。【关键风险】施工区域未完全封闭，部分路段仅以锥桶引导，存在行人或非机动车误入风险；路面标线部分模糊，可能影响车道识别；自车需持续注意右侧施工区动态，避免因视野受限导致避让不及。",
+      "risk_tags": [
+        "construction_zone_entrance_risk",
+        "poor_signaling_clarity",
+        "pedestrian_crossing_potential"
+      ]
+    }
+  ]
+}

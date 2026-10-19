@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 09:40:32",
+    "processing_time_seconds": 17.27
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "自车在多车道公路上匀速行驶，右侧为施工区域，设有橙白相间路障和石砌挡土墙；左侧车道有数辆汽车并行，包括一辆深色SUV与白色轿车，均保持稳定车距。天气阴沉，路面干燥，无明显湿滑或能见度问题。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "前方出现交通信号灯控制的十字路口，自车接近时信号灯为绿灯，车辆有序通行；右侧施工区增设“CAUTION STEEL PLATES AHEAD”警示牌，部分路障被风吹倒或移位，影响车道边界识别。自车未减速，保持直行通过交叉口。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:18",
+      "scene_description": "自车在十字路口右转车道等待，前方红灯亮起，右侧停有多辆待转车辆，包括红色轿车、黑色SUV及蓝色皮卡；左侧对向车道车辆正常左转或直行，无行人穿越，路口无冲突车辆。自车静止等待，未进行转向动作。"
+    },
+    {
+      "time_segment": "00:00:19-00:00:20",
+      "scene_description": "信号灯转为绿灯，自车开始右转进入新路段，前方红色轿车同步启动并完成左转；道路右侧仍可见施工围栏与路障，但无人员活动；自车完成转向后恢复直行，进入下一阶段行驶路径。"
+    }
+  ]
+}

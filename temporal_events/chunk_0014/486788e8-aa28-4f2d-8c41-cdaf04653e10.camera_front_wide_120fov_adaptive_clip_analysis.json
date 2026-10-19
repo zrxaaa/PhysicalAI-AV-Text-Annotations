@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 04:21:41",
+    "processing_time_seconds": 10.92
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "傍晚时分，自车停在十字路口等待红灯，前方交通信号灯为红色，右侧有一辆白色轿车静止待行，左侧有车辆从交叉口驶过。"
+    },
+    {
+      "time_segment": "00:00:03-00:00:07",
+      "scene_description": "信号灯转绿，自车开始向前行驶，同时左侧一辆深色SUV加速左转进入主路，右侧白色轿车同步启动并保持在相邻车道。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:11",
+      "scene_description": "自车完成左转后沿直道行驶，左侧出现高墙与人行道，右侧为砖砌建筑；前方无显著障碍物，道路标线清晰，车流稀疏。"
+    },
+    {
+      "time_segment": "00:00:11-00:00:15",
+      "scene_description": "自车持续直行，前方远处可见一辆银色轿车同向行驶，右侧路边偶有行人或停放车辆，路灯照明良好，路面干燥无积水。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "自车接近下一个路口，右侧出现临时施工围栏但无人员活动，前方车辆减速准备停车，自车维持当前车道平稳跟进。"
+    }
+  ]
+}

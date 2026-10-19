@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.24,
+    "analysis_time": "2026-01-22 19:11:03"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间，浓雾笼罩街道，能见度极低，路灯与车灯在雾中形成严重光晕。【自车】位于中间车道，匀速沿直线道路前行，未进行转向或变道。【左侧】一辆银灰色SUV从对向车道驶过，因雾气遮挡，车身轮廓模糊，未见明显交互意图。【右侧】砖砌建筑（标有“SAINT PAUL POLICE DEPARTMENT”）沿街延伸，无行人或车辆活动。【交通设施】前方路口信号灯显示为红灯，但因雾气干扰，灯光呈弥散红色光斑，无法精确判断其状态变化。",
+      "risk_tags": [
+        "low_visibility",
+        "reduced_traffic_perception"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】雾气略有消散，但整体仍影响视线；路灯与交通信号灯的光晕依然存在，尤其右侧蓝色强光干扰视觉。【自车】保持在中间车道，减速至停车线前，等待红灯转绿。【前方】多个方向的交通信号灯均显示为红灯，其中正前方及左转方向信号灯清晰可见。【右侧】“SAINT PAUL POLICE DEPARTMENT”建筑旁设有黄黑相间警示柱，无人员活动。【左侧】远处可见一栋多层住宅楼，窗户透出微弱灯光，无行人或车辆移动迹象。【关键风险】自车在红灯前停车，但前方路口存在多个方向的红灯，且因雾气和光晕，无法确认是否有车辆或行人闯入交叉口，存在潜在“鬼探头”风险。",
+      "risk_tags": [
+        "red_light_waiting",
+        "ghost_probe_risk",
+        "light_haze_interference"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雾气持续，但部分区域光线增强，能见度轻微改善。【自车】在停车线前保持静止，等待信号灯变绿。【前方】交通信号灯由红灯转为绿灯，同时左侧人行横道信号灯也同步变为绿色通行指示。【右侧】“SAINT PAUL POLICE DEPARTMENT”建筑入口处无人员进出，门禁系统未激活。【左侧】对向车道车辆开始启动，有序通过路口。【非标准物体】在路口左后方约30米处，出现一名行人（性别不明），身穿深色衣物，面向自车方向站立，双手自然下垂，头部略微抬起，疑似观察交通状况，未立即横穿马路。【关键风险】行人处于自车盲区边缘（因右侧建筑遮挡），若突然移动将构成“鬼探头”威胁；同时，自车需警惕左侧对向车辆可能加速抢行。",
+      "risk_tags": [
+        "pedestrian_in_blind_spot",
+        "crossing_potential",
+        "left_lane_acceleration_risk"
+      ]
+    }
+  ]
+}

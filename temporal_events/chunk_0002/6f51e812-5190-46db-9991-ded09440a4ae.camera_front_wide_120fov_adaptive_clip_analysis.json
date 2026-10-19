@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:18:51",
+    "processing_time_seconds": 15.51
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "道路右侧有绿化带与低矮灌木，远处可见建筑物与山丘轮廓，天气晴朗，阳光位于右上方，路面干燥无湿滑迹象。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "阳光强烈导致画面部分过曝，但不影响道路识别，自车保持匀速通过弯道，未见明显减速或转向调整。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "右侧路边出现黄色垃圾袋堆，远处可见高架桥结构，自车在进入交叉口前未减速，保持当前车道直行通过。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "自车在桥下通道内平稳行驶，两侧有其他车辆（包括货车）同向通行，无紧急避让或变道行为，环境光线因桥梁遮挡略有减弱。"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.8,
+    "analysis_time": "2026-01-23 08:31:43"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴天，无降水，路面干燥，能见度良好。【自车】在中间车道匀速沿弯曲石板路前行，未进行转向或变道。【左侧】停放多辆厢式货车（含银色大众T6、白色面包车），部分车辆后方有自行车倚靠；右侧停放银色轿车与白色小型车。【交通设施】左侧建筑墙面上有“BANKSCHEN AUTOMAT”标识及停车收费桩，右侧街角有“Schwartzstraße”路牌。【关键风险】无明显违规行为或障碍物，但左侧停车车辆密集，存在开门杀风险（如车门突然开启）。",
+      "risk_tags": [
+        "door_opening_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】持续阴天，光照均匀，无遮挡。【自车】保持中间车道匀速行驶，随道路曲率自然前进。【左侧】出现涂鸦墙与多辆停放汽车（红色菲亚特、黑色奔驰C级），其中一辆白色厢式货车车身印有“FCSB USP”字样；【右侧】可见蓝色大众Caddy停于路边，后方为浅蓝与灰白相间建筑。【非标物体】左侧涂鸦墙下有数辆自行车被锁链固定，无移动迹象。【关键风险】无突发交互，但左侧涂鸦墙区域有行人活动可能的隐蔽空间，存在潜在“鬼探头”风险（如行人从墙后突然走出）。",
+      "risk_tags": [
+        "ghost_probe_potential",
+        "occlusion_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "【环境】天气稳定，树木枝叶茂密，部分遮挡上方视野。【自车】继续在中间车道匀速行驶，通过一个轻微左转弯道。【左侧】红砖住宅楼前停放银色奔驰E级与深色SUV，门前有自行车架；【右侧】红砖建筑旁停有深灰色越野车（备胎外挂），其后为白色厢式货车。【交通设施】前方路口设有“Verkehrsberuhigung”（减速区）标志，提示限速。【关键风险】右侧越野车后备胎位置较高，若突然启动或开门可能影响侧向通行；左侧停车车辆间距较窄，存在剐蹭风险。",
+      "risk_tags": [
+        "narrow_parking_space",
+        "high_bumper_obstacle"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】光线略暗，树冠浓密导致局部阴影，无降水。【自车】在中间车道匀速直行，接近视频末段。【左侧】停放银色标致307与白色菲亚特500，车距约2米；【右侧】红砖楼前停有黑色轿车与深色SUV，车尾贴有“06R”车牌框。【非标物体】右侧建筑窗台有盆栽植物，部分枝叶垂落至人行道，无动态趋势。【关键风险】无紧急交互，但两侧停车密度高，尤其右侧车辆尾部突出，若自车并线需谨慎；视频末段前方出现交叉路口，存在横向车辆闯入风险，当前无信号灯控制，需提高警觉。",
+      "risk_tags": [
+        "high_parking_density",
+        "intersection_approach_risk"
+      ]
+    }
+  ]
+}

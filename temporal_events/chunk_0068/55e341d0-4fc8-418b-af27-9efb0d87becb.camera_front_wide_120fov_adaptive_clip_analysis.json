@@ -1,0 +1,37 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.08,
+    "analysis_time": "2026-01-22 10:34:41"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，能见度良好，无降水或遮挡。【自车】在中间车道匀速沿直道行驶，未进行转向或变道。【左侧】一辆深色轿车从左前方邻车道超车并驶离视野；【正前方】一辆白色FedEx货运卡车正在右侧车道执行右转动作，车身部分进入路口，其后方有数辆静止或缓慢移动的车辆。【交通设施】路面标有“FIRE LANE”及“NO PARKING”字样，提示该区域为消防通道，禁止停车。【关键风险】FedEx卡车右转时未完全避让直行自车，存在轻微横向交互冲突，但因距离较远且自车保持直行，未构成紧急风险。",
+      "risk_tags": [
+        "minor_lateral_interaction",
+        "fire_lane_warning"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】晴朗，阳光直射，右侧建筑玻璃幕墙产生反光。【自车】继续在中间车道匀速前进，接近路口。【前方】一辆白色SUV（Jeep Cherokee）从对向车道驶来，在路口处减速并准备左转，位于自车正前方约30米处。【右侧】一座大型商业建筑（标有“CINEMARK”）入口旁设有一个红色八角形“STOP”标志牌，地面亦有“STOP”字样喷涂。【交通设施】自车即将通过人行横道与停车标志交叉区域，需遵守停车让行规则。【关键风险】白色SUV在路口左转时未充分观察直行自车，存在潜在切入风险；若其转向角度过大，可能侵入自车行驶路径，构成“切出”威胁。",
+      "risk_tags": [
+        "potential_cut_out",
+        "intersection_crossing_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】光照稳定，无天气异常。【自车】在接近路口停止线时减速至停车状态，等待前方白色SUV完成左转。【右侧】CINEMARK影院建筑入口清晰可见，门前无行人活动。【左侧】停车场内多辆汽车静止停放，部分车辆在充电站附近。【交通设施】路面标有“NO PARKING FIRE LANE”，自车当前所在车道为消防通道，禁止任何车辆停留。【非标物体】无特种车辆、动物或遗撒物。【关键风险】自车在消防通道上临时停车，虽为合法停车（因遵守停车标志），但仍违反“禁止停车”规定，存在被执法部门处罚的风险；同时，若后续有救护车或消防车需要通行，自车将构成阻碍，属于高危长尾场景。",
+      "risk_tags": [
+        "illegal_parking_in_fire_lane",
+        "obstruction_risk_for_emergency_vehicles"
+      ]
+    }
+  ]
+}

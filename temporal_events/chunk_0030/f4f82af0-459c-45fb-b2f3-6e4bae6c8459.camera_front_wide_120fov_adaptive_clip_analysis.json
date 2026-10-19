@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 10:59:43",
+    "processing_time_seconds": 14.14
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "自车沿笔直道路平稳行驶，前方出现‘Center Avenue’路牌，道路两侧为树木、围栏与低密度住宅，无显著交通参与者交互，路面标有‘AHEAD’字样提示前方注意。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:11",
+      "scene_description": "接近十字路口，右侧出现红色‘STOP ALL WAY’标志，一辆蓝色工程皮卡从左侧横向驶入交叉口并完成左转，自车在停车线前减速停驻，未发生路径冲突。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:15",
+      "scene_description": "工程皮卡完成左转后驶离路口，自车观察确认安全后继续直行，对向车道有一辆银色轿车从左侧路口驶出，与自车路径无交集，路口无其他动态车辆或行人。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车继续沿直线道路行驶，道路两侧为木栅栏、混凝土墙及稀疏植被，无其他车辆或行人进入近距视野，环境安静，天气晴朗，路面干燥无障碍物。"
+    }
+  ]
+}

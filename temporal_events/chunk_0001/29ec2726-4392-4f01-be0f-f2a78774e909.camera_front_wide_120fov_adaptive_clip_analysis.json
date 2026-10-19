@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 23:09:28",
+    "processing_time_seconds": 28.31
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在Park Ave路口等待绿灯，前方为一辆深色轿车和一辆白色货车，左侧有‘ONE WAY’指示牌，交通信号灯显示绿灯即将转黄。阳光从左上方照射，路面干燥清晰。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "绿灯亮起，自车与前方车辆启动前行，左侧一辆红色SUV从交叉口左转驶入主路，右侧白色货车继续直行。交通信号灯在远处路口仍为绿灯，无行人出现。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "自车通过十字路口后进入直行道路，前方深色轿车保持匀速行驶，右侧路边停放多辆汽车，包括白色面包车和皮卡，左侧出现施工围栏和广告牌。阳光位于右后方，形成逆光。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "自车沿双黄线道路继续直行，左侧出现一栋浅色房屋和一个大型广告牌，右侧为低矮建筑和绿色围栏。对向车道有白色轿车驶来并完成超车，未发生路径冲突。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车继续沿街行驶，前方车辆保持稳定速度，右侧出现白色栅栏围住的住宅区，左侧有电线杆和树木。远处可见高层建筑群，天气晴朗，无行人或突发交通事件。"
+    }
+  ]
+}

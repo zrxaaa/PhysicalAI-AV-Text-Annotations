@@ -1,0 +1,44 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.73,
+    "analysis_time": "2026-01-22 14:26:35"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】阴雨天气，路面湿滑，能见度中等偏低，天空灰白无阳光。【自车】位于中间车道，匀速沿直线道路前行，未进行转向或变道。【右侧】路边植被茂密，有电线杆和路牌（“NE HILLSIDE RD”），无明显障碍物。【交通设施】前方约80米处出现左转箭头标线，提示即将进入弯道。【关键风险】无显著风险，但湿滑路面增加制动距离不确定性。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:05-00:00:09",
+      "scene_description": "【环境】持续阴雨，路面反光明显，部分区域积水。【自车】在中间车道保持匀速行驶，接近交叉路口。【左侧】对向车道有两辆大型卡车（一辆自卸车、一辆半挂）正在通过，车速平稳。【右侧】一辆白色Jeep Wrangler从支路驶出，执行右转动作，切入自车所在车道前缘，未打转向灯，存在潜在切入冲突。【关键风险】Jeep突然切入，属于“非预警式切出”，自车需紧急避让以避免碰撞，构成高风险交互。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "wet_road",
+        "sudden_crossing"
+      ]
+    },
+    {
+      "time_segment": "00:00:09-00:00:12",
+      "scene_description": "【环境】雨势略有减弱，但仍为阴天，树木枝叶因雨水下垂，部分遮挡视线。【自车】完成右转路口后，继续沿弯曲道路前行，保持当前车道。【右侧】一辆白色皮卡（Chevrolet Silverado）从右侧弯道驶入主路，与自车同向，车速适中，未发生交互。【前方】一辆黑色SUV（Toyota Sienna）从对向车道驶来，已过交叉口，正沿直道远离。【交通设施】右侧出现黄色“鹿出没”警示牌，提示野生动物活动风险。【关键风险】无直接碰撞风险，但“鹿出没”标志提示未来路段可能存在动物横穿，需提高警觉。",
+      "risk_tags": [
+        "animal_warning",
+        "no_immediate_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】持续阴雨，能见度稳定，路面湿润但无明显积水。【自车】在中间车道沿连续弯道行驶，随道路曲率自然调整方向，未进行主动转向操作。【前方】远处可见一辆白色SUV迎面驶来，已进入弯道，车速较慢，无异常行为。【右侧】路边植被浓密，有多个黄色弯道警示牌（含“S形弯”符号），提示前方为连续弯道。【非标物体】无动物、无施工车辆、无遗撒物。【关键风险】无即时危险，但连续弯道+湿滑路面组合构成潜在长尾风险，需保持低速谨慎驾驶。",
+      "risk_tags": [
+        "continuous_curves",
+        "wet_pavement",
+        "low_visibility_continuity"
+      ]
+    }
+  ]
+}

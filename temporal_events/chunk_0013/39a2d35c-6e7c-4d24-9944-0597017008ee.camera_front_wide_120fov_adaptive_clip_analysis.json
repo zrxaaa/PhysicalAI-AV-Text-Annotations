@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 03:43:28",
+    "processing_time_seconds": 12.99
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "车辆从十字路口起步，前方道路开阔，两侧绿树成荫，右侧出现限速40的交通标志牌，自车保持匀速直行，未见明显障碍物或行人。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "右侧路边停放多辆汽车，其中一辆深色SUV在自车前方右转驶入支路，自车继续直行，未发生交互；左侧对向车道有银色轿车驶来并完成超车。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "自车经过一个无信号灯的交叉口，前方道路两侧出现住宅区，左侧停有一辆白色皮卡，右侧草地边缘有木栅栏，天气晴朗，路面干燥无积水。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "道路左侧出现一栋两层白色房屋，门前停有数辆车，右侧为茂密灌木与草坪，自车保持稳定速度行驶，未遇行人或其他动态障碍。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车接近下一个路口，前方道路两侧分布住宅与车库，右侧可见一辆黑色皮卡停在车道上，自车未减速，继续沿直线平稳行驶，无紧急避让行为。"
+    }
+  ]
+}

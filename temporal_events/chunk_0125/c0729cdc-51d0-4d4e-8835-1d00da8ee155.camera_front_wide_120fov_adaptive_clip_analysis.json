@@ -1,0 +1,44 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 18.77,
+    "analysis_time": "2026-01-23 11:04:49"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴朗天气，天空无云，阳光直射导致挡风玻璃顶部出现眩光。【自车】位于中间车道，处于路口停车状态，等待红灯。【前方车辆】一辆深灰色敞篷轿车（梅赛德斯-奔驰）停在自车正前方，车头朝向与自车一致，处于停止状态。【交通设施】前方为十字路口，设有悬臂式交通信号灯，当前显示红灯；右侧设有“让行”三角警示标志。【关键风险】前方敞篷车未移动，但右侧横向车道有卡车即将进入视野，存在潜在的闯红灯或抢行风险，需警惕横向交叉冲突。",
+      "risk_tags": [
+        "red_light_waiting",
+        "crossing_traffic_potential",
+        "stationary_vehicle_blocking_view"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:09",
+      "scene_description": "【环境】晴天，阳光强烈，挡风玻璃出现明显眩光。【自车】在绿灯亮起后启动，沿中间车道起步前行。【右侧横向交通】一辆白色厢式货车（车身印有“LGI Logistics Group International”字样）从右方驶入交叉口，正在执行右转动作，车速平稳。【相对位置】该货车位于自车右前方约15米处，与自车形成横向交汇路径。【交互意图】货车完成右转后驶离路口，未对自车造成阻碍。【关键风险】货车车身较长，在转弯过程中占据部分车道，自车需保持安全距离以防其转向半径过大侵入本车道。",
+      "risk_tags": [
+        "right_turn_crossing",
+        "long_vehicle_turn_radius",
+        "glare_on_windshield"
+      ]
+    },
+    {
+      "time_segment": "00:00:09-00:00:17",
+      "scene_description": "【环境】晴天，阳光位于车顶上方，形成强逆光，路面反射光线明显。【自车】已驶出交叉口，进入主干道，保持匀速沿直线车道行驶。【道路结构】前方可见一座混凝土桥梁横跨道路，桥下限高约4.5米，桥墩上有“70”限速标志。【周边环境】道路两侧为茂密绿化带，左侧有公交站台及广告牌，右侧有低矮建筑和树木。【交通设施】桥体下方无遮挡，视线良好；路边设有“BUS”专用道标识，但当前无公交车通行。【关键风险】无显著风险，但桥梁结构可能对高顶车辆构成潜在限制，需注意后续路段是否有高度限制提示。",
+      "risk_tags": [
+        "high_visibility_glare",
+        "bridge_clearance_warning"
+      ]
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "【环境】晴朗，阳光持续照射，无云层遮挡。【自车】继续在中间车道匀速行驶，道路平直，无弯道。【周围车辆】前方远处有一辆黑色轿车，保持稳定车距，未进行变道或加速。【非标准物体】道路两侧绿化带内无动物、行人或其他障碍物。【交通设施】无新增信号灯或路标，路面标线清晰连续。【关键风险】此段为常规高速公路/城市主干道行驶场景，无紧急风险事件发生，无需特别预警。",
+      "comment": "此段无关键风险，故不包含risk_tags字段"
+    }
+  ]
+}

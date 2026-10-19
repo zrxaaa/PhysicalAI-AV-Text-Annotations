@@ -1,0 +1,48 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.91,
+    "analysis_time": "2026-01-22 00:39:18"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:03",
+      "scene_description": "【环境】阴天，乌云密布，光线昏暗，无明显降水但能见度偏低。【自车】位于中间车道，正执行减速停车动作，等待前方红灯。【右侧】多辆轿车（含银色丰田卡罗拉、灰色本田雅阁）与自车并行，处于右邻车道，部分车辆在自车右侧缓慢向前移动。【左侧】一辆黑色SUV（疑似凯迪拉克Escalade）从左转车道驶入交叉口，完成左转动作。【交通设施】前方路口设有多个交通信号灯，当前为红灯；左侧路旁有“禁止左转”和“禁止掉头”标志牌。【关键风险】左侧左转车辆与自车存在潜在冲突，若左转车辆未充分礼让直行车辆，可能引发碰撞。",
+      "risk_tags": [
+        "potential_conflict",
+        "red_light_waiting",
+        "left_turn_crossing"
+      ]
+    },
+    {
+      "time_segment": "00:00:03-00:00:08",
+      "scene_description": "【环境】天空持续阴沉，无降水迹象，路面干燥。【自车】保持静止状态，停于交叉口停止线后，等待绿灯。【前方】多辆直行车（含白色丰田凯美瑞、深灰色奔驰C级）从对向车道驶来，正在通过交叉口。【右侧】一辆银色轿车从右方切入自车所在车道，完成变道动作，进入直行车道。【交通设施】路口信号灯仍为红灯，右侧路牌显示“E. Loma Linda Dr”，指示方向清晰。【关键风险】右侧银色轿车在自车未完全停止时强行切入，存在“加塞”行为，可能引发追尾或剐蹭事故。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "red_light_violation_risk",
+        "lane_change_conflict"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】天气无显著变化，云层厚重，光照均匀。【自车】维持静止，未发生任何横向或纵向运动。【前方】多辆直行车辆（含白色马自达6、深灰色特斯拉Model 3）陆续通过交叉口，车流有序。【左侧】对向车道有数辆车在等待信号灯，包括一辆银色小型车和一辆蓝色轿车，均未启动。【交通设施】信号灯仍未变绿，但倒计时器显示剩余时间约5秒。【关键风险】无直接碰撞风险，但因长时间等待，后方车辆可能产生不耐烦行为，如鸣笛催促或强行变道，增加后续交互风险。",
+      "risk_tags": [
+        "long_wait_risk",
+        "rear_vehicle_impatience_potential"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】天空依旧阴沉，无降水，能见度良好。【自车】保持静止，未发生任何动作。【右侧】一辆深灰色轿车从右方驶入交叉口，完成右转动作，进入目标道路。【前方】远处有两辆白色轿车从直行车道驶近，即将通过交叉口。【交通设施】信号灯仍为红灯，右侧路牌“E. Loma Linda Dr”清晰可见。【关键风险】无明显危险行为，但因路口结构复杂，存在潜在“鬼探头”风险——例如，从右侧建筑物拐角或公交站台突然出现行人或非机动车，而自车因视线被遮挡无法及时反应。",
+      "risk_tags": [
+        "ghost_probe_risk",
+        "occlusion_by_building",
+        "no_immediate_threat"
+      ]
+    }
+  ]
+}

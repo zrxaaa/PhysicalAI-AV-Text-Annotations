@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 07:59:50",
+    "processing_time_seconds": 13.12
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车沿陡坡街道匀速行驶，前方为绿灯，两侧停满车辆；右侧一辆黑色SUV从路边驶出并切入自车所在车道，自车保持原速未避让。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:08",
+      "scene_description": "车辆通过十字路口后，自车向右轻微转向以避让右侧驶入的银色轿车，同时左侧有白色轿车加速超车，交通信号灯仍为绿灯。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车继续直行，道路两侧出现多辆停放车辆，包括一辆白色特斯拉和一辆复古甲壳虫；远处可见红绿灯变黄，但自车未减速，保持当前车道行驶。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "前方黑色SUV在车道内缓慢行驶，自车与其保持安全距离跟随；右侧人行道上一名行人正在行走，未进入车道，无冲突风险。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车接近前方路口，交通信号灯转为红灯，自车平稳停车等待；右侧车道有红色Mini Cooper启动并向前移动，与自车无直接交互。"
+    }
+  ]
+}

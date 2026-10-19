@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 04:02:04",
+    "processing_time_seconds": 12.6
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在城市街道中匀速行驶，前方有一辆白色小型巴士正在右转进入路边停车区，左侧人行道有三名行人站立交谈，未对行车路径造成影响。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "自车继续直行，左侧一辆银色面包车驶离路边，右侧一辆银色SUV缓慢向前移动，道路两侧停满车辆，远处可见交通信号灯和尖顶建筑轮廓。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车接近十字路口，前方两辆车（银色SUV与白色越野车）减速停车，右侧路边出现多个带轮垃圾桶及摊贩，行人从右侧人行横道穿行至对面。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车在红灯前保持静止，前方车辆同样停止，右侧摊贩区域有多名顾客在选购商品，一名推车行人从右侧横穿马路，与自车所在车道无直接冲突。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "交通信号灯仍为红色，自车持续等待，右侧垃圾桶旁有行人整理货物，左侧一辆涂鸦货车部分遮挡视线但未移动，整体场景稳定无突发行为。"
+    }
+  ]
+}

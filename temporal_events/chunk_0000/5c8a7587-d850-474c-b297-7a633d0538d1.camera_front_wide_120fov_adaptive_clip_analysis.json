@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 22:08:56",
+    "processing_time_seconds": 22.3
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在高速多车道道路上匀速行驶，右侧车道有一辆灰色皮卡与自车并行，左侧车道有多个货车和轿车在缓慢移动，前方可见‘CARPOOL VIOLATION’标志牌及车道分隔线。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "自车继续直行，前方出现一辆白色平板货车，其后方载有金属框架结构，右侧车道有银色SUV加速超车，左侧路肩停有多辆卡车，上方高架指示牌显示‘LEFT LANE CARPOOLS ONLY’。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "自车保持当前车道行驶，前方白色厢式货车逐渐减速，右侧车道有两辆轿车先后变道至自车所在车道，左侧车道车辆密集，部分车辆在减速或停车，上方绿色指示牌显示‘91 Riverside’方向。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "自车在接近出口匝道时减速，右侧车道一辆深色SUV完成变道并超越自车，前方白色厢式货车继续缓慢行驶，道路两侧为混凝土护栏和绿化带，天气晴朗，路面干燥无积水。"
+    }
+  ]
+}

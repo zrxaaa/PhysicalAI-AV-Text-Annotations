@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 02:02:43",
+    "processing_time_seconds": 13.15
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "接近十字路口时，自车减速，前方出现红色STOP标志和施工区域，多名穿反光背心的工人在路中间作业，一辆黄色挖掘机停在施工区边缘，交通流受阻。"
+    },
+    {
+      "time_segment": "00:00:06-00:00:09",
+      "scene_description": "交通指挥员完成手势引导后，自车向左转向，驶离施工区域，进入主干道。此时UPS货车已完全通过路口，道路恢复常规通行状态。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "在红灯期间，自车前方无移动车辆，右侧人行道有行人站立等候，左侧车道有车辆缓慢驶入，未对自车路径造成影响。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "自车平稳通过交叉路口，未发生变道或紧急制动。天气持续阴沉，路面干燥，电线杆与交通信号灯系统清晰可见，整体交通秩序良好。"
+    }
+  ]
+}

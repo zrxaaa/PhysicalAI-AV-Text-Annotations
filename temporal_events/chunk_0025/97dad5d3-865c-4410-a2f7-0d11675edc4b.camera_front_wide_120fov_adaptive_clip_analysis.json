@@ -1,0 +1,37 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 08:05:49",
+    "processing_time_seconds": 21.26
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:07",
+      "scene_description": "自车沿城市街道直行，前方为绿灯，右侧一辆白色货车驶离路边，左侧多辆轿车停靠在路边。车辆在接近十字路口时，信号灯由绿转黄，自车减速准备停车。",
+      "scene_description_2": "道路两侧为多层住宅建筑，街角有交通信号灯和人行横道标志，天气阴沉但无雨，路面干燥，视野清晰。"
+    },
+    {
+      "time_segment": "00:00:07-00:00:10",
+      "scene_description": "自车在十字路口左转进入一条陡峭上坡路，右侧一辆白色轿车与自车并行后加速驶离，左侧有数辆汽车沿坡道停放。",
+      "scene_description_2": "转弯过程中，右侧出现一辆深色SUV从斜坡上方驶下，与自车形成交叉路径，但未发生冲突；道路两侧树木茂密，遮挡部分视线。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "自车沿陡坡持续上行，前方可见一辆黑色SUV在同车道行驶，刹车灯亮起，表明前方有红灯或障碍物。左侧有银色轿车驶入对向车道。",
+      "scene_description_2": "道路两侧停放着多辆汽车，部分车辆因坡度倾斜而紧贴路缘，树木枝叶低垂，轻微影响侧方视野，但未阻碍通行。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "自车继续上坡，前方黑色SUV在红灯前停下，自车随之减速并保持安全距离。左侧一辆灰色SUV从支路驶出，短暂切入自车前方车道。",
+      "scene_description_2": "远处高楼被薄雾笼罩，能见度略有下降，但不影响当前路段的交通判断。交通信号灯显示为红色，所有车辆均处于静止状态。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "红灯持续，自车保持停车状态，前方黑色SUV尾灯常亮，右侧一辆银色轿车缓慢驶过，未进入自车所在车道。",
+      "scene_description_2": "道路两侧建筑风格统一，多为联排住宅，无行人活动，环境安静。信号灯仍为红色，自车未移动，等待通行指令。"
+    }
+  ]
+}

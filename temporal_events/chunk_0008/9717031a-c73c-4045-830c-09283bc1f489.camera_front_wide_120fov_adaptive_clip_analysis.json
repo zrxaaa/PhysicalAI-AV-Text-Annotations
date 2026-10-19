@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 01:58:33",
+    "processing_time_seconds": 11.38
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在夜间城市街道上匀速直行，道路两侧停有车辆，右侧一辆深色SUV从后方加速并入中间车道，与自车并行短暂后驶离。路灯照明充足，路面无明显湿滑或障碍物。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "前方十字路口出现红灯，自车减速准备停车，左侧车道有数辆汽车排队等候，右侧人行道上有行人站立，未横穿马路。街道两侧建筑密集，无施工或临时标志干扰交通流。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "信号灯转绿，自车继续前行，前方一辆黄色SUV从右侧驶入主路并超越自车，随后在前方路口左转。街道左侧出现一列停靠的电车，车身较长，部分遮挡对向车道视线。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "自车接近电车站台，左侧电车缓缓进站，车门开启，一名乘客正从车门处下车。远处可见另一辆公交车亮起尾灯，正沿对向车道驶来，自车保持安全距离平稳通过路口。"
+    }
+  ]
+}

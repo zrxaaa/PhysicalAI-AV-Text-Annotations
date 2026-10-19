@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 07:52:27",
+    "processing_time_seconds": 15.51
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "自车在晴朗天气下沿停车场主干道匀速行驶，右侧车道有银色轿车和白色SUV依次驶离停车位并汇入车流，左侧停放多辆私家车，未见行人或障碍物。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "前方红色轿车减速，自车保持跟车距离；一辆银色宝马轿车从左侧车道加速超车，同时一名女性行人从右侧白色沃尔沃旁步行横穿车道，自车平稳避让其路径。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "自车继续向前行驶，右侧出现多辆皮卡与轿车并排停放，其中一辆深色皮卡启动并缓慢驶离车位，自车与其保持安全横向间距通过。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "前方一辆红色轿车突然左转进入路边停车位，自车减速并调整路线避让；右侧人行道上出现两名行人，正走向远处商铺入口，未与车流交叉。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车接近路口，前方停有一辆白色厢式货车，右侧人行道上有戴口罩的行人经过，自车在黄线区域减速准备停车，无其他车辆或行人干扰路径。"
+    }
+  ]
+}

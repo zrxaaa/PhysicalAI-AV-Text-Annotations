@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.79,
+    "analysis_time": "2026-01-21 22:54:03"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】大雾天气，能见度显著降低，天空灰白，路面湿滑。【自车】位于最右侧车道，沿弯道向左转向行驶，车头偏航角持续向左调整。【左侧】路肩处有绿色灌木丛和枯树，远处可见停放的车辆及建筑轮廓。【交通设施】左侧出现“EXIT 101”指示牌，提示前方为高速公路出口。【关键风险】因雾气遮挡，左侧视野受限，存在未识别障碍物或行人突然出现的风险（Occlusion Risk）。",
+      "risk_tags": [
+        "heavy_fog",
+        "occlusion_risk",
+        "limited_visibility"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】雾气稍散，阳光从右上方照射，形成强逆光眩光，部分区域出现镜头光晕。【自车】保持在中间车道，匀速沿道路曲线前行，未进行变道。【前方】一辆白色皮卡在左前方邻车道同向行驶，距离约30米，无加速或减速迹象。【右侧】路边有低矮灌木与土坡，远处可见高架桥结构。【交通设施】前方出现红绿灯杆与“STOP HERE ON RED”标志，但信号灯未亮。【关键风险】强逆光导致后视镜与前挡风玻璃反光干扰视线，可能影响对侧车流判断；高架桥下方阴影区易形成视觉盲区。",
+      "risk_tags": [
+        "strong_backlight",
+        "visual_haze",
+        "bridge_shadow_blindspot"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "【环境】进入高架桥下，光照骤暗，雾气仍浓，能见度进一步下降。【自车】由中间车道切入右侧车道，准备驶入桥洞下方主干道。【前方】一辆深色SUV在正前方车道行驶，尾灯亮起，表明其正在减速。【右侧】桥墩结构清晰，无施工或异常物体。【交通设施】桥上悬挂绿色路牌：“De La Cruz Blvd, Trimble Road, JUNCTION 67 SOUTH”，指示前方为高速交汇点。【关键风险】自车在低能见度环境下变道，且前方车辆刹车，存在追尾风险；桥洞内光线突变易引发视觉适应延迟。",
+      "risk_tags": [
+        "lane_change_in_low_visibility",
+        "following_vehicle_braking",
+        "light_transition_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】驶出桥洞，阳光重新强烈照射，形成耀眼眩光，雾气略有消散但仍存。【自车】在中间车道保持匀速直行，车头方向稳定。【前方】多辆轿车在同向车道行驶，包括一辆银色SUV与一辆黑色轿车，均保持安全距离。【左侧】对向车道有车辆驶过，未见违规行为。【右侧】路边有成排松树与低矮围栏，无行人或动物活动。【交通设施】无明显路标或信号装置，道路为多车道直线段。【关键风险】强光直射导致摄像头动态范围饱和，可能丢失近距障碍物信息；虽无直接威胁，但长期强光暴露可能诱发驾驶员疲劳或误判。",
+      "risk_tags": [
+        "sun_glare",
+        "camera_overexposure",
+        "driver_cognitive_load"
+      ]
+    }
+  ]
+}

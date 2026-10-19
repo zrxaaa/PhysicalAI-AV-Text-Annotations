@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 02:24:20",
+    "processing_time_seconds": 12.48
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车沿双向四车道道路平稳行驶，右侧车道有一辆银色轿车与自车并行，随后向右变道；左侧对向车道有车辆驶来，路边停有多辆汽车，路旁有树木和住宅区，天气阴沉但无雨，路面干燥。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "前方出现十字路口，路面标有“STOP”字样，两侧设有红色停车标志牌；自车减速接近路口，对向车道有车辆在停止线前等待，右侧人行横道附近有行人站立，准备过街。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "自车在斑马线前完全停下，等待交通信号或行人通行；右侧一辆白色轿车从路边驶出并左转进入支路，同时左侧对向车道有车辆启动通过路口，自车保持静止状态。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "自车在路口等待后重新启动，继续沿原方向行驶；右侧路边停放多辆私家车，左侧对向车道有车辆驶离交叉口，道路中央隔离设施清晰可见，无行人活动。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车持续匀速行驶，前方道路开阔，两侧绿化良好，远处可见高大树木；右侧车道有蓝色小型车缓慢行驶，未发生变道或超车行为，整体交通流畅，无突发状况。"
+    }
+  ]
+}

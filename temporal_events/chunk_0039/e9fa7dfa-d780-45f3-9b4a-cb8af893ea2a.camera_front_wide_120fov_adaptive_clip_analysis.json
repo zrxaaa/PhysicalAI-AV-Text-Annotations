@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.84,
+    "analysis_time": "2026-01-21 21:53:27"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】夜间暴雨天气，路面严重积水，雨滴附着于挡风玻璃形成大面积水膜与光晕干扰，能见度显著降低。【自车】位于中间车道，匀速沿道路前行，未进行变道或转向。【前方】一辆白色轿车在左前方邻车道行驶，尾灯亮起，保持稳定车距。【交通设施】道路两侧路灯照明，远处可见红绿灯信号，当前为绿灯。【关键风险】挡风玻璃水渍导致视觉模糊，存在视线遮挡风险；前方车辆刹车灯频繁闪烁，提示其可能减速，但因雨水反射与光晕干扰，难以精确判断其制动距离。",
+      "risk_tags": [
+        "heavy_rain",
+        "reduced_visibility",
+        "braking_vehicle_uncertainty"
+      ]
+    },
+    {
+      "time_segment": "00:00:06-00:00:12",
+      "scene_description": "【环境】暴雨持续，路面反光加剧，部分灯光因水雾产生彩色光斑（红/绿色散射）。【自车】继续在中间车道匀速前进，通过人行横道区域，地面标有“SCHOOL”字样，提示学校路段限速。【右侧】出现黄色警示牌（行人过街标志），并伴随路肩护栏。【前方】多组交通信号灯显示绿色，无明显障碍物。【关键风险】由于强光散射与水膜干扰，左侧对向车道的红色尾灯呈现不规则星芒状，易造成误判；同时，前方路口处有车辆突然加速切入，存在潜在切出风险。",
+      "risk_tags": [
+        "light_scattering",
+        "signal_confusion",
+        "cut_out_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雨势略有减弱，但仍持续，挡风玻璃水珠分布不均，部分区域形成流动水痕。【自车】保持中间车道匀速行驶，车头方向随道路微弯自然调整，未实施主动转向。【右侧】出现限速45的路面标识及路边围栏，后方有住宅区轮廓。【前方】道路延伸至远方，路灯间距均匀，无突发障碍物。【关键风险】无明显违规行为或高危交互；但因长时间在湿滑路面行驶，轮胎抓地力下降，存在打滑隐患；此外，挡风玻璃上残留水痕影响视线稳定性，属于长期低风险驾驶场景。",
+      "risk_tags": [
+        "wet_road_surface",
+        "long_term_visual_degradation"
+      ]
+    }
+  ]
+}

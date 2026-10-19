@@ -1,0 +1,49 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 18.2,
+    "analysis_time": "2026-01-21 20:28:28"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】晴天，能见度良好，无降水或遮挡。【自车】位于中间车道，沿陡峭上坡路匀速行驶，车头朝向道路中心线，未进行转向或变道。【左侧】多辆私家车（含银色奥迪、白色丰田、灰色本田）沿路边静态停放，部分车辆停在坡道上，存在轻微溜车风险。【右侧】一辆蓝色起亚Soul斜停于路边，车身部分侵入行车道；后方有黑色轿车和灰色小型车依次停放。【交通设施】道路两侧设有“PREVENT RUNAWAY VEHICLE”警示牌，提示坡道防溜措施。【关键风险】右侧蓝色Soul车体侵占车道，若自车未减速可能引发剐蹭；坡道停车车辆存在潜在溜车风险，需警惕‘开门杀’或突然启动。",
+      "risk_tags": [
+        "vehicle_obstruction",
+        "runaway_vehicle_risk",
+        "narrow_lane_clearance"
+      ]
+    },
+    {
+      "time_segment": "00:00:06-00:00:09",
+      "scene_description": "【环境】晴朗，阳光从右上方照射，局部产生眩光。【自车】继续沿坡道向上行驶，接近路口时减速准备停车。【前方】路面出现“STOP”字样及红色八角形停车标志，位于交叉口中央。【左侧】一辆白色皮卡与一辆白色Jeep SUV并排停靠，其中Jeep车顶装有行李架。【右侧】一名行人（穿红裤、背绿色背包）站在人行道边缘，面向自车方向，双手插兜，未移动。【交通设施】路口设有多组交通灯杆、路灯及“ALL-WAY STOP”标牌，提示四向停车。【关键风险】行人站立位置紧邻车道，若突然横穿将进入自车盲区；停车标志与路面标线重合，易造成自车误判为可通行，需严格遵守停车规则。",
+      "risk_tags": [
+        "pedestrian_proximity",
+        "intersection_confusion",
+        "light_glare"
+      ]
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "【环境】视野开阔，远处山丘与城市建筑群清晰可见，天空有飞机尾迹。【自车】在路口处完全停车，等待横向车流通过。【左侧】一栋维多利亚风格灰白房屋矗立于街角，门前有台阶与树木；其旁一辆红色SUV正从左向右横穿路口。【右侧】棕榈树下停有一辆黑色SUV，两名行人正在车旁交谈，其中一人手持购物袋。【交通设施】路口设有斑马线、黄色“SPEED HUMPS AHEAD”警示牌及“YIELD”让行标志。【关键风险】红色SUV横穿路口时未礼让直行自车，存在“闯红灯”或“未让行”嫌疑；右侧行人与车辆距离过近，若突然打开车门或移动，可能引发“开门杀”事故。",
+      "risk_tags": [
+        "crossing_vehicle_violation",
+        "door_opening_risk",
+        "pedestrian_group_interaction"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】光线柔和，无明显遮挡或天气异常。【自车】完成路口等待后，起步沿下坡路行驶，车速平稳。【前方】道路延伸至下方街区，可见多层住宅楼与绿化带；对向车道有数辆汽车驶来，包括一辆深蓝色轿车与一辆银色SUV。【左侧】一栋橙色砖墙建筑前停有两辆私家车，其中一辆为蓝色轿车，车头朝向自车方向。【右侧】一棵枝叶茂密的大树遮挡部分视线，树后为浅绿色外墙住宅，门前有矮墙围栏。【交通设施】路口后方设有“SPEED HUMPS AHEAD”黄色警示牌，提醒前方有减速带。【关键风险】右侧大树遮挡视线，可能导致突发障碍物（如行人、动物）或车辆突然出现；下坡路段需注意制动性能，避免因长坡导致刹车失灵。",
+      "risk_tags": [
+        "occlusion_by_vegetation",
+        "downhill_braking_risk",
+        "blind_spot_crossing"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 07:09:13",
+    "processing_time_seconds": 13.03
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "夜间行车，自车沿直道行驶，前方路口红灯亮起，左侧车道有黑色SUV加速变道至中间车道，与自车路径交叉，距离较近。右侧路边有树木和路灯，路面标线清晰可见。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "自车接近十字路口，左侧黑色SUV完成变道并驶离，同时一辆大型卡车从对向车道驶入路口左转车道，准备左转。右侧人行横道前停有一辆白色轿车，等待信号灯。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:17",
+      "scene_description": "自车在路口停车等待，红灯持续亮起，对向左转卡车缓慢通过路口，右侧白色轿车保持静止。远处可见其他车辆在路口远端等待，交通信号灯未变化，环境光线稳定。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "信号灯由红灯转为绿灯，自车所在车道的交通信号变为通行状态，右侧交通灯也同步转绿，对向左转卡车开始启动，自车准备起步前行。"
+    }
+  ]
+}

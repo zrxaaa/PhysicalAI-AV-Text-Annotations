@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 01:16:17",
+    "processing_time_seconds": 19.1
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车停在十字路口前，前方交通信号灯为红灯，左侧车道有黑色SUV正在左转，右侧人行道上有行人牵狗等待过街，道路两侧绿树成荫，天气晴朗，路面干燥无湿滑迹象。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "信号灯转绿，自车开始向前行驶，前方多辆汽车同时启动通过交叉口，右侧红色轿车和白色轿车在右转车道等待后驶离，行人仍停留在人行横道旁未移动，自车平稳加速进入直行车道。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "自车继续沿Leary Way直行，前方路口信号灯已变为红灯，对向车道车辆停止，自车减速并最终在停车线前停下，右侧路边出现一辆小型货车从停车场驶出准备右转。"
+    },
+    {
+      "time_segment": "00:00:12-00:00:16",
+      "scene_description": "信号灯转绿，自车再次启动沿道路直行，左侧出现一个带左转箭头的地面标线，提示可左转，远处可见另一辆深色皮卡车从对向车道驶来，自车保持当前车道匀速前进。"
+    },
+    {
+      "time_segment": "00:00:16-00:00:19",
+      "scene_description": "自车接近下一个路口，前方设有交通信号灯和人行横道，道路两侧绿化良好，无行人或障碍物干扰，自车维持稳定速度，准备在下一个路口根据信号灯进一步决策。"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.4,
+    "analysis_time": "2026-01-24 14:58:30"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】阴天，天空灰白，无明显降水，能见度良好。【自车】位于中间车道，匀速沿直道行驶，未进行转向或变道。【左侧】多辆轿车与货车沿左侧行驶，其中一辆银色丰田普锐斯从左前方切入至自车正前方车道，完成切出动作。【右侧】停有一排白色厢式货车，包括印有“MM”标志的MacDonald Miller服务车，车身静止，未移动。【交通设施】路口设有斑马线、交通信号灯（当前为绿灯），路旁有“COWGIRLS INC. American Saloon”店铺招牌及人行道灯柱。",
+      "risk_tags": []
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】天气持续阴沉，无降水，路面干燥。【自车】保持在中间车道，匀速前行，车头朝向道路延伸方向。【左侧】一辆大型水泥搅拌车从对向车道驶来，正在执行左转，车身横跨两条车道，其后方跟随一辆黑色SUV。【右侧】人行道旁有黄色消防栓、绿化带及施工围挡，围挡上标有“RIGHT LANE MUST TURN RIGHT”提示牌。【交通设施】前方路口设有红绿灯，当前为红灯状态，自车在停止线前减速停车。【非标准物体】水泥搅拌车作业状态正常，无异常部件伸出，但车身宽大，存在视觉遮挡风险。",
+      "risk_tags": [
+        "vehicle_obstruction",
+        "large_vehicle_crossing"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:12",
+      "scene_description": "【环境】阴云密布，光线均匀，无强逆光或眩光。【自车】处于路口停止线后，等待红灯。【前方】多个方向车辆同时通行：左转车道有银色轿车与黑色SUV依次通过；右转车道有红色皮卡和白色轿车完成右转。【左侧远处】可见港口起重机群，背景中有多层集装箱堆叠，显示该区域临近工业港区。【交通设施】路口设有“PRIORITY REVISION AHEAD”警示牌，提示前方可能有道路调整。【关键风险】多车交叉通行，部分车辆未严格遵守转向优先规则，存在潜在碰撞风险；尤其是一辆银色轿车在左转时未充分观察右侧直行车辆，有切入自车前方车道趋势。",
+      "risk_tags": [
+        "multi_lane_conflict",
+        "improper_turning_priority",
+        "port_area_traffic_complexity"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】持续阴天，无降水，能见度稳定。【自车】仍保持在停止线后，未启动。【左侧】一辆米色小型SUV从左前方车道切入至自车正前方，完成切出动作，随后向左转弯驶离路口。【右侧】一辆深灰色SUV从右前方车道切入至自车右侧车道，完成切出，随后直行通过路口。【后方】一辆白色SUV从后方接近，因距离较远且未进入50米影响半径，暂不构成直接威胁。【交通设施】路口信号灯仍为红灯，右侧人行横道清晰可见，路边有自行车道标识。【非标准物体】无特种车辆作业，无动物或遗撒物出现。【关键风险】多车在交叉口内频繁切入/切出，存在“加塞”行为（如米色SUV与深灰色SUV），虽未造成事故，但增加了决策复杂度，需提升自车感知系统的动态预测能力。",
+      "risk_tags": [
+        "cut_in_behavior",
+        "lane_changing_complexity",
+        "high_interference_traffic"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 07:01:16",
+    "processing_time_seconds": 16.79
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车沿双向车道平稳行驶，左侧停有一辆拖挂白色房车的皮卡，右侧有黑色轿车驶离路边。前方出现铁路道口，设有‘DO NOT STOP ON TRACKS’警示牌与红灯闪烁信号装置，自车减速准备停车等待。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "铁路道口栏杆升起，自车通过道口后继续直行，道路两侧可见棕榈树与落叶乔木，右侧人行横道标志提示行人过街。一名行人从右侧人行道进入路口，但未横穿车道，自车保持匀速通过该区域。"
+    },
+    {
+      "time_segment": "00:00:08-00:00:13",
+      "scene_description": "自车进入居民区街道，道路两侧停放多辆私家车，部分车辆在路边启动或驶离。左侧有房屋前院围栏和树木，右侧为低矮建筑与围墙。无显著行人或动态障碍物干扰自车路径。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车继续沿直线车道行驶，右侧出现一辆白色工程货车停靠路边，车门打开，两名工人在车旁作业。自车保持安全距离绕行，未发生变道或减速。左侧有车辆缓慢驶入停车位。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车接近视频终点，道路两侧仍以住宅为主，车辆停放密集。右侧一辆深色SUV从路边驶出并加速超车，与自车形成短暂并行，随后驶离视野。自车维持原速，无其他交互行为。"
+    }
+  ]
+}

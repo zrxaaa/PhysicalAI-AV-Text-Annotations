@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 13.13,
+    "analysis_time": "2026-01-24 12:30:57"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:08",
+      "scene_description": "【环境】晴朗天气，无降水或遮挡，能见度良好；路面干燥，阳光直射导致部分区域出现轻微眩光。【自车】位于中间车道，初始静止于十字路口等待，随后启动并沿道路线性前行。【左侧】一辆银色小型轿车（Toyota Yaris）从左转车道驶出，完成左转动作，横穿自车所在直行车道，切入至自车前方右侧位置，运动状态为加速通过，交互意图明确为横向穿越。【右侧】无显著动态障碍物，但可见多辆静止停放车辆及人行道围栏。【交通设施】路口设有橙色施工警示牌，提示前方有作业区域；路面上方可见“PED”字样标线，提示行人优先区域。【关键风险】银色轿车在未确保安全的情况下强行切入直行车道，构成“违规横穿”与“Aggressive Cut-in”，对自车形成潜在碰撞威胁，需紧急避让或制动。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "ped_crossing_zone_violation",
+        "intersection_conflict"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:14",
+      "scene_description": "【环境】持续晴天，光照稳定，无遮挡或天气突变。【自车】保持在中间车道匀速沿道行驶，车头偏航角随道路微弯调整，未发生转向或变道。【左侧】一排住宅区前停放多辆私家车（包括黑色SUV、银色轿车），部分车辆停放在路边停车位内，无移动迹象。【右侧】同样有连续停放车辆，其中一辆白色SUV缓慢向前滑动，疑似驾驶员准备启动，但未完全进入行车道。【交通设施】路面标有“PED XING”字样，提示前方为人行横道；远处可见黄色菱形行人警示标志。【非标准物体】无特种车辆、动物或遗撒物。【关键风险】右侧白色SUV存在“开门杀”风险（虽未开门，但其缓慢移动可能预示即将启动），且其位置紧邻自车行驶路径，若突然启动将造成横向冲突。此外，人行横道区域无行人，但警示标志提示需提高警觉。",
+      "risk_tags": [
+        "potential_open_door_risk",
+        "slow-moving_vehicle_near_lane",
+        "pedestrian_crossing_zone_warning"
+      ]
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "【环境】天气依旧晴好，阳光充足，无云层遮挡。【自车】继续在中间车道匀速前进，道路呈缓弯趋势，自车随曲率自然行驶，未进行主动转向。【前方】一辆白色厢式货车（Ford Transit）在右侧车道缓慢行驶，车速低于自车，未超车也未变道，处于“跟车”状态。【左侧】一栋红砖联排住宅旁，有一名行人站立于人行道边缘，面向街道，双手插兜，头部朝向自车方向，无明显移动意图。【交通设施】路面标线清晰，“XING”字样重复出现，提示连续人行横道区域；远处可见两个黄色行人警示牌，间距约50米。【关键风险】行人虽未移动，但其站立位置靠近车道交界处，存在“鬼探头”隐患（如突然闯入车道）；同时，白色货车因速度慢且未靠边，可能影响后方车辆通行效率，形成潜在拥堵或追尾风险。",
+      "risk_tags": [
+        "ghost_probe_potential",
+        "slow_traffic_obstruction",
+        "pedestrian_standing_at_edge_of_lane"
+      ]
+    }
+  ]
+}

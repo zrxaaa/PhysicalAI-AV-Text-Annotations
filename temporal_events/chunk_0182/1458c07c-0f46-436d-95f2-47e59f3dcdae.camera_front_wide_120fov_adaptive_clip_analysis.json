@@ -1,0 +1,41 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 10.97,
+    "analysis_time": "2026-01-24 08:33:03"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】阴天，路面湿滑，路肩及轨道区域有积雪覆盖，能见度中等。【自车】位于中间车道，沿直道匀速行驶，未进行转向或变道。【前方车辆】一辆白色SUV（车牌被模糊处理）在正前方车道行驶；左侧车道有一辆白色厢式货车（车身印有“STAWOROWSKI”字样）正在超车并切入自车所在车道，其左转向灯未亮起，存在潜在违规切线风险。【交通设施】右侧设有蓝色三向箭头指示牌、红色倒三角让行标志及广告牌，道路标线清晰可见。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "wet_road",
+        "poor_visibility"
+      ]
+    },
+    {
+      "time_segment": "00:00:04-00:00:08",
+      "scene_description": "【环境】持续阴天，无明显降水，但地面仍有薄雪残留，部分路段湿滑。【自车】保持在中间车道，因前方路口红灯即将亮起而开始减速。【周围车辆】左侧车道一辆深灰色SUV从后方加速超越自车；右前方一辆白色厢式货车（印有“LIEBHERR”字样）在自车左前方完成变道，进入最左侧车道；右侧车道一辆红色奔驰轿跑车（梅赛德斯-AMG GLC Coupe）在自车左前方稳定行驶。【交通设施】前方路口信号灯由绿转黄，随后变为红灯，右侧设有“TAXI VÁRNA”公交站牌及“JAVORINA 1100m”方向指示牌。",
+      "risk_tags": [
+        "braking_required",
+        "signal_light_change",
+        "multi_lane_traffic"
+      ]
+    },
+    {
+      "time_segment": "00:00:08-00:00:19",
+      "scene_description": "【环境】天空灰暗，无降水，但路肩积雪未融化，部分轨道区域有融雪水迹，路面摩擦系数降低。【自车】已完全停止于红灯前，位于中间车道，刹车灯常亮。【前方车辆】正前方白色铃木SUV（车牌被模糊处理）静止等待，尾灯亮起；其左侧为一辆白色SUV，再左侧为红色奔驰轿跑车，三车均处于停车队列中。【右侧区域】轨道旁有积雪覆盖，无行人或动物活动迹象；远处可见施工塔吊及多栋现代建筑。【关键风险】自车与前方车辆间距极近（约2-3米），若前车突然启动或误操作可能导致追尾；同时，左侧红色奔驰轿跑车在停车状态下仍保持较高速度趋势，存在轻微加塞倾向，虽未实际切入，但构成潜在博弈行为。此外，右侧轨道区域无任何警示标识，若遇电车通行需注意盲区。",
+      "risk_tags": [
+        "rear_end_collision_risk",
+        "near_miss_potential",
+        "low_friction_surface",
+        "traffic_jam_stall"
+      ]
+    }
+  ]
+}

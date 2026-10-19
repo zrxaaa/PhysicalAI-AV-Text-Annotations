@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 03:08:15",
+    "processing_time_seconds": 15.28
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车沿双向两车道道路直行，左侧车道有一辆白色SUV从后方加速并入中间车道，右侧为住宅区围栏与行道树，天气晴朗，路面干燥无积水。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "前方出现弯道，一辆白色特斯拉从对向车道驶来，随后一辆深色SUV在左侧车道超车，自车保持当前车道匀速行驶，路边有高压电塔和稀疏落叶树木。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:14",
+      "scene_description": "多辆汽车在前方排队缓行，包括一辆银色轿车、一辆黑色SUV及一辆灰色跑车，自车跟随车队减速，道路右侧出现护栏与行人警示标志，远处可见交通信号灯杆。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:17",
+      "scene_description": "车辆接近十字路口，交通信号灯显示绿灯，一辆白色厢式货车停在路口左侧待转，自车平稳通过交叉口，路旁有电线杆与林地，天空略显阴沉。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "通过路口后，自车继续沿直线道路行驶，前方无显著障碍物，右侧护栏外为开阔林地，左侧有房屋与灌木丛，整体环境安静，无行人或突发交通事件。"
+    }
+  ]
+}

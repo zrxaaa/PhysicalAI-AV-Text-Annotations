@@ -1,0 +1,46 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 15.03,
+    "analysis_time": "2026-01-21 23:30:14"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】晴天，阳光从右上方照射，无明显遮挡或天气异常。【自车】位于中间车道，匀速沿直道前行，未进行转向或变道。【左侧】人行道上有行人牵狗行走，狗为深色，体型中等，正朝自车方向缓慢移动；行人着深色外套、浅色裤子，面向前方步行，无横穿意图。【右侧】路边停放多辆私家车，包括一辆白色SUV。【交通设施】前方路口设有交通信号灯，当前为绿灯，路侧有“Little Raven St”路牌。【关键风险】行人与狗在自车前方约20米处，虽未进入车道，但若突然加速横穿将构成碰撞风险。",
+      "risk_tags": [
+        "pedestrian_crossing_risk",
+        "animal_nearby"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:09",
+      "scene_description": "【环境】强逆光开始出现，太阳位于画面右上角，造成部分区域眩光。【自车】保持中间车道匀速行驶，通过十字路口。【左侧】一名行人正在斑马线上横穿马路，身穿灰色上衣和深色裤子，背对自车，步速平稳，已完成过半行程。【右侧】一辆蓝色SUV由远及近驶入交叉口，随后左转；其后方有一辆银色轿车跟随。【交通设施】路口信号灯仍为绿灯，路标清晰显示“Little Raven St”。【关键风险】行人横穿路径与自车行驶轨迹交叉，虽在安全距离内，但需警惕其突然减速或停顿导致自车紧急制动。",
+      "risk_tags": [
+        "crossing_pedestrian",
+        "signal_light_interaction"
+      ]
+    },
+    {
+      "time_segment": "00:00:09-00:00:13",
+      "scene_description": "【环境】阳光强烈，路面反射明显，形成眩光干扰。【自车】继续在中间车道匀速前进，未发生转向或变道。【右侧】路边停放多辆车辆，包括一辆U-Haul货运卡车（车身印有“Trucks, Trailers, Self-Storage & More”字样），静止状态，未作业；其后方为一辆黑色皮卡和一辆银色SUV。【左侧】远处可见一座桥梁结构，桥下道路延伸。【非标物体】U-Haul卡车车身侧面贴有“Fuel Saver Chassis Skirts”广告，无作业动作，属静态停放。【关键风险】右侧停车带存在“开门杀”风险，尤其当后方车辆接近时，若有人突然打开车门可能影响自车通行。",
+      "risk_tags": [
+        "parked_vehicle_door_risk",
+        "strong_sunlight_obstruction"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】阳光持续强烈，自车进入桥下通道前的缓坡路段，两侧为混凝土护栏与建筑墙体，视野逐渐收窄。【自车】保持中间车道匀速行驶，沿道路曲率自然前行，未转向。【左侧】对向车道有少量车辆驶来，包括一辆深色SUV，速度正常。【右侧】高架桥墩与金属护栏形成视觉遮挡，部分区域光线较暗。【交通设施】前方可见一座红色钢桁架桥，桥下为双向车道，路面标线清晰。【关键风险】桥下区域光照不均，存在视觉盲区；右侧护栏后方可能隐藏行人或非机动车，自车需保持警惕以防“鬼探头”事件。",
+      "risk_tags": [
+        "bridge_shadow_zone",
+        "occlusion_risk",
+        "visual_blind_spot"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 12.62,
+    "analysis_time": "2026-01-23 13:09:14"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:02",
+      "scene_description": "【环境】夜间行车，无路灯照明，仅靠车灯照亮前方路面。天空阴沉，能见度低。【自车】在中间车道匀速行驶，车头正对道路中心线。【左侧】一栋标有“PFEFFERSBURG”的建筑旁，一辆深色SUV从左侧驶过，与自车同向，完成超车动作。【交通设施】右侧路边设有红色施工围挡及警示标志，后方可见限速70的圆形交通标志牌。【关键风险】施工区域未设明显安全锥桶或警示灯光，存在潜在作业区遮挡视线风险。",
+      "risk_tags": [
+        "construction_zone_undesignated",
+        "crossing_vehicle"
+      ]
+    },
+    {
+      "time_segment": "00:00:02-00:00:10",
+      "scene_description": "【环境】道路两侧为浓密树林，无任何人工光源，视野受限。路面为双车道柏油路，白色虚实分道线清晰。【自车】保持在中间车道匀速直线行驶，未进行转向或变道。【周围】无其他车辆或行人出现，道路空旷。【交通设施】右侧路肩设有连续白色反光柱，用于界定车道边界；远处可见一个模糊的红白相间圆形限速标志（70）。【关键风险】道路两侧植被茂密，形成视觉盲区，且无任何主动照明设施，若突然出现动物或行人，自车反应时间极短。",
+      "risk_tags": [
+        "low_visibility",
+        "no_lighting_infrastructure",
+        "blind_spot_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:19",
+      "scene_description": "【环境】持续夜间黑暗环境，天空云层较厚，偶有微弱星光透出。【自车】维持当前车道匀速沿弯曲道路前行，车头随路面曲率自然调整方向，未发生转向或紧急制动。【前方】远处可见一束明亮车灯，正迎面驶来，逐渐接近但尚未进入近距范围。【右侧】路肩为碎石铺装，边缘有低矮铁丝网围栏，围栏外为草地和灌木丛。【非标准物体】右侧围栏内草丛中未发现动物或行人活动迹象。【关键风险】迎面来车在黑暗中亮度高，可能造成眩目，影响自车驾驶员判断；同时，因道路两侧无照明，若遇突发障碍物（如倒伏树枝、遗撒物），自车需依赖车灯极限探测，存在碰撞风险。",
+      "risk_tags": [
+        "headlight_glare",
+        "obstacle_detection_limit",
+        "curved_road_blindness"
+      ]
+    }
+  ]
+}

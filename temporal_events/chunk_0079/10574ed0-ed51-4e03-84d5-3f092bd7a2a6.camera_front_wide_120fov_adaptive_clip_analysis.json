@@ -1,0 +1,43 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:00-00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.02,
+    "analysis_time": "2026-01-22 15:31:37"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】夜间暴雨，能见度低，路面积水严重，雨水在车灯照射下形成强烈反光。【自车】位于中间车道，匀速沿道行驶，未进行转向或变道。【前方】一辆闪烁红蓝警灯的救护车停于道路中央偏右位置，车尾朝向自车，处于静止状态，未移动。【左侧】多辆私家车沿路边停放，部分车辆被树木枝叶遮挡。【右侧】一栋红砖建筑旁有商铺亮灯，人行道上有行人模糊身影，但无明确横穿意图。【关键风险】救护车虽静止，但其警示灯在雨雾中造成视觉干扰，且前方路口交通信号灯为绿灯，自车需警惕其突然启动或横向移动；同时，左侧停放车辆可能因积水溅起水雾，影响视线。",
+      "risk_tags": [
+        "heavy_rain",
+        "visual_interference",
+        "stationary_emergency_vehicle",
+        "reduced_visibility"
+      ]
+    },
+    {
+      "time_segment": "00:00:07-00:00:12",
+      "scene_description": "【环境】雨势略有减弱，但仍持续，路面湿滑，能见度仍受雾气影响。【自车】保持中间车道匀速前行，通过十字路口时减速至停车线前等待。【前方】救护车仍在原位，未移动，但其后方出现另一辆白色救护车（或急救车）正从右侧车道驶入，车头朝向自车方向，正在缓慢切入当前车道。【左侧】一座大型砖砌教堂建筑轮廓清晰，其前方有临时施工围挡和橙色锥桶，围挡内有蓝色防尘布覆盖区域。【右侧】一家名为“Pretty Deli”的店铺门前有行人站立，无明显移动趋势。【关键风险】右侧新出现的救护车存在切向自车车道的风险（Cut-in），且其车身较高，可能遮挡自车驾驶员对后方路况的观察；施工围挡区域存在潜在障碍物，需注意避让。",
+      "risk_tags": [
+        "cut_in_risk",
+        "construction_zone_obstacle",
+        "partial_occlusion",
+        "emergency_vehicle_approach"
+      ]
+    },
+    {
+      "time_segment": "00:00:13-00:00:19",
+      "scene_description": "【环境】雨势进一步减小，开始转为细雪或雨夹雪，空中可见飘落的雪花颗粒，路面仍有积水反光。【自车】在中间车道继续匀速前进，接近前方红灯路口。【左侧】一座高耸塔楼式教堂建筑清晰可见，其前方悬挂着节日彩灯串（星形图案），灯光在雨雪中闪烁。【右侧】一辆黄色“Tropicana”品牌货车停靠在路边，车身侧面印有“ready to shine”字样，车头朝向与自车同向，处于静止状态。【前方】第二辆救护车已完全进入当前车道，位于自车正前方约30米处，车尾灯持续闪烁，未显示任何转向或加速迹象。【非标物体】远处街道上方悬挂着一排红色与白色相间的节日灯饰，呈波浪状延伸，部分灯光因雨雪而模糊。【关键风险】自车即将进入红灯路口，前方救护车静止不动，但其位置紧邻车道中心线，若其突然启动或转向，将构成直接碰撞威胁；此外，右侧货车虽静止，但车身宽度大，若自车试图绕行，需谨慎评估横向空间；空中飘雪导致视野边缘模糊，增加“鬼探头”风险。",
+      "risk_tags": [
+        "red_light_approach",
+        "emergency_vehicle_blocking_lane",
+        "weather-induced_blur",
+        "obstacle_lateral_clearance_concern"
+      ]
+    }
+  ]
+}

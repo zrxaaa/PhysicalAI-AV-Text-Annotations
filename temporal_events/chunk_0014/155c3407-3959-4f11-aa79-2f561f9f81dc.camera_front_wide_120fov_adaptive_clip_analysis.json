@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:20",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 04:17:06",
+    "processing_time_seconds": 12.8
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "道路两侧为多层住宅与商业建筑，电线杆和树木沿街分布，未见行人或动态交通参与者，自车保持匀速直行，无转向或减速行为。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "前方路口有停车标志但无红绿灯，右侧人行道上有行人站立，未进入车道，自车在接近路口时未减速，保持原有速度通过该区域。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "一辆银色SUV从对向车道驶入路口，与行人交叉通行，同时一辆UPS快递车在左侧路口转弯，自车保持静止等待行人完全通过后才准备启动。"
+    },
+    {
+      "time_segment": "00:00:15-00:00:20",
+      "scene_description": "道路右侧商铺前有少量行人驻足，无其他车辆进入自车路径，天气持续晴好，阳光照射下路面反光明显，自车保持低速平稳通过路口区域。"
+    }
+  ]
+}

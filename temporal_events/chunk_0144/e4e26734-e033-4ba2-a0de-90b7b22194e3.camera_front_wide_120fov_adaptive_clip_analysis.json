@@ -1,0 +1,39 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.72,
+    "analysis_time": "2026-01-23 19:21:45"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:06",
+      "scene_description": "【环境】晴天，阳光强烈，存在轻微眩光。【自车】位于中间车道，匀速沿直道行驶。【右侧】人行横道处有三名行人（两女一男）正在过街，其中两名女性身着长裙，面向自车方向行走，步态自然；男性穿短裤，手持手机，未观察路况。【交通设施】右侧路口红绿灯由红转绿，行人通行信号已激活。【关键风险】行人未在斑马线内完成横穿即停止，导致后方车辆需减速避让，存在“行人滞留”引发的潜在碰撞风险。",
+      "risk_tags": [
+        "pedestrian_stall",
+        "crossing_delay",
+        "signal_interaction"
+      ]
+    },
+    {
+      "time_segment": "00:00:06-00:00:11",
+      "scene_description": "【环境】晴朗，建筑阴影投射于路面，形成明暗交替区域。【自车】保持中间车道匀速前行，通过十字路口后进入直道。【左侧】一名穿深色T恤、短裤的男性从街角走出，向自车左前方横穿马路，未观察来车，动作突然。【右侧】餐厅门口有顾客站立，部分遮挡视线。【非标物体】无动物或施工车辆。【关键风险】该行人横穿路径与自车行驶轨迹交叉，且其未做任何避让动作，构成“鬼探头”风险，因自车视角受限，无法提前预判其最终停止位置。",
+      "risk_tags": [
+        "pedestrian_crossing_sudden",
+        "occlusion_risk",
+        "no_lane_change"
+      ]
+    },
+    {
+      "time_segment": "00:00:11-00:00:19",
+      "scene_description": "【环境】阳光充足，道路两侧建筑立面清晰可见，部分店铺卷帘门关闭。【自车】持续在中间车道匀速行驶，道路呈轻微上坡趋势。【左侧】一家名为“TOYAMA”的日式餐厅门前，一名穿白色背心、牛仔裤的女性正朝自车方向走来，手提购物袋，目光注视地面，未抬头观察交通。【右侧】一辆白色小型轿车停靠在路边，车尾朝向自车，未开启转向灯。【交通设施】道路两侧设有禁停标志及人行道标识，无施工围挡。【关键风险】该女性在人行道边缘行走，但未进入安全区域，且未注意来车，存在“越界行走”风险；同时，右侧静止车辆可能因驾驶员开门而引发“开门杀”，虽当前无动作，但属于高潜伏风险点。",
+      "risk_tags": [
+        "pedestrian_edge_walking",
+        "parked_vehicle_open_door_risk"
+      ]
+    }
+  ]
+}

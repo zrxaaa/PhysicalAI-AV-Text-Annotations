@@ -1,0 +1,46 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 16.37,
+    "analysis_time": "2026-01-21 20:50:17"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "【环境】阴天，云层厚重，无明显降水，能见度良好。【自车】位于中间车道，匀速沿直道行驶，接近铁路道口。【右侧】铁路道口栏杆处于升起状态，信号灯为黄灯闪烁，提示“2 Tracks”。【左侧】一辆深色SUV从对向车道驶过，未进入自车所在车道。【交通设施】前方设有“RAILROAD CROSSING”标志牌及警示灯，道路两侧有电线杆与工业建筑（含高耸烟囱）。【关键风险】道口栏杆虽升起，但无列车接近迹象，存在误判风险；右侧施工区域有橙色锥桶围挡，但未见明显作业人员或设备活动。",
+      "risk_tags": [
+        "railroad_crossing_warning",
+        "no_train_presence_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】天空灰暗，无降水，光线均匀。【自车】保持在中间车道，匀速通过铁路道口后继续前行。【右侧】可见大型混凝土桥墩结构，其旁有红色挖掘机静止停放，周围设有多组橙色锥桶与临时围栏。【左侧】一排白色与蓝色高空作业平台（JLG品牌）停放在施工区，部分吊臂伸展，但未作业。【交通设施】前方路口设有双方向交通信号灯，当前显示绿灯，路面标线清晰，包含人行横道与绿色自行车道标识。【关键风险】左侧施工区多台高空作业车吊臂伸出，存在轻微空间侵占风险；右侧挖掘机虽静止，但位置紧邻车道，若突然启动可能影响通行。",
+      "risk_tags": [
+        "construction_vehicle_proximity",
+        "overhead_arm_obstruction_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:11-00:00:14",
+      "scene_description": "【环境】阴天，无降水，视野开阔。【自车】在中间车道减速停车，等待红灯。【前方】交通信号灯由绿灯转为黄灯，随后变为红灯。【左侧】多辆工程车辆（包括皮卡、SUV）排队等候，其中一辆黑色皮卡正从左转车道切入直行车道，未打转向灯。【右侧】施工区仍可见多台高空作业车，部分吊臂已收回，但仍有作业平台悬停于空中。【非标物体】远处可见一名施工人员站在围栏外，手持工具，未穿戴反光背心。【关键风险】左侧车辆强行切线变道（Aggressive Cut-in），且未开启转向灯，对自车形成横向威胁；右侧施工人员靠近车道边缘，存在被车辆剐蹭或误入车道的风险。",
+      "risk_tags": [
+        "aggressive_cut_in",
+        "unmarked_worker_risk",
+        "improper_lane_change"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】阴天，无降水，能见度良好。【自车】在中间车道加速通过红灯路口，驶入下一段直路。【前方】前方有一座高架桥，桥下为隧道式通道，多辆汽车正在通行。【左侧】路边停放多辆工程车与货车，部分车辆带有“U.S. Environmental Protection Agency”标识。【右侧】施工区域持续存在，有数台起重机与卡车静止停放，地面为未铺装砂石路。【交通设施】道路两侧设有路灯与交通指示牌，包括“Zuni St”路牌。【关键风险】高架桥下方隧道入口处存在视线遮挡，若前方车辆急刹，自车需快速反应；右侧施工区域未设置完整隔离带，存在小型动物或行人闯入的潜在风险。",
+      "risk_tags": [
+        "tunnel_entry_obstruction",
+        "construction_zone_occupancy_risk"
+      ]
+    }
+  ]
+}

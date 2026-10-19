@@ -1,0 +1,28 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-17 08:11:53",
+    "processing_time_seconds": 14.75
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "由于雾气遮挡，道路标线仅在近处勉强辨识，车辆保持安全距离缓慢前行，未见明显变道或加速行为，环境条件对驾驶构成显著挑战。"
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "高架桥结构从右侧逐渐移出视野，道路呈轻微左转趋势，无其他车辆或行人进入自车路径，自车维持当前车道和速度，未进行主动避让或超车。"
+    },
+    {
+      "time_segment": "00:00:10-00:00:14",
+      "scene_description": "能见度略有改善，但仍不足以看清远处交通标志，自车未改变行驶策略，未观察到其他车辆切入或减速，整体交通流平稳且稀疏。"
+    },
+    {
+      "time_segment": "00:00:14-00:00:19",
+      "scene_description": "环境持续被浓雾覆盖，路面湿滑迹象不明显，自车未执行转向、制动或加速操作，整个场景呈现静态驾驶状态，无突发交通事件或参与者介入。"
+    }
+  ]
+}

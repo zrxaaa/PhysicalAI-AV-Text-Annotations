@@ -1,0 +1,40 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 17.02,
+    "analysis_time": "2026-01-22 18:01:28"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】夜间，浓雾笼罩，能见度显著降低，路灯与车灯产生明显光晕。路面湿滑，有反光水迹。【自车】位于中间车道，匀速沿直道向前行驶，未进行转向或变道。【左侧】可见加油站（Chevron）及“Seslie's”商店，灯光清晰但被雾气模糊。【右侧】多层砖砌建筑旁停有多辆私家车，路边棕榈树在雾中轮廓不清。【交通设施】前方路口信号灯为红灯，悬挂在道路正上方，横跨多条车道。",
+      "risk_tags": [
+        "low_visibility",
+        "wet_road",
+        "red_light"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:12",
+      "scene_description": "【环境】雾气持续，无明显消散，光照仍受雾影响。【自车】在中间车道保持静止停车状态，等待前方红灯。【前方】路口红灯亮起，横向车道车辆均停止。【右侧】一辆蓝色公交车从右向左驶入交叉口，车身部分遮挡右侧人行道及路牌。【左侧】加油站入口处有车辆进出，但距离较远，未对自车构成直接交互。【交通设施】路口上方悬挂的“Harbor St”路牌清晰可见，右侧“Valencia Pl”路牌亦在视野内。【关键风险】公交车进入交叉口时，其车身遮挡了右侧人行横道区域，存在“鬼探头”风险；同时，远处对向车道有车辆尾灯闪烁，可能意图闯红灯或违规变道，需警惕。",
+      "risk_tags": [
+        "ghost_probe",
+        "red_light_violation_risk",
+        "occlusion_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:12-00:00:19",
+      "scene_description": "【环境】雾气依旧厚重，夜间照明稳定。【自车】保持静止，未移动，车头朝向正前方。【右侧】公交车完成左转动作，驶离交叉口，其后方出现一辆白色轿车，正在右转车道上等待。【左侧】加油站前有车辆缓慢驶出，未进入主干道。【交通设施】红灯持续亮起，路口各方向信号灯均处于红色状态。【非标物体】右侧公交站台附近有行人身影晃动，但因雾气和距离，无法辨识面部朝向或肢体动作，仅能判断其位于人行道边缘，无明显横穿意图。【关键风险】行人位置处于视线盲区（公交车遮挡后），若突然移动将构成“鬼探头”威胁；此外，右侧白色轿车在红灯下长时间停留，存在潜在违规变道或抢行风险。",
+      "risk_tags": [
+        "ghost_probe",
+        "pedestrian_blind_spot",
+        "potential_red_light_violation"
+      ]
+    }
+  ]
+}

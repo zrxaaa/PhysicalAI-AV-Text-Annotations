@@ -1,0 +1,32 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_based_on_action_continuity",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "analysis_time": "2026-01-16 22:48:02",
+    "processing_time_seconds": 16.79
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:04",
+      "scene_description": "自车在十字路口停车等待，前方红灯亮起，右侧一辆深色轿车从右车道驶入交叉口并左转，同时左侧一辆白色SUV正向路口驶来。交通信号灯为红色，路面干燥，天气晴朗。"
+    },
+    {
+      "time_segment": "00:00:04-00:00:09",
+      "scene_description": "信号灯变绿，自车所在车道及对向车道车辆开始通行，右侧黑色特斯拉完成左转并驶离路口，左侧白色SUV直行通过交叉口，同时一辆灰色掀背车从右侧车道切入中间车道。"
+    },
+    {
+      "time_segment": "00:00:09-00:00:13",
+      "scene_description": "自车启动沿Pacheco街直行，路口处的交通灯已转为绿灯，道路两侧停有车辆，左侧出现禁止掉头标志牌，右侧可见加油站和多栋彩色联排住宅。自车平稳加速进入直行车道。"
+    },
+    {
+      "time_segment": "00:00:13-00:00:17",
+      "scene_description": "自车继续沿街道直行，道路两侧排列着色彩各异的联排房屋，路边停放多辆私家车，前方出现限速25英里/小时的学校区域标志牌。无行人或突发障碍物，路况良好。"
+    },
+    {
+      "time_segment": "00:00:17-00:00:19",
+      "scene_description": "自车保持匀速行驶，接近前方路口，道路右侧人行道上有两名行人正在行走，未横穿马路。远处可见山丘轮廓，天空晴朗无云，整体交通环境稳定有序。"
+    }
+  ]
+}

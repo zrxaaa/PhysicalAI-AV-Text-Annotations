@@ -1,0 +1,47 @@
+{
+  "analysis_metadata": {
+    "video_duration": "00:00:19",
+    "segmentation_strategy": "adaptive_action_centric",
+    "focus": "safety_critical_mining",
+    "model_used": "qwen3-vl-flash",
+    "region": "北京",
+    "processing_time_seconds": 14.74,
+    "analysis_time": "2026-01-22 02:48:37"
+  },
+  "timeline_events": [
+    {
+      "time_segment": "00:00:00-00:00:05",
+      "scene_description": "【环境】黄昏时分，天空呈灰紫色，光线柔和但能见度一般，无明显降水或雾气。【自车】位于中间车道，沿直道匀速行驶，接近十字路口。【前方】对向车道有数辆汽车驶来，其中一辆红色轿车在路口左转；右侧人行横道处有行人站立等待。【交通设施】前方为T字路口，设有斑马线与停止线，右侧可见红色停车标志（STOP sign）。【关键风险】左侧对向车辆在未充分确认安全情况下启动左转，存在与自车发生交叉碰撞的潜在风险。",
+      "risk_tags": [
+        "potential_crossing_collision",
+        "left_turn_conflict"
+      ]
+    },
+    {
+      "time_segment": "00:00:05-00:00:10",
+      "scene_description": "【环境】光线持续变暗，街道两侧住宅区灯光尚未开启。【自车】完成左转进入新街道，转入中间车道，保持匀速前进。【左侧】一名身穿浅色上衣、深色裤子的行人推着黄色手推车沿人行道行走，面向自车方向，步速平稳，未横穿马路。【右侧】停有一辆黑色SUV，尾灯亮起，处于静止状态。【交通设施】道路标线清晰，设有“SCHOOL ZONE”字样及减速带提示。【关键风险】行人携带手推车，若突然转向或横穿，可能因视线遮挡引发碰撞；右侧静止车辆未完全靠边，存在轻微开门杀隐患。",
+      "risk_tags": [
+        "pedestrian_with_object",
+        "partial_obstruction",
+        "door_opening_risk"
+      ]
+    },
+    {
+      "time_segment": "00:00:10-00:00:15",
+      "scene_description": "【环境】天色进一步昏暗，路灯尚未点亮，整体照明偏弱。【自车】保持中间车道匀速行驶，随道路微弯前行。【左侧】一名骑自行车者从后方超越自车，骑行方向与自车一致，速度较快，已脱离危险区域。【右侧】多辆私家车停靠于路边，包括一辆银灰色SUV和一辆皮卡，均处于静止状态。【非标物体】路边出现一个黄色菱形警示牌（注意儿童/学校区域），但无实际作业车辆或施工活动。【关键风险】夜间低光照环境下，行人或动物可能突然从路边阴影中出现，需提高警惕；右侧停放车辆占用车道边缘，影响横向避让空间。",
+      "risk_tags": [
+        "low_light_visibility_risk",
+        "sudden_appearance_hazard"
+      ]
+    },
+    {
+      "time_segment": "00:00:15-00:00:19",
+      "scene_description": "【环境】阴天，无降水，路面干燥。【自车】继续沿中间车道行驶，前方出现一辆白色轿车迎面驶来，已完成会车。【右侧】一辆红色自卸卡车正在缓慢倒车，其后斗抬起，车身部分占据右侧车道，司机未开启转向灯。【左侧】一排住宅前停放多辆私家车，部分车辆后备箱打开，疑似装卸物品。【交通设施】道路两侧设有围栏、电线杆及树木，无明显施工或障碍物。【关键风险】红色卡车倒车行为未做警示，且占用部分行车道，存在与自车发生剐蹭或紧急制动的风险；若自车未及时减速或变道，将面临“倒车切入”交互冲突。",
+      "risk_tags": [
+        "reverse_vehicle_cut_in",
+        "unsafe_rearward_movement",
+        "reduced_lateral_clearance"
+      ]
+    }
+  ]
+}
